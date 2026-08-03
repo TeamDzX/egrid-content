@@ -1,0 +1,160 @@
+{
+  "version": 1,
+  "_comment": "Where to watch, by territory. Broadcast rights are sold per country and change between seasons - treat every entry as perishable and re-check each December alongside the calendars. Only list a broadcaster you have verified against a primary source. The app always tells the reader to confirm with local listings, but that is not a licence to guess.",
+  "guides": [
+    {
+      "channelID": "f1",
+      "season": "2026",
+      "regions": [
+        {
+          "code": "GB",
+          "country": "United Kingdom",
+          "entries": [
+            {
+              "name": "Sky Sports F1",
+              "kind": "Live",
+              "note": "Every practice session, qualifying, sprint and race live"
+            },
+            {
+              "name": "Channel 4",
+              "kind": "Free-to-air",
+              "note": "British Grand Prix live, plus highlights of every other race"
+            }
+          ]
+        },
+        {
+          "code": "IE",
+          "country": "Ireland",
+          "entries": [
+            {
+              "name": "Sky Sports F1",
+              "kind": "Live",
+              "note": "Covered by the same rights deal as the UK"
+            }
+          ]
+        },
+        {
+          "code": "US",
+          "country": "United States",
+          "entries": [
+            {
+              "name": "Apple TV",
+              "kind": "Live",
+              "note": "Exclusive US home of Formula 1 from 2026; every Grand Prix in 4K"
+            },
+            {
+              "name": "Yahoo Sports",
+              "kind": "Selected sessions",
+              "note": "Selected practice and qualifying sessions"
+            },
+            {
+              "name": "Tubi",
+              "kind": "Free",
+              "note": "Exclusive live altcasts for selected races"
+            }
+          ]
+        },
+        {
+          "code": "IT",
+          "country": "Italy",
+          "entries": [
+            {
+              "name": "Sky",
+              "kind": "Live",
+              "note": "Covered by the same rights deal as the UK and Ireland"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "channelID": "motogp",
+      "season": "2026",
+      "regions": [
+        {
+          "code": "GB",
+          "country": "United Kingdom",
+          "entries": [
+            {
+              "name": "TNT Sports",
+              "kind": "Live",
+              "note": "Every race weekend live; streaming via HBO Max"
+            },
+            {
+              "name": "Quest",
+              "kind": "Free-to-air",
+              "note": "Every sprint on a short delay, plus a Monday highlights show"
+            }
+          ]
+        },
+        {
+          "code": "IE",
+          "country": "Ireland",
+          "entries": [
+            {
+              "name": "TNT Sports",
+              "kind": "Live",
+              "note": "Covered by the same rights deal as the UK"
+            }
+          ]
+        },
+        {
+          "code": "US",
+          "country": "United States",
+          "entries": [
+            {
+              "name": "FOX Sports 1 / FOX Sports 2",
+              "kind": "Live",
+              "note": "Every Grand Prix and sprint, also on the FOX Sports app"
+            },
+            {
+              "name": "The MotoGP Channel",
+              "kind": "Free",
+              "note": "Ad-supported channel carrying practice, qualifying, Moto2, Moto3 and MotoE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "channelID": "wec",
+      "season": "2026",
+      "regions": [],
+      "radio": [
+        {
+          "name": "Radio Le Mans",
+          "note": "English-language commentary for endurance racing since 1997",
+          "language": "English",
+          "pageURL": "https://radiolemans.co"
+        }
+      ]
+    },
+    {
+      "channelID": "imsa",
+      "season": "2026",
+      "regions": [],
+      "radio": [
+        {
+          "name": "Radio Le Mans",
+          "note": "Covers IMSA race weekends alongside the WEC",
+          "language": "English",
+          "pageURL": "https://radiolemans.co"
+        }
+      ]
+    },
+    {
+      "channelID": "nascar",
+      "season": "2026",
+      "regions": [],
+      "radio": [
+        {
+          "name": "Motor Racing Network",
+          "note": "MRN carries live NASCAR Cup coverage",
+          "language": "English",
+          "pageURL": "https://www.mrn.com/live-audio-popup/"
+        }
+      ]
+    }
+  ],
+  "_radio_note": "streamURL is only set where a station publishes a direct, freely accessible stream we are permitted to play. Leave it empty and set pageURL instead - the app then links out to the station's own player. Do not paste an Icecast URL scraped from a station's site without permission: it is fragile and rude."
+}

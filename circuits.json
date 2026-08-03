@@ -1,0 +1,956 @@
+{
+  "version": 1,
+  "_comment": "Track guides. Served from the content repo so circuits and corrections ship without an App Store submission. Every field except id/name/matchKeys is optional - the app renders only what is present and never invents missing data. trackPath is SVG path data in viewBox units; replace the stylised seeds with accurate outlines (e.g. from Wikimedia Commons circuit SVGs) whenever available. image is an optional photograph for the race header and the Home screen's Next Race card: freely-licensed sources only (Wikimedia Commons, Flickr CC, public domain), never agency or press photography. credit is a licence condition, not a courtesy - the app hides any image whose credit is missing, so a half-filled entry disappears rather than shipping unattributed.",
+  "circuits": [
+    {
+      "id": "silverstone",
+      "name": "Silverstone Circuit",
+      "location": "Silverstone, Northamptonshire, United Kingdom",
+      "country": "United Kingdom",
+      "matchKeys": ["silverstone", "british grand prix", "great britain"],
+      "image": {
+        "url": "images/circuits/silverstone.jpg",
+        "credit": "Planet Labs, Inc.",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Silverstone_Circuit,_July_2,_2018_SkySat.jpg"
+      },
+      "lengthKm": 5.891,
+      "corners": 18,
+      "firstHeld": 1948,
+      "lapRecord": {
+        "time": "1:27.097",
+        "holder": "Max Verstappen",
+        "year": 2020,
+        "series": "Formula 1"
+      },
+      "overview": "Built on a former RAF airfield in 1948, Silverstone is one of the fastest circuits in world motorsport. Its flowing high-speed sequences reward commitment above all else, and the Maggotts-Becketts-Chapel complex is widely regarded as the finest test of an aerodynamic car anywhere on the calendar.",
+      "facts": [
+        "Silverstone hosted the very first Formula 1 World Championship race on 13 May 1950.",
+        "The circuit started life as a Royal Air Force bomber station, and the original layout ran along the perimeter roads and runways.",
+        "The layout has been reconfigured several times, so lap records from the 1950s, 1970s and 1990s are not directly comparable with today's times.",
+        "The current Grand Prix configuration has been in use since 2011."
+      ]
+    },
+    {
+      "id": "zandvoort",
+      "name": "Circuit Zandvoort",
+      "location": "Zandvoort, North Holland, Netherlands",
+      "country": "Netherlands",
+      "matchKeys": ["zandvoort", "dutch grand prix"],
+      "image": {
+        "url": "images/circuits/zandvoort.jpg",
+        "credit": "dronepicr",
+        "licence": "CC BY 2.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/2.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Luftbild_der_Circuit_Park_Zandvoort_Rennstrecke_Formel_1_(46940306055).jpg"
+      },
+      "lengthKm": 4.259,
+      "corners": 14,
+      "firstHeld": 1948,
+      "overview": "Laid out among the North Sea dunes and designed by John Hugenholtz, Zandvoort is narrow, undulating and unforgiving. A 2020 modernisation added banking to two corners to help cars follow each other more closely, giving the circuit a character found nowhere else on the Formula 1 calendar.",
+      "facts": [
+        "Zandvoort is the only circuit on the Formula 1 calendar with banked corners.",
+        "The Hugenholtzbocht at Turn 3 is banked at 18 percent - roughly 32 degrees.",
+        "Turn 14, the Arie Luyendykbocht, is named after the two-time Indianapolis 500 winner and is also banked.",
+        "The Dutch Grand Prix ran here from 1952 to 1985 before the circuit returned to Formula 1 in 2021."
+      ]
+    },
+    {
+      "id": "monza",
+      "name": "Autodromo Nazionale Monza",
+      "location": "Monza, Lombardy, Italy",
+      "country": "Italy",
+      "matchKeys": ["monza", "italian grand prix"],
+      "image": {
+        "url": "images/circuits/monza.jpg",
+        "credit": "Ank Kumar",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Autodromo_Nazionale_di_Monza,_Italy_(Ank_Kumar)_04.jpg"
+      },
+      "lengthKm": 5.793,
+      "corners": 11,
+      "firstHeld": 1922,
+      "overview": "The Temple of Speed. Opened in 1922 inside a royal park, Monza is defined by enormous straights broken up by heavy braking zones, and it consistently produces the highest average speeds of the season. Teams run their skinniest rear wings of the year here.",
+      "facts": [
+        "Monza is one of the oldest purpose-built motor racing circuits in the world, opened in 1922.",
+        "It sits inside the grounds of a former royal park on the edge of Monza, north of Milan.",
+        "The abandoned banked oval from the old combined layout still stands on the site.",
+        "Cars run their lowest-downforce set-ups of the season here in pursuit of straight-line speed."
+      ],
+      "viewBox": "0 0 120 200",
+      "trackPath": "M 46 182 L 46 146 L 54 139 L 46 132 C 46 112 54 98 68 90 L 76 84 L 68 77 C 58 66 62 52 74 45 L 88 37 C 96 31 94 23 84 21 L 62 17 C 48 15 40 24 44 36 L 50 54 C 54 70 52 86 44 100 L 30 124 C 22 138 24 152 34 164 L 46 182 Z"
+    },
+    {
+      "id": "spa",
+      "name": "Circuit de Spa-Francorchamps",
+      "location": "Stavelot, Wallonia, Belgium",
+      "country": "Belgium",
+      "matchKeys": ["spa francorchamps", "francorchamps", "belgian grand prix", "belgium"],
+      "image": {
+        "url": "images/circuits/spa.jpg",
+        "credit": "Cutkiller2018",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Kurve_Eau_Rouge-Raidillon.jpg"
+      },
+      "lengthKm": 7.004,
+      "corners": 19,
+      "firstHeld": 1921,
+      "overview": "The longest circuit on the Formula 1 calendar, cut through the forests of the Ardennes. Spa climbs and plunges through dramatic elevation changes, and its weather is famously local - one end of the lap can be soaked while the other stays dry.",
+      "facts": [
+        "Eau Rouge and the Raidillon climb that follows it are among the most celebrated corners in motorsport.",
+        "The original 1920s layout ran for over 14 km on public roads between villages.",
+        "The circuit was shortened to roughly its current configuration in 1979.",
+        "Spa's micro-climate means it can rain on one section of the lap while another stays completely dry."
+      ]
+    },
+    {
+      "id": "lemans",
+      "name": "Circuit de la Sarthe",
+      "location": "Le Mans, Pays de la Loire, France",
+      "country": "France",
+      "matchKeys": ["le mans", "sarthe", "24 hours of le mans"],
+      "image": {
+        "url": "images/circuits/lemans.jpg",
+        "credit": "Mike Roberts",
+        "licence": "CC BY-SA 2.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Circuit_de_la_Sarthe_Ford_Chicanes.jpg"
+      },
+      "lengthKm": 13.626,
+      "firstHeld": 1923,
+      "overview": "Home of the 24 Hours of Le Mans since 1923, the Circuit de la Sarthe is part permanent circuit and part public road. Cars spend a huge proportion of the lap at full throttle, and crews have to balance outright speed against surviving a full day and night of racing.",
+      "facts": [
+        "The first 24 Hours of Le Mans was held in 1923, making it one of the oldest endurance races in the world.",
+        "Much of the lap runs on public roads that are open to normal traffic for most of the year.",
+        "Two chicanes were added to the Mulsanne Straight in 1990 to break up a run of nearly six kilometres.",
+        "The race runs through the night, so drivers tackle the fastest sections in complete darkness."
+      ],
+      "viewBox": "0 0 120 200",
+      "trackPath": "M 52 24 C 40 26 32 36 34 50 L 44 120 C 46 140 52 156 64 168 C 74 178 88 178 94 168 C 100 158 96 146 86 140 L 70 130 C 60 124 58 112 64 104 L 74 90 C 80 82 78 70 70 64 L 58 54 C 50 48 50 36 60 30 L 74 22 C 82 17 80 8 70 8 L 58 8 C 50 8 46 16 52 24 Z"
+    },
+    {
+      "id": "albert-park",
+      "name": "Albert Park Circuit",
+      "matchKeys": ["albert park"],
+      "image": {
+        "url": "images/circuits/albert-park.jpg",
+        "credit": "Planet Labs, Inc.",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Melbourne_Grand_Prix_Circuit,_March_22,_2018_SkySat_(cropped).jpg"
+      }
+    },
+    {
+      "id": "assen",
+      "name": "TT Circuit Assen",
+      "matchKeys": ["assen"],
+      "image": {
+        "url": "images/circuits/assen.jpg",
+        "credit": "Wouter Engler",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Assen-DSC_0227.jpg"
+      }
+    },
+    {
+      "id": "bahrain",
+      "name": "Bahrain International Circuit",
+      "matchKeys": ["bahrain international circuit", "sakhir"],
+      "image": {
+        "url": "images/circuits/bahrain.jpg",
+        "credit": "United Autosports",
+        "licence": "CC BY-SA 2.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Bahrain_International_Circuit.jpg"
+      }
+    },
+    {
+      "id": "baku",
+      "name": "Baku City Circuit",
+      "matchKeys": ["baku"],
+      "image": {
+        "url": "images/circuits/baku.jpg",
+        "credit": "Planet Labs, Inc.",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Baku_City_Circuit,_April_9,_2018_SkySat.jpg"
+      }
+    },
+    {
+      "id": "balaton-park",
+      "name": "Balaton Park Circuit",
+      "matchKeys": ["balaton"],
+      "image": {
+        "url": "images/circuits/balaton-park.jpg",
+        "credit": "Bazsi888",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Balaton_Park_Circuit,_Balatonf%C5%91kaj%C3%A1r.jpg"
+      }
+    },
+    {
+      "id": "barcelona",
+      "name": "Circuit de Barcelona-Catalunya",
+      "matchKeys": ["barcelona-catalunya", "circuit de barcelona"],
+      "image": {
+        "url": "images/circuits/barcelona.jpg",
+        "credit": "Ank Kumar",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Barcelona,_Circuit_de_Catalunya_(Ank_kumar)_02.jpg"
+      }
+    },
+    {
+      "id": "berlin-tempelhof",
+      "name": "Tempelhof Airport Street Circuit",
+      "matchKeys": ["berlin"],
+      "image": {
+        "url": "images/circuits/berlin-tempelhof.jpg",
+        "credit": "KAgamemnon",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Nico_Rosberg_Formula_E_Gen2_car_2018_Berlin_E-Prix_on_track.jpg"
+      }
+    },
+    {
+      "id": "brainerd",
+      "name": "Brainerd International Raceway",
+      "matchKeys": ["brainerd"],
+      "image": {
+        "url": "images/circuits/brainerd.jpg",
+        "credit": "David Kryzaniak",
+        "licence": "CC BY-SA 2.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:2017_Lucas_Oil_NHRA_Nationals_at_Brainerd_International_Raceway_(35885259704).jpg"
+      }
+    },
+    {
+      "id": "bristol",
+      "name": "Bristol Motor Speedway",
+      "matchKeys": ["bristol motor speedway"],
+      "image": {
+        "url": "images/circuits/bristol.jpg",
+        "credit": "Zach Catanzareti Photo",
+        "licence": "CC BY 2.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/2.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Bristol_motor_speedway_(40615253533).jpg"
+      }
+    },
+    {
+      "id": "brno",
+      "name": "Automotodrom Brno",
+      "matchKeys": ["brno"],
+      "image": {
+        "url": "images/circuits/brno.jpg",
+        "credit": "Lutz H",
+        "licence": "CC BY 2.0 de",
+        "licenceURL": "https://creativecommons.org/licenses/by/2.0/de/deed.en",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Automotodrom_Brno_%E2%80%93_start-finish.JPG"
+      }
+    },
+    {
+      "id": "buriram",
+      "name": "Chang International Circuit",
+      "matchKeys": ["chang international circuit", "buriram"],
+      "image": {
+        "url": "images/circuits/buriram.jpg",
+        "credit": "Box Repsol",
+        "licence": "CC BY 2.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/2.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Dani_Pedrosa_2018_Buriram.jpg"
+      }
+    },
+    {
+      "id": "charlotte",
+      "name": "Charlotte Motor Speedway",
+      "matchKeys": ["charlotte motor speedway"],
+      "image": {
+        "url": "images/circuits/charlotte.jpg",
+        "credit": "Chad Davis from Minneapolis, United States",
+        "licence": "CC BY 2.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/2.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Charlotte_Motor_Speedway_(52617218217).jpg"
+      }
+    },
+    {
+      "id": "cota",
+      "name": "Circuit of the Americas",
+      "matchKeys": ["circuit of the americas"],
+      "image": {
+        "url": "images/circuits/cota.jpg",
+        "credit": "United Autosports",
+        "licence": "CC BY-SA 2.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:2019%E2%80%9320_FIA_World_Endurance_Championship_-_2020_Lone_Star_Le_Mans_-_Circuit_of_the_Americas.jpg"
+      }
+    },
+    {
+      "id": "darlington",
+      "name": "Darlington Raceway",
+      "matchKeys": ["darlington"],
+      "image": {
+        "url": "images/circuits/darlington.jpg",
+        "credit": "U.S. Navy photo by Chief Photographer's Mate Johnny Bivera.",
+        "licence": "Public domain",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:US_Navy_030830-N-2383B-329_The_Navy_sponsored_NASCAR_Busch_Series_No._14_Chevrolet_Monte_Carlo,_driven_by_Casey_Atwood_races_for_the_finish_line_to_place_in_the_top_ten_of_the_Winn-Dixie_200_race.jpg"
+      }
+    },
+    {
+      "id": "daytona",
+      "name": "Daytona International Speedway",
+      "matchKeys": ["daytona"],
+      "image": {
+        "url": "images/circuits/daytona.jpg",
+        "credit": "David Jones from Isle of Wight, United Kingdom",
+        "licence": "CC BY 2.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/2.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Daytona_International_Speedway_(48530104007).jpg"
+      }
+    },
+    {
+      "id": "fuji",
+      "name": "Fuji Speedway",
+      "matchKeys": ["fuji"],
+      "image": {
+        "url": "images/circuits/fuji.jpg",
+        "credit": "MATSUOKA Kohei",
+        "licence": "CC BY-SA 2.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Fuji_Speedway_start-finish.jpg"
+      }
+    },
+    {
+      "id": "gilles-villeneuve",
+      "name": "Circuit Gilles Villeneuve",
+      "matchKeys": ["gilles villeneuve"],
+      "image": {
+        "url": "images/circuits/gilles-villeneuve.jpg",
+        "credit": "Guilhem Vellut from Annecy, France",
+        "licence": "CC BY 2.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/2.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Circuit_Gilles_Villeneuve_@_Ile_Notre-Dame_@_Montr%C3%A9al_(30539372975).jpg"
+      }
+    },
+    {
+      "id": "goiania",
+      "name": "Autódromo Internacional de Goiânia",
+      "matchKeys": ["goiania"],
+      "image": {
+        "url": "images/circuits/goiania.jpg",
+        "credit": "Boaventuravinicius",
+        "licence": "CC BY 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Aut%C3%B3dromo_Internacional_Ayrton_Senna_(Goi%C3%A2nia)-MOTO_GP_2026.jpg"
+      }
+    },
+    {
+      "id": "hermanos-rodriguez",
+      "name": "Autódromo Hermanos Rodríguez",
+      "matchKeys": ["hermanos rodriguez", "mexico city"],
+      "image": {
+        "url": "images/circuits/hermanos-rodriguez.jpg",
+        "credit": "ProtoplasmaKid",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_01.jpg"
+      }
+    },
+    {
+      "id": "homestead",
+      "name": "Homestead-Miami Speedway",
+      "matchKeys": ["homestead"],
+      "image": {
+        "url": "images/circuits/homestead.jpg",
+        "credit": "The original uploader was Chrisg21090 at English Wikipedia.",
+        "licence": "Public domain",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:F2000_Chassis_at_the_2006_Ferrari_Challenge_at_the_Homestead-Miami_Speedway.jpg"
+      }
+    },
+    {
+      "id": "hungaroring",
+      "name": "Hungaroring",
+      "matchKeys": ["hungaroring"],
+      "image": {
+        "url": "images/circuits/hungaroring.jpg",
+        "credit": "Ank Kumar",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Hungaroring,_Budapest_02.jpg"
+      }
+    },
+    {
+      "id": "imola",
+      "name": "Autodromo Enzo e Dino Ferrari",
+      "matchKeys": ["imola", "enzo e dino ferrari"],
+      "image": {
+        "url": "images/circuits/imola.jpg",
+        "credit": "Monia Mascagni",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Autodromo_Internazionale_Enzo_e_Dino_Ferrari_Imola.jpg"
+      }
+    },
+    {
+      "id": "indianapolis-ms",
+      "name": "Indianapolis Motor Speedway",
+      "matchKeys": ["indianapolis motor speedway"],
+      "image": {
+        "url": "images/circuits/indianapolis-ms.jpg",
+        "credit": "Michael Barera",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Indianapolis_Motor_Speedway_May_2026_2_(Indianapolis_Motor_Speedway_Museum).jpg"
+      }
+    },
+    {
+      "id": "indy-raceway-park",
+      "name": "Lucas Oil Indianapolis Raceway Park",
+      "matchKeys": ["indianapolis raceway park", "lucas oil indianapolis"],
+      "image": {
+        "url": "images/circuits/indy-raceway-park.jpg",
+        "credit": "Ole Bendik Kvisberg",
+        "licence": "CC BY 2.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/2.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Top_fuel_(5179286481).jpg"
+      }
+    },
+    {
+      "id": "interlagos",
+      "name": "Autódromo José Carlos Pace",
+      "matchKeys": ["interlagos", "jose carlos pace"],
+      "image": {
+        "url": "images/circuits/interlagos.jpg",
+        "credit": "ProtoplasmaKid",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace_02.jpg"
+      }
+    },
+    {
+      "id": "iowa-speedway",
+      "name": "Iowa Speedway",
+      "matchKeys": ["iowa speedway"],
+      "image": {
+        "url": "images/circuits/iowa-speedway.jpg",
+        "credit": "Matt Owen from Huxley, Iowa, USA",
+        "licence": "CC BY 2.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/2.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Pit_Area_(530140459).jpg"
+      }
+    },
+    {
+      "id": "jerez",
+      "name": "Circuito de Jerez — Ángel Nieto",
+      "matchKeys": ["jerez"],
+      "image": {
+        "url": "images/circuits/jerez.jpg",
+        "credit": "Gil Abrantes",
+        "licence": "CC BY 2.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/2.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Jean-Eric_Vergne,_Toro_Rosso_STR7,_Jerez_2012.jpg"
+      }
+    },
+    {
+      "id": "kansas",
+      "name": "Kansas Speedway",
+      "matchKeys": ["kansas speedway"],
+      "image": {
+        "url": "images/circuits/kansas.jpg",
+        "credit": "Lectrician2",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Kansas_Speedway_Aerial.jpg"
+      }
+    },
+    {
+      "id": "laguna-seca",
+      "name": "WeatherTech Raceway Laguna Seca",
+      "matchKeys": ["laguna seca"],
+      "image": {
+        "url": "images/circuits/laguna-seca.jpg",
+        "credit": "Presidio of Monterey",
+        "licence": "Public domain",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Military_Appreciation_Day_at_Mazda_Raceway_Laguna_Seca_(37083889620).jpg"
+      }
+    },
+    {
+      "id": "las-vegas-speedway",
+      "name": "Las Vegas Motor Speedway",
+      "matchKeys": ["las vegas motor speedway"],
+      "image": {
+        "url": "images/circuits/las-vegas-speedway.jpg",
+        "credit": "Staff Sgt. N.B.",
+        "licence": "Public domain",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Airmen_fill_need_for_speed_with_NASCAR_experience_130922-F-WU210-004.jpg"
+      }
+    },
+    {
+      "id": "las-vegas-strip",
+      "name": "Las Vegas Strip Circuit",
+      "matchKeys": ["las vegas strip"],
+      "image": {
+        "url": "images/circuits/las-vegas-strip.jpg",
+        "credit": "Nascar9919",
+        "licence": "CC BY 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:2024_Las_Vegas_Grand_Prix_at_the_Sphere_-_Saturday,_November_23,_Orbi.jpg"
+      }
+    },
+    {
+      "id": "le-mans-bugatti",
+      "name": "Bugatti Circuit, Le Mans",
+      "matchKeys": ["le mans"],
+      "channelIDs": ["motogp"],
+      "image": {
+        "url": "images/circuits/le-mans-bugatti.jpg",
+        "credit": "Antoineets",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Porsche_911_(996)_GT3_(2)_(2003).jpg"
+      }
+    },
+    {
+      "id": "london-excel",
+      "name": "ExCeL London Circuit",
+      "matchKeys": ["london"],
+      "image": {
+        "url": "images/circuits/london-excel.jpg",
+        "credit": "tje23acf",
+        "licence": "CC BY-SA 2.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:DSC_8519_(53081992091).jpg"
+      }
+    },
+    {
+      "id": "losail",
+      "name": "Lusail International Circuit",
+      "matchKeys": ["losail", "lusail"],
+      "image": {
+        "url": "images/circuits/losail.jpg",
+        "credit": "Doha Stadium Plus Qatar from Doha, Qatar",
+        "licence": "CC BY 2.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/2.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Yamaha%27s_Maverick_Vinales_in_action_during_the_day_1_of_Qatar_test_at_the_Losail_International_Circuit,_Doha_Qatar._(32994567530).jpg"
+      }
+    },
+    {
+      "id": "magny-cours",
+      "name": "Circuit de Nevers Magny-Cours",
+      "matchKeys": ["magny cours"],
+      "image": {
+        "url": "images/circuits/magny-cours.jpg",
+        "credit": "Cjp24",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Paddock_-_stand_12bis.jpg"
+      }
+    },
+    {
+      "id": "mandalika",
+      "name": "Pertamina Mandalika Circuit",
+      "matchKeys": ["mandalika"],
+      "image": {
+        "url": "images/circuits/mandalika.jpg",
+        "credit": "Box Repsol",
+        "licence": "CC BY 2.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/2.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Turn_10_Mandalika_International_Circuit.jpg"
+      }
+    },
+    {
+      "id": "marina-bay",
+      "name": "Marina Bay Street Circuit",
+      "matchKeys": ["marina bay", "singapore grand prix"],
+      "image": {
+        "url": "images/circuits/marina-bay.jpg",
+        "credit": "Dietmar Rabich",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Singapore_(SG),_Marina_Bay_Street_Circuit,_F1_Pit_Building_--_2019_--_4478.jpg"
+      }
+    },
+    {
+      "id": "martinsville",
+      "name": "Martinsville Speedway",
+      "matchKeys": ["martinsville"],
+      "image": {
+        "url": "images/circuits/martinsville.jpg",
+        "credit": "Nascar1996",
+        "licence": "CC BY-SA 3.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Martinsville_Speedway_tower_in_2011.jpg"
+      }
+    },
+    {
+      "id": "miami",
+      "name": "Miami International Autodrome",
+      "matchKeys": ["miami international autodrome"],
+      "image": {
+        "url": "images/circuits/miami.jpg",
+        "credit": "USACJack",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Start_of_the_Porsche_Sprint_Challenge_North_America_at_the_F1_Miami_GP_-_2022.jpg"
+      }
+    },
+    {
+      "id": "milwaukee-mile",
+      "name": "Milwaukee Mile",
+      "matchKeys": ["milwaukee mile"],
+      "image": {
+        "url": "images/circuits/milwaukee-mile.jpg",
+        "credit": "Michael Barera",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:2022_Wisconsin_State_Fair_29_(Milwaukee_Mile_grandstands).jpg"
+      }
+    },
+    {
+      "id": "misano",
+      "name": "Misano World Circuit Marco Simoncelli",
+      "matchKeys": ["misano"],
+      "image": {
+        "url": "images/circuits/misano.jpg",
+        "credit": "Alessio Moscetti",
+        "licence": "CC BY 3.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/3.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Orange_Leon_(262038401).jpeg"
+      }
+    },
+    {
+      "id": "monaco",
+      "name": "Circuit de Monaco",
+      "matchKeys": ["circuit de monaco", "monaco grand prix", "monaco e-prix"],
+      "image": {
+        "url": "images/circuits/monaco.jpg",
+        "credit": "Planet Labs, Inc.",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Circuit_de_Monaco,_April_1,_2018_SkySat_(cropped).jpg"
+      }
+    },
+    {
+      "id": "motorland-aragon",
+      "name": "MotorLand Aragón",
+      "matchKeys": ["motorland", "aragon"],
+      "image": {
+        "url": "images/circuits/motorland-aragon.jpg",
+        "credit": "Anton-Sid5",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Sidorkova_Irina,_2019_F4_Spanish_Championship,_MotorLand_Aragon_3.jpg"
+      }
+    },
+    {
+      "id": "mugello",
+      "name": "Mugello Circuit",
+      "matchKeys": ["mugello"],
+      "image": {
+        "url": "images/circuits/mugello.jpg",
+        "credit": "Anna.Massini",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Mugello_Circuit_-_ingresso.jpg"
+      }
+    },
+    {
+      "id": "navarra",
+      "name": "Circuito de Navarra",
+      "matchKeys": ["navarra"],
+      "image": {
+        "url": "images/circuits/navarra.jpg",
+        "credit": "Juanje 2712",
+        "licence": "CC BY-SA 3.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Circuito_de_Navarra_-_DSC_1800_W.JPG"
+      }
+    },
+    {
+      "id": "new-hampshire",
+      "name": "New Hampshire Motor Speedway",
+      "matchKeys": ["new hampshire motor speedway"],
+      "image": {
+        "url": "images/circuits/new-hampshire.jpg",
+        "credit": "Jeff L from Epping, NH, USA",
+        "licence": "CC BY 2.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/2.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:8am,_race_day_(4740354767).jpg"
+      }
+    },
+    {
+      "id": "nogaro",
+      "name": "Circuit Paul Armagnac",
+      "matchKeys": ["nogaro", "paul armagnac"],
+      "image": {
+        "url": "images/circuits/nogaro.jpg",
+        "credit": "Grand Parc - Bordeaux, France from France",
+        "licence": "CC BY 2.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/2.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:BMW_-_Circuit_Paul_Armagnac,_Nogaro,_France_le_14_mars_2013_-_Club_ASA_-_Image_Photo_Picture_(13173763393).jpg"
+      }
+    },
+    {
+      "id": "paul-ricard",
+      "name": "Circuit Paul Ricard",
+      "matchKeys": ["paul ricard"],
+      "image": {
+        "url": "images/circuits/paul-ricard.jpg",
+        "credit": "Planet Labs, Inc.",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Circuit_Paul_Ricard,_April_22,_2018_SkySat.jpg"
+      }
+    },
+    {
+      "id": "phillip-island",
+      "name": "Phillip Island Grand Prix Circuit",
+      "matchKeys": ["phillip island"],
+      "image": {
+        "url": "images/circuits/phillip-island.jpg",
+        "credit": "Tom Reynolds from Melbourne, Australia",
+        "licence": "CC BY 2.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/2.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Phillip_Island_Aerial_View.jpg"
+      }
+    },
+    {
+      "id": "phoenix",
+      "name": "Phoenix Raceway",
+      "matchKeys": ["phoenix raceway"],
+      "image": {
+        "url": "images/circuits/phoenix.jpg",
+        "credit": "Senior Airman Devante Williams",
+        "licence": "Public domain",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Indy_Car_Experience_160227-F-EC705-131.jpg"
+      }
+    },
+    {
+      "id": "pomona",
+      "name": "In-N-Out Burger Pomona Dragstrip",
+      "matchKeys": ["pomona"],
+      "image": {
+        "url": "images/circuits/pomona.jpg",
+        "credit": "mbtrama",
+        "licence": "CC BY 2.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/2.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Pomona_Drag_Strip.jpg"
+      }
+    },
+    {
+      "id": "portimao",
+      "name": "Autódromo Internacional do Algarve",
+      "matchKeys": ["algarve", "portimao"],
+      "image": {
+        "url": "images/circuits/portimao.jpg",
+        "credit": "Klugschnacker",
+        "licence": "CC BY-SA 3.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Aut%C3%B3dromo_Internacional_do_Algarve_(2012-09-23),_by_Klugschnacker_in_Wikipedia_(2).JPG"
+      }
+    },
+    {
+      "id": "portland",
+      "name": "Portland International Raceway",
+      "matchKeys": ["portland international raceway"],
+      "image": {
+        "url": "images/circuits/portland.jpg",
+        "credit": "Tedder",
+        "licence": "CC BY 3.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/3.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Portland_International_Raceway_entrance.jpg"
+      }
+    },
+    {
+      "id": "red-bull-ring",
+      "name": "Red Bull Ring",
+      "matchKeys": ["red bull ring"],
+      "image": {
+        "url": "images/circuits/red-bull-ring.jpg",
+        "credit": "United Autosports",
+        "licence": "CC BY-SA 2.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Ua-elms-rbr-2018-119.jpg"
+      }
+    },
+    {
+      "id": "ricardo-tormo",
+      "name": "Circuit Ricardo Tormo",
+      "matchKeys": ["ricardo tormo"],
+      "image": {
+        "url": "images/circuits/ricardo-tormo.jpg",
+        "credit": "Cesar March from Valencia, España",
+        "licence": "CC BY 2.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/2.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Can_%C3%96nc%C3%BC_-_MotoGP_2018_Gran_Premio_Motul_Comunitat_Valenciana.jpg"
+      }
+    },
+    {
+      "id": "richmond",
+      "name": "Richmond Raceway",
+      "matchKeys": ["richmond raceway"],
+      "image": {
+        "url": "images/circuits/richmond.jpg",
+        "credit": "Dough4872",
+        "licence": "CC BY-SA 3.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:2018_Toyota_Owners_400_from_between_turns_1_and_2.jpg"
+      }
+    },
+    {
+      "id": "road-america",
+      "name": "Road America",
+      "matchKeys": ["road america"],
+      "image": {
+        "url": "images/circuits/road-america.jpg",
+        "credit": "Chris Favero from USA",
+        "licence": "CC BY-SA 2.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:2_cars_two_turns_2012_Lemans_(7819644934).jpg"
+      }
+    },
+    {
+      "id": "road-atlanta",
+      "name": "Michelin Raceway Road Atlanta",
+      "matchKeys": ["road atlanta"],
+      "image": {
+        "url": "images/circuits/road-atlanta.jpg",
+        "credit": "formulanone from Huntsville, United States",
+        "licence": "CC BY-SA 2.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Road_Atlanta_Aerial_-_September_2016_(44744697301).jpg"
+      }
+    },
+    {
+      "id": "rockingham-dragway",
+      "name": "Rockingham Dragway",
+      "matchKeys": ["rockingham dragway"],
+      "image": {
+        "url": "images/circuits/rockingham-dragway.jpg",
+        "credit": "Rockingham Dragway",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Rock_Drove_Picture.jpg"
+      }
+    },
+    {
+      "id": "sachsenring",
+      "name": "Sachsenring",
+      "matchKeys": ["sachsenring"],
+      "image": {
+        "url": "images/circuits/sachsenring.jpg",
+        "credit": "Carsten Steger",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Sachsenring_(view_from_the_southwest).jpg"
+      }
+    },
+    {
+      "id": "sepang",
+      "name": "Sepang International Circuit",
+      "matchKeys": ["sepang"],
+      "image": {
+        "url": "images/circuits/sepang.jpg",
+        "credit": "Morio",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Sepang_International_Circuit_Grandstand_Tower_distance_2016_Malaysian_GP.jpg"
+      }
+    },
+    {
+      "id": "shanghai",
+      "name": "Shanghai International Circuit",
+      "matchKeys": ["shanghai"],
+      "image": {
+        "url": "images/circuits/shanghai.jpg",
+        "credit": "Planet Labs, Inc.",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Shanghai_International_Circuit,_April_7,_2018_SkySat_(rotated).jpg"
+      }
+    },
+    {
+      "id": "suzuka",
+      "name": "Suzuka International Racing Course",
+      "matchKeys": ["suzuka"],
+      "image": {
+        "url": "images/circuits/suzuka.jpg",
+        "credit": "lumoplank",
+        "licence": "CC0",
+        "licenceURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Suzuka_Circuit_-_Suzuka74.jpg"
+      }
+    },
+    {
+      "id": "talladega",
+      "name": "Talladega Superspeedway",
+      "matchKeys": ["talladega"],
+      "image": {
+        "url": "images/circuits/talladega.jpg",
+        "credit": "Staff Sgt. Jaccob Hearn",
+        "licence": "Public domain",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Chief_of_the_National_Guard_Bureau_swears_in_new_recruits_at_the_Talladega_Superspeedway_(7).jpg"
+      }
+    },
+    {
+      "id": "texas-motorplex",
+      "name": "Texas Motorplex",
+      "matchKeys": ["texas motorplex"],
+      "image": {
+        "url": "images/circuits/texas-motorplex.jpg",
+        "credit": "Michael Barera",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Ennis_September_2017_30_(Texas_Motorplex).jpg"
+      }
+    },
+    {
+      "id": "tokyo-eprix",
+      "name": "Tokyo Street Circuit",
+      "matchKeys": ["tokyo"],
+      "image": {
+        "url": "images/circuits/tokyo-eprix.jpg",
+        "credit": "Morio",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Tokyo_Street_Circuit_turn_9_-_turn10_2024_Tokyo_e-Prix.jpg"
+      }
+    },
+    {
+      "id": "vir",
+      "name": "Virginia International Raceway",
+      "matchKeys": ["virginia international raceway"],
+      "image": {
+        "url": "images/circuits/vir.jpg",
+        "credit": "Tech. Sgt. Ryan Conroy",
+        "licence": "Public domain",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Air_Force_major_makes_professional_racing_debut_(11).jpg"
+      }
+    },
+    {
+      "id": "wwt-raceway",
+      "name": "World Wide Technology Raceway",
+      "matchKeys": ["world wide technology raceway"],
+      "image": {
+        "url": "images/circuits/wwt-raceway.jpg",
+        "credit": "Copefan08",
+        "licence": "Public domain",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:2010_Gateway1_NNS_Edwards_Keselowski_accident.jpg"
+      }
+    },
+    {
+      "id": "yas-marina",
+      "name": "Yas Marina Circuit",
+      "matchKeys": ["yas marina"],
+      "image": {
+        "url": "images/circuits/yas-marina.jpg",
+        "credit": "Nepenthes",
+        "licence": "CC BY-SA 2.5",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/2.5",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Yas_Marina_Circuit_005.JPG"
+      }
+    }
+  ]
+}

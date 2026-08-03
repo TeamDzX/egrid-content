@@ -1,0 +1,780 @@
+{
+  "version": 2,
+  "channels": [
+    {
+      "id": "f1",
+      "name": "Formula 1",
+      "tagline": "Grand Prix racing — schedules, standings and stats",
+      "accentHex": "E10600",
+      "heroImageAsset": "F1Hero",
+      "hasStandings": true,
+      "comingSoon": false,
+      "feeds": [
+        {
+          "name": "Motorsport.com F1",
+          "url": "https://www.motorsport.com/rss/f1/news/"
+        },
+        {
+          "name": "Autosport F1",
+          "url": "https://www.autosport.com/rss/f1/news/"
+        },
+        {
+          "name": "The Race F1",
+          "url": "https://www.the-race.com/formula-1/feed/"
+        }
+      ],
+      "regulationLinks": [
+        {
+          "title": "FIA F1 Sporting Regulations",
+          "url": "https://www.fia.com/regulation/category/110"
+        },
+        {
+          "title": "FIA International Sporting Code",
+          "url": "https://www.fia.com/regulation/category/123"
+        }
+      ]
+    },
+    {
+      "id": "wrc",
+      "name": "World Rally Championship",
+      "tagline": "Rally calendar, results and news from the stages",
+      "accentHex": "1E88E5",
+      "heroImageAsset": "WRCHero",
+      "hasStandings": false,
+      "comingSoon": false,
+      "feeds": [
+        {
+          "name": "DirtFish",
+          "url": "https://dirtfish.com/feed/"
+        },
+        {
+          "name": "Motorsport.com WRC",
+          "url": "https://www.motorsport.com/rss/wrc/news/"
+        },
+        {
+          "name": "Autosport WRC",
+          "url": "https://www.autosport.com/rss/wrc/news/"
+        }
+      ],
+      "regulationLinks": [
+        {
+          "title": "FIA WRC Sporting Regulations",
+          "url": "https://www.fia.com/regulation/category/112"
+        }
+      ]
+    },
+    {
+      "id": "f2",
+      "name": "Formula 2",
+      "tagline": "The final step to F1 — every round on a Grand Prix weekend",
+      "accentHex": "00A0DE",
+      "heroImageAsset": "F2Hero",
+      "hasStandings": false,
+      "comingSoon": false,
+      "feeds": [
+        {
+          "name": "Motorsport.com F2",
+          "url": "https://www.motorsport.com/rss/fia-f2/news/"
+        }
+      ],
+      "regulationLinks": [
+        {
+          "title": "Official FIA Formula 2 site",
+          "url": "https://www.fiaformula2.com"
+        }
+      ],
+      "calendar": [
+        {
+          "round": 1,
+          "name": "Melbourne",
+          "location": "Albert Park Circuit, Australia",
+          "date": "2026-03-08"
+        },
+        {
+          "round": 2,
+          "name": "Miami",
+          "location": "Miami International Autodrome, USA",
+          "date": "2026-05-03"
+        },
+        {
+          "round": 3,
+          "name": "Montreal",
+          "location": "Circuit Gilles-Villeneuve, Canada",
+          "date": "2026-05-24"
+        },
+        {
+          "round": 4,
+          "name": "Monaco",
+          "location": "Circuit de Monaco",
+          "date": "2026-06-07"
+        },
+        {
+          "round": 5,
+          "name": "Barcelona",
+          "location": "Circuit de Barcelona-Catalunya, Spain",
+          "date": "2026-06-14"
+        },
+        {
+          "round": 6,
+          "name": "Spielberg",
+          "location": "Red Bull Ring, Austria",
+          "date": "2026-06-28"
+        },
+        {
+          "round": 7,
+          "name": "Silverstone",
+          "location": "Silverstone Circuit, Great Britain",
+          "date": "2026-07-05"
+        },
+        {
+          "round": 8,
+          "name": "Spa-Francorchamps",
+          "location": "Circuit de Spa-Francorchamps, Belgium",
+          "date": "2026-07-19"
+        },
+        {
+          "round": 9,
+          "name": "Budapest",
+          "location": "Hungaroring, Hungary",
+          "date": "2026-07-26"
+        },
+        {
+          "round": 10,
+          "name": "Monza",
+          "location": "Autodromo Nazionale Monza, Italy",
+          "date": "2026-09-06"
+        },
+        {
+          "round": 11,
+          "name": "Madrid",
+          "location": "Madrid, Spain",
+          "date": "2026-09-13"
+        },
+        {
+          "round": 12,
+          "name": "Baku",
+          "location": "Baku City Circuit, Azerbaijan",
+          "date": "2026-09-27"
+        },
+        {
+          "round": 13,
+          "name": "Lusail",
+          "location": "Lusail International Circuit, Qatar",
+          "date": "2026-11-29"
+        },
+        {
+          "round": 14,
+          "name": "Abu Dhabi",
+          "location": "Yas Marina Circuit, UAE",
+          "date": "2026-12-06"
+        }
+      ]
+    },
+    {
+      "id": "f3",
+      "name": "Formula 3",
+      "tagline": "Tomorrow's stars — junior single-seaters on the F1 stage",
+      "accentHex": "FF6B00",
+      "heroImageAsset": "F3Hero",
+      "hasStandings": false,
+      "comingSoon": false,
+      "feeds": [
+        {
+          "name": "Motorsport.com F3",
+          "url": "https://www.motorsport.com/rss/fia-f3/news/"
+        }
+      ],
+      "regulationLinks": [
+        {
+          "title": "Official FIA Formula 3 site",
+          "url": "https://www.fiaformula3.com"
+        }
+      ],
+      "calendar": [
+        {
+          "round": 1,
+          "name": "Melbourne",
+          "location": "Albert Park Circuit, Australia",
+          "date": "2026-03-08"
+        },
+        {
+          "round": 2,
+          "name": "Sakhir",
+          "location": "Bahrain International Circuit",
+          "date": "2026-04-12"
+        },
+        {
+          "round": 3,
+          "name": "Monaco",
+          "location": "Circuit de Monaco",
+          "date": "2026-06-07"
+        },
+        {
+          "round": 4,
+          "name": "Barcelona",
+          "location": "Circuit de Barcelona-Catalunya, Spain",
+          "date": "2026-06-14"
+        },
+        {
+          "round": 5,
+          "name": "Spielberg",
+          "location": "Red Bull Ring, Austria",
+          "date": "2026-06-28"
+        },
+        {
+          "round": 6,
+          "name": "Silverstone",
+          "location": "Silverstone Circuit, Great Britain",
+          "date": "2026-07-05"
+        },
+        {
+          "round": 7,
+          "name": "Spa-Francorchamps",
+          "location": "Circuit de Spa-Francorchamps, Belgium",
+          "date": "2026-07-19"
+        },
+        {
+          "round": 8,
+          "name": "Budapest",
+          "location": "Hungaroring, Hungary",
+          "date": "2026-07-26"
+        },
+        {
+          "round": 9,
+          "name": "Monza",
+          "location": "Autodromo Nazionale Monza, Italy",
+          "date": "2026-09-06"
+        },
+        {
+          "round": 10,
+          "name": "Madrid",
+          "location": "Madrid, Spain",
+          "date": "2026-09-13"
+        }
+      ]
+    },
+    {
+      "id": "wec",
+      "name": "World Endurance Championship",
+      "tagline": "Hypercars, Le Mans and round-the-clock racing",
+      "accentHex": "0E7C86",
+      "heroImageAsset": "WECHero",
+      "hasStandings": false,
+      "comingSoon": false,
+      "feeds": [
+        {
+          "name": "Motorsport.com WEC",
+          "url": "https://www.motorsport.com/rss/wec/news/"
+        },
+        {
+          "name": "Motorsport.com Le Mans",
+          "url": "https://www.motorsport.com/rss/lemans/news/"
+        }
+      ],
+      "regulationLinks": [
+        {
+          "title": "Official FIA WEC site",
+          "url": "https://www.fiawec.com"
+        }
+      ],
+      "calendar": [
+        {
+          "round": 1,
+          "name": "Qatar 1812 Km",
+          "location": "Lusail International Circuit, Qatar",
+          "date": "2026-03-28"
+        },
+        {
+          "round": 2,
+          "name": "6 Hours of Imola",
+          "location": "Autodromo Enzo e Dino Ferrari, Italy",
+          "date": "2026-04-19"
+        },
+        {
+          "round": 3,
+          "name": "6 Hours of Spa-Francorchamps",
+          "location": "Circuit de Spa-Francorchamps, Belgium",
+          "date": "2026-05-09"
+        },
+        {
+          "round": 4,
+          "name": "24 Hours of Le Mans",
+          "location": "Circuit de la Sarthe, France",
+          "date": "2026-06-13"
+        },
+        {
+          "round": 5,
+          "name": "6 Hours of São Paulo",
+          "location": "Interlagos, Brazil",
+          "date": "2026-07-12"
+        },
+        {
+          "round": 6,
+          "name": "Lone Star Le Mans",
+          "location": "Circuit of the Americas, USA",
+          "date": "2026-09-06"
+        },
+        {
+          "round": 7,
+          "name": "6 Hours of Fuji",
+          "location": "Fuji Speedway, Japan",
+          "date": "2026-09-27"
+        },
+        {
+          "round": 8,
+          "name": "8 Hours of Bahrain",
+          "location": "Bahrain International Circuit",
+          "date": "2026-11-07"
+        }
+      ]
+    },
+    {
+      "id": "formulae",
+      "name": "Formula E",
+      "tagline": "All-electric racing on city streets worldwide",
+      "accentHex": "00BEC3",
+      "heroImageAsset": "FEHero",
+      "hasStandings": true,
+      "comingSoon": false,
+      "feeds": [
+        {
+          "name": "Motorsport.com Formula E",
+          "url": "https://www.motorsport.com/rss/formula-e/news/"
+        },
+        {
+          "name": "Autosport Formula E",
+          "url": "https://www.autosport.com/rss/formula-e/news/"
+        }
+      ],
+      "regulationLinks": [
+        {
+          "title": "Official Formula E site",
+          "url": "https://www.fiaformulae.com"
+        }
+      ]
+    },
+    {
+      "id": "motogp",
+      "name": "MotoGP",
+      "tagline": "The pinnacle of motorcycle racing — riders, rounds and standings",
+      "accentHex": "D81B60",
+      "heroImageAsset": "MotoGPHero",
+      "hasStandings": true,
+      "comingSoon": false,
+      "feeds": [
+        {
+          "name": "Motorsport.com MotoGP",
+          "url": "https://www.motorsport.com/rss/motogp/news/"
+        },
+        {
+          "name": "Autosport MotoGP",
+          "url": "https://www.autosport.com/rss/motogp/news/"
+        },
+        {
+          "name": "Crash.net MotoGP",
+          "url": "https://www.crash.net/rss/motogp"
+        }
+      ],
+      "regulationLinks": [
+        {
+          "title": "Official MotoGP site",
+          "url": "https://www.motogp.com"
+        }
+      ]
+    },
+    {
+      "id": "porschecup",
+      "name": "Porsche Supercup",
+      "tagline": "One-make 911 racing on the F1 stage",
+      "accentHex": "C89B3C",
+      "heroImageAsset": "PorscheHero",
+      "hasStandings": false,
+      "comingSoon": false,
+      "feeds": [],
+      "regulationLinks": [
+        {
+          "title": "Official Porsche Mobil 1 Supercup site",
+          "url": "https://racing.porsche.com/series/mobil-1-supercup"
+        }
+      ],
+      "calendar": [
+        {
+          "round": 1,
+          "name": "Monaco",
+          "location": "Circuit de Monaco",
+          "date": "2026-06-07"
+        },
+        {
+          "round": 2,
+          "name": "Barcelona",
+          "location": "Circuit de Barcelona-Catalunya, Spain",
+          "date": "2026-06-14"
+        },
+        {
+          "round": 3,
+          "name": "Spielberg",
+          "location": "Red Bull Ring, Austria",
+          "date": "2026-06-28"
+        },
+        {
+          "round": 4,
+          "name": "Spa-Francorchamps",
+          "location": "Circuit de Spa-Francorchamps, Belgium",
+          "date": "2026-07-19"
+        },
+        {
+          "round": 5,
+          "name": "Budapest",
+          "location": "Hungaroring, Hungary",
+          "date": "2026-07-26"
+        },
+        {
+          "round": 6,
+          "name": "Zandvoort",
+          "location": "Circuit Zandvoort, Netherlands",
+          "date": "2026-08-23"
+        },
+        {
+          "round": 7,
+          "name": "Monza (double-header)",
+          "location": "Autodromo Nazionale Monza, Italy",
+          "date": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "cliocup",
+      "name": "Clio Cup Series",
+      "tagline": "Europe's classic one-make hot hatch battle",
+      "accentHex": "EFDF00",
+      "heroImageAsset": "ClioHero",
+      "hasStandings": false,
+      "comingSoon": false,
+      "feeds": [],
+      "regulationLinks": [
+        {
+          "title": "Official Clio Cup Series site",
+          "url": "https://www.cliocup.fr"
+        }
+      ],
+      "calendar": [
+        {
+          "round": 1,
+          "name": "Nogaro",
+          "location": "Circuit Paul Armagnac, France",
+          "date": "2026-04-06"
+        },
+        {
+          "round": 2,
+          "name": "Paul Ricard",
+          "location": "Circuit Paul Ricard, France",
+          "date": "2026-04-26"
+        },
+        {
+          "round": 3,
+          "name": "Magny-Cours",
+          "location": "Circuit de Nevers Magny-Cours, France",
+          "date": "2026-05-31"
+        },
+        {
+          "round": 4,
+          "name": "Mugello",
+          "location": "Mugello Circuit, Italy",
+          "date": "2026-07-12"
+        },
+        {
+          "round": 5,
+          "name": "Spa-Francorchamps",
+          "location": "Circuit de Spa-Francorchamps, Belgium",
+          "date": "2026-09-19"
+        },
+        {
+          "round": 6,
+          "name": "Navarra",
+          "location": "Circuito de Navarra, Spain",
+          "date": "2026-10-18"
+        },
+        {
+          "round": 7,
+          "name": "Portimão",
+          "location": "Autódromo Internacional do Algarve, Portugal",
+          "date": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "nascar",
+      "name": "NASCAR Cup Series",
+      "tagline": "Stock car racing — The Chase for the championship",
+      "accentHex": "FFB300",
+      "heroImageAsset": "NASCARHero",
+      "hasStandings": false,
+      "comingSoon": false,
+      "feeds": [
+        {
+          "name": "Motorsport.com NASCAR",
+          "url": "https://www.motorsport.com/rss/nascar-cup/news/"
+        },
+        {
+          "name": "Frontstretch",
+          "url": "https://www.frontstretch.com/feed/"
+        }
+      ],
+      "regulationLinks": [
+        {
+          "title": "Official NASCAR site",
+          "url": "https://www.nascar.com"
+        }
+      ],
+      "calendar": [
+        {
+          "round": 23,
+          "name": "Iowa Corn 350",
+          "location": "Iowa Speedway",
+          "date": "2026-08-09"
+        },
+        {
+          "round": 24,
+          "name": "Cook Out 400",
+          "location": "Richmond Raceway",
+          "date": "2026-08-15"
+        },
+        {
+          "round": 25,
+          "name": "Dollar Tree 301",
+          "location": "New Hampshire Motor Speedway",
+          "date": "2026-08-23"
+        },
+        {
+          "round": 26,
+          "name": "Coke Zero Sugar 400",
+          "location": "Daytona International Speedway",
+          "date": "2026-08-29"
+        },
+        {
+          "round": 27,
+          "name": "Cook Out Southern 500",
+          "location": "Darlington Raceway",
+          "date": "2026-09-06"
+        },
+        {
+          "round": 28,
+          "name": "Enjoy Illinois 300",
+          "location": "World Wide Technology Raceway",
+          "date": "2026-09-13"
+        },
+        {
+          "round": 29,
+          "name": "Bass Pro Shops Night Race",
+          "location": "Bristol Motor Speedway",
+          "date": "2026-09-19"
+        },
+        {
+          "round": 30,
+          "name": "Hollywood Casino 400",
+          "location": "Kansas Speedway",
+          "date": "2026-09-27"
+        },
+        {
+          "round": 31,
+          "name": "South Point 400",
+          "location": "Las Vegas Motor Speedway",
+          "date": "2026-10-04"
+        },
+        {
+          "round": 32,
+          "name": "Bank of America 400",
+          "location": "Charlotte Motor Speedway",
+          "date": "2026-10-11"
+        },
+        {
+          "round": 33,
+          "name": "Freeway Insurance 500",
+          "location": "Phoenix Raceway",
+          "date": "2026-10-18"
+        },
+        {
+          "round": 34,
+          "name": "YellaWood 500",
+          "location": "Talladega Superspeedway",
+          "date": "2026-10-25"
+        },
+        {
+          "round": 35,
+          "name": "Xfinity 500",
+          "location": "Martinsville Speedway",
+          "date": "2026-11-01"
+        },
+        {
+          "round": 36,
+          "name": "Championship Race",
+          "location": "Homestead-Miami Speedway",
+          "date": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "indycar",
+      "name": "IndyCar",
+      "tagline": "American open-wheel racing, from streets to superspeedways",
+      "accentHex": "1565C0",
+      "heroImageAsset": "IndyCarHero",
+      "hasStandings": false,
+      "comingSoon": false,
+      "feeds": [
+        {
+          "name": "Motorsport.com IndyCar",
+          "url": "https://www.motorsport.com/rss/indycar/news/"
+        }
+      ],
+      "regulationLinks": [
+        {
+          "title": "Official IndyCar site",
+          "url": "https://www.indycar.com"
+        }
+      ],
+      "calendar": [
+        {
+          "name": "Grand Prix of Portland",
+          "location": "Portland International Raceway",
+          "date": "2026-08-09"
+        },
+        {
+          "name": "Streets of Markham",
+          "location": "Markham, Ontario",
+          "date": "2026-08-16"
+        },
+        {
+          "name": "Streets of Washington",
+          "location": "Washington, D.C.",
+          "date": "2026-08-23"
+        },
+        {
+          "name": "Milwaukee Mile — Race 1",
+          "location": "Milwaukee Mile, Wisconsin",
+          "date": "2026-08-29"
+        },
+        {
+          "name": "Milwaukee Mile — Race 2",
+          "location": "Milwaukee Mile, Wisconsin",
+          "date": "2026-08-30"
+        },
+        {
+          "name": "Season Finale",
+          "location": "WeatherTech Raceway Laguna Seca",
+          "date": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "nhra",
+      "name": "NHRA Drag Racing",
+      "tagline": "11,000 horsepower, four seconds at a time",
+      "accentHex": "E53935",
+      "heroImageAsset": "NHRAHero",
+      "hasStandings": false,
+      "comingSoon": false,
+      "feeds": [
+        {
+          "name": "Motorsport.com NHRA",
+          "url": "https://www.motorsport.com/rss/nhra/news/"
+        }
+      ],
+      "regulationLinks": [
+        {
+          "title": "Official NHRA site",
+          "url": "https://www.nhra.com"
+        }
+      ],
+      "calendar": [
+        {
+          "name": "Brainerd Nationals",
+          "location": "Brainerd International Raceway, Minnesota",
+          "date": "2026-08-23"
+        },
+        {
+          "name": "U.S. Nationals",
+          "location": "Lucas Oil Indianapolis Raceway Park",
+          "date": "2026-09-07"
+        },
+        {
+          "name": "Great Lakes Nationals",
+          "location": "U.S. 131 Motorsports Park, Michigan",
+          "date": "2026-09-20"
+        },
+        {
+          "name": "Nationals at The Rock",
+          "location": "Rockingham Dragway, North Carolina",
+          "date": "2026-09-27"
+        },
+        {
+          "name": "Midwest Nationals",
+          "location": "World Wide Technology Raceway, Illinois",
+          "date": "2026-10-04"
+        },
+        {
+          "name": "Texas FallNationals",
+          "location": "Texas Motorplex, Ennis",
+          "date": "2026-10-18"
+        },
+        {
+          "name": "Las Vegas Nationals",
+          "location": "Las Vegas Motor Speedway",
+          "date": "2026-11-01"
+        },
+        {
+          "name": "NHRA Finals",
+          "location": "Pomona Dragstrip, California",
+          "date": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "imsa",
+      "name": "IMSA SportsCar Championship",
+      "tagline": "American endurance racing — prototypes to Petit Le Mans",
+      "accentHex": "2E7D32",
+      "heroImageAsset": "IMSAHero",
+      "hasStandings": false,
+      "comingSoon": false,
+      "feeds": [
+        {
+          "name": "Motorsport.com IMSA",
+          "url": "https://www.motorsport.com/rss/imsa/news/"
+        }
+      ],
+      "regulationLinks": [
+        {
+          "title": "Official IMSA site",
+          "url": "https://www.imsa.com"
+        }
+      ],
+      "calendar": [
+        {
+          "round": 8,
+          "name": "SportsCar Endurance Grand Prix",
+          "location": "Road America, Wisconsin",
+          "date": "2026-08-02"
+        },
+        {
+          "round": 9,
+          "name": "Michelin GT Challenge",
+          "location": "Virginia International Raceway",
+          "date": "2026-08-23"
+        },
+        {
+          "round": 10,
+          "name": "Battle on the Bricks",
+          "location": "Indianapolis Motor Speedway",
+          "date": "2026-09-20"
+        },
+        {
+          "round": 11,
+          "name": "Motul Petit Le Mans",
+          "location": "Michelin Raceway Road Atlanta",
+          "date": "2026-10-03"
+        }
+      ]
+    }
+  ]
+}

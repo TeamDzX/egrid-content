@@ -1,0 +1,366 @@
+{
+  "version": 1,
+  "_comment": "Teams, constructors and manufacturers. PUBLIC FACTUAL DATA ONLY - no logos, no photography, no marketing copy. Facts are not copyrightable; images and marks are. 'series' holds governing-body technical regulations (identical for every competitor, so stated once per channel); 'teams' holds per-entrant factual profiles. Leave a field out rather than guessing it.",
+  "series": [
+    {
+      "channelID": "f1",
+      "title": "Technical Regulations",
+      "season": "2026",
+      "entries": [
+        {
+          "label": "Minimum weight",
+          "value": "768 kg"
+        },
+        {
+          "label": "Wheelbase",
+          "value": "3,400 mm (max)"
+        },
+        {
+          "label": "Width",
+          "value": "1,900 mm (max)"
+        },
+        {
+          "label": "Engine",
+          "value": "1.6 L turbocharged V6"
+        },
+        {
+          "label": "ICE output",
+          "value": "400 kW"
+        },
+        {
+          "label": "Electrical output",
+          "value": "350 kW"
+        },
+        {
+          "label": "Power split",
+          "value": "Roughly 50/50 combustion to electric"
+        },
+        {
+          "label": "Fuel",
+          "value": "100% advanced sustainable"
+        },
+        {
+          "label": "Aerodynamics",
+          "value": "Active, with Manual Override boost"
+        },
+        {
+          "label": "Tyre supplier",
+          "value": "Pirelli (sole supplier)"
+        },
+        {
+          "label": "Dry compounds",
+          "value": "C1 (hardest) to C5 (softest)"
+        },
+        {
+          "label": "Per weekend",
+          "value": "Three of the five dry compounds nominated"
+        },
+        {
+          "label": "Race requirement",
+          "value": "At least two different slick compounds in a dry race"
+        }
+      ],
+      "footnote": "2026 regulations: the MGU-H is dropped, MGU-K output rises from 120 kW to 350 kW, and minimum weight falls 32 kg from the 2025 limit of 800 kg. Pirelli dropped the planned C6 compound for 2026: the performance gap to C5 was too small to justify it."
+    },
+    {
+      "channelID": "motogp",
+      "title": "Technical Regulations",
+      "season": "2026",
+      "entries": [
+        {
+          "label": "Engine",
+          "value": "1,000 cc four-stroke"
+        },
+        {
+          "label": "Cylinders",
+          "value": "4 maximum"
+        },
+        {
+          "label": "Maximum bore",
+          "value": "81 mm"
+        },
+        {
+          "label": "Minimum weight",
+          "value": "157 kg"
+        },
+        {
+          "label": "Engine allocation",
+          "value": "7 per rider (8 for a 21-22 round season)"
+        },
+        {
+          "label": "Tyre supplier",
+          "value": "Michelin (sole supplier)"
+        }
+      ],
+      "footnote": "Engine specification is frozen for 2026: manufacturers must use their 2025 engines, with exceptions only for safety, reliability or Rank D concessions. Displacement drops to 850 cc for 2027."
+    }
+  ],
+  "teams": [
+    {
+      "id": "ferrari",
+      "name": "Ferrari",
+      "matchKeys": [
+        "ferrari"
+      ],
+      "channelIDs": [
+        "f1"
+      ],
+      "country": "Italy",
+      "base": "Maranello, Italy",
+      "firstSeason": "1950",
+      "notes": "Scuderia Ferrari is the only team to have competed in every season of the Formula 1 World Championship since it began in 1950, and builds both its own chassis and power unit.",
+      "facts": [
+        "The longest-running team in Formula 1, present at every world championship season since 1950.",
+        "Holds more constructors' championships than any other team.",
+        "One of only a handful of teams that designs and builds its own power unit as well as its chassis."
+      ],
+      "chassis": "SF-26",
+      "powerUnit": "Ferrari"
+    },
+    {
+      "id": "mercedes",
+      "name": "Mercedes",
+      "matchKeys": [
+        "mercedes"
+      ],
+      "channelIDs": [
+        "f1"
+      ],
+      "country": "Germany",
+      "base": "Brackley, England (chassis); Brixworth, England (power unit)",
+      "firstSeason": "1954 (works entry); returned 2010",
+      "notes": "Mercedes competed briefly in the 1950s before withdrawing from motorsport, returning as a works team in 2010 after buying the Brawn operation. Chassis and power unit are developed at separate sites in England.",
+      "facts": [
+        "Won eight consecutive constructors' championships from 2014 to 2021.",
+        "Supplies power units to customer teams as well as its own works entry."
+      ],
+      "chassis": "F1 W17",
+      "powerUnit": "Mercedes"
+    },
+    {
+      "id": "mclaren",
+      "name": "McLaren",
+      "matchKeys": [
+        "mclaren"
+      ],
+      "channelIDs": [
+        "f1"
+      ],
+      "country": "United Kingdom",
+      "base": "Woking, England",
+      "firstSeason": "1966",
+      "notes": "Founded by New Zealand driver Bruce McLaren, the team has competed in Formula 1 since 1966 and is one of the sport's most successful constructors.",
+      "facts": [
+        "The second-oldest team on the current grid after Ferrari.",
+        "Has also won the Indianapolis 500 and the 24 Hours of Le Mans."
+      ],
+      "chassis": "MCL40",
+      "powerUnit": "Mercedes"
+    },
+    {
+      "id": "redbull",
+      "name": "Red Bull",
+      "matchKeys": [
+        "red bull"
+      ],
+      "channelIDs": [
+        "f1"
+      ],
+      "country": "Austria",
+      "base": "Milton Keynes, England",
+      "firstSeason": "2005",
+      "notes": "Red Bull Racing entered Formula 1 in 2005 after buying the Jaguar team, and has since become one of the sport's dominant constructors.",
+      "facts": [
+        "Won four consecutive drivers' and constructors' titles from 2010 to 2013.",
+        "Operates a second team, giving the group two entries on the grid."
+      ],
+      "chassis": "RB22",
+      "powerUnit": "Red Bull Ford"
+    },
+    {
+      "id": "williams",
+      "name": "Williams",
+      "matchKeys": [
+        "williams"
+      ],
+      "channelIDs": [
+        "f1"
+      ],
+      "country": "United Kingdom",
+      "base": "Grove, England",
+      "firstSeason": "1977",
+      "notes": "Founded by Frank Williams and Patrick Head, Williams is one of the most successful constructors in the sport's history and remains an independent chassis builder.",
+      "facts": [
+        "One of only a few teams to have won multiple constructors' championships.",
+        "Remained family-run for more than four decades before its sale in 2020."
+      ],
+      "chassis": "FW48",
+      "powerUnit": "Mercedes"
+    },
+    {
+      "id": "astonmartin",
+      "name": "Aston Martin",
+      "matchKeys": [
+        "aston martin"
+      ],
+      "channelIDs": [
+        "f1"
+      ],
+      "country": "United Kingdom",
+      "base": "Silverstone, England",
+      "firstSeason": "2021 (current guise)",
+      "notes": "The Silverstone-based operation has raced under several names, competing as Aston Martin since 2021 from a purpose-built factory adjacent to the circuit.",
+      "powerUnit": "Honda"
+    },
+    {
+      "id": "alpine",
+      "name": "Alpine",
+      "matchKeys": [
+        "alpine"
+      ],
+      "channelIDs": [
+        "f1"
+      ],
+      "country": "France",
+      "base": "Enstone, England",
+      "firstSeason": "2021 (current guise)",
+      "notes": "The Enstone team races under the Alpine name, the sports car brand of the Renault group, and has competed under various identities since the 1980s.",
+      "powerUnit": "Mercedes"
+    },
+    {
+      "id": "haas",
+      "name": "Haas",
+      "matchKeys": [
+        "haas"
+      ],
+      "channelIDs": [
+        "f1"
+      ],
+      "country": "United States",
+      "base": "Kannapolis, North Carolina, USA",
+      "firstSeason": "2016",
+      "notes": "The only American-licensed team on the grid, Haas runs a lean operation that buys as many permitted components from suppliers as the regulations allow.",
+      "powerUnit": "Ferrari"
+    },
+    {
+      "id": "audi",
+      "name": "Audi",
+      "matchKeys": [
+        "audi"
+      ],
+      "channelIDs": [
+        "f1"
+      ],
+      "country": "Germany",
+      "firstSeason": "2026",
+      "notes": "Audi entered Formula 1 as a works constructor in 2026, taking over the Sauber operation and building its own power unit for the new regulations.",
+      "chassis": "R26",
+      "powerUnit": "Audi"
+    },
+    {
+      "id": "ducati",
+      "name": "Ducati",
+      "matchKeys": [
+        "ducati"
+      ],
+      "channelIDs": [
+        "motogp"
+      ],
+      "country": "Italy",
+      "base": "Borgo Panigale, Bologna, Italy",
+      "notes": "Ducati Corse builds the Desmosedici, distinguished by its desmodromic valve system, and supplies satellite teams alongside its factory entry.",
+      "facts": [
+        "The only manufacturer racing a desmodromic valve engine in MotoGP.",
+        "Supplies machinery to several independent teams as well as its factory squad."
+      ]
+    },
+    {
+      "id": "aprilia",
+      "name": "Aprilia",
+      "matchKeys": [
+        "aprilia"
+      ],
+      "channelIDs": [
+        "motogp"
+      ],
+      "country": "Italy",
+      "base": "Noale, Italy",
+      "notes": "Aprilia Racing runs the RS-GP from its base at Noale in northern Italy, and is among the most successful manufacturers in Grand Prix motorcycle racing across all classes."
+    },
+    {
+      "id": "ktm",
+      "name": "KTM",
+      "matchKeys": [
+        "ktm"
+      ],
+      "channelIDs": [
+        "motogp"
+      ],
+      "country": "Austria",
+      "base": "Mattighofen, Austria",
+      "notes": "KTM is the only manufacturer on the MotoGP grid using a steel trellis frame rather than an aluminium beam chassis, and develops its own WP suspension in-house.",
+      "facts": [
+        "The only MotoGP manufacturer running a steel trellis frame."
+      ]
+    },
+    {
+      "id": "honda",
+      "name": "Honda",
+      "matchKeys": [
+        "honda"
+      ],
+      "channelIDs": [
+        "motogp"
+      ],
+      "country": "Japan",
+      "notes": "Honda Racing Corporation has competed in Grand Prix motorcycle racing since the 1950s and is the most successful manufacturer in the sport's history by race wins."
+    },
+    {
+      "id": "yamaha",
+      "name": "Yamaha",
+      "matchKeys": [
+        "yamaha"
+      ],
+      "channelIDs": [
+        "motogp"
+      ],
+      "country": "Japan",
+      "base": "Iwata, Japan",
+      "notes": "Yamaha races the YZR-M1, long characterised by its inline-four engine and corner-speed handling. For 2026 it holds Rank D concessions, allowing a larger engine allocation."
+    },
+    {
+      "id": "cadillac",
+      "name": "Cadillac",
+      "matchKeys": [
+        "cadillac"
+      ],
+      "channelIDs": [
+        "f1"
+      ],
+      "country": "United States",
+      "firstSeason": "2026",
+      "chassis": "MAC-01",
+      "powerUnit": "Ferrari",
+      "notes": "Cadillac joined Formula 1 as the eleventh team for 2026, expanding the grid for the first time in a decade. Its chassis designation MAC-01 stands for Mario Andretti Cadillac.",
+      "facts": [
+        "Expanded the Formula 1 grid to eleven teams for 2026, the first new entry in a decade."
+      ]
+    },
+    {
+      "id": "racingbulls",
+      "name": "Racing Bulls",
+      "matchKeys": [
+        "rb f1",
+        "racing bulls",
+        "visa cash app"
+      ],
+      "channelIDs": [
+        "f1"
+      ],
+      "country": "Italy",
+      "base": "Faenza, Italy",
+      "powerUnit": "Red Bull Ford",
+      "notes": "The second team of the Red Bull group, based at Faenza in Italy, historically used to develop drivers for the senior squad."
+    }
+  ]
+}

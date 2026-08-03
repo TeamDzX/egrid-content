@@ -1,0 +1,214 @@
+{
+  "version": 1,
+  "_comment": "Driver and rider biographies, served from the content repo. Deliberately holds only STABLE biographical facts - current points, position and wins come live from the series APIs, so this file does not go stale mid-season. Leave a field out rather than guessing at it.",
+  "drivers": [
+    {
+      "id": "antonelli",
+      "name": "Andrea Kimi Antonelli",
+      "matchKeys": [
+        "antonelli"
+      ],
+      "channelIDs": [
+        "f1"
+      ],
+      "nationality": "Italian",
+      "born": "25 August 2006",
+      "birthplace": "Bologna, Italy",
+      "debut": "Formula 1, 2025 (Mercedes)",
+      "bio": "The son of sportscar racer Marco Antonelli, Kimi Antonelli joined the Mercedes junior programme in 2019 at the age of twelve and climbed the single-seater ladder at remarkable speed. He was promoted straight to the Mercedes Formula 1 team for 2025 as Lewis Hamilton's replacement, one of the youngest drivers ever to take a seat at a front-running team.",
+      "highlights": [
+        "FIA Karting European Champion in the OK class, 2020",
+        "Double Formula 4 champion in 2022, winning both the Italian and German titles",
+        "Formula Regional Middle East and Formula Regional European champion in 2023",
+        "Race winner in Formula 2 with Prema in 2024",
+        "First Italian winner of a Formula 1 Grand Prix since 2006, at Shanghai in March 2026"
+      ]
+    },
+    {
+      "id": "hamilton",
+      "name": "Lewis Hamilton",
+      "matchKeys": [
+        "hamilton"
+      ],
+      "channelIDs": [
+        "f1"
+      ],
+      "nationality": "British",
+      "born": "7 January 1985",
+      "birthplace": "Stevenage, England",
+      "titles": "7 Formula 1 World Championships",
+      "debut": "Formula 1, 2007 (McLaren)",
+      "bio": "One of the most successful drivers in the history of the sport, Lewis Hamilton reached Formula 1 with McLaren in 2007 and won the title in only his second season. After a long and dominant spell at Mercedes he moved to Ferrari in 2025, joining the most famous team in motorsport at the age of forty.",
+      "highlights": [
+        "World Champion in 2008, 2014, 2015, 2017, 2018, 2019 and 2020",
+        "Won on debut weekend podiums and finished runner-up in his rookie season by a single point",
+        "Holds the record for most career pole positions",
+        "Moved from Mercedes to Ferrari for the 2025 season"
+      ]
+    },
+    {
+      "id": "russell",
+      "name": "George Russell",
+      "matchKeys": [
+        "russell"
+      ],
+      "channelIDs": [
+        "f1"
+      ],
+      "nationality": "British",
+      "born": "15 February 1998",
+      "birthplace": "King's Lynn, England",
+      "debut": "Formula 1, 2019 (Williams)",
+      "bio": "George Russell won back-to-back junior titles before spending three seasons rebuilding his reputation in an uncompetitive Williams. Promoted to Mercedes for 2022, he took his maiden Grand Prix victory that same year and has led the team's driver line-up since Lewis Hamilton's departure.",
+      "highlights": [
+        "GP3 Series champion in 2017",
+        "FIA Formula 2 champion in 2018",
+        "First Formula 1 victory at the 2022 Sao Paulo Grand Prix"
+      ]
+    },
+    {
+      "id": "leclerc",
+      "name": "Charles Leclerc",
+      "matchKeys": [
+        "leclerc"
+      ],
+      "channelIDs": [
+        "f1"
+      ],
+      "nationality": "Monegasque",
+      "born": "16 October 1997",
+      "birthplace": "Monte Carlo, Monaco",
+      "debut": "Formula 1, 2018 (Sauber)",
+      "bio": "A product of the Ferrari Driver Academy, Charles Leclerc won titles in GP3 and Formula 2 in consecutive years before a debut season with Sauber earned him a Ferrari seat for 2019. He is renowned for his single-lap pace and has been Ferrari's lead qualifier for much of his time with the team.",
+      "highlights": [
+        "GP3 Series champion in 2016",
+        "FIA Formula 2 champion in 2017 at the first attempt",
+        "Won his home Grand Prix in Monaco, having grown up on those streets"
+      ]
+    },
+    {
+      "id": "norris",
+      "name": "Lando Norris",
+      "matchKeys": [
+        "norris"
+      ],
+      "channelIDs": [
+        "f1"
+      ],
+      "nationality": "British",
+      "born": "13 November 1999",
+      "birthplace": "Bristol, England",
+      "debut": "Formula 1, 2019 (McLaren)",
+      "bio": "Lando Norris joined McLaren in 2019 and grew up alongside the team's return to the front of the grid. After a long run of podium finishes he took his first Grand Prix win at Miami in 2024, and has since been a regular contender at the sharp end.",
+      "highlights": [
+        "FIA Formula 3 European champion in 2017",
+        "Formula 2 runner-up in 2018 in his rookie season",
+        "First Formula 1 victory at the 2024 Miami Grand Prix",
+        "Formula 1 World Champion in 2025"
+      ],
+      "titles": "1 Formula 1 World Championship"
+    },
+    {
+      "id": "verstappen",
+      "name": "Max Verstappen",
+      "matchKeys": [
+        "verstappen"
+      ],
+      "channelIDs": [
+        "f1"
+      ],
+      "nationality": "Dutch",
+      "born": "30 September 1997",
+      "birthplace": "Hasselt, Belgium",
+      "titles": "4 Formula 1 World Championships",
+      "debut": "Formula 1, 2015 (Toro Rosso)",
+      "bio": "Max Verstappen became the youngest driver ever to start a Formula 1 race when he debuted at seventeen, and the youngest ever winner when he took victory on his first outing for Red Bull in 2016. Four consecutive world titles from 2021 to 2024 established him as the dominant driver of his era.",
+      "highlights": [
+        "World Champion in 2021, 2022, 2023 and 2024",
+        "Youngest driver ever to start a Formula 1 Grand Prix, aged 17",
+        "Won on his Red Bull debut at the 2016 Spanish Grand Prix",
+        "Holds the outright lap record at Silverstone's current configuration"
+      ]
+    },
+    {
+      "id": "martin",
+      "name": "Jorge Martin",
+      "matchKeys": [
+        "martin"
+      ],
+      "channelIDs": [
+        "motogp"
+      ],
+      "nationality": "Spanish",
+      "born": "29 January 1998",
+      "birthplace": "Madrid, Spain",
+      "titles": "MotoGP World Champion, 2024",
+      "bio": "Nicknamed Martinator, Jorge Martin built a reputation as one of the fiercest qualifiers in MotoGP before taking the world title in 2024. He moved to Aprilia as reigning champion, one of the highest-profile transfers in recent Grand Prix motorcycle racing.",
+      "highlights": [
+        "Moto3 World Champion in 2018",
+        "MotoGP World Champion in 2024",
+        "Moved to Aprilia Racing as the reigning champion"
+      ]
+    },
+    {
+      "id": "marquez",
+      "name": "Marc Marquez",
+      "matchKeys": [
+        "marquez"
+      ],
+      "channelIDs": [
+        "motogp"
+      ],
+      "nationality": "Spanish",
+      "born": "17 February 1993",
+      "birthplace": "Cervera, Catalonia, Spain",
+      "titles": "Multiple MotoGP World Championships",
+      "bio": "One of the most decorated riders in Grand Prix motorcycle racing, Marc Marquez won the premier-class title in his rookie season and dominated the category for much of the following decade. A severe arm injury in 2020 interrupted his career, and his return to the front of the field with Ducati is one of the sport's great comeback stories.",
+      "highlights": [
+        "Won the MotoGP world title in his rookie premier-class season, 2013",
+        "World champion in the 125cc and Moto2 categories before stepping up",
+        "Returned to winning ways with Ducati after a career-threatening arm injury"
+      ]
+    },
+    {
+      "id": "ogura",
+      "name": "Ai Ogura",
+      "matchKeys": [
+        "ogura"
+      ],
+      "channelIDs": [
+        "motogp"
+      ],
+      "nationality": "Japanese",
+      "born": "26 January 2001",
+      "birthplace": "Kiyose, Tokyo, Japan",
+      "titles": "Moto2 World Champion, 2024",
+      "bio": "Ai Ogura became the first Japanese rider to win a Grand Prix motorcycle racing world title since 2009 when he took the Moto2 crown in 2024, then stepped up to MotoGP with Trackhouse. A graduate of the Asia Talent Cup, he is the first rider from that programme to reach the premier class.",
+      "highlights": [
+        "Moto2 World Champion in 2024",
+        "First Japanese world champion in Grand Prix motorcycle racing since 2009",
+        "First Asia Talent Cup graduate to reach MotoGP"
+      ]
+    },
+    {
+      "id": "dennis",
+      "name": "Jake Dennis",
+      "matchKeys": [
+        "dennis"
+      ],
+      "channelIDs": [
+        "formulae"
+      ],
+      "nationality": "British",
+      "born": "16 June 1995",
+      "birthplace": "Nuneaton, England",
+      "titles": "Formula E World Champion, 2022-23",
+      "bio": "Jake Dennis came to Formula E from a background in GT and sportscar racing, and won the drivers' title in the 2022-23 season with Avalanche Andretti. He is known for his precision in Formula E's energy-management battles, where saving power at the right moment matters as much as raw speed.",
+      "highlights": [
+        "Formula E World Champion in the 2022-23 season",
+        "Race winner in his rookie Formula E campaign",
+        "Came to single-seater electric racing via GT and sportscar competition"
+      ]
+    }
+  ]
+}
