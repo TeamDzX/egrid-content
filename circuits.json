@@ -951,6 +951,251 @@
         "licenceURL": "https://creativecommons.org/licenses/by-sa/2.5",
         "sourceURL": "https://commons.wikimedia.org/wiki/File:Yas_Marina_Circuit_005.JPG"
       }
+    },
+    {
+      "id": "wrc-monte-carlo",
+      "name": "Rallye Automobile Monte Carlo",
+      "location": "Gap, Provence-Alpes-Côte d'Azur, France",
+      "country": "France",
+      "matchKeys": ["monte carlo"],
+      "channelIDs": ["wrc"],
+      "image": {
+        "url": "images/circuits/wrc-monte-carlo.jpg",
+        "credit": "Iain Cameron from Ellon, Scotland",
+        "licence": "CC BY 2.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/2.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Gr%C3%A9goire_Munster_in_a_Skoda_at_Col_de_Moissi%C3%A8re,_Rallye_Monte-Carlo_2019.jpg"
+      },
+      "facts": [
+        "Run on a mix of tarmac and snow.",
+        "17 special stages covering 339.15 km of competitive running in 2026."
+      ]
+    },
+    {
+      "id": "wrc-sweden",
+      "name": "Rally Sweden",
+      "location": "Umeå, Västerbotten County, Sweden",
+      "country": "Sweden",
+      "matchKeys": ["sweden", "umea"],
+      "channelIDs": ["wrc"],
+      "image": {
+        "url": "images/circuits/wrc-sweden.jpg",
+        "credit": "Cal1",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:KalleRallySweden2020(1).jpg"
+      },
+      "facts": [
+        "Run on snow.",
+        "18 special stages covering 300.66 km of competitive running in 2026."
+      ]
+    },
+    {
+      "id": "wrc-kenya",
+      "name": "Safari Rally Kenya",
+      "location": "Nairobi, Nakuru County, Kenya",
+      "country": "Kenya",
+      "matchKeys": ["safari", "kenya"],
+      "channelIDs": ["wrc"],
+      "image": {
+        "url": "images/circuits/wrc-kenya.jpg",
+        "credit": "Mariusz Bodnar",
+        "licence": "CC BY 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:NAC_Rally_Team_Porsche_911_SC_on_the_way_EAST_AFRICAN_SAFARI_CLASSIC_RALLY_2023.jpg"
+      },
+      "facts": [
+        "Run on gravel.",
+        "20 special stages covering 350.52 km of competitive running in 2026."
+      ]
+    },
+    {
+      "id": "wrc-croatia",
+      "name": "Croatia Rally",
+      "location": "Rijeka, Primorje-Gorski Kotar County, Croatia",
+      "country": "Croatia",
+      "matchKeys": ["croatia", "rijeka"],
+      "channelIDs": ["wrc"],
+      "image": {
+        "url": "images/circuits/wrc-croatia.jpg",
+        "credit": "Dj masch hr",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Croatia_Rally_2016_winners.jpg"
+      },
+      "facts": [
+        "Run on tarmac.",
+        "20 special stages covering 300.28 km of competitive running in 2026."
+      ]
+    },
+    {
+      "id": "wrc-canarias",
+      "name": "Rally Islas Canarias",
+      "location": "Las Palmas, Gran Canaria, Spain",
+      "country": "Spain",
+      "matchKeys": ["canarias", "canary", "gran canaria", "las palmas"],
+      "channelIDs": ["wrc"],
+      "image": {
+        "url": "images/circuits/wrc-canarias.jpg",
+        "credit": "Respinya",
+        "licence": "CC BY 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Kalle_ROVANPER%C3%84_-_Rally_Islas_Canarias_2025.jpg"
+      },
+      "facts": [
+        "Run on tarmac.",
+        "18 special stages covering 322.04 km of competitive running in 2026."
+      ]
+    },
+    {
+      "id": "wrc-portugal",
+      "name": "Rally de Portugal",
+      "location": "Matosinhos, Porto, Portugal",
+      "country": "Portugal",
+      "matchKeys": ["portugal", "matosinhos"],
+      "channelIDs": ["wrc"],
+      "image": {
+        "url": "images/circuits/wrc-portugal.jpg",
+        "credit": "ŠMotorsport",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Rally_de_Portugal_2019_-_%C5%A0KODA_FABIA_Rally2_evo.jpg"
+      },
+      "facts": [
+        "Run on gravel.",
+        "23 special stages covering 344.91 km of competitive running in 2026."
+      ]
+    },
+    {
+      "id": "wrc-japan",
+      "name": "Rally Japan",
+      "location": "Toyota, Aichi, Japan",
+      "country": "Japan",
+      "matchKeys": ["japan", "aichi"],
+      "channelIDs": ["wrc"],
+      "facts": [
+        "Run on tarmac.",
+        "20 special stages covering 302.82 km of competitive running in 2026."
+      ]
+    },
+    {
+      "id": "wrc-greece",
+      "name": "Acropolis Rally Greece",
+      "location": "Loutraki, Corinthia, Greece",
+      "country": "Greece",
+      "matchKeys": ["acropolis", "greece", "loutraki"],
+      "channelIDs": ["wrc"],
+      "image": {
+        "url": "images/circuits/wrc-greece.jpg",
+        "credit": "Arnautova Lina",
+        "licence": "CC BY-SA 3.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9_%D0%9D%D0%BE%D0%B2%D0%B8%D0%BA%D0%BE%D0%B2_%D0%BD%D0%B0_%D0%A0%D0%B0%D0%BB%D0%BB%D0%B8_%D0%90%D0%BA%D1%80%D0%BE%D0%BF%D0%BE%D0%BB%D0%B8%D1%81_2009.jpg"
+      },
+      "facts": [
+        "Run on gravel.",
+        "17 special stages covering 323.31 km of competitive running in 2026."
+      ]
+    },
+    {
+      "id": "wrc-estonia",
+      "name": "Rally Estonia",
+      "location": "Tartu, Estonia",
+      "country": "Estonia",
+      "matchKeys": ["estonia", "tartu"],
+      "channelIDs": ["wrc"],
+      "image": {
+        "url": "images/circuits/wrc-estonia.jpg",
+        "credit": "Kasepats",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Ott_T%C3%A4nak_Rally_Estonia_2021.jpg"
+      },
+      "facts": [
+        "Run on gravel.",
+        "18 special stages covering 301.80 km of competitive running in 2026."
+      ]
+    },
+    {
+      "id": "wrc-finland",
+      "name": "Rally Finland",
+      "location": "Jyväskylä, Central Finland, Finland",
+      "country": "Finland",
+      "matchKeys": ["finland", "jyvaskyla"],
+      "channelIDs": ["wrc"],
+      "image": {
+        "url": "images/circuits/wrc-finland.jpg",
+        "credit": "Antti Leppänen",
+        "licence": "CC BY 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Pierre-Louis_Loubet_Rally_Finland_2018_Ruuhim%C3%A4ki.JPG"
+      },
+      "facts": [
+        "Run on gravel.",
+        "20 special stages covering 316.60 km of competitive running in 2026."
+      ]
+    },
+    {
+      "id": "wrc-paraguay",
+      "name": "Rally del Paraguay",
+      "location": "Encarnación, Itapúa, Paraguay",
+      "country": "Paraguay",
+      "matchKeys": ["paraguay", "encarnacion"],
+      "channelIDs": ["wrc"],
+      "facts": [
+        "Run on gravel.",
+        "22 special stages covering 358.88 km of competitive running in 2026."
+      ]
+    },
+    {
+      "id": "wrc-chile",
+      "name": "Rally Chile",
+      "location": "Concepción, Biobío, Chile",
+      "country": "Chile",
+      "matchKeys": ["chile", "concepcion"],
+      "channelIDs": ["wrc"],
+      "image": {
+        "url": "images/circuits/wrc-chile.jpg",
+        "credit": "Camilagsm",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Ignacio_Gardiol_y_Ruben_Garcia_en_el_Rally_Mobil_Chille_Bio_Bio_-_WRC_Concepcion_Chile_2.jpg"
+      },
+      "facts": [
+        "Run on gravel.",
+        "16 special stages covering 311.70 km of competitive running in 2026."
+      ]
+    },
+    {
+      "id": "wrc-sardegna",
+      "name": "Rally Italia Sardegna",
+      "location": "Alghero, Sardinia, Italy",
+      "country": "Italy",
+      "matchKeys": ["sardegna", "sardinia", "italia", "alghero"],
+      "channelIDs": ["wrc"],
+      "image": {
+        "url": "images/circuits/wrc-sardegna.jpg",
+        "credit": "Sarah Vessely",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Hyundai_Motorsport_Rally_Sardegna_2.jpg"
+      },
+      "facts": [
+        "Run on gravel.",
+        "17 special stages covering 306.92 km of competitive running in 2026."
+      ]
+    },
+    {
+      "id": "wrc-saudi",
+      "name": "Rally Saudi Arabia",
+      "location": "Jeddah, Mecca Province, Saudi Arabia",
+      "country": "Saudi Arabia",
+      "matchKeys": ["saudi", "jeddah"],
+      "channelIDs": ["wrc"],
+      "facts": [
+        "Run on gravel.",
+        "16 special stages covering 320.34 km of competitive running in 2026."
+      ]
     }
   ]
 }

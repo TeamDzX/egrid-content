@@ -12,7 +12,7 @@ Images are resized to a 1280 px long edge and saved as progressive JPEG at
 quality 82 — sized for a 250 pt header at 3x, not for archival. The originals
 are at the linked source pages.
 
-Regenerate with `AppStore/../mirror` (see `content/README.md`).
+Regenerate the files with `python3 mirror-images.py` (see `README.md`).
 
 | File | Circuit | Credit | Licence | Source |
 |---|---|---|---|---|
@@ -87,6 +87,17 @@ Regenerate with `AppStore/../mirror` (see `content/README.md`).
 | `texas-motorplex.jpg` | Texas Motorplex | Michael Barera | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [source](https://commons.wikimedia.org/wiki/File:Ennis_September_2017_30_(Texas_Motorplex).jpg) |
 | `tokyo-eprix.jpg` | Tokyo Street Circuit | Morio | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [source](https://commons.wikimedia.org/wiki/File:Tokyo_Street_Circuit_turn_9_-_turn10_2024_Tokyo_e-Prix.jpg) |
 | `vir.jpg` | Virginia International Raceway | Tech. Sgt. Ryan Conroy | Public domain | [source](https://commons.wikimedia.org/wiki/File:Air_Force_major_makes_professional_racing_debut_(11).jpg) |
+| `wrc-canarias.jpg` | Rally Islas Canarias | Respinya | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [source](https://commons.wikimedia.org/wiki/File:Kalle_ROVANPER%C3%84_-_Rally_Islas_Canarias_2025.jpg) |
+| `wrc-chile.jpg` | Rally Chile | Camilagsm | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [source](https://commons.wikimedia.org/wiki/File:Ignacio_Gardiol_y_Ruben_Garcia_en_el_Rally_Mobil_Chille_Bio_Bio_-_WRC_Concepcion_Chile_2.jpg) |
+| `wrc-croatia.jpg` | Croatia Rally | Dj masch hr | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [source](https://commons.wikimedia.org/wiki/File:Croatia_Rally_2016_winners.jpg) |
+| `wrc-estonia.jpg` | Rally Estonia | Kasepats | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [source](https://commons.wikimedia.org/wiki/File:Ott_T%C3%A4nak_Rally_Estonia_2021.jpg) |
+| `wrc-finland.jpg` | Rally Finland | Antti Leppänen | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [source](https://commons.wikimedia.org/wiki/File:Pierre-Louis_Loubet_Rally_Finland_2018_Ruuhim%C3%A4ki.JPG) |
+| `wrc-greece.jpg` | Acropolis Rally Greece | Arnautova Lina | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [source](https://commons.wikimedia.org/wiki/File:%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9_%D0%9D%D0%BE%D0%B2%D0%B8%D0%BA%D0%BE%D0%B2_%D0%BD%D0%B0_%D0%A0%D0%B0%D0%BB%D0%BB%D0%B8_%D0%90%D0%BA%D1%80%D0%BE%D0%BF%D0%BE%D0%BB%D0%B8%D1%81_2009.jpg) |
+| `wrc-kenya.jpg` | Safari Rally Kenya | Mariusz Bodnar | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [source](https://commons.wikimedia.org/wiki/File:NAC_Rally_Team_Porsche_911_SC_on_the_way_EAST_AFRICAN_SAFARI_CLASSIC_RALLY_2023.jpg) |
+| `wrc-monte-carlo.jpg` | Rallye Automobile Monte Carlo | Iain Cameron from Ellon, Scotland | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [source](https://commons.wikimedia.org/wiki/File:Gr%C3%A9goire_Munster_in_a_Skoda_at_Col_de_Moissi%C3%A8re,_Rallye_Monte-Carlo_2019.jpg) |
+| `wrc-portugal.jpg` | Rally de Portugal | ŠMotorsport | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [source](https://commons.wikimedia.org/wiki/File:Rally_de_Portugal_2019_-_%C5%A0KODA_FABIA_Rally2_evo.jpg) |
+| `wrc-sardegna.jpg` | Rally Italia Sardegna | Sarah Vessely | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [source](https://commons.wikimedia.org/wiki/File:Hyundai_Motorsport_Rally_Sardegna_2.jpg) |
+| `wrc-sweden.jpg` | Rally Sweden | Cal1 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [source](https://commons.wikimedia.org/wiki/File:KalleRallySweden2020(1).jpg) |
 | `wwt-raceway.jpg` | World Wide Technology Raceway | Copefan08 | Public domain | [source](https://commons.wikimedia.org/wiki/File:2010_Gateway1_NNS_Edwards_Keselowski_accident.jpg) |
 | `yas-marina.jpg` | Yas Marina Circuit | Nepenthes | [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5) | [source](https://commons.wikimedia.org/wiki/File:Yas_Marina_Circuit_005.JPG) |
 | `zandvoort.jpg` | Circuit Zandvoort | dronepicr | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [source](https://commons.wikimedia.org/wiki/File:Luftbild_der_Circuit_Park_Zandvoort_Rennstrecke_Formel_1_(46940306055).jpg) |

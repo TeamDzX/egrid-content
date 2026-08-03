@@ -113,6 +113,32 @@ lap record. That is deliberate: the key-figures card is hidden entirely unless
 at least one fact is present, so a photo-only entry looks finished rather than
 broken. Add facts only where you can verify them.
 
+### Rally rounds (`wrc-*`)
+
+The WRC's fourteen rounds are in here too, because a rally needs the same thing
+a circuit does — a photo and a location. They differ in two ways:
+
+- **All of them are scoped `"channelIDs": ["wrc"]`,** without exception. A
+  rally's keys are necessarily loose (`"sweden"`, `"japan"`, `"chile"`), and
+  scoping makes that safe: those keys can only ever be tested against a WRC
+  round, so they cannot reach another series' race.
+- **They carry no `lengthKm`, `corners` or `lapRecord`.** A rally has no lap,
+  and the app labels that field "Length", which for 339 km of special stages
+  across four days would read as nonsense. Route distance and stage count go in
+  `facts`, where they can be stated in full: *"17 special stages covering
+  339.15 km of competitive running in 2026."*
+
+Because the WRC calendar comes from a live API, the exact event names the app
+sees are whatever that API publishes — usually sponsor-prefixed
+("Secto Rally Finland", "Vodafone Rally de Portugal"). Substring keys handle
+those, but if a rally stops matching, check the name the API actually returns
+before rewriting anything.
+
+Three rounds — Japan, Paraguay and Saudi Arabia — have entries but no photo.
+Nothing on Commons could be confirmed as those events (Japan's category is
+mostly auto-show display cars; the other two are too new to have one). They
+still match, so they still get their location and facts.
+
 Optional fields: `lengthKm`, `corners`, `firstHeld`, `lapRecord`, `overview`,
 `facts`, `trackPath`/`viewBox`, `image`. A race with no matching entry simply
 shows "No track guide for this circuit yet."
