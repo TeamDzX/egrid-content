@@ -4,16 +4,54 @@ These files drive the E-Grid app's catalogue and editorial content. **Editing
 them does not require an App Store submission.** The app fetches them at launch;
 the copies bundled inside the app are the offline/first-launch fallback.
 
-Served from the `main` branch of this repo, which the app reads at:
+## Two branches: edit on `main`, serve from `live`
+
+Both apps read the **`live`** branch, never `main`:
 
 ```
-https://raw.githubusercontent.com/TeamDzX/egrid-content/main/<file>
+https://raw.githubusercontent.com/TeamDzX/egrid-content/live/<file>
 ```
 
-The repo must stay **public** — the app fetches these unauthenticated. If the
-base URL ever changes (a rename, or a transfer to an organisation), update
-`ContentService.remoteBase` in `EGrid/Services/ContentService.swift`; that one
-constant controls every file here.
+`main` is where edits land. `live` is what iOS and Android actually fetch, and
+it only moves when you promote it. There is no staged rollout for a file served
+off a CDN — without this gate a single bad commit reaches every installed client
+on both platforms within minutes, and the only way back is another commit.
+
+**To publish an edit:**
+
+```bash
+git checkout main            # edit, commit, push as normal
+git push origin main
+
+# then, once you have actually looked at it:
+git checkout live
+git merge --ff-only main
+git push origin live
+git checkout main
+```
+
+`--ff-only` is deliberate: it refuses if `live` has drifted, rather than making
+a merge commit that serves a state `main` was never in.
+
+To roll back, point `live` at the last good commit and force-push it — the apps
+pick it up on their next launch, no store submission involved:
+
+```bash
+git checkout live && git reset --hard <good-sha> && git push --force origin live
+```
+
+Both apps ship bundled copies of every JSON file, so if `live` is missing or a
+fetch 404s they fall back to the bundled content rather than showing nothing.
+That makes a typo in the branch name a silent staleness bug, not a crash —
+worth knowing when content changes appear not to land.
+
+The repo must stay **public** — the apps fetch these unauthenticated. The base
+URL lives in exactly two constants, and they must agree:
+
+| App | Constant |
+|---|---|
+| iOS | `ContentService.remoteBase` in `EGrid/Services/ContentService.swift` |
+| Android | `ContentRepository.REMOTE_BASE` in `data/ContentRepository.kt` |
 
 ## Licensing
 
@@ -30,9 +68,6 @@ Not uniformly licensed, so please read before reusing:
 
 E-Grid is not affiliated with, endorsed by, or connected to any championship,
 team or governing body named in these files.
-
-If that base URL changes, update `ContentService.remoteBase` in
-`EGrid/Services/ContentService.swift` — that one constant controls all three.
 
 ## Golden rule
 
