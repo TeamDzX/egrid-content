@@ -20,7 +20,7 @@
         },
         {
           "name": "The Race F1",
-          "url": "https://www.the-race.com/formula-1/feed/"
+          "url": "https://www.the-race.com/category/formula-1/feed/"
         }
       ],
       "regulationLinks": [
@@ -60,6 +60,93 @@
         {
           "title": "FIA WRC Sporting Regulations",
           "url": "https://www.fia.com/regulation/category/112"
+        }
+      ],
+      "_calendar_comment": "Hand-maintained because api.wrc.com stopped resolving in 2026 - its CloudFront distribution serves no address records at all, so WRCDataService returns nothing and this is the only calendar the apps have. Dates are each rally's FINAL day, which is the convention every static calendar here follows and what the round-day countdown reads. Cross-checked against Wikipedia and motorsport-calendars.com; where sources disagreed on a start day they agreed on the finish.",
+      "calendar": [
+        {
+          "round": 1,
+          "name": "Rallye Automobile Monte Carlo",
+          "location": "Gap, France",
+          "date": "2026-01-25"
+        },
+        {
+          "round": 2,
+          "name": "Rally Sweden",
+          "location": "Umea, Sweden",
+          "date": "2026-02-15"
+        },
+        {
+          "round": 3,
+          "name": "Safari Rally Kenya",
+          "location": "Nairobi, Kenya",
+          "date": "2026-03-15"
+        },
+        {
+          "round": 4,
+          "name": "Croatia Rally",
+          "location": "Rijeka, Croatia",
+          "date": "2026-04-12"
+        },
+        {
+          "round": 5,
+          "name": "Rally Islas Canarias",
+          "location": "Las Palmas, Spain",
+          "date": "2026-04-26"
+        },
+        {
+          "round": 6,
+          "name": "Rally de Portugal",
+          "location": "Matosinhos, Portugal",
+          "date": "2026-05-10"
+        },
+        {
+          "round": 7,
+          "name": "Rally Japan",
+          "location": "Toyota, Aichi, Japan",
+          "date": "2026-05-31"
+        },
+        {
+          "round": 8,
+          "name": "Acropolis Rally Greece",
+          "location": "Loutraki, Greece",
+          "date": "2026-06-28"
+        },
+        {
+          "round": 9,
+          "name": "Rally Estonia",
+          "location": "Tartu, Estonia",
+          "date": "2026-07-19"
+        },
+        {
+          "round": 10,
+          "name": "Rally Finland",
+          "location": "Jyvaskyla, Finland",
+          "date": "2026-08-02"
+        },
+        {
+          "round": 11,
+          "name": "Rally del Paraguay",
+          "location": "Encarnacion, Paraguay",
+          "date": "2026-08-30"
+        },
+        {
+          "round": 12,
+          "name": "Rally Chile",
+          "location": "Concepcion, Chile",
+          "date": "2026-09-13"
+        },
+        {
+          "round": 13,
+          "name": "Rally Italia Sardegna",
+          "location": "Alghero, Italy",
+          "date": "2026-10-04"
+        },
+        {
+          "round": 14,
+          "name": "Rally Saudi Arabia",
+          "location": "Jeddah, Saudi Arabia",
+          "date": "2026-11-14"
         }
       ]
     },
@@ -516,8 +603,8 @@
           "url": "https://www.motorsport.com/rss/nascar-cup/news/"
         },
         {
-          "name": "Frontstretch",
-          "url": "https://www.frontstretch.com/feed/"
+          "name": "Autosport NASCAR",
+          "url": "https://www.autosport.com/rss/nascar/news/"
         }
       ],
       "regulationLinks": [
