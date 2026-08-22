@@ -40,6 +40,7 @@
       "tagline": "Rally calendar, results and news from the stages",
       "accentHex": "1E88E5",
       "heroImageAsset": "WRCHero",
+      "venueLabel": "Rally",
       "hasStandings": false,
       "comingSoon": false,
       "feeds": [
