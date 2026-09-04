@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-04T23:37:08Z",
+  "editions": [
+    {
+      "id": "2026-09-04-preview",
+      "kind": "preview",
+      "title": "This weekend in motorsport",
+      "dateRange": "4–7 September",
+      "intro": "8 rounds across Formula 1, Formula 2, Formula 3, IndyCar, NASCAR Cup Series, NHRA Drag Racing, Porsche Supercup and World Endurance Championship between 4–7 September.",
+      "publishedAt": "2026-09-04T23:37:08Z",
+      "expiresAt": "2026-09-09T23:37:08Z",
+      "items": [
+        {
+          "channelID": "f1",
+          "channelName": "Formula 1",
+          "headline": "Italian Grand Prix",
+          "detail": "Autodromo Nazionale di Monza, Italy · Sun 6 Sep",
+          "body": "Round 13 of the Formula 1 season. The race starts at 13:00 UTC.",
+          "date": "2026-09-06",
+          "round": 13
+        },
+        {
+          "channelID": "f2",
+          "channelName": "Formula 2",
+          "headline": "Monza",
+          "detail": "Autodromo Nazionale Monza, Italy · Sun 6 Sep",
+          "body": "Round 10 of the Formula 2 season.",
+          "date": "2026-09-06",
+          "round": 10
+        },
+        {
+          "channelID": "f3",
+          "channelName": "Formula 3",
+          "headline": "Monza",
+          "detail": "Autodromo Nazionale Monza, Italy · Sun 6 Sep",
+          "body": "Round 9 of the Formula 3 season.",
+          "date": "2026-09-06",
+          "round": 9
+        },
+        {
+          "channelID": "indycar",
+          "channelName": "IndyCar",
+          "headline": "Season Finale",
+          "detail": "WeatherTech Raceway Laguna Seca · Sun 6 Sep",
+          "body": "This IndyCar round.",
+          "date": "2026-09-06"
+        },
+        {
+          "channelID": "nascar",
+          "channelName": "NASCAR Cup Series",
+          "headline": "Cook Out Southern 500",
+          "detail": "Darlington Raceway · Sun 6 Sep",
+          "body": "Round 27 of the NASCAR Cup Series season.",
+          "date": "2026-09-06",
+          "round": 27
+        },
+        {
+          "channelID": "porschecup",
+          "channelName": "Porsche Supercup",
+          "headline": "Monza (double-header)",
+          "detail": "Autodromo Nazionale Monza, Italy · Sun 6 Sep",
+          "body": "Round 7 of the Porsche Supercup season.",
+          "date": "2026-09-06",
+          "round": 7
+        },
+        {
+          "channelID": "wec",
+          "channelName": "World Endurance Championship",
+          "headline": "Lone Star Le Mans",
+          "detail": "Circuit of the Americas, USA · Sun 6 Sep",
+          "body": "Round 6 of the World Endurance Championship season.",
+          "date": "2026-09-06",
+          "round": 6
+        },
+        {
+          "channelID": "nhra",
+          "channelName": "NHRA Drag Racing",
+          "headline": "U.S. Nationals",
+          "detail": "Lucas Oil Indianapolis Raceway Park · Mon 7 Sep",
+          "body": "This NHRA Drag Racing round.",
+          "date": "2026-09-07"
+        }
+      ]
+    }
+  ]
+}

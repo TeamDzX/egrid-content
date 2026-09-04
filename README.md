@@ -77,6 +77,61 @@ invented circuit length does not.
 
 ---
 
+## `digest.json` — the weekly digest (generated, do not hand-edit)
+
+The card at the top of Home. **This file is written by a robot**, on a
+schedule, straight to `live`:
+
+| When (UTC) | Edition | What it says |
+|---|---|---|
+| Thursday 07:00 | `preview` | Every round of every channel racing between now and Monday |
+| Monday 07:00 | `recap` | What ran over the last seven days, with podiums for F1, MotoGP and Formula E |
+
+The generator is `digest/build_digest.py`, run by the
+`.github/workflows/weekly-digest.yml` action. It reads the same sources the
+apps do — the static calendars in this repo's `channels.json`, Jolpica for F1,
+Pulselive for MotoGP and Formula E — so the digest can never name a round the
+app doesn't know about.
+
+**It is the one file that skips the `main` → `live` gate.** A Thursday preview
+that waits for a human on Friday is worthless, it carries no images or
+licensing, and every fact in it is machine-read from a feed. After pushing
+`live` the action merges `live` back into `main`, so the normal `--ff-only`
+promotion keeps working. If it ever refuses, `main` and `live` have diverged
+on something other than the digest — resolve that on `main` as usual.
+
+### Prose: Claude, or a template
+
+With an `ANTHROPIC_API_KEY` **repository secret** set (Settings → Secrets and
+variables → Actions), the facts are handed to Claude to write a short intro
+and a sentence or two per round. Without it, the script writes a plain
+templated sentence and publishes anyway — a missing key downgrades the
+writing, never the data.
+
+Claude is instructed to use only the facts supplied and nothing else. The
+recap additionally checks its copy back: an item that reads like a result
+for a series whose podium was not published is thrown away for the template.
+The model never sees a results feed directly and cannot introduce a name that
+isn't in the JSON it was given.
+
+### Running it by hand
+
+```bash
+python3 digest/build_digest.py                 # auto: recap on Monday, else preview
+python3 digest/build_digest.py --kind recap --date 2026-07-28   # rehearse a past week
+python3 digest/build_digest.py --no-llm        # templated prose only
+```
+
+The file keeps the last four editions; both apps show only the newest one
+whose `publishedAt` has passed and `expiresAt` has not. Previews expire after
+five days, recaps after four, so a missed run leaves the card blank rather
+than stale. Both apps hide the card when nothing is live.
+
+The **Actions → Weekly digest → Run workflow** button builds an edition on
+demand, with the same `kind` and `date` options.
+
+---
+
 ## `channels.json` — the series catalogue
 
 Adds or changes the channels users can subscribe to.
