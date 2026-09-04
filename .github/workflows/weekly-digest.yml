@@ -1,0 +1,91 @@
+name: Weekly digest
+
+# Builds digest.json twice a week and publishes it straight to `live`.
+#
+# This is the one file that skips the "edit on main, promote to live" gate:
+# it is generated from the same feeds the apps read, it carries no images or
+# licensing, and a Thursday preview that waits for a human on Friday is
+# worthless. After pushing `live`, the job merges `live` back into `main` so
+# the usual `git merge --ff-only main` promotion keeps working.
+#
+# Prose comes from Claude when the ANTHROPIC_API_KEY repository secret is
+# set; without it the script writes plain templated sentences and still
+# publishes. Add the secret under Settings -> Secrets and variables -> Actions.
+
+on:
+  schedule:
+    # Thursday 07:00 UTC — the weekend preview.
+    - cron: "0 7 * * 4"
+    # Monday 07:00 UTC — the recap of the last seven days.
+    - cron: "0 7 * * 1"
+  workflow_dispatch:
+    inputs:
+      kind:
+        description: "Edition to build"
+        type: choice
+        default: auto
+        options: [auto, preview, recap]
+      date:
+        description: "Pretend today is (YYYY-MM-DD), for testing"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-digest
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out live
+        uses: actions/checkout@v4
+        with:
+          ref: live
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install the Anthropic SDK
+        run: python -m pip install --quiet anthropic
+
+      - name: Build the edition
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          set -euo pipefail
+          KIND="${{ github.event.inputs.kind || 'auto' }}"
+          DATE="${{ github.event.inputs.date || '' }}"
+          if [ -n "$DATE" ]; then
+            python3 digest/build_digest.py --kind "$KIND" --date "$DATE"
+          else
+            python3 digest/build_digest.py --kind "$KIND"
+          fi
+          python3 -m json.tool digest.json > /dev/null
+
+      - name: Publish to live, then fold into main
+        run: |
+          set -euo pipefail
+          git config user.name "egrid-digest[bot]"
+          git config user.email "egrid-digest@users.noreply.github.com"
+          if git diff --quiet -- digest.json; then
+            echo "digest.json unchanged; nothing to publish"
+            exit 0
+          fi
+          EDITION=$(python3 -c "import json;print(json.load(open('digest.json'))['editions'][0]['id'])")
+          git add digest.json
+          git commit -m "Digest: $EDITION"
+          git push origin HEAD:live
+
+          # Keep main a superset of live so the manual promotion (a
+          # fast-forward of live onto main) never refuses. Any conflict can
+          # only be in digest.json itself, and the generated copy wins.
+          git fetch origin main
+          git checkout -B main origin/main
+          git merge --no-edit -X theirs live
+          git push origin main
