@@ -498,6 +498,9 @@ def write_with_own_server(rounds: list[Round], kind: str, start: dt.date, end: d
     base = os.environ.get("EGRID_LLM_URL", "").strip().rstrip("/")
     if not base:
         return None
+    if "://" not in base:
+        # A bare hostname in the secret is the natural thing to type.
+        base = "https://" + base
     if not base.endswith("/chat/completions"):
         base = base if base.endswith("/v1") else base + "/v1"
         base += "/chat/completions"
@@ -587,7 +590,11 @@ def write_copy(rounds: list[Round], kind: str, start: dt.date, end: dt.date) -> 
     """Tries the writers in order — your own server first, then Claude — and
     returns None when neither produced anything, so the template stands in."""
     for name, writer in (("own server", write_with_own_server), ("Claude", write_with_claude)):
-        data = writer(rounds, kind, start, end)
+        try:
+            data = writer(rounds, kind, start, end)
+        except Exception as error:  # noqa: BLE001 - a writer must never sink the edition
+            log(f"  {name} writer crashed: {type(error).__name__}: {error}; falling through")
+            continue
         if data is not None:
             return apply_copy(data, rounds, kind, start, end, writer=name)
     log("  no writer available; using templated prose")
