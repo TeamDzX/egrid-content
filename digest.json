@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-06T13:46:14Z",
+  "generatedAt": "2026-09-06T13:51:58Z",
   "editions": [
     {
       "id": "2026-09-06-preview",
@@ -8,8 +8,8 @@
       "title": "This weekend in motorsport",
       "dateRange": "6–7 September",
       "intro": "8 rounds across Formula 1, Formula 2, Formula 3, IndyCar, NASCAR Cup Series, NHRA Drag Racing, Porsche Supercup and World Endurance Championship between 6–7 September.",
-      "publishedAt": "2026-09-06T13:46:14Z",
-      "expiresAt": "2026-09-11T13:46:14Z",
+      "publishedAt": "2026-09-06T13:51:58Z",
+      "expiresAt": "2026-09-11T13:51:58Z",
       "items": [
         {
           "channelID": "f1",
