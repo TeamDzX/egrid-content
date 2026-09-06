@@ -100,13 +100,21 @@ licensing, and every fact in it is machine-read from a feed. After pushing
 promotion keeps working. If it ever refuses, `main` and `live` have diverged
 on something other than the digest — resolve that on `main` as usual.
 
-### Prose: Claude, or a template
+### Prose: your own server, Claude, or a template
 
-With an `ANTHROPIC_API_KEY` **repository secret** set (Settings → Secrets and
-variables → Actions), the facts are handed to Claude to write a short intro
-and a sentence or two per round. Without it, the script writes a plain
-templated sentence and publishes anyway — a missing key downgrades the
-writing, never the data.
+The writer is chosen by which **repository secrets** exist (Settings →
+Secrets and variables → Actions), in this order:
+
+| Secrets | Writer |
+|---|---|
+| `EGRID_LLM_URL`, plus `EGRID_LLM_TOKEN` and `EGRID_LLM_MODEL` as needed | Your own server. Any OpenAI-compatible chat endpoint — Ollama, vLLM, llama.cpp, LM Studio, Open WebUI. The URL may be the host (`https://llm.optidns.uk`), the `/v1` base, or the full `/v1/chat/completions` path. The token goes out as `Authorization: Bearer`. |
+| `ANTHROPIC_API_KEY` | Claude through the Anthropic API. |
+| neither | A plain templated sentence per round. |
+
+If the first choice fails — server down, bad token, a reply that isn't JSON —
+the script falls through to the next and says so in the log. A missing or
+broken writer downgrades the prose, never the data, and the edition always
+publishes.
 
 Claude is instructed to use only the facts supplied and nothing else. The
 recap additionally checks its copy back: an item that reads like a result

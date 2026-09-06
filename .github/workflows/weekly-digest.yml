@@ -8,9 +8,13 @@ name: Weekly digest
 # worthless. After pushing `live`, the job merges `live` back into `main` so
 # the usual `git merge --ff-only main` promotion keeps working.
 #
-# Prose comes from Claude when the ANTHROPIC_API_KEY repository secret is
-# set; without it the script writes plain templated sentences and still
-# publishes. Add the secret under Settings -> Secrets and variables -> Actions.
+# Prose comes from whichever writer has credentials, under Settings ->
+# Secrets and variables -> Actions:
+#   EGRID_LLM_URL / EGRID_LLM_TOKEN / EGRID_LLM_MODEL   your own server (any
+#       OpenAI-compatible chat endpoint) — tried first when the URL is set
+#   ANTHROPIC_API_KEY                                    Claude via the API
+# Without either the script writes plain templated sentences and still
+# publishes.
 
 on:
   schedule:
@@ -56,6 +60,9 @@ jobs:
 
       - name: Build the edition
         env:
+          EGRID_LLM_URL: ${{ secrets.EGRID_LLM_URL }}
+          EGRID_LLM_TOKEN: ${{ secrets.EGRID_LLM_TOKEN }}
+          EGRID_LLM_MODEL: ${{ secrets.EGRID_LLM_MODEL }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           set -euo pipefail
