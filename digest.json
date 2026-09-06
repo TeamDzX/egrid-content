@@ -1,22 +1,22 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-06T13:51:58Z",
+  "generatedAt": "2026-09-06T14:11:01Z",
   "editions": [
     {
       "id": "2026-09-06-preview",
       "kind": "preview",
       "title": "This weekend in motorsport",
       "dateRange": "6–7 September",
-      "intro": "8 rounds across Formula 1, Formula 2, Formula 3, IndyCar, NASCAR Cup Series, NHRA Drag Racing, Porsche Supercup and World Endurance Championship between 6–7 September.",
-      "publishedAt": "2026-09-06T13:51:58Z",
-      "expiresAt": "2026-09-11T13:51:58Z",
+      "intro": "Eight rounds are scheduled for 6–7 September across Formula 1, Formula 2, Formula 3, IndyCar, NASCAR Cup Series, Porsche Supercup, World Endurance Championship and NHRA Drag Racing.",
+      "publishedAt": "2026-09-06T14:11:01Z",
+      "expiresAt": "2026-09-11T14:11:01Z",
       "items": [
         {
           "channelID": "f1",
           "channelName": "Formula 1",
           "headline": "Italian Grand Prix",
           "detail": "Autodromo Nazionale di Monza, Italy · Sun 6 Sep",
-          "body": "Round 13 of the Formula 1 season. The race starts at 13:00 UTC.",
+          "body": "Round 13 of Formula 1 arrives at Autodromo Nazionale di Monza, Italy, on Sun 6 Sep at 13:00 UTC.",
           "date": "2026-09-06",
           "round": 13
         },
@@ -25,7 +25,7 @@
           "channelName": "Formula 2",
           "headline": "Monza",
           "detail": "Autodromo Nazionale Monza, Italy · Sun 6 Sep",
-          "body": "Round 10 of the Formula 2 season.",
+          "body": "Formula 2 heads to Autodromo Nazionale Monza, Italy, on Sun 6 Sep.",
           "date": "2026-09-06",
           "round": 10
         },
@@ -34,7 +34,7 @@
           "channelName": "Formula 3",
           "headline": "Monza",
           "detail": "Autodromo Nazionale Monza, Italy · Sun 6 Sep",
-          "body": "Round 9 of the Formula 3 season.",
+          "body": "Formula 3 visits Autodromo Nazionale Monza, Italy, on Sun 6 Sep.",
           "date": "2026-09-06",
           "round": 9
         },
@@ -43,7 +43,7 @@
           "channelName": "IndyCar",
           "headline": "Season Finale",
           "detail": "WeatherTech Raceway Laguna Seca · Sun 6 Sep",
-          "body": "This IndyCar round.",
+          "body": "The IndyCar season finale takes place at WeatherTech Raceway Laguna Seca on Sun 6 Sep.",
           "date": "2026-09-06"
         },
         {
@@ -51,7 +51,7 @@
           "channelName": "NASCAR Cup Series",
           "headline": "Cook Out Southern 500",
           "detail": "Darlington Raceway · Sun 6 Sep",
-          "body": "Round 27 of the NASCAR Cup Series season.",
+          "body": "Round 27 of the NASCAR Cup Series, the Cook Out Southern 500, runs at Darlington Raceway on Sun 6 Sep.",
           "date": "2026-09-06",
           "round": 27
         },
@@ -60,7 +60,7 @@
           "channelName": "Porsche Supercup",
           "headline": "Monza (double-header)",
           "detail": "Autodromo Nazionale Monza, Italy · Sun 6 Sep",
-          "body": "Round 7 of the Porsche Supercup season.",
+          "body": "Porsche Supercup arrives at Autodromo Nazionale Monza, Italy, for a double-header on Sun 6 Sep.",
           "date": "2026-09-06",
           "round": 7
         },
@@ -69,7 +69,7 @@
           "channelName": "World Endurance Championship",
           "headline": "Lone Star Le Mans",
           "detail": "Circuit of the Americas, USA · Sun 6 Sep",
-          "body": "Round 6 of the World Endurance Championship season.",
+          "body": "The World Endurance Championship brings the Lone Star Le Mans to Circuit of the Americas, USA, on Sun 6 Sep.",
           "date": "2026-09-06",
           "round": 6
         },
@@ -78,7 +78,7 @@
           "channelName": "NHRA Drag Racing",
           "headline": "U.S. Nationals",
           "detail": "Lucas Oil Indianapolis Raceway Park · Mon 7 Sep",
-          "body": "This NHRA Drag Racing round.",
+          "body": "NHRA Drag Racing holds the U.S. Nationals at Lucas Oil Indianapolis Raceway Park on Mon 7 Sep.",
           "date": "2026-09-07"
         }
       ]
