@@ -79,13 +79,13 @@ invented circuit length does not.
 
 ## `digest.json` — the weekly digest (generated, do not hand-edit)
 
-The card at the top of Home. **This file is written by a robot**, on a
-schedule, straight to `live`:
+The card at the top of Home. **This file is written by a robot**, every
+morning at 07:00 UTC, straight to `live`:
 
-| When (UTC) | Edition | What it says |
+| Day | Edition | What it says |
 |---|---|---|
-| Thursday 07:00 | `preview` | Every round of every channel racing between now and Monday |
-| Monday 07:00 | `recap` | What ran over the last seven days, with podiums for F1, MotoGP and Formula E |
+| Monday, Tuesday | `recap` | What ran over the last seven days, with podiums for F1, MotoGP and Formula E. Tuesday re-runs it so a late Sunday-night result lands. |
+| Wednesday to Sunday | `preview` | Every round of every channel racing between now and Monday, refreshed daily. On Sunday it is today's running order. |
 
 The generator is `digest/build_digest.py`, run by the
 `.github/workflows/weekly-digest.yml` action. It reads the same sources the

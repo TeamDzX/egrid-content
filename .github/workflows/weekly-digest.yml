@@ -1,6 +1,6 @@
 name: Weekly digest
 
-# Builds digest.json twice a week and publishes it straight to `live`.
+# Builds digest.json every morning and publishes it straight to `live`.
 #
 # This is the one file that skips the "edit on main, promote to live" gate:
 # it is generated from the same feeds the apps read, it carries no images or
@@ -18,10 +18,9 @@ name: Weekly digest
 
 on:
   schedule:
-    # Thursday 07:00 UTC — the weekend preview.
-    - cron: "0 7 * * 4"
-    # Monday 07:00 UTC — the recap of the last seven days.
-    - cron: "0 7 * * 1"
+    # Every day at 07:00 UTC. The script picks the edition: recap on Monday
+    # and Tuesday, preview Wednesday to Sunday.
+    - cron: "0 7 * * *"
   workflow_dispatch:
     inputs:
       kind:
