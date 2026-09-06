@@ -12,9 +12,14 @@ The facts come from the same sources the apps use — the static calendars in
 Formula E. WRC's API is dead, so its rounds come from the static calendar
 like the other nine channels.
 
-The prose is optional. With an Anthropic key in the environment the facts
-are handed to Claude to write a short intro and one or two sentences per
-round; without one, or if the call fails for any reason, a plain templated
+The prose is optional, and comes from whichever writer is configured:
+
+  EGRID_LLM_URL (+ EGRID_LLM_TOKEN, EGRID_LLM_MODEL)   your own server, any
+                 OpenAI-compatible chat endpoint (Ollama, vLLM, llama.cpp,
+                 LM Studio, Open WebUI ...) — tried first when set
+  ANTHROPIC_API_KEY                                    Claude via the API
+
+Without either, or if the call fails for any reason, a plain templated
 sentence is used instead. Either way the edition ships — a missing key
 downgrades the writing, never the data. Claude is told to use only the facts
 given, and the structured output is checked back against them: an item body
@@ -418,42 +423,139 @@ Write:
 - items: for every fact index, one or two sentences of at most 40 words about that round. For a recap with a podium, state the winner and the other two podium finishers with their teams where given. For a preview, say where and when it runs, in the local-day form given, and add the UTC start only when supplied."""
 
 
-def write_with_claude(rounds: list[Round], kind: str, start: dt.date, end: dt.date) -> tuple[str, list[str]] | None:
-    """Asks Claude for the intro and per-item copy. Returns None on any
-    failure so the caller falls back to the template."""
+COPY_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "intro": {"type": "string"},
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {"index": {"type": "integer"}, "body": {"type": "string"}},
+                "required": ["index", "body"],
+                "additionalProperties": False,
+            },
+        },
+    },
+    "required": ["intro", "items"],
+    "additionalProperties": False,
+}
+
+
+def copy_request(rounds: list[Round], kind: str, start: dt.date, end: dt.date) -> str:
+    """The facts, as the JSON document every writer is given."""
+    return json.dumps({
+        "edition": kind,
+        "window": {"from": start.isoformat(), "to": end.isoformat(), "label": range_label(start, end)},
+        "rounds": facts_for_llm(rounds, kind),
+    }, ensure_ascii=False, indent=1)
+
+
+def apply_copy(data: dict, rounds: list[Round], kind: str, start: dt.date, end: dt.date,
+               writer: str) -> tuple[str, list[str]]:
+    """Merges a writer's JSON over the templated copy, item by item, keeping
+    the template wherever the writer said nothing or said too much."""
+    bodies = [template_body(r, kind) for r in rounds]
+    by_index = {}
+    for item in data.get("items", []) or []:
+        try:
+            by_index[int(item["index"])] = str(item["body"]).strip()
+        except (KeyError, TypeError, ValueError):
+            continue
+    for index, r in enumerate(rounds):
+        body = by_index.get(index)
+        if not body:
+            continue
+        if kind == "recap" and not r.podium and looks_like_a_result(body):
+            log(f"  dropped {writer} copy for {r.name}: reads like a result with no podium supplied")
+            continue
+        bodies[index] = body
+    intro = str(data.get("intro") or "").strip() or template_intro(rounds, kind, start, end)
+    return intro, bodies
+
+
+def parse_json_reply(text: str) -> dict | None:
+    """Self-hosted models often wrap JSON in a code fence or a sentence;
+    take the outermost object and ignore the rest."""
+    text = text.strip()
+    if text.startswith("```"):
+        text = text.strip("`")
+        if text.lower().startswith("json"):
+            text = text[4:]
+    first, last = text.find("{"), text.rfind("}")
+    if first == -1 or last == -1:
+        return None
+    try:
+        data = json.loads(text[first:last + 1])
+    except json.JSONDecodeError:
+        return None
+    return data if isinstance(data, dict) else None
+
+
+def write_with_own_server(rounds: list[Round], kind: str, start: dt.date, end: dt.date) -> dict | None:
+    """Any OpenAI-compatible chat endpoint: POST {EGRID_LLM_URL}/v1/chat/completions
+    with a bearer token. Returns the parsed JSON copy, or None to fall through."""
+    base = os.environ.get("EGRID_LLM_URL", "").strip().rstrip("/")
+    if not base:
+        return None
+    if not base.endswith("/chat/completions"):
+        base = base if base.endswith("/v1") else base + "/v1"
+        base += "/chat/completions"
+    model = os.environ.get("EGRID_LLM_MODEL", "").strip()
+    token = os.environ.get("EGRID_LLM_TOKEN", "").strip()
+    headers = {"Content-Type": "application/json", "User-Agent": USER_AGENT}
+    if token:
+        headers["Authorization"] = "Bearer " + token
+    payload = {
+        "messages": [
+            {"role": "system", "content": SYSTEM_PROMPT + "\n\nReply with a single JSON object and nothing else, shaped exactly: "
+             + json.dumps({"intro": "...", "items": [{"index": 0, "body": "..."}]})},
+            {"role": "user", "content": copy_request(rounds, kind, start, end)},
+        ],
+        "temperature": 0.4,
+        "max_tokens": 4000,
+        # Honoured by servers that support it (Ollama, vLLM, LM Studio),
+        # harmlessly ignored by the rest — hence the instruction above too.
+        "response_format": {"type": "json_object"},
+    }
+    if model:
+        payload["model"] = model
+    request = urllib.request.Request(base, data=json.dumps(payload).encode(), headers=headers, method="POST")
+    try:
+        with urllib.request.urlopen(request, timeout=180) as response:
+            reply = json.load(response)
+    except urllib.error.HTTPError as error:
+        log(f"  own server {base}: HTTP {error.code}; falling through")
+        return None
+    except (urllib.error.URLError, TimeoutError, OSError, json.JSONDecodeError) as error:
+        log(f"  own server {base}: {type(error).__name__}: {error}; falling through")
+        return None
+    try:
+        text = reply["choices"][0]["message"]["content"]
+    except (KeyError, IndexError, TypeError):
+        log("  own server: reply had no choices[0].message.content; falling through")
+        return None
+    data = parse_json_reply(text or "")
+    if data is None:
+        log("  own server returned non-JSON; falling through")
+        return None
+    usage = reply.get("usage") or {}
+    log(f"  own server ({reply.get('model') or model or 'default model'}) wrote the copy "
+        f"({usage.get('prompt_tokens', '?')} in / {usage.get('completion_tokens', '?')} out)")
+    return data
+
+
+def write_with_claude(rounds: list[Round], kind: str, start: dt.date, end: dt.date) -> dict | None:
+    """Claude through the Anthropic SDK, with a structured-output schema so the
+    reply is valid JSON by construction. Returns None on any failure."""
     try:
         import anthropic  # noqa: WPS433 - optional dependency
     except ImportError:
-        log("  anthropic SDK not installed; using templated prose")
+        log("  anthropic SDK not installed")
         return None
     if not (os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_AUTH_TOKEN")):
-        log("  no Anthropic credentials in the environment; using templated prose")
+        log("  no Anthropic credentials in the environment")
         return None
-
-    facts = facts_for_llm(rounds, kind)
-    user = json.dumps({
-        "edition": kind,
-        "window": {"from": start.isoformat(), "to": end.isoformat(), "label": range_label(start, end)},
-        "rounds": facts,
-    }, ensure_ascii=False, indent=1)
-
-    schema = {
-        "type": "object",
-        "properties": {
-            "intro": {"type": "string"},
-            "items": {
-                "type": "array",
-                "items": {
-                    "type": "object",
-                    "properties": {"index": {"type": "integer"}, "body": {"type": "string"}},
-                    "required": ["index", "body"],
-                    "additionalProperties": False,
-                },
-            },
-        },
-        "required": ["intro", "items"],
-        "additionalProperties": False,
-    }
 
     client = anthropic.Anthropic()
     try:
@@ -461,36 +563,35 @@ def write_with_claude(rounds: list[Round], kind: str, start: dt.date, end: dt.da
             model="claude-opus-5",
             max_tokens=6000,
             system=SYSTEM_PROMPT,
-            messages=[{"role": "user", "content": user}],
-            output_config={"format": {"type": "json_schema", "schema": schema}},
+            messages=[{"role": "user", "content": copy_request(rounds, kind, start, end)}],
+            output_config={"format": {"type": "json_schema", "schema": COPY_SCHEMA}},
         )
     except anthropic.APIError as error:
         log(f"  Claude call failed: {error}")
         return None
 
     if response.stop_reason != "end_turn":
-        log(f"  Claude stopped with {response.stop_reason}; using templated prose")
+        log(f"  Claude stopped with {response.stop_reason}")
         return None
     text = next((b.text for b in response.content if b.type == "text"), "")
     try:
         data = json.loads(text)
     except json.JSONDecodeError:
-        log("  Claude returned non-JSON; using templated prose")
+        log("  Claude returned non-JSON")
         return None
-
-    bodies = [template_body(r, kind) for r in rounds]
-    by_index = {item["index"]: item["body"].strip() for item in data.get("items", [])}
-    for index, r in enumerate(rounds):
-        body = by_index.get(index)
-        if not body:
-            continue
-        if kind == "recap" and not r.podium and looks_like_a_result(body):
-            log(f"  dropped Claude copy for {r.name}: reads like a result with no podium supplied")
-            continue
-        bodies[index] = body
-    intro = (data.get("intro") or "").strip() or template_intro(rounds, kind, start, end)
     log(f"  Claude wrote the copy ({response.usage.input_tokens} in / {response.usage.output_tokens} out)")
-    return intro, bodies
+    return data
+
+
+def write_copy(rounds: list[Round], kind: str, start: dt.date, end: dt.date) -> tuple[str, list[str]] | None:
+    """Tries the writers in order — your own server first, then Claude — and
+    returns None when neither produced anything, so the template stands in."""
+    for name, writer in (("own server", write_with_own_server), ("Claude", write_with_claude)):
+        data = writer(rounds, kind, start, end)
+        if data is not None:
+            return apply_copy(data, rounds, kind, start, end, writer=name)
+    log("  no writer available; using templated prose")
+    return None
 
 
 RESULT_WORDS = ("won", "win", "victory", "podium", "finished", "second", "third", "p1", "p2", "p3")
@@ -508,7 +609,7 @@ def build_edition(kind: str, today: dt.date, channels: list[dict], use_llm: bool
     rounds.sort(key=lambda r: r.sort_key)
     log(f"  {len(rounds)} rounds in window")
 
-    written = write_with_claude(rounds, kind, start, end) if (use_llm and rounds) else None
+    written = write_copy(rounds, kind, start, end) if (use_llm and rounds) else None
     if written:
         intro, bodies = written
     else:
