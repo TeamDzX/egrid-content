@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
 """Builds the weekly editorial digest that both E-Grid apps show on Home.
 
-Two editions a week, written into `digest.json` at the repo root:
+Rebuilt every morning, written into `digest.json` at the repo root:
 
-  preview  (Thursday)  every round of every channel racing this weekend
-  recap    (Monday)    what ran over the last seven days, with podiums where a
-                       series publishes them (F1, MotoGP, Formula E)
+  recap    (Mon, Tue)  what ran over the last seven days, with podiums where a
+                       series publishes them (F1, MotoGP, Formula E). Tuesday
+                       re-runs it so a late-posted Sunday-night result lands.
+  preview  (Wed-Sun)   every round of every channel racing this weekend,
+                       refreshed daily as start times firm up; on Sunday it
+                       is simply today's running order.
 
 The facts come from the same sources the apps use — the static calendars in
 `channels.json`, Jolpica for F1, and the Pulselive feeds for MotoGP and
@@ -30,7 +33,7 @@ Usage:
     python3 digest/build_digest.py [--kind auto|preview|recap] [--date YYYY-MM-DD]
                                    [--out digest.json] [--no-llm]
 
-`auto` picks recap on a Monday and preview on every other day. `--date`
+`auto` picks recap on Monday and Tuesday and preview on every other day. `--date`
 pretends it is another day, for testing. Exit code is non-zero only when
 nothing at all could be built; a single failed source is logged and skipped.
 """
@@ -55,6 +58,9 @@ DEFAULT_OUT = REPO_ROOT / "digest.json"
 # Editions kept in the file. The apps only ever show the newest live one; the
 # rest are there so a re-run can be compared against what it replaced.
 KEEP_EDITIONS = 4
+
+# Monday and Tuesday build the recap; every other day the preview.
+RECAP_WEEKDAYS = {0, 1}
 
 # An edition stops showing after this long. A preview from Thursday is stale
 # by Tuesday; a Monday recap has been superseded by Thursday's preview.
@@ -678,7 +684,7 @@ def main() -> int:
     args = parser.parse_args()
 
     today = dt.date.fromisoformat(args.date) if args.date else dt.datetime.now(dt.timezone.utc).date()
-    kind = args.kind if args.kind != "auto" else ("recap" if today.weekday() == 0 else "preview")
+    kind = args.kind if args.kind != "auto" else ("recap" if today.weekday() in RECAP_WEEKDAYS else "preview")
 
     channels = load_channels()
     edition = build_edition(kind, today, channels, use_llm=not args.no_llm)
