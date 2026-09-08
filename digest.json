@@ -1,7 +1,105 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-07T13:21:16Z",
+  "generatedAt": "2026-09-08T12:02:09Z",
   "editions": [
+    {
+      "id": "2026-09-08-recap",
+      "kind": "recap",
+      "title": "Last week in motorsport",
+      "dateRange": "1–7 September",
+      "intro": "8 rounds ran between 1–7 September, across Formula 1, Formula 2, Formula 3, IndyCar, NASCAR Cup Series, NHRA Drag Racing, Porsche Supercup and World Endurance Championship.",
+      "publishedAt": "2026-09-08T12:02:09Z",
+      "expiresAt": "2026-09-12T12:02:09Z",
+      "items": [
+        {
+          "channelID": "f1",
+          "channelName": "Formula 1",
+          "headline": "Italian Grand Prix",
+          "detail": "Autodromo Nazionale di Monza, Italy · Sun 6 Sep",
+          "body": "Round 13 of the Formula 1 season. Won by Andrea Kimi Antonelli (Mercedes) from George Russell and Max Verstappen.",
+          "date": "2026-09-06",
+          "round": 13,
+          "podium": [
+            {
+              "position": 1,
+              "name": "Andrea Kimi Antonelli",
+              "team": "Mercedes"
+            },
+            {
+              "position": 2,
+              "name": "George Russell",
+              "team": "Mercedes"
+            },
+            {
+              "position": 3,
+              "name": "Max Verstappen",
+              "team": "Red Bull"
+            }
+          ]
+        },
+        {
+          "channelID": "f2",
+          "channelName": "Formula 2",
+          "headline": "Monza",
+          "detail": "Autodromo Nazionale Monza, Italy · Sun 6 Sep",
+          "body": "Round 10 of the Formula 2 season is complete. This series does not publish results to E-Grid's data sources.",
+          "date": "2026-09-06",
+          "round": 10
+        },
+        {
+          "channelID": "f3",
+          "channelName": "Formula 3",
+          "headline": "Monza",
+          "detail": "Autodromo Nazionale Monza, Italy · Sun 6 Sep",
+          "body": "Round 9 of the Formula 3 season is complete. This series does not publish results to E-Grid's data sources.",
+          "date": "2026-09-06",
+          "round": 9
+        },
+        {
+          "channelID": "indycar",
+          "channelName": "IndyCar",
+          "headline": "Season Finale",
+          "detail": "WeatherTech Raceway Laguna Seca · Sun 6 Sep",
+          "body": "This IndyCar round is complete. This series does not publish results to E-Grid's data sources.",
+          "date": "2026-09-06"
+        },
+        {
+          "channelID": "nascar",
+          "channelName": "NASCAR Cup Series",
+          "headline": "Cook Out Southern 500",
+          "detail": "Darlington Raceway · Sun 6 Sep",
+          "body": "Round 27 of the NASCAR Cup Series season is complete. This series does not publish results to E-Grid's data sources.",
+          "date": "2026-09-06",
+          "round": 27
+        },
+        {
+          "channelID": "porschecup",
+          "channelName": "Porsche Supercup",
+          "headline": "Monza (double-header)",
+          "detail": "Autodromo Nazionale Monza, Italy · Sun 6 Sep",
+          "body": "Round 7 of the Porsche Supercup season is complete. This series does not publish results to E-Grid's data sources.",
+          "date": "2026-09-06",
+          "round": 7
+        },
+        {
+          "channelID": "wec",
+          "channelName": "World Endurance Championship",
+          "headline": "Lone Star Le Mans",
+          "detail": "Circuit of the Americas, USA · Sun 6 Sep",
+          "body": "Round 6 of the World Endurance Championship season is complete. This series does not publish results to E-Grid's data sources.",
+          "date": "2026-09-06",
+          "round": 6
+        },
+        {
+          "channelID": "nhra",
+          "channelName": "NHRA Drag Racing",
+          "headline": "U.S. Nationals",
+          "detail": "Lucas Oil Indianapolis Raceway Park · Mon 7 Sep",
+          "body": "This NHRA Drag Racing round is complete. This series does not publish results to E-Grid's data sources.",
+          "date": "2026-09-07"
+        }
+      ]
+    },
     {
       "id": "2026-09-07-recap",
       "kind": "recap",
