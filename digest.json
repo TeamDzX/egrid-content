@@ -1,7 +1,72 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-09T12:12:37Z",
+  "generatedAt": "2026-09-10T12:06:27Z",
   "editions": [
+    {
+      "id": "2026-09-10-preview",
+      "kind": "preview",
+      "title": "This weekend in motorsport",
+      "dateRange": "10–14 September",
+      "intro": "Six rounds are scheduled for the week of 10–14 September across Formula 1, Formula 2, Formula 3, MotoGP, NASCAR Cup Series and the World Rally Championship.",
+      "publishedAt": "2026-09-10T12:06:27Z",
+      "expiresAt": "2026-09-15T12:06:27Z",
+      "items": [
+        {
+          "channelID": "f1",
+          "channelName": "Formula 1",
+          "headline": "Spanish Grand Prix",
+          "detail": "Madring, Spain · Sun 13 Sep",
+          "body": "The Spanish Grand Prix takes place in Madring, Spain on Sun 13 Sep at 13:00 UTC.",
+          "date": "2026-09-13",
+          "round": 14
+        },
+        {
+          "channelID": "f2",
+          "channelName": "Formula 2",
+          "headline": "Madrid",
+          "detail": "Madrid, Spain · Sun 13 Sep",
+          "body": "Formula 2 visits Madrid, Spain on Sun 13 Sep.",
+          "date": "2026-09-13",
+          "round": 11
+        },
+        {
+          "channelID": "f3",
+          "channelName": "Formula 3",
+          "headline": "Madrid",
+          "detail": "Madrid, Spain · Sun 13 Sep",
+          "body": "Formula 3 travels to Madrid, Spain on Sun 13 Sep.",
+          "date": "2026-09-13",
+          "round": 10
+        },
+        {
+          "channelID": "motogp",
+          "channelName": "MotoGP",
+          "headline": "Grand Prix of San Marino",
+          "detail": "Misano World Circuit Marco Simoncelli, San Marino · Sun 13 Sep",
+          "body": "The Grand Prix of San Marino is held at Misano World Circuit Marco Simoncelli, San Marino on Sun 13 Sep.",
+          "date": "2026-09-13",
+          "round": 21
+        },
+        {
+          "channelID": "nascar",
+          "channelName": "NASCAR Cup Series",
+          "headline": "Enjoy Illinois 300",
+          "detail": "World Wide Technology Raceway · Sun 13 Sep",
+          "body": "The Enjoy Illinois 300 takes place at World Wide Technology Raceway on Sun 13 Sep.",
+          "date": "2026-09-13",
+          "round": 28
+        },
+        {
+          "channelID": "wrc",
+          "channelName": "World Rally Championship",
+          "headline": "Rally Chile",
+          "detail": "Concepcion, Chile · Sun 13 Sep",
+          "body": "Rally Chile will be held in Concepcion, Chile on Sun 13 Sep.",
+          "date": "2026-09-13",
+          "round": 12
+        }
+      ]
+    },
     {
       "id": "2026-09-09-preview",
       "kind": "preview",
@@ -252,87 +317,6 @@
           "body": "The World Endurance Championship held its Lone Star Le Mans event at the Circuit of the Americas on Sunday 6 September.",
           "date": "2026-09-06",
           "round": 6
-        }
-      ]
-    },
-    {
-      "id": "2026-09-06-preview",
-      "kind": "preview",
-      "title": "This weekend in motorsport",
-      "dateRange": "6–7 September",
-      "intro": "Eight rounds are scheduled for 6–7 September across Formula 1, Formula 2, Formula 3, IndyCar, NASCAR Cup Series, Porsche Supercup, World Endurance Championship and NHRA Drag Racing.",
-      "publishedAt": "2026-09-06T14:11:01Z",
-      "expiresAt": "2026-09-11T14:11:01Z",
-      "items": [
-        {
-          "channelID": "f1",
-          "channelName": "Formula 1",
-          "headline": "Italian Grand Prix",
-          "detail": "Autodromo Nazionale di Monza, Italy · Sun 6 Sep",
-          "body": "Round 13 of Formula 1 arrives at Autodromo Nazionale di Monza, Italy, on Sun 6 Sep at 13:00 UTC.",
-          "date": "2026-09-06",
-          "round": 13
-        },
-        {
-          "channelID": "f2",
-          "channelName": "Formula 2",
-          "headline": "Monza",
-          "detail": "Autodromo Nazionale Monza, Italy · Sun 6 Sep",
-          "body": "Formula 2 heads to Autodromo Nazionale Monza, Italy, on Sun 6 Sep.",
-          "date": "2026-09-06",
-          "round": 10
-        },
-        {
-          "channelID": "f3",
-          "channelName": "Formula 3",
-          "headline": "Monza",
-          "detail": "Autodromo Nazionale Monza, Italy · Sun 6 Sep",
-          "body": "Formula 3 visits Autodromo Nazionale Monza, Italy, on Sun 6 Sep.",
-          "date": "2026-09-06",
-          "round": 9
-        },
-        {
-          "channelID": "indycar",
-          "channelName": "IndyCar",
-          "headline": "Season Finale",
-          "detail": "WeatherTech Raceway Laguna Seca · Sun 6 Sep",
-          "body": "The IndyCar season finale takes place at WeatherTech Raceway Laguna Seca on Sun 6 Sep.",
-          "date": "2026-09-06"
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "Cook Out Southern 500",
-          "detail": "Darlington Raceway · Sun 6 Sep",
-          "body": "Round 27 of the NASCAR Cup Series, the Cook Out Southern 500, runs at Darlington Raceway on Sun 6 Sep.",
-          "date": "2026-09-06",
-          "round": 27
-        },
-        {
-          "channelID": "porschecup",
-          "channelName": "Porsche Supercup",
-          "headline": "Monza (double-header)",
-          "detail": "Autodromo Nazionale Monza, Italy · Sun 6 Sep",
-          "body": "Porsche Supercup arrives at Autodromo Nazionale Monza, Italy, for a double-header on Sun 6 Sep.",
-          "date": "2026-09-06",
-          "round": 7
-        },
-        {
-          "channelID": "wec",
-          "channelName": "World Endurance Championship",
-          "headline": "Lone Star Le Mans",
-          "detail": "Circuit of the Americas, USA · Sun 6 Sep",
-          "body": "The World Endurance Championship brings the Lone Star Le Mans to Circuit of the Americas, USA, on Sun 6 Sep.",
-          "date": "2026-09-06",
-          "round": 6
-        },
-        {
-          "channelID": "nhra",
-          "channelName": "NHRA Drag Racing",
-          "headline": "U.S. Nationals",
-          "detail": "Lucas Oil Indianapolis Raceway Park · Mon 7 Sep",
-          "body": "NHRA Drag Racing holds the U.S. Nationals at Lucas Oil Indianapolis Raceway Park on Mon 7 Sep.",
-          "date": "2026-09-07"
         }
       ]
     }
