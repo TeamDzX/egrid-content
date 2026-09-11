@@ -1,0 +1,482 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-11T15:14:41Z",
+  "channels": [
+    {
+      "channelID": "wec",
+      "source": "FIA World Endurance Championship",
+      "sourceURL": "https://www.youtube.com/channel/UCwU7U7PiarcJKLjDJTnANjw",
+      "videos": [
+        {
+          "id": "WxZo8KzXyXs",
+          "title": "Race Highlights | 6 Hours of COTA 2026 | FIA WEC",
+          "publishedAt": "2026-09-07T17:55:51Z",
+          "duration": "14:36",
+          "seconds": 876,
+          "thumbnail": "https://i.ytimg.com/vi/WxZo8KzXyXs/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "6YSzXfzhUvQ",
+          "title": "Extended Highlights | 6 Hours of COTA 2026 | FIA WEC",
+          "publishedAt": "2026-09-07T16:10:12Z",
+          "duration": "56:40",
+          "seconds": 3400,
+          "thumbnail": "https://i.ytimg.com/vi/6YSzXfzhUvQ/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "-NLNeKCUdLU",
+          "title": "The Final Laps at COTA | 6 Hours of COTA 2026 | FIA WEC",
+          "publishedAt": "2026-09-07T00:09:28Z",
+          "duration": "5:36",
+          "seconds": 336,
+          "thumbnail": "https://i.ytimg.com/vi/-NLNeKCUdLU/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "8PEy8Voff7c",
+          "title": "Race Highlights | Rolex 6 Hours of São Paulo 2026 | FIA WEC",
+          "publishedAt": "2026-07-14T09:55:43Z",
+          "duration": "14:49",
+          "seconds": 889,
+          "thumbnail": "https://i.ytimg.com/vi/8PEy8Voff7c/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "GFbCplgyCqk",
+          "title": "Extended Highlights | Rolex 6 Hours of São Paulo 2026 | FIA WEC",
+          "publishedAt": "2026-07-13T16:00:39Z",
+          "duration": "1:00:36",
+          "seconds": 3636,
+          "thumbnail": "https://i.ytimg.com/vi/GFbCplgyCqk/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "cE0Vw-ZQpM4",
+          "title": "Extended Highlights | 24 Hours of Le Mans 2026 | FIA WEC",
+          "publishedAt": "2026-06-15T16:00:25Z",
+          "duration": "1:02:11",
+          "seconds": 3731,
+          "thumbnail": "https://i.ytimg.com/vi/cE0Vw-ZQpM4/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "YW8xcqwmrEI",
+          "title": "Race Highlights | 24 Hours of Le Mans 2026 | FIA WEC",
+          "publishedAt": "2026-06-14T17:10:04Z",
+          "duration": "28:06",
+          "seconds": 1686,
+          "thumbnail": "https://i.ytimg.com/vi/YW8xcqwmrEI/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "BFiGXsQnE6c",
+          "title": "Extended Highlights | TotalEnergies 6 Hours of Spa 2026 | FIA WEC",
+          "publishedAt": "2026-05-11T16:00:22Z",
+          "duration": "59:50",
+          "seconds": 3590,
+          "thumbnail": "https://i.ytimg.com/vi/BFiGXsQnE6c/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "6-R2YdZHg7Q",
+          "title": "Race Highlights | TotalEnergies 6 Hours of Spa | FIA WEC",
+          "publishedAt": "2026-05-10T17:59:20Z",
+          "duration": "15:03",
+          "seconds": 903,
+          "thumbnail": "https://i.ytimg.com/vi/6-R2YdZHg7Q/maxresdefault.jpg",
+          "blockedRegions": []
+        }
+      ]
+    },
+    {
+      "channelID": "wrc",
+      "source": "FIA World Rally Championship",
+      "sourceURL": "https://www.youtube.com/channel/UC5G6kTnHXDz0WIBC2VGBOqg",
+      "videos": [
+        {
+          "id": "MueWgAOH1dw",
+          "title": "SS11 Stage Highlights | WRC Rally Chile Biobío 2024",
+          "publishedAt": "2026-09-09T13:00:40Z",
+          "duration": "17:45",
+          "seconds": 1065,
+          "thumbnail": "https://i.ytimg.com/vi/MueWgAOH1dw/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "agWDq3DBE-c",
+          "title": "Best of RAW Action | WRC ueno Rally del Paraguay 2026",
+          "publishedAt": "2026-09-01T12:00:28Z",
+          "duration": "4:06",
+          "seconds": 246,
+          "thumbnail": "https://i.ytimg.com/vi/agWDq3DBE-c/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "gRqVGWrXDh8",
+          "title": "WRC2 Event Highlights | WRC ueno Rally del Paraguay",
+          "publishedAt": "2026-08-31T09:54:53Z",
+          "duration": "3:31",
+          "seconds": 211,
+          "thumbnail": "https://i.ytimg.com/vi/gRqVGWrXDh8/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "wmX6c8AKnxc",
+          "title": "Best of RAW Action | WRC Secto Rally Finland 2026",
+          "publishedAt": "2026-08-04T08:59:36Z",
+          "duration": "4:10",
+          "seconds": 250,
+          "thumbnail": "https://i.ytimg.com/vi/wmX6c8AKnxc/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "_C45Jl72hv8",
+          "title": "SS10 Stage Highlights | WRC Secto Rally Finland 2021",
+          "publishedAt": "2026-07-29T13:19:55Z",
+          "duration": "16:44",
+          "seconds": 1004,
+          "thumbnail": "https://i.ytimg.com/vi/_C45Jl72hv8/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "MJrbcKYx-wE",
+          "title": "Best of RAW Action | WRC Delfi Rally Estonia 2026",
+          "publishedAt": "2026-07-20T15:27:49Z",
+          "duration": "4:10",
+          "seconds": 250,
+          "thumbnail": "https://i.ytimg.com/vi/MJrbcKYx-wE/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "bx-MWhZwOf4",
+          "title": "WRC2 Event Highlights | WRC Delfi Rally Estonia 2026",
+          "publishedAt": "2026-07-20T10:25:11Z",
+          "duration": "3:04",
+          "seconds": 184,
+          "thumbnail": "https://i.ytimg.com/vi/bx-MWhZwOf4/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "3ePSDHKYA3U",
+          "title": "Best of RAW Action | WRC EKO Acropolis Rally Greece 2026",
+          "publishedAt": "2026-06-29T17:30:05Z",
+          "duration": "4:06",
+          "seconds": 246,
+          "thumbnail": "https://i.ytimg.com/vi/3ePSDHKYA3U/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "SkWroMOCuf8",
+          "title": "WRC2 Event Highlights | WRC EKO Acropolis Rally 2026",
+          "publishedAt": "2026-06-29T15:27:47Z",
+          "duration": "3:33",
+          "seconds": 213,
+          "thumbnail": "https://i.ytimg.com/vi/SkWroMOCuf8/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "g_uvYMGem3Y",
+          "title": "SS15 Stage Highlights | WRC Acropolis Rally Greece 2024",
+          "publishedAt": "2026-06-20T14:00:33Z",
+          "duration": "22:16",
+          "seconds": 1336,
+          "thumbnail": "https://i.ytimg.com/vi/g_uvYMGem3Y/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "2jWo4-rOwGo",
+          "title": "WRC2 Event Highlights | WRC FORUM8 Rally Japan",
+          "publishedAt": "2026-06-02T07:00:39Z",
+          "duration": "2:53",
+          "seconds": 173,
+          "thumbnail": "https://i.ytimg.com/vi/2jWo4-rOwGo/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "dd0IRM10uRc",
+          "title": "SS17 Stage Highlights | WRC FORUM8 Rally Japan 2024",
+          "publishedAt": "2026-05-23T14:00:43Z",
+          "duration": "19:56",
+          "seconds": 1196,
+          "thumbnail": "https://i.ytimg.com/vi/dd0IRM10uRc/maxresdefault.jpg",
+          "blockedRegions": []
+        }
+      ]
+    },
+    {
+      "channelID": "nascar",
+      "source": "NASCAR",
+      "sourceURL": "https://www.youtube.com/channel/UCuN9hYw2RpoAW8rZ3VK3isA",
+      "videos": [
+        {
+          "id": "W_X-FXDuI44",
+          "title": "NASCAR Cup Series Highlights | 2026 Darlington Raceway",
+          "publishedAt": "2026-09-07T02:01:41Z",
+          "duration": "30:16",
+          "seconds": 1816,
+          "thumbnail": "https://i.ytimg.com/vi/W_X-FXDuI44/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "FmhaCWYOYds",
+          "title": "NASCAR Cup Series Highlights | 2026 Daytona International Speedway",
+          "publishedAt": "2026-08-30T03:35:09Z",
+          "duration": "23:34",
+          "seconds": 1414,
+          "thumbnail": "https://i.ytimg.com/vi/FmhaCWYOYds/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "wlivkA5uxdo",
+          "title": "NASCAR Cup Series Highlights | 2026 New Hampshire Motor Speedway",
+          "publishedAt": "2026-08-23T23:07:44Z",
+          "duration": "29:14",
+          "seconds": 1754,
+          "thumbnail": "https://i.ytimg.com/vi/wlivkA5uxdo/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "bLkNa9PP35A",
+          "title": "NASCAR Cup Series Highlights | 2026 Richmond Raceway",
+          "publishedAt": "2026-08-16T02:45:29Z",
+          "duration": "23:24",
+          "seconds": 1404,
+          "thumbnail": "https://i.ytimg.com/vi/bLkNa9PP35A/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "z_6fqXoJesU",
+          "title": "NASCAR Cup Series Highlights | 2026 Iowa Speedway",
+          "publishedAt": "2026-08-09T23:19:40Z",
+          "duration": "23:08",
+          "seconds": 1388,
+          "thumbnail": "https://i.ytimg.com/vi/z_6fqXoJesU/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "HYqZQd-WJX0",
+          "title": "NASCAR Cup Series Highlights | 2026 Brickyard 400 at Indianapolis",
+          "publishedAt": "2026-07-26T21:56:20Z",
+          "duration": "23:41",
+          "seconds": 1421,
+          "thumbnail": "https://i.ytimg.com/vi/HYqZQd-WJX0/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "sdgBDf_Y9jQ",
+          "title": "NASCAR Cup Series Highlights | 2026 North Wilkesboro Speedway",
+          "publishedAt": "2026-07-20T02:49:20Z",
+          "duration": "20:45",
+          "seconds": 1245,
+          "thumbnail": "https://i.ytimg.com/vi/sdgBDf_Y9jQ/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "ZWIT-nf0n9A",
+          "title": "NASCAR Cup Series Highlights | 2026 EchoPark Speedway",
+          "publishedAt": "2026-07-13T06:14:46Z",
+          "duration": "32:25",
+          "seconds": 1945,
+          "thumbnail": "https://i.ytimg.com/vi/ZWIT-nf0n9A/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "NnGpRqyZsJA",
+          "title": "NASCAR Cup Series Highlights | 2026 Chicagoland Speedway",
+          "publishedAt": "2026-07-06T02:10:02Z",
+          "duration": "24:53",
+          "seconds": 1493,
+          "thumbnail": "https://i.ytimg.com/vi/NnGpRqyZsJA/maxresdefault.jpg",
+          "blockedRegions": []
+        }
+      ]
+    },
+    {
+      "channelID": "indycar",
+      "source": "NTT INDYCAR SERIES",
+      "sourceURL": "https://www.youtube.com/channel/UCy1F61QvUUQXAXi2Voa_fUw",
+      "videos": [
+        {
+          "id": "LCZ3JS_q20I",
+          "title": "Extended Race Highlights | 2026 INDYCAR at Laguna Seca",
+          "publishedAt": "2026-09-06T22:27:37Z",
+          "duration": "29:53",
+          "seconds": 1793,
+          "thumbnail": "https://i.ytimg.com/vi/LCZ3JS_q20I/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "JLRbF43qTbU",
+          "title": "Extended Race Highlights | 2026 INDYCAR at Washington, D.C.",
+          "publishedAt": "2026-08-23T21:07:08Z",
+          "duration": "30:04",
+          "seconds": 1804,
+          "thumbnail": "https://i.ytimg.com/vi/JLRbF43qTbU/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "W5K13kSWYko",
+          "title": "Extended Race Highlights | 2026 INDYCAR at Markham",
+          "publishedAt": "2026-08-16T19:36:42Z",
+          "duration": "30:03",
+          "seconds": 1803,
+          "thumbnail": "https://i.ytimg.com/vi/W5K13kSWYko/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "W5tnGCcCpwI",
+          "title": "Extended Race Highlights | 2026 INDYCAR at Portland",
+          "publishedAt": "2026-08-09T23:25:37Z",
+          "duration": "20:27",
+          "seconds": 1227,
+          "thumbnail": "https://i.ytimg.com/vi/W5tnGCcCpwI/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "bUKDO7Hk3OY",
+          "title": "Extended Race Highlights | 2026 INDYCAR at Nashville",
+          "publishedAt": "2026-07-20T21:31:13Z",
+          "duration": "29:46",
+          "seconds": 1786,
+          "thumbnail": "https://i.ytimg.com/vi/bUKDO7Hk3OY/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "iMN8ZgPTU70",
+          "title": "Extended Race Highlights | 2026 INDYCAR at Mid-Ohio",
+          "publishedAt": "2026-07-05T20:10:07Z",
+          "duration": "30:01",
+          "seconds": 1801,
+          "thumbnail": "https://i.ytimg.com/vi/iMN8ZgPTU70/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "QQ1NjBi_qDQ",
+          "title": "Extended Race Highlights | 2026 INDYCAR at Road America",
+          "publishedAt": "2026-06-21T22:02:32Z",
+          "duration": "30:00",
+          "seconds": 1800,
+          "thumbnail": "https://i.ytimg.com/vi/QQ1NjBi_qDQ/maxresdefault.jpg",
+          "blockedRegions": []
+        }
+      ]
+    },
+    {
+      "channelID": "nhra",
+      "source": "NHRA",
+      "sourceURL": "https://www.youtube.com/channel/UCJcErqlzaBzFmAh2uIxeqxQ",
+      "videos": [
+        {
+          "id": "RR5IdoPDAKY",
+          "title": "Lucas Oil Drag Racing Series Highlights from the Cornwell Quality Tools NHRA U.S. Nationals",
+          "publishedAt": "2026-09-10T21:00:22Z",
+          "duration": "9:51",
+          "seconds": 591,
+          "thumbnail": "https://i.ytimg.com/vi/RR5IdoPDAKY/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "OwEJG87kFq4",
+          "title": "Cornwell Quality Tools NHRA U.S. Nationals Elimination Highlights",
+          "publishedAt": "2026-09-08T17:27:08Z",
+          "duration": "11:20",
+          "seconds": 680,
+          "thumbnail": "https://i.ytimg.com/vi/OwEJG87kFq4/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "ihrtCtmGJis",
+          "title": "Mission #2Fast2Tasty Highlights from the Cornwell Quality Tools NHRA U.S. Nationals",
+          "publishedAt": "2026-09-06T02:07:13Z",
+          "duration": "5:52",
+          "seconds": 352,
+          "thumbnail": "https://i.ytimg.com/vi/ihrtCtmGJis/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "mdeYlfqNrHM",
+          "title": "Lucas Oil Drag Racing Series Highlights from the NHRA Brainerd Nationals",
+          "publishedAt": "2026-08-27T21:00:35Z",
+          "duration": "16:22",
+          "seconds": 982,
+          "thumbnail": "https://i.ytimg.com/vi/mdeYlfqNrHM/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "PlI4vjFYgHA",
+          "title": "NHRA Brainerd Nationals Elimination Highlights",
+          "publishedAt": "2026-08-24T14:02:10Z",
+          "duration": "8:46",
+          "seconds": 526,
+          "thumbnail": "https://i.ytimg.com/vi/PlI4vjFYgHA/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "lvpqX_DBmyY",
+          "title": "Mission #2Fast2Tasty Highlights from the #BrainerdNats",
+          "publishedAt": "2026-08-22T22:50:45Z",
+          "duration": "2:53",
+          "seconds": 173,
+          "thumbnail": "https://i.ytimg.com/vi/lvpqX_DBmyY/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "jxryj3tj8wY",
+          "title": "Lucas Oil Drag Racing Series Highlights from the Muckleshoot Casino Resort NHRA Northwest Nationals",
+          "publishedAt": "2026-07-30T17:00:24Z",
+          "duration": "19:29",
+          "seconds": 1169,
+          "thumbnail": "https://i.ytimg.com/vi/jxryj3tj8wY/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "jybMtFaUpmU",
+          "title": "Lucas Oil Drag Racing Series Highlights from the DENSO NHRA Sonoma Nationals presented by PowerEdge",
+          "publishedAt": "2026-07-29T15:00:39Z",
+          "duration": "13:36",
+          "seconds": 816,
+          "thumbnail": "https://i.ytimg.com/vi/jybMtFaUpmU/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "EvAWQ2BVcFY",
+          "title": "Muckleshoot Casino Resort NHRA Northwest Nationals Elimination Highlights",
+          "publishedAt": "2026-07-27T14:45:38Z",
+          "duration": "8:28",
+          "seconds": 508,
+          "thumbnail": "https://i.ytimg.com/vi/EvAWQ2BVcFY/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "ICmznCGycs0",
+          "title": "Mission #2Fast2Tasty Highlights from the #NorthwestNats",
+          "publishedAt": "2026-07-26T02:15:59Z",
+          "duration": "3:26",
+          "seconds": 206,
+          "thumbnail": "https://i.ytimg.com/vi/ICmznCGycs0/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "Cwq-htXfycc",
+          "title": "DENSO NHRA Sonoma Nationals presented by PowerEdge Elimination Highlights",
+          "publishedAt": "2026-07-20T21:30:04Z",
+          "duration": "10:38",
+          "seconds": 638,
+          "thumbnail": "https://i.ytimg.com/vi/Cwq-htXfycc/maxresdefault.jpg",
+          "blockedRegions": []
+        },
+        {
+          "id": "osgGwZUOjU4",
+          "title": "Mission #2Fast2Tasty Highlights from the DENSO NHRA Sonoma Nationals presented by PowerEdge",
+          "publishedAt": "2026-07-19T00:28:48Z",
+          "duration": "4:35",
+          "seconds": 275,
+          "thumbnail": "https://i.ytimg.com/vi/osgGwZUOjU4/maxresdefault.jpg",
+          "blockedRegions": []
+        }
+      ]
+    }
+  ]
+}

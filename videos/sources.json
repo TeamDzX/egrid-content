@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "_comment": [
+    "Where build_videos.py looks for each app channel's highlights.",
+    "",
+    "'playlist' is preferred over an uploads feed wherever the series curates a",
+    "season-highlights playlist: it is their own selection, so no title has to be",
+    "pattern-matched and nothing unrelated slips in. Where there is no playlist,",
+    "the uploads feed is narrowed by 'titleMatch' (case-insensitive).",
+    "",
+    "'enabled: false' entries are audited and deliberately parked, not untried —",
+    "the 'note' says what is wrong. Turning one on is a one-line edit here plus a",
+    "promotion to live; it needs no app release.",
+    "",
+    "Embeddability is a per-CHANNEL setting that no API field exposes: the Data API's",
+    "status.embeddable is true for videos the Formula 1 channel then refuses to play",
+    "with error 150. The only test is playing one. Before enabling a source here,",
+    "play one of its videos in the app and confirm no error appears."
+  ],
+  "sources": [
+    {
+      "channelID": "f1",
+      "enabled": false,
+      "sourceName": "FORMULA 1",
+      "channelId": "UCB_qr75-ydFVKSF9Dmo6izg",
+      "playlist": "PLJ41ozwIKeBc9qD43lW_gGOu_cqQxQjP0",
+      "note": "BLOCKED: the Formula 1 channel refuses to be embedded — its player returns error 150 on playback, verified on four separate videos in the simulator. The Data API reports every one of them as embeddable, so this is only visible by playing one. Nothing to do app-side; re-test occasionally in case F1 changes the setting."
+    },
+    {
+      "channelID": "f2",
+      "enabled": false,
+      "sourceName": "FORMULA 1",
+      "channelId": "UCB_qr75-ydFVKSF9Dmo6izg",
+      "playlist": "PLfoNZDHitwjXYi_9_PkWXU_7Xh2sg2rqf",
+      "note": "BLOCKED: published on the Formula 1 channel, which refuses embedding (error 150). See the f1 note. F2 has no channel of its own — @Formula2 is a squatter and the real one stopped in 2023."
+    },
+    {
+      "channelID": "f3",
+      "enabled": false,
+      "sourceName": "FORMULA 1",
+      "channelId": "UCB_qr75-ydFVKSF9Dmo6izg",
+      "playlist": "PLfoNZDHitwjXtQvJy5Zj7dWQxdYnJbzUs",
+      "note": "BLOCKED: published on the Formula 1 channel, which refuses embedding (error 150). See the f1 note."
+    },
+    {
+      "channelID": "wec",
+      "enabled": true,
+      "sourceName": "FIA World Endurance Championship",
+      "channelId": "UCwU7U7PiarcJKLjDJTnANjw",
+      "titleMatch": "(Race|Extended) Highlights|The Final Laps",
+      "note": "Verified embeddable in the simulator. The best-served channel of the thirteen: a ~15 min race edit, a ~57 min extended cut and a final-laps clip after every round."
+    },
+    {
+      "channelID": "wrc",
+      "enabled": true,
+      "sourceName": "FIA World Rally Championship",
+      "channelId": "UC5G6kTnHXDz0WIBC2VGBOqg",
+      "titleMatch": "Stage Highlights|Event Highlights|Best of RAW",
+      "note": "Verified embeddable in the simulator. Posts per-stage highlights through a rally as well as an event round-up, so this channel fills faster than the others."
+    },
+    {
+      "channelID": "nascar",
+      "enabled": true,
+      "sourceName": "NASCAR",
+      "channelId": "UCuN9hYw2RpoAW8rZ3VK3isA",
+      "titleMatch": "Cup Series Highlights",
+      "note": "Verified embeddable in the simulator. ~30 min Cup highlights, and unusually the full replays play outside the US too."
+    },
+    {
+      "channelID": "indycar",
+      "enabled": true,
+      "sourceName": "NTT INDYCAR SERIES",
+      "channelId": "UCy1F61QvUUQXAXi2Voa_fUw",
+      "titleMatch": "Extended Race Highlights",
+      "note": "Verified embeddable in the simulator. Deliberately excludes 'Full Race' uploads: those are geo-blocked outside the US, while the highlight edits are not."
+    },
+    {
+      "channelID": "nhra",
+      "enabled": true,
+      "sourceName": "NHRA",
+      "channelId": "UCJcErqlzaBzFmAh2uIxeqxQ",
+      "titleMatch": "Elimination Highlights|Highlights from",
+      "note": "Verified embeddable in the simulator."
+    },
+    {
+      "channelID": "formulae",
+      "enabled": false,
+      "sourceName": "Formula E",
+      "channelId": "UC-DuRqsBQOEk_5o1q4Ze-Fg",
+      "titleMatch": "Highlights|Best Of",
+      "note": "Verified embeddable, but the season ended August 2026 so the feed is compilations rather than race edits. Turn on when the Gen4 season opens."
+    },
+    {
+      "channelID": "imsa",
+      "enabled": false,
+      "sourceName": "IMSA Official",
+      "channelId": "UC58em84jwiyM20qR-iqBDZw",
+      "titleMatch": "Race Highlights|Full Race",
+      "note": "Active, but the naming is inconsistent and the feed is mostly support series and shorts. The titleMatch here is a guess and needs a season watched before it is trusted. Note @imsaracing is a dead duplicate."
+    },
+    {
+      "channelID": "porschecup",
+      "enabled": false,
+      "sourceName": "Porsche Mobil 1 Supercup",
+      "channelId": "UC5Z5lkCXe-llUPok-JymKnw",
+      "titleMatch": "^ON THE LIMIT",
+      "note": "Verified embeddable. Highlights are branded 'ON THE LIMIT: Round N' with no 'highlights' in the title — hence the anchored pattern. Low volume, 1-20k views."
+    },
+    {
+      "channelID": "cliocup",
+      "enabled": false,
+      "sourceName": "Renault Clio Series",
+      "channelId": "UCi6HwVzHyWckVJo9odSZTlg",
+      "titleMatch": "Clio Cup Series season",
+      "note": "Verified embeddable, but full 42-minute races only, no highlight edits, and the feed is shared with Clio Trophy rallying. Enabling this would put hour-long uploads under a 'Highlights' heading."
+    },
+    {
+      "channelID": "motogp",
+      "enabled": false,
+      "sourceName": "MotoGP",
+      "channelId": "UC8pYaQzbBBXg9GIOHRvTmDQ",
+      "note": "No compliant source. The official channel is clips and shorts only; the 'Full Race and Sprint Highlights' playlist that looks official belongs to TNT Sports, a UK broadcaster, and everything else is behind paid VideoPass. Leave off until MotoGP itself posts race edits."
+    }
+  ]
+}
