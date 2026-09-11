@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-11T15:14:41Z",
+  "generatedAt": "2026-09-11T15:17:35Z",
   "channels": [
     {
       "channelID": "wec",
@@ -183,24 +183,6 @@
           "duration": "22:16",
           "seconds": 1336,
           "thumbnail": "https://i.ytimg.com/vi/g_uvYMGem3Y/maxresdefault.jpg",
-          "blockedRegions": []
-        },
-        {
-          "id": "2jWo4-rOwGo",
-          "title": "WRC2 Event Highlights | WRC FORUM8 Rally Japan",
-          "publishedAt": "2026-06-02T07:00:39Z",
-          "duration": "2:53",
-          "seconds": 173,
-          "thumbnail": "https://i.ytimg.com/vi/2jWo4-rOwGo/maxresdefault.jpg",
-          "blockedRegions": []
-        },
-        {
-          "id": "dd0IRM10uRc",
-          "title": "SS17 Stage Highlights | WRC FORUM8 Rally Japan 2024",
-          "publishedAt": "2026-05-23T14:00:43Z",
-          "duration": "19:56",
-          "seconds": 1196,
-          "thumbnail": "https://i.ytimg.com/vi/dd0IRM10uRc/maxresdefault.jpg",
           "blockedRegions": []
         }
       ]
@@ -456,24 +438,6 @@
           "duration": "3:26",
           "seconds": 206,
           "thumbnail": "https://i.ytimg.com/vi/ICmznCGycs0/maxresdefault.jpg",
-          "blockedRegions": []
-        },
-        {
-          "id": "Cwq-htXfycc",
-          "title": "DENSO NHRA Sonoma Nationals presented by PowerEdge Elimination Highlights",
-          "publishedAt": "2026-07-20T21:30:04Z",
-          "duration": "10:38",
-          "seconds": 638,
-          "thumbnail": "https://i.ytimg.com/vi/Cwq-htXfycc/maxresdefault.jpg",
-          "blockedRegions": []
-        },
-        {
-          "id": "osgGwZUOjU4",
-          "title": "Mission #2Fast2Tasty Highlights from the DENSO NHRA Sonoma Nationals presented by PowerEdge",
-          "publishedAt": "2026-07-19T00:28:48Z",
-          "duration": "4:35",
-          "seconds": 275,
-          "thumbnail": "https://i.ytimg.com/vi/osgGwZUOjU4/maxresdefault.jpg",
           "blockedRegions": []
         }
       ]
