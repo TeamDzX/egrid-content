@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-11T20:22:03Z",
+  "generatedAt": "2026-09-11T20:23:42Z",
   "channels": [
     {
       "channelID": "f1",
@@ -364,17 +364,6 @@
           "source": "FIA World Rally Championship",
           "blockedRegions": [],
           "allowedRegions": []
-        },
-        {
-          "id": "dd0IRM10uRc",
-          "title": "SS17 Stage Highlights | WRC FORUM8 Rally Japan 2024",
-          "publishedAt": "2026-05-23T14:00:43Z",
-          "duration": "19:56",
-          "seconds": 1196,
-          "thumbnail": "https://i.ytimg.com/vi/dd0IRM10uRc/maxresdefault.jpg",
-          "source": "FIA World Rally Championship",
-          "blockedRegions": [],
-          "allowedRegions": []
         }
       ]
     },
@@ -693,17 +682,6 @@
           "duration": "10:38",
           "seconds": 638,
           "thumbnail": "https://i.ytimg.com/vi/Cwq-htXfycc/maxresdefault.jpg",
-          "source": "NHRA",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "osgGwZUOjU4",
-          "title": "Mission #2Fast2Tasty Highlights from the DENSO NHRA Sonoma Nationals presented by PowerEdge",
-          "publishedAt": "2026-07-19T00:28:48Z",
-          "duration": "4:35",
-          "seconds": 275,
-          "thumbnail": "https://i.ytimg.com/vi/osgGwZUOjU4/maxresdefault.jpg",
           "source": "NHRA",
           "blockedRegions": [],
           "allowedRegions": []
