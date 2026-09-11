@@ -99,17 +99,30 @@ class Video:
     duration: str                        # "8:21", for the badge on the card
     seconds: int
     thumbnail: str
+    # Which YouTube channel published this one. Only interesting where a
+    # section draws on several — the F1 page pulls from the teams and the FIA —
+    # but written always so the apps need no special case.
+    source: str = ""
     # ISO country codes YouTube says this video is blocked in, so the apps can
     # hide a video the viewer could never play rather than showing them a
     # player that fails. Empty for the overwhelming majority.
     blockedRegions: list[str] = field(default_factory=list)
+    # The opposite, and the stricter of the two: a whitelist, meaning the video
+    # plays *only* in these countries. Rights-holders use it — Sky Sports F1
+    # allows six. A video carrying one of these is invisible to most of the
+    # world, so the apps treat the two lists differently; see `isPlayable`.
+    allowedRegions: list[str] = field(default_factory=list)
 
 
 @dataclass
 class ChannelVideos:
     channelID: str
-    source: str                          # the YouTube channel doing the publishing
-    sourceURL: str
+    # The heading the apps put above the section. "Highlights" everywhere a
+    # series publishes race edits; something honest like "F1 Video" where the
+    # best available is official team and FIA footage instead.
+    label: str
+    source: str                          # who is publishing, for the credit line
+    sourceURL: str | None
     videos: list[Video] = field(default_factory=list)
 
 
@@ -281,9 +294,16 @@ def collect_with_key(source: dict, key: str, want: int) -> list[Video]:
         if snippet.get("liveBroadcastContent", "none") != "none":
             continue
         seconds = parse_duration(details.get("duration", ""))
-        if seconds < MIN_SECONDS:
+        # Per-source floor. The default only sifts out shorts and onboard
+        # clips, which is right for a series that publishes race edits. A team
+        # channel needs a much higher bar: between the race features sit
+        # paddock cooking videos and "Anyone got a paddock map for Fred?", all
+        # comfortably over ninety seconds and none of them worth a section on a
+        # motorsport companion.
+        if seconds < int(source.get("minSeconds", MIN_SECONDS)):
             continue
 
+        restriction = details.get("regionRestriction", {})
         out.append(Video(
             id=item["id"],
             title=title,
@@ -291,7 +311,9 @@ def collect_with_key(source: dict, key: str, want: int) -> list[Video]:
             duration=clock(seconds),
             seconds=seconds,
             thumbnail=thumbnail_for(item["id"], snippet.get("thumbnails")),
-            blockedRegions=sorted(details.get("regionRestriction", {}).get("blocked", [])),
+            source=source.get("sourceName", ""),
+            blockedRegions=sorted(restriction.get("blocked", [])),
+            allowedRegions=sorted(restriction.get("allowed", [])),
         ))
 
     out.sort(key=lambda v: v.publishedAt, reverse=True)
@@ -373,25 +395,56 @@ def load_sources(path: Path) -> list[dict]:
     return [s for s in data.get("sources", []) if s.get("enabled", True)]
 
 
+def feeds_for(source: dict) -> list[dict]:
+    """The YouTube channels one app channel draws on.
+
+    Usually exactly one. The F1 page is the exception: Formula 1's own channel
+    refuses to be embedded at all, so the best honest substitute is the teams'
+    and the FIA's own footage, merged into one list. Each feed keeps its own
+    `titleMatch`, because what counts as worth showing differs between a team
+    channel and a broadcaster.
+    """
+    if source.get("feeds"):
+        return [{**source, **feed} for feed in source["feeds"]]
+    return [source]
+
+
 def build(sources: list[dict], key: str | None, want: int) -> list[ChannelVideos]:
     out: list[ChannelVideos] = []
     for source in sources:
         channel_id = source["channelID"]
-        log(f"  {channel_id}: {source.get('sourceName', source['channelId'])}")
-        videos = safe(
-            channel_id,
-            (lambda s=source: collect_with_key(s, key, want)) if key
-            else (lambda s=source: collect_without_key(s, want)),
-            [],
-        )
+        feeds = feeds_for(source)
+        log(f"  {channel_id}: {len(feeds)} feed(s)")
+
+        videos: list[Video] = []
+        for feed in feeds:
+            got = safe(
+                f"{channel_id}/{feed.get('sourceName', feed['channelId'])}",
+                (lambda f=feed: collect_with_key(f, key, want)) if key
+                else (lambda f=feed: collect_without_key(f, want)),
+                [],
+            )
+            log(f"    {feed.get('sourceName', feed['channelId'])}: {len(got)}")
+            videos.extend(got)
+
+        # Merged newest-first across every feed, so a busy team channel cannot
+        # crowd out a quieter one purely by being fetched first.
+        videos.sort(key=lambda v: v.publishedAt, reverse=True)
+        videos = videos[:want]
+
         if not videos:
-            log(f"    - nothing usable, channel omitted")
+            log("    - nothing usable, channel omitted")
             continue
-        log(f"    {len(videos)} video(s), newest {videos[0].title[:52]!r}")
+        log(f"    -> {len(videos)} kept, newest {videos[0].title[:48]!r}")
+
+        single = feeds[0] if len(feeds) == 1 else None
         out.append(ChannelVideos(
             channelID=channel_id,
-            source=source.get("sourceName", ""),
-            sourceURL=f"https://www.youtube.com/channel/{source['channelId']}",
+            label=source.get("label", "Highlights"),
+            source=source.get("credit") or (single.get("sourceName", "") if single else ""),
+            # Only linkable when there is one channel behind the section; with
+            # several there is no single "source channel" to send anyone to.
+            sourceURL=f"https://www.youtube.com/channel/{single['channelId']}" if single else None,
             videos=videos,
         ))
     return out
@@ -424,7 +477,7 @@ def main() -> int:
         return 1
 
     payload = {
-        "version": 1,
+        "version": 2,
         "generatedAt": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "channels": [asdict(c) for c in channels],
     }

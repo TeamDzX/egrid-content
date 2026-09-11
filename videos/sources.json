@@ -15,16 +15,42 @@
     "Embeddability is a per-CHANNEL setting that no API field exposes: the Data API's",
     "status.embeddable is true for videos the Formula 1 channel then refuses to play",
     "with error 150. The only test is playing one. Before enabling a source here,",
-    "play one of its videos in the app and confirm no error appears."
+    "play one of its videos in the app and confirm no error appears.",
+    "",
+    "A 'feeds' list draws one app channel from several YouTube channels, merged newest-first.",
+    "'label' is the heading the apps show (default 'Highlights'); 'credit' is the line under it.",
+    "",
+    "Region data comes in two shapes and they are NOT equivalent: 'blocked' is a short exclusion",
+    "list, 'allowed' is a whitelist that hides the video from everywhere else. Sky Sports F1 allows",
+    "six countries. Anything with an allow-list is invisible to most of the world, so weigh that",
+    "before enabling a rights-holder channel."
   ],
   "sources": [
     {
       "channelID": "f1",
-      "enabled": false,
-      "sourceName": "FORMULA 1",
-      "channelId": "UCB_qr75-ydFVKSF9Dmo6izg",
-      "playlist": "PLJ41ozwIKeBc9qD43lW_gGOu_cqQxQjP0",
-      "note": "BLOCKED: the Formula 1 channel refuses to be embedded — its player returns error 150 on playback, verified on four separate videos in the simulator. The Data API reports every one of them as embeddable, so this is only visible by playing one. Nothing to do app-side; re-test occasionally in case F1 changes the setting."
+      "enabled": true,
+      "label": "F1 Video",
+      "credit": "the F1 teams and the FIA",
+      "note": "Formula 1's own channel refuses to be embedded — error 150 on every video tried, including its F2 and F3 reels, and the Data API reports all of them as embeddable, so it is only visible by playing one. There is therefore no way to show F1 race highlights at all. These four official channels are the honest substitute: all verified embeddable and, unlike Sky, unrestricted worldwide. The section is labelled 'F1 Video' rather than 'Highlights' because that is what it is. A 5-minute floor (minSeconds) keeps the section to features, onboards and podcasts; without it the teams' social clips — paddock cooking, birthday messages — dominate it.",
+      "feeds": [
+        {
+          "channelId": "UC7_VGkwCoKfqh1eZEkzey3A",
+          "sourceName": "Mercedes-AMG F1"
+        },
+        {
+          "channelId": "UC8dxVgZl9u5HeCOXnosCtuQ",
+          "sourceName": "McLaren"
+        },
+        {
+          "channelId": "UCQIyqMWCdx1GBvbw_Yi6lEA",
+          "sourceName": "Red Bull Racing"
+        },
+        {
+          "channelId": "UCFSkxZVj6ki9RrWC8ZcCPrQ",
+          "sourceName": "FIA"
+        }
+      ],
+      "minSeconds": 300
     },
     {
       "channelID": "f2",
