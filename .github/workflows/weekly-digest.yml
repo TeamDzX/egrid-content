@@ -36,7 +36,10 @@ permissions:
   contents: write
 
 concurrency:
-  group: weekly-digest
+  # Shared with the highlight-videos job: both push to `live`, and a
+  # simultaneous push loses the race and fails. Serialising them here is
+  # cheaper than teaching either one to retry.
+  group: egrid-live-push
   cancel-in-progress: false
 
 jobs:
