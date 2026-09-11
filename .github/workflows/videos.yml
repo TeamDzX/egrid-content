@@ -80,6 +80,12 @@ jobs:
           set -euo pipefail
           git config user.name "egrid-videos[bot]"
           git config user.email "egrid-videos@users.noreply.github.com"
+
+          # Put back the generator and sources borrowed from main. They are
+          # dirty in this checkout whenever main is ahead of live, and the
+          # branch switch below refuses to overwrite modified files — which
+          # fails the job *after* live has already been published.
+          git restore videos/ 2>/dev/null || git checkout -- videos/ 2>/dev/null || true
           # Staged first, then compared against the index: `git diff` alone
           # reports no change for a file that is untracked on this branch,
           # which is exactly the state of the very first run — and would have
