@@ -1,0 +1,92 @@
+name: Highlight videos
+
+# Rebuilds videos.json every morning and publishes it straight to `live`,
+# on the same terms as the digest: it is generated rather than edited, it
+# carries no images or licensing, and a race edit that waits for a human is
+# a day stale by the time it lands.
+#
+# Needs one secret, under Settings -> Secrets and variables -> Actions:
+#   YOUTUBE_API_KEY   a YouTube Data API v3 key (Google Cloud console).
+#                     Server-side only — it must never ship in either app.
+#
+# Quota is two units per source per run against a free key's 10,000 a day,
+# so this costs about ten. Without the secret the job fails loudly rather
+# than publishing a thinner file; see --no-key in build_videos.py.
+#
+# The concurrency group is shared with the digest deliberately: both jobs
+# push to `live`, and a simultaneous push loses the race and fails.
+
+on:
+  schedule:
+    # 07:20 UTC — twenty minutes behind the digest so the two normally do not
+    # queue behind each other at all.
+    - cron: "20 7 * * *"
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Videos to keep per channel"
+        required: false
+        default: "12"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: egrid-live-push
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out live
+        uses: actions/checkout@v4
+        with:
+          ref: live
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # sources.json lives on main — it is edited, not generated — so the
+      # build reads it from there rather than from the live checkout, which
+      # would otherwise serve whatever sources.json was last promoted.
+      - name: Take sources.json from main
+        run: |
+          set -euo pipefail
+          git fetch origin main --depth=1
+          git checkout origin/main -- videos/sources.json videos/build_videos.py
+
+      - name: Build videos.json
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          set -euo pipefail
+          python3 videos/build_videos.py --limit "${{ github.event.inputs.limit || '12' }}"
+          python3 -m json.tool videos.json > /dev/null
+
+      - name: Publish to live, then fold into main
+        run: |
+          set -euo pipefail
+          git config user.name "egrid-videos[bot]"
+          git config user.email "egrid-videos@users.noreply.github.com"
+          # Restore the files borrowed from main so only videos.json is staged.
+          git checkout -- videos/ 2>/dev/null || true
+          if git diff --quiet -- videos.json; then
+            echo "videos.json unchanged; nothing to publish"
+            exit 0
+          fi
+          COUNT=$(python3 -c "import json;d=json.load(open('videos.json'));print(sum(len(c['videos']) for c in d['channels']))")
+          git add videos.json
+          git commit -m "Videos: $COUNT highlight(s)"
+          git push origin HEAD:live
+
+          # Keep main a superset of live so the manual promotion (a
+          # fast-forward of live onto main) never refuses. Any conflict can
+          # only be in videos.json itself, and the generated copy wins.
+          git fetch origin main
+          git checkout -B main origin/main
+          git merge --no-edit -X theirs live
+          git push origin main
