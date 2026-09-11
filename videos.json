@@ -1,9 +1,139 @@
 {
-  "version": 1,
-  "generatedAt": "2026-09-11T15:18:51Z",
+  "version": 2,
+  "generatedAt": "2026-09-11T20:22:03Z",
   "channels": [
     {
+      "channelID": "f1",
+      "label": "F1 Video",
+      "source": "the F1 teams and the FIA",
+      "sourceURL": null,
+      "videos": [
+        {
+          "id": "zu759oT11eE",
+          "title": "Driving a Formula 1 Car on Train Tracks",
+          "publishedAt": "2026-09-08T08:09:44Z",
+          "duration": "9:10",
+          "seconds": 550,
+          "thumbnail": "https://i.ytimg.com/vi/zu759oT11eE/maxresdefault.jpg",
+          "source": "Red Bull Racing",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "knGCy_-2uqc",
+          "title": "Monza Magic, Max on the Podium & More! | Talking Bull",
+          "publishedAt": "2026-09-07T13:55:42Z",
+          "duration": "27:08",
+          "seconds": 1628,
+          "thumbnail": "https://i.ytimg.com/vi/knGCy_-2uqc/maxresdefault.jpg",
+          "source": "Red Bull Racing",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "4CXYbq6mOcc",
+          "title": "We Gave Lucky Fans a Paddock Tour At Zandvoort! | Talking Bull",
+          "publishedAt": "2026-09-01T11:00:24Z",
+          "duration": "24:59",
+          "seconds": 1499,
+          "thumbnail": "https://i.ytimg.com/vi/4CXYbq6mOcc/maxresdefault.jpg",
+          "source": "Red Bull Racing",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "xCH1UwMMoUo",
+          "title": "Behind The Charge at the FINAL Dutch Grand Prix!",
+          "publishedAt": "2026-08-28T15:00:06Z",
+          "duration": "12:21",
+          "seconds": 741,
+          "thumbnail": "https://i.ytimg.com/vi/xCH1UwMMoUo/maxresdefault.jpg",
+          "source": "Red Bull Racing",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "8l3T7LcHkdI",
+          "title": "What Really Happened at Zandvoort, Nu Silver Arrows Radio Show, Episode 8",
+          "publishedAt": "2026-08-28T09:21:25Z",
+          "duration": "34:42",
+          "seconds": 2082,
+          "thumbnail": "https://i.ytimg.com/vi/8l3T7LcHkdI/maxresdefault.jpg",
+          "source": "Mercedes-AMG F1",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "WuinVECoEFs",
+          "title": "Max RE-SIGNS ✍️ Talking Bull Reacts to the Dutch Grand Prix!",
+          "publishedAt": "2026-08-24T14:00:28Z",
+          "duration": "23:02",
+          "seconds": 1382,
+          "thumbnail": "https://i.ytimg.com/vi/WuinVECoEFs/maxresdefault.jpg",
+          "source": "Red Bull Racing",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "80aCvkTjHcA",
+          "title": "Where Racing Meets Responsibility: Understanding Formula E's Cost Cap",
+          "publishedAt": "2026-08-15T08:00:24Z",
+          "duration": "6:49",
+          "seconds": 409,
+          "thumbnail": "https://i.ytimg.com/vi/80aCvkTjHcA/maxresdefault.jpg",
+          "source": "FIA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "2H8fsju0gMo",
+          "title": "\"Racing Literally Saved My Life\" - Inspiring the Next Generation of Racers",
+          "publishedAt": "2026-08-10T15:22:07Z",
+          "duration": "8:04",
+          "seconds": 484,
+          "thumbnail": "https://i.ytimg.com/vi/2H8fsju0gMo/maxresdefault.jpg",
+          "source": "FIA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "LNP6lgxiTTg",
+          "title": "Why Spa is Unlike Any Other Circuit in F1",
+          "publishedAt": "2026-07-16T14:00:31Z",
+          "duration": "6:01",
+          "seconds": 361,
+          "thumbnail": "https://i.ytimg.com/vi/LNP6lgxiTTg/maxresdefault.jpg",
+          "source": "FIA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "u3QfUFuhSMQ",
+          "title": "Saving Lives in Motor Sport: Remembering Dr Jean-Jacques Issermann",
+          "publishedAt": "2026-07-10T17:00:38Z",
+          "duration": "15:07",
+          "seconds": 907,
+          "thumbnail": "https://i.ytimg.com/vi/u3QfUFuhSMQ/maxresdefault.jpg",
+          "source": "FIA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "XOufO7ul12o",
+          "title": "How to Watch Endurance Racing Like an Expert",
+          "publishedAt": "2026-07-10T13:00:19Z",
+          "duration": "16:03",
+          "seconds": 963,
+          "thumbnail": "https://i.ytimg.com/vi/XOufO7ul12o/maxresdefault.jpg",
+          "source": "FIA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        }
+      ]
+    },
+    {
       "channelID": "wec",
+      "label": "Highlights",
       "source": "FIA World Endurance Championship",
       "sourceURL": "https://www.youtube.com/channel/UCwU7U7PiarcJKLjDJTnANjw",
       "videos": [
@@ -14,7 +144,9 @@
           "duration": "14:36",
           "seconds": 876,
           "thumbnail": "https://i.ytimg.com/vi/WxZo8KzXyXs/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "FIA World Endurance Championship",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "6YSzXfzhUvQ",
@@ -23,7 +155,9 @@
           "duration": "56:40",
           "seconds": 3400,
           "thumbnail": "https://i.ytimg.com/vi/6YSzXfzhUvQ/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "FIA World Endurance Championship",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "-NLNeKCUdLU",
@@ -32,7 +166,9 @@
           "duration": "5:36",
           "seconds": 336,
           "thumbnail": "https://i.ytimg.com/vi/-NLNeKCUdLU/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "FIA World Endurance Championship",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "8PEy8Voff7c",
@@ -41,7 +177,9 @@
           "duration": "14:49",
           "seconds": 889,
           "thumbnail": "https://i.ytimg.com/vi/8PEy8Voff7c/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "FIA World Endurance Championship",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "GFbCplgyCqk",
@@ -50,7 +188,9 @@
           "duration": "1:00:36",
           "seconds": 3636,
           "thumbnail": "https://i.ytimg.com/vi/GFbCplgyCqk/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "FIA World Endurance Championship",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "cE0Vw-ZQpM4",
@@ -59,7 +199,9 @@
           "duration": "1:02:11",
           "seconds": 3731,
           "thumbnail": "https://i.ytimg.com/vi/cE0Vw-ZQpM4/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "FIA World Endurance Championship",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "YW8xcqwmrEI",
@@ -68,7 +210,9 @@
           "duration": "28:06",
           "seconds": 1686,
           "thumbnail": "https://i.ytimg.com/vi/YW8xcqwmrEI/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "FIA World Endurance Championship",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "BFiGXsQnE6c",
@@ -77,7 +221,9 @@
           "duration": "59:50",
           "seconds": 3590,
           "thumbnail": "https://i.ytimg.com/vi/BFiGXsQnE6c/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "FIA World Endurance Championship",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "6-R2YdZHg7Q",
@@ -86,12 +232,15 @@
           "duration": "15:03",
           "seconds": 903,
           "thumbnail": "https://i.ytimg.com/vi/6-R2YdZHg7Q/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "FIA World Endurance Championship",
+          "blockedRegions": [],
+          "allowedRegions": []
         }
       ]
     },
     {
       "channelID": "wrc",
+      "label": "Highlights",
       "source": "FIA World Rally Championship",
       "sourceURL": "https://www.youtube.com/channel/UC5G6kTnHXDz0WIBC2VGBOqg",
       "videos": [
@@ -102,7 +251,9 @@
           "duration": "17:45",
           "seconds": 1065,
           "thumbnail": "https://i.ytimg.com/vi/MueWgAOH1dw/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "FIA World Rally Championship",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "agWDq3DBE-c",
@@ -111,7 +262,9 @@
           "duration": "4:06",
           "seconds": 246,
           "thumbnail": "https://i.ytimg.com/vi/agWDq3DBE-c/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "FIA World Rally Championship",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "gRqVGWrXDh8",
@@ -120,7 +273,9 @@
           "duration": "3:31",
           "seconds": 211,
           "thumbnail": "https://i.ytimg.com/vi/gRqVGWrXDh8/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "FIA World Rally Championship",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "wmX6c8AKnxc",
@@ -129,7 +284,9 @@
           "duration": "4:10",
           "seconds": 250,
           "thumbnail": "https://i.ytimg.com/vi/wmX6c8AKnxc/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "FIA World Rally Championship",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "_C45Jl72hv8",
@@ -138,7 +295,9 @@
           "duration": "16:44",
           "seconds": 1004,
           "thumbnail": "https://i.ytimg.com/vi/_C45Jl72hv8/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "FIA World Rally Championship",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "MJrbcKYx-wE",
@@ -147,7 +306,9 @@
           "duration": "4:10",
           "seconds": 250,
           "thumbnail": "https://i.ytimg.com/vi/MJrbcKYx-wE/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "FIA World Rally Championship",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "bx-MWhZwOf4",
@@ -156,7 +317,9 @@
           "duration": "3:04",
           "seconds": 184,
           "thumbnail": "https://i.ytimg.com/vi/bx-MWhZwOf4/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "FIA World Rally Championship",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "3ePSDHKYA3U",
@@ -165,7 +328,9 @@
           "duration": "4:06",
           "seconds": 246,
           "thumbnail": "https://i.ytimg.com/vi/3ePSDHKYA3U/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "FIA World Rally Championship",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "SkWroMOCuf8",
@@ -174,7 +339,9 @@
           "duration": "3:33",
           "seconds": 213,
           "thumbnail": "https://i.ytimg.com/vi/SkWroMOCuf8/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "FIA World Rally Championship",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "g_uvYMGem3Y",
@@ -183,7 +350,9 @@
           "duration": "22:16",
           "seconds": 1336,
           "thumbnail": "https://i.ytimg.com/vi/g_uvYMGem3Y/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "FIA World Rally Championship",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "2jWo4-rOwGo",
@@ -192,7 +361,9 @@
           "duration": "2:53",
           "seconds": 173,
           "thumbnail": "https://i.ytimg.com/vi/2jWo4-rOwGo/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "FIA World Rally Championship",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "dd0IRM10uRc",
@@ -201,12 +372,15 @@
           "duration": "19:56",
           "seconds": 1196,
           "thumbnail": "https://i.ytimg.com/vi/dd0IRM10uRc/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "FIA World Rally Championship",
+          "blockedRegions": [],
+          "allowedRegions": []
         }
       ]
     },
     {
       "channelID": "nascar",
+      "label": "Highlights",
       "source": "NASCAR",
       "sourceURL": "https://www.youtube.com/channel/UCuN9hYw2RpoAW8rZ3VK3isA",
       "videos": [
@@ -217,7 +391,9 @@
           "duration": "30:16",
           "seconds": 1816,
           "thumbnail": "https://i.ytimg.com/vi/W_X-FXDuI44/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "NASCAR",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "FmhaCWYOYds",
@@ -226,7 +402,9 @@
           "duration": "23:34",
           "seconds": 1414,
           "thumbnail": "https://i.ytimg.com/vi/FmhaCWYOYds/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "NASCAR",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "wlivkA5uxdo",
@@ -235,7 +413,9 @@
           "duration": "29:14",
           "seconds": 1754,
           "thumbnail": "https://i.ytimg.com/vi/wlivkA5uxdo/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "NASCAR",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "bLkNa9PP35A",
@@ -244,7 +424,9 @@
           "duration": "23:24",
           "seconds": 1404,
           "thumbnail": "https://i.ytimg.com/vi/bLkNa9PP35A/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "NASCAR",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "z_6fqXoJesU",
@@ -253,7 +435,9 @@
           "duration": "23:08",
           "seconds": 1388,
           "thumbnail": "https://i.ytimg.com/vi/z_6fqXoJesU/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "NASCAR",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "HYqZQd-WJX0",
@@ -262,7 +446,9 @@
           "duration": "23:41",
           "seconds": 1421,
           "thumbnail": "https://i.ytimg.com/vi/HYqZQd-WJX0/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "NASCAR",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "sdgBDf_Y9jQ",
@@ -271,7 +457,9 @@
           "duration": "20:45",
           "seconds": 1245,
           "thumbnail": "https://i.ytimg.com/vi/sdgBDf_Y9jQ/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "NASCAR",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "ZWIT-nf0n9A",
@@ -280,7 +468,9 @@
           "duration": "32:25",
           "seconds": 1945,
           "thumbnail": "https://i.ytimg.com/vi/ZWIT-nf0n9A/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "NASCAR",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "NnGpRqyZsJA",
@@ -289,12 +479,15 @@
           "duration": "24:53",
           "seconds": 1493,
           "thumbnail": "https://i.ytimg.com/vi/NnGpRqyZsJA/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "NASCAR",
+          "blockedRegions": [],
+          "allowedRegions": []
         }
       ]
     },
     {
       "channelID": "indycar",
+      "label": "Highlights",
       "source": "NTT INDYCAR SERIES",
       "sourceURL": "https://www.youtube.com/channel/UCy1F61QvUUQXAXi2Voa_fUw",
       "videos": [
@@ -305,7 +498,9 @@
           "duration": "29:53",
           "seconds": 1793,
           "thumbnail": "https://i.ytimg.com/vi/LCZ3JS_q20I/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "NTT INDYCAR SERIES",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "JLRbF43qTbU",
@@ -314,7 +509,9 @@
           "duration": "30:04",
           "seconds": 1804,
           "thumbnail": "https://i.ytimg.com/vi/JLRbF43qTbU/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "NTT INDYCAR SERIES",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "W5K13kSWYko",
@@ -323,7 +520,9 @@
           "duration": "30:03",
           "seconds": 1803,
           "thumbnail": "https://i.ytimg.com/vi/W5K13kSWYko/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "NTT INDYCAR SERIES",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "W5tnGCcCpwI",
@@ -332,7 +531,9 @@
           "duration": "20:27",
           "seconds": 1227,
           "thumbnail": "https://i.ytimg.com/vi/W5tnGCcCpwI/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "NTT INDYCAR SERIES",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "bUKDO7Hk3OY",
@@ -341,7 +542,9 @@
           "duration": "29:46",
           "seconds": 1786,
           "thumbnail": "https://i.ytimg.com/vi/bUKDO7Hk3OY/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "NTT INDYCAR SERIES",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "iMN8ZgPTU70",
@@ -350,7 +553,9 @@
           "duration": "30:01",
           "seconds": 1801,
           "thumbnail": "https://i.ytimg.com/vi/iMN8ZgPTU70/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "NTT INDYCAR SERIES",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "QQ1NjBi_qDQ",
@@ -359,12 +564,15 @@
           "duration": "30:00",
           "seconds": 1800,
           "thumbnail": "https://i.ytimg.com/vi/QQ1NjBi_qDQ/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "NTT INDYCAR SERIES",
+          "blockedRegions": [],
+          "allowedRegions": []
         }
       ]
     },
     {
       "channelID": "nhra",
+      "label": "Highlights",
       "source": "NHRA",
       "sourceURL": "https://www.youtube.com/channel/UCJcErqlzaBzFmAh2uIxeqxQ",
       "videos": [
@@ -375,7 +583,9 @@
           "duration": "9:51",
           "seconds": 591,
           "thumbnail": "https://i.ytimg.com/vi/RR5IdoPDAKY/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "NHRA",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "OwEJG87kFq4",
@@ -384,7 +594,9 @@
           "duration": "11:20",
           "seconds": 680,
           "thumbnail": "https://i.ytimg.com/vi/OwEJG87kFq4/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "NHRA",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "ihrtCtmGJis",
@@ -393,7 +605,9 @@
           "duration": "5:52",
           "seconds": 352,
           "thumbnail": "https://i.ytimg.com/vi/ihrtCtmGJis/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "NHRA",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "mdeYlfqNrHM",
@@ -402,7 +616,9 @@
           "duration": "16:22",
           "seconds": 982,
           "thumbnail": "https://i.ytimg.com/vi/mdeYlfqNrHM/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "NHRA",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "PlI4vjFYgHA",
@@ -411,7 +627,9 @@
           "duration": "8:46",
           "seconds": 526,
           "thumbnail": "https://i.ytimg.com/vi/PlI4vjFYgHA/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "NHRA",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "lvpqX_DBmyY",
@@ -420,7 +638,9 @@
           "duration": "2:53",
           "seconds": 173,
           "thumbnail": "https://i.ytimg.com/vi/lvpqX_DBmyY/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "NHRA",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "jxryj3tj8wY",
@@ -429,7 +649,9 @@
           "duration": "19:29",
           "seconds": 1169,
           "thumbnail": "https://i.ytimg.com/vi/jxryj3tj8wY/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "NHRA",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "jybMtFaUpmU",
@@ -438,7 +660,9 @@
           "duration": "13:36",
           "seconds": 816,
           "thumbnail": "https://i.ytimg.com/vi/jybMtFaUpmU/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "NHRA",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "EvAWQ2BVcFY",
@@ -447,7 +671,9 @@
           "duration": "8:28",
           "seconds": 508,
           "thumbnail": "https://i.ytimg.com/vi/EvAWQ2BVcFY/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "NHRA",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "ICmznCGycs0",
@@ -456,7 +682,9 @@
           "duration": "3:26",
           "seconds": 206,
           "thumbnail": "https://i.ytimg.com/vi/ICmznCGycs0/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "NHRA",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "Cwq-htXfycc",
@@ -465,7 +693,9 @@
           "duration": "10:38",
           "seconds": 638,
           "thumbnail": "https://i.ytimg.com/vi/Cwq-htXfycc/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "NHRA",
+          "blockedRegions": [],
+          "allowedRegions": []
         },
         {
           "id": "osgGwZUOjU4",
@@ -474,7 +704,9 @@
           "duration": "4:35",
           "seconds": 275,
           "thumbnail": "https://i.ytimg.com/vi/osgGwZUOjU4/maxresdefault.jpg",
-          "blockedRegions": []
+          "source": "NHRA",
+          "blockedRegions": [],
+          "allowedRegions": []
         }
       ]
     }
