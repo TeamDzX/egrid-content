@@ -56,8 +56,16 @@ jobs:
       - name: Take sources.json from main
         run: |
           set -euo pipefail
-          git fetch origin main --depth=1
-          git checkout origin/main -- videos/sources.json videos/build_videos.py
+          # Not --depth=1: a shallow fetch grafts an unrelated history onto
+          # main, and the fold-back below then refuses to merge live into it.
+          # The checkout above is already full (fetch-depth: 0), so this costs
+          # nothing.
+          git fetch origin main
+          # Written out rather than `git checkout origin/main -- ...`, which
+          # would stage them and commit the script alongside videos.json.
+          mkdir -p videos
+          git show origin/main:videos/sources.json > videos/sources.json
+          git show origin/main:videos/build_videos.py > videos/build_videos.py
 
       - name: Build videos.json
         env:
@@ -72,8 +80,6 @@ jobs:
           set -euo pipefail
           git config user.name "egrid-videos[bot]"
           git config user.email "egrid-videos@users.noreply.github.com"
-          # Restore the files borrowed from main so only videos.json is staged.
-          git checkout -- videos/ 2>/dev/null || true
           # Staged first, then compared against the index: `git diff` alone
           # reports no change for a file that is untracked on this branch,
           # which is exactly the state of the very first run — and would have
