@@ -1,7 +1,72 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-12T11:31:29Z",
+  "generatedAt": "2026-09-13T12:35:31Z",
   "editions": [
+    {
+      "id": "2026-09-13-preview",
+      "kind": "preview",
+      "title": "This weekend in motorsport",
+      "dateRange": "13–14 September",
+      "intro": "Racing is set to be packed from 13 to 14 September. We have six rounds across Formula 1, Formula 2, Formula 3, MotoGP, NASCAR Cup Series and the World Rally Championship to follow.",
+      "publishedAt": "2026-09-13T12:35:31Z",
+      "expiresAt": "2026-09-18T12:35:31Z",
+      "items": [
+        {
+          "channelID": "f1",
+          "channelName": "Formula 1",
+          "headline": "Spanish Grand Prix",
+          "detail": "Madring, Spain · Sun 13 Sep",
+          "body": "The Spanish Grand Prix takes place in Madring, Spain on Sun 13 Sep at 13:00 UTC.",
+          "date": "2026-09-13",
+          "round": 14
+        },
+        {
+          "channelID": "f2",
+          "channelName": "Formula 2",
+          "headline": "Madrid",
+          "detail": "Madrid, Spain · Sun 13 Sep",
+          "body": "Formula 2 arrives in Madrid, Spain on Sun 13 Sep for round 11.",
+          "date": "2026-09-13",
+          "round": 11
+        },
+        {
+          "channelID": "f3",
+          "channelName": "Formula 3",
+          "headline": "Madrid",
+          "detail": "Madrid, Spain · Sun 13 Sep",
+          "body": "Round 10 of Formula 3 also visits Madrid, Spain on Sun 13 Sep.",
+          "date": "2026-09-13",
+          "round": 10
+        },
+        {
+          "channelID": "motogp",
+          "channelName": "MotoGP",
+          "headline": "Grand Prix of San Marino",
+          "detail": "Misano World Circuit Marco Simoncelli, San Marino · Sun 13 Sep",
+          "body": "The Grand Prix of San Marino is held at the Misano World Circuit Marco Simoncelli, San Marino on Sun 13 Sep.",
+          "date": "2026-09-13",
+          "round": 14
+        },
+        {
+          "channelID": "nascar",
+          "channelName": "NASCAR Cup Series",
+          "headline": "Enjoy Illinois 300",
+          "detail": "World Wide Technology Raceway · Sun 13 Sep",
+          "body": "The NASCAR Cup Series brings the Enjoy Illinois 300 to World Wide Technology Raceway on Sun 13 Sep.",
+          "date": "2026-09-13",
+          "round": 28
+        },
+        {
+          "channelID": "wrc",
+          "channelName": "World Rally Championship",
+          "headline": "Rally Chile",
+          "detail": "Concepcion, Chile · Sun 13 Sep",
+          "body": "Rally Chile takes place in Concepcion, Chile on Sun 13 Sep.",
+          "date": "2026-09-13",
+          "round": 12
+        }
+      ]
+    },
     {
       "id": "2026-09-12-preview",
       "kind": "preview",
@@ -192,71 +257,6 @@
           "headline": "Rally Chile",
           "detail": "Concepcion, Chile · Sun 13 Sep",
           "body": "Rally Chile will be held in Concepcion, Chile on Sun 13 Sep.",
-          "date": "2026-09-13",
-          "round": 12
-        }
-      ]
-    },
-    {
-      "id": "2026-09-09-preview",
-      "kind": "preview",
-      "title": "This weekend in motorsport",
-      "dateRange": "9–14 September",
-      "intro": "A busy week of racing awaits from 9–14 September, with six rounds across Formula 1, Formula 2, Formula 3, MotoGP, NASCAR Cup Series and the World Rally Championship.",
-      "publishedAt": "2026-09-09T12:12:37Z",
-      "expiresAt": "2026-09-14T12:12:37Z",
-      "items": [
-        {
-          "channelID": "f1",
-          "channelName": "Formula 1",
-          "headline": "Spanish Grand Prix",
-          "detail": "Madring, Spain · Sun 13 Sep",
-          "body": "The Spanish Grand Prix takes place in Madrid, Spain on Sun 13 Sep at 13:00 UTC.",
-          "date": "2026-09-13",
-          "round": 14
-        },
-        {
-          "channelID": "f2",
-          "channelName": "Formula 2",
-          "headline": "Madrid",
-          "detail": "Madrid, Spain · Sun 13 Sep",
-          "body": "Formula 2 arrives in Madrid, Spain on Sun 13 Sep.",
-          "date": "2026-09-13",
-          "round": 11
-        },
-        {
-          "channelID": "f3",
-          "channelName": "Formula 3",
-          "headline": "Madrid",
-          "detail": "Madrid, Spain · Sun 13 Sep",
-          "body": "Formula 3 heads to Madrid, Spain on Sun 13 Sep.",
-          "date": "2026-09-13",
-          "round": 10
-        },
-        {
-          "channelID": "motogp",
-          "channelName": "MotoGP",
-          "headline": "Grand Prix of San Marino",
-          "detail": "Misano World Circuit Marco Simoncelli, San Marino · Sun 13 Sep",
-          "body": "The Grand Prix of San Marino is held at Misano World Circuit Marco Simoncelli, San Marino on Sun 13 Sep.",
-          "date": "2026-09-13",
-          "round": 21
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "Enjoy Illinois 300",
-          "detail": "World Wide Technology Raceway · Sun 13 Sep",
-          "body": "The Enjoy Illinois 300 takes place at World Wide Technology Raceway on Sun 13 Sep.",
-          "date": "2026-09-13",
-          "round": 28
-        },
-        {
-          "channelID": "wrc",
-          "channelName": "World Rally Championship",
-          "headline": "Rally Chile",
-          "detail": "Concepcion, Chile · Sun 13 Sep",
-          "body": "Rally Chile runs in Concepcion, Chile on Sun 13 Sep.",
           "date": "2026-09-13",
           "round": 12
         }
