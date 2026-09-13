@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-12T11:37:34Z",
+  "generatedAt": "2026-09-13T12:44:29Z",
   "channels": [
     {
       "channelID": "f1",
@@ -49,17 +49,6 @@
           "seconds": 741,
           "thumbnail": "https://i.ytimg.com/vi/xCH1UwMMoUo/maxresdefault.jpg",
           "source": "Red Bull Racing",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "8l3T7LcHkdI",
-          "title": "What Really Happened at Zandvoort, Nu Silver Arrows Radio Show, Episode 8",
-          "publishedAt": "2026-08-28T09:21:25Z",
-          "duration": "34:42",
-          "seconds": 2082,
-          "thumbnail": "https://i.ytimg.com/vi/8l3T7LcHkdI/maxresdefault.jpg",
-          "source": "Mercedes-AMG F1",
           "blockedRegions": [],
           "allowedRegions": []
         },
