@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-13T12:44:29Z",
+  "generatedAt": "2026-09-14T14:06:10Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,17 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "Bb1kKpYJFWg",
+          "title": "Inside The Madrid Grand Prix: The Full Breakdown! | Talking Bull",
+          "publishedAt": "2026-09-14T13:00:04Z",
+          "duration": "25:22",
+          "seconds": 1522,
+          "thumbnail": "https://i.ytimg.com/vi/Bb1kKpYJFWg/maxresdefault.jpg",
+          "source": "Red Bull Racing",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "zu759oT11eE",
           "title": "Driving a Formula 1 Car on Train Tracks",
@@ -234,6 +245,28 @@
       "sourceURL": "https://www.youtube.com/channel/UC5G6kTnHXDz0WIBC2VGBOqg",
       "videos": [
         {
+          "id": "F79xb7HXgmU",
+          "title": "Best of RAW Action | WRC Rally Chile Biobío 2026",
+          "publishedAt": "2026-09-14T13:32:59Z",
+          "duration": "4:01",
+          "seconds": 241,
+          "thumbnail": "https://i.ytimg.com/vi/F79xb7HXgmU/maxresdefault.jpg",
+          "source": "FIA World Rally Championship",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "K7B0hCkLIz0",
+          "title": "Junior WRC Event Highlights | WRC Rally Chile Biobío 2026",
+          "publishedAt": "2026-09-14T09:00:10Z",
+          "duration": "5:13",
+          "seconds": 313,
+          "thumbnail": "https://i.ytimg.com/vi/K7B0hCkLIz0/maxresdefault.jpg",
+          "source": "FIA World Rally Championship",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "MueWgAOH1dw",
           "title": "SS11 Stage Highlights | WRC Rally Chile Biobío 2024",
           "publishedAt": "2026-09-09T13:00:40Z",
@@ -342,28 +375,6 @@
           "source": "FIA World Rally Championship",
           "blockedRegions": [],
           "allowedRegions": []
-        },
-        {
-          "id": "2jWo4-rOwGo",
-          "title": "WRC2 Event Highlights | WRC FORUM8 Rally Japan",
-          "publishedAt": "2026-06-02T07:00:39Z",
-          "duration": "2:53",
-          "seconds": 173,
-          "thumbnail": "https://i.ytimg.com/vi/2jWo4-rOwGo/maxresdefault.jpg",
-          "source": "FIA World Rally Championship",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "dd0IRM10uRc",
-          "title": "SS17 Stage Highlights | WRC FORUM8 Rally Japan 2024",
-          "publishedAt": "2026-05-23T14:00:43Z",
-          "duration": "19:56",
-          "seconds": 1196,
-          "thumbnail": "https://i.ytimg.com/vi/dd0IRM10uRc/maxresdefault.jpg",
-          "source": "FIA World Rally Championship",
-          "blockedRegions": [],
-          "allowedRegions": []
         }
       ]
     },
@@ -373,6 +384,17 @@
       "source": "NASCAR",
       "sourceURL": "https://www.youtube.com/channel/UCuN9hYw2RpoAW8rZ3VK3isA",
       "videos": [
+        {
+          "id": "W1u734oeW1o",
+          "title": "NASCAR Cup Series Highlights | 2026 World Wide Technology Raceway",
+          "publishedAt": "2026-09-13T23:54:08Z",
+          "duration": "32:55",
+          "seconds": 1975,
+          "thumbnail": "https://i.ytimg.com/vi/W1u734oeW1o/maxresdefault.jpg",
+          "source": "NASCAR",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "W_X-FXDuI44",
           "title": "NASCAR Cup Series Highlights | 2026 Darlington Raceway",
@@ -542,17 +564,6 @@
           "duration": "30:01",
           "seconds": 1801,
           "thumbnail": "https://i.ytimg.com/vi/iMN8ZgPTU70/maxresdefault.jpg",
-          "source": "NTT INDYCAR SERIES",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "QQ1NjBi_qDQ",
-          "title": "Extended Race Highlights | 2026 INDYCAR at Road America",
-          "publishedAt": "2026-06-21T22:02:32Z",
-          "duration": "30:00",
-          "seconds": 1800,
-          "thumbnail": "https://i.ytimg.com/vi/QQ1NjBi_qDQ/maxresdefault.jpg",
           "source": "NTT INDYCAR SERIES",
           "blockedRegions": [],
           "allowedRegions": []
