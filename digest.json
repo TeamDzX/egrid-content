@@ -1,7 +1,114 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-13T12:35:31Z",
+  "generatedAt": "2026-09-14T13:44:18Z",
   "editions": [
+    {
+      "id": "2026-09-14-recap",
+      "kind": "recap",
+      "title": "Last week in motorsport",
+      "dateRange": "7–13 September",
+      "intro": "7 rounds ran between 7–13 September, across Formula 1, Formula 2, Formula 3, MotoGP, NASCAR Cup Series, NHRA Drag Racing and World Rally Championship.",
+      "publishedAt": "2026-09-14T13:44:18Z",
+      "expiresAt": "2026-09-18T13:44:18Z",
+      "items": [
+        {
+          "channelID": "nhra",
+          "channelName": "NHRA Drag Racing",
+          "headline": "U.S. Nationals",
+          "detail": "Lucas Oil Indianapolis Raceway Park · Mon 7 Sep",
+          "body": "This NHRA Drag Racing round is complete. This series does not publish results to E-Grid's data sources.",
+          "date": "2026-09-07"
+        },
+        {
+          "channelID": "f1",
+          "channelName": "Formula 1",
+          "headline": "Spanish Grand Prix",
+          "detail": "Madring, Spain · Sun 13 Sep",
+          "body": "Round 14 of the Formula 1 season. Won by Andrea Kimi Antonelli (Mercedes) from Max Verstappen and Lando Norris.",
+          "date": "2026-09-13",
+          "round": 14,
+          "podium": [
+            {
+              "position": 1,
+              "name": "Andrea Kimi Antonelli",
+              "team": "Mercedes"
+            },
+            {
+              "position": 2,
+              "name": "Max Verstappen",
+              "team": "Red Bull"
+            },
+            {
+              "position": 3,
+              "name": "Lando Norris",
+              "team": "McLaren"
+            }
+          ]
+        },
+        {
+          "channelID": "f2",
+          "channelName": "Formula 2",
+          "headline": "Madrid",
+          "detail": "Madrid, Spain · Sun 13 Sep",
+          "body": "Round 11 of the Formula 2 season is complete. This series does not publish results to E-Grid's data sources.",
+          "date": "2026-09-13",
+          "round": 11
+        },
+        {
+          "channelID": "f3",
+          "channelName": "Formula 3",
+          "headline": "Madrid",
+          "detail": "Madrid, Spain · Sun 13 Sep",
+          "body": "Round 10 of the Formula 3 season is complete. This series does not publish results to E-Grid's data sources.",
+          "date": "2026-09-13",
+          "round": 10
+        },
+        {
+          "channelID": "motogp",
+          "channelName": "MotoGP",
+          "headline": "Grand Prix of San Marino",
+          "detail": "Misano World Circuit Marco Simoncelli, San Marino · Sun 13 Sep",
+          "body": "Round 14 of the MotoGP season. Won by Marc Marquez (Ducati Lenovo Team) from Alex Marquez and Pedro Acosta.",
+          "date": "2026-09-13",
+          "round": 14,
+          "podium": [
+            {
+              "position": 1,
+              "name": "Marc Marquez",
+              "team": "Ducati Lenovo Team"
+            },
+            {
+              "position": 2,
+              "name": "Alex Marquez",
+              "team": "BK8 Gresini Racing MotoGP"
+            },
+            {
+              "position": 3,
+              "name": "Pedro Acosta",
+              "team": "Red Bull KTM Factory Racing"
+            }
+          ]
+        },
+        {
+          "channelID": "nascar",
+          "channelName": "NASCAR Cup Series",
+          "headline": "Enjoy Illinois 300",
+          "detail": "World Wide Technology Raceway · Sun 13 Sep",
+          "body": "Round 28 of the NASCAR Cup Series season is complete. This series does not publish results to E-Grid's data sources.",
+          "date": "2026-09-13",
+          "round": 28
+        },
+        {
+          "channelID": "wrc",
+          "channelName": "World Rally Championship",
+          "headline": "Rally Chile",
+          "detail": "Concepcion, Chile · Sun 13 Sep",
+          "body": "Round 12 of the World Rally Championship season is complete. This series does not publish results to E-Grid's data sources.",
+          "date": "2026-09-13",
+          "round": 12
+        }
+      ]
+    },
     {
       "id": "2026-09-13-preview",
       "kind": "preview",
@@ -192,71 +299,6 @@
           "headline": "Rally Chile",
           "detail": "Concepcion, Chile · Sun 13 Sep",
           "body": "Rally Chile takes place in Concepcion, Chile, on Sun 13 Sep.",
-          "date": "2026-09-13",
-          "round": 12
-        }
-      ]
-    },
-    {
-      "id": "2026-09-10-preview",
-      "kind": "preview",
-      "title": "This weekend in motorsport",
-      "dateRange": "10–14 September",
-      "intro": "Six rounds are scheduled for the week of 10–14 September across Formula 1, Formula 2, Formula 3, MotoGP, NASCAR Cup Series and the World Rally Championship.",
-      "publishedAt": "2026-09-10T12:06:27Z",
-      "expiresAt": "2026-09-15T12:06:27Z",
-      "items": [
-        {
-          "channelID": "f1",
-          "channelName": "Formula 1",
-          "headline": "Spanish Grand Prix",
-          "detail": "Madring, Spain · Sun 13 Sep",
-          "body": "The Spanish Grand Prix takes place in Madring, Spain on Sun 13 Sep at 13:00 UTC.",
-          "date": "2026-09-13",
-          "round": 14
-        },
-        {
-          "channelID": "f2",
-          "channelName": "Formula 2",
-          "headline": "Madrid",
-          "detail": "Madrid, Spain · Sun 13 Sep",
-          "body": "Formula 2 visits Madrid, Spain on Sun 13 Sep.",
-          "date": "2026-09-13",
-          "round": 11
-        },
-        {
-          "channelID": "f3",
-          "channelName": "Formula 3",
-          "headline": "Madrid",
-          "detail": "Madrid, Spain · Sun 13 Sep",
-          "body": "Formula 3 travels to Madrid, Spain on Sun 13 Sep.",
-          "date": "2026-09-13",
-          "round": 10
-        },
-        {
-          "channelID": "motogp",
-          "channelName": "MotoGP",
-          "headline": "Grand Prix of San Marino",
-          "detail": "Misano World Circuit Marco Simoncelli, San Marino · Sun 13 Sep",
-          "body": "The Grand Prix of San Marino is held at Misano World Circuit Marco Simoncelli, San Marino on Sun 13 Sep.",
-          "date": "2026-09-13",
-          "round": 21
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "Enjoy Illinois 300",
-          "detail": "World Wide Technology Raceway · Sun 13 Sep",
-          "body": "The Enjoy Illinois 300 takes place at World Wide Technology Raceway on Sun 13 Sep.",
-          "date": "2026-09-13",
-          "round": 28
-        },
-        {
-          "channelID": "wrc",
-          "channelName": "World Rally Championship",
-          "headline": "Rally Chile",
-          "detail": "Concepcion, Chile · Sun 13 Sep",
-          "body": "Rally Chile will be held in Concepcion, Chile on Sun 13 Sep.",
           "date": "2026-09-13",
           "round": 12
         }
