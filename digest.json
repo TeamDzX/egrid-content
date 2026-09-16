@@ -1,7 +1,62 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-15T12:31:11Z",
+  "generatedAt": "2026-09-16T12:28:26Z",
   "editions": [
+    {
+      "id": "2026-09-16-preview",
+      "kind": "preview",
+      "title": "This weekend in motorsport",
+      "dateRange": "16–21 September",
+      "intro": "Five rounds of racing await between 16 and 21 September, featuring the Clio Cup Series, NASCAR Cup Series, IMSA SportsCar Championship, MotoGP and NHRA Drag Racing.",
+      "publishedAt": "2026-09-16T12:28:26Z",
+      "expiresAt": "2026-09-21T12:28:26Z",
+      "items": [
+        {
+          "channelID": "cliocup",
+          "channelName": "Clio Cup Series",
+          "headline": "Spa-Francorchamps",
+          "detail": "Circuit de Spa-Francorchamps, Belgium · Sat 19 Sep",
+          "body": "The Clio Cup Series arrives at Circuit de Spa-Francorchamps in Belgium on Sat 19 Sep for round five.",
+          "date": "2026-09-19",
+          "round": 5
+        },
+        {
+          "channelID": "nascar",
+          "channelName": "NASCAR Cup Series",
+          "headline": "Bass Pro Shops Night Race",
+          "detail": "Bristol Motor Speedway · Sat 19 Sep",
+          "body": "Bristol Motor Speedway hosts the NASCAR Cup Series Bass Pro Shops Night Race on Sat 19 Sep.",
+          "date": "2026-09-19",
+          "round": 29
+        },
+        {
+          "channelID": "imsa",
+          "channelName": "IMSA SportsCar Championship",
+          "headline": "Battle on the Bricks",
+          "detail": "Indianapolis Motor Speedway · Sun 20 Sep",
+          "body": "The IMSA SportsCar Championship continues at Indianapolis Motor Speedway with the Battle on the Bricks on Sun 20 Sep.",
+          "date": "2026-09-20",
+          "round": 10
+        },
+        {
+          "channelID": "motogp",
+          "channelName": "MotoGP",
+          "headline": "Grand Prix of Austria",
+          "detail": "Red Bull Ring - Spielberg, Austria · Sun 20 Sep",
+          "body": "The Grand Prix of Austria takes place at the Red Bull Ring in Spielberg on Sun 20 Sep for MotoGP.",
+          "date": "2026-09-20",
+          "round": 22
+        },
+        {
+          "channelID": "nhra",
+          "channelName": "NHRA Drag Racing",
+          "headline": "Great Lakes Nationals",
+          "detail": "U.S. 131 Motorsports Park, Michigan · Sun 20 Sep",
+          "body": "NHRA Drag Racing arrives at U.S. 131 Motorsports Park in Michigan for the Great Lakes Nationals on Sun 20 Sep.",
+          "date": "2026-09-20"
+        }
+      ]
+    },
     {
       "id": "2026-09-15-recap",
       "kind": "recap",
@@ -268,71 +323,6 @@
           "headline": "Rally Chile",
           "detail": "Concepcion, Chile · Sun 13 Sep",
           "body": "Rally Chile takes place in Concepcion, Chile on Sun 13 Sep.",
-          "date": "2026-09-13",
-          "round": 12
-        }
-      ]
-    },
-    {
-      "id": "2026-09-12-preview",
-      "kind": "preview",
-      "title": "This weekend in motorsport",
-      "dateRange": "12–14 September",
-      "intro": "Six rounds across Formula 1, Formula 2, Formula 3, MotoGP, NASCAR Cup Series and the World Rally Championship are scheduled for the weekend of 12–14 September.",
-      "publishedAt": "2026-09-12T11:31:29Z",
-      "expiresAt": "2026-09-17T11:31:29Z",
-      "items": [
-        {
-          "channelID": "f1",
-          "channelName": "Formula 1",
-          "headline": "Spanish Grand Prix",
-          "detail": "Madring, Spain · Sun 13 Sep",
-          "body": "The Spanish Grand Prix takes place in Madring, Spain on Sun 13 Sep at 13:00 UTC.",
-          "date": "2026-09-13",
-          "round": 14
-        },
-        {
-          "channelID": "f2",
-          "channelName": "Formula 2",
-          "headline": "Madrid",
-          "detail": "Madrid, Spain · Sun 13 Sep",
-          "body": "Formula 2 heads to Madrid, Spain on Sun 13 Sep.",
-          "date": "2026-09-13",
-          "round": 11
-        },
-        {
-          "channelID": "f3",
-          "channelName": "Formula 3",
-          "headline": "Madrid",
-          "detail": "Madrid, Spain · Sun 13 Sep",
-          "body": "Formula 3 visits Madrid, Spain on Sun 13 Sep.",
-          "date": "2026-09-13",
-          "round": 10
-        },
-        {
-          "channelID": "motogp",
-          "channelName": "MotoGP",
-          "headline": "Grand Prix of San Marino",
-          "detail": "Misano World Circuit Marco Simoncelli, San Marino · Sun 13 Sep",
-          "body": "The Grand Prix of San Marino is held at Misano World Circuit Marco Simoncelli, San Marino on Sun 13 Sep.",
-          "date": "2026-09-13",
-          "round": 14
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "Enjoy Illinois 300",
-          "detail": "World Wide Technology Raceway · Sun 13 Sep",
-          "body": "The Enjoy Illinois 300 takes place at World Wide Technology Raceway on Sun 13 Sep.",
-          "date": "2026-09-13",
-          "round": 28
-        },
-        {
-          "channelID": "wrc",
-          "channelName": "World Rally Championship",
-          "headline": "Rally Chile",
-          "detail": "Concepcion, Chile · Sun 13 Sep",
-          "body": "Rally Chile runs in Concepcion, Chile on Sun 13 Sep.",
           "date": "2026-09-13",
           "round": 12
         }
