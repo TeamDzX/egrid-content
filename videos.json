@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-16T12:37:22Z",
+  "generatedAt": "2026-09-17T12:36:42Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,17 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "tB8MaQHkOAw",
+          "title": "Doriane Faces Her Toughest Interview Yet 😅 In Convo With Kids | Doriane Pin",
+          "publishedAt": "2026-09-17T11:49:23Z",
+          "duration": "10:01",
+          "seconds": 601,
+          "thumbnail": "https://i.ytimg.com/vi/tB8MaQHkOAw/maxresdefault.jpg",
+          "source": "Mercedes-AMG F1",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "Bb1kKpYJFWg",
           "title": "Inside The Madrid Grand Prix: The Full Breakdown! | Talking Bull",
