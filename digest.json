@@ -1,7 +1,62 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-17T12:28:07Z",
+  "generatedAt": "2026-09-18T12:07:34Z",
   "editions": [
+    {
+      "id": "2026-09-18-preview",
+      "kind": "preview",
+      "title": "This weekend in motorsport",
+      "dateRange": "18–21 September",
+      "intro": "A busy period of racing is approaching between 18 and 21 September, with five rounds across the Clio Cup Series, NASCAR Cup Series, IMSA SportsCar Championship, MotoGP, and NHRA Drag Racing.",
+      "publishedAt": "2026-09-18T12:07:34Z",
+      "expiresAt": "2026-09-23T12:07:34Z",
+      "items": [
+        {
+          "channelID": "cliocup",
+          "channelName": "Clio Cup Series",
+          "headline": "Spa-Francorchamps",
+          "detail": "Circuit de Spa-Francorchamps, Belgium · Sat 19 Sep",
+          "body": "The Clio Cup Series arrives at Circuit de Spa-Francorchamps in Belgium on Sat 19 Sep for round 5.",
+          "date": "2026-09-19",
+          "round": 5
+        },
+        {
+          "channelID": "nascar",
+          "channelName": "NASCAR Cup Series",
+          "headline": "Bass Pro Shops Night Race",
+          "detail": "Bristol Motor Speedway · Sat 19 Sep",
+          "body": "Round 29 of the NASCAR Cup Series is the Bass Pro Shops Night Race at Bristol Motor Speedway on Sat 19 Sep.",
+          "date": "2026-09-19",
+          "round": 29
+        },
+        {
+          "channelID": "imsa",
+          "channelName": "IMSA SportsCar Championship",
+          "headline": "Battle on the Bricks",
+          "detail": "Indianapolis Motor Speedway · Sun 20 Sep",
+          "body": "The IMSA SportsCar Championship holds its Battle on the Bricks at Indianapolis Motor Speedway on Sun 20 Sep for round 10.",
+          "date": "2026-09-20",
+          "round": 10
+        },
+        {
+          "channelID": "motogp",
+          "channelName": "MotoGP",
+          "headline": "Grand Prix of Austria",
+          "detail": "Red Bull Ring - Spielberg, Austria · Sun 20 Sep",
+          "body": "MotoGP arrives at the Red Bull Ring in Spielberg, Austria, for the Grand Prix of Austria on Sun 20 Sep for round 15.",
+          "date": "2026-09-20",
+          "round": 15
+        },
+        {
+          "channelID": "nhra",
+          "channelName": "NHRA Drag Racing",
+          "headline": "Great Lakes Nationals",
+          "detail": "U.S. 131 Motorsports Park, Michigan · Sun 20 Sep",
+          "body": "The NHRA Drag Racing Great Lakes Nationals takes place at U.S. 131 Motorsports Park, Michigan, on Sun 20 Sep.",
+          "date": "2026-09-20"
+        }
+      ]
+    },
     {
       "id": "2026-09-17-preview",
       "kind": "preview",
@@ -206,113 +261,6 @@
           "headline": "Rally Chile",
           "detail": "Concepcion, Chile · Sun 13 Sep",
           "body": "Rally Chile took place in Concepcion.",
-          "date": "2026-09-13",
-          "round": 12
-        }
-      ]
-    },
-    {
-      "id": "2026-09-14-recap",
-      "kind": "recap",
-      "title": "Last week in motorsport",
-      "dateRange": "7–13 September",
-      "intro": "7 rounds ran between 7–13 September, across Formula 1, Formula 2, Formula 3, MotoGP, NASCAR Cup Series, NHRA Drag Racing and World Rally Championship.",
-      "publishedAt": "2026-09-14T13:44:18Z",
-      "expiresAt": "2026-09-18T13:44:18Z",
-      "items": [
-        {
-          "channelID": "nhra",
-          "channelName": "NHRA Drag Racing",
-          "headline": "U.S. Nationals",
-          "detail": "Lucas Oil Indianapolis Raceway Park · Mon 7 Sep",
-          "body": "This NHRA Drag Racing round is complete. This series does not publish results to E-Grid's data sources.",
-          "date": "2026-09-07"
-        },
-        {
-          "channelID": "f1",
-          "channelName": "Formula 1",
-          "headline": "Spanish Grand Prix",
-          "detail": "Madring, Spain · Sun 13 Sep",
-          "body": "Round 14 of the Formula 1 season. Won by Andrea Kimi Antonelli (Mercedes) from Max Verstappen and Lando Norris.",
-          "date": "2026-09-13",
-          "round": 14,
-          "podium": [
-            {
-              "position": 1,
-              "name": "Andrea Kimi Antonelli",
-              "team": "Mercedes"
-            },
-            {
-              "position": 2,
-              "name": "Max Verstappen",
-              "team": "Red Bull"
-            },
-            {
-              "position": 3,
-              "name": "Lando Norris",
-              "team": "McLaren"
-            }
-          ]
-        },
-        {
-          "channelID": "f2",
-          "channelName": "Formula 2",
-          "headline": "Madrid",
-          "detail": "Madrid, Spain · Sun 13 Sep",
-          "body": "Round 11 of the Formula 2 season is complete. This series does not publish results to E-Grid's data sources.",
-          "date": "2026-09-13",
-          "round": 11
-        },
-        {
-          "channelID": "f3",
-          "channelName": "Formula 3",
-          "headline": "Madrid",
-          "detail": "Madrid, Spain · Sun 13 Sep",
-          "body": "Round 10 of the Formula 3 season is complete. This series does not publish results to E-Grid's data sources.",
-          "date": "2026-09-13",
-          "round": 10
-        },
-        {
-          "channelID": "motogp",
-          "channelName": "MotoGP",
-          "headline": "Grand Prix of San Marino",
-          "detail": "Misano World Circuit Marco Simoncelli, San Marino · Sun 13 Sep",
-          "body": "Round 14 of the MotoGP season. Won by Marc Marquez (Ducati Lenovo Team) from Alex Marquez and Pedro Acosta.",
-          "date": "2026-09-13",
-          "round": 14,
-          "podium": [
-            {
-              "position": 1,
-              "name": "Marc Marquez",
-              "team": "Ducati Lenovo Team"
-            },
-            {
-              "position": 2,
-              "name": "Alex Marquez",
-              "team": "BK8 Gresini Racing MotoGP"
-            },
-            {
-              "position": 3,
-              "name": "Pedro Acosta",
-              "team": "Red Bull KTM Factory Racing"
-            }
-          ]
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "Enjoy Illinois 300",
-          "detail": "World Wide Technology Raceway · Sun 13 Sep",
-          "body": "Round 28 of the NASCAR Cup Series season is complete. This series does not publish results to E-Grid's data sources.",
-          "date": "2026-09-13",
-          "round": 28
-        },
-        {
-          "channelID": "wrc",
-          "channelName": "World Rally Championship",
-          "headline": "Rally Chile",
-          "detail": "Concepcion, Chile · Sun 13 Sep",
-          "body": "Round 12 of the World Rally Championship season is complete. This series does not publish results to E-Grid's data sources.",
           "date": "2026-09-13",
           "round": 12
         }
