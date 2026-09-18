@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-17T12:36:42Z",
+  "generatedAt": "2026-09-18T12:14:53Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,17 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "VB5icKU5N6E",
+          "title": "The Best Two Weeks of Our Season? Nu Silver Arrows Radio Show, Episode 9",
+          "publishedAt": "2026-09-18T09:47:30Z",
+          "duration": "39:59",
+          "seconds": 2399,
+          "thumbnail": "https://i.ytimg.com/vi/VB5icKU5N6E/maxresdefault.jpg",
+          "source": "Mercedes-AMG F1",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "tB8MaQHkOAw",
           "title": "Doriane Faces Her Toughest Interview Yet 😅 In Convo With Kids | Doriane Pin",
@@ -479,17 +490,6 @@
           "duration": "32:25",
           "seconds": 1945,
           "thumbnail": "https://i.ytimg.com/vi/ZWIT-nf0n9A/maxresdefault.jpg",
-          "source": "NASCAR",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "NnGpRqyZsJA",
-          "title": "NASCAR Cup Series Highlights | 2026 Chicagoland Speedway",
-          "publishedAt": "2026-07-06T02:10:02Z",
-          "duration": "24:53",
-          "seconds": 1493,
-          "thumbnail": "https://i.ytimg.com/vi/NnGpRqyZsJA/maxresdefault.jpg",
           "source": "NASCAR",
           "blockedRegions": [],
           "allowedRegions": []
