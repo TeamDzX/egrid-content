@@ -93,6 +93,32 @@ class RaceLine:
 
 
 @dataclass
+class Classified:
+    """One row of the last race's classification, series-neutral."""
+    position: int | None
+    name: str
+    team: str
+    grid: int | None = None
+    points: float | None = None
+    status: str | None = None
+    gap: str | None = None
+    fastest_lap: bool = False
+
+
+@dataclass
+class RaceSummary:
+    channel_id: str
+    name: str
+    round_number: int | None
+    date: str | None
+    rows: list[Classified] = field(default_factory=list)
+
+    @property
+    def everyone(self) -> set[str]:
+        return {r.name for r in self.rows if r.name}
+
+
+@dataclass
 class Team:
     channel_id: str
     name: str
@@ -191,7 +217,20 @@ def f1_teams() -> list[Team]:
             grid = int(result["grid"]) if str(result.get("grid", "")).isdigit() and int(result["grid"]) > 0 else None
             team.lines.append(RaceLine(name, classified_position(result), grid, float(result.get("points") or 0),
                                        result.get("status")))
-    return sorted(teams.values(), key=lambda t: t.position or 99)
+    race = None
+    if last:
+        race = RaceSummary("f1", last.get("raceName", "Grand Prix"),
+                           int(last["round"]) if last.get("round") else None, last.get("date"))
+        for result in last.get("Results", []):
+            driver = result.get("Driver", {})
+            name = f"{driver.get('givenName', '')} {driver.get('familyName', '')}".strip()
+            grid = int(result["grid"]) if str(result.get("grid", "")).isdigit() and int(result["grid"]) > 0 else None
+            race.rows.append(Classified(
+                classified_position(result), name, result.get("Constructor", {}).get("name", ""), grid,
+                float(result.get("points") or 0), result.get("status"),
+                (result.get("Time") or {}).get("time"),
+                (result.get("FastestLap") or {}).get("rank") == "1"))
+    return sorted(teams.values(), key=lambda t: t.position or 99), race
 
 
 # ---------------------------------------------------------------------------
@@ -249,7 +288,7 @@ def motogp_teams() -> list[Team]:
     if last_rows:
         for team in teams.values():
             team.last_race = tidy_title((last_event.get("name") or "").strip())
-            team.last_race_round = len(finished)
+            team.last_race_round = team.rounds
             team.last_race_date = (last_event.get("date_end") or "")[:10] or None
         for row in last_rows:
             team = teams.get((row.get("constructor") or {}).get("name"))
@@ -259,7 +298,19 @@ def motogp_teams() -> list[Team]:
             team.lines.append(RaceLine((row.get("rider") or {}).get("full_name", ""), row.get("position"),
                                        None, float(points) if points is not None else None,
                                        (row.get("status") or None)))
-    return [teams[m] for m in order]
+    race = None
+    if last_rows:
+        race = RaceSummary("motogp", tidy_title((last_event.get("name") or "").strip()),
+                           next(iter(teams.values())).rounds if teams else None,
+                           (last_event.get("date_end") or "")[:10] or None)
+        for row in last_rows:
+            points = row.get("points")
+            race.rows.append(Classified(
+                row.get("position") or None, (row.get("rider") or {}).get("full_name", ""),
+                (row.get("team") or {}).get("name", ""), None,
+                float(points) if points is not None else None, row.get("status") or None,
+                row.get("gap") if isinstance(row.get("gap"), str) else None))
+    return [teams[m] for m in order], race
 
 
 def motogp_race_rows(event_id: str, category_id: str) -> list[dict]:
@@ -329,7 +380,17 @@ def formula_e_teams() -> list[Team]:
             points = row.get("driverPoints")
             team.lines.append(RaceLine(name, row.get("driverPosition") or None, row.get("driverGridPosition"),
                                        float(points) if points is not None else None, None))
-    return sorted(teams.values(), key=lambda t: t.position or 99)
+    race = None
+    if last_rows:
+        race = RaceSummary("formulae", last_race.get("name", "E-Prix"), last_race.get("sequence") or len(done),
+                           (last_race.get("date") or "")[:10] or None)
+        for row in last_rows:
+            name = f"{row.get('driverFirstName', '')} {row.get('driverLastName', '')}".strip() or row.get("driverTLA", "")
+            points = row.get("driverPoints")
+            race.rows.append(Classified(
+                row.get("driverPosition") or None, name, title_case((row.get("team") or {}).get("name") or ""),
+                row.get("driverGridPosition"), float(points) if points is not None else None, None))
+    return sorted(teams.values(), key=lambda t: t.position or 99), race
 
 
 def formula_e_race_rows(race_id: str) -> list[dict]:
@@ -395,6 +456,29 @@ def template_last_race(t: Team) -> str:
     return f"At the {t.last_race}, " + "; ".join(bits) + "."
 
 
+def template_race(race: RaceSummary) -> tuple[str, list[str]]:
+    rows = sorted([r for r in race.rows if r.position], key=lambda r: r.position)
+    if not rows:
+        return "", []
+    podium = rows[:3]
+    summary = f"{podium[0].name} won the {race.name} for {podium[0].team}"
+    if len(podium) > 1:
+        summary += ", ahead of " + " and ".join(f"{r.name} ({r.team})" for r in podium[1:])
+    summary += "."
+    highlights = []
+    climbers = [r for r in rows if r.grid and r.grid - r.position >= 5]
+    if climbers:
+        best = max(climbers, key=lambda r: r.grid - r.position)
+        highlights.append(f"{best.name} climbed from {ordinal(best.grid)} on the grid to {ordinal(best.position)}.")
+    fastest = next((r for r in race.rows if r.fastest_lap), None)
+    if fastest:
+        highlights.append(f"Fastest lap went to {fastest.name}.")
+    out = [r for r in race.rows if r.position is None and r.name]
+    if out:
+        highlights.append("Did not finish: " + ", ".join(r.name for r in out) + ".")
+    return summary, highlights
+
+
 SYSTEM_PROMPT = """You write short team performance notes inside E-Grid, a motorsport companion app. British English. Plain, knowledgeable and even-handed — a well-read fan writing to other fans, not a press release and not a team's own marketing.
 
 Hard rules:
@@ -406,7 +490,20 @@ Hard rules:
 
 For every team index write:
 - summary: at most 70 words on the season so far — where they stand, how the points have come, how their drivers or riders compare with each other. If position or points are absent, describe the season without ranking them.
-- lastRace: at most 60 words on the most recent race, from the lines given (finishing position, grid position where given, points, a did-not-finish). If no race lines are given, return an empty string."""
+- lastRace: at most 60 words on the most recent race, from the lines given (finishing position, grid position where given, points, a did-not-finish). If no race lines are given, return an empty string.
+
+If a "race" object is supplied — the full classification of that most recent race — also write, under the same rules:
+- race.summary: at most 90 words on the race as a whole: the winner and podium with their teams, and what the classification shows (a drive through the field, a front-row car that fell away). Use only the rows given; nothing about incidents, weather or strategy unless a status or gap in the rows states it.
+- race.highlights: two to four short sentences, each one fact from the classification: the biggest climb from grid to finish, the fastest lap where marked, a retirement and its stated reason, a first points finish only if the rows show it. Each at most 25 words. No bullets or numbering inside the strings."""
+
+
+def race_facts(race: RaceSummary | None) -> dict | None:
+    if not race or not race.rows:
+        return None
+    return {
+        "name": race.name, "round": race.round_number, "date": race.date,
+        "classification": [asdict(r) for r in sorted(race.rows, key=lambda r: r.position or 99)],
+    }
 
 
 def facts_for_llm(teams: list[Team]) -> list[dict]:
@@ -427,7 +524,7 @@ def facts_for_llm(teams: list[Team]) -> list[dict]:
     return facts
 
 
-def ask_own_server(facts: list[dict]) -> dict | None:
+def ask_own_server(facts: list[dict], race: dict | None) -> dict | None:
     """Any OpenAI-compatible chat endpoint: POST {EGRID_LLM_URL}/v1/chat/completions."""
     base = os.environ.get("EGRID_LLM_URL", "").strip().rstrip("/")
     if not base:
@@ -442,11 +539,12 @@ def ask_own_server(facts: list[dict]) -> dict | None:
     headers = {"Content-Type": "application/json", "User-Agent": USER_AGENT}
     if token:
         headers["Authorization"] = "Bearer " + token
-    shape = json.dumps({"teams": [{"index": 0, "summary": "...", "lastRace": "..."}]})
+    shape = json.dumps({"teams": [{"index": 0, "summary": "...", "lastRace": "..."}],
+                        "race": {"summary": "...", "highlights": ["...", "..."]}})
     payload = {
         "messages": [
             {"role": "system", "content": SYSTEM_PROMPT + "\n\nReply with a single JSON object and nothing else, shaped exactly: " + shape},
-            {"role": "user", "content": json.dumps({"teams": facts}, ensure_ascii=False, indent=1)},
+            {"role": "user", "content": json.dumps({"teams": facts, "race": race}, ensure_ascii=False, indent=1)},
         ],
         "temperature": 0.4,
         "max_tokens": 6000,
@@ -492,13 +590,20 @@ REVIEW_SCHEMA = {
                 "additionalProperties": False,
             },
         },
+        "race": {
+            "type": "object",
+            "properties": {"summary": {"type": "string"},
+                           "highlights": {"type": "array", "items": {"type": "string"}}},
+            "required": ["summary", "highlights"],
+            "additionalProperties": False,
+        },
     },
-    "required": ["teams"],
+    "required": ["teams", "race"],
     "additionalProperties": False,
 }
 
 
-def ask_claude(facts: list[dict]) -> dict | None:
+def ask_claude(facts: list[dict], race: dict | None) -> dict | None:
     try:
         import anthropic  # noqa: WPS433 - optional dependency
     except ImportError:
@@ -513,7 +618,7 @@ def ask_claude(facts: list[dict]) -> dict | None:
             model="claude-opus-5",
             max_tokens=8000,
             system=SYSTEM_PROMPT,
-            messages=[{"role": "user", "content": json.dumps({"teams": facts}, ensure_ascii=False, indent=1)}],
+            messages=[{"role": "user", "content": json.dumps({"teams": facts, "race": race}, ensure_ascii=False, indent=1)}],
             output_config={"format": {"type": "json_schema", "schema": REVIEW_SCHEMA}},
         )
     except anthropic.APIError as error:
@@ -546,17 +651,28 @@ def names_outside(text: str, team: Team, everyone: set[str]) -> list[str]:
     return strays
 
 
-def write_reviews(teams: list[Team], use_llm: bool) -> list[tuple[str, str, str]]:
-    """(summary, lastRace, writer) per team, templated wherever the writer
-    said nothing, or named someone it was not given."""
+def stray_names(text: str, allowed: set[str], everyone: set[str]) -> list[str]:
+    """People from this series named in the text who are not in `allowed`."""
+    ok = {n.split()[-1].lower() for n in allowed if n}
+    words = {w.strip(".,;:()'\"").lower() for w in text.split()}
+    return [full for full in everyone
+            if (sur := full.split()[-1].lower() if full else "") and sur not in ok and sur in words and len(sur) > 3]
+
+
+def write_reviews(teams: list[Team], race: RaceSummary | None,
+                  use_llm: bool) -> tuple[list[tuple[str, str, str]], tuple[str, list[str], str]]:
+    """Per team (summary, lastRace, writer), and for the race (summary,
+    highlights, writer) — templated wherever the writer said nothing, or
+    named someone it was not given."""
     out = [(template_summary(t), template_last_race(t), "template") for t in teams]
+    race_out = (*template_race(race), "template") if race else ("", [], "template")
     if not use_llm or not teams:
-        return out
+        return out, race_out
     facts = facts_for_llm(teams)
     data, writer = None, ""
     for name, ask in (("own server", ask_own_server), ("Claude", ask_claude)):
         try:
-            data = ask(facts)
+            data = ask(facts, race_facts(race))
         except Exception as error:  # noqa: BLE001 - a writer must never sink the file
             log(f"  {name} writer crashed: {type(error).__name__}: {error}; falling through")
             continue
@@ -565,8 +681,18 @@ def write_reviews(teams: list[Team], use_llm: bool) -> list[tuple[str, str, str]
             break
     if data is None:
         log("  no writer available; using templated prose")
-        return out
+        return out, race_out
     everyone = {m.name for t in teams for m in t.members} | {l.name for t in teams for l in t.lines}
+    if race:
+        everyone |= race.everyone
+        written = data.get("race") or {}
+        summary = str(written.get("summary") or "").strip()
+        highlights = [str(h).strip() for h in (written.get("highlights") or []) if str(h).strip()][:4]
+        strays = stray_names(summary + " " + " ".join(highlights), race.everyone, everyone)
+        if strays:
+            log(f"  dropped {writer} race copy: names {', '.join(strays)} who were not classified")
+        elif summary:
+            race_out = (summary, highlights or race_out[1], writer)
     by_index = {}
     for item in data.get("teams", []) or []:
         try:
@@ -584,7 +710,7 @@ def write_reviews(teams: list[Team], use_llm: bool) -> list[tuple[str, str, str]
         if not team.lines:
             last = ""
         out[index] = (summary or tmpl_summary, last or tmpl_last, writer if (summary or last) else "template")
-    return out
+    return out, race_out
 
 
 # ---------------------------------------------------------------------------
@@ -596,16 +722,26 @@ FETCHERS = {"f1": f1_teams, "motogp": motogp_teams, "formulae": formula_e_teams}
 
 def build(channels: list[str], use_llm: bool) -> dict:
     now = dt.datetime.now(dt.timezone.utc).replace(microsecond=0)
-    entries = []
+    entries, races = [], []
     for channel_id in channels:
         log(f"{channel_id}")
         try:
-            teams = FETCHERS[channel_id]()
+            teams, race = FETCHERS[channel_id]()
         except Exception as error:  # noqa: BLE001 - one dead feed must not sink the others
             log(f"  {channel_id} skipped: {type(error).__name__}: {error}")
             continue
         log(f"  {len(teams)} {ENTRANT[channel_id]}s, {teams[0].rounds if teams else 0} rounds run")
-        reviews = write_reviews(teams, use_llm)
+        reviews, (race_summary, race_highlights, race_writer) = write_reviews(teams, race, use_llm)
+        if race and race.rows:
+            ordered = sorted([r for r in race.rows if r.position], key=lambda r: r.position)
+            races.append({
+                "channelID": channel_id,
+                "name": race.name, "round": race.round_number, "date": race.date,
+                "podium": [{"position": r.position, "name": r.name, "team": r.team} for r in ordered[:3]],
+                "classified": len(ordered),
+                "review": {"summary": race_summary, "highlights": race_highlights, "writer": race_writer},
+                "publishedAt": now.isoformat().replace("+00:00", "Z"),
+            })
         for team, (summary, last, writer) in zip(teams, reviews):
             entry = {
                 "id": f"{channel_id}-{team.name.lower().replace(' ', '-')}",
@@ -626,7 +762,7 @@ def build(channels: list[str], use_llm: bool) -> dict:
                     "lines": [asdict(l) for l in sorted(team.lines, key=lambda l: l.position or 99)],
                 }
             entries.append(entry)
-    return {"version": 1, "generatedAt": now.isoformat().replace("+00:00", "Z"), "teams": entries}
+    return {"version": 1, "generatedAt": now.isoformat().replace("+00:00", "Z"), "teams": entries, "races": races}
 
 
 def main() -> int:

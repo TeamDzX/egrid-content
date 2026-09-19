@@ -420,6 +420,10 @@ standings), the team's lines in the most recent race, and two short pieces of
 prose — a season summary and a last-race review — from the same writer as the
 digest (`EGRID_LLM_*` first, Claude second, a templated sentence otherwise).
 Prose that names anyone not in the team's own facts is dropped for the template.
+The file also carries `races`: one entry per series for its most recent race —
+podium, how many were classified, a summary and two to four highlight lines
+written from the full classification — which the channel page shows under
+"Last Race" when the round matches.
 Never edit it by hand; never bundle it. The apps match entries the way they
 match `machines.json`: `channelID` plus `matchKeys` against the live name.
 
