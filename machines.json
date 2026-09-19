@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "_comment": "Teams, constructors and manufacturers. PUBLIC FACTUAL DATA ONLY - no logos, no photography, no marketing copy. Facts are not copyrightable; images and marks are. 'series' holds governing-body technical regulations (identical for every competitor, so stated once per channel); 'teams' holds per-entrant factual profiles. Leave a field out rather than guessing it.",
+  "_comment": "Teams, constructors and manufacturers. PUBLIC FACTUAL DATA ONLY - no logos, no photography, no marketing copy. Facts are not copyrightable; images and marks are. 'series' holds governing-body technical regulations (identical for every competitor, so stated once per channel); 'teams' holds per-entrant factual profiles. Leave a field out rather than guessing it. 'videoSources' names the 'source' values in videos.json that are the team's own channel, so its page can show the team's videos; 'colour' is the team's colour as #RRGGBB; 'image' is a Creative Commons photo of the car or bike with the credit its licence requires, exactly as circuits.json does it — never a logo.",
   "series": [
     {
       "channelID": "f1",
@@ -115,7 +115,18 @@
         "One of only a handful of teams that designs and builds its own power unit as well as its chassis."
       ],
       "chassis": "SF-26",
-      "powerUnit": "Ferrari"
+      "powerUnit": "Ferrari",
+      "videoSources": [
+        "Ferrari"
+      ],
+      "colour": "#DC0000",
+      "image": {
+        "url": "images/teams/ferrari.jpg",
+        "credit": "Liauzh",
+        "licence": "CC BY 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:2026_Chinese_GP_-_Ferrari_-_Charles_Leclerc_-_Qualifying.jpg"
+      }
     },
     {
       "id": "mercedes",
@@ -135,7 +146,18 @@
         "Supplies power units to customer teams as well as its own works entry."
       ],
       "chassis": "F1 W17",
-      "powerUnit": "Mercedes"
+      "powerUnit": "Mercedes",
+      "videoSources": [
+        "Mercedes-AMG F1"
+      ],
+      "colour": "#00A19B",
+      "image": {
+        "url": "images/teams/mercedes.jpg",
+        "credit": "Liauzh",
+        "licence": "CC BY 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:2026_Chinese_GP_-_Mercedes_-_George_Russell_-_Qualifying.jpg"
+      }
     },
     {
       "id": "mclaren",
@@ -155,7 +177,18 @@
         "Has also won the Indianapolis 500 and the 24 Hours of Le Mans."
       ],
       "chassis": "MCL40",
-      "powerUnit": "Mercedes"
+      "powerUnit": "Mercedes",
+      "videoSources": [
+        "McLaren"
+      ],
+      "colour": "#FF8000",
+      "image": {
+        "url": "images/teams/mclaren.jpg",
+        "credit": "Liauzh",
+        "licence": "CC BY 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:2026_Chinese_GP_-_McLaren_-_Oscar_Piastri_-_Qualifying.jpg"
+      }
     },
     {
       "id": "redbull",
@@ -175,7 +208,18 @@
         "Operates a second team, giving the group two entries on the grid."
       ],
       "chassis": "RB22",
-      "powerUnit": "Red Bull Ford"
+      "powerUnit": "Red Bull Ford",
+      "videoSources": [
+        "Red Bull Racing"
+      ],
+      "colour": "#3671C6",
+      "image": {
+        "url": "images/teams/redbull.jpg",
+        "credit": "Liauzh",
+        "licence": "CC BY 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:2026_Chinese_GP_-_Red_Bull_-_Max_Verstappen_-_Qualifying.jpg"
+      }
     },
     {
       "id": "williams",
@@ -195,7 +239,18 @@
         "Remained family-run for more than four decades before its sale in 2020."
       ],
       "chassis": "FW48",
-      "powerUnit": "Mercedes"
+      "powerUnit": "Mercedes",
+      "videoSources": [
+        "Atlassian Williams F1 Team"
+      ],
+      "colour": "#1E7BE8",
+      "image": {
+        "url": "images/teams/williams.jpg",
+        "credit": "Liauzh",
+        "licence": "CC BY 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:2026_Chinese_GP_-_Williams_-_Alex_Albon_-_Qualifying.jpg"
+      }
     },
     {
       "id": "astonmartin",
@@ -210,7 +265,18 @@
       "base": "Silverstone, England",
       "firstSeason": "2021 (current guise)",
       "notes": "The Silverstone-based operation has raced under several names, competing as Aston Martin since 2021 from a purpose-built factory adjacent to the circuit.",
-      "powerUnit": "Honda"
+      "powerUnit": "Honda",
+      "videoSources": [
+        "Aston Martin Aramco F1 Team"
+      ],
+      "colour": "#229971",
+      "image": {
+        "url": "images/teams/astonmartin.jpg",
+        "credit": "Lukas Raich",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:FIA_F1_Austria_2026_Nr._14_Alonso_(3).jpg"
+      }
     },
     {
       "id": "alpine",
@@ -225,7 +291,18 @@
       "base": "Enstone, England",
       "firstSeason": "2021 (current guise)",
       "notes": "The Enstone team races under the Alpine name, the sports car brand of the Renault group, and has competed under various identities since the 1980s.",
-      "powerUnit": "Mercedes"
+      "powerUnit": "Mercedes",
+      "videoSources": [
+        "Alpine"
+      ],
+      "colour": "#0093CC",
+      "image": {
+        "url": "images/teams/alpine.jpg",
+        "credit": "Liauzh",
+        "licence": "CC BY 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:2026_Chinese_GP_-_Alpine_-_Franco_Colapinto_-_Qualifying.jpg"
+      }
     },
     {
       "id": "haas",
@@ -240,7 +317,18 @@
       "base": "Kannapolis, North Carolina, USA",
       "firstSeason": "2016",
       "notes": "The only American-licensed team on the grid, Haas runs a lean operation that buys as many permitted components from suppliers as the regulations allow.",
-      "powerUnit": "Ferrari"
+      "powerUnit": "Ferrari",
+      "videoSources": [
+        "TGR Haas F1 Team"
+      ],
+      "colour": "#DA291C",
+      "image": {
+        "url": "images/teams/haas.jpg",
+        "credit": "Lukas Raich",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:FIA_F1_Austria_2026_Nr._87_Bearman_(1).jpg"
+      }
     },
     {
       "id": "audi",
@@ -255,7 +343,18 @@
       "firstSeason": "2026",
       "notes": "Audi entered Formula 1 as a works constructor in 2026, taking over the Sauber operation and building its own power unit for the new regulations.",
       "chassis": "R26",
-      "powerUnit": "Audi"
+      "powerUnit": "Audi",
+      "videoSources": [
+        "Audi Revolut F1 Team"
+      ],
+      "colour": "#F50537",
+      "image": {
+        "url": "images/teams/audi.jpg",
+        "credit": "Lukas Raich",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:FIA_F1_Austria_2026_Nr._27_H%C3%BClkenberg_(3).jpg"
+      }
     },
     {
       "id": "ducati",
@@ -272,7 +371,18 @@
       "facts": [
         "The only manufacturer racing a desmodromic valve engine in MotoGP.",
         "Supplies machinery to several independent teams as well as its factory squad."
-      ]
+      ],
+      "videoSources": [
+        "Ducati"
+      ],
+      "colour": "#CC0000",
+      "image": {
+        "url": "images/teams/ducati.jpg",
+        "credit": "Liauzh",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:MotoGP_2025_Malaysian_Grand_Prix_-_Ducati_Lenovo_-_Francesco_Bagnaia.jpg"
+      }
     },
     {
       "id": "aprilia",
@@ -285,7 +395,18 @@
       ],
       "country": "Italy",
       "base": "Noale, Italy",
-      "notes": "Aprilia Racing runs the RS-GP from its base at Noale in northern Italy, and is among the most successful manufacturers in Grand Prix motorcycle racing across all classes."
+      "notes": "Aprilia Racing runs the RS-GP from its base at Noale in northern Italy, and is among the most successful manufacturers in Grand Prix motorcycle racing across all classes.",
+      "videoSources": [
+        "Aprilia Official"
+      ],
+      "colour": "#6C3EB8",
+      "image": {
+        "url": "images/teams/aprilia.jpg",
+        "credit": "Liauzh",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:MotoGP_2025_Malaysian_Grand_Prix_-_Aprilia_Racing_-_Marco_Bezzecchi.jpg"
+      }
     },
     {
       "id": "ktm",
@@ -301,7 +422,18 @@
       "notes": "KTM is the only manufacturer on the MotoGP grid using a steel trellis frame rather than an aluminium beam chassis, and develops its own WP suspension in-house.",
       "facts": [
         "The only MotoGP manufacturer running a steel trellis frame."
-      ]
+      ],
+      "videoSources": [
+        "KTM"
+      ],
+      "colour": "#FF6600",
+      "image": {
+        "url": "images/teams/ktm.jpg",
+        "credit": "Liauzh",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:MotoGP_2025_Malaysian_Grand_Prix_-_KTM_Factory_Racing_-_Pedro_Acosta.jpg"
+      }
     },
     {
       "id": "honda",
@@ -313,7 +445,18 @@
         "motogp"
       ],
       "country": "Japan",
-      "notes": "Honda Racing Corporation has competed in Grand Prix motorcycle racing since the 1950s and is the most successful manufacturer in the sport's history by race wins."
+      "notes": "Honda Racing Corporation has competed in Grand Prix motorcycle racing since the 1950s and is the most successful manufacturer in the sport's history by race wins.",
+      "videoSources": [
+        "HondaRacingHRC"
+      ],
+      "colour": "#E4002B",
+      "image": {
+        "url": "images/teams/honda.jpg",
+        "credit": "Liauzh",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:MotoGP_2025_Malaysian_Grand_Prix_-_Honda_HRC_Castrol_-_Joan_Mir.jpg"
+      }
     },
     {
       "id": "yamaha",
@@ -326,7 +469,18 @@
       ],
       "country": "Japan",
       "base": "Iwata, Japan",
-      "notes": "Yamaha races the YZR-M1, long characterised by its inline-four engine and corner-speed handling. For 2026 it holds Rank D concessions, allowing a larger engine allocation."
+      "notes": "Yamaha races the YZR-M1, long characterised by its inline-four engine and corner-speed handling. For 2026 it holds Rank D concessions, allowing a larger engine allocation.",
+      "videoSources": [
+        "Yamaha MotoGP"
+      ],
+      "colour": "#1E4BD1",
+      "image": {
+        "url": "images/teams/yamaha.jpg",
+        "credit": "Liauzh",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:MotoGP_2025_Malaysian_Grand_Prix_-_Monster_Energy_Yamaha_-_Fabio_Quartararo.jpg"
+      }
     },
     {
       "id": "cadillac",
@@ -344,7 +498,18 @@
       "notes": "Cadillac joined Formula 1 as the eleventh team for 2026, expanding the grid for the first time in a decade. Its chassis designation MAC-01 stands for Mario Andretti Cadillac.",
       "facts": [
         "Expanded the Formula 1 grid to eleven teams for 2026, the first new entry in a decade."
-      ]
+      ],
+      "videoSources": [
+        "Cadillac Formula 1 Team"
+      ],
+      "colour": "#C6A25A",
+      "image": {
+        "url": "images/teams/cadillac.jpg",
+        "credit": "Lukas Raich",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:FIA_F1_Austria_2026_Nr._77_Bottas_(3).jpg"
+      }
     },
     {
       "id": "racingbulls",
@@ -360,7 +525,18 @@
       "country": "Italy",
       "base": "Faenza, Italy",
       "powerUnit": "Red Bull Ford",
-      "notes": "The second team of the Red Bull group, based at Faenza in Italy, historically used to develop drivers for the senior squad."
+      "notes": "The second team of the Red Bull group, based at Faenza in Italy, historically used to develop drivers for the senior squad.",
+      "videoSources": [
+        "Visa Cash App RB F1 Team"
+      ],
+      "colour": "#5B86F2",
+      "image": {
+        "url": "images/teams/racingbulls.jpg",
+        "credit": "Liauzh",
+        "licence": "CC BY 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:2026_Chinese_GP_-_Racing_Bulls_-_Liam_Lawson_-_Qualifying.jpg"
+      }
     }
   ]
 }

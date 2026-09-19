@@ -356,9 +356,19 @@ than a dead end.
 
 ## `machines.json` — teams, constructors and manufacturers
 
-**Public factual data only.** No logos, no photography, no marketing copy.
-Facts are not copyrightable; trade marks and images are, and shipping them
-would contradict the "not affiliated" disclaimer in Settings.
+**Public factual data only.** No logos, no marketing copy. Facts are not
+copyrightable; trade marks are, and shipping them would contradict the "not
+affiliated" disclaimer in Settings. Since 2.4 a team page may carry three
+things that are not marks:
+
+- `colour` — the team's colour as `#RRGGBB`, for the monogram badge the apps
+  draw in place of a logo.
+- `image` — a Creative Commons photograph of the current car or bike, on the
+  same terms as a circuit photo (author, licence, source page; mirrored into
+  `images/teams/` with its credit in `images/teams/CREDITS.md`). A photo of a
+  car can be licensed; a logo cannot.
+- `videoSources` — the `source` names in `videos.json` that are the team's own
+  YouTube channel, so its page can show its own videos out of the channel feed.
 
 Two arrays:
 
@@ -397,3 +407,19 @@ keeps the bundled copy:
 ```bash
 python3 -m json.tool content/circuits.json > /dev/null && echo OK
 ```
+
+---
+
+## `teams.json` — team performance reviews (generated)
+
+Written every morning by `teams/build_teams.py` (the "Team reviews" Action,
+07:40 UTC) for the three series with full results: Formula 1 constructors,
+MotoGP manufacturers and Formula E teams. Each entry carries the season facts
+(position, points, rounds, wins, podiums, the drivers or riders and their
+standings), the team's lines in the most recent race, and two short pieces of
+prose — a season summary and a last-race review — from the same writer as the
+digest (`EGRID_LLM_*` first, Claude second, a templated sentence otherwise).
+Prose that names anyone not in the team's own facts is dropped for the template.
+Never edit it by hand; never bundle it. The apps match entries the way they
+match `machines.json`: `channelID` plus `matchKeys` against the live name.
+

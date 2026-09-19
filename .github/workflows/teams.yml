@@ -1,0 +1,76 @@
+name: Team reviews
+
+# Rebuilds teams.json every morning and publishes it straight to `live`, on
+# the same terms as the digest and the videos: it is generated rather than
+# edited, and a review of Sunday's race that waits for a human is stale by
+# the time it lands. The writer secrets are the digest's (EGRID_LLM_* for
+# your own server, ANTHROPIC_API_KEY for Claude); with neither, the file
+# still ships with templated prose.
+#
+# The concurrency group is shared with the digest and the videos: all three
+# push to `live`, and a simultaneous push loses the race and fails.
+
+on:
+  schedule:
+    # 07:40 UTC — after the digest (07:00) and the videos (07:20).
+    - cron: "40 7 * * *"
+  workflow_dispatch:
+    inputs:
+      channel:
+        description: "Limit to one series (blank = all)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: egrid-live-push
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out live
+        uses: actions/checkout@v4
+        with:
+          ref: live
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install the Anthropic SDK
+        run: python -m pip install --quiet anthropic
+      - name: Build the reviews
+        env:
+          EGRID_LLM_URL: ${{ secrets.EGRID_LLM_URL }}
+          EGRID_LLM_TOKEN: ${{ secrets.EGRID_LLM_TOKEN }}
+          EGRID_LLM_MODEL: ${{ secrets.EGRID_LLM_MODEL }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          set -euo pipefail
+          CHANNEL="${{ github.event.inputs.channel || '' }}"
+          if [ -n "$CHANNEL" ]; then
+            python3 teams/build_teams.py --channel "$CHANNEL"
+          else
+            python3 teams/build_teams.py
+          fi
+          python3 -m json.tool teams.json > /dev/null
+      - name: Publish to live, then fold into main
+        run: |
+          set -euo pipefail
+          git config user.name "egrid-digest[bot]"
+          git config user.email "egrid-digest@users.noreply.github.com"
+          if git diff --quiet -- teams.json && [ -n "$(git ls-files teams.json)" ]; then
+            echo "teams.json unchanged; nothing to publish"
+            exit 0
+          fi
+          git add teams.json
+          git commit -m "Team reviews: $(python3 -c "import json;print(json.load(open('teams.json'))['generatedAt'])")"
+          git push origin HEAD:live
+          git fetch origin main
+          git checkout -B main origin/main
+          git merge --no-edit -X theirs live
+          git push origin main
