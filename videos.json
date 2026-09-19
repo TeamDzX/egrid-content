@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-18T12:14:53Z",
+  "generatedAt": "2026-09-19T11:56:39Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,17 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "HmJCBuZBZGg",
+          "title": "FIA Karting 101: Everything That You Need To Know",
+          "publishedAt": "2026-09-19T10:00:21Z",
+          "duration": "12:00",
+          "seconds": 720,
+          "thumbnail": "https://i.ytimg.com/vi/HmJCBuZBZGg/maxresdefault.jpg",
+          "source": "FIA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "VB5icKU5N6E",
           "title": "The Best Two Weeks of Our Season? Nu Silver Arrows Radio Show, Episode 9",
@@ -70,17 +81,6 @@
           "duration": "24:59",
           "seconds": 1499,
           "thumbnail": "https://i.ytimg.com/vi/4CXYbq6mOcc/maxresdefault.jpg",
-          "source": "Red Bull Racing",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "xCH1UwMMoUo",
-          "title": "Behind The Charge at the FINAL Dutch Grand Prix!",
-          "publishedAt": "2026-08-28T15:00:06Z",
-          "duration": "12:21",
-          "seconds": 741,
-          "thumbnail": "https://i.ytimg.com/vi/xCH1UwMMoUo/maxresdefault.jpg",
           "source": "Red Bull Racing",
           "blockedRegions": [],
           "allowedRegions": []
