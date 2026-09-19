@@ -1,0 +1,1587 @@
+{
+ "version": 1,
+ "generatedAt": "2026-09-19T12:50:44Z",
+ "teams": [
+  {
+   "id": "f1-mercedes",
+   "channelID": "f1",
+   "name": "Mercedes",
+   "matchKeys": [
+    "mercedes"
+   ],
+   "season": {
+    "position": 1,
+    "points": 503.0,
+    "rounds": 14,
+    "wins": 10,
+    "podiums": 19,
+    "members": [
+     {
+      "name": "Andrea Kimi Antonelli",
+      "position": 1,
+      "points": 292.0
+     },
+     {
+      "name": "George Russell",
+      "position": 2,
+      "points": 211.0
+     }
+    ]
+   },
+   "review": {
+    "summary": "Mercedes are 1st in the Formula 1 constructors' standings on 503 points after 14 rounds, with 10 wins and 19 podiums. Andrea Kimi Antonelli is their best-placed driver, 1st overall.",
+    "lastRace": "At the Spanish Grand Prix, Andrea Kimi Antonelli finished 1st from 2nd on the grid; George Russell finished 5th from 6th on the grid.",
+    "writer": "template"
+   },
+   "publishedAt": "2026-09-19T12:50:44Z",
+   "lastRace": {
+    "name": "Spanish Grand Prix",
+    "round": 14,
+    "date": "2026-09-13",
+    "lines": [
+     {
+      "name": "Andrea Kimi Antonelli",
+      "position": 1,
+      "grid": 2,
+      "points": 25.0,
+      "status": "Finished"
+     },
+     {
+      "name": "George Russell",
+      "position": 5,
+      "grid": 6,
+      "points": 10.0,
+      "status": "Finished"
+     }
+    ]
+   }
+  },
+  {
+   "id": "f1-ferrari",
+   "channelID": "f1",
+   "name": "Ferrari",
+   "matchKeys": [
+    "ferrari"
+   ],
+   "season": {
+    "position": 2,
+    "points": 358.0,
+    "rounds": 14,
+    "wins": 2,
+    "podiums": 9,
+    "members": [
+     {
+      "name": "Lewis Hamilton",
+      "position": 3,
+      "points": 191.0
+     },
+     {
+      "name": "Charles Leclerc",
+      "position": 5,
+      "points": 167.0
+     }
+    ]
+   },
+   "review": {
+    "summary": "Ferrari are 2nd in the Formula 1 constructors' standings on 358 points after 14 rounds, with 2 wins and 9 podiums. Lewis Hamilton is their best-placed driver, 3rd overall.",
+    "lastRace": "At the Spanish Grand Prix, Charles Leclerc finished 4th from 5th on the grid; Lewis Hamilton did not finish (Retired).",
+    "writer": "template"
+   },
+   "publishedAt": "2026-09-19T12:50:44Z",
+   "lastRace": {
+    "name": "Spanish Grand Prix",
+    "round": 14,
+    "date": "2026-09-13",
+    "lines": [
+     {
+      "name": "Charles Leclerc",
+      "position": 4,
+      "grid": 5,
+      "points": 12.0,
+      "status": "Finished"
+     },
+     {
+      "name": "Lewis Hamilton",
+      "position": null,
+      "grid": 4,
+      "points": 0.0,
+      "status": "Retired"
+     }
+    ]
+   }
+  },
+  {
+   "id": "f1-mclaren",
+   "channelID": "f1",
+   "name": "McLaren",
+   "matchKeys": [
+    "mclaren"
+   ],
+   "season": {
+    "position": 3,
+    "points": 306.0,
+    "rounds": 14,
+    "wins": 2,
+    "podiums": 7,
+    "members": [
+     {
+      "name": "Lando Norris",
+      "position": 4,
+      "points": 186.0
+     },
+     {
+      "name": "Oscar Piastri",
+      "position": 7,
+      "points": 120.0
+     }
+    ]
+   },
+   "review": {
+    "summary": "McLaren are 3rd in the Formula 1 constructors' standings on 306 points after 14 rounds, with 2 wins and 7 podiums. Lando Norris is their best-placed driver, 4th overall.",
+    "lastRace": "At the Spanish Grand Prix, Lando Norris finished 3rd from 1st on the grid; Oscar Piastri finished 8th from 7th on the grid.",
+    "writer": "template"
+   },
+   "publishedAt": "2026-09-19T12:50:44Z",
+   "lastRace": {
+    "name": "Spanish Grand Prix",
+    "round": 14,
+    "date": "2026-09-13",
+    "lines": [
+     {
+      "name": "Lando Norris",
+      "position": 3,
+      "grid": 1,
+      "points": 15.0,
+      "status": "Finished"
+     },
+     {
+      "name": "Oscar Piastri",
+      "position": 8,
+      "grid": 7,
+      "points": 4.0,
+      "status": "Finished"
+     }
+    ]
+   }
+  },
+  {
+   "id": "f1-red-bull",
+   "channelID": "f1",
+   "name": "Red Bull",
+   "matchKeys": [
+    "red bull"
+   ],
+   "season": {
+    "position": 4,
+    "points": 230.0,
+    "rounds": 14,
+    "wins": 0,
+    "podiums": 7,
+    "members": [
+     {
+      "name": "Max Verstappen",
+      "position": 6,
+      "points": 145.0
+     },
+     {
+      "name": "Isack Hadjar",
+      "position": 8,
+      "points": 71.0
+     },
+     {
+      "name": "Liam Lawson",
+      "position": 9,
+      "points": 59.0
+     }
+    ]
+   },
+   "review": {
+    "summary": "Red Bull are 4th in the Formula 1 constructors' standings on 230 points after 14 rounds, with 0 wins and 7 podiums. Max Verstappen is their best-placed driver, 6th overall.",
+    "lastRace": "At the Spanish Grand Prix, Max Verstappen finished 2nd from 3rd on the grid; Liam Lawson finished 6th from 8th on the grid.",
+    "writer": "template"
+   },
+   "publishedAt": "2026-09-19T12:50:44Z",
+   "lastRace": {
+    "name": "Spanish Grand Prix",
+    "round": 14,
+    "date": "2026-09-13",
+    "lines": [
+     {
+      "name": "Max Verstappen",
+      "position": 2,
+      "grid": 3,
+      "points": 18.0,
+      "status": "Finished"
+     },
+     {
+      "name": "Liam Lawson",
+      "position": 6,
+      "grid": 8,
+      "points": 8.0,
+      "status": "Finished"
+     }
+    ]
+   }
+  },
+  {
+   "id": "f1-rb-f1-team",
+   "channelID": "f1",
+   "name": "RB F1 Team",
+   "matchKeys": [
+    "rb f1 team"
+   ],
+   "season": {
+    "position": 5,
+    "points": 77.0,
+    "rounds": 14,
+    "wins": 0,
+    "podiums": 0,
+    "members": [
+     {
+      "name": "Arvid Lindblad",
+      "position": 11,
+      "points": 31.0
+     },
+     {
+      "name": "Yuki Tsunoda",
+      "position": 20,
+      "points": 1.0
+     }
+    ]
+   },
+   "review": {
+    "summary": "RB F1 Team are 5th in the Formula 1 constructors' standings on 77 points after 14 rounds. Arvid Lindblad is their best-placed driver, 11th overall.",
+    "lastRace": "At the Spanish Grand Prix, Arvid Lindblad finished 9th from 10th on the grid; Yuki Tsunoda finished 14th from 15th on the grid.",
+    "writer": "template"
+   },
+   "publishedAt": "2026-09-19T12:50:44Z",
+   "lastRace": {
+    "name": "Spanish Grand Prix",
+    "round": 14,
+    "date": "2026-09-13",
+    "lines": [
+     {
+      "name": "Arvid Lindblad",
+      "position": 9,
+      "grid": 10,
+      "points": 2.0,
+      "status": "Lapped"
+     },
+     {
+      "name": "Yuki Tsunoda",
+      "position": 14,
+      "grid": 15,
+      "points": 0.0,
+      "status": "Lapped"
+     }
+    ]
+   }
+  },
+  {
+   "id": "f1-alpine-f1-team",
+   "channelID": "f1",
+   "name": "Alpine F1 Team",
+   "matchKeys": [
+    "alpine f1 team"
+   ],
+   "season": {
+    "position": 6,
+    "points": 68.0,
+    "rounds": 14,
+    "wins": 0,
+    "podiums": 0,
+    "members": [
+     {
+      "name": "Pierre Gasly",
+      "position": 10,
+      "points": 41.0
+     },
+     {
+      "name": "Franco Colapinto",
+      "position": 12,
+      "points": 27.0
+     }
+    ]
+   },
+   "review": {
+    "summary": "Alpine F1 Team are 6th in the Formula 1 constructors' standings on 68 points after 14 rounds. Pierre Gasly is their best-placed driver, 10th overall.",
+    "lastRace": "At the Spanish Grand Prix, Franco Colapinto finished 7th from 9th on the grid; Pierre Gasly finished 12th from 14th on the grid.",
+    "writer": "template"
+   },
+   "publishedAt": "2026-09-19T12:50:44Z",
+   "lastRace": {
+    "name": "Spanish Grand Prix",
+    "round": 14,
+    "date": "2026-09-13",
+    "lines": [
+     {
+      "name": "Franco Colapinto",
+      "position": 7,
+      "grid": 9,
+      "points": 6.0,
+      "status": "Finished"
+     },
+     {
+      "name": "Pierre Gasly",
+      "position": 12,
+      "grid": 14,
+      "points": 0.0,
+      "status": "Lapped"
+     }
+    ]
+   }
+  },
+  {
+   "id": "f1-haas-f1-team",
+   "channelID": "f1",
+   "name": "Haas F1 Team",
+   "matchKeys": [
+    "haas f1 team"
+   ],
+   "season": {
+    "position": 7,
+    "points": 21.0,
+    "rounds": 14,
+    "wins": 0,
+    "podiums": 0,
+    "members": [
+     {
+      "name": "Oliver Bearman",
+      "position": 13,
+      "points": 18.0
+     },
+     {
+      "name": "Esteban Ocon",
+      "position": 18,
+      "points": 3.0
+     }
+    ]
+   },
+   "review": {
+    "summary": "Haas F1 Team are 7th in the Formula 1 constructors' standings on 21 points after 14 rounds. Oliver Bearman is their best-placed driver, 13th overall.",
+    "lastRace": "At the Spanish Grand Prix, Esteban Ocon finished 11th from 13th on the grid; Oliver Bearman finished 16th from 22nd on the grid.",
+    "writer": "template"
+   },
+   "publishedAt": "2026-09-19T12:50:44Z",
+   "lastRace": {
+    "name": "Spanish Grand Prix",
+    "round": 14,
+    "date": "2026-09-13",
+    "lines": [
+     {
+      "name": "Esteban Ocon",
+      "position": 11,
+      "grid": 13,
+      "points": 0.0,
+      "status": "Lapped"
+     },
+     {
+      "name": "Oliver Bearman",
+      "position": 16,
+      "grid": 22,
+      "points": 0.0,
+      "status": "Lapped"
+     }
+    ]
+   }
+  },
+  {
+   "id": "f1-audi",
+   "channelID": "f1",
+   "name": "Audi",
+   "matchKeys": [
+    "audi"
+   ],
+   "season": {
+    "position": 8,
+    "points": 17.0,
+    "rounds": 14,
+    "wins": 0,
+    "podiums": 0,
+    "members": [
+     {
+      "name": "Gabriel Bortoleto",
+      "position": 14,
+      "points": 10.0
+     },
+     {
+      "name": "Nico Hülkenberg",
+      "position": 15,
+      "points": 7.0
+     }
+    ]
+   },
+   "review": {
+    "summary": "Audi are 8th in the Formula 1 constructors' standings on 17 points after 14 rounds. Gabriel Bortoleto is their best-placed driver, 14th overall.",
+    "lastRace": "At the Spanish Grand Prix, Nico Hülkenberg finished 10th from 11th on the grid; Gabriel Bortoleto finished 13th from 12th on the grid.",
+    "writer": "template"
+   },
+   "publishedAt": "2026-09-19T12:50:44Z",
+   "lastRace": {
+    "name": "Spanish Grand Prix",
+    "round": 14,
+    "date": "2026-09-13",
+    "lines": [
+     {
+      "name": "Nico Hülkenberg",
+      "position": 10,
+      "grid": 11,
+      "points": 1.0,
+      "status": "Lapped"
+     },
+     {
+      "name": "Gabriel Bortoleto",
+      "position": 13,
+      "grid": 12,
+      "points": 0.0,
+      "status": "Lapped"
+     }
+    ]
+   }
+  },
+  {
+   "id": "f1-williams",
+   "channelID": "f1",
+   "name": "Williams",
+   "matchKeys": [
+    "williams"
+   ],
+   "season": {
+    "position": 9,
+    "points": 11.0,
+    "rounds": 14,
+    "wins": 0,
+    "podiums": 0,
+    "members": [
+     {
+      "name": "Carlos Sainz",
+      "position": 16,
+      "points": 6.0
+     },
+     {
+      "name": "Alexander Albon",
+      "position": 17,
+      "points": 5.0
+     }
+    ]
+   },
+   "review": {
+    "summary": "Williams are 9th in the Formula 1 constructors' standings on 11 points after 14 rounds. Carlos Sainz is their best-placed driver, 16th overall.",
+    "lastRace": "At the Spanish Grand Prix, Alexander Albon finished 15th from 16th on the grid; Carlos Sainz did not finish (Retired).",
+    "writer": "template"
+   },
+   "publishedAt": "2026-09-19T12:50:44Z",
+   "lastRace": {
+    "name": "Spanish Grand Prix",
+    "round": 14,
+    "date": "2026-09-13",
+    "lines": [
+     {
+      "name": "Alexander Albon",
+      "position": 15,
+      "grid": 16,
+      "points": 0.0,
+      "status": "Lapped"
+     },
+     {
+      "name": "Carlos Sainz",
+      "position": null,
+      "grid": 20,
+      "points": 0.0,
+      "status": "Retired"
+     }
+    ]
+   }
+  },
+  {
+   "id": "f1-aston-martin",
+   "channelID": "f1",
+   "name": "Aston Martin",
+   "matchKeys": [
+    "aston martin"
+   ],
+   "season": {
+    "position": 10,
+    "points": 3.0,
+    "rounds": 14,
+    "wins": 0,
+    "podiums": 0,
+    "members": [
+     {
+      "name": "Fernando Alonso",
+      "position": 19,
+      "points": 3.0
+     },
+     {
+      "name": "Lance Stroll",
+      "position": 21,
+      "points": 0.0
+     }
+    ]
+   },
+   "review": {
+    "summary": "Aston Martin are 10th in the Formula 1 constructors' standings on 3 points after 14 rounds. Fernando Alonso is their best-placed driver, 19th overall.",
+    "lastRace": "At the Spanish Grand Prix, Fernando Alonso finished 17th from 17th on the grid; Lance Stroll did not finish (Retired).",
+    "writer": "template"
+   },
+   "publishedAt": "2026-09-19T12:50:44Z",
+   "lastRace": {
+    "name": "Spanish Grand Prix",
+    "round": 14,
+    "date": "2026-09-13",
+    "lines": [
+     {
+      "name": "Fernando Alonso",
+      "position": 17,
+      "grid": 17,
+      "points": 0.0,
+      "status": "Lapped"
+     },
+     {
+      "name": "Lance Stroll",
+      "position": null,
+      "grid": 21,
+      "points": 0.0,
+      "status": "Retired"
+     }
+    ]
+   }
+  },
+  {
+   "id": "f1-cadillac-f1-team",
+   "channelID": "f1",
+   "name": "Cadillac F1 Team",
+   "matchKeys": [
+    "cadillac f1 team"
+   ],
+   "season": {
+    "position": 11,
+    "points": 0.0,
+    "rounds": 14,
+    "wins": 0,
+    "podiums": 0,
+    "members": [
+     {
+      "name": "Valtteri Bottas",
+      "position": 22,
+      "points": 0.0
+     },
+     {
+      "name": "Sergio Pérez",
+      "position": 23,
+      "points": 0.0
+     }
+    ]
+   },
+   "review": {
+    "summary": "Cadillac F1 Team are 11th in the Formula 1 constructors' standings on 0 points after 14 rounds. Valtteri Bottas is their best-placed driver, 22nd overall.",
+    "lastRace": "At the Spanish Grand Prix, Valtteri Bottas finished 18th from 19th on the grid; Sergio Pérez did not finish (Retired).",
+    "writer": "template"
+   },
+   "publishedAt": "2026-09-19T12:50:44Z",
+   "lastRace": {
+    "name": "Spanish Grand Prix",
+    "round": 14,
+    "date": "2026-09-13",
+    "lines": [
+     {
+      "name": "Valtteri Bottas",
+      "position": 18,
+      "grid": 19,
+      "points": 0.0,
+      "status": "Lapped"
+     },
+     {
+      "name": "Sergio Pérez",
+      "position": null,
+      "grid": 18,
+      "points": 0.0,
+      "status": "Retired"
+     }
+    ]
+   }
+  },
+  {
+   "id": "motogp-ducati",
+   "channelID": "motogp",
+   "name": "Ducati",
+   "matchKeys": [
+    "ducati"
+   ],
+   "season": {
+    "position": 1,
+    "points": null,
+    "rounds": 14,
+    "wins": 6,
+    "podiums": 12,
+    "members": [
+     {
+      "name": "Marc Marquez",
+      "position": 1,
+      "points": 274
+     },
+     {
+      "name": "Fabio Di Giannantonio",
+      "position": 4,
+      "points": 223
+     },
+     {
+      "name": "Alex Marquez",
+      "position": 8,
+      "points": 153
+     },
+     {
+      "name": "Francesco Bagnaia",
+      "position": 9,
+      "points": 143
+     },
+     {
+      "name": "Fermin Aldeguer",
+      "position": 10,
+      "points": 105
+     },
+     {
+      "name": "Franco Morbidelli",
+      "position": 16,
+      "points": 56
+     },
+     {
+      "name": "Iker Lecuona",
+      "position": 23,
+      "points": 9
+     },
+     {
+      "name": "Michele Pirro",
+      "position": 29,
+      "points": 0
+     }
+    ]
+   },
+   "review": {
+    "summary": "Ducati are the 1st-ranked manufacturer in MotoGP after 14 rounds, with 6 wins and 12 podiums. Marc Marquez is their best-placed rider, 1st overall.",
+    "lastRace": "At the Grand Prix of San Marino, Marc Marquez finished 1st; Alex Marquez finished 2nd; Fermin Aldeguer finished 4th; Fabio Di Giannantonio finished 7th; Franco Morbidelli finished 13th; Francesco Bagnaia did not finish (OUTSTND).",
+    "writer": "template"
+   },
+   "publishedAt": "2026-09-19T12:50:44Z",
+   "lastRace": {
+    "name": "Grand Prix of San Marino",
+    "round": 15,
+    "date": "2026-09-13",
+    "lines": [
+     {
+      "name": "Marc Marquez",
+      "position": 1,
+      "grid": null,
+      "points": 25.0,
+      "status": "INSTND"
+     },
+     {
+      "name": "Alex Marquez",
+      "position": 2,
+      "grid": null,
+      "points": 20.0,
+      "status": "INSTND"
+     },
+     {
+      "name": "Fermin Aldeguer",
+      "position": 4,
+      "grid": null,
+      "points": 13.0,
+      "status": "INSTND"
+     },
+     {
+      "name": "Fabio Di Giannantonio",
+      "position": 7,
+      "grid": null,
+      "points": 9.0,
+      "status": "INSTND"
+     },
+     {
+      "name": "Franco Morbidelli",
+      "position": 13,
+      "grid": null,
+      "points": 3.0,
+      "status": "INSTND"
+     },
+     {
+      "name": "Francesco Bagnaia",
+      "position": null,
+      "grid": null,
+      "points": 0.0,
+      "status": "OUTSTND"
+     }
+    ]
+   }
+  },
+  {
+   "id": "motogp-aprilia",
+   "channelID": "motogp",
+   "name": "Aprilia",
+   "matchKeys": [
+    "aprilia"
+   ],
+   "season": {
+    "position": 2,
+    "points": null,
+    "rounds": 14,
+    "wins": 7,
+    "podiums": 24,
+    "members": [
+     {
+      "name": "Jorge Martin",
+      "position": 2,
+      "points": 274
+     },
+     {
+      "name": "Marco Bezzecchi",
+      "position": 3,
+      "points": 241
+     },
+     {
+      "name": "Ai Ogura",
+      "position": 6,
+      "points": 203
+     },
+     {
+      "name": "Raul Fernandez",
+      "position": 7,
+      "points": 199
+     },
+     {
+      "name": "Lorenzo Savadori",
+      "position": 28,
+      "points": 0
+     }
+    ]
+   },
+   "review": {
+    "summary": "Aprilia are the 2nd-ranked manufacturer in MotoGP after 14 rounds, with 7 wins and 24 podiums. Jorge Martin is their best-placed rider, 2nd overall.",
+    "lastRace": "At the Grand Prix of San Marino, Jorge Martin finished 5th; Raul Fernandez finished 6th; Marco Bezzecchi did not finish (NOTFINISHFIRST).",
+    "writer": "template"
+   },
+   "publishedAt": "2026-09-19T12:50:44Z",
+   "lastRace": {
+    "name": "Grand Prix of San Marino",
+    "round": 15,
+    "date": "2026-09-13",
+    "lines": [
+     {
+      "name": "Jorge Martin",
+      "position": 5,
+      "grid": null,
+      "points": 11.0,
+      "status": "INSTND"
+     },
+     {
+      "name": "Raul Fernandez",
+      "position": 6,
+      "grid": null,
+      "points": 10.0,
+      "status": "INSTND"
+     },
+     {
+      "name": "Marco Bezzecchi",
+      "position": null,
+      "grid": null,
+      "points": 0.0,
+      "status": "NOTFINISHFIRST"
+     }
+    ]
+   }
+  },
+  {
+   "id": "motogp-ktm",
+   "channelID": "motogp",
+   "name": "KTM",
+   "matchKeys": [
+    "ktm"
+   ],
+   "season": {
+    "position": 3,
+    "points": null,
+    "rounds": 14,
+    "wins": 1,
+    "podiums": 6,
+    "members": [
+     {
+      "name": "Pedro Acosta",
+      "position": 5,
+      "points": 209
+     },
+     {
+      "name": "Enea Bastianini",
+      "position": 12,
+      "points": 92
+     },
+     {
+      "name": "Brad Binder",
+      "position": 13,
+      "points": 83
+     },
+     {
+      "name": "Maverick Viñales",
+      "position": 22,
+      "points": 10
+     },
+     {
+      "name": "Pol Espargaro",
+      "position": 25,
+      "points": 5
+     },
+     {
+      "name": "Jonas Folger",
+      "position": 27,
+      "points": 0
+     }
+    ]
+   },
+   "review": {
+    "summary": "KTM are the 3rd-ranked manufacturer in MotoGP after 14 rounds, with 1 win and 6 podiums. Pedro Acosta is their best-placed rider, 5th overall.",
+    "lastRace": "At the Grand Prix of San Marino, Pedro Acosta finished 3rd; Enea Bastianini finished 8th; Brad Binder finished 11th; Pol Espargaro finished 14th.",
+    "writer": "template"
+   },
+   "publishedAt": "2026-09-19T12:50:44Z",
+   "lastRace": {
+    "name": "Grand Prix of San Marino",
+    "round": 15,
+    "date": "2026-09-13",
+    "lines": [
+     {
+      "name": "Pedro Acosta",
+      "position": 3,
+      "grid": null,
+      "points": 16.0,
+      "status": "INSTND"
+     },
+     {
+      "name": "Enea Bastianini",
+      "position": 8,
+      "grid": null,
+      "points": 8.0,
+      "status": "INSTND"
+     },
+     {
+      "name": "Brad Binder",
+      "position": 11,
+      "grid": null,
+      "points": 5.0,
+      "status": "INSTND"
+     },
+     {
+      "name": "Pol Espargaro",
+      "position": 14,
+      "grid": null,
+      "points": 2.0,
+      "status": "INSTND"
+     }
+    ]
+   }
+  },
+  {
+   "id": "motogp-honda",
+   "channelID": "motogp",
+   "name": "Honda",
+   "matchKeys": [
+    "honda"
+   ],
+   "season": {
+    "position": 4,
+    "points": null,
+    "rounds": 14,
+    "wins": 0,
+    "podiums": 0,
+    "members": [
+     {
+      "name": "Luca Marini",
+      "position": 11,
+      "points": 96
+     },
+     {
+      "name": "Diogo Moreira",
+      "position": 14,
+      "points": 64
+     },
+     {
+      "name": "Johann Zarco",
+      "position": 17,
+      "points": 36
+     },
+     {
+      "name": "Joan Mir",
+      "position": 18,
+      "points": 33
+     },
+     {
+      "name": "Cal Crutchlow",
+      "position": 26,
+      "points": 0
+     }
+    ]
+   },
+   "review": {
+    "summary": "Honda are the 4th-ranked manufacturer in MotoGP after 14 rounds. Luca Marini is their best-placed rider, 11th overall.",
+    "lastRace": "At the Grand Prix of San Marino, Luca Marini finished 9th; Johann Zarco did not finish (OUTSTND); Joan Mir did not finish (OUTSTND); Diogo Moreira did not finish (OUTSTND).",
+    "writer": "template"
+   },
+   "publishedAt": "2026-09-19T12:50:44Z",
+   "lastRace": {
+    "name": "Grand Prix of San Marino",
+    "round": 15,
+    "date": "2026-09-13",
+    "lines": [
+     {
+      "name": "Luca Marini",
+      "position": 9,
+      "grid": null,
+      "points": 7.0,
+      "status": "INSTND"
+     },
+     {
+      "name": "Johann Zarco",
+      "position": null,
+      "grid": null,
+      "points": 0.0,
+      "status": "OUTSTND"
+     },
+     {
+      "name": "Joan Mir",
+      "position": null,
+      "grid": null,
+      "points": 0.0,
+      "status": "OUTSTND"
+     },
+     {
+      "name": "Diogo Moreira",
+      "position": null,
+      "grid": null,
+      "points": 0.0,
+      "status": "OUTSTND"
+     }
+    ]
+   }
+  },
+  {
+   "id": "motogp-yamaha",
+   "channelID": "motogp",
+   "name": "Yamaha",
+   "matchKeys": [
+    "yamaha"
+   ],
+   "season": {
+    "position": 5,
+    "points": null,
+    "rounds": 14,
+    "wins": 0,
+    "podiums": 0,
+    "members": [
+     {
+      "name": "Fabio Quartararo",
+      "position": 15,
+      "points": 61
+     },
+     {
+      "name": "Jack Miller",
+      "position": 19,
+      "points": 28
+     },
+     {
+      "name": "Alex Rins",
+      "position": 20,
+      "points": 24
+     },
+     {
+      "name": "Toprak Razgatlioglu",
+      "position": 21,
+      "points": 18
+     },
+     {
+      "name": "Augusto Fernandez",
+      "position": 24,
+      "points": 6
+     }
+    ]
+   },
+   "review": {
+    "summary": "Yamaha are the 5th-ranked manufacturer in MotoGP after 14 rounds. Fabio Quartararo is their best-placed rider, 15th overall.",
+    "lastRace": "At the Grand Prix of San Marino, Fabio Quartararo finished 10th; Toprak Razgatlioglu finished 12th; Alex Rins did not finish (OUTSTND); Jack Miller did not finish (OUTSTND).",
+    "writer": "template"
+   },
+   "publishedAt": "2026-09-19T12:50:44Z",
+   "lastRace": {
+    "name": "Grand Prix of San Marino",
+    "round": 15,
+    "date": "2026-09-13",
+    "lines": [
+     {
+      "name": "Fabio Quartararo",
+      "position": 10,
+      "grid": null,
+      "points": 6.0,
+      "status": "INSTND"
+     },
+     {
+      "name": "Toprak Razgatlioglu",
+      "position": 12,
+      "grid": null,
+      "points": 4.0,
+      "status": "INSTND"
+     },
+     {
+      "name": "Alex Rins",
+      "position": null,
+      "grid": null,
+      "points": 0.0,
+      "status": "OUTSTND"
+     },
+     {
+      "name": "Jack Miller",
+      "position": null,
+      "grid": null,
+      "points": 0.0,
+      "status": "OUTSTND"
+     }
+    ]
+   }
+  },
+  {
+   "id": "formulae-jaguar-tcs-racing",
+   "channelID": "formulae",
+   "name": "Jaguar Tcs Racing",
+   "matchKeys": [
+    "jaguar tcs racing"
+   ],
+   "season": {
+    "position": 1,
+    "points": 288,
+    "rounds": 17,
+    "wins": 4,
+    "podiums": 10,
+    "members": [
+     {
+      "name": "Mitch Evans",
+      "position": 3,
+      "points": 160
+     },
+     {
+      "name": "António Félix Da Costa",
+      "position": 6,
+      "points": 128
+     }
+    ]
+   },
+   "review": {
+    "summary": "Jaguar Tcs Racing are 1st in the Formula E teams' standings on 288 points after 17 rounds, with 4 wins and 10 podiums. Mitch Evans is their best-placed driver, 3rd overall.",
+    "lastRace": "At the 2026 Hankook London E-Prix, Mitch Evans finished 4th; António Félix Da Costa finished 15th.",
+    "writer": "template"
+   },
+   "publishedAt": "2026-09-19T12:50:44Z",
+   "lastRace": {
+    "name": "2026 Hankook London E-Prix",
+    "round": 17,
+    "date": "2026-08-16",
+    "lines": [
+     {
+      "name": "Mitch Evans",
+      "position": 4,
+      "grid": null,
+      "points": null,
+      "status": null
+     },
+     {
+      "name": "António Félix Da Costa",
+      "position": 15,
+      "grid": null,
+      "points": null,
+      "status": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "formulae-porsche-formula-e-team",
+   "channelID": "formulae",
+   "name": "Porsche Formula E Team",
+   "matchKeys": [
+    "porsche formula e team"
+   ],
+   "season": {
+    "position": 2,
+    "points": 271,
+    "rounds": 17,
+    "wins": 4,
+    "podiums": 8,
+    "members": [
+     {
+      "name": "Pascal Wehrlein",
+      "position": 1,
+      "points": 169
+     },
+     {
+      "name": "Nico Müller",
+      "position": 9,
+      "points": 102
+     }
+    ]
+   },
+   "review": {
+    "summary": "Porsche Formula E Team are 2nd in the Formula E teams' standings on 271 points after 17 rounds, with 4 wins and 8 podiums. Pascal Wehrlein is their best-placed driver, 1st overall.",
+    "lastRace": "At the 2026 Hankook London E-Prix, Nico Müller finished 12th; Pascal Wehrlein finished 14th.",
+    "writer": "template"
+   },
+   "publishedAt": "2026-09-19T12:50:44Z",
+   "lastRace": {
+    "name": "2026 Hankook London E-Prix",
+    "round": 17,
+    "date": "2026-08-16",
+    "lines": [
+     {
+      "name": "Nico Müller",
+      "position": 12,
+      "grid": null,
+      "points": null,
+      "status": null
+     },
+     {
+      "name": "Pascal Wehrlein",
+      "position": 14,
+      "grid": null,
+      "points": null,
+      "status": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "formulae-mahindra-racing",
+   "channelID": "formulae",
+   "name": "Mahindra Racing",
+   "matchKeys": [
+    "mahindra racing"
+   ],
+   "season": {
+    "position": 3,
+    "points": 252,
+    "rounds": 17,
+    "wins": 2,
+    "podiums": 7,
+    "members": [
+     {
+      "name": "Edoardo Mortara",
+      "position": 5,
+      "points": 137
+     },
+     {
+      "name": "Nyck De Vries",
+      "position": 7,
+      "points": 115
+     }
+    ]
+   },
+   "review": {
+    "summary": "Mahindra Racing are 3rd in the Formula E teams' standings on 252 points after 17 rounds, with 2 wins and 7 podiums. Edoardo Mortara is their best-placed driver, 5th overall.",
+    "lastRace": "At the 2026 Hankook London E-Prix, Nyck De Vries finished 2nd; Edoardo Mortara finished 3rd.",
+    "writer": "template"
+   },
+   "publishedAt": "2026-09-19T12:50:44Z",
+   "lastRace": {
+    "name": "2026 Hankook London E-Prix",
+    "round": 17,
+    "date": "2026-08-16",
+    "lines": [
+     {
+      "name": "Nyck De Vries",
+      "position": 2,
+      "grid": null,
+      "points": null,
+      "status": null
+     },
+     {
+      "name": "Edoardo Mortara",
+      "position": 3,
+      "grid": null,
+      "points": null,
+      "status": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "formulae-andretti-formula-e",
+   "channelID": "formulae",
+   "name": "Andretti Formula E",
+   "matchKeys": [
+    "andretti formula e"
+   ],
+   "season": {
+    "position": 4,
+    "points": 229,
+    "rounds": 17,
+    "wins": 2,
+    "podiums": 7,
+    "members": [
+     {
+      "name": "Jake Dennis",
+      "position": 2,
+      "points": 164
+     },
+     {
+      "name": "Felipe Drugovich",
+      "position": 14,
+      "points": 65
+     }
+    ]
+   },
+   "review": {
+    "summary": "Andretti Formula E are 4th in the Formula E teams' standings on 229 points after 17 rounds, with 2 wins and 7 podiums. Jake Dennis is their best-placed driver, 2nd overall.",
+    "lastRace": "At the 2026 Hankook London E-Prix, Felipe Drugovich finished 13th; Jake Dennis finished 18th.",
+    "writer": "template"
+   },
+   "publishedAt": "2026-09-19T12:50:44Z",
+   "lastRace": {
+    "name": "2026 Hankook London E-Prix",
+    "round": 17,
+    "date": "2026-08-16",
+    "lines": [
+     {
+      "name": "Felipe Drugovich",
+      "position": 13,
+      "grid": null,
+      "points": null,
+      "status": null
+     },
+     {
+      "name": "Jake Dennis",
+      "position": 18,
+      "grid": null,
+      "points": null,
+      "status": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "formulae-citroën-racing",
+   "channelID": "formulae",
+   "name": "Citroën Racing",
+   "matchKeys": [
+    "citroën racing"
+   ],
+   "season": {
+    "position": 5,
+    "points": 182,
+    "rounds": 17,
+    "wins": 1,
+    "podiums": 6,
+    "members": [
+     {
+      "name": "Nick Cassidy",
+      "position": 8,
+      "points": 114
+     },
+     {
+      "name": "Jean-Éric Vergne",
+      "position": 12,
+      "points": 68
+     }
+    ]
+   },
+   "review": {
+    "summary": "Citroën Racing are 5th in the Formula E teams' standings on 182 points after 17 rounds, with 1 win and 6 podiums. Nick Cassidy is their best-placed driver, 8th overall.",
+    "lastRace": "At the 2026 Hankook London E-Prix, Nick Cassidy finished 6th; Jean-Éric Vergne finished 7th.",
+    "writer": "template"
+   },
+   "publishedAt": "2026-09-19T12:50:44Z",
+   "lastRace": {
+    "name": "2026 Hankook London E-Prix",
+    "round": 17,
+    "date": "2026-08-16",
+    "lines": [
+     {
+      "name": "Nick Cassidy",
+      "position": 6,
+      "grid": null,
+      "points": null,
+      "status": null
+     },
+     {
+      "name": "Jean-Éric Vergne",
+      "position": 7,
+      "grid": null,
+      "points": null,
+      "status": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "formulae-nissan-formula-e-team",
+   "channelID": "formulae",
+   "name": "Nissan Formula E Team",
+   "matchKeys": [
+    "nissan formula e team"
+   ],
+   "season": {
+    "position": 6,
+    "points": 157,
+    "rounds": 17,
+    "wins": 1,
+    "podiums": 6,
+    "members": [
+     {
+      "name": "Oliver Rowland",
+      "position": 4,
+      "points": 137
+     },
+     {
+      "name": "Norman Nato",
+      "position": 19,
+      "points": 20
+     }
+    ]
+   },
+   "review": {
+    "summary": "Nissan Formula E Team are 6th in the Formula E teams' standings on 157 points after 17 rounds, with 1 win and 6 podiums. Oliver Rowland is their best-placed driver, 4th overall.",
+    "lastRace": "At the 2026 Hankook London E-Prix, Oliver Rowland finished 9th; Norman Nato finished 10th.",
+    "writer": "template"
+   },
+   "publishedAt": "2026-09-19T12:50:44Z",
+   "lastRace": {
+    "name": "2026 Hankook London E-Prix",
+    "round": 17,
+    "date": "2026-08-16",
+    "lines": [
+     {
+      "name": "Oliver Rowland",
+      "position": 9,
+      "grid": null,
+      "points": null,
+      "status": null
+     },
+     {
+      "name": "Norman Nato",
+      "position": 10,
+      "grid": null,
+      "points": null,
+      "status": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "formulae-envision-racing",
+   "channelID": "formulae",
+   "name": "Envision Racing",
+   "matchKeys": [
+    "envision racing"
+   ],
+   "season": {
+    "position": 7,
+    "points": 152,
+    "rounds": 17,
+    "wins": 0,
+    "podiums": 2,
+    "members": [
+     {
+      "name": "Sébastien Buemi",
+      "position": 10,
+      "points": 97
+     },
+     {
+      "name": "Joel Eriksson",
+      "position": 16,
+      "points": 55
+     }
+    ]
+   },
+   "review": {
+    "summary": "Envision Racing are 7th in the Formula E teams' standings on 152 points after 17 rounds, with 0 wins and 2 podiums. Sébastien Buemi is their best-placed driver, 10th overall.",
+    "lastRace": "At the 2026 Hankook London E-Prix, Sébastien Buemi finished 5th; Joel Eriksson did not finish.",
+    "writer": "template"
+   },
+   "publishedAt": "2026-09-19T12:50:44Z",
+   "lastRace": {
+    "name": "2026 Hankook London E-Prix",
+    "round": 17,
+    "date": "2026-08-16",
+    "lines": [
+     {
+      "name": "Sébastien Buemi",
+      "position": 5,
+      "grid": null,
+      "points": null,
+      "status": null
+     },
+     {
+      "name": "Joel Eriksson",
+      "position": null,
+      "grid": null,
+      "points": null,
+      "status": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "formulae-cupra-kiro",
+   "channelID": "formulae",
+   "name": "Cupra Kiro",
+   "matchKeys": [
+    "cupra kiro"
+   ],
+   "season": {
+    "position": 8,
+    "points": 128,
+    "rounds": 17,
+    "wins": 1,
+    "podiums": 3,
+    "members": [
+     {
+      "name": "Josep Maria Martí",
+      "position": 13,
+      "points": 66
+     },
+     {
+      "name": "Dan Ticktum",
+      "position": 15,
+      "points": 62
+     }
+    ]
+   },
+   "review": {
+    "summary": "Cupra Kiro are 8th in the Formula E teams' standings on 128 points after 17 rounds, with 1 win and 3 podiums. Josep Maria Martí is their best-placed driver, 13th overall.",
+    "lastRace": "At the 2026 Hankook London E-Prix, Josep Maria Martí finished 8th; Dan Ticktum finished 16th.",
+    "writer": "template"
+   },
+   "publishedAt": "2026-09-19T12:50:44Z",
+   "lastRace": {
+    "name": "2026 Hankook London E-Prix",
+    "round": 17,
+    "date": "2026-08-16",
+    "lines": [
+     {
+      "name": "Josep Maria Martí",
+      "position": 8,
+      "grid": null,
+      "points": null,
+      "status": null
+     },
+     {
+      "name": "Dan Ticktum",
+      "position": 16,
+      "grid": null,
+      "points": null,
+      "status": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "formulae-ds-penske",
+   "channelID": "formulae",
+   "name": "Ds Penske",
+   "matchKeys": [
+    "ds penske"
+   ],
+   "season": {
+    "position": 9,
+    "points": 91,
+    "rounds": 17,
+    "wins": 1,
+    "podiums": 1,
+    "members": [
+     {
+      "name": "Taylor Barnard",
+      "position": 11,
+      "points": 68
+     },
+     {
+      "name": "Maximilian Günther",
+      "position": 18,
+      "points": 23
+     }
+    ]
+   },
+   "review": {
+    "summary": "Ds Penske are 9th in the Formula E teams' standings on 91 points after 17 rounds, with 1 win and 1 podium. Taylor Barnard is their best-placed driver, 11th overall.",
+    "lastRace": "At the 2026 Hankook London E-Prix, Taylor Barnard finished 1st; Maximilian Günther finished 11th.",
+    "writer": "template"
+   },
+   "publishedAt": "2026-09-19T12:50:44Z",
+   "lastRace": {
+    "name": "2026 Hankook London E-Prix",
+    "round": 17,
+    "date": "2026-08-16",
+    "lines": [
+     {
+      "name": "Taylor Barnard",
+      "position": 1,
+      "grid": null,
+      "points": null,
+      "status": null
+     },
+     {
+      "name": "Maximilian Günther",
+      "position": 11,
+      "grid": null,
+      "points": null,
+      "status": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "formulae-lola-yamaha-abt-formula-e-team",
+   "channelID": "formulae",
+   "name": "Lola Yamaha Abt Formula E Team",
+   "matchKeys": [
+    "lola yamaha abt formula e team"
+   ],
+   "season": {
+    "position": 10,
+    "points": 35,
+    "rounds": 17,
+    "wins": 1,
+    "podiums": 1,
+    "members": [
+     {
+      "name": "Lucas Di Grassi",
+      "position": 17,
+      "points": 32
+     },
+     {
+      "name": "Zane Maloney",
+      "position": 20,
+      "points": 3
+     }
+    ]
+   },
+   "review": {
+    "summary": "Lola Yamaha Abt Formula E Team are 10th in the Formula E teams' standings on 35 points after 17 rounds, with 1 win and 1 podium. Lucas Di Grassi is their best-placed driver, 17th overall.",
+    "lastRace": "At the 2026 Hankook London E-Prix, Zane Maloney finished 17th; Lucas Di Grassi did not finish.",
+    "writer": "template"
+   },
+   "publishedAt": "2026-09-19T12:50:44Z",
+   "lastRace": {
+    "name": "2026 Hankook London E-Prix",
+    "round": 17,
+    "date": "2026-08-16",
+    "lines": [
+     {
+      "name": "Zane Maloney",
+      "position": 17,
+      "grid": null,
+      "points": null,
+      "status": null
+     },
+     {
+      "name": "Lucas Di Grassi",
+      "position": null,
+      "grid": null,
+      "points": null,
+      "status": null
+     }
+    ]
+   }
+  }
+ ]
+}

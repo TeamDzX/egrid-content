@@ -23,7 +23,12 @@
     "Region data comes in two shapes and they are NOT equivalent: 'blocked' is a short exclusion",
     "list, 'allowed' is a whitelist that hides the video from everywhere else. Sky Sports F1 allows",
     "six countries. Anything with an allow-list is invisible to most of the world, so weigh that",
-    "before enabling a rights-holder channel."
+    "before enabling a rights-holder channel.",
+    "",
+    "'keep' raises the per-channel cap for a multi-feed source (default: the --limit), and 'perFeed'",
+    "reserves that many newest videos for every feed before the rest fill by date, so each team page",
+    "finds its own team's videos in the channel feed. Feed-level 'titleMatch' and 'minSeconds' override",
+    "the source's, for brand channels that mix racing with road cars (Ferrari, Alpine, the MotoGP makes)."
   ],
   "sources": [
     {
@@ -31,7 +36,7 @@
       "enabled": true,
       "label": "F1 Video",
       "credit": "the F1 teams and the FIA",
-      "note": "Formula 1's own channel refuses to be embedded — error 150 on every video tried, including its F2 and F3 reels, and the Data API reports all of them as embeddable, so it is only visible by playing one. There is therefore no way to show F1 race highlights at all. These four official channels are the honest substitute: all verified embeddable and, unlike Sky, unrestricted worldwide. The section is labelled 'F1 Video' rather than 'Highlights' because that is what it is. A 5-minute floor (minSeconds) keeps the section to features, onboards and podcasts; without it the teams' social clips — paddock cooking, birthday messages — dominate it.",
+      "note": "Formula 1's own channel refuses to be embedded — error 150 on every video tried, including its F2 and F3 reels, and the Data API reports all of them as embeddable, so it is only visible by playing one. There is therefore no way to show F1 race highlights at all. These four official channels are the honest substitute: all verified embeddable and, unlike Sky, unrestricted worldwide. The section is labelled 'F1 Video' rather than 'Highlights' because that is what it is. A 5-minute floor (minSeconds) keeps the section to features, onboards and podcasts; without it the teams' social clips — paddock cooking, birthday messages — dominate it. Every team channel below was embed-tested on 19 Sep 2026 (a video played to state 1 in the IFrame player; the FORMULA 1 control gave error 150 in the same harness). Ferrari and Alpine have no separate F1 channel, so their brand channels are narrowed by titleMatch.",
       "feeds": [
         {
           "channelId": "UC7_VGkwCoKfqh1eZEkzey3A",
@@ -48,9 +53,45 @@
         {
           "channelId": "UCFSkxZVj6ki9RrWC8ZcCPrQ",
           "sourceName": "FIA"
+        },
+        {
+          "channelId": "UCd8iY-kEHtaB8qt8MH--zGw",
+          "sourceName": "Ferrari",
+          "titleMatch": "\\bF1\\b|Formula 1|Grand Prix|Scuderia|SF-2\\d"
+        },
+        {
+          "channelId": "UC8pLH6_Dz4QwKYE-dtcaxeg",
+          "sourceName": "Aston Martin Aramco F1 Team"
+        },
+        {
+          "channelId": "UC4AnEj7Pj9ODVhwojHPqAMA",
+          "sourceName": "Atlassian Williams F1 Team"
+        },
+        {
+          "channelId": "UCzH4Iwlm8kI09wXbgHvFfIg",
+          "sourceName": "Alpine",
+          "titleMatch": "\\bF1\\b|Formula 1|Grand Prix|Open Doors"
+        },
+        {
+          "channelId": "UCaGImPpcZdJ_8Iu20lCbHHw",
+          "sourceName": "TGR Haas F1 Team"
+        },
+        {
+          "channelId": "UCU56G7ZKkB7xkua6EhMz5dg",
+          "sourceName": "Visa Cash App RB F1 Team"
+        },
+        {
+          "channelId": "UCcicfsG1VMbBqV0jlM7caZw",
+          "sourceName": "Audi Revolut F1 Team"
+        },
+        {
+          "channelId": "UCARJ7OAocZ3D9k1F3DHGftQ",
+          "sourceName": "Cadillac Formula 1 Team"
         }
       ],
-      "minSeconds": 300
+      "minSeconds": 300,
+      "keep": 40,
+      "perFeed": 3
     },
     {
       "channelID": "f2",
@@ -142,10 +183,40 @@
     },
     {
       "channelID": "motogp",
-      "enabled": false,
-      "sourceName": "MotoGP",
-      "channelId": "UC8pYaQzbBBXg9GIOHRvTmDQ",
-      "note": "No compliant source. The official channel is clips and shorts only; the 'Full Race and Sprint Highlights' playlist that looks official belongs to TNT Sports, a UK broadcaster, and everything else is behind paid VideoPass. Leave off until MotoGP itself posts race edits."
+      "enabled": true,
+      "label": "MotoGP Video",
+      "credit": "the MotoGP manufacturers",
+      "note": "MotoGP's own channel is clips and shorts only; the 'Full Race and Sprint Highlights' playlist that looks official belongs to TNT Sports, a UK broadcaster, and everything else is behind paid VideoPass — so, as with F1, there are no race highlights to show. What there is: the five manufacturers' official channels, all embed-tested on 19 Sep 2026. Four are brand channels mixing racing with road bikes, so each is narrowed by a 'MotoGP' titleMatch. Yamaha MotoGP posts only short clips, so its floor is lowered to a minute.",
+      "keep": 30,
+      "perFeed": 3,
+      "minSeconds": 300,
+      "feeds": [
+        {
+          "channelId": "UCzGsJzGNCfvY9x6Ij2XiODw",
+          "sourceName": "Ducati",
+          "titleMatch": "MotoGP|Bagnaia|M(a|á)rquez|Desmosedici"
+        },
+        {
+          "channelId": "UCUOwuCsyq0So1oJQGMzXMqw",
+          "sourceName": "Aprilia Official",
+          "titleMatch": "MotoGP|RS-GP|Aprilia Racing"
+        },
+        {
+          "channelId": "UCb3-KtEqkRuJeT2ekC5Mzow",
+          "sourceName": "KTM",
+          "titleMatch": "MotoGP|Factory Floor|RC16"
+        },
+        {
+          "channelId": "UCmG3C3Z2IVZmsj8yj7PJljA",
+          "sourceName": "HondaRacingHRC",
+          "titleMatch": "MotoGP|RC213V"
+        },
+        {
+          "channelId": "UCAfSlaiwnHOGvbXQLvVmnLw",
+          "sourceName": "Yamaha MotoGP",
+          "minSeconds": 60
+        }
+      ]
     }
   ]
 }

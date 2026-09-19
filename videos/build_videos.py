@@ -428,9 +428,25 @@ def build(sources: list[dict], key: str | None, want: int) -> list[ChannelVideos
             videos.extend(got)
 
         # Merged newest-first across every feed, so a busy team channel cannot
-        # crowd out a quieter one purely by being fetched first.
+        # crowd out a quieter one purely by being fetched first. A multi-feed
+        # source may ask to keep more than the default (`keep`), and every
+        # feed is guaranteed its newest few (`perFeed`) before the rest of the
+        # room goes by date — the team pages show each team its own videos,
+        # and a quiet team must not vanish behind a busy one.
         videos.sort(key=lambda v: v.publishedAt, reverse=True)
-        videos = videos[:want]
+        keep = int(source.get("keep", want))
+        per_feed = int(source.get("perFeed", 0))
+        if per_feed and len(feeds) > 1:
+            reserved, counts = [], {}
+            for v in videos:
+                if counts.get(v.source, 0) < per_feed:
+                    reserved.append(v)
+                    counts[v.source] = counts.get(v.source, 0) + 1
+            rest = [v for v in videos if v not in reserved]
+            videos = (reserved + rest)[:keep]
+            videos.sort(key=lambda v: v.publishedAt, reverse=True)
+        else:
+            videos = videos[:keep]
 
         if not videos:
             log("    - nothing usable, channel omitted")
