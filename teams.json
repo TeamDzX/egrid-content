@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-09-20T09:06:10Z",
+ "generatedAt": "2026-09-20T12:36:19Z",
  "teams": [
   {
    "id": "f1-mercedes",
@@ -29,11 +29,11 @@
     ]
    },
    "review": {
-    "summary": "Mercedes leads the championship with ten wins and 503 points from fourteen rounds. Antonelli sits top of the standings with 292 points, ahead of Russell who has 211.",
-    "lastRace": "Antonelli won from second on the grid, taking 25 points. Russell finished fifth after starting sixth to collect 10 points.",
+    "summary": "Mercedes sit top of the championship with ten wins from fourteen rounds and 503 points. Antonelli leads the driver standings, outperforming teammate Russell by 81 points.",
+    "lastRace": "Antonelli took victory after starting second, while Russell finished fifth from sixth on the grid.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-20T09:06:10Z",
+   "publishedAt": "2026-09-20T12:36:19Z",
    "lastRace": {
     "name": "Spanish Grand Prix",
     "round": 14,
@@ -83,11 +83,11 @@
     ]
    },
    "review": {
-    "summary": "Ferrari holds second place with 358 points and nine podiums. Hamilton is currently third in the standings with 191 points, while Leclerc follows in fifth with 167 points.",
-    "lastRace": "Leclerc finished fourth after starting fifth to earn 12 points. Hamilton retired from fourth on the grid.",
+    "summary": "Ferrari hold second place with 358 points and nine podiums this season. Hamilton currently leads Leclerc in the standings.",
+    "lastRace": "Leclerc finished fourth after starting fifth, but Hamilton retired after starting fourth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-20T09:06:10Z",
+   "publishedAt": "2026-09-20T12:36:19Z",
    "lastRace": {
     "name": "Spanish Grand Prix",
     "round": 14,
@@ -137,11 +137,11 @@
     ]
    },
    "review": {
-    "summary": "McLaren is third in the championship with 306 points and two wins. Norris leads the team's scoring with 186 points, while Piastri has 120 points.",
-    "lastRace": "Norris finished third after starting from pole to take 15 points. Piastri moved from seventh to eighth to collect 4 points.",
+    "summary": "McLaren are third in the championship with 306 points. Norris holds a significant advantage over teammate Piastri in the driver standings.",
+    "lastRace": "Norris secured third place from pole position, while Piastri finished eighth from seventh on the grid.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-20T09:06:10Z",
+   "publishedAt": "2026-09-20T12:36:19Z",
    "lastRace": {
     "name": "Spanish Grand Prix",
     "round": 14,
@@ -196,11 +196,11 @@
     ]
    },
    "review": {
-    "summary": "Red Bull sits fourth with 230 points and seven podiums. Verstappen is sixth in the championship with 145 points, followed by Hadjar in eighth and Lawson in ninth.",
-    "lastRace": "Verstappen finished second after starting third to take 18 points. Lawson moved from eighth to sixth to earn 8 points.",
+    "summary": "Red Bull occupy fourth place with 230 points and seven podiums. Verstappen leads the team's drivers, followed by Hadjar and Lawson.",
+    "lastRace": "Verstappen finished second after starting third, while Lawson moved up to sixth from eighth on the grid.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-20T09:06:10Z",
+   "publishedAt": "2026-09-20T12:36:19Z",
    "lastRace": {
     "name": "Spanish Grand Prix",
     "round": 14,
@@ -250,11 +250,11 @@
     ]
    },
    "review": {
-    "summary": "RB holds fifth place with 77 points. Lindblad is eleventh in the championship with 31 points, while Tsunoda sits in twentieth with one point.",
-    "lastRace": "Lindblad finished ninth after starting tenth but was lapped. Tsunoda finished fourteenth after starting fifteenth and was also lapped.",
+    "summary": "RB F1 Team are fifth in the standings with 77 points. Lindblad leads the driver count ahead of Tsunoda.",
+    "lastRace": "Both drivers were lapped, with Lindblad finishing ninth and Tsunoda in fourteenth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-20T09:06:10Z",
+   "publishedAt": "2026-09-20T12:36:19Z",
    "lastRace": {
     "name": "Spanish Grand Prix",
     "round": 14,
@@ -304,11 +304,11 @@
     ]
    },
    "review": {
-    "summary": "Alpine is sixth with 68 points. Gasly holds tenth place in the standings with 41 points, ahead of Colapinto who has 27 points.",
-    "lastRace": "Colapinto finished seventh after starting ninth to take 6 points. Gasly was lapped after starting fourteenth.",
+    "summary": "Alpine sit sixth with 68 points from fourteen rounds. Gasly currently holds more points than Colapinto.",
+    "lastRace": "Colapinto finished seventh after starting ninth, while Gasly was lapped after starting fourteenth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-20T09:06:10Z",
+   "publishedAt": "2026-09-20T12:36:19Z",
    "lastRace": {
     "name": "Spanish Grand Prix",
     "round": 14,
@@ -358,11 +358,11 @@
     ]
    },
    "review": {
-    "summary": "Haas is seventh in the standings with 21 points. Bearman sits in thirteenth with 18 points, while Ocon is eighteenth with three points.",
-    "lastRace": "Ocon finished eleventh after starting thirteenth but was lapped. Bearman moved from twenty-second to sixteenth before being lapped.",
+    "summary": "Haas are seventh in the championship with 21 points. Bearman leads Ocon in the driver standings.",
+    "lastRace": "Both drivers were lapped, with Ocon finishing eleventh and Bearman in sixteenth from twenty-second on the grid.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-20T09:06:10Z",
+   "publishedAt": "2026-09-20T12:36:19Z",
    "lastRace": {
     "name": "Spanish Grand Prix",
     "round": 14,
@@ -412,11 +412,11 @@
     ]
    },
    "review": {
-    "summary": "Audi holds eighth place with 17 points. Bortoleto is fourteenth in the standings with 10 points, while Hülkenberg is fifteenth with seven points.",
-    "lastRace": "Hülkerberg finished tenth after starting eleventh but was lapped. Bortoleto moved from twelfth to thirteenth and was also lapped.",
+    "summary": "Audi hold eighth place with 17 points this season. Bortoleto is ahead of Hülkenberg in the standings.",
+    "lastRace": "Both drivers were lapped, with Hülkenberg finishing tenth and Bortoleto in thirteenth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-20T09:06:10Z",
+   "publishedAt": "2026-09-20T12:36:19Z",
    "lastRace": {
     "name": "Spanish Grand Prix",
     "round": 14,
@@ -466,11 +466,11 @@
     ]
    },
    "review": {
-    "summary": "Williams is ninth in the championship with 11 points. Sainz sits in sixteenth with six points, while Albon is seventeenth with five points.",
-    "lastRace": "Albon finished fifteenth after starting sixteenth but was lapped. Sainz retired from twentieth on the grid.",
+    "summary": "Williams are ninth with 11 points from fourteen rounds. Sainz leads Albon in the driver rankings.",
+    "lastRace": "At the Spanish Grand Prix, Alexander Albon finished 15th from 16th on the grid; Carlos Sainz did not finish (Retired).",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-20T09:06:10Z",
+   "publishedAt": "2026-09-20T12:36:19Z",
    "lastRace": {
     "name": "Spanish Grand Prix",
     "round": 14,
@@ -520,11 +520,11 @@
     ]
    },
    "review": {
-    "summary": "Aston Martin is tenth with three points. Alonso holds nineteenth place with 3 points, and Stroll is twenty-first with no points.",
-    "lastRace": "Alonso finished seventeenth after starting seventeenth but was lapped. Stroll retired from twenty-first on the grid.",
+    "summary": "Aston Martin sit tenth with three points so far. Alonso is ahead of Stroll in the standings.",
+    "lastRace": "Alonso was lapped from seventeenth on the grid, and Stroll retired after starting twenty-first.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-20T09:06:10Z",
+   "publishedAt": "2026-09-20T12:36:19Z",
    "lastRace": {
     "name": "Spanish Grand Prix",
     "round": 14,
@@ -574,11 +574,11 @@
     ]
    },
    "review": {
-    "summary": "Cadillac sits eleventh in the standings with zero points. Bottas is twenty-second and Pérez is twenty-third, both without points.",
-    "lastRace": "Bottas finished eighteenth after starting nineteenth but was lapped. Pérez retired from eighteenth on the grid.",
+    "summary": "Cadillac are eleventh in the championship with no points scored this season. Both Bottas and Pérez have yet to score.",
+    "lastRace": "Bottas was lapped after starting nineteenth, while Pérez retired from eighteenth on the grid.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-20T09:06:10Z",
+   "publishedAt": "2026-09-20T12:36:19Z",
    "lastRace": {
     "name": "Spanish Grand Prix",
     "round": 14,
@@ -643,11 +643,11 @@
     ]
    },
    "review": {
-    "summary": "Aprilia lead the championship after fourteen rounds with seven wins and twenty-four podiums. Jorge Martin sits top of the standings, followed by Marco Bezzecchi in third. Ai Ogura and Raul Fernandez also provide consistent scoring, while Lorenzo Savadori remains at the bottom of the rankings.",
-    "lastRace": "In San Marino, Jorge Martin finished fifth, earning eleven points. Raul Fernandez secured sixth with ten points. Marco Bezzecchi did not finish.",
+    "summary": "Leading the championship after fourteen rounds, Aprilia have secured seven wins and twenty-four podiums. Jorge Martin sits at the top of the standings with 286 points, followed by Marco Bezzecchi in third and Ai Ogura in fifth. Raul Fernandez holds seventh place, while Lorenzo Savadori is currently at the bottom of the team's scoring list.",
+    "lastRace": "Jorge Martin finished fifth and Raul Fernandez took sixth, both earning points. Marco Bezzecchi failed to finish the race.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-20T09:06:10Z",
+   "publishedAt": "2026-09-20T12:36:19Z",
    "lastRace": {
     "name": "Grand Prix of San Marino",
     "round": 14,
@@ -734,11 +734,11 @@
     ]
    },
    "review": {
-    "summary": "Ducati hold second place in the championship. Marc Marquez leads the rider standings for the team in second, with Fabio Di Giannantino and Alex Marquez following closely. The squad features a deep roster including Fermin Aldeguer, Francesco Bagnaia, and Franco Morbidelli.",
-    "lastRace": "Marc Marquez won the race, earning twenty-five points. Alex Marquez finished second, while Fermin Aldeguer took fourth. Fabio Di Giannantonio finished seventh, and Franco Morbidelli ended thirteenth. Francesco Bagnaia did not finish.",
+    "summary": "Sitting in second place after fourteen rounds, Ducati have achieved six wins and twelve podiums. Marc Marquez leads the team with 283 points, followed by Fabio Di Giannantonio in fourth and Alex Marquez in eighth. The team's scoring spread continues down to Fermin Aldeguer in tenth and Franco Morbidelli in sixteenth.",
+    "lastRace": "Marc Marquez won the race, with Alex Marquez finishing second and Fermin Aldeguer in fourth. Fabio Di Giannantonio finished seventh and Franco Morbidelli took thirteenth, while Francesco Bagnaia did not finish.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-20T09:06:10Z",
+   "publishedAt": "2026-09-20T12:36:19Z",
    "lastRace": {
     "name": "Grand Prix of San Marino",
     "round": 14,
@@ -836,11 +836,11 @@
     ]
    },
    "review": {
-    "summary": "KTM sit third in the standings with one win and six podiums from fourteen rounds. Pedro Acosta is their highest-placed rider in sixth, significantly ahead of Enea Bastianini and Brad Binder. Maverick Viñales, Pol Espargaro, and Jonas Folger complete the lineup.",
-    "lastRace": "Pedro Acosta finished third to take sixteen points. Enea Bastianini claimed eighth, while Brad Binder finished eleventh. Pol Espargaro ended the race in fourteenth.",
+    "summary": "Third in the standings after fourteen rounds, KTM have recorded one win and six podiums. Pedro Acosta is their highest-placed rider in sixth, followed by Enea Bastianini in twelfth and Brad Binder in thirteenth. Maverick Viñales, Pol Espargaro, and Jonas Folger follow further down the rankings.",
+    "lastRace": "Pedro Acosta finished third, while Enea Bastianini took eighth and Brad Binder finished eleventh. Pol Espargaro completed the race in fourteenth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-20T09:06:10Z",
+   "publishedAt": "2026-09-20T12:36:19Z",
    "lastRace": {
     "name": "Grand Prix of San Marino",
     "round": 14,
@@ -924,11 +924,11 @@
     ]
    },
    "review": {
-    "summary": "Honda currently occupy fourth place with no wins or podiums this season. Luca Marini leads the team in eleventh, followed by Diogo Moreira and Johann Zarco. Joan Mir, Takaaki Nakagami, and Cal Crutchlow round out the roster.",
-    "lastRace": "Luca Marini finished ninth to earn seven points. Johann Zarco, Joan Mir, and Diogo Moreira all failed to finish the race.",
+    "summary": "Honda currently occupies fourth place after fourteen rounds without any wins or podiums. Luca Marini is the highest-placed rider with 96 points, followed by Diogo Moreira in fourteenth and Johann Zarco in seventeenth. Joan Mir and Takaaki Nakagami follow, with Cal Crutchlow also part of the squad.",
+    "lastRace": "Luca Marini finished ninth, but Johann Zarco, Joan Mir, and Diogo Moreira all failed to finish the race.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-20T09:06:10Z",
+   "publishedAt": "2026-09-20T12:36:19Z",
    "lastRace": {
     "name": "Grand Prix of San Marino",
     "round": 14,
@@ -1007,11 +1007,11 @@
     ]
    },
    "review": {
-    "summary": "Yamaha are fifth in the championship after fourteen rounds. Fabio Quartararo is their leading rider in fifteenth, followed by Jack Miller, Alex Rins, Toprak Razgatlioglu, and Augusto Fernandez. The team has yet to secure a win or podium this season.",
-    "lastRace": "Fabio Quartararo finished tenth, earning six points. Toprak Razgatlioglu took twelfth with four points. Alex Rins and Jack Miller both did not finish.",
+    "summary": "Yamaha sits in fifth place after fourteen rounds with no wins or podiums so far. Fabio Quartararo is their leading rider in fifteenth, followed by Jack Miller in nineteenth and Alex Rins in twentieth. Toprak Razgatlioglu and Augusto Fernandez complete the team's roster.",
+    "lastRace": "Fabio Quartararo finished tenth and Toprak Razgatlioglu took twelfth. Both Alex Rins and Jack Miller did not finish the race.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-20T09:06:10Z",
+   "publishedAt": "2026-09-20T12:36:19Z",
    "lastRace": {
     "name": "Grand Prix of San Marino",
     "round": 14,
@@ -1075,11 +1075,11 @@
     ]
    },
    "review": {
-    "summary": "Jaguar Tcs Racing are 1st in the Formula E teams' standings on 288 points after 17 rounds, with 4 wins and 10 podiums. Mitch Evans is their best-placed driver, 3rd overall.",
-    "lastRace": "At the 2026 Hankook London E-Prix, Mitch Evans finished 4th; António Félix Da Costa finished 15th.",
-    "writer": "template"
+    "summary": "Leading the championship with 288 points from 17 rounds, including four wins and ten podiums. Mitch Evans sits third in the standings with 160 points, while António Félix Da Costa follows in sixth with 128 points.",
+    "lastRace": "Mitch Evans finished fourth, while António Félix Da Costa ended the race in fifteenth.",
+    "writer": "own server"
    },
-   "publishedAt": "2026-09-20T09:06:10Z",
+   "publishedAt": "2026-09-20T12:36:19Z",
    "lastRace": {
     "name": "2026 Hankook London E-Prix",
     "round": 17,
@@ -1129,11 +1129,11 @@
     ]
    },
    "review": {
-    "summary": "Porsche Formula E Team are 2nd in the Formula E teams' standings on 271 points after 17 rounds, with 4 wins and 8 podiums. Pascal Wehrlein is their best-placed driver, 1st overall.",
-    "lastRace": "At the 2026 Hankook London E-Prix, Nico Müller finished 12th; Pascal Wehrlein finished 14th.",
-    "writer": "template"
+    "summary": "Second in the championship after 17 rounds, boasting four wins and eight podiums. Pascal Wehrlein holds the top position in the driver standings with 169 points, outperforming teammate Nico Müller who is ninth with 102 points.",
+    "lastRace": "Nico Müller finished twelfth and Pascal Wehrlein finished fourteenth.",
+    "writer": "own server"
    },
-   "publishedAt": "2026-09-20T09:06:10Z",
+   "publishedAt": "2026-09-20T12:36:19Z",
    "lastRace": {
     "name": "2026 Hankook London E-Prix",
     "round": 17,
@@ -1183,11 +1183,11 @@
     ]
    },
    "review": {
-    "summary": "Mahindra Racing are 3rd in the Formula E teams' standings on 252 points after 17 rounds, with 2 wins and 7 podiums. Edoardo Mortara is their best-placed driver, 5th overall.",
-    "lastRace": "At the 2026 Hankook London E-Prix, Nyck De Vries finished 2nd; Edoardo Mortara finished 3rd.",
-    "writer": "template"
+    "summary": "Third in the standings with 252 points from 17 rounds, including two wins and seven podiums. Edoardo Mortara holds fifth place in the championship with 137 points, ahead of Nyck De Vries who is seventh with 115 points.",
+    "lastRace": "Nyck De Vries finished second and Edoardo Mortara finished third.",
+    "writer": "own server"
    },
-   "publishedAt": "2026-09-20T09:06:10Z",
+   "publishedAt": "2026-09-20T12:36:19Z",
    "lastRace": {
     "name": "2026 Hankook London E-Prix",
     "round": 17,
@@ -1237,11 +1237,11 @@
     ]
    },
    "review": {
-    "summary": "Andretti Formula E are 4th in the Formula E teams' standings on 229 points after 17 rounds, with 2 wins and 7 podiums. Jake Dennis is their best-placed driver, 2nd overall.",
-    "lastRace": "At the 2026 Hankook London E-Prix, Felipe Drugovich finished 13th; Jake Dennis finished 18th.",
-    "writer": "template"
+    "summary": "Fourth in the championship after 17 rounds, with two wins and seven podiums. Jake Dennis sits second in the driver standings with 164 points, significantly ahead of Felipe Drugovich who is fourteenth with 65 points.",
+    "lastRace": "Felipe Drugovich finished thirteenth and Jake Dennis finished eighteenth.",
+    "writer": "own server"
    },
-   "publishedAt": "2026-09-20T09:06:10Z",
+   "publishedAt": "2026-09-20T12:36:19Z",
    "lastRace": {
     "name": "2026 Hankook London E-Prix",
     "round": 17,
@@ -1291,11 +1291,11 @@
     ]
    },
    "review": {
-    "summary": "Citroën Racing are 5th in the Formula E teams' standings on 182 points after 17 rounds, with 1 win and 6 podiums. Nick Cassidy is their best-placed driver, 8th overall.",
-    "lastRace": "At the 2026 Hankook London E-Prix, Nick Cassidy finished 6th; Jean-Éric Vergne finished 7th.",
-    "writer": "template"
+    "summary": "Fifth in the championship with 182 points from 17 rounds, including one win and six podiums. Nick Cassidy holds eighth place with 114 points, while Jean-Éric Vergne is twelfth with 68 points.",
+    "lastRace": "Nick Cassidy finished sixth and Jean-Éric Vergne finished seventh.",
+    "writer": "own server"
    },
-   "publishedAt": "2026-09-20T09:06:10Z",
+   "publishedAt": "2026-09-20T12:36:19Z",
    "lastRace": {
     "name": "2026 Hankook London E-Prix",
     "round": 17,
@@ -1345,11 +1345,11 @@
     ]
    },
    "review": {
-    "summary": "Nissan Formula E Team are 6th in the Formula E teams' standings on 157 points after 17 rounds, with 1 win and 6 podiums. Oliver Rowland is their best-placed driver, 4th overall.",
-    "lastRace": "At the 2026 Hankook London E-Prix, Oliver Rowland finished 9th; Norman Nato finished 10th.",
-    "writer": "template"
+    "summary": "Sixth in the standings after 17 rounds, having achieved one win and six podiums. Oliver Rowland sits fourth in the driver championship with 137 points, ahead of Norman Nato who is nineteenth with 20 points.",
+    "lastRace": "Oliver Rowland finished ninth and Norman Nato finished tenth.",
+    "writer": "own server"
    },
-   "publishedAt": "2026-09-20T09:06:10Z",
+   "publishedAt": "2026-09-20T12:36:19Z",
    "lastRace": {
     "name": "2026 Hankook London E-Prix",
     "round": 17,
@@ -1399,11 +1399,11 @@
     ]
    },
    "review": {
-    "summary": "Envision Racing are 7th in the Formula E teams' standings on 152 points after 17 rounds, with 0 wins and 2 podiums. Sébastien Buemi is their best-placed driver, 10th overall.",
-    "lastRace": "At the 2026 Hankook London E-Prix, Sébastien Buemi finished 5th; Joel Eriksson did not finish.",
-    "writer": "template"
+    "summary": "Seventh in the standings with 152 points from 17 rounds, including two podiums but no wins. Sébastien Buemi is tenth in the driver rankings with 97 points, while Joel Eriksson follows in sixteenth with 55 points.",
+    "lastRace": "Sébastien Buemi finished fifth.",
+    "writer": "own server"
    },
-   "publishedAt": "2026-09-20T09:06:10Z",
+   "publishedAt": "2026-09-20T12:36:19Z",
    "lastRace": {
     "name": "2026 Hankook London E-Prix",
     "round": 17,
@@ -1453,11 +1453,11 @@
     ]
    },
    "review": {
-    "summary": "Cupra Kiro are 8th in the Formula E teams' standings on 128 points after 17 rounds, with 1 win and 3 podiums. Josep Maria Martí is their best-placed driver, 13th overall.",
-    "lastRace": "At the 2026 Hankook London E-Prix, Josep Maria Martí finished 8th; Dan Ticktum finished 16th.",
-    "writer": "template"
+    "summary": "Eighth in the championship after 17 rounds, with one win and three podiums. Josep Maria Martí is thirteenth in the standings with 66 points, ahead of Dan Ticktum who is fifteenth with 62 points.",
+    "lastRace": "Josep Maria Martí finished eighth and Dan Ticktum finished sixteenth.",
+    "writer": "own server"
    },
-   "publishedAt": "2026-09-20T09:06:10Z",
+   "publishedAt": "2026-09-20T12:36:19Z",
    "lastRace": {
     "name": "2026 Hankook London E-Prix",
     "round": 17,
@@ -1507,11 +1507,11 @@
     ]
    },
    "review": {
-    "summary": "Ds Penske are 9th in the Formula E teams' standings on 91 points after 17 rounds, with 1 win and 1 podium. Taylor Barnard is their best-placed driver, 11th overall.",
-    "lastRace": "At the 2026 Hankook London E-Prix, Taylor Barnard finished 1st; Maximilian Günther finished 11th.",
-    "writer": "template"
+    "summary": "Ninth in the championship with 91 points from 17 rounds, including one win and one podium. Taylor Barnard holds eleventh place with 68 points, while Maximilian Günther is eighteenth with 23 points.",
+    "lastRace": "Taylor Barnard took victory, finishing first, while Maximilian Günther finished eleventh.",
+    "writer": "own server"
    },
-   "publishedAt": "2026-09-20T09:06:10Z",
+   "publishedAt": "2026-09-20T12:36:19Z",
    "lastRace": {
     "name": "2026 Hankook London E-Prix",
     "round": 17,
@@ -1561,11 +1561,11 @@
     ]
    },
    "review": {
-    "summary": "Lola Yamaha Abt Formula E Team are 10th in the Formula E teams' standings on 35 points after 17 rounds, with 1 win and 1 podium. Lucas Di Grassi is their best-placed driver, 17th overall.",
-    "lastRace": "At the 2026 Hankook London E-Prix, Zane Maloney finished 17th; Lucas Di Grassi did not finish.",
-    "writer": "template"
+    "summary": "Tenth in the standings after 17 rounds, with one win and one podium. Lucas Di Grassi sits seventeenth with 32 points, ahead of Zane Maloney who is twentieth with 3 points.",
+    "lastRace": "Zane Maloney finished seventeenth.",
+    "writer": "own server"
    },
-   "publishedAt": "2026-09-20T09:06:10Z",
+   "publishedAt": "2026-09-20T12:36:19Z",
    "lastRace": {
     "name": "2026 Hankook London E-Prix",
     "round": 17,
@@ -1614,16 +1614,16 @@
    ],
    "classified": 18,
    "review": {
-    "summary": "Mercedes' Antonelli won from second on the grid, followed by Verstappen for Red Bull and Norris for McLaren. The classification includes several retirements from Hamilton, Stroll, Pérez and Sainz, alongside various drivers being lapped during the race.",
+    "summary": "Antonelli won for Mercedes, followed by Verstappen and Norris to complete the podium. The classification shows a mix of results, with Norris dropping from pole and Antonelli moving up to win. Several drivers failed to finish, including Hamilton, Sainz, Stroll, and Pérez.",
     "highlights": [
      "George Russell secured the fastest lap.",
-     "Lewis Hamilton retired after starting fourth.",
-     "Oliver Bearman climbed from twenty-second to sixteenth before being lapped.",
-     "Carlos Sainz retired after starting twentieth."
+     "Andrea Kimi Antonelli moved from second on the grid to victory.",
+     "Lewis Hamilton retired after starting fourth on the grid.",
+     "Oliver Bearman climbed from twenty-second to sixteenth."
     ],
     "writer": "own server"
    },
-   "publishedAt": "2026-09-20T09:06:10Z"
+   "publishedAt": "2026-09-20T12:36:19Z"
   },
   {
    "channelID": "motogp",
@@ -1649,16 +1649,16 @@
    ],
    "classified": 14,
    "review": {
-    "summary": "Marc Marquez won for Ducati Lenovo Team, followed by Alex Marquez of BK8 Gresini Racing MotoGP and Pedro Acosta of Red Bull KTM Factory Racing. The classification shows a strong performance from the front-running riders, despite several retirements across the field.",
+    "summary": "Marc Marquez won for Ducati Lenovo Team, followed by Alex Marquez of BK8 Gresini Racing MotoGP and Pedro Acosta from Red Bull KTM Factory Racing. The classification shows several riders failing to complete the race, including Francesco Bagnaia, Johann Zarco, and Alex Rins. The top five also included Fermin Aldeguer and Jorge Martin.",
     "highlights": [
-     "Marc Marquez secured the victory for Ducati Lenovo Team.",
-     "Alex Marquez finished in second place.",
-     "Pedro Acosta claimed third position on the podium.",
-     "Francesco Bagnaia did not finish the race."
+     "Marc Marquez took the victory for Ducati Lenovo Team.",
+     "Alex Marquez and Fermin Aldeguer both finished in the top four for BK8 Gresini Racing MotoGP.",
+     "Francesco Bagnaia, Johann Zarco, and Alex Rins all failed to finish the race.",
+     "Marco Bezzecchi was unable to complete the race."
     ],
     "writer": "own server"
    },
-   "publishedAt": "2026-09-20T09:06:10Z"
+   "publishedAt": "2026-09-20T12:36:19Z"
   },
   {
    "channelID": "formulae",
@@ -1684,13 +1684,14 @@
    ],
    "classified": 18,
    "review": {
-    "summary": "Taylor Barnard won the 2026 Hankook London E-Prix for Ds Penske, ahead of Nyck De Vries (Mahindra Racing) and Edoardo Mortara (Mahindra Racing).",
+    "summary": "Taylor Barnard won for Ds Penske, leading a race that saw Mahindra Racing take a double podium with Nyck De Vries in second and Edoardo Mortara in third. The classification shows several drivers falling back, including Pascal Wehrlein and Nico Müller.",
     "highlights": [
-     "Did not finish: Joel Eriksson, Lucas Di Grassi."
+     "Taylor Barnard took the victory for Ds Penske.",
+     "Mahindra Racing achieved a double podium with Nyck De Vries and Edoardo Mortara."
     ],
-    "writer": "template"
+    "writer": "own server"
    },
-   "publishedAt": "2026-09-20T09:06:10Z"
+   "publishedAt": "2026-09-20T12:36:19Z"
   }
  ]
 }
