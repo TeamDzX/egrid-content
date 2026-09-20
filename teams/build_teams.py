@@ -553,23 +553,31 @@ def ask_own_server(facts: list[dict], race: dict | None) -> dict | None:
     if model:
         payload["model"] = model
     request = urllib.request.Request(base, data=json.dumps(payload).encode(), headers=headers, method="POST")
-    try:
-        with urllib.request.urlopen(request, timeout=300) as response:
-            reply = json.load(response)
-    except urllib.error.HTTPError as error:
-        log(f"  own server {base}: HTTP {error.code}; falling through")
-        return None
-    except (urllib.error.URLError, TimeoutError, OSError, json.JSONDecodeError) as error:
-        log(f"  own server {base}: {type(error).__name__}: {error}; falling through")
-        return None
-    try:
-        text = reply["choices"][0]["message"]["content"]
-    except (KeyError, IndexError, TypeError):
-        log("  own server: reply had no choices[0].message.content; falling through")
-        return None
-    data = parse_json_reply(text or "")
+    # A self-hosted model occasionally answers with prose around a broken
+    # object; one more try at the same temperature usually lands clean JSON,
+    # and is far cheaper than losing the whole series to the template.
+    data = None
+    for attempt in (1, 2):
+        try:
+            with urllib.request.urlopen(request, timeout=300) as response:
+                reply = json.load(response)
+        except urllib.error.HTTPError as error:
+            log(f"  own server {base}: HTTP {error.code}; falling through")
+            return None
+        except (urllib.error.URLError, TimeoutError, OSError, json.JSONDecodeError) as error:
+            log(f"  own server {base}: {type(error).__name__}: {error}; falling through")
+            return None
+        try:
+            text = reply["choices"][0]["message"]["content"]
+        except (KeyError, IndexError, TypeError):
+            log("  own server: reply had no choices[0].message.content; falling through")
+            return None
+        data = parse_json_reply(text or "")
+        if data is not None:
+            break
+        log(f"  own server returned non-JSON (attempt {attempt})")
     if data is None:
-        log("  own server returned non-JSON; falling through")
+        log("  own server returned non-JSON twice; falling through")
         return None
     usage = reply.get("usage") or {}
     log(f"  own server ({reply.get('model') or model or 'default model'}) wrote the notes "
