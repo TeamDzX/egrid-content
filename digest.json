@@ -1,7 +1,44 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-19T11:50:18Z",
+  "generatedAt": "2026-09-20T12:04:12Z",
   "editions": [
+    {
+      "id": "2026-09-20-preview",
+      "kind": "preview",
+      "title": "This weekend in motorsport",
+      "dateRange": "20–21 September",
+      "intro": "Looking ahead to 20–21 September, three rounds await in the IMSA SportsCar Championship, MotoGP and NHRA Drag Racing.",
+      "publishedAt": "2026-09-20T12:04:12Z",
+      "expiresAt": "2026-09-25T12:04:12Z",
+      "items": [
+        {
+          "channelID": "imsa",
+          "channelName": "IMSA SportsCar Championship",
+          "headline": "Battle on the Bricks",
+          "detail": "Indianapolis Motor Speedway · Sun 20 Sep",
+          "body": "The Battle on the Bricks takes place at Indianapolis Motor Speedway on Sun 20 Sep.",
+          "date": "2026-09-20",
+          "round": 10
+        },
+        {
+          "channelID": "motogp",
+          "channelName": "MotoGP",
+          "headline": "Grand Prix of Austria",
+          "detail": "Red Bull Ring - Spielberg, Austria · Sun 20 Sep",
+          "body": "The Grand Prix of Austria visits Red Bull Ring - Spielberg, Austria on Sun 20 Sep.",
+          "date": "2026-09-20",
+          "round": 15
+        },
+        {
+          "channelID": "nhra",
+          "channelName": "NHRA Drag Racing",
+          "headline": "Great Lakes Nationals",
+          "detail": "U.S. 131 Motorsports Park, Michigan · Sun 20 Sep",
+          "body": "NHRA Drag Racing heads to U.S. 131 Motorsports Park, Michigan for the Great Lakes Nationals on Sun 20 Sep.",
+          "date": "2026-09-20"
+        }
+      ]
+    },
     {
       "id": "2026-09-19-preview",
       "kind": "preview",
@@ -163,61 +200,6 @@
           "headline": "Great Lakes Nationals",
           "detail": "U.S. 131 Motorsports Park, Michigan · Sun 20 Sep",
           "body": "The NHRA Drag Racing Great Lakes Nationals takes place at U.S. 131 Motorsports Park, Michigan, on Sun 20 Sep.",
-          "date": "2026-09-20"
-        }
-      ]
-    },
-    {
-      "id": "2026-09-16-preview",
-      "kind": "preview",
-      "title": "This weekend in motorsport",
-      "dateRange": "16–21 September",
-      "intro": "Five rounds of racing await between 16 and 21 September, featuring the Clio Cup Series, NASCAR Cup Series, IMSA SportsCar Championship, MotoGP and NHRA Drag Racing.",
-      "publishedAt": "2026-09-16T12:28:26Z",
-      "expiresAt": "2026-09-21T12:28:26Z",
-      "items": [
-        {
-          "channelID": "cliocup",
-          "channelName": "Clio Cup Series",
-          "headline": "Spa-Francorchamps",
-          "detail": "Circuit de Spa-Francorchamps, Belgium · Sat 19 Sep",
-          "body": "The Clio Cup Series arrives at Circuit de Spa-Francorchamps in Belgium on Sat 19 Sep for round five.",
-          "date": "2026-09-19",
-          "round": 5
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "Bass Pro Shops Night Race",
-          "detail": "Bristol Motor Speedway · Sat 19 Sep",
-          "body": "Bristol Motor Speedway hosts the NASCAR Cup Series Bass Pro Shops Night Race on Sat 19 Sep.",
-          "date": "2026-09-19",
-          "round": 29
-        },
-        {
-          "channelID": "imsa",
-          "channelName": "IMSA SportsCar Championship",
-          "headline": "Battle on the Bricks",
-          "detail": "Indianapolis Motor Speedway · Sun 20 Sep",
-          "body": "The IMSA SportsCar Championship continues at Indianapolis Motor Speedway with the Battle on the Bricks on Sun 20 Sep.",
-          "date": "2026-09-20",
-          "round": 10
-        },
-        {
-          "channelID": "motogp",
-          "channelName": "MotoGP",
-          "headline": "Grand Prix of Austria",
-          "detail": "Red Bull Ring - Spielberg, Austria · Sun 20 Sep",
-          "body": "The Grand Prix of Austria takes place at the Red Bull Ring in Spielberg on Sun 20 Sep for MotoGP.",
-          "date": "2026-09-20",
-          "round": 22
-        },
-        {
-          "channelID": "nhra",
-          "channelName": "NHRA Drag Racing",
-          "headline": "Great Lakes Nationals",
-          "detail": "U.S. 131 Motorsports Park, Michigan · Sun 20 Sep",
-          "body": "NHRA Drag Racing arrives at U.S. 131 Motorsports Park in Michigan for the Great Lakes Nationals on Sun 20 Sep.",
           "date": "2026-09-20"
         }
       ]
