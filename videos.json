@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-20T12:24:33Z",
+  "generatedAt": "2026-09-21T14:12:26Z",
   "channels": [
     {
       "channelID": "f1",
@@ -9,11 +9,22 @@
       "sourceURL": null,
       "videos": [
         {
+          "id": "rEEPYqtXcCw",
+          "title": "13 Year Old Karting Champion Gets Advice From Carlos Sainz",
+          "publishedAt": "2026-09-21T11:59:59Z",
+          "duration": "10:02",
+          "seconds": 602,
+          "thumbnail": "https://i.ytimg.com/vi/rEEPYqtXcCw/maxresdefault.jpg",
+          "source": "Atlassian Williams F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "AaK4KQe3q-4",
           "title": "Freddie's F3 Finale",
           "publishedAt": "2026-09-20T09:00:32Z",
-          "duration": "8:53",
-          "seconds": 533,
+          "duration": "8:45",
+          "seconds": 525,
           "thumbnail": "https://i.ytimg.com/vi/AaK4KQe3q-4/maxresdefault.jpg",
           "source": "Audi Revolut F1 Team",
           "blockedRegions": [],
@@ -412,17 +423,6 @@
           "seconds": 349,
           "thumbnail": "https://i.ytimg.com/vi/-59xVmUn1YI/maxresdefault.jpg",
           "source": "Aston Martin Aramco F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "MtIZTFY0jgs",
-          "title": "Race Simulator: Inside the Driver's Seat | Cadillac Formula 1® Team",
-          "publishedAt": "2026-07-14T13:25:01Z",
-          "duration": "9:21",
-          "seconds": 561,
-          "thumbnail": "https://i.ytimg.com/vi/MtIZTFY0jgs/maxresdefault.jpg",
-          "source": "Cadillac Formula 1 Team",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -1036,6 +1036,17 @@
       "sourceURL": null,
       "videos": [
         {
+          "id": "rzybvOBbSg8",
+          "title": "The Austrian GP was a weekend of mixed emotions - let’s unpack 🎙️🇦🇹 #AustrianGP",
+          "publishedAt": "2026-09-21T12:58:26Z",
+          "duration": "1:45",
+          "seconds": 105,
+          "thumbnail": "https://i.ytimg.com/vi/rzybvOBbSg8/maxresdefault.jpg",
+          "source": "Yamaha MotoGP",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "1rb7JR7AXOI",
           "title": "Red Bull KTM MotoGP™️ 2026 Factory Floor Episode 14 #SANMARINOGP | KTM",
           "publishedAt": "2026-09-16T17:01:19Z",
@@ -1197,17 +1208,6 @@
           "seconds": 684,
           "thumbnail": "https://i.ytimg.com/vi/ZErjPDsC0VY/maxresdefault.jpg",
           "source": "KTM",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "SbzSNp6e6Sc",
-          "title": "A TRIBUTE TO ÁLEX 💪💙",
-          "publishedAt": "2026-06-30T08:01:38Z",
-          "duration": "1:10",
-          "seconds": 70,
-          "thumbnail": "https://i.ytimg.com/vi/SbzSNp6e6Sc/maxresdefault.jpg",
-          "source": "Yamaha MotoGP",
           "blockedRegions": [],
           "allowedRegions": []
         },
