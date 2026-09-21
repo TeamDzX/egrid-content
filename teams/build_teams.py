@@ -119,6 +119,21 @@ class RaceSummary:
 
 
 @dataclass
+class DriverNote:
+    """A driver's or rider's season, for the driver page's own note."""
+    channel_id: str
+    name: str
+    team: str
+    position: int | None = None
+    points: float | None = None
+    wins: int = 0
+    podiums: int = 0
+    rounds: int = 0
+    line: RaceLine | None = None
+    last_race: str | None = None
+
+
+@dataclass
 class Team:
     channel_id: str
     name: str
@@ -199,6 +214,8 @@ def f1_teams() -> list[Team]:
             if not team:
                 continue
             position = classified_position(result)
+            driver = result.get("Driver", {})
+            tally("f1", f"{driver.get('givenName', '')} {driver.get('familyName', '')}".strip(), position)
             if position and position <= 3:
                 team.podiums += 1
     for team in teams.values():
@@ -279,6 +296,7 @@ def motogp_teams() -> list[Team]:
             make = (row.get("constructor") or {}).get("name")
             team = teams.get(make)
             position = row.get("position")
+            tally("motogp", (row.get("rider") or {}).get("full_name", ""), position)
             if team and position:
                 if position == 1:
                     team.wins += 1
@@ -361,6 +379,7 @@ def formula_e_teams() -> list[Team]:
         for row in rows:
             team = teams.get(title_case((row.get("team") or {}).get("name") or "").lower())
             position = row.get("driverPosition") or 0
+            tally("formulae", f"{row.get('driverFirstName', '')} {row.get('driverLastName', '')}".strip(), position or None)
             if team and position:
                 if position == 1:
                     team.wins += 1
@@ -405,6 +424,35 @@ def formula_e_race_rows(race_id: str) -> list[dict]:
 
 def title_case(shouted: str) -> str:
     return tidy_title(shouted) if shouted.isupper() else shouted
+
+
+# ---------------------------------------------------------------------------
+# Drivers
+
+
+def driver_notes(teams: list[Team], race: RaceSummary | None, per_driver: dict[str, tuple[int, int]]) -> list[DriverNote]:
+    """One note per driver or rider in the standings, from the team facts
+    plus the season win/podium tally each fetcher keeps per person."""
+    notes: list[DriverNote] = []
+    for t in teams:
+        for m in t.members:
+            wins, podiums = per_driver.get(m.name, (0, 0))
+            line = next((l for l in t.lines if l.name == m.name), None)
+            notes.append(DriverNote(t.channel_id, m.name, t.name, m.position, m.points, wins, podiums,
+                                    t.rounds, line, t.last_race if line else None))
+    return notes
+
+
+# Season win/podium tallies per person, filled by the fetchers as they walk
+# the results; keyed by channel then full name.
+PER_DRIVER: dict[str, dict[str, tuple[int, int]]] = {"f1": {}, "motogp": {}, "formulae": {}}
+
+
+def tally(channel_id: str, name: str, position: int | None) -> None:
+    if not name or not position:
+        return
+    wins, podiums = PER_DRIVER[channel_id].get(name, (0, 0))
+    PER_DRIVER[channel_id][name] = (wins + (position == 1), podiums + (position <= 3))
 
 
 # ---------------------------------------------------------------------------
@@ -456,6 +504,23 @@ def template_last_race(t: Team) -> str:
     return f"At the {t.last_race}, " + "; ".join(bits) + "."
 
 
+def template_driver(d: DriverNote) -> str:
+    text = f"{d.name} is {ordinal(d.position)} in the {SERIES[d.channel_id]} standings" if d.position else f"{d.name} races for {d.team} in {SERIES[d.channel_id]}"
+    if d.points is not None:
+        text += f" on {fmt_points(d.points)} points"
+    text += f" for {d.team}" if d.position else ""
+    if d.wins or d.podiums:
+        text += f", with {d.wins} win{'s' if d.wins != 1 else ''} and {d.podiums} podium{'s' if d.podiums != 1 else ''} this season"
+    text += "."
+    if d.line and d.last_race:
+        if d.line.position:
+            text += f" At the {d.last_race} they finished {ordinal(d.line.position)}"
+            text += f" from {ordinal(d.line.grid)} on the grid." if d.line.grid else "."
+        else:
+            text += f" They did not finish the {d.last_race}" + (f" ({d.line.status})." if d.line.status else ".")
+    return text
+
+
 def template_race(race: RaceSummary) -> tuple[str, list[str]]:
     rows = sorted([r for r in race.rows if r.position], key=lambda r: r.position)
     if not rows:
@@ -492,9 +557,26 @@ For every team index write:
 - summary: at most 70 words on the season so far — where they stand, how the points have come, how their drivers or riders compare with each other. If position or points are absent, describe the season without ranking them.
 - lastRace: at most 60 words on the most recent race, from the lines given (finishing position, grid position where given, points, a did-not-finish). If no race lines are given, return an empty string.
 
+If a "drivers" list is supplied, also write for every driver index:
+- summary: at most 50 words on that driver's or rider's season from their own facts only — standing, points, wins and podiums, their last race line. You may compare them with the team-mate named in their facts and no one else.
+
 If a "race" object is supplied — the full classification of that most recent race — also write, under the same rules:
 - race.summary: at most 90 words on the race as a whole: the winner and podium with their teams, and what the classification shows (a drive through the field, a front-row car that fell away). Use only the rows given; nothing about incidents, weather or strategy unless a status or gap in the rows states it.
 - race.highlights: two to four short sentences, each one fact from the classification: the biggest climb from grid to finish, the fastest lap where marked, a retirement and its stated reason, a first points finish only if the rows show it. Each at most 25 words. No bullets or numbering inside the strings."""
+
+
+def driver_facts(notes: list[DriverNote], teams: list[Team]) -> list[dict]:
+    mates = {m.name: [x.name for x in t.members if x.name != m.name] for t in teams for m in t.members}
+    facts = []
+    for index, d in enumerate(notes):
+        entry = {"index": index, "series": SERIES[d.channel_id], "name": d.name, "team": d.team,
+                 "teamMates": mates.get(d.name, []),
+                 "standing": {"position": d.position, "points": d.points, "rounds": d.rounds,
+                              "wins": d.wins, "podiums": d.podiums}}
+        if d.line and d.last_race:
+            entry["lastRace"] = {"name": d.last_race, **asdict(d.line)}
+        facts.append(entry)
+    return facts
 
 
 def race_facts(race: RaceSummary | None) -> dict | None:
@@ -524,7 +606,7 @@ def facts_for_llm(teams: list[Team]) -> list[dict]:
     return facts
 
 
-def ask_own_server(facts: list[dict], race: dict | None) -> dict | None:
+def ask_own_server(facts: list[dict], race: dict | None, drivers: list[dict] | None = None) -> dict | None:
     """Any OpenAI-compatible chat endpoint: POST {EGRID_LLM_URL}/v1/chat/completions."""
     base = os.environ.get("EGRID_LLM_URL", "").strip().rstrip("/")
     if not base:
@@ -540,14 +622,15 @@ def ask_own_server(facts: list[dict], race: dict | None) -> dict | None:
     if token:
         headers["Authorization"] = "Bearer " + token
     shape = json.dumps({"teams": [{"index": 0, "summary": "...", "lastRace": "..."}],
+                        "drivers": [{"index": 0, "summary": "..."}],
                         "race": {"summary": "...", "highlights": ["...", "..."]}})
     payload = {
         "messages": [
             {"role": "system", "content": SYSTEM_PROMPT + "\n\nReply with a single JSON object and nothing else, shaped exactly: " + shape},
-            {"role": "user", "content": json.dumps({"teams": facts, "race": race}, ensure_ascii=False, indent=1)},
+            {"role": "user", "content": json.dumps({"teams": facts, "drivers": drivers, "race": race}, ensure_ascii=False, indent=1)},
         ],
         "temperature": 0.4,
-        "max_tokens": 6000,
+        "max_tokens": 9000,
         "response_format": {"type": "json_object"},
     }
     if model:
@@ -598,6 +681,15 @@ REVIEW_SCHEMA = {
                 "additionalProperties": False,
             },
         },
+        "drivers": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {"index": {"type": "integer"}, "summary": {"type": "string"}},
+                "required": ["index", "summary"],
+                "additionalProperties": False,
+            },
+        },
         "race": {
             "type": "object",
             "properties": {"summary": {"type": "string"},
@@ -606,12 +698,12 @@ REVIEW_SCHEMA = {
             "additionalProperties": False,
         },
     },
-    "required": ["teams", "race"],
+    "required": ["teams", "drivers", "race"],
     "additionalProperties": False,
 }
 
 
-def ask_claude(facts: list[dict], race: dict | None) -> dict | None:
+def ask_claude(facts: list[dict], race: dict | None, drivers: list[dict] | None = None) -> dict | None:
     try:
         import anthropic  # noqa: WPS433 - optional dependency
     except ImportError:
@@ -624,9 +716,9 @@ def ask_claude(facts: list[dict], race: dict | None) -> dict | None:
     try:
         response = client.messages.create(
             model="claude-opus-5",
-            max_tokens=8000,
+            max_tokens=12000,
             system=SYSTEM_PROMPT,
-            messages=[{"role": "user", "content": json.dumps({"teams": facts, "race": race}, ensure_ascii=False, indent=1)}],
+            messages=[{"role": "user", "content": json.dumps({"teams": facts, "drivers": drivers, "race": race}, ensure_ascii=False, indent=1)}],
             output_config={"format": {"type": "json_schema", "schema": REVIEW_SCHEMA}},
         )
     except anthropic.APIError as error:
@@ -667,20 +759,21 @@ def stray_names(text: str, allowed: set[str], everyone: set[str]) -> list[str]:
             if (sur := full.split()[-1].lower() if full else "") and sur not in ok and sur in words and len(sur) > 3]
 
 
-def write_reviews(teams: list[Team], race: RaceSummary | None,
-                  use_llm: bool) -> tuple[list[tuple[str, str, str]], tuple[str, list[str], str]]:
-    """Per team (summary, lastRace, writer), and for the race (summary,
-    highlights, writer) — templated wherever the writer said nothing, or
-    named someone it was not given."""
+def write_reviews(teams: list[Team], race: RaceSummary | None, notes: list[DriverNote],
+                  use_llm: bool) -> tuple[list[tuple[str, str, str]], tuple[str, list[str], str], list[tuple[str, str]]]:
+    """Per team (summary, lastRace, writer), for the race (summary,
+    highlights, writer), and per driver (summary, writer) — templated
+    wherever the writer said nothing, or named someone it was not given."""
     out = [(template_summary(t), template_last_race(t), "template") for t in teams]
     race_out = (*template_race(race), "template") if race else ("", [], "template")
+    driver_out = [(template_driver(d), "template") for d in notes]
     if not use_llm or not teams:
-        return out, race_out
+        return out, race_out, driver_out
     facts = facts_for_llm(teams)
     data, writer = None, ""
     for name, ask in (("own server", ask_own_server), ("Claude", ask_claude)):
         try:
-            data = ask(facts, race_facts(race))
+            data = ask(facts, race_facts(race), driver_facts(notes, teams))
         except Exception as error:  # noqa: BLE001 - a writer must never sink the file
             log(f"  {name} writer crashed: {type(error).__name__}: {error}; falling through")
             continue
@@ -689,8 +782,24 @@ def write_reviews(teams: list[Team], race: RaceSummary | None,
             break
     if data is None:
         log("  no writer available; using templated prose")
-        return out, race_out
+        return out, race_out, driver_out
     everyone = {m.name for t in teams for m in t.members} | {l.name for t in teams for l in t.lines}
+    mates = {m.name: {x.name for x in t.members} for t in teams for m in t.members}
+    by_driver = {}
+    for item in data.get("drivers", []) or []:
+        try:
+            by_driver[int(item["index"])] = str(item.get("summary") or "").strip()
+        except (KeyError, TypeError, ValueError):
+            continue
+    for index, d in enumerate(notes):
+        summary = by_driver.get(index, "")
+        if not summary:
+            continue
+        strays = stray_names(summary, mates.get(d.name, {d.name}), everyone)
+        if strays:
+            log(f"  dropped {writer} note for {d.name}: names {', '.join(strays)}")
+            continue
+        driver_out[index] = (summary, writer)
     if race:
         everyone |= race.everyone
         written = data.get("race") or {}
@@ -718,7 +827,7 @@ def write_reviews(teams: list[Team], race: RaceSummary | None,
         if not team.lines:
             last = ""
         out[index] = (summary or tmpl_summary, last or tmpl_last, writer if (summary or last) else "template")
-    return out, race_out
+    return out, race_out, driver_out
 
 
 # ---------------------------------------------------------------------------
@@ -730,7 +839,7 @@ FETCHERS = {"f1": f1_teams, "motogp": motogp_teams, "formulae": formula_e_teams}
 
 def build(channels: list[str], use_llm: bool) -> dict:
     now = dt.datetime.now(dt.timezone.utc).replace(microsecond=0)
-    entries, races = [], []
+    entries, races, driver_entries = [], [], []
     for channel_id in channels:
         log(f"{channel_id}")
         try:
@@ -739,7 +848,19 @@ def build(channels: list[str], use_llm: bool) -> dict:
             log(f"  {channel_id} skipped: {type(error).__name__}: {error}")
             continue
         log(f"  {len(teams)} {ENTRANT[channel_id]}s, {teams[0].rounds if teams else 0} rounds run")
-        reviews, (race_summary, race_highlights, race_writer) = write_reviews(teams, race, use_llm)
+        notes = driver_notes(teams, race, PER_DRIVER[channel_id])
+        reviews, (race_summary, race_highlights, race_writer), driver_reviews = write_reviews(teams, race, notes, use_llm)
+        for d, (summary, writer) in zip(notes, driver_reviews):
+            entry = {
+                "channelID": channel_id, "name": d.name, "matchKeys": [d.name.lower()], "team": d.team,
+                "season": {"position": d.position, "points": d.points, "rounds": d.rounds,
+                           "wins": d.wins, "podiums": d.podiums},
+                "review": {"summary": summary, "writer": writer},
+                "publishedAt": now.isoformat().replace("+00:00", "Z"),
+            }
+            if d.line and d.last_race:
+                entry["lastRace"] = {"name": d.last_race, **asdict(d.line)}
+            driver_entries.append(entry)
         if race and race.rows:
             ordered = sorted([r for r in race.rows if r.position], key=lambda r: r.position)
             races.append({
@@ -770,7 +891,8 @@ def build(channels: list[str], use_llm: bool) -> dict:
                     "lines": [asdict(l) for l in sorted(team.lines, key=lambda l: l.position or 99)],
                 }
             entries.append(entry)
-    return {"version": 1, "generatedAt": now.isoformat().replace("+00:00", "Z"), "teams": entries, "races": races}
+    return {"version": 1, "generatedAt": now.isoformat().replace("+00:00", "Z"),
+            "teams": entries, "drivers": driver_entries, "races": races}
 
 
 def main() -> int:
