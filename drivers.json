@@ -22,7 +22,12 @@
         "Formula Regional Middle East and Formula Regional European champion in 2023",
         "Race winner in Formula 2 with Prema in 2024",
         "First Italian winner of a Formula 1 Grand Prix since 2006, at Shanghai in March 2026"
-      ]
+      ],
+      "team": "Mercedes",
+      "number": 12,
+      "socials": {
+        "instagram": "kimi.antonelli"
+      }
     },
     {
       "id": "hamilton",
@@ -44,7 +49,22 @@
         "Won on debut weekend podiums and finished runner-up in his rookie season by a single point",
         "Holds the record for most career pole positions",
         "Moved from Mercedes to Ferrari for the 2025 season"
-      ]
+      ],
+      "team": "Ferrari",
+      "number": 44,
+      "socials": {
+        "facebook": "LewisHamilton",
+        "instagram": "lewishamilton",
+        "threads": "lewishamilton",
+        "tiktok": "lewishamilton",
+        "x": "lewishamilton",
+        "website": "https://www.lewishamilton.com"
+      },
+      "youtube": {
+        "channelId": "UCHl4MB8UalGLUydbWdBzG1Q",
+        "handle": "@lewishamilton",
+        "embeddable": true
+      }
     },
     {
       "id": "russell",
@@ -64,7 +84,15 @@
         "GP3 Series champion in 2017",
         "FIA Formula 2 champion in 2018",
         "First Formula 1 victory at the 2022 Sao Paulo Grand Prix"
-      ]
+      ],
+      "team": "Mercedes",
+      "number": 63,
+      "socials": {
+        "instagram": "georgerussell63",
+        "facebook": "GeorgeRussell63",
+        "x": "GeorgeRussell63",
+        "website": "https://www.georgerussell63.com"
+      }
     },
     {
       "id": "leclerc",
@@ -84,7 +112,21 @@
         "GP3 Series champion in 2016",
         "FIA Formula 2 champion in 2017 at the first attempt",
         "Won his home Grand Prix in Monaco, having grown up on those streets"
-      ]
+      ],
+      "team": "Ferrari",
+      "number": 16,
+      "socials": {
+        "facebook": "CharlesLeclercOfficiel",
+        "instagram": "charles_leclerc",
+        "tiktok": "charlesleclerc",
+        "x": "Charles_Leclerc",
+        "website": "https://charlesleclerc.com"
+      },
+      "youtube": {
+        "channelId": "UCIzIX1qgW7P3eF6JCk_afCA",
+        "handle": "@charles_leclerc",
+        "embeddable": true
+      }
     },
     {
       "id": "norris",
@@ -106,7 +148,19 @@
         "First Formula 1 victory at the 2024 Miami Grand Prix",
         "Formula 1 World Champion in 2025"
       ],
-      "titles": "1 Formula 1 World Championship"
+      "titles": "1 Formula 1 World Championship",
+      "team": "McLaren",
+      "number": 1,
+      "socials": {
+        "instagram": "lando",
+        "tiktok": "landonorris",
+        "website": "https://landonorris.com"
+      },
+      "youtube": {
+        "channelId": "UCwFIQ7wtJzYGFb2nZcVoNww",
+        "handle": "@landonorris",
+        "embeddable": true
+      }
     },
     {
       "id": "verstappen",
@@ -128,7 +182,19 @@
         "Youngest driver ever to start a Formula 1 Grand Prix, aged 17",
         "Won on his Red Bull debut at the 2016 Spanish Grand Prix",
         "Holds the outright lap record at Silverstone's current configuration"
-      ]
+      ],
+      "team": "Red Bull",
+      "number": 3,
+      "socials": {
+        "facebook": "MaxVerstappen",
+        "instagram": "maxverstappen1",
+        "website": "https://www.verstappen.com"
+      },
+      "youtube": {
+        "channelId": "UC1Aha9aLmlkIbBN-iAttBzw",
+        "handle": "@maxverstappen1",
+        "embeddable": true
+      }
     },
     {
       "id": "martin",
@@ -148,7 +214,20 @@
         "Moto3 World Champion in 2018",
         "MotoGP World Champion in 2024",
         "Moved to Aprilia Racing as the reigning champion"
-      ]
+      ],
+      "team": "Aprilia Racing",
+      "number": 89,
+      "socials": {
+        "x": "88jorgemartin",
+        "instagram": "89jorgemartin",
+        "tiktok": "89.jorgemartin",
+        "threads": "89jorgemartin"
+      },
+      "youtube": {
+        "channelId": "UC0qzjF0Da9f-rtqInpPP8EA",
+        "handle": "@89jorgemartin",
+        "embeddable": true
+      }
     },
     {
       "id": "marquez",
@@ -168,7 +247,20 @@
         "Won the MotoGP world title in his rookie premier-class season, 2013",
         "World champion in the 125cc and Moto2 categories before stepping up",
         "Returned to winning ways with Ducati after a career-threatening arm injury"
-      ]
+      ],
+      "team": "Ducati Lenovo Team",
+      "number": 93,
+      "socials": {
+        "x": "marcmarquez93",
+        "threads": "marcmarquez93",
+        "tiktok": "marcmarquez93",
+        "instagram": "marcmarquez93"
+      },
+      "youtube": {
+        "channelId": "UCwq9uS4UUVVV7GR991YOv-g",
+        "handle": "@marcmarquez93",
+        "embeddable": true
+      }
     },
     {
       "id": "ogura",
@@ -188,7 +280,13 @@
         "Moto2 World Champion in 2024",
         "First Japanese world champion in Grand Prix motorcycle racing since 2009",
         "First Asia Talent Cup graduate to reach MotoGP"
-      ]
+      ],
+      "team": "SuperFile Trackhouse MotoGP Team",
+      "number": 79,
+      "socials": {
+        "instagram": "aiogura79",
+        "x": "AiOgura79"
+      }
     },
     {
       "id": "dennis",
@@ -208,7 +306,2754 @@
         "Formula E World Champion in the 2022-23 season",
         "Race winner in his rookie Formula E campaign",
         "Came to single-seater electric racing via GT and sportscar competition"
-      ]
+      ],
+      "team": "Andretti Formula E",
+      "socials": {
+        "facebook": "jake.dennis.549",
+        "instagram": "jakedennis19",
+        "x": "JakeDennis19"
+      }
+    },
+    {
+      "id": "oscar-piastri",
+      "name": "Oscar Piastri",
+      "matchKeys": [
+        "oscar piastri",
+        "piastri"
+      ],
+      "channelIDs": [
+        "f1"
+      ],
+      "nationality": "Australian",
+      "team": "McLaren",
+      "number": 81,
+      "socials": {
+        "facebook": "OscarPiastriOfficial",
+        "instagram": "OscarPiastri",
+        "tiktok": "oscarpiastri",
+        "x": "OscarPiastri",
+        "website": "https://www.oscarpiastri.com"
+      }
+    },
+    {
+      "id": "isack-hadjar",
+      "name": "Isack Hadjar",
+      "matchKeys": [
+        "hadjar",
+        "isack hadjar"
+      ],
+      "channelIDs": [
+        "f1"
+      ],
+      "nationality": "French",
+      "team": "Red Bull",
+      "number": 6,
+      "socials": {
+        "facebook": "isack.hadjar",
+        "instagram": "isackhadjar",
+        "x": "isack_hadjar",
+        "website": "https://isackhadjar.com"
+      }
+    },
+    {
+      "id": "liam-lawson",
+      "name": "Liam Lawson",
+      "matchKeys": [
+        "lawson",
+        "liam lawson"
+      ],
+      "channelIDs": [
+        "f1"
+      ],
+      "nationality": "New Zealander",
+      "team": "Red Bull",
+      "number": 30
+    },
+    {
+      "id": "pierre-gasly",
+      "name": "Pierre Gasly",
+      "matchKeys": [
+        "gasly",
+        "pierre gasly"
+      ],
+      "channelIDs": [
+        "f1"
+      ],
+      "nationality": "French",
+      "team": "Alpine F1 Team",
+      "number": 10,
+      "socials": {
+        "facebook": "PierreGasly",
+        "instagram": "pierregasly",
+        "tiktok": "pierregasly",
+        "x": "PierreGASLY",
+        "website": "https://www.pierregasly.com"
+      }
+    },
+    {
+      "id": "arvid-lindblad",
+      "name": "Arvid Lindblad",
+      "matchKeys": [
+        "arvid lindblad",
+        "lindblad"
+      ],
+      "channelIDs": [
+        "f1"
+      ],
+      "nationality": "British",
+      "team": "RB F1 Team",
+      "number": 41,
+      "socials": {
+        "instagram": "arvid.lindblad",
+        "website": "https://arvidlindblad.com"
+      },
+      "youtube": {
+        "channelId": "UCd6Li2xp-e_nELbxU-QMgOA",
+        "handle": "@arvidlindbladofficial",
+        "embeddable": true
+      }
+    },
+    {
+      "id": "franco-colapinto",
+      "name": "Franco Colapinto",
+      "matchKeys": [
+        "colapinto",
+        "franco colapinto"
+      ],
+      "channelIDs": [
+        "f1"
+      ],
+      "nationality": "Argentine",
+      "team": "Alpine F1 Team",
+      "number": 43,
+      "socials": {
+        "instagram": "francolapinto",
+        "x": "FranColapinto",
+        "tiktok": "francolapinto",
+        "website": "https://www.francolapinto.com"
+      }
+    },
+    {
+      "id": "oliver-bearman",
+      "name": "Oliver Bearman",
+      "matchKeys": [
+        "bearman",
+        "oliver bearman"
+      ],
+      "channelIDs": [
+        "f1"
+      ],
+      "nationality": "British",
+      "team": "Haas F1 Team",
+      "number": 87,
+      "socials": {
+        "instagram": "olliebearman",
+        "x": "OllieBearman"
+      }
+    },
+    {
+      "id": "gabriel-bortoleto",
+      "name": "Gabriel Bortoleto",
+      "matchKeys": [
+        "bortoleto",
+        "gabriel bortoleto"
+      ],
+      "channelIDs": [
+        "f1"
+      ],
+      "nationality": "Brazilian",
+      "team": "Audi",
+      "number": 5,
+      "socials": {
+        "instagram": "gabrielbortoleto_",
+        "x": "gabortoleto85",
+        "website": "https://gabrielbortoleto.com.br"
+      }
+    },
+    {
+      "id": "nico-hulkenberg",
+      "name": "Nico Hülkenberg",
+      "matchKeys": [
+        "hülkenberg",
+        "nico hülkenberg"
+      ],
+      "channelIDs": [
+        "f1"
+      ],
+      "nationality": "German",
+      "team": "Audi",
+      "number": 27,
+      "socials": {
+        "facebook": "NicoHulkenberg.official",
+        "instagram": "hulkhulkenberg",
+        "x": "HulkHulkenberg",
+        "website": "https://www.nicohulkenberg.net"
+      }
+    },
+    {
+      "id": "carlos-sainz",
+      "name": "Carlos Sainz",
+      "matchKeys": [
+        "carlos sainz",
+        "sainz"
+      ],
+      "channelIDs": [
+        "f1"
+      ],
+      "nationality": "Spanish",
+      "team": "Williams",
+      "number": 55,
+      "socials": {
+        "facebook": "Carlossainz55",
+        "instagram": "carlossainz55",
+        "threads": "carlossainz55",
+        "tiktok": "carlossainz55",
+        "website": "https://www.carlossainz.es"
+      },
+      "youtube": {
+        "channelId": "UC1l8_AtyskpHP-weVx47POg",
+        "handle": "@carlossainz",
+        "embeddable": true
+      }
+    },
+    {
+      "id": "alexander-albon",
+      "name": "Alexander Albon",
+      "matchKeys": [
+        "albon",
+        "alexander albon"
+      ],
+      "channelIDs": [
+        "f1"
+      ],
+      "nationality": "Thai",
+      "team": "Williams",
+      "number": 23,
+      "socials": {
+        "facebook": "alexalbonofficial",
+        "instagram": "alex_albon",
+        "tiktok": "alex_albon",
+        "x": "alex_albon",
+        "website": "https://www.alexalbon.com"
+      }
+    },
+    {
+      "id": "esteban-ocon",
+      "name": "Esteban Ocon",
+      "matchKeys": [
+        "esteban ocon",
+        "ocon"
+      ],
+      "channelIDs": [
+        "f1"
+      ],
+      "nationality": "French",
+      "team": "Haas F1 Team",
+      "number": 31,
+      "socials": {
+        "facebook": "people/Esteban-Ocon/100089976866074",
+        "instagram": "estebanocon",
+        "x": "OconEsteban"
+      }
+    },
+    {
+      "id": "fernando-alonso",
+      "name": "Fernando Alonso",
+      "matchKeys": [
+        "alonso",
+        "fernando alonso"
+      ],
+      "channelIDs": [
+        "f1"
+      ],
+      "nationality": "Spanish",
+      "team": "Aston Martin",
+      "number": 14,
+      "socials": {
+        "facebook": "FernandoAlonsoOficial",
+        "instagram": "fernandoalo_oficial",
+        "x": "alo_oficial",
+        "website": "https://fernandoalonso.com"
+      },
+      "youtube": {
+        "channelId": "UCwvrVuFiKDuZl1AUM-pTKKA",
+        "handle": "@fernandoalonsooficial",
+        "embeddable": true
+      }
+    },
+    {
+      "id": "yuki-tsunoda",
+      "name": "Yuki Tsunoda",
+      "matchKeys": [
+        "tsunoda",
+        "yuki tsunoda"
+      ],
+      "channelIDs": [
+        "f1"
+      ],
+      "nationality": "Japanese",
+      "team": "RB F1 Team",
+      "number": 22,
+      "socials": {
+        "instagram": "yukitsunoda0511",
+        "x": "yukitsunoda07",
+        "website": "https://www.yukitsunoda.com"
+      },
+      "youtube": {
+        "channelId": "UCAXQEMlIZpWmf9IzrRSEvAQ",
+        "handle": "@yukitsunoda0511",
+        "embeddable": true
+      }
+    },
+    {
+      "id": "lance-stroll",
+      "name": "Lance Stroll",
+      "matchKeys": [
+        "lance stroll",
+        "stroll"
+      ],
+      "channelIDs": [
+        "f1"
+      ],
+      "nationality": "Canadian",
+      "team": "Aston Martin",
+      "number": 18,
+      "socials": {
+        "facebook": "stroll.lance",
+        "instagram": "lance_stroll",
+        "x": "lance_stroll",
+        "website": "https://www.lancestroll.com"
+      }
+    },
+    {
+      "id": "valtteri-bottas",
+      "name": "Valtteri Bottas",
+      "matchKeys": [
+        "bottas",
+        "valtteri bottas"
+      ],
+      "channelIDs": [
+        "f1"
+      ],
+      "nationality": "Finnish",
+      "team": "Cadillac F1 Team",
+      "number": 77
+    },
+    {
+      "id": "sergio-perez",
+      "name": "Sergio Pérez",
+      "matchKeys": [
+        "pérez",
+        "sergio pérez"
+      ],
+      "channelIDs": [
+        "f1"
+      ],
+      "nationality": "Mexican",
+      "team": "Cadillac F1 Team",
+      "number": 11,
+      "socials": {
+        "facebook": "sergioperezf1",
+        "instagram": "schecoperez",
+        "x": "SChecoPerez",
+        "website": "https://checoperez.com"
+      }
+    },
+    {
+      "id": "pascal-wehrlein",
+      "name": "Pascal Wehrlein",
+      "matchKeys": [
+        "pascal wehrlein",
+        "wehrlein"
+      ],
+      "channelIDs": [
+        "formulae"
+      ],
+      "nationality": "German",
+      "team": "Porsche Formula E Team",
+      "socials": {
+        "facebook": "PWehrlein",
+        "instagram": "pascal_wehrlein",
+        "x": "PWehrlein"
+      }
+    },
+    {
+      "id": "mitch-evans",
+      "name": "Mitch Evans",
+      "matchKeys": [
+        "evans",
+        "mitch evans"
+      ],
+      "channelIDs": [
+        "formulae"
+      ],
+      "nationality": "New Zealander",
+      "team": "Jaguar Tcs Racing",
+      "socials": {
+        "facebook": "mitchevansracing",
+        "instagram": "mitchevans_",
+        "x": "mitchevans_"
+      },
+      "youtube": {
+        "channelId": "UCeoSxkcAJSZaszfkme4tlTg",
+        "handle": "@mitchevansnz",
+        "embeddable": true
+      }
+    },
+    {
+      "id": "oliver-rowland",
+      "name": "Oliver Rowland",
+      "matchKeys": [
+        "oliver rowland",
+        "rowland"
+      ],
+      "channelIDs": [
+        "formulae"
+      ],
+      "nationality": "British",
+      "team": "Nissan Formula E Team",
+      "socials": {
+        "facebook": "oliver.rowland.58",
+        "instagram": "oliverrowland1",
+        "x": "oliverrowland1"
+      }
+    },
+    {
+      "id": "edoardo-mortara",
+      "name": "Edoardo Mortara",
+      "matchKeys": [
+        "edoardo mortara",
+        "mortara"
+      ],
+      "channelIDs": [
+        "formulae"
+      ],
+      "nationality": "Swiss",
+      "team": "Mahindra Racing",
+      "socials": {
+        "instagram": "edomortara",
+        "x": "edomortara"
+      }
+    },
+    {
+      "id": "antonio-felix-da-costa",
+      "name": "António Félix Da Costa",
+      "matchKeys": [
+        "antónio félix da costa",
+        "costa"
+      ],
+      "channelIDs": [
+        "formulae"
+      ],
+      "nationality": "Portuguese",
+      "team": "Jaguar Tcs Racing",
+      "socials": {
+        "facebook": "people/antonio-felix-da-costa/1602071249",
+        "instagram": "afelixdacosta",
+        "x": "afelixdacosta"
+      }
+    },
+    {
+      "id": "nyck-de-vries",
+      "name": "Nyck De Vries",
+      "matchKeys": [
+        "nyck de vries",
+        "vries"
+      ],
+      "channelIDs": [
+        "formulae"
+      ],
+      "nationality": "Dutch",
+      "team": "Mahindra Racing",
+      "socials": {
+        "facebook": "nyckdevries",
+        "instagram": "nyckdevries",
+        "x": "nyckdevries"
+      }
+    },
+    {
+      "id": "nick-cassidy",
+      "name": "Nick Cassidy",
+      "matchKeys": [
+        "cassidy",
+        "nick cassidy"
+      ],
+      "channelIDs": [
+        "formulae"
+      ],
+      "nationality": "New Zealander",
+      "team": "Citroën Racing",
+      "socials": {
+        "facebook": "ncmotorsport",
+        "instagram": "nickcassidy_",
+        "x": "NickCassidy_"
+      }
+    },
+    {
+      "id": "nico-muller",
+      "name": "Nico Müller",
+      "matchKeys": [
+        "müller",
+        "nico müller"
+      ],
+      "channelIDs": [
+        "formulae"
+      ],
+      "nationality": "Swiss",
+      "team": "Porsche Formula E Team",
+      "socials": {
+        "facebook": "NicoMuellerOfficial",
+        "instagram": "nico.mueller51",
+        "x": "nico_mueller"
+      },
+      "youtube": {
+        "channelId": "UCri_3m0SNbAeZBh00hrm5mg",
+        "handle": "@nicomuellerracing",
+        "embeddable": true
+      }
+    },
+    {
+      "id": "sebastien-buemi",
+      "name": "Sébastien Buemi",
+      "matchKeys": [
+        "buemi",
+        "sébastien buemi"
+      ],
+      "channelIDs": [
+        "formulae"
+      ],
+      "nationality": "Swiss",
+      "team": "Envision Racing",
+      "socials": {
+        "facebook": "SebastienBuemi",
+        "instagram": "sebastien_buemi",
+        "x": "Sebastien_buemi"
+      },
+      "youtube": {
+        "channelId": "UCZzLDbit5gXUTadgoebXcjQ",
+        "handle": "@sebuemi",
+        "embeddable": true
+      }
+    },
+    {
+      "id": "taylor-barnard",
+      "name": "Taylor Barnard",
+      "matchKeys": [
+        "barnard",
+        "taylor barnard"
+      ],
+      "channelIDs": [
+        "formulae"
+      ],
+      "nationality": "British",
+      "team": "Ds Penske",
+      "socials": {
+        "facebook": "taylorbarnardracing",
+        "instagram": "taylorbarnard1"
+      }
+    },
+    {
+      "id": "jean-eric-vergne",
+      "name": "Jean-Éric Vergne",
+      "matchKeys": [
+        "jean-éric vergne",
+        "vergne"
+      ],
+      "channelIDs": [
+        "formulae"
+      ],
+      "nationality": "French",
+      "team": "Citroën Racing",
+      "socials": {
+        "facebook": "jeanericvergne",
+        "instagram": "jeanericvergne",
+        "x": "jeanericvergne"
+      }
+    },
+    {
+      "id": "josep-maria-marti",
+      "name": "Josep Maria Martí",
+      "matchKeys": [
+        "josep maria martí",
+        "martí"
+      ],
+      "channelIDs": [
+        "formulae"
+      ],
+      "nationality": "Spanish",
+      "team": "Cupra Kiro",
+      "socials": {
+        "instagram": "pepemartiofficial",
+        "x": "JMMarti_oficial"
+      }
+    },
+    {
+      "id": "felipe-drugovich",
+      "name": "Felipe Drugovich",
+      "matchKeys": [
+        "drugovich",
+        "felipe drugovich"
+      ],
+      "channelIDs": [
+        "formulae"
+      ],
+      "nationality": "Brazilian",
+      "team": "Andretti Formula E",
+      "socials": {
+        "facebook": "felipedrugovich",
+        "instagram": "felipedrugovich",
+        "x": "FelipeDrugovich"
+      }
+    },
+    {
+      "id": "dan-ticktum",
+      "name": "Dan Ticktum",
+      "matchKeys": [
+        "dan ticktum",
+        "ticktum"
+      ],
+      "channelIDs": [
+        "formulae"
+      ],
+      "nationality": "British",
+      "team": "Cupra Kiro",
+      "socials": {
+        "facebook": "danticktumdriver",
+        "instagram": "dan_ticktum",
+        "x": "DanTicktum"
+      }
+    },
+    {
+      "id": "joel-eriksson",
+      "name": "Joel Eriksson",
+      "matchKeys": [
+        "eriksson",
+        "joel eriksson"
+      ],
+      "channelIDs": [
+        "formulae"
+      ],
+      "nationality": "Swedish",
+      "team": "Envision Racing",
+      "socials": {
+        "facebook": "JoelErikssonRacing",
+        "instagram": "joeleracing"
+      }
+    },
+    {
+      "id": "lucas-di-grassi",
+      "name": "Lucas Di Grassi",
+      "matchKeys": [
+        "grassi",
+        "lucas di grassi"
+      ],
+      "channelIDs": [
+        "formulae"
+      ],
+      "nationality": "Brazilian",
+      "team": "Lola Yamaha Abt Formula E Team",
+      "socials": {
+        "facebook": "lucasdigrassiofficial",
+        "instagram": "lucasdigrassi",
+        "x": "LucasdiGrassi"
+      }
+    },
+    {
+      "id": "maximilian-gunther",
+      "name": "Maximilian Günther",
+      "matchKeys": [
+        "günther",
+        "maximilian günther"
+      ],
+      "channelIDs": [
+        "formulae"
+      ],
+      "nationality": "German",
+      "team": "Ds Penske",
+      "socials": {
+        "facebook": "maxg.official",
+        "instagram": "maximilianguenther",
+        "x": "MAXG_official"
+      }
+    },
+    {
+      "id": "norman-nato",
+      "name": "Norman Nato",
+      "matchKeys": [
+        "nato",
+        "norman nato"
+      ],
+      "channelIDs": [
+        "formulae"
+      ],
+      "nationality": "French",
+      "team": "Nissan Formula E Team",
+      "socials": {
+        "facebook": "NormanNato",
+        "instagram": "norman_nato",
+        "x": "NatoNorman"
+      }
+    },
+    {
+      "id": "zane-maloney",
+      "name": "Zane Maloney",
+      "matchKeys": [
+        "maloney",
+        "zane maloney"
+      ],
+      "channelIDs": [
+        "formulae"
+      ],
+      "nationality": "Barbadian",
+      "team": "Lola Yamaha Abt Formula E Team",
+      "socials": {
+        "facebook": "Zane-Maloney-Racing-951772438230442",
+        "instagram": "zane.maloney",
+        "x": "zane_maloney"
+      },
+      "youtube": {
+        "channelId": "UC8V7p_GhvzV97hWbGuKY6cQ",
+        "handle": "@zanemaloney8719",
+        "embeddable": true
+      }
+    },
+    {
+      "id": "marco-bezzecchi",
+      "name": "Marco Bezzecchi",
+      "matchKeys": [
+        "bezzecchi",
+        "marco bezzecchi"
+      ],
+      "channelIDs": [
+        "motogp"
+      ],
+      "nationality": "Italian",
+      "team": "Aprilia Racing",
+      "number": 72,
+      "socials": {
+        "tiktok": "mbez72",
+        "threads": "marcobez72",
+        "instagram": "marcobez72"
+      }
+    },
+    {
+      "id": "pedro-acosta",
+      "name": "Pedro Acosta",
+      "matchKeys": [
+        "acosta",
+        "pedro acosta"
+      ],
+      "channelIDs": [
+        "motogp"
+      ],
+      "nationality": "Spanish",
+      "team": "Red Bull KTM Factory Racing",
+      "number": 37,
+      "socials": {
+        "tiktok": "37.pedroacosta",
+        "x": "37_pedroacosta",
+        "threads": "37pedroacosta",
+        "instagram": "37pedroacosta"
+      }
+    },
+    {
+      "id": "fabio-di-giannantonio",
+      "name": "Fabio Di Giannantonio",
+      "matchKeys": [
+        "fabio di giannantonio",
+        "giannantonio"
+      ],
+      "channelIDs": [
+        "motogp"
+      ],
+      "nationality": "Italian",
+      "team": "Pertamina Enduro VR46 Racing Team",
+      "number": 49,
+      "socials": {
+        "tiktok": "fabiodiggia21",
+        "x": "FabioDiggia49",
+        "instagram": "fabiodiggia49",
+        "threads": "fabiodiggia49"
+      }
+    },
+    {
+      "id": "raul-fernandez",
+      "name": "Raul Fernandez",
+      "matchKeys": [
+        "fernandez",
+        "raul fernandez"
+      ],
+      "channelIDs": [
+        "motogp"
+      ],
+      "nationality": "Spanish",
+      "team": "SuperFile Trackhouse MotoGP Team",
+      "number": 25,
+      "socials": {
+        "threads": "raulfernandez_25",
+        "tiktok": "raulfernandez_25",
+        "instagram": "raulfernandez_25",
+        "x": "25RaulFernandez"
+      }
+    },
+    {
+      "id": "alex-marquez",
+      "name": "Alex Marquez",
+      "matchKeys": [
+        "alex marquez",
+        "marquez"
+      ],
+      "channelIDs": [
+        "motogp"
+      ],
+      "nationality": "Spanish",
+      "team": "BK8 Gresini Racing MotoGP",
+      "number": 73,
+      "socials": {
+        "instagram": "alexmarquez73",
+        "tiktok": "alexmarquez73",
+        "threads": "alexmarquez73",
+        "x": "alexmarquez73"
+      },
+      "youtube": {
+        "channelId": "UCSbt-l3WwVBcrVpmu44qbKg",
+        "handle": "@alexmarquez73",
+        "embeddable": true
+      }
+    },
+    {
+      "id": "francesco-bagnaia",
+      "name": "Francesco Bagnaia",
+      "matchKeys": [
+        "bagnaia",
+        "francesco bagnaia"
+      ],
+      "channelIDs": [
+        "motogp"
+      ],
+      "nationality": "Italian",
+      "team": "Ducati Lenovo Team",
+      "number": 63,
+      "socials": {
+        "instagram": "pecco63",
+        "x": "PeccoBagnaia",
+        "threads": "pecco63"
+      }
+    },
+    {
+      "id": "fermin-aldeguer",
+      "name": "Fermin Aldeguer",
+      "matchKeys": [
+        "aldeguer",
+        "fermin aldeguer"
+      ],
+      "channelIDs": [
+        "motogp"
+      ],
+      "nationality": "Spanish",
+      "team": "BK8 Gresini Racing MotoGP",
+      "number": 54,
+      "socials": {
+        "x": "Aldeguer54",
+        "threads": "ferminaldeguer_54",
+        "instagram": "ferminaldeguer_54",
+        "tiktok": "ferminaldeguer__54"
+      }
+    },
+    {
+      "id": "luca-marini",
+      "name": "Luca Marini",
+      "matchKeys": [
+        "luca marini",
+        "marini"
+      ],
+      "channelIDs": [
+        "motogp"
+      ],
+      "nationality": "Italian",
+      "team": "Honda HRC Castrol",
+      "number": 10,
+      "socials": {
+        "threads": "lucamarini10",
+        "instagram": "lucamarini10",
+        "tiktok": "luca.marini.10"
+      }
+    },
+    {
+      "id": "enea-bastianini",
+      "name": "Enea Bastianini",
+      "matchKeys": [
+        "bastianini",
+        "enea bastianini"
+      ],
+      "channelIDs": [
+        "motogp"
+      ],
+      "nationality": "Italian",
+      "team": "Red Bull KTM Tech3",
+      "number": 23,
+      "socials": {
+        "threads": "bestia23",
+        "x": "Bestia23",
+        "instagram": "bestia23"
+      }
+    },
+    {
+      "id": "brad-binder",
+      "name": "Brad Binder",
+      "matchKeys": [
+        "binder",
+        "brad binder"
+      ],
+      "channelIDs": [
+        "motogp"
+      ],
+      "nationality": "South African",
+      "team": "Red Bull KTM Factory Racing",
+      "number": 33,
+      "socials": {
+        "instagram": "bradbinder",
+        "threads": "bradbinder",
+        "x": "BradBinder_33"
+      }
+    },
+    {
+      "id": "diogo-moreira",
+      "name": "Diogo Moreira",
+      "matchKeys": [
+        "diogo moreira",
+        "moreira"
+      ],
+      "channelIDs": [
+        "motogp"
+      ],
+      "nationality": "Brazilian",
+      "team": "Pro Honda LCR",
+      "number": 11,
+      "socials": {
+        "instagram": "diogomoreira_11",
+        "threads": "diogomoreira_11",
+        "tiktok": "diogomoreira_11"
+      }
+    },
+    {
+      "id": "fabio-quartararo",
+      "name": "Fabio Quartararo",
+      "matchKeys": [
+        "fabio quartararo",
+        "quartararo"
+      ],
+      "channelIDs": [
+        "motogp"
+      ],
+      "nationality": "French",
+      "team": "Monster Energy Yamaha MotoGP Team",
+      "number": 20,
+      "socials": {
+        "threads": "fabioquartararo20",
+        "tiktok": "fabioq20",
+        "instagram": "fabioquartararo20"
+      }
+    },
+    {
+      "id": "franco-morbidelli",
+      "name": "Franco Morbidelli",
+      "matchKeys": [
+        "franco morbidelli",
+        "morbidelli"
+      ],
+      "channelIDs": [
+        "motogp"
+      ],
+      "nationality": "Italian",
+      "team": "Pertamina Enduro VR46 Racing Team",
+      "number": 21,
+      "socials": {
+        "instagram": "frankymorbido"
+      }
+    },
+    {
+      "id": "johann-zarco",
+      "name": "Johann Zarco",
+      "matchKeys": [
+        "johann zarco",
+        "zarco"
+      ],
+      "channelIDs": [
+        "motogp"
+      ],
+      "nationality": "French",
+      "team": "Castrol Honda LCR",
+      "number": 5,
+      "socials": {
+        "x": "JohannZarco1",
+        "instagram": "johannzarco",
+        "threads": "johannzarco"
+      }
+    },
+    {
+      "id": "joan-mir",
+      "name": "Joan Mir",
+      "matchKeys": [
+        "joan mir"
+      ],
+      "channelIDs": [
+        "motogp"
+      ],
+      "nationality": "Spanish",
+      "team": "Honda HRC Castrol",
+      "number": 36,
+      "socials": {
+        "x": "JoanMirOfficial",
+        "instagram": "joanmir36official",
+        "threads": "joanmir36official"
+      }
+    },
+    {
+      "id": "jack-miller",
+      "name": "Jack Miller",
+      "matchKeys": [
+        "jack miller",
+        "miller"
+      ],
+      "channelIDs": [
+        "motogp"
+      ],
+      "nationality": "Australian",
+      "team": "Prima Pramac Yamaha MotoGP",
+      "number": 43,
+      "socials": {
+        "x": "jackmilleraus",
+        "threads": "jackmilleraus",
+        "instagram": "jackmilleraus"
+      }
+    },
+    {
+      "id": "alex-rins",
+      "name": "Alex Rins",
+      "matchKeys": [
+        "alex rins",
+        "rins"
+      ],
+      "channelIDs": [
+        "motogp"
+      ],
+      "nationality": "Spanish",
+      "team": "Monster Energy Yamaha MotoGP Team",
+      "number": 42,
+      "socials": {
+        "threads": "alexrins",
+        "instagram": "alexrins",
+        "x": "Rins42"
+      }
+    },
+    {
+      "id": "toprak-razgatlioglu",
+      "name": "Toprak Razgatlioglu",
+      "matchKeys": [
+        "razgatlioglu",
+        "toprak razgatlioglu"
+      ],
+      "channelIDs": [
+        "motogp"
+      ],
+      "nationality": "Turkish",
+      "team": "Prima Pramac Yamaha MotoGP",
+      "number": 7,
+      "socials": {
+        "x": "Toprak07TR",
+        "instagram": "toprakrazgatlioglu7",
+        "tiktok": "toprak_tr54"
+      }
+    },
+    {
+      "id": "maverick-vinales",
+      "name": "Maverick Viñales",
+      "matchKeys": [
+        "maverick viñales",
+        "viñales"
+      ],
+      "channelIDs": [
+        "motogp"
+      ],
+      "nationality": "Spanish",
+      "team": "Red Bull KTM Tech3",
+      "number": 12,
+      "socials": {
+        "tiktok": "maverickvinales12",
+        "instagram": "maverick12official"
+      },
+      "youtube": {
+        "channelId": "UCt6vvrbQfBHc98K6VjGWIZQ",
+        "handle": "@maverickvinales12",
+        "embeddable": true
+      }
+    },
+    {
+      "id": "iker-lecuona",
+      "name": "Iker Lecuona",
+      "matchKeys": [
+        "iker lecuona",
+        "lecuona"
+      ],
+      "channelIDs": [
+        "motogp"
+      ],
+      "nationality": "Spanish",
+      "team": "BK8 Gresini Racing MotoGP",
+      "number": 27,
+      "socials": {
+        "x": "LecuonaIker",
+        "instagram": "ikerlecuona_27",
+        "tiktok": "ikerlecuona_27"
+      }
+    },
+    {
+      "id": "augusto-fernandez",
+      "name": "Augusto Fernandez",
+      "matchKeys": [
+        "augusto fernandez",
+        "fernandez"
+      ],
+      "channelIDs": [
+        "motogp"
+      ],
+      "nationality": "Spanish",
+      "team": "Yamaha Factory Racing",
+      "number": 47,
+      "socials": {
+        "instagram": "augustofernandez37",
+        "x": "Afernandez37"
+      }
+    },
+    {
+      "id": "pol-espargaro",
+      "name": "Pol Espargaro",
+      "matchKeys": [
+        "espargaro",
+        "pol espargaro"
+      ],
+      "channelIDs": [
+        "motogp"
+      ],
+      "nationality": "Spanish",
+      "team": "Red Bull KTM Tech3",
+      "number": 44
+    },
+    {
+      "id": "takaaki-nakagami",
+      "name": "Takaaki Nakagami",
+      "matchKeys": [
+        "nakagami",
+        "takaaki nakagami"
+      ],
+      "channelIDs": [
+        "motogp"
+      ],
+      "nationality": "Japanese",
+      "team": "Honda HRC Castrol",
+      "number": 40
+    },
+    {
+      "id": "cal-crutchlow",
+      "name": "Cal Crutchlow",
+      "matchKeys": [
+        "cal crutchlow",
+        "crutchlow"
+      ],
+      "channelIDs": [
+        "motogp"
+      ],
+      "nationality": "British",
+      "team": "Castrol Honda LCR",
+      "number": 35,
+      "socials": {
+        "x": "calcrutchlow",
+        "instagram": "calcrutchlow"
+      }
+    },
+    {
+      "id": "jonas-folger",
+      "name": "Jonas Folger",
+      "matchKeys": [
+        "folger",
+        "jonas folger"
+      ],
+      "channelIDs": [
+        "motogp"
+      ],
+      "nationality": "German",
+      "team": "Red Bull KTM Tech3",
+      "number": 94,
+      "socials": {
+        "instagram": "jonasfolger94",
+        "x": "94jonasfolger",
+        "threads": "jonasfolger94"
+      }
+    },
+    {
+      "id": "lorenzo-savadori",
+      "name": "Lorenzo Savadori",
+      "matchKeys": [
+        "lorenzo savadori",
+        "savadori"
+      ],
+      "channelIDs": [
+        "motogp"
+      ],
+      "nationality": "Italian",
+      "team": "SuperFile Trackhouse MotoGP Team",
+      "number": 32,
+      "socials": {
+        "x": "lorysava32",
+        "instagram": "sava32",
+        "tiktok": "lorenzo.savadori"
+      }
+    },
+    {
+      "id": "michele-pirro",
+      "name": "Michele Pirro",
+      "matchKeys": [
+        "michele pirro",
+        "pirro"
+      ],
+      "channelIDs": [
+        "motogp"
+      ],
+      "nationality": "Italian",
+      "team": "BK8 Gresini Racing MotoGP",
+      "number": 51
+    },
+    {
+      "id": "elfyn-evans",
+      "name": "Elfyn Evans",
+      "matchKeys": [
+        "elfyn evans",
+        "evans"
+      ],
+      "channelIDs": [
+        "wrc"
+      ],
+      "nationality": "British",
+      "team": "Toyota Gazoo Racing WRT",
+      "number": 33,
+      "codriver": "Scott Martin",
+      "socials": {
+        "instagram": "elfynevans",
+        "x": "ElfynEvans",
+        "facebook": "ElfynEvansRally",
+        "website": "https://www.elfynevans.com/"
+      }
+    },
+    {
+      "id": "sebastien-ogier",
+      "name": "Sébastien Ogier",
+      "matchKeys": [
+        "ogier",
+        "sébastien ogier"
+      ],
+      "channelIDs": [
+        "wrc"
+      ],
+      "nationality": "French",
+      "team": "Toyota Gazoo Racing WRT",
+      "number": 1,
+      "codriver": "Vincent Landais",
+      "socials": {
+        "instagram": "sebogier",
+        "x": "SebOgier",
+        "facebook": "sebastien.ogier",
+        "website": "https://www.sebastien-ogier.com/en/"
+      },
+      "youtube": {
+        "channelId": "UCDvfPE5dXT2_M6qt8oIYAFA",
+        "handle": "@sebastienogier-y6z",
+        "embeddable": true
+      }
+    },
+    {
+      "id": "takamoto-katsuta",
+      "name": "Takamoto Katsuta",
+      "matchKeys": [
+        "katsuta",
+        "takamoto katsuta"
+      ],
+      "channelIDs": [
+        "wrc"
+      ],
+      "nationality": "Japanese",
+      "team": "Toyota Gazoo Racing WRT",
+      "number": 18,
+      "codriver": "Aaron Johnston"
+    },
+    {
+      "id": "oliver-solberg",
+      "name": "Oliver Solberg",
+      "matchKeys": [
+        "oliver solberg",
+        "solberg"
+      ],
+      "channelIDs": [
+        "wrc"
+      ],
+      "nationality": "Swedish",
+      "team": "Toyota Gazoo Racing WRT",
+      "number": 99,
+      "codriver": "Elliott Edmondson",
+      "socials": {
+        "instagram": "oliversolberg01",
+        "x": "OliverSolberg01",
+        "tiktok": "oliversolberg01",
+        "facebook": "OliverSolberg01",
+        "website": "https://www.oliversolberg.com/"
+      },
+      "youtube": {
+        "channelId": "UC3ImTK_J7XR4pz5QxJx9bGA",
+        "handle": "@oliversolberg01",
+        "embeddable": true
+      }
+    },
+    {
+      "id": "sami-pajari",
+      "name": "Sami Pajari",
+      "matchKeys": [
+        "pajari",
+        "sami pajari"
+      ],
+      "channelIDs": [
+        "wrc"
+      ],
+      "nationality": "Finnish",
+      "team": "Toyota Gazoo Racing WRT",
+      "number": 5,
+      "codriver": "Marko Salminen"
+    },
+    {
+      "id": "thierry-neuville",
+      "name": "Thierry Neuville",
+      "matchKeys": [
+        "neuville",
+        "thierry neuville"
+      ],
+      "channelIDs": [
+        "wrc"
+      ],
+      "nationality": "Belgian",
+      "team": "Hyundai Shell Mobis World Rally Team",
+      "number": 11,
+      "codriver": "Martijn Wydaeghe",
+      "socials": {
+        "instagram": "thierryneuville",
+        "x": "thierryneuville",
+        "facebook": "thierryneuvilleofficial"
+      }
+    },
+    {
+      "id": "adrien-fourmaux",
+      "name": "Adrien Fourmaux",
+      "matchKeys": [
+        "adrien fourmaux",
+        "fourmaux"
+      ],
+      "channelIDs": [
+        "wrc"
+      ],
+      "nationality": "French",
+      "team": "Hyundai Shell Mobis World Rally Team",
+      "number": 16,
+      "codriver": "Alexandre Coria",
+      "socials": {
+        "instagram": "adrienfourmaux",
+        "x": "AdrienFourmaux",
+        "facebook": "adrienfourmaux"
+      }
+    },
+    {
+      "id": "hayden-paddon",
+      "name": "Hayden Paddon",
+      "matchKeys": [
+        "hayden paddon",
+        "paddon"
+      ],
+      "channelIDs": [
+        "wrc"
+      ],
+      "nationality": "New Zealander",
+      "team": "Hyundai Shell Mobis World Rally Team",
+      "number": 20,
+      "codriver": "John Kennard",
+      "socials": {
+        "instagram": "haydenpaddon",
+        "x": "HaydenPaddon",
+        "tiktok": "haydenpaddon",
+        "facebook": "haydenpaddonwrc"
+      }
+    },
+    {
+      "id": "dani-sordo",
+      "name": "Dani Sordo",
+      "matchKeys": [
+        "dani sordo",
+        "sordo"
+      ],
+      "channelIDs": [
+        "wrc"
+      ],
+      "nationality": "Spanish",
+      "team": "Hyundai Shell Mobis World Rally Team",
+      "number": 6,
+      "codriver": "Cándido Carrera",
+      "socials": {
+        "instagram": "danisordorallye",
+        "x": "danisordo",
+        "facebook": "DanielSordo"
+      }
+    },
+    {
+      "id": "esapekka-lappi",
+      "name": "Esapekka Lappi",
+      "matchKeys": [
+        "esapekka lappi",
+        "lappi"
+      ],
+      "channelIDs": [
+        "wrc"
+      ],
+      "nationality": "Finnish",
+      "team": "Hyundai Shell Mobis World Rally Team",
+      "number": 4,
+      "codriver": "Enni Mälkönen",
+      "socials": {
+        "instagram": "esapekkalappiofficial",
+        "x": "esapekkalappi",
+        "facebook": "EsapekkaLappiOfficial"
+      }
+    },
+    {
+      "id": "josh-mcerlean",
+      "name": "Josh McErlean",
+      "matchKeys": [
+        "josh mcerlean",
+        "mcerlean"
+      ],
+      "channelIDs": [
+        "wrc"
+      ],
+      "nationality": "Irish",
+      "team": "M-Sport Ford World Rally Team",
+      "number": 55,
+      "codriver": "Eoin Treacy"
+    },
+    {
+      "id": "jon-armstrong",
+      "name": "Jon Armstrong",
+      "matchKeys": [
+        "armstrong",
+        "jon armstrong"
+      ],
+      "channelIDs": [
+        "wrc"
+      ],
+      "nationality": "British",
+      "team": "M-Sport Ford World Rally Team",
+      "number": 95,
+      "codriver": "Shane Byrne",
+      "socials": {
+        "instagram": "jonarmstrongrally",
+        "tiktok": "jonarmstrongrally",
+        "facebook": "jonarmstrongrally",
+        "website": "https://jonarmstrongrally.com/"
+      },
+      "youtube": {
+        "channelId": "UCcptn7qxivGrAD85eraRWOg",
+        "handle": "@jonarmstrongrallying",
+        "embeddable": true
+      }
+    },
+    {
+      "id": "gregoire-munster",
+      "name": "Grégoire Munster",
+      "matchKeys": [
+        "grégoire munster",
+        "munster"
+      ],
+      "channelIDs": [
+        "wrc"
+      ],
+      "nationality": "Luxembourgish",
+      "team": "M-Sport Ford World Rally Team",
+      "codriver": "Louis Louka"
+    },
+    {
+      "id": "martins-sesks",
+      "name": "Mārtiņš Sesks",
+      "matchKeys": [
+        "mārtiņš sesks",
+        "sesks"
+      ],
+      "channelIDs": [
+        "wrc"
+      ],
+      "nationality": "Latvian",
+      "team": "M-Sport Ford World Rally Team",
+      "codriver": "Renārs Francis"
+    },
+    {
+      "id": "alex-palou",
+      "name": "Alex Palou",
+      "matchKeys": [
+        "alex palou",
+        "palou"
+      ],
+      "channelIDs": [
+        "indycar"
+      ],
+      "nationality": "Spanish",
+      "team": "Chip Ganassi Racing",
+      "number": 10,
+      "socials": {
+        "facebook": "AlexPalouOfficial",
+        "instagram": "AlexPalou",
+        "tiktok": "alexpalou10",
+        "x": "AlexPalou",
+        "website": "https://alexpalou.com/"
+      }
+    },
+    {
+      "id": "alexander-rossi",
+      "name": "Alexander Rossi",
+      "matchKeys": [
+        "alexander rossi",
+        "rossi"
+      ],
+      "channelIDs": [
+        "indycar"
+      ],
+      "nationality": "American",
+      "team": "Ed Carpenter Racing",
+      "number": 20,
+      "socials": {
+        "facebook": "AlexanderRossi",
+        "instagram": "alexanderrossi",
+        "x": "alexanderrossi",
+        "website": "http://www.alexanderrossi.com"
+      },
+      "youtube": {
+        "channelId": "UCtMtX86rIZhawPreXwGpIJw",
+        "handle": "@alexanderrossi27",
+        "embeddable": true
+      }
+    },
+    {
+      "id": "caio-collet",
+      "name": "Caio Collet",
+      "matchKeys": [
+        "caio collet",
+        "collet"
+      ],
+      "channelIDs": [
+        "indycar"
+      ],
+      "nationality": "Brazilian",
+      "team": "A.J. Foyt Enterprises",
+      "number": 4,
+      "socials": {
+        "facebook": "collet.caio",
+        "instagram": "caiocollet",
+        "x": "caiocollet"
+      }
+    },
+    {
+      "id": "christian-lundgaard",
+      "name": "Christian Lundgaard",
+      "matchKeys": [
+        "christian lundgaard",
+        "lundgaard"
+      ],
+      "channelIDs": [
+        "indycar"
+      ],
+      "nationality": "Danish",
+      "team": "Arrow McLaren",
+      "number": 7,
+      "socials": {
+        "facebook": "lundgaardofficial",
+        "instagram": "lundgaardofficial",
+        "tiktok": "lundgaardofficial",
+        "x": "lundgaardoff",
+        "website": "https://www.christianlundgaard.com/"
+      },
+      "youtube": {
+        "channelId": "UChMhGogVvDEl-57xOdHSgow",
+        "handle": "@clundgaard45",
+        "embeddable": true
+      }
+    },
+    {
+      "id": "christian-rasmussen",
+      "name": "Christian Rasmussen",
+      "matchKeys": [
+        "christian rasmussen",
+        "rasmussen"
+      ],
+      "channelIDs": [
+        "indycar"
+      ],
+      "nationality": "Danish",
+      "team": "Ed Carpenter Racing",
+      "number": 21,
+      "socials": {
+        "facebook": "christianrasmussenracing",
+        "instagram": "christian_rasmussen_",
+        "tiktok": "christianrasmussen_",
+        "x": "ChristianR_DK",
+        "website": "https://christianrasmussen.com/"
+      }
+    },
+    {
+      "id": "david-malukas",
+      "name": "David Malukas",
+      "matchKeys": [
+        "david malukas",
+        "malukas"
+      ],
+      "channelIDs": [
+        "indycar"
+      ],
+      "nationality": "American",
+      "team": "Team Penske",
+      "number": 12,
+      "socials": {
+        "facebook": "david.malukas",
+        "instagram": "davidmalukas",
+        "tiktok": "davidmalukas",
+        "x": "malukasdavid",
+        "website": "https://www.davidmalukas.com/"
+      }
+    },
+    {
+      "id": "dennis-hauger",
+      "name": "Dennis Hauger",
+      "matchKeys": [
+        "dennis hauger",
+        "hauger"
+      ],
+      "channelIDs": [
+        "indycar"
+      ],
+      "nationality": "Norwegian",
+      "team": "Dale Coyne Racing",
+      "number": 19,
+      "socials": {
+        "facebook": "DennisHauger03",
+        "instagram": "dennis_hauger",
+        "website": "https://www.dennishauger.com/"
+      }
+    },
+    {
+      "id": "felix-rosenqvist",
+      "name": "Felix Rosenqvist",
+      "matchKeys": [
+        "felix rosenqvist",
+        "rosenqvist"
+      ],
+      "channelIDs": [
+        "indycar"
+      ],
+      "nationality": "Swedish",
+      "team": "Meyer Shank Racing",
+      "number": 60,
+      "socials": {
+        "facebook": "FelixRosenqvistOfficial",
+        "instagram": "frosenqvist",
+        "x": "FRosenqvist",
+        "website": "https://felixracing.se/"
+      }
+    },
+    {
+      "id": "graham-rahal",
+      "name": "Graham Rahal",
+      "matchKeys": [
+        "graham rahal",
+        "rahal"
+      ],
+      "channelIDs": [
+        "indycar"
+      ],
+      "nationality": "American",
+      "team": "Rahal Letterman Lanigan Racing",
+      "number": 15,
+      "socials": {
+        "facebook": "GrahamRahal",
+        "instagram": "grahamrahal",
+        "x": "grahamrahal",
+        "website": "https://grahamrahal.com/"
+      },
+      "youtube": {
+        "channelId": "UCipfFJleMxBLcQ2NFI0u4gg",
+        "handle": "@grahamrahaltv",
+        "embeddable": true
+      }
+    },
+    {
+      "id": "josef-newgarden",
+      "name": "Josef Newgarden",
+      "matchKeys": [
+        "josef newgarden",
+        "newgarden"
+      ],
+      "channelIDs": [
+        "indycar"
+      ],
+      "nationality": "American",
+      "team": "Team Penske",
+      "number": 2,
+      "socials": {
+        "facebook": "josefnewgarden",
+        "instagram": "josefnewgarden",
+        "tiktok": "josefnewgarden",
+        "x": "josefnewgarden",
+        "website": "https://josefnewgarden.com/"
+      },
+      "youtube": {
+        "channelId": "UCcrALrC9e6c5_DWrye9sZEA",
+        "handle": "@josefnewgarden",
+        "embeddable": true
+      }
+    },
+    {
+      "id": "kyffin-simpson",
+      "name": "Kyffin Simpson",
+      "matchKeys": [
+        "kyffin simpson",
+        "simpson"
+      ],
+      "channelIDs": [
+        "indycar"
+      ],
+      "nationality": "Caymanian",
+      "team": "Chip Ganassi Racing",
+      "number": 8,
+      "socials": {
+        "facebook": "kyffinsimpson",
+        "instagram": "kyffin_simpson",
+        "tiktok": "kyffinsimpson",
+        "x": "kyffin_simpson",
+        "website": "https://www.kyffinsimpson.ky/"
+      }
+    },
+    {
+      "id": "kyle-kirkwood",
+      "name": "Kyle Kirkwood",
+      "matchKeys": [
+        "kirkwood",
+        "kyle kirkwood"
+      ],
+      "channelIDs": [
+        "indycar"
+      ],
+      "nationality": "American",
+      "team": "Andretti Global",
+      "number": 27,
+      "socials": {
+        "facebook": "KyleKirkwoodRacing",
+        "instagram": "Kyle_Kirkwood",
+        "tiktok": "kyle_kirkwood",
+        "x": "kkirkwoodracing",
+        "website": "http://www.KyleKirkwood.com"
+      }
+    },
+    {
+      "id": "louis-foster",
+      "name": "Louis Foster",
+      "matchKeys": [
+        "foster",
+        "louis foster"
+      ],
+      "channelIDs": [
+        "indycar"
+      ],
+      "nationality": "British",
+      "team": "Rahal Letterman Lanigan Racing",
+      "number": 45,
+      "socials": {
+        "instagram": "louisfosterr",
+        "tiktok": "louisfosters",
+        "x": "_LouisFoster"
+      }
+    },
+    {
+      "id": "marcus-armstrong",
+      "name": "Marcus Armstrong",
+      "matchKeys": [
+        "armstrong",
+        "marcus armstrong"
+      ],
+      "channelIDs": [
+        "indycar"
+      ],
+      "nationality": "New Zealander",
+      "team": "Meyer Shank Racing",
+      "number": 66,
+      "socials": {
+        "facebook": "MarcusArmstrng",
+        "instagram": "marcusarmstrong",
+        "tiktok": "marcusarmstrong11",
+        "x": "MarcusArmstrng",
+        "website": "https://www.marcusarmstrong.com/"
+      }
+    },
+    {
+      "id": "marcus-ericsson",
+      "name": "Marcus Ericsson",
+      "matchKeys": [
+        "ericsson",
+        "marcus ericsson"
+      ],
+      "channelIDs": [
+        "indycar"
+      ],
+      "nationality": "Swedish",
+      "team": "Andretti Global",
+      "number": 28,
+      "socials": {
+        "facebook": "MarcusEricssonOfficialF1Page",
+        "instagram": "ericsson_marcus",
+        "tiktok": "ericsson_marcus",
+        "x": "ericsson_marcus",
+        "website": "https://marcusericsson.com/"
+      },
+      "youtube": {
+        "channelId": "UCvzQxbB-MtwXdxAGFRNM7jA",
+        "handle": "@marcusericsson3800",
+        "embeddable": true
+      }
+    },
+    {
+      "id": "mick-schumacher",
+      "name": "Mick Schumacher",
+      "matchKeys": [
+        "mick schumacher",
+        "schumacher"
+      ],
+      "channelIDs": [
+        "indycar"
+      ],
+      "nationality": "German",
+      "team": "Rahal Letterman Lanigan Racing",
+      "number": 47,
+      "socials": {
+        "facebook": "mickschumacherofficial",
+        "instagram": "mickschumacher",
+        "x": "schumachermick",
+        "website": "https://www.mickschumacher.ms/en"
+      },
+      "youtube": {
+        "channelId": "UCkIpj1C0vp6DFAQr-ce4Yiw",
+        "handle": "@mickschumacher",
+        "embeddable": true
+      }
+    },
+    {
+      "id": "nolan-siegel",
+      "name": "Nolan Siegel",
+      "matchKeys": [
+        "nolan siegel",
+        "siegel"
+      ],
+      "channelIDs": [
+        "indycar"
+      ],
+      "nationality": "American",
+      "team": "Arrow McLaren",
+      "number": 6,
+      "socials": {
+        "facebook": "NolanSiegelOfficial",
+        "instagram": "nolansiegel",
+        "x": "nolan_siegel",
+        "website": "https://nolansiegel.com/"
+      }
+    },
+    {
+      "id": "pato-o-ward",
+      "name": "Pato O'Ward",
+      "matchKeys": [
+        "o'ward",
+        "pato o'ward"
+      ],
+      "channelIDs": [
+        "indycar"
+      ],
+      "nationality": "Mexican",
+      "team": "Arrow McLaren",
+      "number": 5,
+      "socials": {
+        "facebook": "PatricioOWard",
+        "instagram": "patriciooward",
+        "tiktok": "patriciooward",
+        "x": "patriciooward",
+        "website": "https://patricioowardshop.com/"
+      }
+    },
+    {
+      "id": "rinus-veekay",
+      "name": "Rinus VeeKay",
+      "matchKeys": [
+        "rinus veekay",
+        "veekay"
+      ],
+      "channelIDs": [
+        "indycar"
+      ],
+      "nationality": "Dutch",
+      "team": "Juncos Hollinger Racing",
+      "number": 76,
+      "socials": {
+        "facebook": "RinusVeeKay",
+        "instagram": "RinusVeeKay",
+        "x": "RinusVeeKay",
+        "website": "http://www.RinusVeeKay.com"
+      },
+      "youtube": {
+        "channelId": "UCT8XJKbeEOwzdw9ymfZoT_g",
+        "handle": "@vankalmthoutauto",
+        "embeddable": true
+      }
+    },
+    {
+      "id": "romain-grosjean",
+      "name": "Romain Grosjean",
+      "matchKeys": [
+        "grosjean",
+        "romain grosjean"
+      ],
+      "channelIDs": [
+        "indycar"
+      ],
+      "nationality": "French",
+      "team": "Dale Coyne Racing",
+      "number": 18,
+      "socials": {
+        "facebook": "grosjeanromain",
+        "instagram": "grosjeanromain",
+        "x": "RGrosjean",
+        "website": "https://www.romaingrosjean.com/",
+        "tiktok": "grosjeanromain8"
+      },
+      "youtube": {
+        "channelId": "UCHyrz_iFQGc-nntb4-F5_yw",
+        "handle": "@romaingrosjean8",
+        "embeddable": true
+      }
+    },
+    {
+      "id": "santino-ferrucci",
+      "name": "Santino Ferrucci",
+      "matchKeys": [
+        "ferrucci",
+        "santino ferrucci"
+      ],
+      "channelIDs": [
+        "indycar"
+      ],
+      "nationality": "American",
+      "team": "A.J. Foyt Enterprises",
+      "number": 14,
+      "socials": {
+        "facebook": "santinof1",
+        "instagram": "santinoferrucci",
+        "tiktok": "santinoferrucci",
+        "x": "santinoferrucci",
+        "website": "https://santinoferrucci.com/"
+      }
+    },
+    {
+      "id": "scott-dixon",
+      "name": "Scott Dixon",
+      "matchKeys": [
+        "dixon",
+        "scott dixon"
+      ],
+      "channelIDs": [
+        "indycar"
+      ],
+      "nationality": "New Zealander",
+      "team": "Chip Ganassi Racing",
+      "number": 9,
+      "socials": {
+        "facebook": "scottdixon",
+        "instagram": "scottdixon9",
+        "x": "scottdixon9",
+        "website": "http://www.scottdixon.com"
+      }
+    },
+    {
+      "id": "scott-mclaughlin",
+      "name": "Scott McLaughlin",
+      "matchKeys": [
+        "mclaughlin",
+        "scott mclaughlin"
+      ],
+      "channelIDs": [
+        "indycar"
+      ],
+      "nationality": "New Zealander",
+      "team": "Team Penske",
+      "number": 3,
+      "socials": {
+        "facebook": "smclaughlin93",
+        "instagram": "smclaughlin93",
+        "x": "smclaughlin93",
+        "website": "https://www.scott-mclaughlin.com/"
+      }
+    },
+    {
+      "id": "sting-ray-robb",
+      "name": "Sting Ray Robb",
+      "matchKeys": [
+        "robb",
+        "sting ray robb"
+      ],
+      "channelIDs": [
+        "indycar"
+      ],
+      "nationality": "American",
+      "team": "Juncos Hollinger Racing",
+      "number": 77,
+      "socials": {
+        "facebook": "stingrayrobbracing",
+        "instagram": "stingrayrobb",
+        "tiktok": "stingrayrobb",
+        "x": "sting_ray_robb",
+        "website": "https://www.stingrayrobb.com/"
+      },
+      "youtube": {
+        "channelId": "UCYri8_p9iST9IRRcHtSNgWA",
+        "handle": "@stingrayrobb77",
+        "embeddable": true
+      }
+    },
+    {
+      "id": "will-power",
+      "name": "Will Power",
+      "matchKeys": [
+        "power",
+        "will power"
+      ],
+      "channelIDs": [
+        "indycar"
+      ],
+      "nationality": "Australian",
+      "team": "Andretti Global",
+      "number": 26,
+      "socials": {
+        "facebook": "26willpower",
+        "instagram": "26willpower",
+        "x": "26WillPower_",
+        "website": "https://www.12willpower.com/"
+      }
+    },
+    {
+      "id": "kyle-larson",
+      "name": "Kyle Larson",
+      "matchKeys": [
+        "kyle larson",
+        "larson"
+      ],
+      "channelIDs": [
+        "nascar"
+      ],
+      "nationality": "American",
+      "team": "Hendrick Motorsports",
+      "number": 5,
+      "socials": {
+        "facebook": "KyleLarsonRacing",
+        "instagram": "kylelarsonracin",
+        "tiktok": "KYLELARSONracing",
+        "x": "KyleLarsonRacin",
+        "website": "https://www.kylelarsonracing.com/"
+      }
+    },
+    {
+      "id": "chase-elliott",
+      "name": "Chase Elliott",
+      "matchKeys": [
+        "chase elliott",
+        "elliott"
+      ],
+      "channelIDs": [
+        "nascar"
+      ],
+      "nationality": "American",
+      "team": "Hendrick Motorsports",
+      "number": 9,
+      "socials": {
+        "facebook": "chaseelliott",
+        "instagram": "chaseelliott9",
+        "tiktok": "chaseelliott9",
+        "x": "chaseelliott",
+        "website": "https://www.chaseelliott.com/"
+      },
+      "youtube": {
+        "channelId": "UCsvfUnEOkqDbBROVLTvnZxg",
+        "handle": "@chaseelliott9",
+        "embeddable": true
+      }
+    },
+    {
+      "id": "william-byron",
+      "name": "William Byron",
+      "matchKeys": [
+        "byron",
+        "william byron"
+      ],
+      "channelIDs": [
+        "nascar"
+      ],
+      "nationality": "American",
+      "team": "Hendrick Motorsports",
+      "number": 24,
+      "socials": {
+        "facebook": "williambyron",
+        "instagram": "williambyron",
+        "tiktok": "william_byron",
+        "x": "WilliamByron",
+        "website": "https://www.williambyron.com/"
+      }
+    },
+    {
+      "id": "alex-bowman",
+      "name": "Alex Bowman",
+      "matchKeys": [
+        "alex bowman",
+        "bowman"
+      ],
+      "channelIDs": [
+        "nascar"
+      ],
+      "nationality": "American",
+      "team": "Hendrick Motorsports",
+      "number": 48,
+      "socials": {
+        "facebook": "alexbowmanofficial",
+        "instagram": "Alex_Bowman",
+        "x": "AlexBRacing",
+        "website": "https://www.alexbowmanracing.com/"
+      }
+    },
+    {
+      "id": "austin-cindric",
+      "name": "Austin Cindric",
+      "matchKeys": [
+        "austin cindric",
+        "cindric"
+      ],
+      "channelIDs": [
+        "nascar"
+      ],
+      "nationality": "American",
+      "team": "Team Penske",
+      "number": 2,
+      "socials": {
+        "facebook": "Austin.Cindric",
+        "instagram": "AustinCindric",
+        "x": "AustinCindric"
+      }
+    },
+    {
+      "id": "ryan-blaney",
+      "name": "Ryan Blaney",
+      "matchKeys": [
+        "blaney",
+        "ryan blaney"
+      ],
+      "channelIDs": [
+        "nascar"
+      ],
+      "nationality": "American",
+      "team": "Team Penske",
+      "number": 12,
+      "socials": {
+        "facebook": "blaney12",
+        "instagram": "ryanblaney10",
+        "x": "Blaney",
+        "website": "https://ryanblaney.com/"
+      }
+    },
+    {
+      "id": "joey-logano",
+      "name": "Joey Logano",
+      "matchKeys": [
+        "joey logano",
+        "logano"
+      ],
+      "channelIDs": [
+        "nascar"
+      ],
+      "nationality": "American",
+      "team": "Team Penske",
+      "number": 22,
+      "socials": {
+        "facebook": "joeylogano",
+        "instagram": "joeylogano",
+        "tiktok": "joeylogano",
+        "x": "joeylogano",
+        "website": "https://joeylogano.com/"
+      },
+      "youtube": {
+        "channelId": "UC2sfsxuXOwrorS9bsEX19fQ",
+        "handle": "@joeylogano",
+        "embeddable": true
+      }
+    },
+    {
+      "id": "denny-hamlin",
+      "name": "Denny Hamlin",
+      "matchKeys": [
+        "denny hamlin",
+        "hamlin"
+      ],
+      "channelIDs": [
+        "nascar"
+      ],
+      "nationality": "American",
+      "team": "Joe Gibbs Racing",
+      "number": 11,
+      "socials": {
+        "facebook": "DennyHamlin",
+        "instagram": "dennyhamlin",
+        "x": "DennyHamlin",
+        "website": "https://www.dennyhamlin.com/"
+      }
+    },
+    {
+      "id": "chase-briscoe",
+      "name": "Chase Briscoe",
+      "matchKeys": [
+        "briscoe",
+        "chase briscoe"
+      ],
+      "channelIDs": [
+        "nascar"
+      ],
+      "nationality": "American",
+      "team": "Joe Gibbs Racing",
+      "number": 19,
+      "socials": {
+        "facebook": "chasebriscoeracing",
+        "instagram": "chasebriscoe_",
+        "website": "https://www.chasebriscoe.com/"
+      }
+    },
+    {
+      "id": "christopher-bell",
+      "name": "Christopher Bell",
+      "matchKeys": [
+        "bell",
+        "christopher bell"
+      ],
+      "channelIDs": [
+        "nascar"
+      ],
+      "nationality": "American",
+      "team": "Joe Gibbs Racing",
+      "number": 20,
+      "socials": {
+        "x": "CBellRacing"
+      }
+    },
+    {
+      "id": "ty-gibbs",
+      "name": "Ty Gibbs",
+      "matchKeys": [
+        "gibbs",
+        "ty gibbs"
+      ],
+      "channelIDs": [
+        "nascar"
+      ],
+      "nationality": "American",
+      "team": "Joe Gibbs Racing",
+      "number": 54
+    },
+    {
+      "id": "austin-dillon",
+      "name": "Austin Dillon",
+      "matchKeys": [
+        "austin dillon",
+        "dillon"
+      ],
+      "channelIDs": [
+        "nascar"
+      ],
+      "nationality": "American",
+      "team": "Richard Childress Racing",
+      "number": 3,
+      "socials": {
+        "facebook": "austindillon3",
+        "instagram": "austindillon3",
+        "x": "austindillon3",
+        "website": "https://austindillon.com/"
+      }
+    },
+    {
+      "id": "kyle-busch",
+      "name": "Kyle Busch",
+      "matchKeys": [
+        "busch",
+        "kyle busch"
+      ],
+      "channelIDs": [
+        "nascar"
+      ],
+      "nationality": "American",
+      "team": "Richard Childress Racing",
+      "number": 8,
+      "socials": {
+        "facebook": "KyleBusch",
+        "x": "KyleBusch",
+        "website": "https://kylebusch.com/",
+        "instagram": "rowdybusch",
+        "tiktok": "kylebusch"
+      },
+      "youtube": {
+        "channelId": "UCToY9KW0aw4iVIKPykjIG1g",
+        "handle": "@kylebusch",
+        "embeddable": true
+      }
+    },
+    {
+      "id": "bubba-wallace",
+      "name": "Bubba Wallace",
+      "matchKeys": [
+        "bubba wallace",
+        "wallace"
+      ],
+      "channelIDs": [
+        "nascar"
+      ],
+      "nationality": "American",
+      "team": "23XI Racing",
+      "number": 23,
+      "socials": {
+        "facebook": "bubbawallace",
+        "instagram": "bubbawallace",
+        "tiktok": "bubbawallace",
+        "x": "BubbaWallace",
+        "website": "https://www.bubbawallace.com/"
+      },
+      "youtube": {
+        "channelId": "UCRBmV-8-cWltoJzyR1vdCLQ",
+        "handle": "@bubbawallace",
+        "embeddable": true
+      }
+    },
+    {
+      "id": "riley-herbst",
+      "name": "Riley Herbst",
+      "matchKeys": [
+        "herbst",
+        "riley herbst"
+      ],
+      "channelIDs": [
+        "nascar"
+      ],
+      "nationality": "American",
+      "team": "23XI Racing",
+      "number": 35,
+      "socials": {
+        "website": "https://rileyherbst.com/"
+      }
+    },
+    {
+      "id": "tyler-reddick",
+      "name": "Tyler Reddick",
+      "matchKeys": [
+        "reddick",
+        "tyler reddick"
+      ],
+      "channelIDs": [
+        "nascar"
+      ],
+      "nationality": "American",
+      "team": "23XI Racing",
+      "number": 45,
+      "socials": {
+        "facebook": "TylerReddick23xi",
+        "instagram": "tyler_reddick",
+        "tiktok": "tylerreddickracing",
+        "x": "TylerReddick",
+        "website": "https://www.tylerreddick.com/"
+      }
+    },
+    {
+      "id": "ross-chastain",
+      "name": "Ross Chastain",
+      "matchKeys": [
+        "chastain",
+        "ross chastain"
+      ],
+      "channelIDs": [
+        "nascar"
+      ],
+      "nationality": "American",
+      "team": "Trackhouse Racing",
+      "number": 1,
+      "socials": {
+        "x": "RossChastain",
+        "website": "https://rosschastain.com/"
+      }
+    },
+    {
+      "id": "connor-zilisch",
+      "name": "Connor Zilisch",
+      "matchKeys": [
+        "connor zilisch",
+        "zilisch"
+      ],
+      "channelIDs": [
+        "nascar"
+      ],
+      "nationality": "American",
+      "team": "Trackhouse Racing",
+      "number": 88,
+      "socials": {
+        "instagram": "connorzilisch",
+        "tiktok": "connorzilisch",
+        "x": "ConnorZilisch",
+        "website": "https://www.connorzilisch.com/"
+      }
+    },
+    {
+      "id": "shane-van-gisbergen",
+      "name": "Shane van Gisbergen",
+      "matchKeys": [
+        "gisbergen",
+        "shane van gisbergen"
+      ],
+      "channelIDs": [
+        "nascar"
+      ],
+      "nationality": "New Zealander",
+      "team": "Trackhouse Racing",
+      "number": 97
+    },
+    {
+      "id": "brad-keselowski",
+      "name": "Brad Keselowski",
+      "matchKeys": [
+        "brad keselowski",
+        "keselowski"
+      ],
+      "channelIDs": [
+        "nascar"
+      ],
+      "nationality": "American",
+      "team": "RFK Racing",
+      "number": 6,
+      "socials": {
+        "x": "keselowski"
+      }
+    },
+    {
+      "id": "chris-buescher",
+      "name": "Chris Buescher",
+      "matchKeys": [
+        "buescher",
+        "chris buescher"
+      ],
+      "channelIDs": [
+        "nascar"
+      ],
+      "nationality": "American",
+      "team": "RFK Racing",
+      "number": 17,
+      "socials": {
+        "x": "Chris_Buescher"
+      }
+    },
+    {
+      "id": "ryan-preece",
+      "name": "Ryan Preece",
+      "matchKeys": [
+        "preece",
+        "ryan preece"
+      ],
+      "channelIDs": [
+        "nascar"
+      ],
+      "nationality": "American",
+      "team": "RFK Racing",
+      "number": 60,
+      "socials": {
+        "x": "RyanPreece_",
+        "website": "https://www.ryanpreeceracing.com/"
+      }
+    },
+    {
+      "id": "noah-gragson",
+      "name": "Noah Gragson",
+      "matchKeys": [
+        "gragson",
+        "noah gragson"
+      ],
+      "channelIDs": [
+        "nascar"
+      ],
+      "nationality": "American",
+      "team": "Front Row Motorsports",
+      "number": 4,
+      "socials": {
+        "facebook": "NoahGragsonRacing",
+        "instagram": "noahgragson",
+        "tiktok": "noahgragson",
+        "x": "noahgragson",
+        "website": "https://noahgragsonracing.com/"
+      },
+      "youtube": {
+        "channelId": "UCIaPi1fhsG7VlnWLCCqe7AQ",
+        "handle": "@noahgragson5944",
+        "embeddable": true
+      }
+    },
+    {
+      "id": "todd-gilliland",
+      "name": "Todd Gilliland",
+      "matchKeys": [
+        "gilliland",
+        "todd gilliland"
+      ],
+      "channelIDs": [
+        "nascar"
+      ],
+      "nationality": "American",
+      "team": "Front Row Motorsports",
+      "number": 34,
+      "socials": {
+        "facebook": "ToddGillilandRacing",
+        "instagram": "toddgilliland_",
+        "x": "ToddGilliland_",
+        "website": "https://toddgilliland.com/"
+      }
+    },
+    {
+      "id": "zane-smith",
+      "name": "Zane Smith",
+      "matchKeys": [
+        "smith",
+        "zane smith"
+      ],
+      "channelIDs": [
+        "nascar"
+      ],
+      "nationality": "American",
+      "team": "Front Row Motorsports",
+      "number": 38,
+      "socials": {
+        "facebook": "zanesmithracing",
+        "instagram": "zanesmith",
+        "x": "zanesmith",
+        "website": "https://www.zanesmithracing.com/"
+      }
+    },
+    {
+      "id": "ty-dillon",
+      "name": "Ty Dillon",
+      "matchKeys": [
+        "dillon",
+        "ty dillon"
+      ],
+      "channelIDs": [
+        "nascar"
+      ],
+      "nationality": "American",
+      "team": "Kaulig Racing",
+      "number": 10,
+      "socials": {
+        "x": "TyDillon"
+      }
+    },
+    {
+      "id": "aj-allmendinger",
+      "name": "AJ Allmendinger",
+      "matchKeys": [
+        "aj allmendinger",
+        "allmendinger"
+      ],
+      "channelIDs": [
+        "nascar"
+      ],
+      "nationality": "American",
+      "team": "Kaulig Racing",
+      "number": 16,
+      "socials": {
+        "x": "AJDinger"
+      }
+    },
+    {
+      "id": "daniel-suarez",
+      "name": "Daniel Suárez",
+      "matchKeys": [
+        "daniel suárez",
+        "suárez"
+      ],
+      "channelIDs": [
+        "nascar"
+      ],
+      "nationality": "Mexican",
+      "team": "Spire Motorsports",
+      "number": 7,
+      "socials": {
+        "x": "Daniel_SuarezG"
+      }
+    },
+    {
+      "id": "michael-mcdowell",
+      "name": "Michael McDowell",
+      "matchKeys": [
+        "mcdowell",
+        "michael mcdowell"
+      ],
+      "channelIDs": [
+        "nascar"
+      ],
+      "nationality": "American",
+      "team": "Spire Motorsports",
+      "number": 71,
+      "socials": {
+        "x": "Mc_Driver"
+      }
+    },
+    {
+      "id": "carson-hocevar",
+      "name": "Carson Hocevar",
+      "matchKeys": [
+        "carson hocevar",
+        "hocevar"
+      ],
+      "channelIDs": [
+        "nascar"
+      ],
+      "nationality": "American",
+      "team": "Spire Motorsports",
+      "number": 77,
+      "socials": {
+        "facebook": "carsonhocevarracing",
+        "instagram": "carsonhocevar",
+        "x": "CarsonHocevar",
+        "website": "https://carsonhocevar.com/"
+      }
+    },
+    {
+      "id": "josh-berry",
+      "name": "Josh Berry",
+      "matchKeys": [
+        "berry",
+        "josh berry"
+      ],
+      "channelIDs": [
+        "nascar"
+      ],
+      "nationality": "American",
+      "team": "Wood Brothers Racing",
+      "number": 21,
+      "socials": {
+        "x": "JoshBerry"
+      }
+    },
+    {
+      "id": "john-hunter-nemechek",
+      "name": "John Hunter Nemechek",
+      "matchKeys": [
+        "john hunter nemechek",
+        "nemechek"
+      ],
+      "channelIDs": [
+        "nascar"
+      ],
+      "nationality": "American",
+      "team": "Legacy Motor Club",
+      "number": 42,
+      "socials": {
+        "facebook": "JohnHunterNemechek",
+        "instagram": "jhnemechek",
+        "x": "JHNemechek",
+        "website": "https://johnhunternemechek.com/"
+      }
+    },
+    {
+      "id": "erik-jones",
+      "name": "Erik Jones",
+      "matchKeys": [
+        "erik jones",
+        "jones"
+      ],
+      "channelIDs": [
+        "nascar"
+      ],
+      "nationality": "American",
+      "team": "Legacy Motor Club",
+      "number": 43,
+      "socials": {
+        "facebook": "erikjonesracing",
+        "instagram": "erik_jones",
+        "x": "erik_jones",
+        "website": "https://www.erikjonesracing.com/"
+      }
+    },
+    {
+      "id": "ricky-stenhouse-jr",
+      "name": "Ricky Stenhouse Jr.",
+      "matchKeys": [
+        "ricky stenhouse jr."
+      ],
+      "channelIDs": [
+        "nascar"
+      ],
+      "nationality": "American",
+      "team": "HYAK Motorsports",
+      "number": 47,
+      "socials": {
+        "x": "StenhouseJr",
+        "website": "https://stenhousejr.com/"
+      }
+    },
+    {
+      "id": "cody-ware",
+      "name": "Cody Ware",
+      "matchKeys": [
+        "cody ware",
+        "ware"
+      ],
+      "channelIDs": [
+        "nascar"
+      ],
+      "nationality": "American",
+      "team": "Rick Ware Racing",
+      "number": 51,
+      "socials": {
+        "x": "CodyShaneWare"
+      }
+    },
+    {
+      "id": "cole-custer",
+      "name": "Cole Custer",
+      "matchKeys": [
+        "cole custer",
+        "custer"
+      ],
+      "channelIDs": [
+        "nascar"
+      ],
+      "nationality": "American",
+      "team": "Haas Factory Team",
+      "number": 41,
+      "socials": {
+        "facebook": "colecuster",
+        "instagram": "colecuster",
+        "x": "colecuster00",
+        "website": "https://colecuster.com/"
+      }
     }
   ]
 }

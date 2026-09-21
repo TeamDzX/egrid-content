@@ -466,6 +466,46 @@ def build(sources: list[dict], key: str | None, want: int) -> list[ChannelVideos
     return out
 
 
+# ---------------------------------------------------------------------------
+# Driver channels
+#
+# Every driver in drivers.json with an embed-tested own channel gets their
+# newest uploads in a separate `drivers` list, so a driver page can show the
+# person's own videos without them flooding the series feed. Driver channels
+# are vlogs and shorts rather than features, so the floor is two minutes.
+
+DRIVERS_PATH = REPO_ROOT / "drivers.json"
+DRIVER_MIN_SECONDS = 120
+DRIVER_WANT = 6
+DRIVER_MAX_AGE_DAYS = 730
+
+
+def build_drivers(key: str | None, want: int = DRIVER_WANT) -> list[dict]:
+    try:
+        drivers = json.loads(DRIVERS_PATH.read_text(encoding="utf-8")).get("drivers", [])
+    except (OSError, json.JSONDecodeError):
+        log("drivers.json unreadable; no driver videos")
+        return []
+    out = []
+    for driver in drivers:
+        yt = driver.get("youtube") or {}
+        if not yt.get("channelId") or yt.get("embeddable") is not True:
+            continue
+        source = {"channelID": (driver.get("channelIDs") or [""])[0], "channelId": yt["channelId"],
+                  "sourceName": driver["name"], "minSeconds": DRIVER_MIN_SECONDS}
+        got = safe(f"driver/{driver['name']}",
+                   (lambda: collect_with_key(source, key, want)) if key else (lambda: collect_without_key(source, want)), [])
+        # A channel the series once linked but the driver abandoned years ago
+        # is worse than none: a 2012 clip at the top of a 2026 page.
+        cutoff = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=DRIVER_MAX_AGE_DAYS)).strftime("%Y-%m-%dT%H:%M:%SZ")
+        got = [v for v in got if v.publishedAt >= cutoff]
+        log(f"  {driver['name']}: {len(got)}")
+        if got:
+            out.append({"driverID": driver["id"], "channelID": source["channelID"], "name": driver["name"],
+                        "videos": [asdict(v) for v in got]})
+    return out
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__,
                                      formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -496,6 +536,7 @@ def main() -> int:
         "version": 2,
         "generatedAt": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "channels": [asdict(c) for c in channels],
+        "drivers": build_drivers(key),
     }
     args.out.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n")
     total = sum(len(c.videos) for c in channels)
