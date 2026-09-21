@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-21T14:12:26Z",
+  "generatedAt": "2026-09-21T22:19:31Z",
   "channels": [
     {
       "channelID": "f1",
@@ -148,17 +148,6 @@
           "seconds": 579,
           "thumbnail": "https://i.ytimg.com/vi/HZgsEaACaaA/maxresdefault.jpg",
           "source": "Audi Revolut F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "K7Zshv-FgIM",
-          "title": "James Vowles Answers Your Italian Grand Prix Fan Questions!",
-          "publishedAt": "2026-09-09T15:59:59Z",
-          "duration": "7:49",
-          "seconds": 469,
-          "thumbnail": "https://i.ytimg.com/vi/K7Zshv-FgIM/maxresdefault.jpg",
-          "source": "Atlassian Williams F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -423,6 +412,17 @@
           "seconds": 349,
           "thumbnail": "https://i.ytimg.com/vi/-59xVmUn1YI/maxresdefault.jpg",
           "source": "Aston Martin Aramco F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "MtIZTFY0jgs",
+          "title": "Race Simulator: Inside the Driver's Seat | Cadillac Formula 1® Team",
+          "publishedAt": "2026-07-14T13:25:01Z",
+          "duration": "9:21",
+          "seconds": 561,
+          "thumbnail": "https://i.ytimg.com/vi/MtIZTFY0jgs/maxresdefault.jpg",
+          "source": "Cadillac Formula 1 Team",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -1362,6 +1362,1153 @@
           "seconds": 1788,
           "thumbnail": "https://i.ytimg.com/vi/lNX2Pt-8DBY/maxresdefault.jpg",
           "source": "Aprilia Official",
+          "blockedRegions": [],
+          "allowedRegions": []
+        }
+      ]
+    }
+  ],
+  "drivers": [
+    {
+      "driverID": "hamilton",
+      "channelID": "f1",
+      "name": "Lewis Hamilton",
+      "videos": [
+        {
+          "id": "iXzJy0p9WQ4",
+          "title": "quick one, thank you China",
+          "publishedAt": "2026-03-23T11:20:06Z",
+          "duration": "2:38",
+          "seconds": 158,
+          "thumbnail": "https://i.ytimg.com/vi/iXzJy0p9WQ4/maxresdefault.jpg",
+          "source": "Lewis Hamilton",
+          "blockedRegions": [],
+          "allowedRegions": []
+        }
+      ]
+    },
+    {
+      "driverID": "leclerc",
+      "channelID": "f1",
+      "name": "Charles Leclerc",
+      "videos": [
+        {
+          "id": "cJcHg4N0aPw",
+          "title": "Lost tapes from 2025",
+          "publishedAt": "2026-02-14T17:46:51Z",
+          "duration": "8:45",
+          "seconds": 525,
+          "thumbnail": "https://i.ytimg.com/vi/cJcHg4N0aPw/maxresdefault.jpg",
+          "source": "Charles Leclerc",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "F7x0fOykq2g",
+          "title": "CL16 apparel is here 🤍",
+          "publishedAt": "2025-11-14T17:05:51Z",
+          "duration": "2:20",
+          "seconds": 140,
+          "thumbnail": "https://i.ytimg.com/vi/F7x0fOykq2g/maxresdefault.jpg",
+          "source": "Charles Leclerc",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "N6EuuG7zXWY",
+          "title": "Charles Leclerc: GOING SUPERSONIC !",
+          "publishedAt": "2024-11-15T18:11:01Z",
+          "duration": "14:09",
+          "seconds": 849,
+          "thumbnail": "https://i.ytimg.com/vi/N6EuuG7zXWY/maxresdefault.jpg",
+          "source": "Charles Leclerc",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "IwAVrkHs5EQ",
+          "title": "Lake Como Unfiltered: Filming the Peroni Nastro Azzurro 0.0% Campaign",
+          "publishedAt": "2024-10-13T16:43:34Z",
+          "duration": "5:40",
+          "seconds": 340,
+          "thumbnail": "https://i.ytimg.com/vi/IwAVrkHs5EQ/maxresdefault.jpg",
+          "source": "Charles Leclerc",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "o8ezVPko3-s",
+          "title": "Monza Magic: My Second Win at the F1 Italian GP!",
+          "publishedAt": "2024-10-09T16:40:25Z",
+          "duration": "10:56",
+          "seconds": 656,
+          "thumbnail": "https://i.ytimg.com/vi/o8ezVPko3-s/maxresdefault.jpg",
+          "source": "Charles Leclerc",
+          "blockedRegions": [],
+          "allowedRegions": []
+        }
+      ]
+    },
+    {
+      "driverID": "norris",
+      "channelID": "f1",
+      "name": "Lando Norris",
+      "videos": [
+        {
+          "id": "bfumhZmDcds",
+          "title": "I CAN’T BELIEVE ITS REAL",
+          "publishedAt": "2026-06-25T13:30:09Z",
+          "duration": "6:28",
+          "seconds": 388,
+          "thumbnail": "https://i.ytimg.com/vi/bfumhZmDcds/maxresdefault.jpg",
+          "source": "Lando Norris",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "M54jdwCY8sk",
+          "title": "THE MOST FUN I'VE HAD",
+          "publishedAt": "2026-04-24T17:30:04Z",
+          "duration": "7:44",
+          "seconds": 464,
+          "thumbnail": "https://i.ytimg.com/vi/M54jdwCY8sk/maxresdefault.jpg",
+          "source": "Lando Norris",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "i4yVAR5JB38",
+          "title": "THE BEST 24 HOURS OF MY LIFE",
+          "publishedAt": "2026-01-08T17:41:16Z",
+          "duration": "10:55",
+          "seconds": 655,
+          "thumbnail": "https://i.ytimg.com/vi/i4yVAR5JB38/maxresdefault.jpg",
+          "source": "Lando Norris",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "aMcDwgPgj4w",
+          "title": "How I prepare for an F1 season",
+          "publishedAt": "2025-03-06T18:13:18Z",
+          "duration": "8:41",
+          "seconds": 521,
+          "thumbnail": "https://i.ytimg.com/vi/aMcDwgPgj4w/maxresdefault.jpg",
+          "source": "Lando Norris",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "w-mTXPKgGqM",
+          "title": "Winning the World Constructors Championship | LandoLOG 032",
+          "publishedAt": "2024-12-28T17:48:56Z",
+          "duration": "10:01",
+          "seconds": 601,
+          "thumbnail": "https://i.ytimg.com/vi/w-mTXPKgGqM/maxresdefault.jpg",
+          "source": "Lando Norris",
+          "blockedRegions": [],
+          "allowedRegions": []
+        }
+      ]
+    },
+    {
+      "driverID": "verstappen",
+      "channelID": "f1",
+      "name": "Max Verstappen",
+      "videos": [
+        {
+          "id": "hOFigqAeoRk",
+          "title": "Inside the 24 Hours of Spa with Verstappen Racing",
+          "publishedAt": "2026-07-08T14:42:26Z",
+          "duration": "6:58",
+          "seconds": 418,
+          "thumbnail": "https://i.ytimg.com/vi/hOFigqAeoRk/maxresdefault.jpg",
+          "source": "Max Verstappen",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "gd0PfDtlEnE",
+          "title": "Inside the 24h Nürburgring 2026",
+          "publishedAt": "2026-05-29T14:00:59Z",
+          "duration": "9:21",
+          "seconds": 561,
+          "thumbnail": "https://i.ytimg.com/vi/gd0PfDtlEnE/maxresdefault.jpg",
+          "source": "Max Verstappen",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "HYOZ1ewp6FI",
+          "title": "Verstappen.com Racing GTWC Endurance 2025 | Recap",
+          "publishedAt": "2025-11-04T15:33:10Z",
+          "duration": "2:03",
+          "seconds": 123,
+          "thumbnail": "https://i.ytimg.com/vi/HYOZ1ewp6FI/maxresdefault.jpg",
+          "source": "Max Verstappen",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "GDDy1kjaiHU",
+          "title": "Max Verstappen – 2025 Brazil Helmet",
+          "publishedAt": "2025-10-28T12:00:21Z",
+          "duration": "2:23",
+          "seconds": 143,
+          "thumbnail": "https://i.ytimg.com/vi/GDDy1kjaiHU/maxresdefault.jpg",
+          "source": "Max Verstappen",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "Xq4s19DzEzI",
+          "title": "Helicopter view Nürburgring Nordschleife (full lap) | NLS9",
+          "publishedAt": "2025-10-08T06:50:45Z",
+          "duration": "8:31",
+          "seconds": 511,
+          "thumbnail": "https://i.ytimg.com/vi/Xq4s19DzEzI/maxresdefault.jpg",
+          "source": "Max Verstappen",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "9GaMD3FhTIQ",
+          "title": "Nürburgring Nordschleife onboard (full lap) | Fastest Lap NLS9",
+          "publishedAt": "2025-09-30T12:03:18Z",
+          "duration": "7:56",
+          "seconds": 476,
+          "thumbnail": "https://i.ytimg.com/vi/9GaMD3FhTIQ/maxresdefault.jpg",
+          "source": "Max Verstappen",
+          "blockedRegions": [],
+          "allowedRegions": []
+        }
+      ]
+    },
+    {
+      "driverID": "martin",
+      "channelID": "motogp",
+      "name": "Jorge Martin",
+      "videos": [
+        {
+          "id": "c8zZlEuHKq8",
+          "title": "#VLOG6 I Restart",
+          "publishedAt": "2026-01-30T19:00:45Z",
+          "duration": "14:29",
+          "seconds": 869,
+          "thumbnail": "https://i.ytimg.com/vi/c8zZlEuHKq8/maxresdefault.jpg",
+          "source": "Jorge Martin",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "9a_YPQ5tuf4",
+          "title": "#VLOG 05 | ¿Qué hago en Madrid? Día fuera de la competición.",
+          "publishedAt": "2025-09-22T15:00:22Z",
+          "duration": "11:25",
+          "seconds": 685,
+          "thumbnail": "https://i.ytimg.com/vi/9a_YPQ5tuf4/maxresdefault.jpg",
+          "source": "Jorge Martin",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "hixf_EYljq0",
+          "title": "#VLOG4 🏁| Red Bull Ring 🇦🇹 | Back from Summer Break!",
+          "publishedAt": "2025-08-20T15:00:06Z",
+          "duration": "10:06",
+          "seconds": 606,
+          "thumbnail": "https://i.ytimg.com/vi/hixf_EYljq0/maxresdefault.jpg",
+          "source": "Jorge Martin",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "VQ2108fdZr4",
+          "title": "#VLOG3 | Segunda pretemporada en marcha 🔥 ¡Vamos a por todas!",
+          "publishedAt": "2025-07-06T16:00:06Z",
+          "duration": "10:33",
+          "seconds": 633,
+          "thumbnail": "https://i.ytimg.com/vi/VQ2108fdZr4/maxresdefault.jpg",
+          "source": "Jorge Martin",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "wT1BiWwH3v0",
+          "title": "#VLOG2 | My Comeback ENDS in Another INJURY",
+          "publishedAt": "2025-04-20T12:00:06Z",
+          "duration": "7:33",
+          "seconds": 453,
+          "thumbnail": "https://i.ytimg.com/vi/wT1BiWwH3v0/maxresdefault.jpg",
+          "source": "Jorge Martin",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "90L-efPq9ZY",
+          "title": "#VLOG1 | Recovery day with me",
+          "publishedAt": "2025-03-24T12:45:00Z",
+          "duration": "15:46",
+          "seconds": 946,
+          "thumbnail": "https://i.ytimg.com/vi/90L-efPq9ZY/maxresdefault.jpg",
+          "source": "Jorge Martin",
+          "blockedRegions": [],
+          "allowedRegions": []
+        }
+      ]
+    },
+    {
+      "driverID": "marquez",
+      "channelID": "motogp",
+      "name": "Marc Marquez",
+      "videos": [
+        {
+          "id": "d8faCLk0ouY",
+          "title": "Preseason en El Búnker | MX y Flat Track",
+          "publishedAt": "2026-01-27T10:59:09Z",
+          "duration": "7:05",
+          "seconds": 425,
+          "thumbnail": "https://i.ytimg.com/vi/d8faCLk0ouY/maxresdefault.jpg",
+          "source": "Marc Marquez",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "ib3djBGHxj0",
+          "title": "Flat trackeando 🔥🤘🏼 #Insta360 #CircuitAlcarras ",
+          "publishedAt": "2025-12-29T17:38:43Z",
+          "duration": "2:39",
+          "seconds": 159,
+          "thumbnail": "https://i.ytimg.com/vi/ib3djBGHxj0/sddefault.jpg",
+          "source": "Marc Marquez",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "GbX1VfNZAGA",
+          "title": "Un reto con ​⁠​⁠​⁠@audispain… ¿Quién ganará? 😉",
+          "publishedAt": "2025-08-07T12:41:52Z",
+          "duration": "2:57",
+          "seconds": 177,
+          "thumbnail": "https://i.ytimg.com/vi/GbX1VfNZAGA/maxresdefault.jpg",
+          "source": "Marc Marquez",
+          "blockedRegions": [],
+          "allowedRegions": []
+        }
+      ]
+    },
+    {
+      "driverID": "arvid-lindblad",
+      "channelID": "f1",
+      "name": "Arvid Lindblad",
+      "videos": [
+        {
+          "id": "gSAcfPAI7-k",
+          "title": "f1 driver vs rally car",
+          "publishedAt": "2026-07-30T15:02:35Z",
+          "duration": "20:44",
+          "seconds": 1244,
+          "thumbnail": "https://i.ytimg.com/vi/gSAcfPAI7-k/maxresdefault.jpg",
+          "source": "Arvid Lindblad",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "Md1Kv-PmZLA",
+          "title": "the journey to formula 1 with my dad",
+          "publishedAt": "2026-07-01T13:01:11Z",
+          "duration": "14:28",
+          "seconds": 868,
+          "thumbnail": "https://i.ytimg.com/vi/Md1Kv-PmZLA/maxresdefault.jpg",
+          "source": "Arvid Lindblad",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "kb2aPOzoMzA",
+          "title": "life outside f1: visiting mumbai with the family",
+          "publishedAt": "2026-04-25T11:01:19Z",
+          "duration": "20:20",
+          "seconds": 1220,
+          "thumbnail": "https://i.ytimg.com/vi/kb2aPOzoMzA/maxresdefault.jpg",
+          "source": "Arvid Lindblad",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "Ufn2Uf91yeQ",
+          "title": "48 hours in tokyo",
+          "publishedAt": "2026-04-04T12:02:09Z",
+          "duration": "17:23",
+          "seconds": 1043,
+          "thumbnail": "https://i.ytimg.com/vi/Ufn2Uf91yeQ/maxresdefault.jpg",
+          "source": "Arvid Lindblad",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "teUUa3AdYHI",
+          "title": "training for my first F1 season",
+          "publishedAt": "2026-02-08T18:09:41Z",
+          "duration": "14:40",
+          "seconds": 880,
+          "thumbnail": "https://i.ytimg.com/vi/teUUa3AdYHI/maxresdefault.jpg",
+          "source": "Arvid Lindblad",
+          "blockedRegions": [
+            "RU"
+          ],
+          "allowedRegions": []
+        },
+        {
+          "id": "kW2Fw9j7_bc",
+          "title": "cooking indian food with my nani",
+          "publishedAt": "2025-12-29T16:03:58Z",
+          "duration": "7:40",
+          "seconds": 460,
+          "thumbnail": "https://i.ytimg.com/vi/kW2Fw9j7_bc/maxresdefault.jpg",
+          "source": "Arvid Lindblad",
+          "blockedRegions": [],
+          "allowedRegions": []
+        }
+      ]
+    },
+    {
+      "driverID": "carlos-sainz",
+      "channelID": "f1",
+      "name": "Carlos Sainz",
+      "videos": [
+        {
+          "id": "c8yEn13Bwe0",
+          "title": "I Started a New Project: Fifty Five | DONTBLINK EP2 SEASON 7",
+          "publishedAt": "2026-08-27T17:26:03Z",
+          "duration": "5:55",
+          "seconds": 355,
+          "thumbnail": "https://i.ytimg.com/vi/c8yEn13Bwe0/maxresdefault.jpg",
+          "source": "Carlos Sainz",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "PULYy9PGhmI",
+          "title": "Inside the Miami GP with Team Fifty5 | DONTBLINK EP1 SEASON 7",
+          "publishedAt": "2026-05-20T17:28:33Z",
+          "duration": "11:25",
+          "seconds": 685,
+          "thumbnail": "https://i.ytimg.com/vi/PULYy9PGhmI/maxresdefault.jpg",
+          "source": "Carlos Sainz",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "ZUWkCckVmCc",
+          "title": "Driving my Dad's Dakar Beast | DONTBLINK EP4 SEASON 6",
+          "publishedAt": "2025-10-01T12:00:26Z",
+          "duration": "10:40",
+          "seconds": 640,
+          "thumbnail": "https://i.ytimg.com/vi/ZUWkCckVmCc/maxresdefault.jpg",
+          "source": "Carlos Sainz",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "lLkclHdFEMI",
+          "title": "A week in my life: SPANISH GP EDITION | DONTBLINK EP3 SEASON 6",
+          "publishedAt": "2025-07-10T16:28:00Z",
+          "duration": "15:07",
+          "seconds": 907,
+          "thumbnail": "https://i.ytimg.com/vi/lLkclHdFEMI/maxresdefault.jpg",
+          "source": "Carlos Sainz",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "MWv29nvJi74",
+          "title": "A week in my life: MONACO GP EDITION | DONTBLINK EP2 SEASON 6",
+          "publishedAt": "2025-05-28T16:20:06Z",
+          "duration": "14:26",
+          "seconds": 866,
+          "thumbnail": "https://i.ytimg.com/vi/MWv29nvJi74/maxresdefault.jpg",
+          "source": "Carlos Sainz",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "VWFlrLk3Mjg",
+          "title": "Last stop before racing | CARLOS SAINZ | DONTBLINK EP1 SEASON 6",
+          "publishedAt": "2025-03-30T17:45:00Z",
+          "duration": "8:02",
+          "seconds": 482,
+          "thumbnail": "https://i.ytimg.com/vi/VWFlrLk3Mjg/maxresdefault.jpg",
+          "source": "Carlos Sainz",
+          "blockedRegions": [],
+          "allowedRegions": []
+        }
+      ]
+    },
+    {
+      "driverID": "yuki-tsunoda",
+      "channelID": "f1",
+      "name": "Yuki Tsunoda",
+      "videos": [
+        {
+          "id": "NyYKiDNF5ww",
+          "title": "yukicore - miami grand prix fun",
+          "publishedAt": "2025-05-14T13:29:47Z",
+          "duration": "7:03",
+          "seconds": 423,
+          "thumbnail": "https://i.ytimg.com/vi/NyYKiDNF5ww/maxresdefault.jpg",
+          "source": "Yuki Tsunoda",
+          "blockedRegions": [],
+          "allowedRegions": []
+        }
+      ]
+    },
+    {
+      "driverID": "alex-marquez",
+      "channelID": "motogp",
+      "name": "Alex Marquez",
+      "videos": [
+        {
+          "id": "bSetpaHTE90",
+          "title": "Volver a empezar | AM73",
+          "publishedAt": "2026-06-17T14:45:02Z",
+          "duration": "5:16",
+          "seconds": 316,
+          "thumbnail": "https://i.ytimg.com/vi/bSetpaHTE90/maxresdefault.jpg",
+          "source": "Alex Marquez",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "MPk4qouV4c4",
+          "title": "El GP de Catalunya desde dentro",
+          "publishedAt": "2026-05-27T13:24:56Z",
+          "duration": "10:06",
+          "seconds": 606,
+          "thumbnail": "https://i.ytimg.com/vi/MPk4qouV4c4/maxresdefault.jpg",
+          "source": "Alex Marquez",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "Lz6-OJfF414",
+          "title": "JEREZ 2026  | Vuelve la Alexneta",
+          "publishedAt": "2026-05-04T11:52:22Z",
+          "duration": "3:31",
+          "seconds": 211,
+          "thumbnail": "https://i.ytimg.com/vi/Lz6-OJfF414/maxresdefault.jpg",
+          "source": "Alex Marquez",
+          "blockedRegions": [],
+          "allowedRegions": []
+        }
+      ]
+    },
+    {
+      "driverID": "oliver-solberg",
+      "channelID": "wrc",
+      "name": "Oliver Solberg",
+      "videos": [
+        {
+          "id": "qTOV8ybYzP4",
+          "title": "Taking my dad “Petter Solberg” for a ride in my Rally1 #toyota #fyp #rally",
+          "publishedAt": "2026-07-24T18:38:59Z",
+          "duration": "2:01",
+          "seconds": 121,
+          "thumbnail": "https://i.ytimg.com/vi/qTOV8ybYzP4/maxresdefault.jpg",
+          "source": "Oliver Solberg",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "pfm8RBS5MOM",
+          "title": "Oli & Coco Safari Vlog",
+          "publishedAt": "2026-03-12T11:27:39Z",
+          "duration": "2:52",
+          "seconds": 172,
+          "thumbnail": "https://i.ytimg.com/vi/pfm8RBS5MOM/maxresdefault.jpg",
+          "source": "Oliver Solberg",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "UawRfIpX2ok",
+          "title": "Oliver Solberg Portugal test #wrc #rally1",
+          "publishedAt": "2026-02-28T19:58:40Z",
+          "duration": "3:01",
+          "seconds": 181,
+          "thumbnail": "https://i.ytimg.com/vi/UawRfIpX2ok/maxresdefault.jpg",
+          "source": "Oliver Solberg",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "cem8c3vbEP0",
+          "title": "Be my passenger! Saudi edition 🇸🇦📍#oliversolberg #rallycar #rallydriver",
+          "publishedAt": "2025-11-22T15:14:35Z",
+          "duration": "2:59",
+          "seconds": 179,
+          "thumbnail": "https://i.ytimg.com/vi/cem8c3vbEP0/maxresdefault.jpg",
+          "source": "Oliver Solberg",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "CDYkvGmYenQ",
+          "title": "Be my passenger, Saudi edition!",
+          "publishedAt": "2025-11-22T14:37:45Z",
+          "duration": "2:56",
+          "seconds": 176,
+          "thumbnail": "https://i.ytimg.com/vi/CDYkvGmYenQ/maxresdefault.jpg",
+          "source": "Oliver Solberg",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "kkBVmfRQ5FU",
+          "title": "WRC2 WORLD CHAMPIONS 2025 🏆",
+          "publishedAt": "2025-09-16T16:46:34Z",
+          "duration": "20:00",
+          "seconds": 1200,
+          "thumbnail": "https://i.ytimg.com/vi/kkBVmfRQ5FU/sddefault.jpg",
+          "source": "Oliver Solberg",
+          "blockedRegions": [],
+          "allowedRegions": []
+        }
+      ]
+    },
+    {
+      "driverID": "jon-armstrong",
+      "channelID": "wrc",
+      "name": "Jon Armstrong",
+      "videos": [
+        {
+          "id": "0n2HcFwLGcY",
+          "title": "Driving a Legendary Rally Monster + Iconic Car Tour",
+          "publishedAt": "2025-09-03T18:17:53Z",
+          "duration": "22:12",
+          "seconds": 1332,
+          "thumbnail": "https://i.ytimg.com/vi/0n2HcFwLGcY/maxresdefault.jpg",
+          "source": "Jon Armstrong",
+          "blockedRegions": [],
+          "allowedRegions": []
+        }
+      ]
+    },
+    {
+      "driverID": "josef-newgarden",
+      "channelID": "indycar",
+      "name": "Josef Newgarden",
+      "videos": [
+        {
+          "id": "lIIEgNpJEQ8",
+          "title": "ADMIT1 (2026 Ep 19) / No Holding Back For Our Final Race of 2026!",
+          "publishedAt": "2026-09-10T12:00:23Z",
+          "duration": "11:32",
+          "seconds": 692,
+          "thumbnail": "https://i.ytimg.com/vi/lIIEgNpJEQ8/maxresdefault.jpg",
+          "source": "Josef Newgarden",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "sAVVx3FQq4k",
+          "title": "ADMIT1 (2026 Ep 18) / Two Races In One Day at Milwaukee",
+          "publishedAt": "2026-09-03T18:51:17Z",
+          "duration": "17:53",
+          "seconds": 1073,
+          "thumbnail": "https://i.ytimg.com/vi/sAVVx3FQq4k/maxresdefault.jpg",
+          "source": "Josef Newgarden",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "JSnA27TRRns",
+          "title": "ADMIT1 (2026 Ep 17) / We Made History on the Streets of D.C.",
+          "publishedAt": "2026-08-27T16:27:08Z",
+          "duration": "15:02",
+          "seconds": 902,
+          "thumbnail": "https://i.ytimg.com/vi/JSnA27TRRns/maxresdefault.jpg",
+          "source": "Josef Newgarden",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "wVnDEtgPN5w",
+          "title": "ADMIT1 (2026 Ep 16) / Survival of the Fittest in Markham",
+          "publishedAt": "2026-08-20T12:28:53Z",
+          "duration": "12:47",
+          "seconds": 767,
+          "thumbnail": "https://i.ytimg.com/vi/wVnDEtgPN5w/maxresdefault.jpg",
+          "source": "Josef Newgarden",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "Iig5gf1wQAc",
+          "title": "ADMIT1 (2026 Ep 15) / Gambling on Strategy in Portland: Pitting Early, Pushing Hard",
+          "publishedAt": "2026-08-13T12:55:03Z",
+          "duration": "14:49",
+          "seconds": 889,
+          "thumbnail": "https://i.ytimg.com/vi/Iig5gf1wQAc/maxresdefault.jpg",
+          "source": "Josef Newgarden",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "UvXL_b47ch0",
+          "title": "ADMIT1 (2026 Ep 14) / Nashville Brought the Heat 🔥",
+          "publishedAt": "2026-07-26T15:06:49Z",
+          "duration": "13:40",
+          "seconds": 820,
+          "thumbnail": "https://i.ytimg.com/vi/UvXL_b47ch0/maxresdefault.jpg",
+          "source": "Josef Newgarden",
+          "blockedRegions": [],
+          "allowedRegions": []
+        }
+      ]
+    },
+    {
+      "driverID": "mick-schumacher",
+      "channelID": "indycar",
+      "name": "Mick Schumacher",
+      "videos": [
+        {
+          "id": "Wp6XvqXwGwk",
+          "title": "My Indycar Season Started Like This...",
+          "publishedAt": "2026-03-24T18:12:34Z",
+          "duration": "6:59",
+          "seconds": 419,
+          "thumbnail": "https://i.ytimg.com/vi/Wp6XvqXwGwk/maxresdefault.jpg",
+          "source": "Mick Schumacher",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "u72CvG5wt3s",
+          "title": "ANSWERING YOUR QUESTIONS!",
+          "publishedAt": "2026-01-14T15:44:16Z",
+          "duration": "12:01",
+          "seconds": 721,
+          "thumbnail": "https://i.ytimg.com/vi/u72CvG5wt3s/maxresdefault.jpg",
+          "source": "Mick Schumacher",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "vLTjEsRoUek",
+          "title": "I'M RACING INDYCAR NEXT SEASON! Behind the scenes at my first IndyCar test!",
+          "publishedAt": "2025-11-25T15:32:33Z",
+          "duration": "11:13",
+          "seconds": 673,
+          "thumbnail": "https://i.ytimg.com/vi/vLTjEsRoUek/maxresdefault.jpg",
+          "source": "Mick Schumacher",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "VZXD8i8k6qY",
+          "title": "RACING, GOLFING AND SURFING IN TEXAS!",
+          "publishedAt": "2025-09-21T15:01:56Z",
+          "duration": "23:40",
+          "seconds": 1420,
+          "thumbnail": "https://i.ytimg.com/vi/VZXD8i8k6qY/maxresdefault.jpg",
+          "source": "Mick Schumacher",
+          "blockedRegions": [
+            "BY",
+            "RU"
+          ],
+          "allowedRegions": []
+        },
+        {
+          "id": "fomELtnVsWQ",
+          "title": "24H OF LE MANS: BEHIND THE SCENES",
+          "publishedAt": "2025-06-26T15:12:45Z",
+          "duration": "18:06",
+          "seconds": 1086,
+          "thumbnail": "https://i.ytimg.com/vi/fomELtnVsWQ/maxresdefault.jpg",
+          "source": "Mick Schumacher",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "SFhNZZd1fY4",
+          "title": "A WEEKEND AT HOME",
+          "publishedAt": "2025-06-01T17:14:14Z",
+          "duration": "19:18",
+          "seconds": 1158,
+          "thumbnail": "https://i.ytimg.com/vi/SFhNZZd1fY4/maxresdefault.jpg",
+          "source": "Mick Schumacher",
+          "blockedRegions": [],
+          "allowedRegions": []
+        }
+      ]
+    },
+    {
+      "driverID": "romain-grosjean",
+      "channelID": "indycar",
+      "name": "Romain Grosjean",
+      "videos": [
+        {
+          "id": "q525WI837gk",
+          "title": "Bet on Yourself: The Story. Romain Grosjean x Casazar Tequila",
+          "publishedAt": "2025-11-13T15:01:42Z",
+          "duration": "2:41",
+          "seconds": 161,
+          "thumbnail": "https://i.ytimg.com/vi/q525WI837gk/hqdefault.jpg",
+          "source": "Romain Grosjean",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "pEjrn20TShE",
+          "title": "5th Anniversary of R8G: the official Party!",
+          "publishedAt": "2025-04-23T08:06:06Z",
+          "duration": "1:38:27",
+          "seconds": 5907,
+          "thumbnail": "https://i.ytimg.com/vi/pEjrn20TShE/maxresdefault.jpg",
+          "source": "Romain Grosjean",
+          "blockedRegions": [],
+          "allowedRegions": []
+        }
+      ]
+    },
+    {
+      "driverID": "sting-ray-robb",
+      "channelID": "indycar",
+      "name": "Sting Ray Robb",
+      "videos": [
+        {
+          "id": "lB53QGNwYU0",
+          "title": "Let’s go for a rollercoaster ride at Barber Motorsports Park🎢",
+          "publishedAt": "2026-04-04T15:55:10Z",
+          "duration": "2:25",
+          "seconds": 145,
+          "thumbnail": "https://i.ytimg.com/vi/lB53QGNwYU0/maxresdefault.jpg",
+          "source": "Sting Ray Robb",
+          "blockedRegions": [],
+          "allowedRegions": []
+        }
+      ]
+    },
+    {
+      "driverID": "chase-elliott",
+      "channelID": "nascar",
+      "name": "Chase Elliott",
+      "videos": [
+        {
+          "id": "tsl-W-OVHaE",
+          "title": "DESI9N TO DRIVE 2026 - A Night to Remember for Maximus and Noelle",
+          "publishedAt": "2026-07-15T21:47:10Z",
+          "duration": "5:31",
+          "seconds": 331,
+          "thumbnail": "https://i.ytimg.com/vi/tsl-W-OVHaE/maxresdefault.jpg",
+          "source": "Chase Elliott",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "Y7p1qod1FE4",
+          "title": "DESI9N TO DRIVE 2025 - A cool win for Rhealynn at Atlanta",
+          "publishedAt": "2025-07-01T21:45:01Z",
+          "duration": "3:03",
+          "seconds": 183,
+          "thumbnail": "https://i.ytimg.com/vi/Y7p1qod1FE4/maxresdefault.jpg",
+          "source": "Chase Elliott",
+          "blockedRegions": [],
+          "allowedRegions": []
+        }
+      ]
+    },
+    {
+      "driverID": "joey-logano",
+      "channelID": "nascar",
+      "name": "Joey Logano",
+      "videos": [
+        {
+          "id": "k7J2XPzCc4M",
+          "title": "JL Kids Crew 2026: Drew, Gabriel, and Parker at Atlanta",
+          "publishedAt": "2026-07-17T13:17:52Z",
+          "duration": "7:55",
+          "seconds": 475,
+          "thumbnail": "https://i.ytimg.com/vi/k7J2XPzCc4M/maxresdefault.jpg",
+          "source": "Joey Logano",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "jM-p1S6QemQ",
+          "title": "JL Kids Crew 2026: Jack, Kayden, and Tommy at Texas",
+          "publishedAt": "2026-05-07T14:56:26Z",
+          "duration": "8:44",
+          "seconds": 524,
+          "thumbnail": "https://i.ytimg.com/vi/jM-p1S6QemQ/maxresdefault.jpg",
+          "source": "Joey Logano",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "vn8pxS0hkCc",
+          "title": "Sportsmen Dinner | 2026",
+          "publishedAt": "2026-03-12T19:20:40Z",
+          "duration": "38:56",
+          "seconds": 2336,
+          "thumbnail": "https://i.ytimg.com/vi/vn8pxS0hkCc/maxresdefault.jpg",
+          "source": "Joey Logano",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "CqldIF_3Wg4",
+          "title": "2026 Panini Daytona 500 VIP Experience with Joey Logano",
+          "publishedAt": "2026-02-20T15:26:24Z",
+          "duration": "3:45",
+          "seconds": 225,
+          "thumbnail": "https://i.ytimg.com/vi/CqldIF_3Wg4/maxresdefault.jpg",
+          "source": "Joey Logano",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "mxiCl5k_U2g",
+          "title": "Joey Logano Tours Insane Car Collection",
+          "publishedAt": "2025-12-09T21:46:06Z",
+          "duration": "6:18",
+          "seconds": 378,
+          "thumbnail": "https://i.ytimg.com/vi/mxiCl5k_U2g/maxresdefault.jpg",
+          "source": "Joey Logano",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "uPBy4QKHOy4",
+          "title": "JL Kids Crew 2025: Gage, Ellie & Hunter at Las Vegas",
+          "publishedAt": "2025-10-16T15:02:33Z",
+          "duration": "9:31",
+          "seconds": 571,
+          "thumbnail": "https://i.ytimg.com/vi/uPBy4QKHOy4/maxresdefault.jpg",
+          "source": "Joey Logano",
+          "blockedRegions": [],
+          "allowedRegions": []
+        }
+      ]
+    },
+    {
+      "driverID": "kyle-busch",
+      "channelID": "nascar",
+      "name": "Kyle Busch",
+      "videos": [
+        {
+          "id": "FBpdJ-UYOe0",
+          "title": "I Drove A Combine & Harvested Corn | Brex Ep. 61",
+          "publishedAt": "2026-09-16T21:00:09Z",
+          "duration": "10:17",
+          "seconds": 617,
+          "thumbnail": "https://i.ytimg.com/vi/FBpdJ-UYOe0/maxresdefault.jpg",
+          "source": "Kyle Busch",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "B_rlc7xqo3g",
+          "title": "WILD 3-Wide Legend Win at Tri-County | Brex Ep. 60",
+          "publishedAt": "2026-09-10T21:00:06Z",
+          "duration": "6:59",
+          "seconds": 419,
+          "thumbnail": "https://i.ytimg.com/vi/B_rlc7xqo3g/maxresdefault.jpg",
+          "source": "Kyle Busch",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "zo_l98me2vo",
+          "title": "I Lost By A Nose In Illinois | Brex Ep. 59",
+          "publishedAt": "2026-09-09T01:02:17Z",
+          "duration": "26:40",
+          "seconds": 1600,
+          "thumbnail": "https://i.ytimg.com/vi/zo_l98me2vo/maxresdefault.jpg",
+          "source": "Kyle Busch",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "dqKJGy5AKTs",
+          "title": "Kyle Busch Invitational at Bowman Gray | Brex Ep. 58",
+          "publishedAt": "2026-08-26T21:00:06Z",
+          "duration": "11:37",
+          "seconds": 697,
+          "thumbnail": "https://i.ytimg.com/vi/dqKJGy5AKTs/maxresdefault.jpg",
+          "source": "Kyle Busch",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "8W1YHx1DQeA",
+          "title": "Rocky Mountain Racing | Brex Ep. 57",
+          "publishedAt": "2026-08-07T21:22:36Z",
+          "duration": "17:11",
+          "seconds": 1031,
+          "thumbnail": "https://i.ytimg.com/vi/8W1YHx1DQeA/maxresdefault.jpg",
+          "source": "Kyle Busch",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "hOQyfptIjnc",
+          "title": "For My Dad | Brex Ep. 56",
+          "publishedAt": "2026-07-29T21:00:06Z",
+          "duration": "21:25",
+          "seconds": 1285,
+          "thumbnail": "https://i.ytimg.com/vi/hOQyfptIjnc/maxresdefault.jpg",
+          "source": "Kyle Busch",
+          "blockedRegions": [],
+          "allowedRegions": []
+        }
+      ]
+    },
+    {
+      "driverID": "bubba-wallace",
+      "channelID": "nascar",
+      "name": "Bubba Wallace",
+      "videos": [
+        {
+          "id": "8rr6wuRV5qY",
+          "title": "Reliving My Brickyard 400 Win | Bubba Wallace",
+          "publishedAt": "2026-07-24T15:47:54Z",
+          "duration": "12:46",
+          "seconds": 766,
+          "thumbnail": "https://i.ytimg.com/vi/8rr6wuRV5qY/maxresdefault.jpg",
+          "source": "Bubba Wallace",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "50o-oq0Kbak",
+          "title": "My Talladega win car is finally home | Bubba Wallace Vlogs",
+          "publishedAt": "2025-12-05T20:55:27Z",
+          "duration": "9:54",
+          "seconds": 594,
+          "thumbnail": "https://i.ytimg.com/vi/50o-oq0Kbak/maxresdefault.jpg",
+          "source": "Bubba Wallace",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "tLOjgfo_-u4",
+          "title": "NASCAR drivers vs. Indy Car Driver | Shane Van Gisbergen, Bubba Wallace, Scott McLaughlin",
+          "publishedAt": "2025-07-24T20:00:37Z",
+          "duration": "14:18",
+          "seconds": 858,
+          "thumbnail": "https://i.ytimg.com/vi/tLOjgfo_-u4/maxresdefault.jpg",
+          "source": "Bubba Wallace",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "Mo3cPV6G0wg",
+          "title": "Shane Van Gisbergen, Bubba Wallace, and Scott McLaughlin race each other",
+          "publishedAt": "2025-07-04T17:22:42Z",
+          "duration": "12:06",
+          "seconds": 726,
+          "thumbnail": "https://i.ytimg.com/vi/Mo3cPV6G0wg/maxresdefault.jpg",
+          "source": "Bubba Wallace",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "D3vtUWBHOCo",
+          "title": "That Mexican OT’s first NASCAR race",
+          "publishedAt": "2025-05-30T22:01:44Z",
+          "duration": "21:11",
+          "seconds": 1271,
+          "thumbnail": "https://i.ytimg.com/vi/D3vtUWBHOCo/maxresdefault.jpg",
+          "source": "Bubba Wallace",
+          "blockedRegions": [
+            "BY",
+            "RU"
+          ],
+          "allowedRegions": []
+        },
+        {
+          "id": "KmkkfCrKlAA",
+          "title": "I played R.E.P.O. and here's how it went",
+          "publishedAt": "2025-05-20T19:38:51Z",
+          "duration": "24:12",
+          "seconds": 1452,
+          "thumbnail": "https://i.ytimg.com/vi/KmkkfCrKlAA/maxresdefault.jpg",
+          "source": "Bubba Wallace",
+          "blockedRegions": [],
+          "allowedRegions": []
+        }
+      ]
+    },
+    {
+      "driverID": "noah-gragson",
+      "channelID": "nascar",
+      "name": "Noah Gragson",
+      "videos": [
+        {
+          "id": "uKRKbm180XY",
+          "title": "Daytona with Danny Green",
+          "publishedAt": "2026-09-04T21:37:33Z",
+          "duration": "8:45",
+          "seconds": 525,
+          "thumbnail": "https://i.ytimg.com/vi/uKRKbm180XY/maxresdefault.jpg",
+          "source": "Noah Gragson",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "7ecizox4tVI",
+          "title": "I Brought the Costco Guys to Atlanta!",
+          "publishedAt": "2026-07-16T17:08:45Z",
+          "duration": "7:39",
+          "seconds": 459,
+          "thumbnail": "https://i.ytimg.com/vi/7ecizox4tVI/maxresdefault.jpg",
+          "source": "Noah Gragson",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "d1MlwCQL4Ng",
+          "title": "Race Weekend on an Active Naval Base",
+          "publishedAt": "2026-06-26T16:08:00Z",
+          "duration": "9:33",
+          "seconds": 573,
+          "thumbnail": "https://i.ytimg.com/vi/d1MlwCQL4Ng/maxresdefault.jpg",
+          "source": "Noah Gragson",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "9YdGHyhTjOk",
+          "title": "Michigan with The Mayor",
+          "publishedAt": "2026-06-12T18:48:04Z",
+          "duration": "8:19",
+          "seconds": 499,
+          "thumbnail": "https://i.ytimg.com/vi/9YdGHyhTjOk/maxresdefault.jpg",
+          "source": "Noah Gragson",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "qAnz2cA6oew",
+          "title": "I brought Granny to Talladega",
+          "publishedAt": "2026-05-01T17:00:00Z",
+          "duration": "7:48",
+          "seconds": 468,
+          "thumbnail": "https://i.ytimg.com/vi/qAnz2cA6oew/maxresdefault.jpg",
+          "source": "Noah Gragson",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "Rju9fj77GIY",
+          "title": "Wild Week out on the West Coast!",
+          "publishedAt": "2026-03-25T21:43:29Z",
+          "duration": "11:20",
+          "seconds": 680,
+          "thumbnail": "https://i.ytimg.com/vi/Rju9fj77GIY/maxresdefault.jpg",
+          "source": "Noah Gragson",
           "blockedRegions": [],
           "allowedRegions": []
         }
