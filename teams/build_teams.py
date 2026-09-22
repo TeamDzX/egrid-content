@@ -443,6 +443,9 @@ def driver_notes(teams: list[Team], race: RaceSummary | None, per_driver: dict[s
     return notes
 
 
+DRIVER_BATCH = 8
+
+
 # Season win/podium tallies per person, filled by the fetchers as they walk
 # the results; keyed by channel then full name.
 PER_DRIVER: dict[str, dict[str, tuple[int, int]]] = {"f1": {}, "motogp": {}, "formulae": {}}
@@ -556,6 +559,8 @@ Hard rules:
 For every team index write:
 - summary: at most 70 words on the season so far — where they stand, how the points have come, how their drivers or riders compare with each other. If position or points are absent, describe the season without ranking them.
 - lastRace: at most 60 words on the most recent race, from the lines given (finishing position, grid position where given, points, a did-not-finish). If no race lines are given, return an empty string.
+
+If the "teams" list is empty, return "teams": [] and write only the drivers.
 
 If a "drivers" list is supplied, also write for every driver index:
 - summary: at most 50 words on that driver's or rider's season from their own facts only — standing, points, wins and podiums, their last race line. You may compare them with the team-mate named in their facts and no one else.
@@ -771,9 +776,13 @@ def write_reviews(teams: list[Team], race: RaceSummary | None, notes: list[Drive
         return out, race_out, driver_out
     facts = facts_for_llm(teams)
     data, writer = None, ""
+    # Teams and the race in one request, as the writer handled fine before
+    # driver notes existed; the drivers follow in small batches, because a
+    # whole MotoGP grid in the same reply ran past what a self-hosted model
+    # returns as one well-formed JSON object.
     for name, ask in (("own server", ask_own_server), ("Claude", ask_claude)):
         try:
-            data = ask(facts, race_facts(race), driver_facts(notes, teams))
+            data = ask(facts, race_facts(race), None)
         except Exception as error:  # noqa: BLE001 - a writer must never sink the file
             log(f"  {name} writer crashed: {type(error).__name__}: {error}; falling through")
             continue
@@ -783,6 +792,20 @@ def write_reviews(teams: list[Team], race: RaceSummary | None, notes: list[Drive
     if data is None:
         log("  no writer available; using templated prose")
         return out, race_out, driver_out
+    ask = ask_own_server if writer == "own server" else ask_claude
+    all_driver_facts = driver_facts(notes, teams)
+    written_drivers = []
+    for start in range(0, len(all_driver_facts), DRIVER_BATCH):
+        batch = all_driver_facts[start:start + DRIVER_BATCH]
+        try:
+            reply = ask([], None, batch)
+        except Exception as error:  # noqa: BLE001 - a batch must never sink the file
+            log(f"  driver batch {start}: {type(error).__name__}: {error}")
+            reply = None
+        if reply:
+            written_drivers += reply.get("drivers", []) or []
+    data["drivers"] = written_drivers
+    log(f"  {writer} wrote {len(written_drivers)} of {len(all_driver_facts)} driver notes")
     everyone = {m.name for t in teams for m in t.members} | {l.name for t in teams for l in t.lines}
     mates = {m.name: {x.name for x in t.members} for t in teams for m in t.members}
     by_driver = {}
