@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-09-22T08:42:47Z",
+ "generatedAt": "2026-09-22T09:28:44Z",
  "teams": [
   {
    "id": "f1-mercedes",
@@ -29,11 +29,11 @@
     ]
    },
    "review": {
-    "summary": "Leading the championship with 503 points and 10 wins from 14 rounds, Mercedes holds a significant advantage. Antonelli is currently ahead of Russell in the standings. In Spain, Antonelli won from second on the grid, while Russell finished fifth.",
+    "summary": "Leading the championship with 503 points and 10 wins from 14 rounds, Antonelli holds a significant advantage over Russell in the standings.",
     "lastRace": "Antonelli took victory from second on the grid, while Russell finished fifth after starting sixth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
     "name": "Spanish Grand Prix",
     "round": 14,
@@ -83,11 +83,11 @@
     ]
    },
    "review": {
-    "summary": "Ferrari are second in the standings with 358 points and two wins. Hamilton is currently ahead of Leclerc in the championship. In Spain, Leclerc finished fourth after starting fifth, but Hamilton retired from fourth.",
-    "lastRace": "Leclerc finished fourth after starting fifth, while Hamilton retired from fourth on the grid.",
+    "summary": "Sitting second with 358 points and two victories this season, Hamilton currently leads Leclerc in the driver standings.",
+    "lastRace": "Leclerc finished fourth after starting fifth, but Hamilton failed to finish after starting fourth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
     "name": "Spanish Grand Prix",
     "round": 14,
@@ -137,11 +137,11 @@
     ]
    },
    "review": {
-    "summary": "McLaren are third in the championship with 306 points and two wins. Norris leads Piastri in the standings. In Spain, Norris finished third from pole position, while Piastri finished eighth.",
-    "lastRace": "Norris finished third after starting from pole, while Piastri moved from seventh to eighth.",
+    "summary": "Third in the championship with 306 points from 14 rounds, Norris holds a strong lead over Piastri.",
+    "lastRace": "Norris secured third place from pole position, while Piastri finished eighth after starting seventh.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
     "name": "Spanish Grand Prix",
     "round": 14,
@@ -196,11 +196,11 @@
     ]
    },
    "review": {
-    "summary": "Red Bull are fourth in the standings with 230 points and no wins. Verstappen is ahead of Hadjar and Lawson. In Spain, Verstappen finished second from third on the grid, while Lawson finished sixth.",
-    "lastRace": "At the Spanish Grand Prix, Max Verstappen finished 2nd from 3rd on the grid; Liam Lawson finished 6th from 8th on the grid.",
+    "summary": "Currently fourth with 230 points and no wins this season, Verstappen leads the team's drivers ahead of Hadjar and Lawson.",
+    "lastRace": "Verstappen finished second from third on the grid, with Lawson following in sixth from eighth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
     "name": "Spanish Grand Prix",
     "round": 14,
@@ -250,11 +250,11 @@
     ]
    },
    "review": {
-    "summary": "RB F1 Team are fifth in the championship with 77 points and no wins or podiums. Lindblad leads Tsunoda. In Spain, both drivers were lapped, with Lindblad finishing ninth and Tsunoda fourteenth.",
-    "lastRace": "Lindblad finished ninth and Tsunoda finished fourteenth, though both drivers were lapped.",
+    "summary": "Fifth in the standings with 77 points, Lindblad is currently outperforming Tsunoda in the championship.",
+    "lastRace": "Lindblad finished ninth after being lapped, while Tsunoda also finished a lap down in fourteenth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
     "name": "Spanish Grand Prix",
     "round": 14,
@@ -304,11 +304,11 @@
     ]
    },
    "review": {
-    "summary": "Alpine F1 Team are sixth in the standings with 68 points. Gasly is ahead of Colapinto. In Spain, Colapinto finished seventh from ninth on the grid, while Gasly was lapped.",
-    "lastRace": "Colapinto finished seventh after starting ninth, but Gasly was lapped.",
+    "summary": "Sitting sixth with 68 points from 14 rounds, Gasly leads Colapinto in the standings.",
+    "lastRace": "Colapinto moved up to seventh from ninth, while Gasly finished twelfth after being lapped.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
     "name": "Spanish Grand Prix",
     "round": 14,
@@ -358,11 +358,11 @@
     ]
    },
    "review": {
-    "summary": "Haas F1 Team are seventh in the championship with 21 points. Bearman holds a higher position than Ocon. In Spain, both drivers were lapped, with Ocon eleventh and Bearman sixteenth.",
-    "lastRace": "Ocon finished eleventh and Bearman finished sixteenth, though both were lapped.",
+    "summary": "Currently seventh with 21 points this season, Bearman holds a lead over Ocon in the championship.",
+    "lastRace": "At the Spanish Grand Prix, Esteban Ocon finished 11th from 13th on the grid; Oliver Bearman finished 16th from 22nd on the grid.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
     "name": "Spanish Grand Prix",
     "round": 14,
@@ -412,11 +412,11 @@
     ]
    },
    "review": {
-    "summary": "Audi are eighth in the standings with 17 points. Bortoleto is ahead of Hülkenberg. In Spain, Hülkenberg finished tenth and Bortoleto thirteenth, though both drivers were lapped.",
-    "lastRace": "Hülkenberg finished tenth and Bortoleto finished thirteenth, but both were lapped.",
+    "summary": "Eighth in the standings with 17 points, Bortoleto leads Hülkenberg in the driver rankings.",
+    "lastRace": "Hülkenberg finished tenth after starting eleventh, though he was lapped. Bortoleto finished thirteenth from twelfth but also finished a lap down.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
     "name": "Spanish Grand Prix",
     "round": 14,
@@ -466,11 +466,11 @@
     ]
    },
    "review": {
-    "summary": "Williams are ninth in the championship with 11 points. Sainz leads Albon in the standings. In Spain, Albon finished fifteenth while being lapped, but Sainz retired from twentieth on the grid.",
-    "lastRace": "Albon finished fifteenth while being lapped, whereas Sainz retired from twentieth on the grid.",
+    "summary": "Ninth in the championship with 11 points, Sainz currently leads Albon.",
+    "lastRace": "Albon finished fifteenth after being lapped, while Sainz retired from twentieth on the grid.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
     "name": "Spanish Grand Prix",
     "round": 14,
@@ -520,11 +520,11 @@
     ]
    },
    "review": {
-    "summary": "Aston Martin are tenth in the standings with 3 points. Alonso is ahead of Stroll. In Spain, Alonso finished seventeenth after being lapped, and Stroll retired from twenty-first.",
-    "lastRace": "Alonso finished seventeenth after being lapped, while Stroll retired from twenty-first on the grid.",
+    "summary": "Tenth place with 3 points so far this particular season, Alonso is ahead of Stroll in the standings.",
+    "lastRace": "Alonso finished seventeenth after being lapped, and Stroll failed to finish from twenty-first.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
     "name": "Spanish Grand Prix",
     "round": 14,
@@ -574,11 +574,11 @@
     ]
    },
    "review": {
-    "summary": "Cadillac F1 Team are eleventh in the championship with no points so far. In Spain, Bottas finished eighteenth while being lapped, but Pérez retired from eighteenth on the grid.",
+    "summary": "Sitting eleventh with no points recorded this season, Bottas leads Pérez in the championship.",
     "lastRace": "Bottas finished eighteenth after being lapped, while Pérez retired from eighteenth on the grid.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
     "name": "Spanish Grand Prix",
     "round": 14,
@@ -643,11 +643,11 @@
     ]
    },
    "review": {
-    "summary": "Aprilia have enjoyed a highly successful season so far, sitting top of the standings with seven wins and twenty-six podiums. Jorge Martin leads the team's charge with several strong results, while Marco Bezzecchi, Ai Ogura, and Raul Fernandez have also contributed significant points throughout the fifteen rounds.",
-    "lastRace": "In Austria, Jorge Martin finished second, followed by teammate Marco Bezzecchi in third, with Ai Ogura in fourth and Raul Fernandez in twelfth.",
+    "summary": "Aprilia have enjoyed a highly successful season so far, sitting top of the standings with seven wins and twenty-six podiums across fifteen rounds. Jorge Martin leads the team with 306 points, followed by Marco Bezzecchi, Ai Ogura and Raul Fernandez in the top seven.",
+    "lastRace": "In Austria, Jorge Martin finished second, while Marco Bezzecchi took third. Ai Ogura finished fourth and Raul Fernandez ended the race in twelfth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
     "name": "Grand Prix of Austria",
     "round": 15,
@@ -741,11 +741,11 @@
     ]
    },
    "review": {
-    "summary": "Ducati sit second in the championship, having secured six wins and twelve podiums across fifteen rounds. The team's scoring is spread across several riders, with Marc Marquez leading the group, followed by Fabio Di Giannantonio, Alex Marquez, Francesco Bagnaia, Fermin Aldeguer, Franco Morbidelli, and Iker Lecuona.",
-    "lastRace": "Marc Marquez finished fifth, while Francesco Bagnaia took seventh, Fermin Aldeguer eighth, Fabio Di Giannantonio ninth, and Franco Morbidelli eighteenth. Alex Marquez did not finish the race.",
+    "summary": "Ducati sit second in the championship with six wins and twelve podiums. Marc Marquez leads the factory riders with 294 points, while Fabio Di Giannantonio follows with 230 points. The team's performance is spread across several riders, ranging from eighth to thirty.",
+    "lastRace": "Marc Marquez finished fifth, Francesco Bagnaia seventh and Fermin Aldeguer eighth. Fabio Di Giannantonio followed in ninth, while Franco Morbidelli finished eighteenth. Alex Marquez did not finish the race.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
     "name": "Grand Prix of Austria",
     "round": 15,
@@ -843,11 +843,11 @@
     ]
    },
    "review": {
-    "summary": "KTM hold third place in the championship with two wins and seven podiums from fifteen rounds. Pedro Acosta has been the standout performer for the team, significantly outscoring his teammates Enea Bastianini, Brad Binder, Maverick Viñales, Pol Espargaro, and Jonas Folger.",
-    "lastRace": "Pedro Acosta took victory in Austria, while Brad Binder finished sixth, Enea Bastianini eleventh, and Pol Espargaro sixteenth.",
+    "summary": "KTM hold third place in the championship with two wins and seven podiums. Pedro Acosta leads the squad with 234 points, significantly ahead of Enea Bastianini, Brad Binder and Maverick Viñales.",
+    "lastRace": "Pedro Acosta won the race in Austria, followed by Brad Binder in sixth and Enea Bastianini in eleventh. Pol Espargaro finished sixteenth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
     "name": "Grand Prix of Austria",
     "round": 15,
@@ -931,11 +931,11 @@
     ]
    },
    "review": {
-    "summary": "Honda have struggled to find consistent scoring, currently sitting fourth in the championship. The riders' performances have been mixed, with Luca Marini, Diogo Moreira, Johann Zarco, Joan Mir, Takaaki Nakagami, and Cal Crutchlow all part of the squad.",
-    "lastRace": "Johann Zarco finished tenth, Takaaki Nakagami thirteenth, Luca Marini fourteenth, and Diogo Moreira fifteenth.",
+    "summary": "Honda have struggled to find consistent results this season, currently sitting fourth in the standings with no wins or podiums across fifteen rounds.",
+    "lastRace": "Johann Zarco finished tenth, Takaaki Nakagumi thirteenth and Luca Marini fourteenth. Diogo Moreira finished fifteenth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
     "name": "Grand Prix of Austria",
     "round": 15,
@@ -1014,11 +1014,11 @@
     ]
    },
    "review": {
-    "summary": "Yamaha are currently fifth in the championship standings. The team's results have been difficult to mainly due to a lack of points-scoring finishes, with Fabio Quartararo, Jack Miller, Alex Rins, Toprak Razgatlioglu, and Augusto Fernandez all competing for the manufacturer-led squad.",
-    "lastRace": "Fabio Quartararo finished seventeenth, Alex Rins nineteenth, Toprak Razgatlioglu twentieth, and Jack Miller twenty-first.",
+    "summary": "Summary: Yamaha are currently fifth in the championship with no wins or podiums so far this season.",
+    "lastRace": "Fabio Quartararo finished seventeenth, Alex Rins nineteenth and Toprak Razgatlioglu twentieth. Jack Miller finished twenty-first.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
     "name": "Grand Prix of Austria",
     "round": 15,
@@ -1082,11 +1082,11 @@
     ]
    },
    "review": {
-    "summary": "Leading the championship with 288 points from 17 rounds, including four wins and ten podiums. Mitch Evans holds third in the standings with 160 points, while António Félix Da Costa follows in sixth with 128 points.",
-    "lastRace": "In London, Mitch Evans finished fourth, but António Félix Da Costa ended the race in fifteenth.",
+    "summary": "Jaguar Tcs Racing leads the championship with 288 points from 17 rounds, including four wins and ten podiums. Mitch Evans is third in the standings, while António Félix Da Costa follows in sixth.",
+    "lastRace": "Mitch Evans finished fourth, while António Félix Da Costa ended the race in fifteenth position.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
     "name": "2026 Hankook London E-Prix",
     "round": 17,
@@ -1136,11 +1136,11 @@
     ]
    },
    "review": {
-    "summary": "Second in the championship after 17 rounds, with four wins and eight podiums. Pascal Wehrlein is first in the standings with 169 points, ahead of Nico Müller who sits ninth with 102 points.",
-    "lastRace": "Nico Müller finished twelfth and Pascal Wehrlein finished fourteenth at the London E-Prix.",
+    "summary": "Porsche holds second place with 271 points and four wins from 17 rounds. Pascal Wehrlein sits top of the driver standings, ahead of teammate Nico Müller who is ninth.",
+    "lastRace": "Nico Müller finished twelfth and Pascal Wehrlein finished fourteenth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
     "name": "2026 Hankook London E-Prix",
     "round": 17,
@@ -1190,11 +1190,11 @@
     ]
    },
    "review": {
-    "summary": "Third in the championship with 252 points from 17 rounds, including two wins and seven podiums. Edoardo Mortara holds fifth place with 137 points, while Nyck De Vries is seventh with 115 points.",
-    "lastRace": "Nyck De Vries finished second and Edoardo Mortara finished third at the London E-Prix.",
+    "summary": "Mahindra Racing is third in the championship with 252 points from 17 rounds, including two wins and seven podiums. Edoardo Mortara is fifth in the standings, ahead of Nyck De Vries in seventh.",
+    "lastRace": "Nyck De Vries finished second and Edoardo Mortara finished third.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
     "name": "2026 Hankook London E-Prix",
     "round": 17,
@@ -1244,11 +1244,11 @@
     ]
    },
    "review": {
-    "summary": "Fourth in the standings with 229 points from 17 rounds, featuring two wins and seven podiums. Jake Dennis is second in the championship with 164 points, whereas Felipe Drugovich sits fourteenth with 65 points.",
-    "lastRace": "Felipe Drugovich finished thirteenth and Jake Dennis finished eighteenth at the London E-Prix.",
+    "summary": "Andretti Formula E is fourth with 229 points from 17 rounds, featuring two wins and seven podiums. Jake Dennis holds second in the driver standings, while Felipe Drugovich is fourteenth.",
+    "lastRace": "Felipe Drugovich finished thirteenth and Jake Dennis finished eighteenth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
     "name": "2026 Hankook London E-Prix",
     "round": 17,
@@ -1298,11 +1298,11 @@
     ]
    },
    "review": {
-    "summary": "Fifth place after 17 rounds, with one win and six podiums. Nick Cassidy holds eighth in the standings with 114 points, while Jean-Éric Vergne is twelfth with 68 points.",
-    "lastRace": "Nick Cassidy finished sixth and Jean-Éric Vergne finished seventh at the London E-Prix.",
+    "summary": "Citroën Racing sits fifth with 182 points from 17 rounds, including one win and six podiums. Nick Cassidy is eighth in the standings, ahead of Jean-Éric Vergne who is twelfth.",
+    "lastRace": "Nick Cassidy finished sixth and Jean-Éric Vergne finished seventh.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
     "name": "2026 Hankook London E-Prix",
     "round": 17,
@@ -1352,11 +1352,11 @@
     ]
    },
    "review": {
-    "summary": "Sixth in the championship with 157 points from 17 rounds, including one win and six podiums. Oliver Rowland is fourth in the standings with 137 points, ahead of Norman Nato who is nineteenth with 20 points.",
-    "lastRace": "Oliver Rowland finished ninth and Norman Nato finished tenth at the London E-Prix.",
+    "summary": "Nissan holds sixth place with 157 points from 17 rounds, including one win and six podiums. Oliver Rowland is fourth in the standings, while Norman Nato is nineteenth.",
+    "lastRace": "Oliver Rowland finished ninth and Norman NATO finished tenth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
     "name": "2026 Hankook London E-Prix",
     "round": 17,
@@ -1406,11 +1406,11 @@
     ]
    },
    "review": {
-    "summary": "Seventh in the championship after 17 rounds, with two podiums and no wins. Sébastien Buemi holds tenth place with 97 points, while Joel Eriksson sits sixteenth with 5lag 55 points.",
-    "lastRace": "Sébastien Buemi finished fifth, while Joel Eriksson did not finish the race.",
+    "summary": "Envision Racing is seventh with 152 points from 17 rounds, having achieved two podiums but no wins. Sébastien Buemi is tenth in the standings, ahead of Joel Eriksson in sixteenth.",
+    "lastRace": "Sébastien Buemi finished fifth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
     "name": "2026 Hankook London E-Prix",
     "round": 17,
@@ -1460,11 +1460,11 @@
     ]
    },
    "review": {
-    "summary": "Eighth in the standings with 128 points from 17 rounds, including one win and three podiums. Josep Maria Martí is thirteenth with 66 points, while Dan Ticktum follows in fifteenth with 62 points.",
-    "lastRace": "Josep Maria Martí finished eighth and Dan Ticktum finished sixteenth at the London E-Prix.",
+    "summary": "Cupra Kiro is eighth with 128 points from 17 rounds, including one win and three podiums. Josep Maria Martí is thirteenth in the standings, while Dan Ticktum is fifteenth.",
+    "lastRace": "Josep Maria Martí finished eighth and Dan Ticktum finished sixteenth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
     "name": "2026 Hankook London E-Prix",
     "round": 17,
@@ -1514,11 +1514,11 @@
     ]
    },
    "review": {
-    "summary": "Ninth in the championship after 17 rounds, with one win and one podium. Taylor Barnard holds eleventh place with 68 points, ahead of Maximilian Günther who is eighteenth with 23 points.",
-    "lastRace": "Taylor Barnard secured a victory in London, while Maximilian Günther finished eleventh.",
+    "summary": "Ds Penske occupies ninth with 91 points from 17 rounds, including one win and one podium. Taylor Barnard is eleventh in the standings, ahead of Maximilian Günther in eighteenth.",
+    "lastRace": "At the 2026 Hankook London E-Prix, Taylor Barnard finished 1st; Maximilian Günther finished 11th.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
     "name": "2026 Hankook London E-Prix",
     "round": 17,
@@ -1568,11 +1568,11 @@
     ]
    },
    "review": {
-    "summary": "Tenth in the standings with 35 points from 17 rounds, including one win and one podium. Lucas Di Grassi is seventeenth with 32 points, while Zane Maloney is twentieth with 3 points.",
-    "lastRace": "Zane Maloney finished seventeenth, but Lucas Di Grassi did not finish the race.",
+    "summary": "Lola Yamaha Abt Formula E Team is tenth with 35 points from 17 rounds, having secured one win and one podium. Lucas Di Grassi is seventeenth in the standings, ahead of Zane Maloney in twentieth.",
+    "lastRace": "Zane Maloney finished seventeenth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
     "name": "2026 Hankook London E-Prix",
     "round": 17,
@@ -1612,16 +1612,17 @@
     "podiums": 12
    },
    "review": {
-    "summary": "Leading the championship with 292 points, eight wins, and 12 podiums from 14 rounds. He finished first in his last race after starting second, earning 25 points.",
+    "summary": "Leading the championship with 292 points, eight wins, and twelve podiums from fourteen rounds. He won his last race in Spain after starting second, scoring 25 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Andrea Kimi Antonelli",
+    "name": "Spanish Grand Prix",
     "position": 1,
     "grid": 2,
     "points": 25.0,
-    "status": "Finished"
+    "status": "Finished",
+    "driver": "Andrea Kimi Antonelli"
    }
   },
   {
@@ -1639,16 +1640,17 @@
     "podiums": 7
    },
    "review": {
-    "summary": "Second in the standings with 211 points, two wins, and seven podiums from 14 rounds. His most recent result was fifth from sixth on the grid, collecting 10 points.",
+    "summary": "Second in the standings with 211 points, two wins, and seven podiums. He finished fifth in Spain after starting sixth, earning 10 points behind teammate Antonelli.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "George Russell",
+    "name": "Spanish Grand Prix",
     "position": 5,
     "grid": 6,
     "points": 10.0,
-    "status": "Finished"
+    "status": "Finished",
+    "driver": "George Russell"
    }
   },
   {
@@ -1666,16 +1668,17 @@
     "podiums": 5
    },
    "review": {
-    "summary": "Third in the championship with 191 points, one win, and five podiums across 14 rounds. He retired in his last race after starting fourth.",
+    "summary": "Third in the championship with 191 points, one win, and five podiums. He retired from fourth on the grid in his last race in Spain, scoring no points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Lewis Hamilton",
+    "name": "Spanish Grand Prix",
     "position": null,
     "grid": 4,
     "points": 0.0,
-    "status": "Retired"
+    "status": "Retired",
+    "driver": "Lewis Hamilton"
    }
   },
   {
@@ -1693,16 +1696,17 @@
     "podiums": 4
    },
    "review": {
-    "summary": "Fifth in the standings with 167 points, including one win and four podiums from 14 rounds. He finished fourth in his latest race after starting fifth to take 12 points.",
+    "summary": "Fifth in the standings with 167 points, one win, and four podiums. He finished fourth in Spain after starting fifth, earning 12 points alongside teammate Hamilton.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Charles Leclerc",
+    "name": "Spanish Grand Prix",
     "position": 4,
     "grid": 5,
     "points": 12.0,
-    "status": "Finished"
+    "status": "Finished",
+    "driver": "Charles Leclerc"
    }
   },
   {
@@ -1720,16 +1724,17 @@
     "podiums": 5
    },
    "review": {
-    "summary": "Fourth in the championship with 186 points, two wins, and five podiums from 14 rounds. He finished third in his last race after starting on pole position.",
+    "summary": "Fourth in the championship with 186 points, two wins, and five podiums. He finished third in Spain after starting first on the grid, scoring 15 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Lando Norris",
+    "name": "Spanish Grand Prix",
     "position": 3,
     "grid": 1,
     "points": 15.0,
-    "status": "Finished"
+    "status": "Finished",
+    "driver": "Lando Norris"
    }
   },
   {
@@ -1747,16 +1752,17 @@
     "podiums": 2
    },
    "review": {
-    "summary": "Seventh in the standings with 120 points, zero wins, and two podiums from 14 rounds. His most recent finish was eighth after starting seventh, earning 4 points.",
+    "summary": "Seventh in the standings with 120 points and two podiums. He finished eighth in Spain after starting seventh, earning 4 points behind teammate Norris.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Oscar Piastri",
+    "name": "Spanish Grand Prix",
     "position": 8,
     "grid": 7,
     "points": 4.0,
-    "status": "Finished"
+    "status": "Finished",
+    "driver": "Oscar Piastri"
    }
   },
   {
@@ -1774,16 +1780,17 @@
     "podiums": 6
    },
    "review": {
-    "summary": "Sixth in the championship with 145 points and six podiums from 14 rounds, but no wins. He finished second in his last race after starting third, taking 18 points.",
+    "summary": "Sixth in the championship with 145 points and six podiums. He finished second in Spain after starting third, scoring 18 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Max Verstappen",
+    "name": "Spanish Grand Prix",
     "position": 2,
     "grid": 3,
     "points": 18.0,
-    "status": "Finished"
+    "status": "Finished",
+    "driver": "Max Verstappen"
    }
   },
   {
@@ -1801,10 +1808,10 @@
     "podiums": 1
    },
    "review": {
-    "summary": "Currently eighth in the standings with 71 points and one podium from 14 rounds.",
+    "summary": "Eighth in the standings with 71 points and one podium from fourteen rounds.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z"
+   "publishedAt": "2026-09-22T09:28:44Z"
   },
   {
    "channelID": "f1",
@@ -1821,16 +1828,17 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Lawson is ninth in the standings with 59 points from 14 rounds. He finished sixth in his last race after starting eighth and earned eight points.",
+    "summary": "Ninth in the standings with 59 points from 14 rounds, Lawson finished sixth in the Spanish Grand Prix after starting eighth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Liam Lawson",
+    "name": "Spanish Grand Prix",
     "position": 6,
     "grid": 8,
     "points": 8.0,
-    "status": "Finished"
+    "status": "Finished",
+    "driver": "Liam Lawson"
    }
   },
   {
@@ -1848,16 +1856,17 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Lindblad holds eleventh place with 31 points from 14 rounds, ahead of teammate Yuki Tsunoda. In his last race, he finished ninth after starting tenth but was lapped.",
+    "summary": "Currently eleventh with 31 points, Lindblad holds an advantage over teammate Yuki Tsunoda, who has 1 point. He finished ninth in Spain after starting tenth but was lapped.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Arvid Lindblad",
+    "name": "Spanish Grand Prix",
     "position": 9,
     "grid": 10,
     "points": 2.0,
-    "status": "Lapped"
+    "status": "Lapped",
+    "driver": "Arvid Lindblad"
    }
   },
   {
@@ -1875,16 +1884,17 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Tsunoda is twentieth in the championship with one point from 14 rounds. He finished fourteenth in his last race after starting fifteenth and was lapped.",
+    "summary": "Sitting twentieth with 1 point, Tsunoda trails teammate Arvid Lindblad, who has 31 points. He finished fourteenth in the Spanish Grand Prix after starting fifteenth but was lapped.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Yuki Tsunoda",
+    "name": "Spanish Grand Prix",
     "position": 14,
     "grid": 15,
     "points": 0.0,
-    "status": "Lapped"
+    "status": "Lapped",
+    "driver": "Yuki Tsunoda"
    }
   },
   {
@@ -1902,16 +1912,17 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Gasly sits tenth with 41 points from 14 rounds. He finished twelfth in his last race after starting fourteenth and was lapped.",
+    "summary": "Tenth in the championship with 41 points, Gasly leads teammate Franco Colapinto, who has 27 points. He finished twelfth in Spain after starting fourteenth and was lapped.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Pierre Gasly",
+    "name": "Spanish Grand Prix",
     "position": 12,
     "grid": 14,
     "points": 0.0,
-    "status": "Lapped"
+    "status": "Lapped",
+    "driver": "Pierre Gasly"
    }
   },
   {
@@ -1929,16 +1940,17 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Colapinto is twelfth in the standings with 27 points from 14 rounds, behind teammate Pierre Gasly. He finished seventh in his last race after starting ninth, earning six points.",
+    "summary": "Twelfth in the standings with 27 points, Colapinto trails Pierre Gasly, who has 41 points. He finished seventh in the Spanish Grand Prix after starting ninth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Franco Colapinto",
+    "name": "Spanish Grand Prix",
     "position": 7,
     "grid": 9,
     "points": 6.0,
-    "status": "Finished"
+    "status": "Finished",
+    "driver": "Franco Colapinto"
    }
   },
   {
@@ -1956,16 +1968,17 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Bearman is thirteenth with 18 points from 14 rounds. He finished sixteenth in his last race after starting twenty-second and was lapped.",
+    "summary": "Thirteenth with 18 points, Bearman leads teammate Esteban Ocon, who has 3 points. He finished sixteenth in Spain after starting twenty-second but was lapped.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Oliver Bearman",
+    "name": "Spanish Grand Prix",
     "position": 16,
     "grid": 22,
     "points": 0.0,
-    "status": "Lapped"
+    "status": "Lapped",
+    "driver": "Oliver Bearman"
    }
   },
   {
@@ -1983,16 +1996,17 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Ocon is eighteenth in the standings with three points from 14 rounds, behind teammate Oliver Bearman. He finished eleventh in his last race after starting thirteenth and was lapped.",
+    "summary": "Eighteenth with 3 points, Ocon trails teammate Oliver Bearman, who has 18 points. He finished eleventh in the Spanish Grand Prix after starting thirteenth but was lapped.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Esteban Ocon",
+    "name": "Spanish Grand Prix",
     "position": 11,
     "grid": 13,
     "points": 0.0,
-    "status": "Lapped"
+    "status": "Lapped",
+    "driver": "Esteban Ocon"
    }
   },
   {
@@ -2010,16 +2024,17 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Bortoleto is fourteenth in the championship with 10 points from 14 rounds. He finished thirteenth in his last race after starting twelfth and was lapped.",
+    "summary": "Fourteenth with 10 points from 14 rounds, Bortoleto finished thirteenth in the Spanish Grand Prix after starting twelfth but was lapped.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Gabriel Bortoleto",
+    "name": "Spanish Grand Prix",
     "position": 13,
     "grid": 12,
     "points": 0.0,
-    "status": "Lapped"
+    "status": "Lapped",
+    "driver": "Gabriel Bortoleto"
    }
   },
   {
@@ -2037,16 +2052,17 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Hülkenberg is 15th in the championship with seven points from fourteen rounds. He finished tenth in his last race, scoring one point after starting eleventh and being lapped.",
+    "summary": "Currently 15th in the standings with 7 points after 14 rounds. He finished 10th at the Spanish Grand Prix, gaining a point after starting 11th, though he was lapped during the race.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Nico Hülkenberg",
+    "name": "Spanish Grand Prix",
     "position": 10,
     "grid": 11,
     "points": 1.0,
-    "status": "Lapped"
+    "status": "Lapped",
+    "driver": "Nico Hülkenberg"
    }
   },
   {
@@ -2064,16 +2080,17 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Sainz is 16th in the standings with six points from fourteen rounds, ahead of teammate Alexander Albon. In his last race, he started twentieth and retired.",
+    "summary": "Sitting 16th with 6 points from 14 rounds, he holds a slight advantage over teammate Alexander Albon. His recent race in Spain saw him start 20th but ultimately retire.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Carlos Sainz",
+    "name": "Spanish Grand Prix",
     "position": null,
     "grid": 20,
     "points": 0.0,
-    "status": "Retired"
+    "status": "Retired",
+    "driver": "Carlos Sainz"
    }
   },
   {
@@ -2091,16 +2108,17 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Albon is 17th in the championship with five points after fourteen rounds. He finished fifteenth in his last race after starting sixteenth and being lapped.",
+    "summary": "Holds 17th place in the championship with 5 points after 14 rounds, trailing teammate Carlos Sainz. In Spain, he finished 15th after starting 16th, though he was lapped.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Alexander Albon",
+    "name": "Spanish Grand Prix",
     "position": 15,
     "grid": 16,
     "points": 0.0,
-    "status": "Lapped"
+    "status": "Lapped",
+    "driver": "Alexander Albon"
    }
   },
   {
@@ -2118,16 +2136,17 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Alonso holds 19th place with three points from fourteen rounds, ahead of teammate Lance Stroll. He finished seventeenth in his last race after starting seventeenth and being lapped.",
+    "summary": "Currently 19th with 3 points from 14 rounds, ahead of teammate Lance Stroll. He finished 17th at the Spanish Grand Prix after starting 17th but was lapped.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Fernando Alonso",
+    "name": "Spanish Grand Prix",
     "position": 17,
     "grid": 17,
     "points": 0.0,
-    "status": "Lapped"
+    "status": "Lapped",
+    "driver": "Fernando Alonso"
    }
   },
   {
@@ -2145,16 +2164,17 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Stroll is 21st in the standings with no points from fourteen rounds. In his last race, he started twenty-first and retired.",
+    "summary": "Sits 21st in the standings with no points from 14 rounds, trailing teammate Fernando Alonso. His last race in Spain ended in retirement from 21st on the grid.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Lance Stroll",
+    "name": "Spanish Grand Prix",
     "position": null,
     "grid": 21,
     "points": 0.0,
-    "status": "Retired"
+    "status": "Retired",
+    "driver": "Lance Stroll"
    }
   },
   {
@@ -2172,16 +2192,17 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Bottas is 22nd in the championship with zero points from fourteen rounds, ahead of teammate Sergio Pérez. He finished eighteenth in his last race after starting nineteenth and being lapped.",
+    "summary": "Currently 22nd with zero points after 14 rounds, ahead of teammate Sergio Pérez. He finished 18th at the Spanish Grand Prix after starting 19th but was lapped.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Valtteri Bottas",
+    "name": "Spanish Grand Prix",
     "position": 18,
     "grid": 19,
     "points": 0.0,
-    "status": "Lapped"
+    "status": "Lapped",
+    "driver": "Valtteri Bottas"
    }
   },
   {
@@ -2199,16 +2220,17 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Pérez is 23rd in the standings with no points from fourteen rounds. In his last race, he started eighteenth and retired.",
+    "summary": "Sits 23rd in the standings with no points from 14 rounds, behind teammate Valtteri Bottas. His last race in Spain saw him start 18th before retiring.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Sergio Pérez",
+    "name": "Spanish Grand Prix",
     "position": null,
     "grid": 18,
     "points": 0.0,
-    "status": "Retired"
+    "status": "Retired",
+    "driver": "Sergio Pérez"
    }
   },
   {
@@ -2226,16 +2248,17 @@
     "podiums": 8
    },
    "review": {
-    "summary": "Leading the championship with 306 points from 15 rounds, including one win and eight podiums. He finished second in his last race to earn 20 points, ahead of team-mates Marco Bezzecchi, Ai Ogura, Raul Fernandez and Lorenzo Savadori.",
+    "summary": "Sitting top of the standings with 306 points from 15 rounds, Martin has secured one win and eight podiums. He finished second in the Grand Prix of Austria, earning 20 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Jorge Martin",
+    "name": "Grand Prix of Austria",
     "position": 2,
     "grid": null,
     "points": 20.0,
-    "status": "INSTND"
+    "status": "INSTND",
+    "driver": "Jorge Martin"
    }
   },
   {
@@ -2253,16 +2276,17 @@
     "podiums": 9
    },
    "review": {
-    "summary": "Third in the standings with 264 points from 15 rounds, featuring four wins and nine podiums. He finished third in his last race for 16 points, ahead of team-mates Ai Ogura, Raul Fernandez and Lorenzo Savadori.",
+    "summary": "Bezzecchi holds third place in the championship with 264 points from 15 rounds, including four wins and nine podiums. He took third place at the Grand Prix of Austria to collect 16 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Marco Bezzecchi",
+    "name": "Grand Prix of Austria",
     "position": 3,
     "grid": null,
     "points": 16.0,
-    "status": "INSTND"
+    "status": "INSTND",
+    "driver": "Marco Bezzecchi"
    }
   },
   {
@@ -2280,16 +2304,17 @@
     "podiums": 4
    },
    "review": {
-    "summary": "Sixth in the championship with 222 points from 15 rounds, including one win and four podiums. He finished fourth in his last race to collect 13 points, ahead of team-mate Raul Fernandez but behind Jorge Martin and Marco Bezzecchi.",
+    "summary": "Currently sixth in the standings, Ogura has earned 222 points across 15 rounds with one win and four podiums. He finished fourth at the Grand $Prix of Austria, scoring 13 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Ai Ogura",
+    "name": "Grand Prix of Austria",
     "position": 4,
     "grid": null,
     "points": 13.0,
-    "status": "INSTND"
+    "status": "INSTND",
+    "driver": "Ai Ogura"
    }
   },
   {
@@ -2307,16 +2332,17 @@
     "podiums": 5
    },
    "review": {
-    "summary": "Seventh in the standings with 203 points from 15 rounds, having one win and five podiums. His last race resulted in a twelfth-place finish for 4 points, trailing team-mates Jorge Martin, Marco Bezzecchi and Ai Ogura.",
+    "summary": "Fernandez sits seventh with 203 points from 15 rounds, having achieved one win and five podiums. His latest result was twelfth at the Grand Prix of Austria, earning four points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Raul Fernandez",
+    "name": "Grand Prix of Austria",
     "position": 12,
     "grid": null,
     "points": 4.0,
-    "status": "INSTND"
+    "status": "INSTND",
+    "driver": "Raul Fernandez"
    }
   },
   {
@@ -2334,10 +2360,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Currently twenty-ninth with zero points from 15 rounds and no wins or podiums. He sits behind team-mates Jorge Martin, Marco Bezzecchi, Ai Ogura and Raul Fernandez.",
+    "summary": "Savadori is in 29th place with zero points from 15 rounds, having recorded no wins or podium finishes this season.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z"
+   "publishedAt": "2026-09-22T09:28:44Z"
   },
   {
    "channelID": "motogp",
@@ -2354,16 +2380,17 @@
     "podiums": 5
    },
    "review": {
-    "summary": "Second in the championship with 294 points from 15 rounds, including five wins and five podiums. He finished fifth in his last race to earn 11 points, ahead of team-mates Fabio Di Giannantonio and Alex Marquez.",
+    "summary": "Second in the championship with 294 points from 15 rounds, Marquez has five wins and five podiums. He finished fifth at the Grand Prix of Austria to gain 11 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Marc Marquez",
+    "name": "Grand Prix of Austria",
     "position": 5,
     "grid": null,
     "points": 11.0,
-    "status": "INSTND"
+    "status": "INSTND",
+    "driver": "Marc Marquez"
    }
   },
   {
@@ -2381,16 +2408,17 @@
     "podiums": 2
    },
    "review": {
-    "summary": "Fifth in the standings with 230 points from 15 rounds, featuring two podiums but no wins. His last race saw him finish ninth for 7 points, trailing team-mate Marc Marquez.",
+    "summary": "Di Giannantonio is fifth in the standings with 230 points from 15 rounds, including two podium finishes. He secured ninth place at the Grand Prix of $Austria for seven points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Fabio Di Giannantonio",
+    "name": "Grand Prix of Austria",
     "position": 9,
     "grid": null,
     "points": 7.0,
-    "status": "INSTND"
+    "status": "INSTND",
+    "driver": "Fabio Di Giannantonio"
    }
   },
   {
@@ -2408,16 +2436,17 @@
     "podiums": 2
    },
    "review": {
-    "summary": "Eighth in the championship with 158 points from 15 rounds, including one win and two podiums. He earned zero points in his last race, behind team-mates Marc Marquez and Fabio Di Giannantonio.",
+    "summary": "Eighth in the standings with 158 points from 15 rounds, Alex Marquez has one win and two podiums. He scored no points at the Grand Prix of Austria.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Alex Marquez",
+    "name": "Grand Prix of Austria",
     "position": null,
     "grid": null,
     "points": 0.0,
-    "status": "OUTSTND"
+    "status": "OUTSTND",
+    "driver": "Alex Marquez"
    }
   },
   {
@@ -2435,16 +2464,17 @@
     "podiums": 3
    },
    "review": {
-    "summary": "Ninth in the standings with 156 points from 15 rounds, including three podiums but no wins. He finished seventh in his last race to earn nine points.",
+    "summary": "Ninth in the standings with 156 points from 15 rounds, Bagnaia has achieved three podiums. He finished seventh at the Grand Prix of Austria, earning nine points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Francesco Bagnaia",
+    "name": "Grand Prix of Austria",
     "position": 7,
     "grid": null,
     "points": 9.0,
-    "status": "INSTND"
+    "status": "INSTND",
+    "driver": "Francesco Bagnaia"
    }
   },
   {
@@ -2462,16 +2492,17 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Tenth in the championship with 115 points after 15 rounds and no wins or podiums. His most recent outing saw him finish eighth, scoring eight points.",
+    "summary": "Aldeguer is tenth in the championship with 115 points after 15 rounds. He secured eighth place at the Grand Prix of Austria to take eight points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Fermin Aldeguer",
+    "name": "Grand Prix of Austria",
     "position": 8,
     "grid": null,
     "points": 8.0,
-    "status": "INSTND"
+    "status": "INSTND",
+    "driver": "Fermin Aldeguer"
    }
   },
   {
@@ -2489,16 +2520,17 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Sixteenth in the standings with 56 points from 15 rounds and no wins or podiums. He finished eighteenth in his last race, earning no points.",
+    "summary": "Morbidelli sits sixteenth with 56 points from 15 rounds. His last race in Austria saw him finish eighteenth and score no points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Franco Morbidelli",
+    "name": "Grand Prix of Austria",
     "position": 18,
     "grid": null,
     "points": 0.0,
-    "status": "INSTND"
+    "status": "INSTND",
+    "driver": "Franco Morbidelli"
    }
   },
   {
@@ -2516,10 +2548,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Twenty-third in the championship with nine points from 15 rounds and no wins or podiums.",
+    "summary": "Lecuona is twenty-third in the standings with nine points after 15 rounds.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z"
+   "publishedAt": "2026-09-22T09:28:44Z"
   },
   {
    "channelID": "motogp",
@@ -2536,10 +2568,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Thirtieth in the standings with zero points after 15 rounds, having recorded no wins or podiums.",
+    "summary": "Pirro is in thirtieth position with zero points from 15 rounds.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z"
+   "publishedAt": "2026-09-22T09:28:44Z"
   },
   {
    "channelID": "motogp",
@@ -2556,16 +2588,17 @@
     "podiums": 7
    },
    "review": {
-    "summary": "Fourth in the championship with 234 points from 15 rounds, featuring two wins and seven podiums. He took first place in his last race to earn 25 points.",
+    "summary": "Acosta holds fourth place with 234 points and two wins from 15 rounds. He won the Grand Prix of Austria, taking 25 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Pedro Acosta",
+    "name": "Grand Prix of Austria",
     "position": 1,
     "grid": null,
     "points": 25.0,
-    "status": "INSTND"
+    "status": "INSTND",
+    "driver": "Pedro Acosta"
    }
   },
   {
@@ -2583,16 +2616,17 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Twelfth in the standings with 97 points from 15 rounds and no wins or podiums. His last race resulted in an eleventh-place finish, earning five points.",
+    "summary": "Bastianini is twelfth in the championship with 97 points after 15 rounds. He finished eleventh at the Grand Prix of Austria to earn five points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Enea Bastianini",
+    "name": "Grand Prix of Austria",
     "position": 11,
     "grid": null,
     "points": 5.0,
-    "status": "INSTND"
+    "status": "INSTND",
+    "driver": "Enea Bastianini"
    }
   },
   {
@@ -2610,16 +2644,17 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Thirteenth in the championship with 94 points from 15 rounds and no wins or podiums. He finished sixth in his most recent race to collect 10 points.",
+    "summary": "Binder is thirteenth with 94 points from 15 rounds. He finished sixth at the Grand Prix of Austria, taking ten points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Brad Binder",
+    "name": "Grand Prix of Austria",
     "position": 6,
     "grid": null,
     "points": 10.0,
-    "status": "INSTND"
+    "status": "INSTND",
+    "driver": "Brad Binder"
    }
   },
   {
@@ -2637,10 +2672,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Sitting 22nd in the championship with 10 points after 15 rounds. He is currently ahead of teammates Pol Espargaro and Jonas Folger.",
+    "summary": "22nd in the championship with 10 points after 15 rounds and no wins or podiums. He sits ahead of teammates Pol Espargaro and Jonas Folger.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z"
+   "publishedAt": "2026-09-22T09:28:44Z"
   },
   {
    "channelID": "motogp",
@@ -2657,16 +2692,17 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Currently 25th with 5 points from 15 rounds. In his last race, he finished 16th and earned no points.",
+    "summary": "Currently 25th with 5 points from 15 rounds, having no wins or podiums. At the Grand Prix of Austria, he finished 16th but did not score points due to an INSTND status.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Pol Espargaro",
+    "name": "Grand Prix of Austria",
     "position": 16,
     "grid": null,
     "points": 0.0,
-    "status": "INSTND"
+    "status": "INSTND",
+    "driver": "Pol Espargaro"
    }
   },
   {
@@ -2684,10 +2720,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Sitting in 28th place with 0 points after 15 rounds of the season.",
+    "summary": "Sitting 28th in the standings with zero points after 15 rounds, he has no wins or podium finishes this season.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z"
+   "publishedAt": "2026-09-22T09:28:44Z"
   },
   {
    "channelID": "motogp",
@@ -2704,16 +2740,17 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Holding 11th position with 98 points from 15 rounds. His most recent outing resulted in a 14th place finish and 2 points.",
+    "summary": "In 11th place with 98 points from 15 rounds and no wins or podiums. He finished 14th at the Grand Prix of Austria to collect 2 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Luca Marini",
+    "name": "Grand Prix of Austria",
     "position": 14,
     "grid": null,
     "points": 2.0,
-    "status": "INSTND"
+    "status": "INSTND",
+    "driver": "Luca Marini"
    }
   },
   {
@@ -2731,16 +2768,17 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Currently 14th in the standings with 65 points after 15 rounds. He finished 15th in his last race to collect 1 point.",
+    "summary": "Currently 14th in the championship with 65 points after 15 rounds. He finished 15th at the Grand $GP$ of Austria to take 1 point, placing him ahead of teammate Takaaki Nakagami.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Diogo Moreira",
+    "name": "Grand Prix of Austria",
     "position": 15,
     "grid": null,
     "points": 1.0,
-    "status": "INSTND"
+    "status": "INSTND",
+    "driver": "Diogo Moreira"
    }
   },
   {
@@ -2758,16 +2796,17 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Sitting 17th with 45 points from 15 rounds. His latest performance saw him finish 10th and secure 6 points.",
+    "summary": "Sitting 17th with 45 points from 15 rounds and no wins or podiums. He finished 10th at the Grand Prix of Austria to earn 6 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Johann Zarco",
+    "name": "Grand Prix of Austria",
     "position": 10,
     "grid": null,
     "points": 6.0,
-    "status": "INSTND"
+    "status": "INSTND",
+    "driver": "Johann Zarco"
    }
   },
   {
@@ -2785,10 +2824,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Currently in 18th place with 33 points after 15 rounds of the season.",
+    "summary": "Currently 18th in the standings with 33 points after 15 rounds, without any wins or podium finishes this season.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z"
+   "publishedAt": "2026-09-22T09:28:44Z"
   },
   {
    "channelID": "motogp",
@@ -2805,16 +2844,17 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Holding 26th position with 3 points from 15 rounds. He finished 13th in his last race to take 3 points.",
+    "summary": "In 26th place with 3 points from 15 rounds and no wins or podiums. He finished 13th at the Grand Prix of Austria to earn 3 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Takaaki Nakagami",
+    "name": "Grand Prix of Austria",
     "position": 13,
     "grid": null,
     "points": 3.0,
-    "status": "INSTND"
+    "status": "INSTND",
+    "driver": "Takaaki Nakagami"
    }
   },
   {
@@ -2832,10 +2872,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Cal Crutchlow sits in 27th position with zero points from 15 rounds and no wins or podiums.",
+    "summary": "Currently 27th in the championship with no points from 15 rounds.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z"
+   "publishedAt": "2026-09-22T09:28:44Z"
   },
   {
    "channelID": "motogp",
@@ -2852,16 +2892,17 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Fabio Quartararo is 15th in the standings with 61 points and no wins or podiums. He finished 17th in his last race, scoring no points. He leads his Yamaha team-mates.",
+    "summary": "Sitting 15th in the standings with 61 points after 15 rounds, ahead of his Yamaha teammates. He finished 17th at the Grand Prix of Austria, scoring no points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Fabio Quartararo",
+    "name": "Grand Prix of Austria",
     "position": 17,
     "grid": null,
     "points": 0.0,
-    "status": "INSTND"
+    "status": "INSTND",
+    "driver": "Fabio Quartararo"
    }
   },
   {
@@ -2879,16 +2920,17 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Jack Miller holds 19th place with 28 points and no wins or podiums from 15 rounds. He finished 21st in his last race, scoring no points.",
+    "summary": "Holding 19th place with 28 points from 15 rounds. At the Grand Prix of Austria, he finished 21st and earned no points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Jack Miller",
+    "name": "Grand Prix of Austria",
     "position": 21,
     "grid": null,
     "points": 0.0,
-    "status": "INSTND"
+    "status": "INSTND",
+    "driver": "Jack Miller"
    }
   },
   {
@@ -2906,16 +2948,17 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Alex Rins is in 20th position with 24 points and no wins or podiums this season. He finished 19th in his latest race, scoring no points.",
+    "summary": "Currently 20th in the championship with 24 points after 15 rounds. He finished 19th at the Grand Prix of Austria without scoring points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Alex Rins",
+    "name": "Grand Prix of Austria",
     "position": 19,
     "grid": null,
     "points": 0.0,
-    "status": "INSTND"
+    "status": "INSTND",
+    "driver": "Alex Rins"
    }
   },
   {
@@ -2933,16 +2976,17 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Toprak Razgatlioglu sits in 21st place with 18 points and no wins or podiums from 15 rounds. He finished 20th in his last race, scoring no points.",
+    "summary": "Positioned 21st in the standings with 18 points from 15 rounds. He finished 20th at the Grand Prix of Austria, collecting no points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Toprak Razgatlioglu",
+    "name": "Grand Prix of Austria",
     "position": 20,
     "grid": null,
     "points": 0.0,
-    "status": "INSTND"
+    "status": "INSTND",
+    "driver": "Toprak Razgatlioglu"
    }
   },
   {
@@ -2960,10 +3004,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Augusto Fernandez is currently 24th in the championship with 6 points and no wins or podiums after 15 rounds.",
+    "summary": "Currently 24th in the championship with 6 points after 15 rounds.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z"
+   "publishedAt": "2026-09-22T09:28:44Z"
   },
   {
    "channelID": "formulae",
@@ -2980,16 +3024,17 @@
     "podiums": 5
    },
    "review": {
-    "summary": "Third in the championship with 160 points, two wins, and five podiums from 17 rounds. He finished fourth in his last race, outperforming teammate António Félix Da Costa.",
+    "summary": "Mitch Evans sits third in the championship with 160 points from 17 rounds, including two wins and five podiums. He finished fourth at the 2026 Hankook London E-Prix, ahead of teammate António Félix Da Costa who finished fifteenth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Mitch Evans",
+    "name": "2026 Hankook London E-Prix",
     "position": 4,
     "grid": null,
     "points": null,
-    "status": null
+    "status": null,
+    "driver": "Mitch Evans"
    }
   },
   {
@@ -3007,16 +3052,17 @@
     "podiums": 5
    },
    "review": {
-    "summary": "Sixth in the standings with 128 points, two wins, and five podiums. His most recent result was fifteenth, trailing teammate Mitch Evans.",
+    "summary": "António Félix Da Costa holds sixth place in the standings with 128 points from 17 rounds. He has achieved two wins and five podiums this season, finishing fifteenth at the 2026 Hankook London E-Prix.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "António Félix Da Costa",
+    "name": "2026 Hankook London E-Prix",
     "position": 15,
     "grid": null,
     "points": null,
-    "status": null
+    "status": null,
+    "driver": "António Félix Da Costa"
    }
   },
   {
@@ -3034,16 +3080,17 @@
     "podiums": 6
    },
    "review": {
-    "summary": "Leading the championship with 169 points, three wins, and six podiums from 17 rounds. He finished fourteenth in his last race, ahead of teammate Nico Müller.",
+    "summary": "Pascal Wehrlein leads the championship with 169 points after 17 rounds, boasting three wins and six podiums. His last race at the 2026 Hankook London E-Prix saw him finish fourteenth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Pascal Wehrlein",
+    "name": "2026 Hankook London E-Prix",
     "position": 14,
     "grid": null,
     "points": null,
-    "status": null
+    "status": null,
+    "driver": "Pascal Wehrlein"
    }
   },
   {
@@ -3061,16 +3108,17 @@
     "podiums": 2
    },
    "review": {
-    "summary": "Ninth in the standings with 102 points, one win, and two podiums. His latest result was twelfth, behind teammate Pascal Wehrlein.",
+    "summary": "Nico Müller is ninth in the standings with 102 points from 17 rounds. He has recorded one win and two podiums this season, finishing twelfth at the 2026 Hankook London E-Prix.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Nico Müller",
+    "name": "2026 Hankook London E-Prix",
     "position": 12,
     "grid": null,
     "points": null,
-    "status": null
+    "status": null,
+    "driver": "Nico Müller"
    }
   },
   {
@@ -3088,16 +3136,17 @@
     "podiums": 3
    },
    "review": {
-    "summary": "Fifth in the championship with 137 points and three podiums from 17 rounds. He finished third in his last race, ahead of teammate Nyck De Vries.",
+    "summary": "Edoardo Mortara is fifth in the championship with 137 points from 17 rounds and three podiums. He finished third at the 2026 Hankook London E-Prix, behind teammate Nyck De Vries who finished second.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Edoardo Mortara",
+    "name": "2026 Hankook London E-Prix",
     "position": 3,
     "grid": null,
     "points": null,
-    "status": null
+    "status": null,
+    "driver": "Edoardo Mortara"
    }
   },
   {
@@ -3115,16 +3164,17 @@
     "podiums": 4
    },
    "review": {
-    "summary": "Seventh with 115 points, two wins, and four podiums. His most recent outing was second, behind teammate Edoardo Mortara.",
+    "summary": "Nyck De Vries holds seventh place with 115 points after 17 rounds, including two wins and four podiums. He finished second at the 2026 Hankook London E-Prix.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Nyck De Vries",
+    "name": "2026 Hankook London E-Prix",
     "position": 2,
     "grid": null,
     "points": null,
-    "status": null
+    "status": null,
+    "driver": "Nyck De Vries"
    }
   },
   {
@@ -3142,16 +3192,17 @@
     "podiums": 6
    },
    "review": {
-    "summary": "Second in the championship with 164 points, two wins, and six podiums from 17 rounds. He finished eighteenth in his last race, ahead of teammate Felipe Drugovich.",
+    "summary": "Jake Dennis is second in the standings with 164 points from 17 rounds, including two wins and six podiums. He finished eighteenth at the 2026 Hankook London E-Prix, behind teammate Felipe Drugovich who finished thirteenth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Jake Dennis",
+    "name": "2026 Hankook London E-Prix",
     "position": 18,
     "grid": null,
     "points": null,
-    "status": null
+    "status": null,
+    "driver": "Jake Dennis"
    }
   },
   {
@@ -3169,16 +3220,17 @@
     "podiums": 1
    },
    "review": {
-    "summary": "Fourteenth in the standings with 65 points and one podium. His latest result was thirteenth, behind teammate Jake Dennis.",
+    "summary": "Felipe Drugovich sits fourteenth in the championship with 65 points from 17 rounds and one podium. He finished thirteenth at the 2026 Hankook London E-Prix.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Felipe Drugovich",
+    "name": "2026 Hankook London E-Prix",
     "position": 13,
     "grid": null,
     "points": null,
-    "status": null
+    "status": null,
+    "driver": "Felipe Drugovich"
    }
   },
   {
@@ -3196,16 +3248,17 @@
     "podiums": 5
    },
    "review": {
-    "summary": "Nick Cassidy is eighth in the championship with 114 points from 17 rounds, including one win and five podiums. He finished sixth in his last race and holds a higher position than teammate Jean-Éric Vergne.",
+    "summary": "Nick Cassidy sits eighth in the championship with 114 points from 17 rounds, including one win and five podiums. He finished sixth in his most recent outing at the London E-Prix.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Nick Cassidy",
+    "name": "2026 Hankook London E-Prix",
     "position": 6,
     "grid": null,
     "points": null,
-    "status": null
+    "status": null,
+    "driver": "Nick Cassidy"
    }
   },
   {
@@ -3223,16 +3276,17 @@
     "podiums": 1
    },
    "review": {
-    "summary": "Jean-Éric Vergne sits twelfth with 68 points after 17 rounds and one podium. He finished seventh in the last race, trailing teammate Nick Cassidy.",
+    "summary": "Jean-Éric Vergne holds twelfth place in the standings with 68 points from 17 rounds and one podium. He finished seventh in the London E-Prix, behind teammate Nick Cassidy.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Jean-Éric Vergne",
+    "name": "2026 Hankook London E-Prix",
     "position": 7,
     "grid": null,
     "points": null,
-    "status": null
+    "status": null,
+    "driver": "Jean-Éric Vergne"
    }
   },
   {
@@ -3250,16 +3304,17 @@
     "podiums": 6
    },
    "review": {
-    "summary": "Oliver Rowland is fourth in the standings with 137 points from 17 rounds, featuring one win and six podiums. He finished ninth in his most recent outing, ahead of Norman Nato.",
+    "summary": "Oliver Rowland is fourth in the championship with 137 points, featuring one victory and six podiums across 17 rounds. His last race saw him finish ninth in London.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Oliver Rowland",
+    "name": "2026 Hankook London E-Prix",
     "position": 9,
     "grid": null,
     "points": null,
-    "status": null
+    "status": null,
+    "driver": "Oliver Rowland"
    }
   },
   {
@@ -3277,16 +3332,17 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Norman Nato holds nineteenth place with 20 points after 17 rounds. He finished tenth in the last race, behind teammate Oliver Rowland.",
+    "summary": "Norman Nato is nineteenth in the standings with 20 points from 17 rounds. He finished tenth in his most recent race in London, behind teammate Oliver Rowland.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Norman Nato",
+    "name": "2026 Hankook London E-Prix",
     "position": 10,
     "grid": null,
     "points": null,
-    "status": null
+    "status": null,
+    "driver": "Norman Nato"
    }
   },
   {
@@ -3304,16 +3360,17 @@
     "podiums": 1
    },
    "review": {
-    "summary": "Sébastien Buemi is tenth in the championship with 97 points and one podium from 17 rounds. He finished fifth in his latest race, ahead of Joel Eriksson.",
+    "summary": "Sébastien Buemi is tenth in the championship with 97 points and one podium from 17 rounds. He finished fifth in his last race at the London E-Prix.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Sébastien Buemi",
+    "name": "2026 Hankook London E-Prix",
     "position": 5,
     "grid": null,
     "points": null,
-    "status": null
+    "status": null,
+    "driver": "Sébastien Buemi"
    }
   },
   {
@@ -3331,16 +3388,17 @@
     "podiums": 1
    },
    "review": {
-    "summary": "Joel Eriksson has 55 points from 17 rounds including one podium. He currently sits behind teammate Sébastien Buemi in the standings.",
+    "summary": "Joel Eriksson holds sixteenth place in the standings with 55 points from 17 rounds and one podium.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Joel Eriksson",
+    "name": "2026 Hankook London E-Prix",
     "position": null,
     "grid": null,
     "points": null,
-    "status": null
+    "status": null,
+    "driver": "Joel Eriksson"
    }
   },
   {
@@ -3358,16 +3416,17 @@
     "podiums": 2
    },
    "review": {
-    "summary": "Josep Maria Martí is thirteenth with 66 points and two podiums from 17 rounds, finishing eighth in his last race. He leads teammate Dan Ticktum in the championship.",
+    "summary": "Josep Maria Martí is thirteenth in the championship with 66 points and two podiums from 17 rounds. He finished eighth in his last outing in London.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Josep Maria Martí",
+    "name": "2026 Hankook London E-Prix",
     "position": 8,
     "grid": null,
     "points": null,
-    "status": null
+    "status": null,
+    "driver": "Josep Maria Martí"
    }
   },
   {
@@ -3385,16 +3444,17 @@
     "podiums": 1
    },
    "review": {
-    "summary": "Dan Ticktum is fifteenth with 62 points after 17 rounds, including one win and one podium. He finished sixteenth in his last race, behind teammate Josep Maria Martí.",
+    "summary": "Dan Ticktum is fifteenth in the standings with 62 points and one win from 17 rounds. He finished sixteenth in the London E-Prix, behind teammate Josep Maria Martí.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Dan Ticktum",
+    "name": "2026 Hankook London E-Prix",
     "position": 16,
     "grid": null,
     "points": null,
-    "status": null
+    "status": null,
+    "driver": "Dan Ticktum"
    }
   },
   {
@@ -3412,16 +3472,17 @@
     "podiums": 1
    },
    "review": {
-    "summary": "11th in the standings with 68 points from 17 rounds, including one win and one podium. He secured a victory in his last race and has outperformed teammate Maximilian Günther.",
+    "summary": "Taylor Barnard holds 11th position with 68 points from 17 rounds, including one win and one podium. He won the 2026 Hankook London E-Prix. He has outperformed teammate Maximilian Günther, who has 23 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Taylor Barnard",
+    "name": "2026 Hankook London E-Prix",
     "position": 1,
     "grid": null,
     "points": null,
-    "status": null
+    "status": null,
+    "driver": "Taylor Barnard"
    }
   },
   {
@@ -3439,16 +3500,17 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Currently 18th with 23 points after 17 rounds, he has no wins or podiums this season. His latest result was 11th place, leaving him behind teammate Taylor Barnard.",
+    "summary": "Maximilian Günther is in 18th position with 23 points after 17 rounds and no wins or podiums. He finished 11th at the 2026 Hankook London E-Prix, trailing teammate Taylor Barnard.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Maximilian Günther",
+    "name": "2026 Hankook London E-Prix",
     "position": 11,
     "grid": null,
     "points": null,
-    "status": null
+    "status": null,
+    "driver": "Maximilian Günther"
    }
   },
   {
@@ -3466,16 +3528,17 @@
     "podiums": 1
    },
    "review": {
-    "summary": "Sitting 17th in the championship with 32 points from 17 rounds, he has recorded one win and one podium. He leads teammate Zane Maloney in the standings.",
+    "summary": "Lucas Di Grassi sits in 17th place with 32 points from 17 rounds, having secured one win and one podium. He competed in the 2026 Hankook London E-Prix.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Lucas Di Grassi",
+    "name": "2026 Hankook London E-Prix",
     "position": null,
     "grid": null,
     "points": null,
-    "status": null
+    "status": null,
+    "driver": "Lucas Di Grassi"
    }
   },
   {
@@ -3493,16 +3556,17 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Positioned 20th with 3 points after 17 rounds, he has yet to achieve a win or podium. His last race resulted in 17th place, behind teammate Lucas Di Grassi.",
+    "summary": "Zane Maloney is in 20th position with 3 points from 17 rounds and no wins or podiums. He finished 17th at the 2026 Hankook London E-Prix, behind teammate Lucas Di Grassi.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z",
+   "publishedAt": "2026-09-22T09:28:44Z",
    "lastRace": {
-    "name": "Zane Maloney",
+    "name": "2026 Hankook London E-Prix",
     "position": 17,
     "grid": null,
     "points": null,
-    "status": null
+    "status": null,
+    "driver": "Zane Maloney"
    }
   }
  ],
@@ -3531,16 +3595,16 @@
    ],
    "classified": 18,
    "review": {
-    "summary": "The Spanish Grand Prix saw Antonelli take victory from second on the grid, followed by Verstappen and Norris. While the front runners were competitive, several drivers including Hamilton and Pérez failed to finish. The classification shows a mix of strong finishes and cars falling away or being lapped.",
+    "summary": "Antonelli won for Mercedes, followed by Verstappen and Norris. The classification shows Leclerc in fourth and Russell fifth, while several drivers including Hamilton, Saints, Stroll, and Pérez failed to finish.",
     "highlights": [
-     "George Russell secured the fastest lap.",
-     "Lewis Hamilton retired from fourth on the grid.",
-     "Oliver Bearman climbed from twenty-second to sixteenth before being lapped.",
-     "Sergio Pérez retired from eighteenth on the grid."
+     "Antonelli took the win from second on the grid.",
+     "Russell claimed the fastest lap during his fifth-place finish.",
+     "Hamilton retired from fourth on the grid.",
+     "Bearman climbed from twenty-second to sixteenth."
     ],
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z"
+   "publishedAt": "2026-09-22T09:28:44Z"
   },
   {
    "channelID": "motogp",
@@ -3566,15 +3630,16 @@
    ],
    "classified": 21,
    "review": {
-    "summary": "The Grand Prix of Austria saw Pedro Acosta win the race, followed by Jorge Martin and Marco Bezzecchi on the podium. The classification shows a strong showing for Aprilia Racing and Red Bull KTM Factory Racing, with several riders from various teams including Ducati Lenovo Team, BK8 Gresini Racing MotoGP, and SuperFile Trackhouse MotoGP Team also finishing in the points. However, the top of the field was led by KTM's Acosta, and the race ended with Alex Marquez being unable to complete the race.",
+    "summary": "Pedro Acosta won the Grand Prix of Austria, with Jorge Martin and Marco Bezzecchi following in second and third. The classification shows a strong showing for Aprilia Racing and KTM riders at the front of the field.",
     "highlights": [
-     "Pedro Acosta secured the victory in Austria.",
-     "Jorge Martin and Marco Bezzecchi achieved podium finishes.",
+     "Pedro Acosta took the victory.",
+     "Jorge Martin finished second.",
+     "Marco Bezzecchi finished third.",
      "Alex Marquez did not finish the race."
     ],
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z"
+   "publishedAt": "2026-09-22T09:28:44Z"
   },
   {
    "channelID": "formulae",
@@ -3600,14 +3665,15 @@
    ],
    "classified": 18,
    "review": {
-    "summary": "Taylor Barnard took the win for Ds Penske, while Mahindra Racing secured a double podium with Nyck De Vries and Edoardo Mortara in second and third. The results show a strong performance from both teams at the end of the season.",
+    "summary": "Taylor Barnard took victory for Ds Penske in London. Mahindra Racing secured a strong result with Nyck De Vries and Edoardo Mortara finishing second and third respectively. The classification also saw Mitch Evans finish fourth and Sébastien Buemi in fifth.",
     "highlights": [
-     "Taylor Barnard won the race for Ds Penske.",
-     "Nyck De Vries and Edoardo Mortara finished second and third respectively."
+     "Taylor Barnard wins for Ds Penske.",
+     "Nyck De Vries finishes second.",
+     "Edoardo Mortara completes the podium in third."
     ],
     "writer": "own server"
    },
-   "publishedAt": "2026-09-22T08:42:47Z"
+   "publishedAt": "2026-09-22T09:28:44Z"
   }
  ]
 }
