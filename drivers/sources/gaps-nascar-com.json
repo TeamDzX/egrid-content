@@ -1,0 +1,494 @@
+[
+ {
+  "name": "Kyle Larson",
+  "channelID": "nascar",
+  "socials": {
+   "facebook": "KyleLarsonRacing",
+   "x": "KyleLarsonRacin",
+   "instagram": "kylelarsonracin"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.nascar.com/drivers/kyle-larson",
+   "x": "https://www.nascar.com/drivers/kyle-larson",
+   "instagram": "https://www.nascar.com/drivers/kyle-larson"
+  }
+ },
+ {
+  "name": "Chase Elliott",
+  "channelID": "nascar",
+  "socials": {
+   "facebook": "ChaseElliott",
+   "x": "chaseelliott",
+   "instagram": "chaseelliott9"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.nascar.com/drivers/chase-elliott",
+   "x": "https://www.nascar.com/drivers/chase-elliott",
+   "instagram": "https://www.nascar.com/drivers/chase-elliott"
+  }
+ },
+ {
+  "name": "William Byron",
+  "channelID": "nascar",
+  "socials": {
+   "facebook": "williambyron",
+   "x": "WilliamByron",
+   "instagram": "williambyron"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.nascar.com/drivers/william-byron",
+   "x": "https://www.nascar.com/drivers/william-byron",
+   "instagram": "https://www.nascar.com/drivers/william-byron"
+  }
+ },
+ {
+  "name": "Alex Bowman",
+  "channelID": "nascar",
+  "socials": {
+   "facebook": "alexbowmanofficial",
+   "x": "Alex_Bowman",
+   "instagram": "alex_bowman"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.nascar.com/drivers/alex-bowman",
+   "x": "https://www.nascar.com/drivers/alex-bowman",
+   "instagram": "https://www.nascar.com/drivers/alex-bowman"
+  }
+ },
+ {
+  "name": "Austin Cindric",
+  "channelID": "nascar",
+  "socials": {
+   "facebook": "austin.cindric",
+   "x": "austincindric",
+   "instagram": "austincindric"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.nascar.com/drivers/austin-cindric",
+   "x": "https://www.nascar.com/drivers/austin-cindric",
+   "instagram": "https://www.nascar.com/drivers/austin-cindric"
+  }
+ },
+ {
+  "name": "Ryan Blaney",
+  "channelID": "nascar",
+  "socials": {
+   "facebook": "RyanBlaney21",
+   "x": "Blaney",
+   "instagram": "ryanblaney10"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.nascar.com/drivers/ryan-blaney",
+   "x": "https://www.nascar.com/drivers/ryan-blaney",
+   "instagram": "https://www.nascar.com/drivers/ryan-blaney"
+  }
+ },
+ {
+  "name": "Joey Logano",
+  "channelID": "nascar",
+  "socials": {
+   "facebook": "joeylogano",
+   "x": "joeylogano",
+   "instagram": "joeylogano"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.nascar.com/drivers/joey-logano",
+   "x": "https://www.nascar.com/drivers/joey-logano",
+   "instagram": "https://www.nascar.com/drivers/joey-logano"
+  }
+ },
+ {
+  "name": "Denny Hamlin",
+  "channelID": "nascar",
+  "socials": {
+   "facebook": "DennyHamlin",
+   "x": "dennyhamlin",
+   "instagram": "dennyhamlin"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.nascar.com/drivers/denny-hamlin",
+   "x": "https://www.nascar.com/drivers/denny-hamlin",
+   "instagram": "https://www.nascar.com/drivers/denny-hamlin"
+  }
+ },
+ {
+  "name": "Chase Briscoe",
+  "channelID": "nascar",
+  "socials": {
+   "facebook": "chasebriscoeracing",
+   "x": "chasebriscoe",
+   "instagram": "chasebriscoe_"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.nascar.com/drivers/chase-briscoe",
+   "x": "https://www.nascar.com/drivers/chase-briscoe",
+   "instagram": "https://www.nascar.com/drivers/chase-briscoe"
+  }
+ },
+ {
+  "name": "Christopher Bell",
+  "channelID": "nascar",
+  "socials": {
+   "facebook": "christopherbellracing",
+   "x": "CBellRacing",
+   "instagram": "cbellracing"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.nascar.com/drivers/christopher-bell",
+   "x": "https://www.nascar.com/drivers/christopher-bell",
+   "instagram": "https://www.nascar.com/drivers/christopher-bell"
+  }
+ },
+ {
+  "name": "Ty Gibbs",
+  "channelID": "nascar",
+  "socials": {},
+  "verifiedVia": {}
+ },
+ {
+  "name": "Austin Dillon",
+  "channelID": "nascar",
+  "socials": {
+   "facebook": "austindillon3",
+   "x": "austindillon3",
+   "instagram": "austindillon3"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.nascar.com/drivers/austin-dillon",
+   "x": "https://www.nascar.com/drivers/austin-dillon",
+   "instagram": "https://www.nascar.com/drivers/austin-dillon"
+  }
+ },
+ {
+  "name": "Kyle Busch",
+  "channelID": "nascar",
+  "socials": {
+   "facebook": "KyleBusch",
+   "x": "KyleBusch",
+   "instagram": "rowdybusch"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.nascar.com/drivers/kyle-busch",
+   "x": "https://www.nascar.com/drivers/kyle-busch",
+   "instagram": "https://www.nascar.com/drivers/kyle-busch"
+  }
+ },
+ {
+  "name": "Bubba Wallace",
+  "channelID": "nascar",
+  "socials": {
+   "facebook": "BubbaWallace",
+   "x": "BubbaWallace",
+   "instagram": "bubbawallace"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.nascar.com/drivers/bubba-wallace",
+   "x": "https://www.nascar.com/drivers/bubba-wallace",
+   "instagram": "https://www.nascar.com/drivers/bubba-wallace"
+  }
+ },
+ {
+  "name": "Riley Herbst",
+  "channelID": "nascar",
+  "socials": {
+   "facebook": "riley.herbst",
+   "x": "rileyherbst",
+   "instagram": "rileyherbst"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.nascar.com/drivers/riley-herbst",
+   "x": "https://www.nascar.com/drivers/riley-herbst",
+   "instagram": "https://www.nascar.com/drivers/riley-herbst"
+  }
+ },
+ {
+  "name": "Tyler Reddick",
+  "channelID": "nascar",
+  "socials": {
+   "facebook": "TylerReddickRCR",
+   "x": "TylerReddick",
+   "instagram": "tyler_reddick"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.nascar.com/drivers/tyler-reddick",
+   "x": "https://www.nascar.com/drivers/tyler-reddick",
+   "instagram": "https://www.nascar.com/drivers/tyler-reddick"
+  }
+ },
+ {
+  "name": "Ross Chastain",
+  "channelID": "nascar",
+  "socials": {
+   "facebook": "pages/Ross-Chastain-Racing/89727736744",
+   "x": "rosschastain",
+   "instagram": "rosschastain"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.nascar.com/drivers/ross-chastain",
+   "x": "https://www.nascar.com/drivers/ross-chastain",
+   "instagram": "https://www.nascar.com/drivers/ross-chastain"
+  }
+ },
+ {
+  "name": "Connor Zilisch",
+  "channelID": "nascar",
+  "socials": {
+   "x": "ConnorZilisch",
+   "instagram": "connorzilisch"
+  },
+  "verifiedVia": {
+   "x": "https://www.nascar.com/drivers/connor-zilisch",
+   "instagram": "https://www.nascar.com/drivers/connor-zilisch"
+  }
+ },
+ {
+  "name": "Shane van Gisbergen",
+  "channelID": "nascar",
+  "socials": {
+   "facebook": "SVG97",
+   "x": "shanevg97"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.nascar.com/drivers/shane-van-gisbergen",
+   "x": "https://www.nascar.com/drivers/shane-van-gisbergen"
+  }
+ },
+ {
+  "name": "Brad Keselowski",
+  "channelID": "nascar",
+  "socials": {
+   "facebook": "BradKeselowski",
+   "x": "keselowski",
+   "instagram": "bradkeselowski"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.nascar.com/drivers/brad-keselowski",
+   "x": "https://www.nascar.com/drivers/brad-keselowski",
+   "instagram": "https://www.nascar.com/drivers/brad-keselowski"
+  }
+ },
+ {
+  "name": "Chris Buescher",
+  "channelID": "nascar",
+  "socials": {
+   "facebook": "ChrisBuescher60",
+   "x": "Chris_Buescher",
+   "instagram": "c_buescher"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.nascar.com/drivers/chris-buescher",
+   "x": "https://www.nascar.com/drivers/chris-buescher",
+   "instagram": "https://www.nascar.com/drivers/chris-buescher"
+  }
+ },
+ {
+  "name": "Ryan Preece",
+  "channelID": "nascar",
+  "socials": {
+   "x": "RyanPreece_",
+   "instagram": "ryanpreece_"
+  },
+  "verifiedVia": {
+   "x": "https://www.nascar.com/drivers/ryan-preece",
+   "instagram": "https://www.nascar.com/drivers/ryan-preece"
+  }
+ },
+ {
+  "name": "Noah Gragson",
+  "channelID": "nascar",
+  "socials": {
+   "facebook": "NoahGragsonRacing",
+   "x": "noahgragson",
+   "instagram": "noahgragson"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.nascar.com/drivers/noah-gragson",
+   "x": "https://www.nascar.com/drivers/noah-gragson",
+   "instagram": "https://www.nascar.com/drivers/noah-gragson"
+  }
+ },
+ {
+  "name": "Todd Gilliland",
+  "channelID": "nascar",
+  "socials": {
+   "facebook": "ToddGillilandRacing",
+   "x": "ToddGilliland_",
+   "instagram": "toddgilliland_"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.nascar.com/drivers/todd-gilliland",
+   "x": "https://www.nascar.com/drivers/todd-gilliland",
+   "instagram": "https://www.nascar.com/drivers/todd-gilliland"
+  }
+ },
+ {
+  "name": "Zane Smith",
+  "channelID": "nascar",
+  "socials": {
+   "facebook": "zanesmithracing",
+   "x": "zanesmith77",
+   "instagram": "zanesmith77"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.nascar.com/drivers/zane-smith",
+   "x": "https://www.nascar.com/drivers/zane-smith",
+   "instagram": "https://www.nascar.com/drivers/zane-smith"
+  }
+ },
+ {
+  "name": "Ty Dillon",
+  "channelID": "nascar",
+  "socials": {
+   "facebook": "TyDillonMotorsports",
+   "x": "TyDillon",
+   "instagram": "Ty_Dillon"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.nascar.com/drivers/ty-dillon",
+   "x": "https://www.nascar.com/drivers/ty-dillon",
+   "instagram": "https://www.nascar.com/drivers/ty-dillon",
+   "youtube": "https://www.nascar.com/drivers/ty-dillon"
+  },
+  "youtube": {
+   "channelId": "UCiEzA3FKSZ-9nnfWvps3I4A",
+   "embeddable": true,
+   "evidence": "linked from nascar.com driver page; fwZQd8i_ZBI state 1 (22 Sep 2026)"
+  }
+ },
+ {
+  "name": "AJ Allmendinger",
+  "channelID": "nascar",
+  "socials": {
+   "facebook": "AJAllmendinger",
+   "x": "ajdinger"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.nascar.com/drivers/aj-allmendinger",
+   "x": "https://www.nascar.com/drivers/aj-allmendinger"
+  }
+ },
+ {
+  "name": "Daniel Suárez",
+  "channelID": "nascar",
+  "socials": {
+   "facebook": "danielsuarezgarza",
+   "x": "daniel_suarezg",
+   "instagram": "daniel_suarezg"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.nascar.com/drivers/daniel-suarez",
+   "x": "https://www.nascar.com/drivers/daniel-suarez",
+   "instagram": "https://www.nascar.com/drivers/daniel-suarez"
+  }
+ },
+ {
+  "name": "Michael McDowell",
+  "channelID": "nascar",
+  "socials": {
+   "facebook": "MichaelMcdowell",
+   "x": "mc_driver",
+   "instagram": "mc_driver"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.nascar.com/drivers/michael-mcdowell",
+   "x": "https://www.nascar.com/drivers/michael-mcdowell",
+   "instagram": "https://www.nascar.com/drivers/michael-mcdowell"
+  }
+ },
+ {
+  "name": "Carson Hocevar",
+  "channelID": "nascar",
+  "socials": {
+   "facebook": "carsonhocevarracing",
+   "x": "carsonhocevar",
+   "instagram": "carsonhocevar"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.nascar.com/drivers/carson-hocevar",
+   "x": "https://www.nascar.com/drivers/carson-hocevar",
+   "instagram": "https://www.nascar.com/drivers/carson-hocevar"
+  }
+ },
+ {
+  "name": "Josh Berry",
+  "channelID": "nascar",
+  "socials": {
+   "facebook": "joshberry72",
+   "x": "joshberry",
+   "instagram": "joshberry88"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.nascar.com/drivers/josh-berry",
+   "x": "https://www.nascar.com/drivers/josh-berry",
+   "instagram": "https://www.nascar.com/drivers/josh-berry"
+  }
+ },
+ {
+  "name": "John Hunter Nemechek",
+  "channelID": "nascar",
+  "socials": {
+   "facebook": "JohnHunterNemechek",
+   "x": "JHNemechek",
+   "instagram": "jhnemechek"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.nascar.com/drivers/john-hunter-nemechek",
+   "x": "https://www.nascar.com/drivers/john-hunter-nemechek",
+   "instagram": "https://www.nascar.com/drivers/john-hunter-nemechek"
+  }
+ },
+ {
+  "name": "Erik Jones",
+  "channelID": "nascar",
+  "socials": {
+   "facebook": "erikjonesracing",
+   "x": "erik_jones",
+   "instagram": "erik_jones"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.nascar.com/drivers/erik-jones",
+   "x": "https://www.nascar.com/drivers/erik-jones",
+   "instagram": "https://www.nascar.com/drivers/erik-jones"
+  }
+ },
+ {
+  "name": "Ricky Stenhouse Jr.",
+  "channelID": "nascar",
+  "socials": {
+   "facebook": "StenhouseJr",
+   "x": "StenhouseJr",
+   "instagram": "stenhousejr"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.nascar.com/drivers/ricky-stenhouse-jr",
+   "x": "https://www.nascar.com/drivers/ricky-stenhouse-jr",
+   "instagram": "https://www.nascar.com/drivers/ricky-stenhouse-jr"
+  }
+ },
+ {
+  "name": "Cody Ware",
+  "channelID": "nascar",
+  "socials": {
+   "facebook": "codyshaneware",
+   "instagram": "codyshaneware"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.nascar.com/drivers/cody-ware",
+   "instagram": "https://www.nascar.com/drivers/cody-ware"
+  }
+ },
+ {
+  "name": "Cole Custer",
+  "channelID": "nascar",
+  "socials": {
+   "facebook": "Cole-Custer-100309103492961",
+   "x": "colecuster",
+   "instagram": "colecuster41"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.nascar.com/drivers/cole-custer",
+   "x": "https://www.nascar.com/drivers/cole-custer",
+   "instagram": "https://www.nascar.com/drivers/cole-custer"
+  }
+ }
+]

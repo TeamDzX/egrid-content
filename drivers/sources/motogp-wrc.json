@@ -1,0 +1,860 @@
+[
+ {
+  "name": "Jorge Martin",
+  "channelID": "motogp",
+  "team": "Aprilia Racing",
+  "nationality": "Spanish",
+  "number": 89,
+  "wildcard": false,
+  "socials": {
+   "x": "88jorgemartin",
+   "instagram": "89jorgemartin",
+   "tiktok": "89.jorgemartin",
+   "threads": "89jorgemartin"
+  },
+  "youtube": {
+   "channelId": "UC0qzjF0Da9f-rtqInpPP8EA",
+   "handle": "@89jorgemartin",
+   "title": "Jorge Martin Almoguera",
+   "embeddable": true,
+   "evidence": "linked from motogp.com rider page (social_media.YOUTUBE); only 6 vlogs, 24k subs",
+   "recentVideoId": "c8zZlEuHKq8"
+  },
+  "verifiedVia": {
+   "x": "https://api.pulselive.motogp.com/motogp/v1/riders/5b9af34e-da94-4ca2-9c4c-6be0fc8b1bbc (motogp.com rider page social_media; page https://www.motogp.com/en/riders/jorge-martin/5b9af34e-da94-4ca2-9c4c-6be0fc8b1bbc)",
+   "instagram": "https://api.pulselive.motogp.com/motogp/v1/riders/5b9af34e-da94-4ca2-9c4c-6be0fc8b1bbc (motogp.com rider page social_media; page https://www.motogp.com/en/riders/jorge-martin/5b9af34e-da94-4ca2-9c4c-6be0fc8b1bbc)",
+   "tiktok": "https://api.pulselive.motogp.com/motogp/v1/riders/5b9af34e-da94-4ca2-9c4c-6be0fc8b1bbc (motogp.com rider page social_media; page https://www.motogp.com/en/riders/jorge-martin/5b9af34e-da94-4ca2-9c4c-6be0fc8b1bbc)",
+   "threads": "https://api.pulselive.motogp.com/motogp/v1/riders/5b9af34e-da94-4ca2-9c4c-6be0fc8b1bbc (motogp.com rider page social_media; page https://www.motogp.com/en/riders/jorge-martin/5b9af34e-da94-4ca2-9c4c-6be0fc8b1bbc)",
+   "youtube": "https://api.pulselive.motogp.com/motogp/v1/riders/5b9af34e-da94-4ca2-9c4c-6be0fc8b1bbc (motogp.com rider page social_media; page https://www.motogp.com/en/riders/jorge-martin/5b9af34e-da94-4ca2-9c4c-6be0fc8b1bbc)"
+  }
+ },
+ {
+  "name": "Marc Marquez",
+  "channelID": "motogp",
+  "team": "Ducati Lenovo Team",
+  "nationality": "Spanish",
+  "number": 93,
+  "wildcard": false,
+  "socials": {
+   "x": "marcmarquez93",
+   "threads": "marcmarquez93",
+   "tiktok": "marcmarquez93",
+   "instagram": "marcmarquez93"
+  },
+  "youtube": {
+   "channelId": "UCwq9uS4UUVVV7GR991YOv-g",
+   "handle": "@marcmarquez93",
+   "title": "Marc Márquez",
+   "embeddable": true,
+   "evidence": "linked from motogp.com rider page (social_media.YOUTUBE); channel desc \"Canal Oficial de Marc Marquez\"",
+   "recentVideoId": "E5A7JuLIChM"
+  },
+  "verifiedVia": {
+   "x": "https://api.pulselive.motogp.com/motogp/v1/riders/23e50438-a657-4fb0-a190-3262b5472f29 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/marc-marquez/23e50438-a657-4fb0-a190-3262b5472f29)",
+   "threads": "https://api.pulselive.motogp.com/motogp/v1/riders/23e50438-a657-4fb0-a190-3262b5472f29 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/marc-marquez/23e50438-a657-4fb0-a190-3262b5472f29)",
+   "tiktok": "https://api.pulselive.motogp.com/motogp/v1/riders/23e50438-a657-4fb0-a190-3262b5472f29 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/marc-marquez/23e50438-a657-4fb0-a190-3262b5472f29)",
+   "instagram": "https://api.pulselive.motogp.com/motogp/v1/riders/23e50438-a657-4fb0-a190-3262b5472f29 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/marc-marquez/23e50438-a657-4fb0-a190-3262b5472f29)",
+   "youtube": "https://api.pulselive.motogp.com/motogp/v1/riders/23e50438-a657-4fb0-a190-3262b5472f29 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/marc-marquez/23e50438-a657-4fb0-a190-3262b5472f29)"
+  }
+ },
+ {
+  "name": "Marco Bezzecchi",
+  "channelID": "motogp",
+  "team": "Aprilia Racing",
+  "nationality": "Italian",
+  "number": 72,
+  "wildcard": false,
+  "socials": {
+   "tiktok": "mbez72",
+   "threads": "marcobez72",
+   "instagram": "marcobez72"
+  },
+  "verifiedVia": {
+   "tiktok": "https://api.pulselive.motogp.com/motogp/v1/riders/e622ec5b-5ccf-457c-a67f-ec028f0ddf6e (motogp.com rider page social_media; page https://www.motogp.com/en/riders/marco-bezzecchi/e622ec5b-5ccf-457c-a67f-ec028f0ddf6e)",
+   "threads": "https://api.pulselive.motogp.com/motogp/v1/riders/e622ec5b-5ccf-457c-a67f-ec028f0ddf6e (motogp.com rider page social_media; page https://www.motogp.com/en/riders/marco-bezzecchi/e622ec5b-5ccf-457c-a67f-ec028f0ddf6e)",
+   "instagram": "https://api.pulselive.motogp.com/motogp/v1/riders/e622ec5b-5ccf-457c-a67f-ec028f0ddf6e (motogp.com rider page social_media; page https://www.motogp.com/en/riders/marco-bezzecchi/e622ec5b-5ccf-457c-a67f-ec028f0ddf6e)"
+  }
+ },
+ {
+  "name": "Pedro Acosta",
+  "channelID": "motogp",
+  "team": "Red Bull KTM Factory Racing",
+  "nationality": "Spanish",
+  "number": 37,
+  "wildcard": false,
+  "socials": {
+   "tiktok": "37.pedroacosta",
+   "x": "37_pedroacosta",
+   "threads": "37pedroacosta",
+   "instagram": "37pedroacosta"
+  },
+  "verifiedVia": {
+   "tiktok": "https://api.pulselive.motogp.com/motogp/v1/riders/ea39a0af-95d3-4a37-81a7-f332efdb9216 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/pedro-acosta/ea39a0af-95d3-4a37-81a7-f332efdb9216)",
+   "x": "https://api.pulselive.motogp.com/motogp/v1/riders/ea39a0af-95d3-4a37-81a7-f332efdb9216 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/pedro-acosta/ea39a0af-95d3-4a37-81a7-f332efdb9216)",
+   "threads": "https://api.pulselive.motogp.com/motogp/v1/riders/ea39a0af-95d3-4a37-81a7-f332efdb9216 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/pedro-acosta/ea39a0af-95d3-4a37-81a7-f332efdb9216)",
+   "instagram": "https://api.pulselive.motogp.com/motogp/v1/riders/ea39a0af-95d3-4a37-81a7-f332efdb9216 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/pedro-acosta/ea39a0af-95d3-4a37-81a7-f332efdb9216)"
+  }
+ },
+ {
+  "name": "Fabio Di Giannantonio",
+  "channelID": "motogp",
+  "team": "Pertamina Enduro VR46 Racing Team",
+  "nationality": "Italian",
+  "number": 49,
+  "wildcard": false,
+  "socials": {
+   "tiktok": "fabiodiggia21",
+   "x": "FabioDiggia49",
+   "instagram": "fabiodiggia49",
+   "threads": "fabiodiggia49"
+  },
+  "verifiedVia": {
+   "tiktok": "https://api.pulselive.motogp.com/motogp/v1/riders/525b1551-f10b-4cfd-9b43-59af6fca654b (motogp.com rider page social_media; page https://www.motogp.com/en/riders/fabio-di-giannantonio/525b1551-f10b-4cfd-9b43-59af6fca654b)",
+   "x": "https://api.pulselive.motogp.com/motogp/v1/riders/525b1551-f10b-4cfd-9b43-59af6fca654b (motogp.com rider page social_media; page https://www.motogp.com/en/riders/fabio-di-giannantonio/525b1551-f10b-4cfd-9b43-59af6fca654b)",
+   "instagram": "https://api.pulselive.motogp.com/motogp/v1/riders/525b1551-f10b-4cfd-9b43-59af6fca654b (motogp.com rider page social_media; page https://www.motogp.com/en/riders/fabio-di-giannantonio/525b1551-f10b-4cfd-9b43-59af6fca654b)",
+   "threads": "https://api.pulselive.motogp.com/motogp/v1/riders/525b1551-f10b-4cfd-9b43-59af6fca654b (motogp.com rider page social_media; page https://www.motogp.com/en/riders/fabio-di-giannantonio/525b1551-f10b-4cfd-9b43-59af6fca654b)"
+  }
+ },
+ {
+  "name": "Ai Ogura",
+  "channelID": "motogp",
+  "team": "SuperFile Trackhouse MotoGP Team",
+  "nationality": "Japanese",
+  "number": 79,
+  "wildcard": false,
+  "socials": {
+   "instagram": "aiogura79",
+   "x": "AiOgura79"
+  },
+  "verifiedVia": {
+   "instagram": "https://api.pulselive.motogp.com/motogp/v1/riders/244b6f51-ac33-40ee-876d-9401dc9d1346 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/ai-ogura/244b6f51-ac33-40ee-876d-9401dc9d1346)",
+   "x": "https://api.pulselive.motogp.com/motogp/v1/riders/244b6f51-ac33-40ee-876d-9401dc9d1346 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/ai-ogura/244b6f51-ac33-40ee-876d-9401dc9d1346)"
+  }
+ },
+ {
+  "name": "Raul Fernandez",
+  "channelID": "motogp",
+  "team": "SuperFile Trackhouse MotoGP Team",
+  "nationality": "Spanish",
+  "number": 25,
+  "wildcard": false,
+  "socials": {
+   "threads": "raulfernandez_25",
+   "tiktok": "raulfernandez_25",
+   "instagram": "raulfernandez_25",
+   "x": "25RaulFernandez"
+  },
+  "verifiedVia": {
+   "threads": "https://api.pulselive.motogp.com/motogp/v1/riders/eec1f7dc-b115-44f6-82aa-73130e5c92cf (motogp.com rider page social_media; page https://www.motogp.com/en/riders/raul-fernandez/eec1f7dc-b115-44f6-82aa-73130e5c92cf)",
+   "tiktok": "https://api.pulselive.motogp.com/motogp/v1/riders/eec1f7dc-b115-44f6-82aa-73130e5c92cf (motogp.com rider page social_media; page https://www.motogp.com/en/riders/raul-fernandez/eec1f7dc-b115-44f6-82aa-73130e5c92cf)",
+   "instagram": "https://api.pulselive.motogp.com/motogp/v1/riders/eec1f7dc-b115-44f6-82aa-73130e5c92cf (motogp.com rider page social_media; page https://www.motogp.com/en/riders/raul-fernandez/eec1f7dc-b115-44f6-82aa-73130e5c92cf)",
+   "x": "https://api.pulselive.motogp.com/motogp/v1/riders/eec1f7dc-b115-44f6-82aa-73130e5c92cf (motogp.com rider page social_media; page https://www.motogp.com/en/riders/raul-fernandez/eec1f7dc-b115-44f6-82aa-73130e5c92cf)",
+   "youtube": "YouTube Data API channels/search (see youtube.evidence)"
+  }
+ },
+ {
+  "name": "Alex Marquez",
+  "channelID": "motogp",
+  "team": "BK8 Gresini Racing MotoGP",
+  "nationality": "Spanish",
+  "number": 73,
+  "wildcard": false,
+  "socials": {
+   "instagram": "alexmarquez73",
+   "tiktok": "alexmarquez73",
+   "threads": "alexmarquez73",
+   "x": "alexmarquez73"
+  },
+  "youtube": {
+   "channelId": "UCSbt-l3WwVBcrVpmu44qbKg",
+   "handle": "@alexmarquez73",
+   "title": "Alex Márquez",
+   "embeddable": true,
+   "evidence": "linked from motogp.com rider page (social_media.YOUTUBE); channel desc \"Canal Oficial de Alex Márquez\"",
+   "recentVideoId": "YV0efe-OHGk"
+  },
+  "verifiedVia": {
+   "instagram": "https://api.pulselive.motogp.com/motogp/v1/riders/41195f0f-9817-4a4d-913e-c1fbbb351d9b (motogp.com rider page social_media; page https://www.motogp.com/en/riders/alex-marquez/41195f0f-9817-4a4d-913e-c1fbbb351d9b)",
+   "tiktok": "https://api.pulselive.motogp.com/motogp/v1/riders/41195f0f-9817-4a4d-913e-c1fbbb351d9b (motogp.com rider page social_media; page https://www.motogp.com/en/riders/alex-marquez/41195f0f-9817-4a4d-913e-c1fbbb351d9b)",
+   "threads": "https://api.pulselive.motogp.com/motogp/v1/riders/41195f0f-9817-4a4d-913e-c1fbbb351d9b (motogp.com rider page social_media; page https://www.motogp.com/en/riders/alex-marquez/41195f0f-9817-4a4d-913e-c1fbbb351d9b)",
+   "x": "https://api.pulselive.motogp.com/motogp/v1/riders/41195f0f-9817-4a4d-913e-c1fbbb351d9b (motogp.com rider page social_media; page https://www.motogp.com/en/riders/alex-marquez/41195f0f-9817-4a4d-913e-c1fbbb351d9b)",
+   "youtube": "https://api.pulselive.motogp.com/motogp/v1/riders/41195f0f-9817-4a4d-913e-c1fbbb351d9b (motogp.com rider page social_media; page https://www.motogp.com/en/riders/alex-marquez/41195f0f-9817-4a4d-913e-c1fbbb351d9b)"
+  }
+ },
+ {
+  "name": "Francesco Bagnaia",
+  "channelID": "motogp",
+  "team": "Ducati Lenovo Team",
+  "nationality": "Italian",
+  "number": 63,
+  "wildcard": false,
+  "socials": {
+   "instagram": "pecco63",
+   "x": "PeccoBagnaia",
+   "threads": "pecco63"
+  },
+  "verifiedVia": {
+   "instagram": "https://api.pulselive.motogp.com/motogp/v1/riders/66b78301-5826-4986-b11e-fa68a7bd77a7 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/francesco-bagnaia/66b78301-5826-4986-b11e-fa68a7bd77a7)",
+   "x": "https://api.pulselive.motogp.com/motogp/v1/riders/66b78301-5826-4986-b11e-fa68a7bd77a7 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/francesco-bagnaia/66b78301-5826-4986-b11e-fa68a7bd77a7)",
+   "threads": "https://api.pulselive.motogp.com/motogp/v1/riders/66b78301-5826-4986-b11e-fa68a7bd77a7 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/francesco-bagnaia/66b78301-5826-4986-b11e-fa68a7bd77a7)",
+   "youtube": "YouTube Data API channels/search (see youtube.evidence)"
+  }
+ },
+ {
+  "name": "Fermin Aldeguer",
+  "channelID": "motogp",
+  "team": "BK8 Gresini Racing MotoGP",
+  "nationality": "Spanish",
+  "number": 54,
+  "wildcard": false,
+  "socials": {
+   "x": "Aldeguer54",
+   "threads": "ferminaldeguer_54",
+   "instagram": "ferminaldeguer_54",
+   "tiktok": "ferminaldeguer__54"
+  },
+  "verifiedVia": {
+   "x": "https://api.pulselive.motogp.com/motogp/v1/riders/71052114-5bce-4307-908c-4cc2bd387aac (motogp.com rider page social_media; page https://www.motogp.com/en/riders/fermin-aldeguer/71052114-5bce-4307-908c-4cc2bd387aac)",
+   "threads": "https://api.pulselive.motogp.com/motogp/v1/riders/71052114-5bce-4307-908c-4cc2bd387aac (motogp.com rider page social_media; page https://www.motogp.com/en/riders/fermin-aldeguer/71052114-5bce-4307-908c-4cc2bd387aac)",
+   "instagram": "https://api.pulselive.motogp.com/motogp/v1/riders/71052114-5bce-4307-908c-4cc2bd387aac (motogp.com rider page social_media; page https://www.motogp.com/en/riders/fermin-aldeguer/71052114-5bce-4307-908c-4cc2bd387aac)",
+   "tiktok": "https://api.pulselive.motogp.com/motogp/v1/riders/71052114-5bce-4307-908c-4cc2bd387aac (motogp.com rider page social_media; page https://www.motogp.com/en/riders/fermin-aldeguer/71052114-5bce-4307-908c-4cc2bd387aac)"
+  },
+  "notes": "motogp.com links YouTube https://www.youtube.com/@ferminaldeguer54 but the channel has 0 videos / 7 subs — omitted"
+ },
+ {
+  "name": "Luca Marini",
+  "channelID": "motogp",
+  "team": "Honda HRC Castrol",
+  "nationality": "Italian",
+  "number": 10,
+  "wildcard": false,
+  "socials": {
+   "threads": "lucamarini10",
+   "instagram": "lucamarini10",
+   "tiktok": "luca.marini.10"
+  },
+  "verifiedVia": {
+   "threads": "https://api.pulselive.motogp.com/motogp/v1/riders/5dfc20db-c3c4-4ecd-9c7c-f6cfd042031a (motogp.com rider page social_media; page https://www.motogp.com/en/riders/luca-marini/5dfc20db-c3c4-4ecd-9c7c-f6cfd042031a)",
+   "instagram": "https://api.pulselive.motogp.com/motogp/v1/riders/5dfc20db-c3c4-4ecd-9c7c-f6cfd042031a (motogp.com rider page social_media; page https://www.motogp.com/en/riders/luca-marini/5dfc20db-c3c4-4ecd-9c7c-f6cfd042031a)",
+   "tiktok": "https://api.pulselive.motogp.com/motogp/v1/riders/5dfc20db-c3c4-4ecd-9c7c-f6cfd042031a (motogp.com rider page social_media; page https://www.motogp.com/en/riders/luca-marini/5dfc20db-c3c4-4ecd-9c7c-f6cfd042031a)"
+  }
+ },
+ {
+  "name": "Enea Bastianini",
+  "channelID": "motogp",
+  "team": "Red Bull KTM Tech3",
+  "nationality": "Italian",
+  "number": 23,
+  "wildcard": false,
+  "socials": {
+   "threads": "bestia23",
+   "x": "Bestia23",
+   "instagram": "bestia23"
+  },
+  "verifiedVia": {
+   "threads": "https://api.pulselive.motogp.com/motogp/v1/riders/00db2312-15f2-4333-be5c-4bbff9d17aec (motogp.com rider page social_media; page https://www.motogp.com/en/riders/enea-bastianini/00db2312-15f2-4333-be5c-4bbff9d17aec)",
+   "x": "https://api.pulselive.motogp.com/motogp/v1/riders/00db2312-15f2-4333-be5c-4bbff9d17aec (motogp.com rider page social_media; page https://www.motogp.com/en/riders/enea-bastianini/00db2312-15f2-4333-be5c-4bbff9d17aec)",
+   "instagram": "https://api.pulselive.motogp.com/motogp/v1/riders/00db2312-15f2-4333-be5c-4bbff9d17aec (motogp.com rider page social_media; page https://www.motogp.com/en/riders/enea-bastianini/00db2312-15f2-4333-be5c-4bbff9d17aec)"
+  }
+ },
+ {
+  "name": "Brad Binder",
+  "channelID": "motogp",
+  "team": "Red Bull KTM Factory Racing",
+  "nationality": "South African",
+  "number": 33,
+  "wildcard": false,
+  "socials": {
+   "instagram": "bradbinder",
+   "threads": "bradbinder",
+   "x": "BradBinder_33"
+  },
+  "verifiedVia": {
+   "instagram": "https://api.pulselive.motogp.com/motogp/v1/riders/ade5ef32-01ea-487c-95ca-491544a668ed (motogp.com rider page social_media; page https://www.motogp.com/en/riders/brad-binder/ade5ef32-01ea-487c-95ca-491544a668ed)",
+   "threads": "https://api.pulselive.motogp.com/motogp/v1/riders/ade5ef32-01ea-487c-95ca-491544a668ed (motogp.com rider page social_media; page https://www.motogp.com/en/riders/brad-binder/ade5ef32-01ea-487c-95ca-491544a668ed)",
+   "x": "https://api.pulselive.motogp.com/motogp/v1/riders/ade5ef32-01ea-487c-95ca-491544a668ed (motogp.com rider page social_media; page https://www.motogp.com/en/riders/brad-binder/ade5ef32-01ea-487c-95ca-491544a668ed)"
+  }
+ },
+ {
+  "name": "Diogo Moreira",
+  "channelID": "motogp",
+  "team": "Pro Honda LCR",
+  "nationality": "Brazilian",
+  "number": 11,
+  "wildcard": false,
+  "socials": {
+   "instagram": "diogomoreira_11",
+   "threads": "diogomoreira_11",
+   "tiktok": "diogomoreira_11"
+  },
+  "verifiedVia": {
+   "instagram": "https://api.pulselive.motogp.com/motogp/v1/riders/e2479f8e-dad8-4191-9a6c-9d4aafa8c3a3 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/diogo-moreira/e2479f8e-dad8-4191-9a6c-9d4aafa8c3a3)",
+   "threads": "https://api.pulselive.motogp.com/motogp/v1/riders/e2479f8e-dad8-4191-9a6c-9d4aafa8c3a3 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/diogo-moreira/e2479f8e-dad8-4191-9a6c-9d4aafa8c3a3)",
+   "tiktok": "https://api.pulselive.motogp.com/motogp/v1/riders/e2479f8e-dad8-4191-9a6c-9d4aafa8c3a3 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/diogo-moreira/e2479f8e-dad8-4191-9a6c-9d4aafa8c3a3)"
+  }
+ },
+ {
+  "name": "Fabio Quartararo",
+  "channelID": "motogp",
+  "team": "Monster Energy Yamaha MotoGP Team",
+  "nationality": "French",
+  "number": 20,
+  "wildcard": false,
+  "socials": {
+   "threads": "fabioquartararo20",
+   "tiktok": "fabioq20",
+   "instagram": "fabioquartararo20"
+  },
+  "verifiedVia": {
+   "threads": "https://api.pulselive.motogp.com/motogp/v1/riders/bf95d959-6a60-44f1-84b5-ded861e62578 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/fabio-quartararo/bf95d959-6a60-44f1-84b5-ded861e62578)",
+   "tiktok": "https://api.pulselive.motogp.com/motogp/v1/riders/bf95d959-6a60-44f1-84b5-ded861e62578 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/fabio-quartararo/bf95d959-6a60-44f1-84b5-ded861e62578)",
+   "instagram": "https://api.pulselive.motogp.com/motogp/v1/riders/bf95d959-6a60-44f1-84b5-ded861e62578 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/fabio-quartararo/bf95d959-6a60-44f1-84b5-ded861e62578)"
+  }
+ },
+ {
+  "name": "Franco Morbidelli",
+  "channelID": "motogp",
+  "team": "Pertamina Enduro VR46 Racing Team",
+  "nationality": "Italian",
+  "number": 21,
+  "wildcard": false,
+  "socials": {
+   "instagram": "frankymorbido"
+  },
+  "verifiedVia": {
+   "instagram": "https://api.pulselive.motogp.com/motogp/v1/riders/4113c5f7-33c5-4246-b05b-3f81f4ddbd8f (motogp.com rider page social_media; page https://www.motogp.com/en/riders/franco-morbidelli/4113c5f7-33c5-4246-b05b-3f81f4ddbd8f)"
+  }
+ },
+ {
+  "name": "Johann Zarco",
+  "channelID": "motogp",
+  "team": "Castrol Honda LCR",
+  "nationality": "French",
+  "number": 5,
+  "wildcard": false,
+  "socials": {
+   "x": "JohannZarco1",
+   "instagram": "johannzarco",
+   "threads": "johannzarco"
+  },
+  "verifiedVia": {
+   "x": "https://api.pulselive.motogp.com/motogp/v1/riders/4a439bde-305a-4995-b3e7-783fa99f784a (motogp.com rider page social_media; page https://www.motogp.com/en/riders/johann-zarco/4a439bde-305a-4995-b3e7-783fa99f784a)",
+   "instagram": "https://api.pulselive.motogp.com/motogp/v1/riders/4a439bde-305a-4995-b3e7-783fa99f784a (motogp.com rider page social_media; page https://www.motogp.com/en/riders/johann-zarco/4a439bde-305a-4995-b3e7-783fa99f784a)",
+   "threads": "https://api.pulselive.motogp.com/motogp/v1/riders/4a439bde-305a-4995-b3e7-783fa99f784a (motogp.com rider page social_media; page https://www.motogp.com/en/riders/johann-zarco/4a439bde-305a-4995-b3e7-783fa99f784a)"
+  }
+ },
+ {
+  "name": "Joan Mir",
+  "channelID": "motogp",
+  "team": "Honda HRC Castrol",
+  "nationality": "Spanish",
+  "number": 36,
+  "wildcard": false,
+  "socials": {
+   "x": "JoanMirOfficial",
+   "instagram": "joanmir36official",
+   "threads": "joanmir36official"
+  },
+  "verifiedVia": {
+   "x": "https://api.pulselive.motogp.com/motogp/v1/riders/f55f9c34-8621-437b-ae04-ae2418720204 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/joan-mir/f55f9c34-8621-437b-ae04-ae2418720204)",
+   "instagram": "https://api.pulselive.motogp.com/motogp/v1/riders/f55f9c34-8621-437b-ae04-ae2418720204 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/joan-mir/f55f9c34-8621-437b-ae04-ae2418720204)",
+   "threads": "https://api.pulselive.motogp.com/motogp/v1/riders/f55f9c34-8621-437b-ae04-ae2418720204 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/joan-mir/f55f9c34-8621-437b-ae04-ae2418720204)"
+  }
+ },
+ {
+  "name": "Jack Miller",
+  "channelID": "motogp",
+  "team": "Prima Pramac Yamaha MotoGP",
+  "nationality": "Australian",
+  "number": 43,
+  "wildcard": false,
+  "socials": {
+   "x": "jackmilleraus",
+   "threads": "jackmilleraus",
+   "instagram": "jackmilleraus"
+  },
+  "verifiedVia": {
+   "x": "https://api.pulselive.motogp.com/motogp/v1/riders/b0c1fea6-2dd5-4e26-8a18-0ac9fe6870e4 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/jack-miller/b0c1fea6-2dd5-4e26-8a18-0ac9fe6870e4)",
+   "threads": "https://api.pulselive.motogp.com/motogp/v1/riders/b0c1fea6-2dd5-4e26-8a18-0ac9fe6870e4 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/jack-miller/b0c1fea6-2dd5-4e26-8a18-0ac9fe6870e4)",
+   "instagram": "https://api.pulselive.motogp.com/motogp/v1/riders/b0c1fea6-2dd5-4e26-8a18-0ac9fe6870e4 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/jack-miller/b0c1fea6-2dd5-4e26-8a18-0ac9fe6870e4)"
+  }
+ },
+ {
+  "name": "Alex Rins",
+  "channelID": "motogp",
+  "team": "Monster Energy Yamaha MotoGP Team",
+  "nationality": "Spanish",
+  "number": 42,
+  "wildcard": false,
+  "socials": {
+   "threads": "alexrins",
+   "instagram": "alexrins",
+   "x": "Rins42"
+  },
+  "verifiedVia": {
+   "threads": "https://api.pulselive.motogp.com/motogp/v1/riders/04bf0ce4-5062-44fc-9745-ec85a8d8f8d3 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/alex-rins/04bf0ce4-5062-44fc-9745-ec85a8d8f8d3)",
+   "instagram": "https://api.pulselive.motogp.com/motogp/v1/riders/04bf0ce4-5062-44fc-9745-ec85a8d8f8d3 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/alex-rins/04bf0ce4-5062-44fc-9745-ec85a8d8f8d3)",
+   "x": "https://api.pulselive.motogp.com/motogp/v1/riders/04bf0ce4-5062-44fc-9745-ec85a8d8f8d3 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/alex-rins/04bf0ce4-5062-44fc-9745-ec85a8d8f8d3)"
+  }
+ },
+ {
+  "name": "Toprak Razgatlioglu",
+  "channelID": "motogp",
+  "team": "Prima Pramac Yamaha MotoGP",
+  "nationality": "Turkish",
+  "number": 7,
+  "wildcard": false,
+  "socials": {
+   "x": "Toprak07TR",
+   "instagram": "toprakrazgatlioglu7",
+   "tiktok": "toprak_tr54"
+  },
+  "verifiedVia": {
+   "x": "https://api.pulselive.motogp.com/motogp/v1/riders/c883a3b8-17ce-419d-b71b-32c252f6fc7e (motogp.com rider page social_media; page https://www.motogp.com/en/riders/toprak-razgatlioglu/c883a3b8-17ce-419d-b71b-32c252f6fc7e)",
+   "instagram": "https://api.pulselive.motogp.com/motogp/v1/riders/c883a3b8-17ce-419d-b71b-32c252f6fc7e (motogp.com rider page social_media; page https://www.motogp.com/en/riders/toprak-razgatlioglu/c883a3b8-17ce-419d-b71b-32c252f6fc7e)",
+   "tiktok": "https://api.pulselive.motogp.com/motogp/v1/riders/c883a3b8-17ce-419d-b71b-32c252f6fc7e (motogp.com rider page social_media; page https://www.motogp.com/en/riders/toprak-razgatlioglu/c883a3b8-17ce-419d-b71b-32c252f6fc7e)"
+  },
+  "notes": "YouTube @toprakrazgatlioglu7 is a fan channel — omitted"
+ },
+ {
+  "name": "Maverick Viñales",
+  "channelID": "motogp",
+  "team": "Red Bull KTM Tech3",
+  "nationality": "Spanish",
+  "number": 12,
+  "wildcard": false,
+  "socials": {
+   "tiktok": "maverickvinales12",
+   "instagram": "maverick12official"
+  },
+  "youtube": {
+   "channelId": "UCt6vvrbQfBHc98K6VjGWIZQ",
+   "handle": "@maverickvinales12",
+   "title": "Maverick Viñales",
+   "embeddable": true,
+   "evidence": "linked from motogp.com rider page (social_media.YOUTUBE); channel desc \"Canal oficial de Maverick Viñales\"",
+   "recentVideoId": "RNCjr15bP6s"
+  },
+  "verifiedVia": {
+   "tiktok": "https://api.pulselive.motogp.com/motogp/v1/riders/71df6f0d-51c3-4cdb-9f5c-51939e6f33f2 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/maverick-vinales/71df6f0d-51c3-4cdb-9f5c-51939e6f33f2)",
+   "instagram": "https://api.pulselive.motogp.com/motogp/v1/riders/71df6f0d-51c3-4cdb-9f5c-51939e6f33f2 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/maverick-vinales/71df6f0d-51c3-4cdb-9f5c-51939e6f33f2)",
+   "youtube": "https://api.pulselive.motogp.com/motogp/v1/riders/71df6f0d-51c3-4cdb-9f5c-51939e6f33f2 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/maverick-vinales/71df6f0d-51c3-4cdb-9f5c-51939e6f33f2)"
+  }
+ },
+ {
+  "name": "Iker Lecuona",
+  "channelID": "motogp",
+  "team": "BK8 Gresini Racing MotoGP",
+  "nationality": "Spanish",
+  "number": 27,
+  "wildcard": true,
+  "socials": {
+   "x": "LecuonaIker",
+   "instagram": "ikerlecuona_27",
+   "tiktok": "ikerlecuona_27"
+  },
+  "verifiedVia": {
+   "x": "https://api.pulselive.motogp.com/motogp/v1/riders/92d574d5-d064-4612-bf3e-421d01572512 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/iker-lecuona/92d574d5-d064-4612-bf3e-421d01572512)",
+   "instagram": "https://api.pulselive.motogp.com/motogp/v1/riders/92d574d5-d064-4612-bf3e-421d01572512 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/iker-lecuona/92d574d5-d064-4612-bf3e-421d01572512)",
+   "tiktok": "https://api.pulselive.motogp.com/motogp/v1/riders/92d574d5-d064-4612-bf3e-421d01572512 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/iker-lecuona/92d574d5-d064-4612-bf3e-421d01572512)"
+  },
+  "notes": "motogp.com career-step type: Substitute"
+ },
+ {
+  "name": "Augusto Fernandez",
+  "channelID": "motogp",
+  "team": "Yamaha Factory Racing",
+  "nationality": "Spanish",
+  "number": 47,
+  "wildcard": true,
+  "socials": {
+   "instagram": "augustofernandez37",
+   "x": "Afernandez37"
+  },
+  "verifiedVia": {
+   "instagram": "https://api.pulselive.motogp.com/motogp/v1/riders/eb7f90b1-9373-4089-b2f5-adbc234a3526 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/augusto-fernandez/eb7f90b1-9373-4089-b2f5-adbc234a3526)",
+   "x": "https://api.pulselive.motogp.com/motogp/v1/riders/eb7f90b1-9373-4089-b2f5-adbc234a3526 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/augusto-fernandez/eb7f90b1-9373-4089-b2f5-adbc234a3526)"
+  },
+  "notes": "motogp.com career-step type: Wildcard"
+ },
+ {
+  "name": "Pol Espargaro",
+  "channelID": "motogp",
+  "team": "Red Bull KTM Tech3",
+  "nationality": "Spanish",
+  "number": 44,
+  "wildcard": true,
+  "socials": {},
+  "verifiedVia": {},
+  "notes": "motogp.com career-step type: Substitute; motogp.com rider page lists no social accounts; nothing verifiable found"
+ },
+ {
+  "name": "Takaaki Nakagami",
+  "channelID": "motogp",
+  "team": "Honda HRC Castrol",
+  "nationality": "Japanese",
+  "number": 40,
+  "wildcard": true,
+  "socials": {},
+  "verifiedVia": {},
+  "notes": "number 40 per motogp.com API (grids.json had 30); motogp.com career-step type: Substitute; motogp.com rider page lists no social accounts; nothing verifiable found"
+ },
+ {
+  "name": "Cal Crutchlow",
+  "channelID": "motogp",
+  "team": "Castrol Honda LCR",
+  "nationality": "British",
+  "number": 35,
+  "wildcard": true,
+  "socials": {
+   "x": "calcrutchlow",
+   "instagram": "calcrutchlow"
+  },
+  "verifiedVia": {
+   "x": "https://api.pulselive.motogp.com/motogp/v1/riders/ec9adf3a-985f-4eb6-8ffd-54b688f49846 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/cal-crutchlow/ec9adf3a-985f-4eb6-8ffd-54b688f49846)",
+   "instagram": "https://api.pulselive.motogp.com/motogp/v1/riders/ec9adf3a-985f-4eb6-8ffd-54b688f49846 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/cal-crutchlow/ec9adf3a-985f-4eb6-8ffd-54b688f49846)"
+  },
+  "notes": "motogp.com career-step type: Substitute"
+ },
+ {
+  "name": "Jonas Folger",
+  "channelID": "motogp",
+  "team": "Red Bull KTM Tech3",
+  "nationality": "German",
+  "number": 94,
+  "wildcard": true,
+  "socials": {
+   "instagram": "jonasfolger94",
+   "x": "94jonasfolger",
+   "threads": "jonasfolger94"
+  },
+  "verifiedVia": {
+   "instagram": "https://api.pulselive.motogp.com/motogp/v1/riders/93d6c1b8-9853-4939-a926-f26593db8eaf (motogp.com rider page social_media; page https://www.motogp.com/en/riders/jonas-folger/93d6c1b8-9853-4939-a926-f26593db8eaf)",
+   "x": "https://api.pulselive.motogp.com/motogp/v1/riders/93d6c1b8-9853-4939-a926-f26593db8eaf (motogp.com rider page social_media; page https://www.motogp.com/en/riders/jonas-folger/93d6c1b8-9853-4939-a926-f26593db8eaf)",
+   "threads": "https://api.pulselive.motogp.com/motogp/v1/riders/93d6c1b8-9853-4939-a926-f26593db8eaf (motogp.com rider page social_media; page https://www.motogp.com/en/riders/jonas-folger/93d6c1b8-9853-4939-a926-f26593db8eaf)"
+  },
+  "notes": "motogp.com career-step type: Substitute"
+ },
+ {
+  "name": "Lorenzo Savadori",
+  "channelID": "motogp",
+  "team": "SuperFile Trackhouse MotoGP Team",
+  "nationality": "Italian",
+  "number": 32,
+  "wildcard": true,
+  "socials": {
+   "x": "lorysava32",
+   "instagram": "sava32",
+   "tiktok": "lorenzo.savadori"
+  },
+  "verifiedVia": {
+   "x": "https://api.pulselive.motogp.com/motogp/v1/riders/a1311c17-1099-4893-bba0-347bf43226a4 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/lorenzo-savadori/a1311c17-1099-4893-bba0-347bf43226a4)",
+   "instagram": "https://api.pulselive.motogp.com/motogp/v1/riders/a1311c17-1099-4893-bba0-347bf43226a4 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/lorenzo-savadori/a1311c17-1099-4893-bba0-347bf43226a4)",
+   "tiktok": "https://api.pulselive.motogp.com/motogp/v1/riders/a1311c17-1099-4893-bba0-347bf43226a4 (motogp.com rider page social_media; page https://www.motogp.com/en/riders/lorenzo-savadori/a1311c17-1099-4893-bba0-347bf43226a4)"
+  },
+  "notes": "motogp.com career-step type: Substitute"
+ },
+ {
+  "name": "Michele Pirro",
+  "channelID": "motogp",
+  "team": "BK8 Gresini Racing MotoGP",
+  "nationality": "Italian",
+  "number": 51,
+  "wildcard": true,
+  "socials": {},
+  "verifiedVia": {},
+  "notes": "motogp.com career-step type: Substitute; motogp.com rider page lists no social accounts; nothing verifiable found"
+ },
+ {
+  "name": "Elfyn Evans",
+  "channelID": "wrc",
+  "team": "Toyota Gazoo Racing WRT",
+  "nationality": "British",
+  "number": 33,
+  "codriver": "Scott Martin",
+  "wildcard": false,
+  "socials": {
+   "instagram": "elfynevans",
+   "x": "ElfynEvans",
+   "facebook": "ElfynEvansRally",
+   "website": "https://www.elfynevans.com/"
+  },
+  "verifiedVia": {
+   "instagram": "https://www.elfynevans.com/",
+   "x": "https://www.elfynevans.com/",
+   "facebook": "https://www.elfynevans.com/",
+   "website": "https://www.wrc.com/en/drivers/elfyn-evans / web search"
+  },
+  "entrySource": "https://toyotagazooracing.com/wrc/team/2026/",
+  "notes": "Welsh; car 33 per toyotagazooracing.com/wrc/release/2026/rd12-day3/; co-driver per https://toyotagazooracing.com/wrc/team/2026/"
+ },
+ {
+  "name": "Sébastien Ogier",
+  "channelID": "wrc",
+  "team": "Toyota Gazoo Racing WRT",
+  "nationality": "French",
+  "number": 1,
+  "codriver": "Vincent Landais",
+  "wildcard": true,
+  "socials": {
+   "instagram": "sebogier",
+   "x": "SebOgier",
+   "facebook": "sebastien.ogier",
+   "website": "https://www.sebastien-ogier.com/en/"
+  },
+  "youtube": {
+   "channelId": "UCDvfPE5dXT2_M6qt8oIYAFA",
+   "handle": "@sebastienogier-y6z",
+   "title": "Sébastien Ogier",
+   "embeddable": true,
+   "evidence": "linked from his official site as youtube.com/user/socompetition; desc \"World Rally Champion Sébastien Ogier's official YouTube channel\"; DORMANT — last upload June 2016",
+   "recentVideoId": "2lZmX4A5I2w"
+  },
+  "verifiedVia": {
+   "instagram": "https://www.sebastien-ogier.com/en/",
+   "x": "https://www.sebastien-ogier.com/en/",
+   "facebook": "https://www.sebastien-ogier.com/en/",
+   "youtube": "https://www.sebastien-ogier.com/en/ (youtube.com/user/socompetition)"
+  },
+  "entrySource": "https://toyotagazooracing.com/wrc/team/2026/",
+  "notes": "part-time programme (Wikipedia: rounds 1,3,5-9,11-13; TGR bio: \"selected rounds\") hence wildcard=true; car 1 per TGR release rd12"
+ },
+ {
+  "name": "Takamoto Katsuta",
+  "channelID": "wrc",
+  "team": "Toyota Gazoo Racing WRT",
+  "nationality": "Japanese",
+  "number": 18,
+  "codriver": "Aaron Johnston",
+  "wildcard": false,
+  "socials": {},
+  "verifiedVia": {},
+  "entrySource": "https://toyotagazooracing.com/wrc/team/2026/",
+  "notes": "no official page found that links his socials (TGR team page and wrc.com driver page carry none); car 18 per TGR release rd12. Wikipedia entries table lists him for rounds 2,4 only but wrc.com Chile (rd12) entry list and TGR rd12 release include him — treated as full-season"
+ },
+ {
+  "name": "Oliver Solberg",
+  "channelID": "wrc",
+  "team": "Toyota Gazoo Racing WRT",
+  "nationality": "Swedish",
+  "number": 99,
+  "codriver": "Elliott Edmondson",
+  "wildcard": false,
+  "socials": {
+   "instagram": "oliversolberg01",
+   "x": "OliverSolberg01",
+   "tiktok": "oliversolberg01",
+   "facebook": "OliverSolberg01",
+   "website": "https://www.oliversolberg.com/"
+  },
+  "youtube": {
+   "channelId": "UC3ImTK_J7XR4pz5QxJx9bGA",
+   "handle": "@oliversolberg01",
+   "title": "Oliver Solberg",
+   "embeddable": true,
+   "evidence": "linked from oliversolberg.com; desc \"The only official YouTube account of Oliver Solberg\"; 49.6k subs, 214 videos",
+   "recentVideoId": "gnerdTaUfWw"
+  },
+  "verifiedVia": {
+   "instagram": "https://www.oliversolberg.com/",
+   "x": "https://www.oliversolberg.com/",
+   "tiktok": "https://www.oliversolberg.com/",
+   "facebook": "https://www.oliversolberg.com/",
+   "youtube": "https://www.oliversolberg.com/ (youtube.com/channel/UC3ImTK_J7XR4pz5QxJx9bGA)"
+  },
+  "entrySource": "https://toyotagazooracing.com/wrc/team/2026/",
+  "notes": "nationality Sweden per TGR team page (competes under Swedish licence); car 99 per TGR release rd12"
+ },
+ {
+  "name": "Sami Pajari",
+  "channelID": "wrc",
+  "team": "Toyota Gazoo Racing WRT",
+  "nationality": "Finnish",
+  "number": 5,
+  "codriver": "Marko Salminen",
+  "wildcard": false,
+  "socials": {},
+  "verifiedVia": {},
+  "entrySource": "https://toyotagazooracing.com/wrc/team/2026/",
+  "notes": "no official page found that links his socials; car 5 per TGR release rd12; Wikipedia lists his entry under \"Toyota Gazoo Racing WRT2\""
+ },
+ {
+  "name": "Thierry Neuville",
+  "channelID": "wrc",
+  "team": "Hyundai Shell Mobis World Rally Team",
+  "nationality": "Belgian",
+  "number": 11,
+  "codriver": "Martijn Wydaeghe",
+  "wildcard": false,
+  "socials": {
+   "instagram": "thierryneuville",
+   "x": "thierryneuville",
+   "facebook": "thierryneuvilleofficial"
+  },
+  "verifiedVia": {
+   "instagram": "https://motorsport.hyundai.com/manufacturer-programmes/wrc/thierry-neuville",
+   "x": "https://motorsport.hyundai.com/manufacturer-programmes/wrc/thierry-neuville",
+   "facebook": "https://motorsport.hyundai.com/manufacturer-programmes/wrc/thierry-neuville"
+  },
+  "entrySource": "https://motorsport.hyundai.com/manufacturer-programmes/wrc/thierry-neuville",
+  "notes": "car number 11 from Wikipedia entries table only (not found on an official page); co-driver per motorsport.hyundai.com"
+ },
+ {
+  "name": "Adrien Fourmaux",
+  "channelID": "wrc",
+  "team": "Hyundai Shell Mobis World Rally Team",
+  "nationality": "French",
+  "number": 16,
+  "codriver": "Alexandre Coria",
+  "wildcard": false,
+  "socials": {
+   "instagram": "adrienfourmaux",
+   "x": "AdrienFourmaux",
+   "facebook": "adrienfourmaux"
+  },
+  "verifiedVia": {
+   "instagram": "https://motorsport.hyundai.com/manufacturer-programmes/wrc/adrien-fourmaux",
+   "x": "https://motorsport.hyundai.com/manufacturer-programmes/wrc/adrien-fourmaux",
+   "facebook": "https://motorsport.hyundai.com/manufacturer-programmes/wrc/adrien-fourmaux"
+  },
+  "entrySource": "https://motorsport.hyundai.com/manufacturer-programmes/wrc/adrien-fourmaux",
+  "notes": "car 16 per motorsport.hyundai.com Rally Chile review"
+ },
+ {
+  "name": "Hayden Paddon",
+  "channelID": "wrc",
+  "team": "Hyundai Shell Mobis World Rally Team",
+  "nationality": "New Zealander",
+  "number": 20,
+  "codriver": "John Kennard",
+  "wildcard": true,
+  "socials": {
+   "instagram": "haydenpaddon",
+   "x": "HaydenPaddon",
+   "tiktok": "haydenpaddon",
+   "facebook": "haydenpaddonwrc"
+  },
+  "verifiedVia": {
+   "instagram": "https://motorsport.hyundai.com/manufacturer-programmes/wrc/hayden-paddon",
+   "x": "https://motorsport.hyundai.com/manufacturer-programmes/wrc/hayden-paddon",
+   "tiktok": "https://motorsport.hyundai.com/manufacturer-programmes/wrc/hayden-paddon",
+   "facebook": "https://motorsport.hyundai.com/manufacturer-programmes/wrc/hayden-paddon"
+  },
+  "entrySource": "https://motorsport.hyundai.com/manufacturer-programmes/wrc/hayden-paddon",
+  "notes": "shares Hyundai third car (Hyundai press release: from Monte-Carlo; Wikipedia: rounds 1,4,7,11); car 20 from Wikipedia only"
+ },
+ {
+  "name": "Dani Sordo",
+  "channelID": "wrc",
+  "team": "Hyundai Shell Mobis World Rally Team",
+  "nationality": "Spanish",
+  "number": 6,
+  "codriver": "Cándido Carrera",
+  "wildcard": true,
+  "socials": {
+   "instagram": "danisordorallye",
+   "x": "danisordo",
+   "facebook": "DanielSordo"
+  },
+  "verifiedVia": {
+   "instagram": "https://motorsport.hyundai.com/manufacturer-programmes/wrc/dani-sordo",
+   "x": "https://motorsport.hyundai.com/manufacturer-programmes/wrc/dani-sordo",
+   "facebook": "https://motorsport.hyundai.com/manufacturer-programmes/wrc/dani-sordo",
+   "youtube": "YouTube Data API forHandle @danisordo (not linked from an official page)"
+  },
+  "entrySource": "https://motorsport.hyundai.com/manufacturer-programmes/wrc/dani-sordo",
+  "notes": "shares Hyundai third car (Hyundai press release: from Islas Canarias; Wikipedia: rounds 5,6,8,13); car 6 from Wikipedia only"
+ },
+ {
+  "name": "Esapekka Lappi",
+  "channelID": "wrc",
+  "team": "Hyundai Shell Mobis World Rally Team",
+  "nationality": "Finnish",
+  "number": 4,
+  "codriver": "Enni Mälkönen",
+  "wildcard": true,
+  "socials": {
+   "instagram": "esapekkalappiofficial",
+   "x": "esapekkalappi",
+   "facebook": "EsapekkaLappiOfficial"
+  },
+  "verifiedVia": {
+   "instagram": "https://motorsport.hyundai.com/manufacturer-programmes/wrc/esapekka-lappi",
+   "x": "https://motorsport.hyundai.com/manufacturer-programmes/wrc/esapekka-lappi",
+   "facebook": "https://motorsport.hyundai.com/manufacturer-programmes/wrc/esapekka-lappi"
+  },
+  "entrySource": "https://motorsport.hyundai.com/manufacturer-programmes/wrc/esapekka-lappi",
+  "notes": "shares Hyundai third car (Hyundai press release: from Sweden; Wikipedia: rounds 2,3,9,10,12); car 4 per motorsport.hyundai.com Rally Chile review"
+ },
+ {
+  "name": "Josh McErlean",
+  "channelID": "wrc",
+  "team": "M-Sport Ford World Rally Team",
+  "nationality": "Irish",
+  "number": 55,
+  "codriver": "Eoin Treacy",
+  "wildcard": false,
+  "socials": {},
+  "verifiedVia": {},
+  "entrySource": "https://www.m-sport.co.uk/post/m-sport-crews-face-challenging-conditions-in-chile",
+  "notes": "no official page links his socials (wrc.com driver page carries none, m-sport.co.uk only lists team accounts); web results point to instagram joshmcerlean / x JoshMcErlean5 but unverified — omitted. Car 55 and co-driver per https://www.m-sport.co.uk/post/m-sport-crews-face-challenging-conditions-in-chile"
+ },
+ {
+  "name": "Jon Armstrong",
+  "channelID": "wrc",
+  "team": "M-Sport Ford World Rally Team",
+  "nationality": "British",
+  "number": 95,
+  "codriver": "Shane Byrne",
+  "wildcard": false,
+  "socials": {
+   "instagram": "jonarmstrongrally",
+   "tiktok": "jonarmstrongrally",
+   "facebook": "jonarmstrongrally",
+   "website": "https://jonarmstrongrally.com/"
+  },
+  "youtube": {
+   "channelId": "UCcptn7qxivGrAD85eraRWOg",
+   "handle": "@jonarmstrongrallying",
+   "title": "Jon Armstrong",
+   "embeddable": true,
+   "evidence": "linked from jonarmstrongrally.com as youtube.com/user/JonArmstrongRallying; 16.6k subs, 188 videos",
+   "recentVideoId": "0n2HcFwLGcY"
+  },
+  "verifiedVia": {
+   "instagram": "https://jonarmstrongrally.com/",
+   "tiktok": "https://jonarmstrongrally.com/",
+   "facebook": "https://jonarmstrongrally.com/",
+   "website": "web search (site title \"Jon Armstrong | WRC Rally Driver | M-Sport Ford\")",
+   "youtube": "https://jonarmstrongrally.com/ (youtube.com/user/JonArmstrongRallying)"
+  },
+  "entrySource": "https://www.m-sport.co.uk/post/m-sport-crews-face-challenging-conditions-in-chile",
+  "notes": "Northern Irish; X omitted: his site links two different handles (header JonArmstrong84, schema.org sameAs jonarmstrong97). Car 95 and co-driver per https://www.m-sport.co.uk/post/m-sport-crews-face-challenging-conditions-in-chile"
+ },
+ {
+  "name": "Grégoire Munster",
+  "channelID": "wrc",
+  "team": "M-Sport Ford World Rally Team",
+  "nationality": "Luxembourgish",
+  "number": null,
+  "codriver": "Louis Louka",
+  "wildcard": true,
+  "socials": {},
+  "verifiedVia": {},
+  "entrySource": "https://www.wrc.com/en/news/munster-confirmed-for-rallye-monte-carlo-2026-with-m-sport-ford",
+  "notes": "Rallye Monte-Carlo only (wrc.com news \"Munster confirmed for Rallye Monte-Carlo 2026 with M-Sport Ford\"; Wikipedia: round 1). Co-driver Louis Louka per that wrc.com article. Car number conflicting (Wikipedia 22, Spark model 13) — omitted. No official page links his socials"
+ },
+ {
+  "name": "Mārtiņš Sesks",
+  "channelID": "wrc",
+  "team": "M-Sport Ford World Rally Team",
+  "nationality": "Latvian",
+  "number": null,
+  "codriver": "Renārs Francis",
+  "wildcard": true,
+  "socials": {},
+  "verifiedVia": {},
+  "entrySource": "https://www.m-sport.co.uk/single-post/martins-sesks-to-return-to-m-sport-for-six-event-wrc-season",
+  "notes": "part-time (m-sport.co.uk \"Martins Sesks to return to M-Sport for six-event WRC season\"; wrc.com \"Sesks plots seven-round WRC campaign\": Sweden, Portugal, Greece, Estonia, Finland, Sardinia, +Saudi Arabia). No official page links his socials; car number not found on an official page"
+ }
+]

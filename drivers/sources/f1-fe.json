@@ -1,0 +1,848 @@
+[
+ {
+  "name": "Andrea Kimi Antonelli",
+  "channelID": "f1",
+  "team": "Mercedes",
+  "nationality": "Italian",
+  "number": 12,
+  "socials": {
+   "instagram": "kimi.antonelli"
+  },
+  "verifiedVia": {
+   "instagram": "https://www.mercedesamgf1.com/drivers/driver/andrea-kimi-antonelli"
+  }
+ },
+ {
+  "name": "George Russell",
+  "channelID": "f1",
+  "team": "Mercedes",
+  "nationality": "British",
+  "number": 63,
+  "socials": {
+   "instagram": "georgerussell63",
+   "facebook": "GeorgeRussell63",
+   "x": "GeorgeRussell63",
+   "website": "https://www.georgerussell63.com"
+  },
+  "verifiedVia": {
+   "instagram": "https://www.mercedesamgf1.com/drivers/driver/george-russell",
+   "facebook": "https://www.georgerussell63.com",
+   "x": "https://www.georgerussell63.com",
+   "website": "https://www.georgerussell63.com (title: George Russell | Mercedes-AMG Petronas Formula 1 Driver)"
+  }
+ },
+ {
+  "name": "Lewis Hamilton",
+  "channelID": "f1",
+  "team": "Ferrari",
+  "nationality": "British",
+  "number": 44,
+  "socials": {
+   "facebook": "LewisHamilton",
+   "instagram": "lewishamilton",
+   "threads": "lewishamilton",
+   "tiktok": "lewishamilton",
+   "x": "lewishamilton",
+   "website": "https://www.lewishamilton.com"
+  },
+  "youtube": {
+   "channelId": "UCHl4MB8UalGLUydbWdBzG1Q",
+   "handle": "@lewishamilton",
+   "title": "Lewis Hamilton",
+   "embeddable": true,
+   "evidence": "lewishamilton.com links youtube.com/user/lewishamilton, which the Data API (forUsername) resolves to this channel; 290k subs, 24 videos. Embed test (WKWebView harness): video lgWKWrrXvfc -> player state 1."
+  },
+  "verifiedVia": {
+   "facebook": "https://www.lewishamilton.com",
+   "instagram": "https://www.lewishamilton.com",
+   "threads": "https://www.lewishamilton.com",
+   "tiktok": "https://www.lewishamilton.com",
+   "x": "https://www.lewishamilton.com",
+   "website": "https://www.lewishamilton.com",
+   "youtube": "https://www.lewishamilton.com"
+  }
+ },
+ {
+  "name": "Lando Norris",
+  "channelID": "f1",
+  "team": "McLaren",
+  "nationality": "British",
+  "number": 1,
+  "socials": {
+   "instagram": "lando",
+   "tiktok": "landonorris",
+   "website": "https://landonorris.com"
+  },
+  "youtube": {
+   "channelId": "UCwFIQ7wtJzYGFb2nZcVoNww",
+   "handle": "@landonorris",
+   "title": "Lando Norris",
+   "embeddable": true,
+   "evidence": "landonorris.com links youtube.com/@LandoNorris; 1.43M subs. Embed test (WKWebView harness): video bfumhZmDcds -> player state 1."
+  },
+  "verifiedVia": {
+   "instagram": "https://landonorris.com",
+   "tiktok": "https://landonorris.com",
+   "website": "https://landonorris.com",
+   "youtube": "https://landonorris.com"
+  }
+ },
+ {
+  "name": "Charles Leclerc",
+  "channelID": "f1",
+  "team": "Ferrari",
+  "nationality": "Monegasque",
+  "number": 16,
+  "socials": {
+   "facebook": "CharlesLeclercOfficiel",
+   "instagram": "charles_leclerc",
+   "tiktok": "charlesleclerc",
+   "x": "Charles_Leclerc",
+   "website": "https://charlesleclerc.com"
+  },
+  "youtube": {
+   "channelId": "UCIzIX1qgW7P3eF6JCk_afCA",
+   "handle": "@charles_leclerc",
+   "title": "Charles Leclerc",
+   "embeddable": true,
+   "evidence": "charlesleclerc.com links youtube.com/channel/UCIzIX1qgW7P3eF6JCk_afCA; 1.58M subs. Embed test (WKWebView harness): video d3YJScA6rE0 -> player state 1."
+  },
+  "verifiedVia": {
+   "facebook": "https://charlesleclerc.com/en/",
+   "instagram": "https://charlesleclerc.com/en/",
+   "tiktok": "https://charlesleclerc.com/en/",
+   "x": "https://charlesleclerc.com/en/",
+   "website": "https://charlesleclerc.com/en/",
+   "youtube": "https://charlesleclerc.com/en/"
+  }
+ },
+ {
+  "name": "Max Verstappen",
+  "channelID": "f1",
+  "team": "Red Bull",
+  "nationality": "Dutch",
+  "number": 3,
+  "socials": {
+   "facebook": "MaxVerstappen",
+   "instagram": "maxverstappen1",
+   "website": "https://www.verstappen.com"
+  },
+  "youtube": {
+   "channelId": "UC1Aha9aLmlkIbBN-iAttBzw",
+   "handle": "@maxverstappen1",
+   "title": "Max Verstappen",
+   "embeddable": true,
+   "evidence": "redbullracing.com driver page links youtube.com/channel/UC1Aha9aLmlkIbBN-iAttBzw; 1.01M subs. Embed test (WKWebView harness): video 92gcCZQrBA8 -> player state 1."
+  },
+  "verifiedVia": {
+   "facebook": "https://www.redbullracing.com/int-en/drivers/max-verstappen",
+   "instagram": "https://www.redbullracing.com/int-en/drivers/max-verstappen",
+   "youtube": "https://www.redbullracing.com/int-en/drivers/max-verstappen",
+   "website": "Channel UC1Aha9aLmlkIbBN-iAttBzw (linked from https://www.redbullracing.com/int-en/drivers/max-verstappen) describes itself as 'Verstappen.com, the official website of Formula 1 driver Max Verstappen'"
+  }
+ },
+ {
+  "name": "Oscar Piastri",
+  "channelID": "f1",
+  "team": "McLaren",
+  "nationality": "Australian",
+  "number": 81,
+  "socials": {
+   "facebook": "OscarPiastriOfficial",
+   "instagram": "OscarPiastri",
+   "tiktok": "oscarpiastri",
+   "x": "OscarPiastri",
+   "website": "https://www.oscarpiastri.com"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.oscarpiastri.com",
+   "instagram": "https://www.oscarpiastri.com",
+   "tiktok": "https://www.oscarpiastri.com",
+   "x": "https://www.oscarpiastri.com",
+   "website": "https://www.oscarpiastri.com",
+   "youtube": "YouTube Data API only (not linked from oscarpiastri.com): channel description 'The official YouTube channel for McLaren Formula 1 driver, Oscar Piastri.'"
+  }
+ },
+ {
+  "name": "Isack Hadjar",
+  "channelID": "f1",
+  "team": "Red Bull",
+  "nationality": "French",
+  "number": 6,
+  "socials": {
+   "facebook": "isack.hadjar",
+   "instagram": "isackhadjar",
+   "x": "isack_hadjar",
+   "website": "https://isackhadjar.com"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.redbullracing.com/int-en/drivers/isack-hadjar",
+   "instagram": "https://www.redbullracing.com/int-en/drivers/isack-hadjar",
+   "x": "https://isackhadjar.com",
+   "website": "https://isackhadjar.com (title: Isack Hadjar - Red Bull Racing F1 Driver | Official Website)"
+  }
+ },
+ {
+  "name": "Liam Lawson",
+  "channelID": "f1",
+  "team": "Red Bull",
+  "nationality": "New Zealander",
+  "number": 30,
+  "socials": {},
+  "verifiedVia": {
+   "youtube": "YouTube Data API only: channel description 'Formula One driver for @visacashapprb', 91.7k subs, 15 videos; no official page found linking it (liamlawson.co.nz is a parked server page)"
+  }
+ },
+ {
+  "name": "Pierre Gasly",
+  "channelID": "f1",
+  "team": "Alpine F1 Team",
+  "nationality": "French",
+  "number": 10,
+  "socials": {
+   "facebook": "PierreGasly",
+   "instagram": "pierregasly",
+   "tiktok": "pierregasly",
+   "x": "PierreGASLY",
+   "website": "https://www.pierregasly.com"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.pierregasly.com",
+   "instagram": "https://www.pierregasly.com and https://www.alpinef1.com/drivers/pierre-gasly",
+   "tiktok": "https://www.pierregasly.com",
+   "x": "https://www.pierregasly.com and https://www.alpinef1.com/drivers/pierre-gasly",
+   "website": "https://www.pierregasly.com"
+  }
+ },
+ {
+  "name": "Arvid Lindblad",
+  "channelID": "f1",
+  "team": "RB F1 Team",
+  "nationality": "British",
+  "number": 41,
+  "socials": {
+   "instagram": "arvid.lindblad",
+   "website": "https://arvidlindblad.com"
+  },
+  "youtube": {
+   "channelId": "UCd6Li2xp-e_nELbxU-QMgOA",
+   "handle": "@arvidlindbladofficial",
+   "title": "Arvid Lindblad",
+   "embeddable": true,
+   "evidence": "arvidlindblad.com links youtube.com/@ArvidLindbladOfficial; 45.4k subs. Embed test (WKWebView harness): video gSAcfPAI7-k -> player state 1."
+  },
+  "verifiedVia": {
+   "instagram": "https://arvidlindblad.com",
+   "website": "https://arvidlindblad.com",
+   "youtube": "https://arvidlindblad.com"
+  }
+ },
+ {
+  "name": "Franco Colapinto",
+  "channelID": "f1",
+  "team": "Alpine F1 Team",
+  "nationality": "Argentine",
+  "number": 43,
+  "socials": {
+   "instagram": "francolapinto",
+   "x": "FranColapinto",
+   "tiktok": "francolapinto",
+   "website": "https://www.francolapinto.com"
+  },
+  "verifiedVia": {
+   "instagram": "https://www.alpinef1.com/drivers/franco-colapinto",
+   "x": "https://www.alpinef1.com/drivers/franco-colapinto",
+   "tiktok": "https://www.francolapinto.com",
+   "website": "https://www.francolapinto.com (title: Franco Colapinto; same IG/X handles as the Alpine team page)"
+  }
+ },
+ {
+  "name": "Oliver Bearman",
+  "channelID": "f1",
+  "team": "Haas F1 Team",
+  "nationality": "British",
+  "number": 87,
+  "socials": {
+   "instagram": "olliebearman",
+   "x": "OllieBearman"
+  },
+  "verifiedVia": {
+   "instagram": "https://www.haasf1team.com/season/team/ollie-bearman",
+   "x": "https://www.haasf1team.com/season/team/ollie-bearman",
+   "youtube": "YouTube Data API only (not linked from Haas page): channel description 'The Official YouTube channel of Ollie Bearman, British Formula 1 Driver for MoneyGram Haas F1 Team.'"
+  }
+ },
+ {
+  "name": "Gabriel Bortoleto",
+  "channelID": "f1",
+  "team": "Audi",
+  "nationality": "Brazilian",
+  "number": 5,
+  "socials": {
+   "instagram": "gabrielbortoleto_",
+   "x": "gabortoleto85",
+   "website": "https://gabrielbortoleto.com.br"
+  },
+  "verifiedVia": {
+   "instagram": "https://gabrielbortoleto.com.br (links present in the site bundle /assets/index-DEe8VL-M.js)",
+   "x": "https://gabrielbortoleto.com.br (links present in the site bundle /assets/index-DEe8VL-M.js)",
+   "website": "https://gabrielbortoleto.com.br (search title: Gabriel Bortoleto - Official Site - Audi F1)"
+  }
+ },
+ {
+  "name": "Nico Hülkenberg",
+  "channelID": "f1",
+  "team": "Audi",
+  "nationality": "German",
+  "number": 27,
+  "socials": {
+   "facebook": "NicoHulkenberg.official",
+   "instagram": "hulkhulkenberg",
+   "x": "HulkHulkenberg",
+   "website": "https://www.nicohulkenberg.net"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.nicohulkenberg.net",
+   "instagram": "https://www.nicohulkenberg.net",
+   "x": "https://www.nicohulkenberg.net",
+   "website": "https://www.nicohulkenberg.net"
+  }
+ },
+ {
+  "name": "Carlos Sainz",
+  "channelID": "f1",
+  "team": "Williams",
+  "nationality": "Spanish",
+  "number": 55,
+  "socials": {
+   "facebook": "Carlossainz55",
+   "instagram": "carlossainz55",
+   "threads": "carlossainz55",
+   "tiktok": "carlossainz55",
+   "website": "https://www.carlossainz.es"
+  },
+  "youtube": {
+   "channelId": "UC1l8_AtyskpHP-weVx47POg",
+   "handle": "@carlossainz",
+   "title": "Carlos Sainz",
+   "embeddable": true,
+   "evidence": "carlossainz.es links youtube.com/@carlossainz; 663k subs. Embed test (WKWebView harness): video 2FIVJYzTbvg -> player state 1."
+  },
+  "verifiedVia": {
+   "facebook": "https://www.carlossainz.es/en",
+   "instagram": "https://www.carlossainz.es/en",
+   "threads": "https://www.carlossainz.es/en",
+   "tiktok": "https://www.carlossainz.es/en",
+   "website": "https://www.carlossainz.es/en",
+   "youtube": "https://www.carlossainz.es/en"
+  }
+ },
+ {
+  "name": "Alexander Albon",
+  "channelID": "f1",
+  "team": "Williams",
+  "nationality": "Thai",
+  "number": 23,
+  "socials": {
+   "facebook": "alexalbonofficial",
+   "instagram": "alex_albon",
+   "tiktok": "alex_albon",
+   "x": "alex_albon",
+   "website": "https://www.alexalbon.com"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.alexalbon.com",
+   "instagram": "https://www.alexalbon.com",
+   "tiktok": "https://www.alexalbon.com",
+   "x": "https://www.alexalbon.com",
+   "website": "https://www.alexalbon.com"
+  }
+ },
+ {
+  "name": "Esteban Ocon",
+  "channelID": "f1",
+  "team": "Haas F1 Team",
+  "nationality": "French",
+  "number": 31,
+  "socials": {
+   "facebook": "people/Esteban-Ocon/100089976866074",
+   "instagram": "estebanocon",
+   "x": "OconEsteban"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.haasf1team.com/season/team/esteban-ocon",
+   "instagram": "https://www.haasf1team.com/season/team/esteban-ocon",
+   "x": "https://www.haasf1team.com/season/team/esteban-ocon",
+   "youtube": "YouTube Data API only (not linked from Haas page): channel description 'La chaine YouTube officielle du pilote de Formule 1 Esteban Ocon'"
+  }
+ },
+ {
+  "name": "Fernando Alonso",
+  "channelID": "f1",
+  "team": "Aston Martin",
+  "nationality": "Spanish",
+  "number": 14,
+  "socials": {
+   "facebook": "FernandoAlonsoOficial",
+   "instagram": "fernandoalo_oficial",
+   "x": "alo_oficial",
+   "website": "https://fernandoalonso.com"
+  },
+  "youtube": {
+   "channelId": "UCwvrVuFiKDuZl1AUM-pTKKA",
+   "handle": "@fernandoalonsooficial",
+   "title": "Fernando Alonso (Oficial)",
+   "embeddable": true,
+   "evidence": "fernandoalonso.com links youtube.com/user/ALOoficial, which the Data API resolves to this channel; 103k subs; dormant (last upload 2015). Embed test (WKWebView harness): video LFiwQcIFwz8 -> player state 1."
+  },
+  "verifiedVia": {
+   "facebook": "https://fernandoalonso.com",
+   "instagram": "https://fernandoalonso.com",
+   "x": "https://fernandoalonso.com",
+   "website": "https://fernandoalonso.com",
+   "youtube": "https://fernandoalonso.com"
+  }
+ },
+ {
+  "name": "Yuki Tsunoda",
+  "channelID": "f1",
+  "team": "RB F1 Team",
+  "nationality": "Japanese",
+  "number": 22,
+  "socials": {
+   "instagram": "yukitsunoda0511",
+   "x": "yukitsunoda07",
+   "website": "https://www.yukitsunoda.com"
+  },
+  "youtube": {
+   "channelId": "UCAXQEMlIZpWmf9IzrRSEvAQ",
+   "handle": "@yukitsunoda0511",
+   "title": "Yuki Tsunoda",
+   "embeddable": true,
+   "evidence": "yukitsunoda.com links youtube.com/@yukitsunoda0511; 55.9k subs, only 3 videos. Embed test (WKWebView harness): video NyYKiDNF5ww -> player state 1."
+  },
+  "verifiedVia": {
+   "instagram": "https://www.yukitsunoda.com",
+   "x": "https://www.yukitsunoda.com",
+   "website": "https://www.yukitsunoda.com",
+   "youtube": "https://www.yukitsunoda.com"
+  }
+ },
+ {
+  "name": "Lance Stroll",
+  "channelID": "f1",
+  "team": "Aston Martin",
+  "nationality": "Canadian",
+  "number": 18,
+  "socials": {
+   "facebook": "stroll.lance",
+   "instagram": "lance_stroll",
+   "x": "lance_stroll",
+   "website": "https://www.lancestroll.com"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.lancestroll.com",
+   "instagram": "https://www.lancestroll.com",
+   "x": "https://www.lancestroll.com",
+   "website": "https://www.lancestroll.com"
+  }
+ },
+ {
+  "name": "Valtteri Bottas",
+  "channelID": "f1",
+  "team": "Cadillac F1 Team",
+  "nationality": "Finnish",
+  "number": 77,
+  "socials": {},
+  "verifiedVia": {}
+ },
+ {
+  "name": "Sergio Pérez",
+  "channelID": "f1",
+  "team": "Cadillac F1 Team",
+  "nationality": "Mexican",
+  "number": 11,
+  "socials": {
+   "facebook": "sergioperezf1",
+   "instagram": "schecoperez",
+   "x": "SChecoPerez",
+   "website": "https://checoperez.com"
+  },
+  "verifiedVia": {
+   "facebook": "https://checoperez.com (title: Official Website of Sergio Checo Perez)",
+   "instagram": "https://checoperez.com (title: Official Website of Sergio Checo Perez)",
+   "x": "https://checoperez.com (title: Official Website of Sergio Checo Perez)",
+   "website": "https://checoperez.com (title: Official Website of Sergio Checo Perez)",
+   "youtube": "YouTube Data API only (not linked from checoperez.com): channel 'Checo Perez', description 'Canal del piloto mexicano de Formula Uno, Sergio Perez', country MX"
+  }
+ },
+ {
+  "name": "Pascal Wehrlein",
+  "channelID": "formulae",
+  "team": "Porsche Formula E Team",
+  "nationality": "German",
+  "number": null,
+  "socials": {
+   "facebook": "PWehrlein",
+   "instagram": "pascal_wehrlein",
+   "x": "PWehrlein"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.fiaformulae.com/en/drivers/pascal-wehrlein",
+   "instagram": "https://www.fiaformulae.com/en/drivers/pascal-wehrlein",
+   "x": "https://www.fiaformulae.com/en/drivers/pascal-wehrlein"
+  }
+ },
+ {
+  "name": "Jake Dennis",
+  "channelID": "formulae",
+  "team": "Andretti Formula E",
+  "nationality": "British",
+  "number": null,
+  "socials": {
+   "facebook": "jake.dennis.549",
+   "instagram": "jakedennis19",
+   "x": "JakeDennis19"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.fiaformulae.com/en/drivers/jake-dennis",
+   "instagram": "https://www.fiaformulae.com/en/drivers/jake-dennis",
+   "x": "https://www.fiaformulae.com/en/drivers/jake-dennis"
+  }
+ },
+ {
+  "name": "Mitch Evans",
+  "channelID": "formulae",
+  "team": "Jaguar Tcs Racing",
+  "nationality": "New Zealander",
+  "number": null,
+  "socials": {
+   "facebook": "mitchevansracing",
+   "instagram": "mitchevans_",
+   "x": "mitchevans_"
+  },
+  "youtube": {
+   "channelId": "UCeoSxkcAJSZaszfkme4tlTg",
+   "handle": "@mitchevansnz",
+   "title": "Mitch Evans",
+   "embeddable": true,
+   "evidence": "fiaformulae.com driver page links youtube.com/channel/UCeoSxkcAJSZaszfkme4tlTg; 256 subs, 8 videos, dormant (last upload 2019). Embed test (WKWebView harness): video JUQQ6f-vQVM -> player state 1."
+  },
+  "verifiedVia": {
+   "facebook": "https://www.fiaformulae.com/en/drivers/mitch-evans",
+   "instagram": "https://www.fiaformulae.com/en/drivers/mitch-evans",
+   "x": "https://www.fiaformulae.com/en/drivers/mitch-evans",
+   "youtube": "https://www.fiaformulae.com/en/drivers/mitch-evans"
+  }
+ },
+ {
+  "name": "Oliver Rowland",
+  "channelID": "formulae",
+  "team": "Nissan Formula E Team",
+  "nationality": "British",
+  "number": null,
+  "socials": {
+   "facebook": "oliver.rowland.58",
+   "instagram": "oliverrowland1",
+   "x": "oliverrowland1"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.fiaformulae.com/en/drivers/oliver-rowland",
+   "instagram": "https://www.fiaformulae.com/en/drivers/oliver-rowland",
+   "x": "https://www.fiaformulae.com/en/drivers/oliver-rowland"
+  }
+ },
+ {
+  "name": "Edoardo Mortara",
+  "channelID": "formulae",
+  "team": "Mahindra Racing",
+  "nationality": "Swiss",
+  "number": null,
+  "socials": {
+   "instagram": "edomortara",
+   "x": "edomortara"
+  },
+  "verifiedVia": {
+   "instagram": "https://www.fiaformulae.com/en/drivers/edoardo-mortara",
+   "x": "https://www.fiaformulae.com/en/drivers/edoardo-mortara"
+  }
+ },
+ {
+  "name": "António Félix Da Costa",
+  "channelID": "formulae",
+  "team": "Jaguar Tcs Racing",
+  "nationality": "Portuguese",
+  "number": null,
+  "socials": {
+   "facebook": "people/antonio-felix-da-costa/1602071249",
+   "instagram": "afelixdacosta",
+   "x": "afelixdacosta"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.fiaformulae.com/en/drivers/antonio-felix-da-costa",
+   "instagram": "https://www.fiaformulae.com/en/drivers/antonio-felix-da-costa",
+   "x": "https://www.fiaformulae.com/en/drivers/antonio-felix-da-costa",
+   "youtube": "YouTube Data API only; see youtube.evidence"
+  }
+ },
+ {
+  "name": "Nyck De Vries",
+  "channelID": "formulae",
+  "team": "Mahindra Racing",
+  "nationality": "Dutch",
+  "number": null,
+  "socials": {
+   "facebook": "nyckdevries",
+   "instagram": "nyckdevries",
+   "x": "nyckdevries"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.fiaformulae.com/en/drivers/nyck-de-vries",
+   "instagram": "https://www.fiaformulae.com/en/drivers/nyck-de-vries",
+   "x": "https://www.fiaformulae.com/en/drivers/nyck-de-vries"
+  }
+ },
+ {
+  "name": "Nick Cassidy",
+  "channelID": "formulae",
+  "team": "Citroën Racing",
+  "nationality": "New Zealander",
+  "number": null,
+  "socials": {
+   "facebook": "ncmotorsport",
+   "instagram": "nickcassidy_",
+   "x": "NickCassidy_"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.fiaformulae.com/en/drivers/nick-cassidy",
+   "instagram": "https://www.fiaformulae.com/en/drivers/nick-cassidy",
+   "x": "https://www.fiaformulae.com/en/drivers/nick-cassidy",
+   "youtube": "YouTube Data API only; see youtube.evidence"
+  }
+ },
+ {
+  "name": "Nico Müller",
+  "channelID": "formulae",
+  "team": "Porsche Formula E Team",
+  "nationality": "Swiss",
+  "number": null,
+  "socials": {
+   "facebook": "NicoMuellerOfficial",
+   "instagram": "nico.mueller51",
+   "x": "nico_mueller"
+  },
+  "youtube": {
+   "channelId": "UCri_3m0SNbAeZBh00hrm5mg",
+   "handle": "@nicomuellerracing",
+   "title": "NicoMuellerRacing",
+   "embeddable": true,
+   "evidence": "fiaformulae.com driver page links youtube.com/user/NicoMuellerRacing (resolved via Data API forUsername); 14 subs, 15 videos, dormant (last upload 2012). Embed test (WKWebView harness): video OB7iC1-aMp8 -> player state 1."
+  },
+  "verifiedVia": {
+   "facebook": "https://www.fiaformulae.com/en/drivers/nico-muller",
+   "instagram": "https://www.fiaformulae.com/en/drivers/nico-muller",
+   "x": "https://www.fiaformulae.com/en/drivers/nico-muller",
+   "youtube": "https://www.fiaformulae.com/en/drivers/nico-muller"
+  }
+ },
+ {
+  "name": "Sébastien Buemi",
+  "channelID": "formulae",
+  "team": "Envision Racing",
+  "nationality": "Swiss",
+  "number": null,
+  "socials": {
+   "facebook": "SebastienBuemi",
+   "instagram": "sebastien_buemi",
+   "x": "Sebastien_buemi"
+  },
+  "youtube": {
+   "channelId": "UCZzLDbit5gXUTadgoebXcjQ",
+   "handle": "@sebuemi",
+   "title": "Sébastien Buemi",
+   "embeddable": true,
+   "evidence": "fiaformulae.com driver page links youtube.com/sebuemi; 270 subs, 24 videos, dormant (last upload 2012). Embed test (WKWebView harness): video H6FiaT_-zJg -> player state 1."
+  },
+  "verifiedVia": {
+   "facebook": "https://www.fiaformulae.com/en/drivers/sebastien-buemi",
+   "instagram": "https://www.fiaformulae.com/en/drivers/sebastien-buemi",
+   "x": "https://www.fiaformulae.com/en/drivers/sebastien-buemi",
+   "youtube": "https://www.fiaformulae.com/en/drivers/sebastien-buemi"
+  }
+ },
+ {
+  "name": "Taylor Barnard",
+  "channelID": "formulae",
+  "team": "Ds Penske",
+  "nationality": "British",
+  "number": null,
+  "socials": {
+   "facebook": "taylorbarnardracing",
+   "instagram": "taylorbarnard1"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.fiaformulae.com/en/drivers/taylor-barnard",
+   "instagram": "https://www.fiaformulae.com/en/drivers/taylor-barnard"
+  }
+ },
+ {
+  "name": "Jean-Éric Vergne",
+  "channelID": "formulae",
+  "team": "Citroën Racing",
+  "nationality": "French",
+  "number": null,
+  "socials": {
+   "facebook": "jeanericvergne",
+   "instagram": "jeanericvergne",
+   "x": "jeanericvergne"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.fiaformulae.com/en/drivers/jean-eric-vergne",
+   "instagram": "https://www.fiaformulae.com/en/drivers/jean-eric-vergne",
+   "x": "https://www.fiaformulae.com/en/drivers/jean-eric-vergne"
+  }
+ },
+ {
+  "name": "Josep Maria Martí",
+  "channelID": "formulae",
+  "team": "Cupra Kiro",
+  "nationality": "Spanish",
+  "number": null,
+  "socials": {
+   "instagram": "pepemartiofficial",
+   "x": "JMMarti_oficial"
+  },
+  "verifiedVia": {
+   "instagram": "https://www.fiaformulae.com/en/drivers/josep-maria-marti",
+   "x": "https://www.fiaformulae.com/en/drivers/josep-maria-marti"
+  }
+ },
+ {
+  "name": "Felipe Drugovich",
+  "channelID": "formulae",
+  "team": "Andretti Formula E",
+  "nationality": "Brazilian",
+  "number": null,
+  "socials": {
+   "facebook": "felipedrugovich",
+   "instagram": "felipedrugovich",
+   "x": "FelipeDrugovich"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.fiaformulae.com/en/drivers/felipe-drugovich",
+   "instagram": "https://www.fiaformulae.com/en/drivers/felipe-drugovich",
+   "x": "https://www.fiaformulae.com/en/drivers/felipe-drugovich",
+   "youtube": "YouTube Data API only; see youtube.evidence"
+  }
+ },
+ {
+  "name": "Dan Ticktum",
+  "channelID": "formulae",
+  "team": "Cupra Kiro",
+  "nationality": "British",
+  "number": null,
+  "socials": {
+   "facebook": "danticktumdriver",
+   "instagram": "dan_ticktum",
+   "x": "DanTicktum"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.fiaformulae.com/en/drivers/dan-ticktum",
+   "instagram": "https://www.fiaformulae.com/en/drivers/dan-ticktum",
+   "x": "https://www.fiaformulae.com/en/drivers/dan-ticktum"
+  }
+ },
+ {
+  "name": "Joel Eriksson",
+  "channelID": "formulae",
+  "team": "Envision Racing",
+  "nationality": "Swedish",
+  "number": null,
+  "socials": {
+   "facebook": "JoelErikssonRacing",
+   "instagram": "joeleracing"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.fiaformulae.com/en/drivers/joel-eriksson",
+   "instagram": "https://www.fiaformulae.com/en/drivers/joel-eriksson"
+  }
+ },
+ {
+  "name": "Lucas Di Grassi",
+  "channelID": "formulae",
+  "team": "Lola Yamaha Abt Formula E Team",
+  "nationality": "Brazilian",
+  "number": null,
+  "socials": {
+   "facebook": "lucasdigrassiofficial",
+   "instagram": "lucasdigrassi",
+   "x": "LucasdiGrassi"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.fiaformulae.com/en/drivers/lucas-di-grassi",
+   "instagram": "https://www.fiaformulae.com/en/drivers/lucas-di-grassi",
+   "x": "https://www.fiaformulae.com/en/drivers/lucas-di-grassi",
+   "youtube": "YouTube Data API only; see youtube.evidence"
+  }
+ },
+ {
+  "name": "Maximilian Günther",
+  "channelID": "formulae",
+  "team": "Ds Penske",
+  "nationality": "German",
+  "number": null,
+  "socials": {
+   "facebook": "maxg.official",
+   "instagram": "maximilianguenther",
+   "x": "MAXG_official"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.fiaformulae.com/en/drivers/maximilian-gunther",
+   "instagram": "https://www.fiaformulae.com/en/drivers/maximilian-gunther",
+   "x": "https://www.fiaformulae.com/en/drivers/maximilian-gunther",
+   "youtube": "YouTube Data API only; see youtube.evidence"
+  }
+ },
+ {
+  "name": "Norman Nato",
+  "channelID": "formulae",
+  "team": "Nissan Formula E Team",
+  "nationality": "French",
+  "number": null,
+  "socials": {
+   "facebook": "NormanNato",
+   "instagram": "norman_nato",
+   "x": "NatoNorman"
+  },
+  "verifiedVia": {
+   "facebook": "https://www.fiaformulae.com/en/drivers/norman-nato",
+   "instagram": "https://www.fiaformulae.com/en/drivers/norman-nato",
+   "x": "https://www.fiaformulae.com/en/drivers/norman-nato"
+  }
+ },
+ {
+  "name": "Zane Maloney",
+  "channelID": "formulae",
+  "team": "Lola Yamaha Abt Formula E Team",
+  "nationality": "Barbadian",
+  "number": null,
+  "socials": {
+   "facebook": "Zane-Maloney-Racing-951772438230442",
+   "instagram": "zane.maloney",
+   "x": "zane_maloney"
+  },
+  "youtube": {
+   "channelId": "UC8V7p_GhvzV97hWbGuKY6cQ",
+   "handle": "@zanemaloney8719",
+   "title": "Zane Maloney",
+   "embeddable": true,
+   "evidence": "fiaformulae.com driver page links youtube.com/channel/UC8V7p_GhvzV97hWbGuKY6cQ; 733 subs, 6 videos, dormant (last upload Jan 2023). Embed test (WKWebView harness): video v76n6uwKLwk -> player state 1."
+  },
+  "verifiedVia": {
+   "facebook": "https://www.fiaformulae.com/en/drivers/zane-maloney",
+   "instagram": "https://www.fiaformulae.com/en/drivers/zane-maloney",
+   "x": "https://www.fiaformulae.com/en/drivers/zane-maloney",
+   "youtube": "https://www.fiaformulae.com/en/drivers/zane-maloney"
+  }
+ }
+]

@@ -2542,7 +2542,8 @@
       "socials": {
         "facebook": "chasebriscoeracing",
         "instagram": "chasebriscoe_",
-        "website": "https://www.chasebriscoe.com/"
+        "website": "https://www.chasebriscoe.com/",
+        "x": "chasebriscoe"
       }
     },
     {
@@ -2559,7 +2560,9 @@
       "team": "Joe Gibbs Racing",
       "number": 20,
       "socials": {
-        "x": "CBellRacing"
+        "x": "CBellRacing",
+        "instagram": "cbellracing",
+        "facebook": "christopherbellracing"
       }
     },
     {
@@ -2574,7 +2577,11 @@
       ],
       "nationality": "American",
       "team": "Joe Gibbs Racing",
-      "number": 54
+      "number": 54,
+      "socials": {
+        "instagram": "tygibbs",
+        "x": "TyGibbs"
+      }
     },
     {
       "id": "austin-dillon",
@@ -2662,7 +2669,10 @@
       "team": "23XI Racing",
       "number": 35,
       "socials": {
-        "website": "https://rileyherbst.com/"
+        "website": "https://rileyherbst.com/",
+        "facebook": "riley.herbst",
+        "x": "rileyherbst",
+        "instagram": "rileyherbst"
       }
     },
     {
@@ -2701,7 +2711,9 @@
       "number": 1,
       "socials": {
         "x": "RossChastain",
-        "website": "https://rosschastain.com/"
+        "website": "https://rosschastain.com/",
+        "facebook": "pages/Ross-Chastain-Racing/89727736744",
+        "instagram": "rosschastain"
       }
     },
     {
@@ -2736,7 +2748,19 @@
       ],
       "nationality": "New Zealander",
       "team": "Trackhouse Racing",
-      "number": 97
+      "number": 97,
+      "socials": {
+        "x": "shanevg97",
+        "instagram": "svg97",
+        "facebook": "SVG97",
+        "tiktok": "shanevg97",
+        "website": "https://shanevangisbergen.com"
+      },
+      "youtube": {
+        "channelId": "UCTr_IIaCNyW82Gy-l1Wu1qg",
+        "handle": "@svg97",
+        "embeddable": true
+      }
     },
     {
       "id": "brad-keselowski",
@@ -2752,7 +2776,9 @@
       "team": "RFK Racing",
       "number": 6,
       "socials": {
-        "x": "keselowski"
+        "x": "keselowski",
+        "instagram": "bradkeselowski",
+        "facebook": "BradKeselowski"
       }
     },
     {
@@ -2769,7 +2795,9 @@
       "team": "RFK Racing",
       "number": 17,
       "socials": {
-        "x": "Chris_Buescher"
+        "x": "Chris_Buescher",
+        "instagram": "c_buescher",
+        "facebook": "ChrisBuescher17"
       }
     },
     {
@@ -2787,7 +2815,8 @@
       "number": 60,
       "socials": {
         "x": "RyanPreece_",
-        "website": "https://www.ryanpreeceracing.com/"
+        "website": "https://www.ryanpreeceracing.com/",
+        "instagram": "ryanpreece_"
       }
     },
     {
@@ -2870,7 +2899,14 @@
       "team": "Kaulig Racing",
       "number": 10,
       "socials": {
-        "x": "TyDillon"
+        "x": "TyDillon",
+        "instagram": "ty_dillon",
+        "facebook": "TyDillonMotorsports"
+      },
+      "youtube": {
+        "channelId": "UCiEzA3FKSZ-9nnfWvps3I4A",
+        "handle": null,
+        "embeddable": true
       }
     },
     {
@@ -2887,7 +2923,9 @@
       "team": "Kaulig Racing",
       "number": 16,
       "socials": {
-        "x": "AJDinger"
+        "x": "AJDinger",
+        "instagram": "aj_allmendinger_official",
+        "facebook": "AJAllmendinger"
       }
     },
     {
@@ -2904,7 +2942,9 @@
       "team": "Spire Motorsports",
       "number": 7,
       "socials": {
-        "x": "Daniel_SuarezG"
+        "x": "Daniel_SuarezG",
+        "facebook": "danielsuarezgarza",
+        "instagram": "daniel_suarezg"
       }
     },
     {
@@ -2921,7 +2961,17 @@
       "team": "Spire Motorsports",
       "number": 71,
       "socials": {
-        "x": "Mc_Driver"
+        "x": "Mc_Driver",
+        "instagram": "mc_driver",
+        "facebook": "MichaelMcdowell",
+        "threads": "mc_driver",
+        "tiktok": "mc_driver71",
+        "website": "https://mmcdowell.com"
+      },
+      "youtube": {
+        "channelId": "UC3ewJNedJFwbRLlmV2risPw",
+        "handle": "@Mc_Driver",
+        "embeddable": true
       }
     },
     {
@@ -2958,7 +3008,9 @@
       "team": "Wood Brothers Racing",
       "number": 21,
       "socials": {
-        "x": "JoshBerry"
+        "x": "JoshBerry",
+        "instagram": "joshberry88",
+        "facebook": "joshberry72"
       }
     },
     {
@@ -3015,7 +3067,9 @@
       "number": 47,
       "socials": {
         "x": "StenhouseJr",
-        "website": "https://stenhousejr.com/"
+        "website": "https://stenhousejr.com/",
+        "instagram": "stenhousejr",
+        "facebook": "StenhouseJr"
       }
     },
     {
@@ -3032,7 +3086,9 @@
       "team": "Rick Ware Racing",
       "number": 51,
       "socials": {
-        "x": "CodyShaneWare"
+        "x": "CodyShaneWare",
+        "facebook": "codyshaneware",
+        "instagram": "codyshaneware"
       }
     },
     {
