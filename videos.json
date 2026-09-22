@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-21T22:19:31Z",
+  "generatedAt": "2026-09-22T12:38:22Z",
   "channels": [
     {
       "channelID": "f1",
@@ -43,7 +43,7 @@
         },
         {
           "id": "3P1ElfxjTwA",
-          "title": "At Home with Alex Albon: A Morning in Monaco",
+          "title": "At Home with Alex Albon: His Monaco Morning Routine",
           "publishedAt": "2026-09-18T16:00:04Z",
           "duration": "8:17",
           "seconds": 497,
@@ -2442,6 +2442,57 @@
       ]
     },
     {
+      "driverID": "shane-van-gisbergen",
+      "channelID": "nascar",
+      "name": "Shane van Gisbergen",
+      "videos": [
+        {
+          "id": "4LcCxzx4-4s",
+          "title": "NASCAR Sweep in Sonoma! 🍷🏆",
+          "publishedAt": "2026-07-02T20:39:33Z",
+          "duration": "12:49",
+          "seconds": 769,
+          "thumbnail": "https://i.ytimg.com/vi/4LcCxzx4-4s/maxresdefault.jpg",
+          "source": "Shane van Gisbergen",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "Lzd4Pz7m2g8",
+          "title": "NASCAR Race at the San Diego Naval Base 🚢🇺🇸",
+          "publishedAt": "2026-06-24T17:48:01Z",
+          "duration": "11:30",
+          "seconds": 690,
+          "thumbnail": "https://i.ytimg.com/vi/Lzd4Pz7m2g8/maxresdefault.jpg",
+          "source": "Shane van Gisbergen",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "TiennaZf3w8",
+          "title": "Daytona 400 Race in the NASCAR Cup Series 🏁",
+          "publishedAt": "2025-08-26T17:33:47Z",
+          "duration": "6:12",
+          "seconds": 372,
+          "thumbnail": "https://i.ytimg.com/vi/TiennaZf3w8/sddefault.jpg",
+          "source": "Shane van Gisbergen",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "5V34Z_8USDw",
+          "title": "NASCAR Cup Series Race at Nashville 😀 🏁",
+          "publishedAt": "2025-06-02T23:46:06Z",
+          "duration": "7:28",
+          "seconds": 448,
+          "thumbnail": "https://i.ytimg.com/vi/5V34Z_8USDw/maxresdefault.jpg",
+          "source": "Shane van Gisbergen",
+          "blockedRegions": [],
+          "allowedRegions": []
+        }
+      ]
+    },
+    {
       "driverID": "noah-gragson",
       "channelID": "nascar",
       "name": "Noah Gragson",
@@ -2509,6 +2560,130 @@
           "seconds": 680,
           "thumbnail": "https://i.ytimg.com/vi/Rju9fj77GIY/maxresdefault.jpg",
           "source": "Noah Gragson",
+          "blockedRegions": [],
+          "allowedRegions": []
+        }
+      ]
+    },
+    {
+      "driverID": "ty-dillon",
+      "channelID": "nascar",
+      "name": "Ty Dillon",
+      "videos": [
+        {
+          "id": "fwZQd8i_ZBI",
+          "title": "Morgan Bell: From Big Race Weekends to Down-to-Earth Weekdays",
+          "publishedAt": "2025-04-07T11:01:01Z",
+          "duration": "1:03:45",
+          "seconds": 3825,
+          "thumbnail": "https://i.ytimg.com/vi/fwZQd8i_ZBI/maxresdefault.jpg",
+          "source": "Ty Dillon",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "02rt2p_yWFE",
+          "title": "Pursuing What Matters & Showing Up with Strength Through Challenges with Tara Allmendinger",
+          "publishedAt": "2025-03-31T10:00:01Z",
+          "duration": "1:14:40",
+          "seconds": 4480,
+          "thumbnail": "https://i.ytimg.com/vi/02rt2p_yWFE/maxresdefault.jpg",
+          "source": "Ty Dillon",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "vp-ezcWlZPk",
+          "title": "Jami McDowell on Navigating the Unknowns of Racing, Raising 5 Kids & Staying Grounded in Faith",
+          "publishedAt": "2025-03-24T11:01:30Z",
+          "duration": "1:07:48",
+          "seconds": 4068,
+          "thumbnail": "https://i.ytimg.com/vi/vp-ezcWlZPk/maxresdefault.jpg",
+          "source": "Ty Dillon",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "B1qUdxgj730",
+          "title": "Staying Grounded When Life Takes Unexpected Turns – Alexa Reddick on Faith, Family & Racing",
+          "publishedAt": "2025-03-17T11:00:15Z",
+          "duration": "1:20:03",
+          "seconds": 4803,
+          "thumbnail": "https://i.ytimg.com/vi/B1qUdxgj730/maxresdefault.jpg",
+          "source": "Ty Dillon",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "eIcWsd1_Nro",
+          "title": "Finding Joy in the Journey with Brittany Logano on Racing, Motherhood & Saying Yes to God’s Nudges",
+          "publishedAt": "2025-03-10T11:00:54Z",
+          "duration": "1:07:50",
+          "seconds": 4070,
+          "thumbnail": "https://i.ytimg.com/vi/eIcWsd1_Nro/maxresdefault.jpg",
+          "source": "Ty Dillon",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "viLNpQdbrHo",
+          "title": "Beyond the Tracks with Jordan Fish on All the Seasons in Motherhood & Fighting for Your Relationship",
+          "publishedAt": "2025-03-06T18:00:58Z",
+          "duration": "55:43",
+          "seconds": 3343,
+          "thumbnail": "https://i.ytimg.com/vi/viLNpQdbrHo/maxresdefault.jpg",
+          "source": "Ty Dillon",
+          "blockedRegions": [],
+          "allowedRegions": []
+        }
+      ]
+    },
+    {
+      "driverID": "michael-mcdowell",
+      "channelID": "nascar",
+      "name": "Michael McDowell",
+      "videos": [
+        {
+          "id": "7sRm47K7caM",
+          "title": "First Pole with Spire Motorsports | Las Vegas Motor Speedway | Press Conference",
+          "publishedAt": "2025-04-07T22:24:47Z",
+          "duration": "11:53",
+          "seconds": 713,
+          "thumbnail": "https://i.ytimg.com/vi/7sRm47K7caM/maxresdefault.jpg",
+          "source": "Michael McDowell",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "3KmRNfIs4Uo",
+          "title": "Sunrise Service at Phoenix Raceway | Michael McDowell, Chase Briscoe & Cody Ware",
+          "publishedAt": "2025-03-18T21:39:09Z",
+          "duration": "10:25",
+          "seconds": 625,
+          "thumbnail": "https://i.ytimg.com/vi/3KmRNfIs4Uo/maxresdefault.jpg",
+          "source": "Michael McDowell",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "SrEKZ-djRfg",
+          "title": "Faith, Family, and NASCAR: We Are The McDowells",
+          "publishedAt": "2025-02-26T01:30:42Z",
+          "duration": "4:26",
+          "seconds": 266,
+          "thumbnail": "https://i.ytimg.com/vi/SrEKZ-djRfg/maxresdefault.jpg",
+          "source": "Michael McDowell",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "gPwTsXCSD5A",
+          "title": "Daytona 500 Aha Moment | Michael McDowell",
+          "publishedAt": "2025-02-14T18:36:21Z",
+          "duration": "7:32",
+          "seconds": 452,
+          "thumbnail": "https://i.ytimg.com/vi/gPwTsXCSD5A/maxresdefault.jpg",
+          "source": "Michael McDowell",
           "blockedRegions": [],
           "allowedRegions": []
         }
