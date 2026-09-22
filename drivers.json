@@ -27,6 +27,13 @@
       "number": 12,
       "socials": {
         "instagram": "kimi.antonelli"
+      },
+      "image": {
+        "url": "images/drivers/antonelli.jpg",
+        "credit": "Kuyper",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Kimi_Antonelli_at_the_2025_US_Grand_Prix_in_Austin,_TX_(cropped).jpg"
       }
     },
     {
@@ -64,6 +71,13 @@
         "channelId": "UCHl4MB8UalGLUydbWdBzG1Q",
         "handle": "@lewishamilton",
         "embeddable": true
+      },
+      "image": {
+        "url": "images/drivers/hamilton.jpg",
+        "credit": "Picture by Lauren Hurley / No 10 Downing Street",
+        "licence": "OGL 3",
+        "licenceURL": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Keir_Starmer_meets_Sir_Lewis_Hamilton_(54566928382)_(cropped).jpg"
       }
     },
     {
@@ -92,6 +106,13 @@
         "facebook": "GeorgeRussell63",
         "x": "GeorgeRussell63",
         "website": "https://www.georgerussell63.com"
+      },
+      "image": {
+        "url": "images/drivers/russell.jpg",
+        "credit": "Raph_PH",
+        "licence": "CC BY 2.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/2.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:KingsLeonSilverstne040724_(28_of_112)_(53838006028)_(cropped).jpg"
       }
     },
     {
@@ -126,6 +147,13 @@
         "channelId": "UCIzIX1qgW7P3eF6JCk_afCA",
         "handle": "@charles_leclerc",
         "embeddable": true
+      },
+      "image": {
+        "url": "images/drivers/leclerc.jpg",
+        "credit": "Gabriel Hutchinson",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Charles_Leclerc_at_the_2026_Cannes_Film_Festival_(cropped).jpg"
       }
     },
     {
@@ -160,6 +188,13 @@
         "channelId": "UCwFIQ7wtJzYGFb2nZcVoNww",
         "handle": "@landonorris",
         "embeddable": true
+      },
+      "image": {
+        "url": "images/drivers/norris.jpg",
+        "credit": "Original: Steffen Prößdorf; Derivative work: Mb2437",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:2024-08-25_Motorsport,_Formel_1,_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3968_by_Stepro_(cropped2).jpg"
       }
     },
     {
@@ -194,6 +229,13 @@
         "channelId": "UC1Aha9aLmlkIbBN-iAttBzw",
         "handle": "@maxverstappen1",
         "embeddable": true
+      },
+      "image": {
+        "url": "images/drivers/verstappen.jpg",
+        "credit": "Steffen Prößdorf",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:2024-08-25_Motorsport,_Formel_1,_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3973_by_Stepro_(medium_crop).jpg"
       }
     },
     {
@@ -227,6 +269,13 @@
         "channelId": "UC0qzjF0Da9f-rtqInpPP8EA",
         "handle": "@89jorgemartin",
         "embeddable": true
+      },
+      "image": {
+        "url": "images/drivers/martin.jpg",
+        "credit": "Denkmit",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Jorge_Martin_at_the_2026_Spanish_Grand_Prix.jpg"
       }
     },
     {
@@ -260,6 +309,13 @@
         "channelId": "UCwq9uS4UUVVV7GR991YOv-g",
         "handle": "@marcmarquez93",
         "embeddable": true
+      },
+      "image": {
+        "url": "images/drivers/marquez.jpg",
+        "credit": "Denkmit",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Marc_Marquez_at_the_2026_Spanish_Grand_Prix_(cropped).jpg"
       }
     },
     {
@@ -286,6 +342,13 @@
       "socials": {
         "instagram": "aiogura79",
         "x": "AiOgura79"
+      },
+      "image": {
+        "url": "images/drivers/ogura.jpg",
+        "credit": "Denkmit",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Ai_Ogura_at_the_2026_Spanish_Grand_Prix_(cropped).jpg"
       }
     },
     {
@@ -312,6 +375,13 @@
         "facebook": "jake.dennis.549",
         "instagram": "jakedennis19",
         "x": "JakeDennis19"
+      },
+      "image": {
+        "url": "images/drivers/dennis.jpg",
+        "credit": "DriverDatabase1",
+        "licence": "CC0",
+        "licenceURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Jake_dennis.jpg"
       }
     },
     {
@@ -333,6 +403,13 @@
         "tiktok": "oscarpiastri",
         "x": "OscarPiastri",
         "website": "https://www.oscarpiastri.com"
+      },
+      "image": {
+        "url": "images/drivers/oscar-piastri.jpg",
+        "credit": "Liauzh",
+        "licence": "CC BY 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:2026_Chinese_GP_-_Oscar_Piastri_(cropped)_(cropped).jpg"
       }
     },
     {
@@ -353,6 +430,13 @@
         "instagram": "isackhadjar",
         "x": "isack_hadjar",
         "website": "https://isackhadjar.com"
+      },
+      "image": {
+        "url": "images/drivers/isack-hadjar.jpg",
+        "credit": "Yu Chu Chin",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Isack_Hadjar_at_the_Melbourne_Walk_during_the_2026_Australian_Grand_Prix_(028A8753)_(cropped).jpg"
       }
     },
     {
@@ -367,7 +451,14 @@
       ],
       "nationality": "New Zealander",
       "team": "Red Bull",
-      "number": 30
+      "number": 30,
+      "image": {
+        "url": "images/drivers/liam-lawson.jpg",
+        "credit": "Yu Chu Chin",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Liam_Lawson_at_the_Red_Bull_Fan_Zone_%E2%80%93_Crown_Riverwalk,_Melbourne_(028A7795).jpg"
+      }
     },
     {
       "id": "pierre-gasly",
@@ -388,6 +479,13 @@
         "tiktok": "pierregasly",
         "x": "PierreGASLY",
         "website": "https://www.pierregasly.com"
+      },
+      "image": {
+        "url": "images/drivers/pierre-gasly.jpg",
+        "credit": "nabtifal",
+        "licence": "CC BY 2.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/2.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:2022_French_Grand_Prix_(52279066548)_(cropped)_(cropped).png"
       }
     },
     {
@@ -411,6 +509,13 @@
         "channelId": "UCd6Li2xp-e_nELbxU-QMgOA",
         "handle": "@arvidlindbladofficial",
         "embeddable": true
+      },
+      "image": {
+        "url": "images/drivers/arvid-lindblad.jpg",
+        "credit": "Yu Chu Chin",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Arvid_Lindblad_at_the_Red_Bull_Fan_Zone_%E2%80%93_Crown_Riverwalk,_Melbourne_(028A7869)_(cropped).jpg"
       }
     },
     {
@@ -431,6 +536,13 @@
         "x": "FranColapinto",
         "tiktok": "francolapinto",
         "website": "https://www.francolapinto.com"
+      },
+      "image": {
+        "url": "images/drivers/franco-colapinto.jpg",
+        "credit": "Yu Chu Chin",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Franco_Colapinto_at_the_Melbourne_Walk_during_the_2026_Australian_Grand_Prix_(028A8698)_cropped.jpg"
       }
     },
     {
@@ -449,6 +561,13 @@
       "socials": {
         "instagram": "olliebearman",
         "x": "OllieBearman"
+      },
+      "image": {
+        "url": "images/drivers/oliver-bearman.jpg",
+        "credit": "Liauzh",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:2025_Japan_GP_-_Haas_-_Oliver_Bearman_-_Thursday_(cropped).jpg"
       }
     },
     {
@@ -468,6 +587,13 @@
         "instagram": "gabrielbortoleto_",
         "x": "gabortoleto85",
         "website": "https://gabrielbortoleto.com.br"
+      },
+      "image": {
+        "url": "images/drivers/gabriel-bortoleto.jpg",
+        "credit": "Yu Chu Chin",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Gabriel_Bortoleto_at_the_Melbourne_Walk_during_the_2026_Australian_Grand_Prix_(028A8581)_cropped.jpg"
       }
     },
     {
@@ -488,6 +614,13 @@
         "instagram": "hulkhulkenberg",
         "x": "HulkHulkenberg",
         "website": "https://www.nicohulkenberg.net"
+      },
+      "image": {
+        "url": "images/drivers/nico-hulkenberg.jpg",
+        "credit": "Marc Alvarado",
+        "licence": "CC BY-SA 2.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:2019_Formula_One_tests_Barcelona,_Hulkenberg_(40287128313).jpg"
       }
     },
     {
@@ -514,6 +647,13 @@
         "channelId": "UC1l8_AtyskpHP-weVx47POg",
         "handle": "@carlossainz",
         "embeddable": true
+      },
+      "image": {
+        "url": "images/drivers/carlos-sainz.jpg",
+        "credit": "LucaFazPhoto",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Carlos_Sainz_at_the_83rd_Venice_FILM_festival-9_(cropped).jpg"
       }
     },
     {
@@ -535,6 +675,13 @@
         "tiktok": "alex_albon",
         "x": "alex_albon",
         "website": "https://www.alexalbon.com"
+      },
+      "image": {
+        "url": "images/drivers/alexander-albon.jpg",
+        "credit": "Yu Chu Chin",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Alex_Albon_at_the_Melbourne_Walk_during_the_2026_Australian_Grand_Prix_(028A8626)_(cropped).jpg"
       }
     },
     {
@@ -554,6 +701,13 @@
         "facebook": "people/Esteban-Ocon/100089976866074",
         "instagram": "estebanocon",
         "x": "OconEsteban"
+      },
+      "image": {
+        "url": "images/drivers/esteban-ocon.jpg",
+        "credit": "Rrtb505050",
+        "licence": "CC0",
+        "licenceURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Esteban_Ocon_2024_Suzuka_(cropped).jpg"
       }
     },
     {
@@ -579,6 +733,13 @@
         "channelId": "UCwvrVuFiKDuZl1AUM-pTKKA",
         "handle": "@fernandoalonsooficial",
         "embeddable": true
+      },
+      "image": {
+        "url": "images/drivers/fernando-alonso.jpg",
+        "credit": "United Autosports",
+        "licence": "CC BY-SA 2.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Alonso-68_(24710447098).jpg"
       }
     },
     {
@@ -603,6 +764,13 @@
         "channelId": "UCAXQEMlIZpWmf9IzrRSEvAQ",
         "handle": "@yukitsunoda0511",
         "embeddable": true
+      },
+      "image": {
+        "url": "images/drivers/yuki-tsunoda.jpg",
+        "credit": "Yu Chu Chin",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Yuki_Tsunoda_at_the_Melbourne_Walk_during_the_2026_Australian_Grand_Prix_(028A8096).jpg"
       }
     },
     {
@@ -623,6 +791,13 @@
         "instagram": "lance_stroll",
         "x": "lance_stroll",
         "website": "https://www.lancestroll.com"
+      },
+      "image": {
+        "url": "images/drivers/lance-stroll.jpg",
+        "credit": "Liauzh",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:2025_Japan_GP_-_Aston_Martin_-_Lance_Stroll_-_Fanzone_Stage_(cropped).jpg"
       }
     },
     {
@@ -637,7 +812,14 @@
       ],
       "nationality": "Finnish",
       "team": "Cadillac F1 Team",
-      "number": 77
+      "number": 77,
+      "image": {
+        "url": "images/drivers/valtteri-bottas.jpg",
+        "credit": "Yu Chu Chin",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Valtteri_Bottas_at_the_2026_Adelaide_Motorsport_Festival_(028A7556).jpg"
+      }
     },
     {
       "id": "sergio-perez",
@@ -657,6 +839,13 @@
         "instagram": "schecoperez",
         "x": "SChecoPerez",
         "website": "https://checoperez.com"
+      },
+      "image": {
+        "url": "images/drivers/sergio-perez.jpg",
+        "credit": "XaviYuahanda",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Sergio_P%C3%A9rez_2019_(cropped).jpg"
       }
     },
     {
@@ -675,6 +864,13 @@
         "facebook": "PWehrlein",
         "instagram": "pascal_wehrlein",
         "x": "PWehrlein"
+      },
+      "image": {
+        "url": "images/drivers/pascal-wehrlein.jpg",
+        "credit": "Steffen Prößdorf",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:2024-05-10_Motorsport,_ABB_FIA_Formula_E_World_Championship,_Berlin_E-Prix_2024_STP_2554_by_Stepro.jpg"
       }
     },
     {
@@ -698,6 +894,13 @@
         "channelId": "UCeoSxkcAJSZaszfkme4tlTg",
         "handle": "@mitchevansnz",
         "embeddable": true
+      },
+      "image": {
+        "url": "images/drivers/mitch-evans.jpg",
+        "credit": "OJN-TinyBean",
+        "licence": "CC BY 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Evans-2026-London.jpg"
       }
     },
     {
@@ -716,6 +919,13 @@
         "facebook": "oliver.rowland.58",
         "instagram": "oliverrowland1",
         "x": "oliverrowland1"
+      },
+      "image": {
+        "url": "images/drivers/oliver-rowland.jpg",
+        "credit": "Steffen Prößdorf",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:2024-05-11_Motorsport,_ABB_FIA_Formula_E_World_Championship,_Berlin_E-Prix_2024_STP_2979_by_Stepro_(cropped).jpg"
       }
     },
     {
@@ -733,6 +943,13 @@
       "socials": {
         "instagram": "edomortara",
         "x": "edomortara"
+      },
+      "image": {
+        "url": "images/drivers/edoardo-mortara.jpg",
+        "credit": "Wolkenjaeger",
+        "licence": "CC BY 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Edoardo_Mortara_(portrait,_2024)_(cropped).jpg"
       }
     },
     {
@@ -751,6 +968,13 @@
         "facebook": "people/antonio-felix-da-costa/1602071249",
         "instagram": "afelixdacosta",
         "x": "afelixdacosta"
+      },
+      "image": {
+        "url": "images/drivers/antonio-felix-da-costa.jpg",
+        "credit": "Steffen Prößdorf",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:2024-05-12_Motorsport,_ABB_FIA_Formula_E_World_Championship,_Berlin_E-Prix_2024_STP_3297_by_Stepro_(cropped).jpg"
       }
     },
     {
@@ -769,6 +993,13 @@
         "facebook": "nyckdevries",
         "instagram": "nyckdevries",
         "x": "nyckdevries"
+      },
+      "image": {
+        "url": "images/drivers/nyck-de-vries.jpg",
+        "credit": "NickeldimeC",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:TGR_Nyck_de_Vries_240908.jpg"
       }
     },
     {
@@ -787,6 +1018,13 @@
         "facebook": "ncmotorsport",
         "instagram": "nickcassidy_",
         "x": "NickCassidy_"
+      },
+      "image": {
+        "url": "images/drivers/nick-cassidy.jpg",
+        "credit": "Steffen Prößdorf",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:2025-07-13_Motorsport,_ABB_FIA_Formula_E_World_Championship,_Berlin_E-Prix_2025_STP_0796.jpg"
       }
     },
     {
@@ -810,6 +1048,13 @@
         "channelId": "UCri_3m0SNbAeZBh00hrm5mg",
         "handle": "@nicomuellerracing",
         "embeddable": true
+      },
+      "image": {
+        "url": "images/drivers/nico-muller.jpg",
+        "credit": "Steffen Prößdorf",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:2023-04-23_Motorsport,_ABB_FIA_Formula_E_World_Championship,_Berlin_E-Prix_2023_1DX_1776_by_Stepro.jpg"
       }
     },
     {
@@ -833,6 +1078,13 @@
         "channelId": "UCZzLDbit5gXUTadgoebXcjQ",
         "handle": "@sebuemi",
         "embeddable": true
+      },
+      "image": {
+        "url": "images/drivers/sebastien-buemi.jpg",
+        "credit": "Martin Lee from London, UK",
+        "licence": "CC BY-SA 2.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Ryo_Hirakawa,_Brendon_Hartley_%26_Sebastien_Buemi_take_the_podium_for_2nd_in_Hypercar_at_the_2023_Le_Mans_(53468554280)_(cropped).jpg"
       }
     },
     {
@@ -850,6 +1102,13 @@
       "socials": {
         "facebook": "taylorbarnardracing",
         "instagram": "taylorbarnard1"
+      },
+      "image": {
+        "url": "images/drivers/taylor-barnard.jpg",
+        "credit": "Jhmediamanagement",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Taylor_Barnard_-_Berlin_Grid_2026.png"
       }
     },
     {
@@ -868,6 +1127,13 @@
         "facebook": "jeanericvergne",
         "instagram": "jeanericvergne",
         "x": "jeanericvergne"
+      },
+      "image": {
+        "url": "images/drivers/jean-eric-vergne.jpg",
+        "credit": "Morio",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Jean-Eric_Vergne_2024_WEC_Fuji.jpg"
       }
     },
     {
@@ -885,6 +1151,13 @@
       "socials": {
         "instagram": "pepemartiofficial",
         "x": "JMMarti_oficial"
+      },
+      "image": {
+        "url": "images/drivers/josep-maria-marti.jpg",
+        "credit": "Mitchea99",
+        "licence": "CC0",
+        "licenceURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Pepe_Marti_London_2026.jpg"
       }
     },
     {
@@ -903,6 +1176,13 @@
         "facebook": "felipedrugovich",
         "instagram": "felipedrugovich",
         "x": "FelipeDrugovich"
+      },
+      "image": {
+        "url": "images/drivers/felipe-drugovich.jpg",
+        "credit": "Steffen Prößdorf",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:2025-07-11_Motorsport,_ABB_FIA_Formula_E_World_Championship,_Berlin_E-Prix_2025_STP_0050.jpg"
       }
     },
     {
@@ -921,6 +1201,13 @@
         "facebook": "danticktumdriver",
         "instagram": "dan_ticktum",
         "x": "DanTicktum"
+      },
+      "image": {
+        "url": "images/drivers/dan-ticktum.jpg",
+        "credit": "Steffen Prößdorf",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:2025-07-11_Motorsport,_ABB_FIA_Formula_E_World_Championship,_Berlin_E-Prix_2025_STP_0040.jpg"
       }
     },
     {
@@ -938,6 +1225,13 @@
       "socials": {
         "facebook": "JoelErikssonRacing",
         "instagram": "joeleracing"
+      },
+      "image": {
+        "url": "images/drivers/joel-eriksson.jpg",
+        "credit": "Steffen Prößdorf",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:2024-05-12_Motorsport,_ABB_FIA_Formula_E_World_Championship,_Berlin_E-Prix_2024_STP_3171_by_Stepro.jpg"
       }
     },
     {
@@ -956,6 +1250,13 @@
         "facebook": "lucasdigrassiofficial",
         "instagram": "lucasdigrassi",
         "x": "LucasdiGrassi"
+      },
+      "image": {
+        "url": "images/drivers/lucas-di-grassi.jpg",
+        "credit": "Steffen Prößdorf",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:2023-04-23_Motorsport,_ABB_FIA_Formula_E_World_Championship,_Berlin_E-Prix_2023_1DX_1765_by_Stepro.jpg"
       }
     },
     {
@@ -974,6 +1275,13 @@
         "facebook": "maxg.official",
         "instagram": "maximilianguenther",
         "x": "MAXG_official"
+      },
+      "image": {
+        "url": "images/drivers/maximilian-gunther.jpg",
+        "credit": "Steffen Prößdorf",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:2024-05-10_Motorsport,_ABB_FIA_Formula_E_World_Championship,_Berlin_E-Prix_2024_STP_2544_by_Stepro.jpg"
       }
     },
     {
@@ -992,6 +1300,13 @@
         "facebook": "NormanNato",
         "instagram": "norman_nato",
         "x": "NatoNorman"
+      },
+      "image": {
+        "url": "images/drivers/norman-nato.jpg",
+        "credit": "Morio",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Norman_Nato_2024_WEC_Fuji.jpg"
       }
     },
     {
@@ -1015,6 +1330,13 @@
         "channelId": "UC8V7p_GhvzV97hWbGuKY6cQ",
         "handle": "@zanemaloney8719",
         "embeddable": true
+      },
+      "image": {
+        "url": "images/drivers/zane-maloney.jpg",
+        "credit": "Steffen Prößdorf",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:2025-07-11_Motorsport,_ABB_FIA_Formula_E_World_Championship,_Berlin_E-Prix_2025_STP_0061_(Zane_Maloney_-_Headshot).jpg"
       }
     },
     {
@@ -1034,6 +1356,13 @@
         "tiktok": "mbez72",
         "threads": "marcobez72",
         "instagram": "marcobez72"
+      },
+      "image": {
+        "url": "images/drivers/marco-bezzecchi.jpg",
+        "credit": "Denkmit",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Marco_Bezzecchi_at_the_2025_Malaysian_motorcycle_Grand_Prix.jpg"
       }
     },
     {
@@ -1054,6 +1383,12 @@
         "x": "37_pedroacosta",
         "threads": "37pedroacosta",
         "instagram": "37pedroacosta"
+      },
+      "image": {
+        "url": "images/drivers/pedro-acosta.jpg",
+        "credit": "TeamEG00",
+        "licence": "Public domain",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Pedro_Acosta_at_the_2025_Italian_motorcycle_Grand_Prix.jpg"
       }
     },
     {
@@ -1074,6 +1409,13 @@
         "x": "FabioDiggia49",
         "instagram": "fabiodiggia49",
         "threads": "fabiodiggia49"
+      },
+      "image": {
+        "url": "images/drivers/fabio-di-giannantonio.jpg",
+        "credit": "Denkmit",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Fabio_Di_Giannantonio_at_the_2025_Malaysian_motorcycle_Grand_Prix.jpg"
       }
     },
     {
@@ -1094,6 +1436,13 @@
         "tiktok": "raulfernandez_25",
         "instagram": "raulfernandez_25",
         "x": "25RaulFernandez"
+      },
+      "image": {
+        "url": "images/drivers/raul-fernandez.jpg",
+        "credit": "Denkmit",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Raul_Fernandez_at_the_2025_Malaysian_motorcycle_Grand_Prix.jpg"
       }
     },
     {
@@ -1119,6 +1468,12 @@
         "channelId": "UCSbt-l3WwVBcrVpmu44qbKg",
         "handle": "@alexmarquez73",
         "embeddable": true
+      },
+      "image": {
+        "url": "images/drivers/alex-marquez.jpg",
+        "credit": "TeamEG00",
+        "licence": "Public domain",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Alex_Marquez_2023.jpg"
       }
     },
     {
@@ -1138,6 +1493,13 @@
         "instagram": "pecco63",
         "x": "PeccoBagnaia",
         "threads": "pecco63"
+      },
+      "image": {
+        "url": "images/drivers/francesco-bagnaia.jpg",
+        "credit": "Denkmit",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Pecco_Bagnaia_at_the_2026_Spanish_Grand_Prix.jpg"
       }
     },
     {
@@ -1158,6 +1520,13 @@
         "threads": "ferminaldeguer_54",
         "instagram": "ferminaldeguer_54",
         "tiktok": "ferminaldeguer__54"
+      },
+      "image": {
+        "url": "images/drivers/fermin-aldeguer.jpg",
+        "credit": "Denkmit",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Fermin_Aldeguer_at_the_2026_Spanish_Grand_Prix.jpg"
       }
     },
     {
@@ -1177,6 +1546,13 @@
         "threads": "lucamarini10",
         "instagram": "lucamarini10",
         "tiktok": "luca.marini.10"
+      },
+      "image": {
+        "url": "images/drivers/luca-marini.jpg",
+        "credit": "Denkmit",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Luca_Marini_at_the_2025_Malaysian_Grand_Prix.jpg"
       }
     },
     {
@@ -1196,6 +1572,13 @@
         "threads": "bestia23",
         "x": "Bestia23",
         "instagram": "bestia23"
+      },
+      "image": {
+        "url": "images/drivers/enea-bastianini.jpg",
+        "credit": "Denkmit",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Enea_Bastianini_at_the_2026_Spanish_Grand_Prix.jpg"
       }
     },
     {
@@ -1215,6 +1598,13 @@
         "instagram": "bradbinder",
         "threads": "bradbinder",
         "x": "BradBinder_33"
+      },
+      "image": {
+        "url": "images/drivers/brad-binder.jpg",
+        "credit": "Simon Patterson",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Brad_Binder_at_the_2023_Japanese_motorcycle_Grand_Prix.jpg"
       }
     },
     {
@@ -1234,6 +1624,12 @@
         "instagram": "diogomoreira_11",
         "threads": "diogomoreira_11",
         "tiktok": "diogomoreira_11"
+      },
+      "image": {
+        "url": "images/drivers/diogo-moreira.jpg",
+        "credit": "TeamEG00",
+        "licence": "Public domain",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Diogo_Moreira_at_the_2025_Italian_motorcycle_Grand_Prix_(cropped).jpg"
       }
     },
     {
@@ -1253,6 +1649,12 @@
         "threads": "fabioquartararo20",
         "tiktok": "fabioq20",
         "instagram": "fabioquartararo20"
+      },
+      "image": {
+        "url": "images/drivers/fabio-quartararo.jpg",
+        "credit": "TeamEG00",
+        "licence": "Public domain",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Fabio_Quartararo_at_the_2026_German_motorcycle_Grand_Prix_(cropped).jpg"
       }
     },
     {
@@ -1270,6 +1672,13 @@
       "number": 21,
       "socials": {
         "instagram": "frankymorbido"
+      },
+      "image": {
+        "url": "images/drivers/franco-morbidelli.jpg",
+        "credit": "Denkmit",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Franco_Morbidelli_at_the_2025_Malaysian_Grand_Prix.jpg"
       }
     },
     {
@@ -1289,6 +1698,13 @@
         "x": "JohannZarco1",
         "instagram": "johannzarco",
         "threads": "johannzarco"
+      },
+      "image": {
+        "url": "images/drivers/johann-zarco.jpg",
+        "credit": "Denkmit",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Johann_Zarco_at_the_2025_Malaysian_Grand_Prix.jpg"
       }
     },
     {
@@ -1307,6 +1723,13 @@
         "x": "JoanMirOfficial",
         "instagram": "joanmir36official",
         "threads": "joanmir36official"
+      },
+      "image": {
+        "url": "images/drivers/joan-mir.jpg",
+        "credit": "Denkmit",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Joan_Mir_at_the_2025_Malaysian_Grand_Prix.jpg"
       }
     },
     {
@@ -1326,6 +1749,13 @@
         "x": "jackmilleraus",
         "threads": "jackmilleraus",
         "instagram": "jackmilleraus"
+      },
+      "image": {
+        "url": "images/drivers/jack-miller.jpg",
+        "credit": "Denkmit",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Jack_Miller_at_the_2025_Malaysian_Grand_Prix.jpg"
       }
     },
     {
@@ -1345,6 +1775,13 @@
         "threads": "alexrins",
         "instagram": "alexrins",
         "x": "Rins42"
+      },
+      "image": {
+        "url": "images/drivers/alex-rins.jpg",
+        "credit": "Simon Patterson",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Alex_Rins_at_the_2023_Japanese_motorcycle_Grand_Prix.jpg"
       }
     },
     {
@@ -1364,6 +1801,12 @@
         "x": "Toprak07TR",
         "instagram": "toprakrazgatlioglu7",
         "tiktok": "toprak_tr54"
+      },
+      "image": {
+        "url": "images/drivers/toprak-razgatlioglu.jpg",
+        "credit": "TeamEG00",
+        "licence": "Public domain",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Toprak_Razgatl%C4%B1o%C4%9Flu_at_the_2026_German_motorcycle_Grand_Prix_(cropped).jpg"
       }
     },
     {
@@ -1387,6 +1830,12 @@
         "channelId": "UCt6vvrbQfBHc98K6VjGWIZQ",
         "handle": "@maverickvinales12",
         "embeddable": true
+      },
+      "image": {
+        "url": "images/drivers/maverick-vinales.jpg",
+        "credit": "TeamEG00",
+        "licence": "Public domain",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Maverick_Vi%C3%B1ales_at_the_2025_Italian_motorcycle_Grand_Prix_(cropped).jpg"
       }
     },
     {
@@ -1406,6 +1855,13 @@
         "x": "LecuonaIker",
         "instagram": "ikerlecuona_27",
         "tiktok": "ikerlecuona_27"
+      },
+      "image": {
+        "url": "images/drivers/iker-lecuona.jpg",
+        "credit": "Box Repsol",
+        "licence": "CC BY 2.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/2.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Iker_Lecuona_2023_(cropped).jpg"
       }
     },
     {
@@ -1424,6 +1880,13 @@
       "socials": {
         "instagram": "augustofernandez37",
         "x": "Afernandez37"
+      },
+      "image": {
+        "url": "images/drivers/augusto-fernandez.jpg",
+        "credit": "Denkmit",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Augusto_Fernandez_at_the_2025_Malaysian_Grand_Prix.jpg"
       }
     },
     {
@@ -1438,7 +1901,14 @@
       ],
       "nationality": "Spanish",
       "team": "Red Bull KTM Tech3",
-      "number": 44
+      "number": 44,
+      "image": {
+        "url": "images/drivers/pol-espargaro.jpg",
+        "credit": "Box Repsol",
+        "licence": "CC BY 2.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/2.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Pol_Espargar%C3%B3_portrait_2022_(cropped).jpg"
+      }
     },
     {
       "id": "takaaki-nakagami",
@@ -1452,7 +1922,14 @@
       ],
       "nationality": "Japanese",
       "team": "Honda HRC Castrol",
-      "number": 40
+      "number": 40,
+      "image": {
+        "url": "images/drivers/takaaki-nakagami.jpg",
+        "credit": "Simon Patterson",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Takaaki_Nakagami_at_the_2023_Japanese_motorcycle_Grand_Prix.jpg"
+      }
     },
     {
       "id": "cal-crutchlow",
@@ -1470,6 +1947,13 @@
       "socials": {
         "x": "calcrutchlow",
         "instagram": "calcrutchlow"
+      },
+      "image": {
+        "url": "images/drivers/cal-crutchlow.jpg",
+        "credit": "Uppsalo",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Crutchlow_COTA_2015.jpg"
       }
     },
     {
@@ -1489,6 +1973,13 @@
         "instagram": "jonasfolger94",
         "x": "94jonasfolger",
         "threads": "jonasfolger94"
+      },
+      "image": {
+        "url": "images/drivers/jonas-folger.jpg",
+        "credit": "Rhysgedwards23",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Jonas_Folger_2017.jpg"
       }
     },
     {
@@ -1508,6 +1999,13 @@
         "x": "lorysava32",
         "instagram": "sava32",
         "tiktok": "lorenzo.savadori"
+      },
+      "image": {
+        "url": "images/drivers/lorenzo-savadori.jpg",
+        "credit": "Denkmit",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Lorenzo_Savadori_at_the_2026_Spanish_Grand_Prix.jpg"
       }
     },
     {
@@ -1522,7 +2020,14 @@
       ],
       "nationality": "Italian",
       "team": "BK8 Gresini Racing MotoGP",
-      "number": 51
+      "number": 51,
+      "image": {
+        "url": "images/drivers/michele-pirro.jpg",
+        "credit": "Denkmit",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Michele_Pirro_at_the_2025_Malaysian_Grand_Prix.jpg"
+      }
     },
     {
       "id": "elfyn-evans",
@@ -1543,6 +2048,13 @@
         "x": "ElfynEvans",
         "facebook": "ElfynEvansRally",
         "website": "https://www.elfynevans.com/"
+      },
+      "image": {
+        "url": "images/drivers/elfyn-evans.jpg",
+        "credit": "Jakob Gottfried",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Rallye_Deutschland_2017_(Evans-0664).jpg"
       }
     },
     {
@@ -1569,6 +2081,13 @@
         "channelId": "UCDvfPE5dXT2_M6qt8oIYAFA",
         "handle": "@sebastienogier-y6z",
         "embeddable": true
+      },
+      "image": {
+        "url": "images/drivers/sebastien-ogier.jpg",
+        "credit": "Miloslav Rejha",
+        "licence": "CC BY 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:2023_Central_European_Rally_-_Ogier_01_(cropped).jpg"
       }
     },
     {
@@ -1584,7 +2103,14 @@
       "nationality": "Japanese",
       "team": "Toyota Gazoo Racing WRT",
       "number": 18,
-      "codriver": "Aaron Johnston"
+      "codriver": "Aaron Johnston",
+      "image": {
+        "url": "images/drivers/takamoto-katsuta.jpg",
+        "credit": "Miloslav Rejha",
+        "licence": "CC BY 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:2023_Central_European_Rally_-_Katsuta_01_(cropped).jpg"
+      }
     },
     {
       "id": "oliver-solberg",
@@ -1611,6 +2137,13 @@
         "channelId": "UC3ImTK_J7XR4pz5QxJx9bGA",
         "handle": "@oliversolberg01",
         "embeddable": true
+      },
+      "image": {
+        "url": "images/drivers/oliver-solberg.jpg",
+        "credit": "Ianreynolds5",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Oliver_Solberg_at_Rallye_Monte_Carlo_2023_(cropped).jpg"
       }
     },
     {
@@ -1626,7 +2159,14 @@
       "nationality": "Finnish",
       "team": "Toyota Gazoo Racing WRT",
       "number": 5,
-      "codriver": "Marko Salminen"
+      "codriver": "Marko Salminen",
+      "image": {
+        "url": "images/drivers/sami-pajari.jpg",
+        "credit": "TTTNIS",
+        "licence": "CC0",
+        "licenceURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Sami_Pajari_(cropped).jpg"
+      }
     },
     {
       "id": "thierry-neuville",
@@ -1646,6 +2186,13 @@
         "instagram": "thierryneuville",
         "x": "thierryneuville",
         "facebook": "thierryneuvilleofficial"
+      },
+      "image": {
+        "url": "images/drivers/thierry-neuville.jpg",
+        "credit": "Miloslav Rejha",
+        "licence": "CC BY 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:2023_Central_European_Rally_-_Neuville_01.jpg"
       }
     },
     {
@@ -1666,6 +2213,13 @@
         "instagram": "adrienfourmaux",
         "x": "AdrienFourmaux",
         "facebook": "adrienfourmaux"
+      },
+      "image": {
+        "url": "images/drivers/adrien-fourmaux.jpg",
+        "credit": "Lukas Raich",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:WRC-2_Central_European_Rallye_2023_Adrien_Fourmaux.jpg"
       }
     },
     {
@@ -1687,6 +2241,13 @@
         "x": "HaydenPaddon",
         "tiktok": "haydenpaddon",
         "facebook": "haydenpaddonwrc"
+      },
+      "image": {
+        "url": "images/drivers/hayden-paddon.jpg",
+        "credit": "TayBro55",
+        "licence": "CC BY 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Christchurch_Ashley_Forest_(Tayler_Burke_2024).jpg"
       }
     },
     {
@@ -1707,6 +2268,13 @@
         "instagram": "danisordorallye",
         "x": "danisordo",
         "facebook": "DanielSordo"
+      },
+      "image": {
+        "url": "images/drivers/dani-sordo.jpg",
+        "credit": "Thomas Goos",
+        "licence": "CC BY 3.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/3.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Dani_Sordo_2014_001_(cropped).jpg"
       }
     },
     {
@@ -1727,6 +2295,13 @@
         "instagram": "esapekkalappiofficial",
         "x": "esapekkalappi",
         "facebook": "EsapekkaLappiOfficial"
+      },
+      "image": {
+        "url": "images/drivers/esapekka-lappi.jpg",
+        "credit": "Hg9SF1",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Esapekka_Lappi_-_Rallye_Mexico_2019.jpg"
       }
     },
     {
@@ -1782,7 +2357,14 @@
       ],
       "nationality": "Luxembourgish",
       "team": "M-Sport Ford World Rally Team",
-      "codriver": "Louis Louka"
+      "codriver": "Louis Louka",
+      "image": {
+        "url": "images/drivers/gregoire-munster.jpg",
+        "credit": "Iain Cameron",
+        "licence": "CC BY 2.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/2.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Rajd_Monte_Carlo_2019_Gregoire_Munster.jpg"
+      }
     },
     {
       "id": "martins-sesks",
@@ -1796,7 +2378,14 @@
       ],
       "nationality": "Latvian",
       "team": "M-Sport Ford World Rally Team",
-      "codriver": "Renārs Francis"
+      "codriver": "Renārs Francis",
+      "image": {
+        "url": "images/drivers/martins-sesks.jpg",
+        "credit": "Makary",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:2022_Rally_Poland_-_Sesks_M%C4%81rti%C5%86%C5%A1.jpg"
+      }
     },
     {
       "id": "alex-palou",
@@ -1817,6 +2406,12 @@
         "tiktok": "alexpalou10",
         "x": "AlexPalou",
         "website": "https://alexpalou.com/"
+      },
+      "image": {
+        "url": "images/drivers/alex-palou.jpg",
+        "credit": "City of Detroit",
+        "licence": "Public domain",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Alex_Palou_at_2024_Chevrolet_Detroit_Grand_Prix.jpg"
       }
     },
     {
@@ -1842,6 +2437,12 @@
         "channelId": "UCtMtX86rIZhawPreXwGpIJw",
         "handle": "@alexanderrossi27",
         "embeddable": true
+      },
+      "image": {
+        "url": "images/drivers/alexander-rossi.jpg",
+        "credit": "NASA/Joel Kowsky",
+        "licence": "Public domain",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Alexander_Rossi_2026_(cropped).jpg"
       }
     },
     {
@@ -1861,6 +2462,13 @@
         "facebook": "collet.caio",
         "instagram": "caiocollet",
         "x": "caiocollet"
+      },
+      "image": {
+        "url": "images/drivers/caio-collet.jpg",
+        "credit": "Lito Cavalcanti on YouTube",
+        "licence": "CC BY 3.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/3.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Caio_Collet,_interview.jpg"
       }
     },
     {
@@ -1887,6 +2495,13 @@
         "channelId": "UChMhGogVvDEl-57xOdHSgow",
         "handle": "@clundgaard45",
         "embeddable": true
+      },
+      "image": {
+        "url": "images/drivers/christian-lundgaard.jpg",
+        "credit": "MIDWST.BLUR",
+        "licence": "CC BY 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Christian_Lundgaard_(54609009497).jpg"
       }
     },
     {
@@ -1929,6 +2544,13 @@
         "tiktok": "davidmalukas",
         "x": "malukasdavid",
         "website": "https://www.davidmalukas.com/"
+      },
+      "image": {
+        "url": "images/drivers/david-malukas.jpg",
+        "credit": "FanAmp Inc.",
+        "licence": "CC BY 3.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/3.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:David_Malukas_2025.png"
       }
     },
     {
@@ -1948,6 +2570,13 @@
         "facebook": "DennisHauger03",
         "instagram": "dennis_hauger",
         "website": "https://www.dennishauger.com/"
+      },
+      "image": {
+        "url": "images/drivers/dennis-hauger.jpg",
+        "credit": "KVYTICAL",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Dennis_Hauger_Austria_2022.jpg"
       }
     },
     {
@@ -1968,6 +2597,13 @@
         "instagram": "frosenqvist",
         "x": "FRosenqvist",
         "website": "https://felixracing.se/"
+      },
+      "image": {
+        "url": "images/drivers/felix-rosenqvist.jpg",
+        "credit": "Colleen Sturtevant",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Felix_Rosenqvist_Indie500_in_2026_(cropped-J1).jpg"
       }
     },
     {
@@ -1993,6 +2629,12 @@
         "channelId": "UCipfFJleMxBLcQ2NFI0u4gg",
         "handle": "@grahamrahaltv",
         "embeddable": true
+      },
+      "image": {
+        "url": "images/drivers/graham-rahal.jpg",
+        "credit": "City of Detroit",
+        "licence": "Public domain",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Graham_Rahal_at_2024_Chevrolet_Detroit_Grand_Prix.jpg"
       }
     },
     {
@@ -2019,6 +2661,13 @@
         "channelId": "UCcrALrC9e6c5_DWrye9sZEA",
         "handle": "@josefnewgarden",
         "embeddable": true
+      },
+      "image": {
+        "url": "images/drivers/josef-newgarden.jpg",
+        "credit": "Josefnewgardenracing",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Josef_Newgarden_100_Days_to_Indy_(cropped).jpg"
       }
     },
     {
@@ -2040,6 +2689,13 @@
         "tiktok": "kyffinsimpson",
         "x": "kyffin_simpson",
         "website": "https://www.kyffinsimpson.ky/"
+      },
+      "image": {
+        "url": "images/drivers/kyffin-simpson.jpg",
+        "credit": "Talladega87",
+        "licence": "CC0",
+        "licenceURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Kyffin_Simpson_at_Long_Beach_(2024).jpg"
       }
     },
     {
@@ -2061,6 +2717,12 @@
         "tiktok": "kyle_kirkwood",
         "x": "kkirkwoodracing",
         "website": "http://www.KyleKirkwood.com"
+      },
+      "image": {
+        "url": "images/drivers/kyle-kirkwood.jpg",
+        "credit": "AJ Bleyer",
+        "licence": "Public domain",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Kyle_Kirkwood_Freedom_250_Grand_Prix_(cropped).jpg"
       }
     },
     {
@@ -2080,6 +2742,12 @@
         "instagram": "louisfosterr",
         "tiktok": "louisfosters",
         "x": "_LouisFoster"
+      },
+      "image": {
+        "url": "images/drivers/louis-foster.jpg",
+        "credit": "City of Detroit",
+        "licence": "Public domain",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Louis_Foster_(53764767171).jpg"
       }
     },
     {
@@ -2101,6 +2769,13 @@
         "tiktok": "marcusarmstrong11",
         "x": "MarcusArmstrng",
         "website": "https://www.marcusarmstrong.com/"
+      },
+      "image": {
+        "url": "images/drivers/marcus-armstrong.jpg",
+        "credit": "KVYTICAL",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Marcus_Armstrong_Austria_2022.jpg"
       }
     },
     {
@@ -2127,6 +2802,13 @@
         "channelId": "UCvzQxbB-MtwXdxAGFRNM7jA",
         "handle": "@marcusericsson3800",
         "embeddable": true
+      },
+      "image": {
+        "url": "images/drivers/marcus-ericsson.jpg",
+        "credit": "Frankie Fouganthin",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Marcus_Ericsson_in_2023.jpg"
       }
     },
     {
@@ -2152,6 +2834,13 @@
         "channelId": "UCkIpj1C0vp6DFAQr-ce4Yiw",
         "handle": "@mickschumacher",
         "embeddable": true
+      },
+      "image": {
+        "url": "images/drivers/mick-schumacher.jpg",
+        "credit": "Morio",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Mick_Schumacher_2024_WEC_Fuji.jpg"
       }
     },
     {
@@ -2172,6 +2861,13 @@
         "instagram": "nolansiegel",
         "x": "nolan_siegel",
         "website": "https://nolansiegel.com/"
+      },
+      "image": {
+        "url": "images/drivers/nolan-siegel.jpg",
+        "credit": "Brycenrichter",
+        "licence": "CC0",
+        "licenceURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Nolan_Siegel_Road_America_2026.jpg"
       }
     },
     {
@@ -2193,6 +2889,13 @@
         "tiktok": "patriciooward",
         "x": "patriciooward",
         "website": "https://patricioowardshop.com/"
+      },
+      "image": {
+        "url": "images/drivers/pato-o-ward.jpg",
+        "credit": "Wolkenjaeger",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Pato_O%27Ward_(2021)_(cropped).jpg"
       }
     },
     {
@@ -2218,6 +2921,13 @@
         "channelId": "UCT8XJKbeEOwzdw9ymfZoT_g",
         "handle": "@vankalmthoutauto",
         "embeddable": true
+      },
+      "image": {
+        "url": "images/drivers/rinus-veekay.jpg",
+        "credit": "Zach Catanzareti Photo",
+        "licence": "CC BY 2.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/2.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Rinus_veekay_(51222252767)_(cropped).jpg"
       }
     },
     {
@@ -2244,6 +2954,12 @@
         "channelId": "UCHyrz_iFQGc-nntb4-F5_yw",
         "handle": "@romaingrosjean8",
         "embeddable": true
+      },
+      "image": {
+        "url": "images/drivers/romain-grosjean.jpg",
+        "credit": "City of Detroit",
+        "licence": "Public domain",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Grosjean_at_2024_Chevrolet_Detroit_Grand_Prix.jpg"
       }
     },
     {
@@ -2265,6 +2981,13 @@
         "tiktok": "santinoferrucci",
         "x": "santinoferrucci",
         "website": "https://santinoferrucci.com/"
+      },
+      "image": {
+        "url": "images/drivers/santino-ferrucci.jpg",
+        "credit": "Zach Catanzareti Photo",
+        "licence": "CC BY 2.0",
+        "licenceURL": "https://creativecommons.org/licenses/by/2.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Santino_ferrucci_(51277307533)_(cropped).jpg"
       }
     },
     {
@@ -2285,6 +3008,13 @@
         "instagram": "scottdixon9",
         "x": "scottdixon9",
         "website": "http://www.scottdixon.com"
+      },
+      "image": {
+        "url": "images/drivers/scott-dixon.jpg",
+        "credit": "Nick Jacuby Photography",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Scott_Dixon_at_Road_America_in_2021.png"
       }
     },
     {
@@ -2305,6 +3035,12 @@
         "instagram": "smclaughlin93",
         "x": "smclaughlin93",
         "website": "https://www.scott-mclaughlin.com/"
+      },
+      "image": {
+        "url": "images/drivers/scott-mclaughlin.jpg",
+        "credit": "44636446@N04",
+        "licence": "Public domain",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Scott_McLaughlin_2026.jpg"
       }
     },
     {
@@ -2331,6 +3067,12 @@
         "channelId": "UCYri8_p9iST9IRRcHtSNgWA",
         "handle": "@stingrayrobb77",
         "embeddable": true
+      },
+      "image": {
+        "url": "images/drivers/sting-ray-robb.jpg",
+        "credit": "City of Detroit",
+        "licence": "Public domain",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Sting_Ray_Robb_(53760682533)_(cropped).jpg"
       }
     },
     {
@@ -2351,6 +3093,13 @@
         "instagram": "26willpower",
         "x": "26WillPower_",
         "website": "https://www.12willpower.com/"
+      },
+      "image": {
+        "url": "images/drivers/will-power.jpg",
+        "credit": "Wolkenjaeger",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Will_Power_(2021).jpg"
       }
     },
     {
@@ -2372,6 +3121,13 @@
         "tiktok": "KYLELARSONracing",
         "x": "KyleLarsonRacin",
         "website": "https://www.kylelarsonracing.com/"
+      },
+      "image": {
+        "url": "images/drivers/kyle-larson.jpg",
+        "credit": "TaurusEmerald",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Kyle_Larson_Las_Vegas_2026.jpg"
       }
     },
     {
@@ -2398,6 +3154,13 @@
         "channelId": "UCsvfUnEOkqDbBROVLTvnZxg",
         "handle": "@chaseelliott9",
         "embeddable": true
+      },
+      "image": {
+        "url": "images/drivers/chase-elliott.jpg",
+        "credit": "TaurusEmerald",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Chase_Elliott_Driver_Introductions_Las_Vegas_2026.jpg"
       }
     },
     {
@@ -2419,6 +3182,13 @@
         "tiktok": "william_byron",
         "x": "WilliamByron",
         "website": "https://www.williambyron.com/"
+      },
+      "image": {
+        "url": "images/drivers/william-byron.jpg",
+        "credit": "TaurusEmerald",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:William_Byron_Driver_Introductions_Las_Vegas_2026.jpg"
       }
     },
     {
@@ -2439,6 +3209,13 @@
         "instagram": "Alex_Bowman",
         "x": "AlexBRacing",
         "website": "https://www.alexbowmanracing.com/"
+      },
+      "image": {
+        "url": "images/drivers/alex-bowman.jpg",
+        "credit": "TaurusEmerald",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Alex_Bowman_Las_Vegas_Fall_2025.jpg"
       }
     },
     {
@@ -2458,6 +3235,13 @@
         "facebook": "Austin.Cindric",
         "instagram": "AustinCindric",
         "x": "AustinCindric"
+      },
+      "image": {
+        "url": "images/drivers/austin-cindric.jpg",
+        "credit": "Yu Chu Chin",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Austin_Cindric_at_the_2025_Adelaide_Grand_Final_-_03.jpg"
       }
     },
     {
@@ -2478,6 +3262,13 @@
         "instagram": "ryanblaney10",
         "x": "Blaney",
         "website": "https://ryanblaney.com/"
+      },
+      "image": {
+        "url": "images/drivers/ryan-blaney.jpg",
+        "credit": "TaurusEmerald",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Ryan_Blaney_Driver_Introductions_Las_Vegas_2026.jpg"
       }
     },
     {
@@ -2504,6 +3295,13 @@
         "channelId": "UC2sfsxuXOwrorS9bsEX19fQ",
         "handle": "@joeylogano",
         "embeddable": true
+      },
+      "image": {
+        "url": "images/drivers/joey-logano.jpg",
+        "credit": "TaurusEmerald",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Joey_Logano_Driver_Introductions_Las_Vegas_2026.jpg"
       }
     },
     {
@@ -2524,6 +3322,13 @@
         "instagram": "dennyhamlin",
         "x": "DennyHamlin",
         "website": "https://www.dennyhamlin.com/"
+      },
+      "image": {
+        "url": "images/drivers/denny-hamlin.jpg",
+        "credit": "TaurusEmerald",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Denny_Hamlin_Driver_Introductions_Las_Vegas_2026.jpg"
       }
     },
     {
@@ -2544,6 +3349,13 @@
         "instagram": "chasebriscoe_",
         "website": "https://www.chasebriscoe.com/",
         "x": "chasebriscoe"
+      },
+      "image": {
+        "url": "images/drivers/chase-briscoe.jpg",
+        "credit": "TaurusEmerald",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Chase_Briscoe_Las_Vegas_2026.jpg"
       }
     },
     {
@@ -2563,6 +3375,13 @@
         "x": "CBellRacing",
         "instagram": "cbellracing",
         "facebook": "christopherbellracing"
+      },
+      "image": {
+        "url": "images/drivers/christopher-bell.jpg",
+        "credit": "TaurusEmerald",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Christopher_Bell_Las_Vegas_2026.jpg"
       }
     },
     {
@@ -2581,6 +3400,13 @@
       "socials": {
         "instagram": "tygibbs",
         "x": "TyGibbs"
+      },
+      "image": {
+        "url": "images/drivers/ty-gibbs.jpg",
+        "credit": "TaurusEmerald",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Ty_Gibbs_Sonoma_2026.jpg"
       }
     },
     {
@@ -2601,6 +3427,13 @@
         "instagram": "austindillon3",
         "x": "austindillon3",
         "website": "https://austindillon.com/"
+      },
+      "image": {
+        "url": "images/drivers/austin-dillon.jpg",
+        "credit": "TaurusEmerald",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Austin_Dillon_Las_Vegas_2026.jpg"
       }
     },
     {
@@ -2627,6 +3460,12 @@
         "channelId": "UCToY9KW0aw4iVIKPykjIG1g",
         "handle": "@kylebusch",
         "embeddable": true
+      },
+      "image": {
+        "url": "images/drivers/kyle-busch.jpg",
+        "credit": "Roland Balik",
+        "licence": "Public domain",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:NASCAR_driver_Kyle_Busch_comes_to_Dover_AFB_(7)_(cropped).jpg"
       }
     },
     {
@@ -2653,6 +3492,13 @@
         "channelId": "UCRBmV-8-cWltoJzyR1vdCLQ",
         "handle": "@bubbawallace",
         "embeddable": true
+      },
+      "image": {
+        "url": "images/drivers/bubba-wallace.jpg",
+        "credit": "TaurusEmerald",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Bubba_Wallace_Driver_Introductions_Las_Vegas_2026.jpg"
       }
     },
     {
@@ -2673,6 +3519,13 @@
         "facebook": "riley.herbst",
         "x": "rileyherbst",
         "instagram": "rileyherbst"
+      },
+      "image": {
+        "url": "images/drivers/riley-herbst.jpg",
+        "credit": "TaurusEmerald",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Riley_Herbst_Driver_Introductions_Las_Vegas_2026.jpg"
       }
     },
     {
@@ -2694,6 +3547,13 @@
         "tiktok": "tylerreddickracing",
         "x": "TylerReddick",
         "website": "https://www.tylerreddick.com/"
+      },
+      "image": {
+        "url": "images/drivers/tyler-reddick.jpg",
+        "credit": "TaurusEmerald",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Tyler_Reddick_Driver_Introductions_Las_Vegas_2026.jpg"
       }
     },
     {
@@ -2714,6 +3574,13 @@
         "website": "https://rosschastain.com/",
         "facebook": "pages/Ross-Chastain-Racing/89727736744",
         "instagram": "rosschastain"
+      },
+      "image": {
+        "url": "images/drivers/ross-chastain.jpg",
+        "credit": "TaurusEmerald",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Ross_Chastain_Sonoma_2026.jpg"
       }
     },
     {
@@ -2734,6 +3601,13 @@
         "tiktok": "connorzilisch",
         "x": "ConnorZilisch",
         "website": "https://www.connorzilisch.com/"
+      },
+      "image": {
+        "url": "images/drivers/connor-zilisch.jpg",
+        "credit": "TaurusEmerald",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Connor_Zilisch_Sonoma_2026.jpg"
       }
     },
     {
@@ -2760,6 +3634,13 @@
         "channelId": "UCTr_IIaCNyW82Gy-l1Wu1qg",
         "handle": "@svg97",
         "embeddable": true
+      },
+      "image": {
+        "url": "images/drivers/shane-van-gisbergen.jpg",
+        "credit": "TaurusEmerald",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Shane_van_Gisbergen_Las_Vegas_2026.jpg"
       }
     },
     {
@@ -2779,6 +3660,12 @@
         "x": "keselowski",
         "instagram": "bradkeselowski",
         "facebook": "BradKeselowski"
+      },
+      "image": {
+        "url": "images/drivers/brad-keselowski.jpg",
+        "credit": "Mass Communication Specialist 1st Class Tiarra Brown",
+        "licence": "Public domain",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:USS_Greeneville_(SSN_772)_Sailors_meet_NASCAR_driver_Brad_Keselowski_9764313_(cropped).jpg"
       }
     },
     {
@@ -2798,6 +3685,13 @@
         "x": "Chris_Buescher",
         "instagram": "c_buescher",
         "facebook": "ChrisBuescher17"
+      },
+      "image": {
+        "url": "images/drivers/chris-buescher.jpg",
+        "credit": "TaurusEmerald",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Chris_Buescher_Sonoma_2026.jpg"
       }
     },
     {
@@ -2817,6 +3711,13 @@
         "x": "RyanPreece_",
         "website": "https://www.ryanpreeceracing.com/",
         "instagram": "ryanpreece_"
+      },
+      "image": {
+        "url": "images/drivers/ryan-preece.jpg",
+        "credit": "TaurusEmerald",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Ryan_Preece_Sonoma_2026.jpg"
       }
     },
     {
@@ -2843,6 +3744,13 @@
         "channelId": "UCIaPi1fhsG7VlnWLCCqe7AQ",
         "handle": "@noahgragson5944",
         "embeddable": true
+      },
+      "image": {
+        "url": "images/drivers/noah-gragson.jpg",
+        "credit": "TaurusEmerald",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Noah_Gragson_Sonoma_2026.jpg"
       }
     },
     {
@@ -2863,6 +3771,13 @@
         "instagram": "toddgilliland_",
         "x": "ToddGilliland_",
         "website": "https://toddgilliland.com/"
+      },
+      "image": {
+        "url": "images/drivers/todd-gilliland.jpg",
+        "credit": "TaurusEmerald",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Todd_Gilliland_Sonoma_2026.jpg"
       }
     },
     {
@@ -2883,6 +3798,13 @@
         "instagram": "zanesmith",
         "x": "zanesmith",
         "website": "https://www.zanesmithracing.com/"
+      },
+      "image": {
+        "url": "images/drivers/zane-smith.jpg",
+        "credit": "TaurusEmerald",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Zane_Smith_Sonoma_2026.jpg"
       }
     },
     {
@@ -2907,6 +3829,13 @@
         "channelId": "UCiEzA3FKSZ-9nnfWvps3I4A",
         "handle": null,
         "embeddable": true
+      },
+      "image": {
+        "url": "images/drivers/ty-dillon.jpg",
+        "credit": "TaurusEmerald",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Ty_Dillon_Driver_Introductions_Las_Vegas_2026.jpg"
       }
     },
     {
@@ -2926,6 +3855,13 @@
         "x": "AJDinger",
         "instagram": "aj_allmendinger_official",
         "facebook": "AJAllmendinger"
+      },
+      "image": {
+        "url": "images/drivers/aj-allmendinger.jpg",
+        "credit": "TaurusEmerald",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:A.J._Allmendinger_Sonoma_2026.jpg"
       }
     },
     {
@@ -2945,6 +3881,13 @@
         "x": "Daniel_SuarezG",
         "facebook": "danielsuarezgarza",
         "instagram": "daniel_suarezg"
+      },
+      "image": {
+        "url": "images/drivers/daniel-suarez.jpg",
+        "credit": "TaurusEmerald",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Daniel_Suarez_Sonoma_2026.jpg"
       }
     },
     {
@@ -2972,6 +3915,13 @@
         "channelId": "UC3ewJNedJFwbRLlmV2risPw",
         "handle": "@Mc_Driver",
         "embeddable": true
+      },
+      "image": {
+        "url": "images/drivers/michael-mcdowell.jpg",
+        "credit": "TaurusEmerald",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Michael_McDowell_Las_Vegas_2026.jpg"
       }
     },
     {
@@ -2992,6 +3942,13 @@
         "instagram": "carsonhocevar",
         "x": "CarsonHocevar",
         "website": "https://carsonhocevar.com/"
+      },
+      "image": {
+        "url": "images/drivers/carson-hocevar.jpg",
+        "credit": "TaurusEmerald",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Carson_Hocevar_Las_Vegas_2026.jpg"
       }
     },
     {
@@ -3011,6 +3968,13 @@
         "x": "JoshBerry",
         "instagram": "joshberry88",
         "facebook": "joshberry72"
+      },
+      "image": {
+        "url": "images/drivers/josh-berry.jpg",
+        "credit": "TaurusEmerald",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Josh_Berry_Las_Vegas_2026.jpg"
       }
     },
     {
@@ -3031,6 +3995,13 @@
         "instagram": "jhnemechek",
         "x": "JHNemechek",
         "website": "https://johnhunternemechek.com/"
+      },
+      "image": {
+        "url": "images/drivers/john-hunter-nemechek.jpg",
+        "credit": "TaurusEmerald",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:John_Hunter_Nemechek_Sonoma_2026.jpg"
       }
     },
     {
@@ -3051,6 +4022,13 @@
         "instagram": "erik_jones",
         "x": "erik_jones",
         "website": "https://www.erikjonesracing.com/"
+      },
+      "image": {
+        "url": "images/drivers/erik-jones.jpg",
+        "credit": "TaurusEmerald",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Erik_Jones_Sonoma_2026.jpg"
       }
     },
     {
@@ -3070,6 +4048,13 @@
         "website": "https://stenhousejr.com/",
         "instagram": "stenhousejr",
         "facebook": "StenhouseJr"
+      },
+      "image": {
+        "url": "images/drivers/ricky-stenhouse-jr.jpg",
+        "credit": "TaurusEmerald",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Ricky_Stenouse_Jr._Sonoma_2026.jpg"
       }
     },
     {
@@ -3089,6 +4074,13 @@
         "x": "CodyShaneWare",
         "facebook": "codyshaneware",
         "instagram": "codyshaneware"
+      },
+      "image": {
+        "url": "images/drivers/cody-ware.jpg",
+        "credit": "TaurusEmerald",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Cody_Ware_Sonoma_2026.jpg"
       }
     },
     {
@@ -3109,6 +4101,13 @@
         "instagram": "colecuster",
         "x": "colecuster00",
         "website": "https://colecuster.com/"
+      },
+      "image": {
+        "url": "images/drivers/cole-custer.jpg",
+        "credit": "TaurusEmerald",
+        "licence": "CC BY-SA 4.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Cole_Custer_Las_Vegas_2026.jpg"
       }
     }
   ]

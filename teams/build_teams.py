@@ -579,7 +579,7 @@ def driver_facts(notes: list[DriverNote], teams: list[Team]) -> list[dict]:
                  "standing": {"position": d.position, "points": d.points, "rounds": d.rounds,
                               "wins": d.wins, "podiums": d.podiums}}
         if d.line and d.last_race:
-            entry["lastRace"] = {"name": d.last_race, **asdict(d.line)}
+            entry["lastRace"] = {**asdict(d.line), "driver": d.line.name, "name": d.last_race}
         facts.append(entry)
     return facts
 
@@ -882,7 +882,7 @@ def build(channels: list[str], use_llm: bool) -> dict:
                 "publishedAt": now.isoformat().replace("+00:00", "Z"),
             }
             if d.line and d.last_race:
-                entry["lastRace"] = {"name": d.last_race, **asdict(d.line)}
+                entry["lastRace"] = {**asdict(d.line), "driver": d.line.name, "name": d.last_race}
             driver_entries.append(entry)
         if race and race.rows:
             ordered = sorted([r for r in race.rows if r.position], key=lambda r: r.position)
