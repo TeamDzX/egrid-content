@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-22T12:38:22Z",
+  "generatedAt": "2026-09-23T12:47:20Z",
   "channels": [
     {
       "channelID": "f1",
@@ -896,6 +896,17 @@
       "sourceURL": "https://www.youtube.com/channel/UCJcErqlzaBzFmAh2uIxeqxQ",
       "videos": [
         {
+          "id": "w7mWHmqqdwg",
+          "title": "Dodge NHRA Great Lakes Nationals presented by MOPAR Elimination Highlights",
+          "publishedAt": "2026-09-22T15:57:48Z",
+          "duration": "11:12",
+          "seconds": 672,
+          "thumbnail": "https://i.ytimg.com/vi/w7mWHmqqdwg/maxresdefault.jpg",
+          "source": "NHRA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "RR5IdoPDAKY",
           "title": "Lucas Oil Drag Racing Series Highlights from the Cornwell Quality Tools NHRA U.S. Nationals",
           "publishedAt": "2026-09-10T21:00:22Z",
@@ -1015,17 +1026,6 @@
           "source": "NHRA",
           "blockedRegions": [],
           "allowedRegions": []
-        },
-        {
-          "id": "osgGwZUOjU4",
-          "title": "Mission #2Fast2Tasty Highlights from the DENSO NHRA Sonoma Nationals presented by PowerEdge",
-          "publishedAt": "2026-07-19T00:28:48Z",
-          "duration": "4:35",
-          "seconds": 275,
-          "thumbnail": "https://i.ytimg.com/vi/osgGwZUOjU4/maxresdefault.jpg",
-          "source": "NHRA",
-          "blockedRegions": [],
-          "allowedRegions": []
         }
       ]
     },
@@ -1035,6 +1035,17 @@
       "source": "the MotoGP manufacturers",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "hvfv2EyFwGE",
+          "title": "Marc Márquez and Pecco Bagnaia | No giving up at the #AustrianGP",
+          "publishedAt": "2026-09-23T10:15:28Z",
+          "duration": "12:32",
+          "seconds": 752,
+          "thumbnail": "https://i.ytimg.com/vi/hvfv2EyFwGE/maxresdefault.jpg",
+          "source": "Ducati",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "rzybvOBbSg8",
           "title": "The Austrian GP was a weekend of mixed emotions - let’s unpack 🎙️🇦🇹 #AustrianGP",
@@ -1317,17 +1328,6 @@
           "duration": "47:35",
           "seconds": 2855,
           "thumbnail": "https://i.ytimg.com/vi/U8ePf9_uDdw/maxresdefault.jpg",
-          "source": "Ducati",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "KUsLXsxHaE8",
-          "title": "LIVE ENG -  Campioni in Pista 2026 | Ducati Lenovo Team MotoGP™ Unveil from Madonna di Campiglio",
-          "publishedAt": "2026-01-19T10:55:18Z",
-          "duration": "47:36",
-          "seconds": 2856,
-          "thumbnail": "https://i.ytimg.com/vi/KUsLXsxHaE8/maxresdefault.jpg",
           "source": "Ducati",
           "blockedRegions": [],
           "allowedRegions": []
