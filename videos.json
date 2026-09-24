@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-23T12:47:20Z",
+  "generatedAt": "2026-09-24T12:44:54Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,17 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "lua5rOaTPEg",
+          "title": "Which F1 Driver Is Better at Mini Golf?",
+          "publishedAt": "2026-09-24T10:29:59Z",
+          "duration": "10:51",
+          "seconds": 651,
+          "thumbnail": "https://i.ytimg.com/vi/lua5rOaTPEg/maxresdefault.jpg",
+          "source": "Atlassian Williams F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "rEEPYqtXcCw",
           "title": "13 Year Old Karting Champion Gets Advice From Carlos Sainz",
@@ -185,17 +196,6 @@
           "allowedRegions": []
         },
         {
-          "id": "4CXYbq6mOcc",
-          "title": "We Gave Lucky Fans a Paddock Tour At Zandvoort! | Talking Bull",
-          "publishedAt": "2026-09-01T11:00:24Z",
-          "duration": "24:59",
-          "seconds": 1499,
-          "thumbnail": "https://i.ytimg.com/vi/4CXYbq6mOcc/maxresdefault.jpg",
-          "source": "Red Bull Racing",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "xMjc98WJ6B8",
           "title": "⁠Testing Liam Lawson’s Knowledge | Top 10s",
           "publishedAt": "2026-08-29T10:00:13Z",
@@ -291,17 +291,6 @@
           "seconds": 776,
           "thumbnail": "https://i.ytimg.com/vi/CPnOfsyvc1s/maxresdefault.jpg",
           "source": "Aston Martin Aramco F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "C0LOkA2R-Mo",
-          "title": "Lewis Hamilton and Charles Leclerc vs. Scuderia Ferrari HP Esports Team!",
-          "publishedAt": "2026-08-04T14:00:09Z",
-          "duration": "7:49",
-          "seconds": 469,
-          "thumbnail": "https://i.ytimg.com/vi/C0LOkA2R-Mo/maxresdefault.jpg",
-          "source": "Ferrari",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -427,6 +416,17 @@
           "allowedRegions": []
         },
         {
+          "id": "9bau6_8tzhc",
+          "title": "Follow Ollie Bearman Ahead Of His Home Race",
+          "publishedAt": "2026-07-14T10:00:54Z",
+          "duration": "14:17",
+          "seconds": 857,
+          "thumbnail": "https://i.ytimg.com/vi/9bau6_8tzhc/maxresdefault.jpg",
+          "source": "TGR Haas F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "4aFCIR7Qajc",
           "title": "We Spent the Day with Franco Colapinto at an F1 Filming Day | Powered by Eni",
           "publishedAt": "2026-05-17T11:30:39Z",
@@ -540,17 +540,6 @@
           "duration": "59:50",
           "seconds": 3590,
           "thumbnail": "https://i.ytimg.com/vi/BFiGXsQnE6c/maxresdefault.jpg",
-          "source": "FIA World Endurance Championship",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "6-R2YdZHg7Q",
-          "title": "Race Highlights | TotalEnergies 6 Hours of Spa | FIA WEC",
-          "publishedAt": "2026-05-10T17:59:20Z",
-          "duration": "15:03",
-          "seconds": 903,
-          "thumbnail": "https://i.ytimg.com/vi/6-R2YdZHg7Q/maxresdefault.jpg",
           "source": "FIA World Endurance Championship",
           "blockedRegions": [],
           "allowedRegions": []
@@ -1778,6 +1767,17 @@
       "name": "Carlos Sainz",
       "videos": [
         {
+          "id": "6CBaAnAYO5I",
+          "title": "One very special week in Madrid 🇪🇸 I | DONTBLINK EP3 SEASON 7 by Carlos Sainz",
+          "publishedAt": "2026-09-23T19:49:53Z",
+          "duration": "13:02",
+          "seconds": 782,
+          "thumbnail": "https://i.ytimg.com/vi/6CBaAnAYO5I/maxresdefault.jpg",
+          "source": "Carlos Sainz",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "c8yEn13Bwe0",
           "title": "I Started a New Project: Fifty Five | DONTBLINK EP2 SEASON 7",
           "publishedAt": "2026-08-27T17:26:03Z",
@@ -1828,17 +1828,6 @@
           "duration": "14:26",
           "seconds": 866,
           "thumbnail": "https://i.ytimg.com/vi/MWv29nvJi74/maxresdefault.jpg",
-          "source": "Carlos Sainz",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "VWFlrLk3Mjg",
-          "title": "Last stop before racing | CARLOS SAINZ | DONTBLINK EP1 SEASON 6",
-          "publishedAt": "2025-03-30T17:45:00Z",
-          "duration": "8:02",
-          "seconds": 482,
-          "thumbnail": "https://i.ytimg.com/vi/VWFlrLk3Mjg/maxresdefault.jpg",
           "source": "Carlos Sainz",
           "blockedRegions": [],
           "allowedRegions": []
