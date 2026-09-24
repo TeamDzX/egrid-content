@@ -1,7 +1,62 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-23T12:37:22Z",
+  "generatedAt": "2026-09-24T12:36:08Z",
   "editions": [
+    {
+      "id": "2026-09-24-preview",
+      "kind": "preview",
+      "title": "This weekend in motorsport",
+      "dateRange": "24–28 September",
+      "intro": "There is plenty to look forward to between 24–28 September, with racing across Formula 1, Formula 2, NASCAR Cup Series, NHRA Drag Racing, and the World Endurance Championship.",
+      "publishedAt": "2026-09-24T12:36:08Z",
+      "expiresAt": "2026-09-29T12:36:08Z",
+      "items": [
+        {
+          "channelID": "f1",
+          "channelName": "Formula 1",
+          "headline": "Azerbaijan Grand Prix",
+          "detail": "Baku City Circuit, Azerbaijan · Sat 26 Sep",
+          "body": "The Azerbaijan Grand Prix takes place at Baku City Circuit on Sat 26 Sep at 11:00 UTC.",
+          "date": "2026-09-26",
+          "round": 15
+        },
+        {
+          "channelID": "f2",
+          "channelName": "Formula 2",
+          "headline": "Baku",
+          "detail": "Baku City Circuit, Azerbaijan · Sun 27 Sep",
+          "body": "Formula 2 arrives at the Baku City Circuit on Sun 27 Sep.",
+          "date": "2026-09-27",
+          "round": 12
+        },
+        {
+          "channelID": "nascar",
+          "channelName": "NASCAR Cup Series",
+          "headline": "Hollywood Casino 400",
+          "detail": "Kansas Speedway · Sun 27 Sep",
+          "body": "The NASCAR Cup Series visits Kansas Speedway for the Hollywood Casino 400 on Sun 27 Sep.",
+          "date": "2026-09-27",
+          "round": 30
+        },
+        {
+          "channelID": "nhra",
+          "channelName": "NHRA Drag Racing",
+          "headline": "Nationals at The Rock",
+          "detail": "Rockingham Dragway, North Carolina · Sun 27 Sep",
+          "body": "NHRA Drag Racing holds the Nationals at The Rock at Rockingham Dragway, North Carolina, on Sun 27 Sep.",
+          "date": "2026-09-27"
+        },
+        {
+          "channelID": "wec",
+          "channelName": "World Endurance Championship",
+          "headline": "6 Hours of Fuji",
+          "detail": "Fuji Speedway, Japan · Sun 27 Sep",
+          "body": "The World Endurance Championship's 6 Hours of Fuji takes place at Fuji Speedway, Japan, on Sun 27 Sep.",
+          "date": "2026-09-27",
+          "round": 7
+        }
+      ]
+    },
     {
       "id": "2026-09-23-preview",
       "kind": "preview",
@@ -197,43 +252,6 @@
           "headline": "Great Lakes Nationals",
           "detail": "U.S. 131 Motorsports Park, Michigan · Sun 20 Sep",
           "body": "The NHRA Drag Racing Great Lakes Nationals took place at U.S. 131 Motorsports Park in Michigan on Sun 20 Sep.",
-          "date": "2026-09-20"
-        }
-      ]
-    },
-    {
-      "id": "2026-09-20-preview",
-      "kind": "preview",
-      "title": "This weekend in motorsport",
-      "dateRange": "20–21 September",
-      "intro": "Looking ahead to 20–21 September, three rounds await in the IMSA SportsCar Championship, MotoGP and NHRA Drag Racing.",
-      "publishedAt": "2026-09-20T12:04:12Z",
-      "expiresAt": "2026-09-25T12:04:12Z",
-      "items": [
-        {
-          "channelID": "imsa",
-          "channelName": "IMSA SportsCar Championship",
-          "headline": "Battle on the Bricks",
-          "detail": "Indianapolis Motor Speedway · Sun 20 Sep",
-          "body": "The Battle on the Bricks takes place at Indianapolis Motor Speedway on Sun 20 Sep.",
-          "date": "2026-09-20",
-          "round": 10
-        },
-        {
-          "channelID": "motogp",
-          "channelName": "MotoGP",
-          "headline": "Grand Prix of Austria",
-          "detail": "Red Bull Ring - Spielberg, Austria · Sun 20 Sep",
-          "body": "The Grand Prix of Austria visits Red Bull Ring - Spielberg, Austria on Sun 20 Sep.",
-          "date": "2026-09-20",
-          "round": 15
-        },
-        {
-          "channelID": "nhra",
-          "channelName": "NHRA Drag Racing",
-          "headline": "Great Lakes Nationals",
-          "detail": "U.S. 131 Motorsports Park, Michigan · Sun 20 Sep",
-          "body": "NHRA Drag Racing heads to U.S. 131 Motorsports Park, Michigan for the Great Lakes Nationals on Sun 20 Sep.",
           "date": "2026-09-20"
         }
       ]
