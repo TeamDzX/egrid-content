@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-24T12:44:54Z",
+  "generatedAt": "2026-09-25T12:47:51Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,17 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "f0c6uu8eYIA",
+          "title": "Are Alex & Carlos Good at Chess? | Team Torque | S3 E9",
+          "publishedAt": "2026-09-25T10:29:59Z",
+          "duration": "27:26",
+          "seconds": 1646,
+          "thumbnail": "https://i.ytimg.com/vi/f0c6uu8eYIA/maxresdefault.jpg",
+          "source": "Atlassian Williams F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "lua5rOaTPEg",
           "title": "Which F1 Driver Is Better at Mini Golf?",
@@ -137,17 +148,6 @@
           "seconds": 1522,
           "thumbnail": "https://i.ytimg.com/vi/Bb1kKpYJFWg/maxresdefault.jpg",
           "source": "Red Bull Racing",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "WkzKrepqAaA",
-          "title": "Which F1 Driver Is Better at Karting?",
-          "publishedAt": "2026-09-12T13:00:00Z",
-          "duration": "18:32",
-          "seconds": 1112,
-          "thumbnail": "https://i.ytimg.com/vi/WkzKrepqAaA/maxresdefault.jpg",
-          "source": "Atlassian Williams F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -532,17 +532,6 @@
           "source": "FIA World Endurance Championship",
           "blockedRegions": [],
           "allowedRegions": []
-        },
-        {
-          "id": "BFiGXsQnE6c",
-          "title": "Extended Highlights | TotalEnergies 6 Hours of Spa 2026 | FIA WEC",
-          "publishedAt": "2026-05-11T16:00:22Z",
-          "duration": "59:50",
-          "seconds": 3590,
-          "thumbnail": "https://i.ytimg.com/vi/BFiGXsQnE6c/maxresdefault.jpg",
-          "source": "FIA World Endurance Championship",
-          "blockedRegions": [],
-          "allowedRegions": []
         }
       ]
     },
@@ -885,6 +874,17 @@
       "sourceURL": "https://www.youtube.com/channel/UCJcErqlzaBzFmAh2uIxeqxQ",
       "videos": [
         {
+          "id": "2ZT2qCk6_Qc",
+          "title": "Lucas Oil Drag Racing Series Highlights from the Dodge NHRA Great Lakes Nationals presented by MOPAR",
+          "publishedAt": "2026-09-24T15:52:54Z",
+          "duration": "2:43",
+          "seconds": 163,
+          "thumbnail": "https://i.ytimg.com/vi/2ZT2qCk6_Qc/maxresdefault.jpg",
+          "source": "NHRA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "w7mWHmqqdwg",
           "title": "Dodge NHRA Great Lakes Nationals presented by MOPAR Elimination Highlights",
           "publishedAt": "2026-09-22T15:57:48Z",
@@ -1001,17 +1001,6 @@
           "duration": "3:26",
           "seconds": 206,
           "thumbnail": "https://i.ytimg.com/vi/ICmznCGycs0/maxresdefault.jpg",
-          "source": "NHRA",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "Cwq-htXfycc",
-          "title": "DENSO NHRA Sonoma Nationals presented by PowerEdge Elimination Highlights",
-          "publishedAt": "2026-07-20T21:30:04Z",
-          "duration": "10:38",
-          "seconds": 638,
-          "thumbnail": "https://i.ytimg.com/vi/Cwq-htXfycc/maxresdefault.jpg",
           "source": "NHRA",
           "blockedRegions": [],
           "allowedRegions": []
