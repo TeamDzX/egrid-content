@@ -1,7 +1,62 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-24T12:36:08Z",
+  "generatedAt": "2026-09-25T12:37:13Z",
   "editions": [
+    {
+      "id": "2026-09-25-preview",
+      "kind": "preview",
+      "title": "This weekend in motorsport",
+      "dateRange": "25–28 September",
+      "intro": "There are five rounds to look forward to between 25 and 28 September, spanning Formula 1, Formula 2, NASCAR Cup Series, NHRA Drag Racing and the World Endurance Championship.",
+      "publishedAt": "2026-09-25T12:37:13Z",
+      "expiresAt": "2026-09-30T12:37:13Z",
+      "items": [
+        {
+          "channelID": "f1",
+          "channelName": "Formula 1",
+          "headline": "Azerbaijan Grand Prix",
+          "detail": "Baku City Circuit, Azerbaijan · Sat 26 Sep",
+          "body": "The Azerbaijan Grand Prix takes place at the Baku City Circuit, Azerbaijan on Sat 26 Sep at 11:00 UTC.",
+          "date": "2026-09-26",
+          "round": 15
+        },
+        {
+          "channelID": "f2",
+          "channelName": "Formula 2",
+          "headline": "Baku",
+          "detail": "Baku City Circuit, Azerbaijan · Sun 27 Sep",
+          "body": "Formula 2 visits the Baku City Circuit, Azerbaijan on Sun 27 Sep.",
+          "date": "2026-09-27",
+          "round": 12
+        },
+        {
+          "channelID": "nascar",
+          "channelName": "NASCAR Cup Series",
+          "headline": "Hollywood Casino 400",
+          "detail": "Kansas Speedway · Sun 27 Sep",
+          "body": "The NASCAR Cup Series heads to Kansas Speedway for the Hollywood Casino 400 on Sun 27 Sep.",
+          "date": "2026-09-27",
+          "round": 30
+        },
+        {
+          "channelID": "nhra",
+          "channelName": "NHRA Drag Racing",
+          "headline": "Nationals at The Rock",
+          "detail": "Rockingham Dragway, North Carolina · Sun 27 Sep",
+          "body": "NHRA Drag Racing arrives at Rockingham Dragway, North Carolina for the Nationals at The Rock on Sun 27 Sep.",
+          "date": "2026-09-27"
+        },
+        {
+          "channelID": "wec",
+          "channelName": "World Endurance Championship",
+          "headline": "6 Hours of Fuji",
+          "detail": "Fuji Speedway, Japan · Sun 27 Sep",
+          "body": "The 6 Hours of Fuji is set for Fuji Speedway, Japan on Sun 27 Sep.",
+          "date": "2026-09-27",
+          "round": 7
+        }
+      ]
+    },
     {
       "id": "2026-09-24-preview",
       "kind": "preview",
@@ -180,78 +235,6 @@
           "headline": "Great Lakes Nationals",
           "detail": "U.S. 131 Motorsports Park, Michigan · Sun 20 Sep",
           "body": "The Great Lakes Nationals for NHRA Drag Racing took place at U.S. 131 Motorsports Park in Michigan on Sunday.",
-          "date": "2026-09-20"
-        }
-      ]
-    },
-    {
-      "id": "2026-09-21-recap",
-      "kind": "recap",
-      "title": "Last week in motorsport",
-      "dateRange": "14–20 September",
-      "intro": "Five rounds across the Clio Cup Series, NASCAR Cup Series, IMSA SportsCar Championship, MotoGP and NHRA Drag Racing took place between 14 and 20 September.",
-      "publishedAt": "2026-09-21T13:42:16Z",
-      "expiresAt": "2026-09-25T13:42:16Z",
-      "items": [
-        {
-          "channelID": "cliocup",
-          "channelName": "Clio Cup Series",
-          "headline": "Spa-Francorchamps",
-          "detail": "Circuit de Spa-Francorchamps, Belgium · Sat 19 Sep",
-          "body": "Round 5 of the Clio Cup Series was held at Circuit de Spa-Francorchamps in Belgium on Sat 19 Sep.",
-          "date": "2026-09-19",
-          "round": 5
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "Bass Pro Shops Night Race",
-          "detail": "Bristol Motor Speedway · Sat 19 Sep",
-          "body": "The NASCAR Cup Series round 29, the Bass Pro Shops Night Race, took place at Bristol Motor Speedway on Sat 19 Sep.",
-          "date": "2026-09-19",
-          "round": 29
-        },
-        {
-          "channelID": "imsa",
-          "channelName": "IMSA SportsCar Championship",
-          "headline": "Battle on the Bricks",
-          "detail": "Indianapolis Motor Speedway · Sun 20 Sep",
-          "body": "Round 10 of the IMSA SportsCar Championship, the Battle on the Bricks, was held at Indianapolis Motor Speedway on Sun 20 Sep.",
-          "date": "2026-09-20",
-          "round": 10
-        },
-        {
-          "channelID": "motogp",
-          "channelName": "MotoGP",
-          "headline": "Grand Prix of Austria",
-          "detail": "Red Bull Ring - Spielberg, Austria · Sun 20 Sep",
-          "body": "Pedro Acosta of Red Bull KTM Factory Racing won the Grand Prix of Austria, ahead of Jorge Martin and Marco Bezzecchi for Aprilia Racing.",
-          "date": "2026-09-20",
-          "round": 15,
-          "podium": [
-            {
-              "position": 1,
-              "name": "Pedro Acosta",
-              "team": "Red Bull KTM Factory Racing"
-            },
-            {
-              "position": 2,
-              "name": "Jorge Martin",
-              "team": "Aprilia Racing"
-            },
-            {
-              "position": 3,
-              "name": "Marco Bezzecchi",
-              "team": "Aprilia Racing"
-            }
-          ]
-        },
-        {
-          "channelID": "nhra",
-          "channelName": "NHRA Drag Racing",
-          "headline": "Great Lakes Nationals",
-          "detail": "U.S. 131 Motorsports Park, Michigan · Sun 20 Sep",
-          "body": "The NHRA Drag Racing Great Lakes Nationals took place at U.S. 131 Motorsports Park in Michigan on Sun 20 Sep.",
           "date": "2026-09-20"
         }
       ]
