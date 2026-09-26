@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-25T12:47:51Z",
+  "generatedAt": "2026-09-26T12:15:35Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,17 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "w2N7ME50sjs",
+          "title": "The GABICO Challenge | Episode 2: What Is This?",
+          "publishedAt": "2026-09-26T09:41:23Z",
+          "duration": "6:46",
+          "seconds": 406,
+          "thumbnail": "https://i.ytimg.com/vi/w2N7ME50sjs/maxresdefault.jpg",
+          "source": "Audi Revolut F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "f0c6uu8eYIA",
           "title": "Are Alex & Carlos Good at Chess? | Team Torque | S3 E9",
@@ -412,17 +423,6 @@
           "seconds": 561,
           "thumbnail": "https://i.ytimg.com/vi/MtIZTFY0jgs/maxresdefault.jpg",
           "source": "Cadillac Formula 1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "9bau6_8tzhc",
-          "title": "Follow Ollie Bearman Ahead Of His Home Race",
-          "publishedAt": "2026-07-14T10:00:54Z",
-          "duration": "14:17",
-          "seconds": 857,
-          "thumbnail": "https://i.ytimg.com/vi/9bau6_8tzhc/maxresdefault.jpg",
-          "source": "TGR Haas F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -1014,6 +1014,17 @@
       "sourceURL": null,
       "videos": [
         {
+          "id": "hqVOglIhTF4",
+          "title": "Red Bull KTM MotoGP™ 2026 Factory Floor Episode 15 #AUSTRIANGP | KTM",
+          "publishedAt": "2026-09-25T16:55:14Z",
+          "duration": "13:27",
+          "seconds": 807,
+          "thumbnail": "https://i.ytimg.com/vi/hqVOglIhTF4/maxresdefault.jpg",
+          "source": "KTM",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "hvfv2EyFwGE",
           "title": "Marc Márquez and Pecco Bagnaia | No giving up at the #AustrianGP",
           "publishedAt": "2026-09-23T10:15:28Z",
@@ -1284,17 +1295,6 @@
           "duration": "11:36",
           "seconds": 696,
           "thumbnail": "https://i.ytimg.com/vi/yDjHxYENh_M/maxresdefault.jpg",
-          "source": "KTM",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "1dGSgMkUjWI",
-          "title": "Red Bull KTM MotoGP™ 2026 Factory Floor Episode 3 #USGP | KTM",
-          "publishedAt": "2026-04-16T16:55:01Z",
-          "duration": "9:28",
-          "seconds": 568,
-          "thumbnail": "https://i.ytimg.com/vi/1dGSgMkUjWI/maxresdefault.jpg",
           "source": "KTM",
           "blockedRegions": [],
           "allowedRegions": []
@@ -2476,6 +2476,17 @@
       "name": "Noah Gragson",
       "videos": [
         {
+          "id": "9drl3mboz0g",
+          "title": "My Red Rocks Debut with Cole Swindell",
+          "publishedAt": "2026-09-25T21:14:11Z",
+          "duration": "19:58",
+          "seconds": 1198,
+          "thumbnail": "https://i.ytimg.com/vi/9drl3mboz0g/maxresdefault.jpg",
+          "source": "Noah Gragson",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "uKRKbm180XY",
           "title": "Daytona with Danny Green",
           "publishedAt": "2026-09-04T21:37:33Z",
@@ -2526,17 +2537,6 @@
           "duration": "7:48",
           "seconds": 468,
           "thumbnail": "https://i.ytimg.com/vi/qAnz2cA6oew/maxresdefault.jpg",
-          "source": "Noah Gragson",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "Rju9fj77GIY",
-          "title": "Wild Week out on the West Coast!",
-          "publishedAt": "2026-03-25T21:43:29Z",
-          "duration": "11:20",
-          "seconds": 680,
-          "thumbnail": "https://i.ytimg.com/vi/Rju9fj77GIY/maxresdefault.jpg",
           "source": "Noah Gragson",
           "blockedRegions": [],
           "allowedRegions": []
