@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-26T12:15:35Z",
+  "generatedAt": "2026-09-27T13:04:15Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,28 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "hV1Wv0cUL2A",
+          "title": "Can Arvid Lindblad Get Them All? | Top 10s",
+          "publishedAt": "2026-09-27T12:00:02Z",
+          "duration": "11:01",
+          "seconds": 661,
+          "thumbnail": "https://i.ytimg.com/vi/hV1Wv0cUL2A/maxresdefault.jpg",
+          "source": "Visa Cash App RB F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "uNrCzhnjf2w",
+          "title": "Talking Bull Reacts To A DOUBLE PODIUM IN BAKU!!!",
+          "publishedAt": "2026-09-27T10:00:13Z",
+          "duration": "23:04",
+          "seconds": 1384,
+          "thumbnail": "https://i.ytimg.com/vi/uNrCzhnjf2w/maxresdefault.jpg",
+          "source": "Red Bull Racing",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "w2N7ME50sjs",
           "title": "The GABICO Challenge | Episode 2: What Is This?",
@@ -405,28 +427,6 @@
           "allowedRegions": []
         },
         {
-          "id": "-59xVmUn1YI",
-          "title": "AMR Network: Portraits | Cognition",
-          "publishedAt": "2026-07-14T14:17:27Z",
-          "duration": "5:49",
-          "seconds": 349,
-          "thumbnail": "https://i.ytimg.com/vi/-59xVmUn1YI/maxresdefault.jpg",
-          "source": "Aston Martin Aramco F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "MtIZTFY0jgs",
-          "title": "Race Simulator: Inside the Driver's Seat | Cadillac Formula 1® Team",
-          "publishedAt": "2026-07-14T13:25:01Z",
-          "duration": "9:21",
-          "seconds": 561,
-          "thumbnail": "https://i.ytimg.com/vi/MtIZTFY0jgs/maxresdefault.jpg",
-          "source": "Cadillac Formula 1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "4aFCIR7Qajc",
           "title": "We Spent the Day with Franco Colapinto at an F1 Filming Day | Powered by Eni",
           "publishedAt": "2026-05-17T11:30:39Z",
@@ -456,6 +456,17 @@
       "source": "FIA World Endurance Championship",
       "sourceURL": "https://www.youtube.com/channel/UCwU7U7PiarcJKLjDJTnANjw",
       "videos": [
+        {
+          "id": "WZI85_WcIJI",
+          "title": "The Final Laps of a DRAMATIC Race | 6 Hours of Fuji 2026 | FIA WEC",
+          "publishedAt": "2026-09-27T08:10:06Z",
+          "duration": "8:23",
+          "seconds": 503,
+          "thumbnail": "https://i.ytimg.com/vi/WZI85_WcIJI/maxresdefault.jpg",
+          "source": "FIA World Endurance Championship",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "WxZo8KzXyXs",
           "title": "Race Highlights | 6 Hours of COTA 2026 | FIA WEC",
