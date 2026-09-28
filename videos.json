@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-27T13:04:15Z",
+  "generatedAt": "2026-09-28T15:31:22Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,17 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "osrB6hfGj5A",
+          "title": "The Unofficial Komatsu Training You Didn’t Know You Needed",
+          "publishedAt": "2026-09-28T08:59:59Z",
+          "duration": "6:10",
+          "seconds": 370,
+          "thumbnail": "https://i.ytimg.com/vi/osrB6hfGj5A/maxresdefault.jpg",
+          "source": "Atlassian Williams F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "hV1Wv0cUL2A",
           "title": "Can Arvid Lindblad Get Them All? | Top 10s",
@@ -416,17 +427,6 @@
           "allowedRegions": []
         },
         {
-          "id": "LNP6lgxiTTg",
-          "title": "Why Spa is Unlike Any Other Circuit in F1",
-          "publishedAt": "2026-07-16T14:00:31Z",
-          "duration": "6:01",
-          "seconds": 361,
-          "thumbnail": "https://i.ytimg.com/vi/LNP6lgxiTTg/maxresdefault.jpg",
-          "source": "FIA",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "4aFCIR7Qajc",
           "title": "We Spent the Day with Franco Colapinto at an F1 Filming Day | Powered by Eni",
           "publishedAt": "2026-05-17T11:30:39Z",
@@ -456,6 +456,17 @@
       "source": "FIA World Endurance Championship",
       "sourceURL": "https://www.youtube.com/channel/UCwU7U7PiarcJKLjDJTnANjw",
       "videos": [
+        {
+          "id": "7UQZagV0TVk",
+          "title": "Race Highlights | 6 Hours of Fuji 2026 | FIA WEC",
+          "publishedAt": "2026-09-28T12:00:23Z",
+          "duration": "14:12",
+          "seconds": 852,
+          "thumbnail": "https://i.ytimg.com/vi/7UQZagV0TVk/maxresdefault.jpg",
+          "source": "FIA World Endurance Championship",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "WZI85_WcIJI",
           "title": "The Final Laps of a DRAMATIC Race | 6 Hours of Fuji 2026 | FIA WEC",
@@ -693,6 +704,17 @@
       "sourceURL": "https://www.youtube.com/channel/UCuN9hYw2RpoAW8rZ3VK3isA",
       "videos": [
         {
+          "id": "c07cPE-xUxk",
+          "title": "NASCAR Cup Series Highlights | 2026 Kansas Speedway",
+          "publishedAt": "2026-09-27T22:31:02Z",
+          "duration": "22:40",
+          "seconds": 1360,
+          "thumbnail": "https://i.ytimg.com/vi/c07cPE-xUxk/maxresdefault.jpg",
+          "source": "NASCAR",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "1iatULgMcRU",
           "title": "NASCAR Cup Series Highlights | 2026 Bristol Motor Speedway",
           "publishedAt": "2026-09-20T03:23:44Z",
@@ -790,17 +812,6 @@
           "source": "NASCAR",
           "blockedRegions": [],
           "allowedRegions": []
-        },
-        {
-          "id": "ZWIT-nf0n9A",
-          "title": "NASCAR Cup Series Highlights | 2026 EchoPark Speedway",
-          "publishedAt": "2026-07-13T06:14:46Z",
-          "duration": "32:25",
-          "seconds": 1945,
-          "thumbnail": "https://i.ytimg.com/vi/ZWIT-nf0n9A/maxresdefault.jpg",
-          "source": "NASCAR",
-          "blockedRegions": [],
-          "allowedRegions": []
         }
       ]
     },
@@ -884,6 +895,17 @@
       "source": "NHRA",
       "sourceURL": "https://www.youtube.com/channel/UCJcErqlzaBzFmAh2uIxeqxQ",
       "videos": [
+        {
+          "id": "jYN5hD2sQYk",
+          "title": "NHRA Nationals at The Rock Elimination Highlights",
+          "publishedAt": "2026-09-28T14:56:22Z",
+          "duration": "10:54",
+          "seconds": 654,
+          "thumbnail": "https://i.ytimg.com/vi/jYN5hD2sQYk/maxresdefault.jpg",
+          "source": "NHRA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "2ZT2qCk6_Qc",
           "title": "Lucas Oil Drag Racing Series Highlights from the Dodge NHRA Great Lakes Nationals presented by MOPAR",
@@ -1001,17 +1023,6 @@
           "duration": "8:28",
           "seconds": 508,
           "thumbnail": "https://i.ytimg.com/vi/EvAWQ2BVcFY/maxresdefault.jpg",
-          "source": "NHRA",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "ICmznCGycs0",
-          "title": "Mission #2Fast2Tasty Highlights from the #NorthwestNats",
-          "publishedAt": "2026-07-26T02:15:59Z",
-          "duration": "3:26",
-          "seconds": 206,
-          "thumbnail": "https://i.ytimg.com/vi/ICmznCGycs0/maxresdefault.jpg",
           "source": "NHRA",
           "blockedRegions": [],
           "allowedRegions": []
@@ -1768,7 +1779,7 @@
       "videos": [
         {
           "id": "6CBaAnAYO5I",
-          "title": "One very special week in Madrid 🇪🇸 I | DONTBLINK EP3 SEASON 7 by Carlos Sainz",
+          "title": "A Race Week like no other 🇪🇸  | DONTBLINK EP3 SEASON 7 by Carlos Sainz",
           "publishedAt": "2026-09-23T19:49:53Z",
           "duration": "13:02",
           "seconds": 782,
