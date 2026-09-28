@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-09-27T13:16:26Z",
+ "generatedAt": "2026-09-28T15:53:51Z",
  "teams": [
   {
    "id": "f1-mercedes",
@@ -29,11 +29,11 @@
     ]
    },
    "review": {
-    "summary": "Leading the championship with 538 points and 11 wins, Mercedes has been highly successful. Antonelli currently holds first place in the standings, ahead of his teammate Russell.",
-    "lastRace": "Russell won from pole position, earning 25 points. Antonelli finished fifth after starting sixteenth to take 10 points.",
+    "summary": "Leading the championship with 538 points from 15 rounds, including 11 wins and 20 podiums. Andrea Kimi Antonelli sits top of the standings with 302 points, ahead of George Russell who has 236 points.",
+    "lastRace": "George Russell won from pole position, earning 25 points. Andrea Kimi Antonelli finished fifth after starting sixteenth to take 10 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Azerbaijan Grand Prix",
     "round": 15,
@@ -83,11 +83,11 @@
     ]
    },
    "review": {
-    "summary": "Second in the championship with 378 points and two wins, Ferrari remains a strong contender. Hamilton leads the team ahead of Leclerc.",
-    "lastRace": "Leclerc finished fourth from second on the grid, while Hamilton moved to sixth after starting sixth.",
+    "summary": "Currently second in the standings with 378 points and two wins from 15 rounds. Lewis Hamilton holds third place with 199 points, while Charles Leclerc is fifth with 179 points.",
+    "lastRace": "Charles Leclerc finished fourth from second on the grid, taking 12 points. Lewis Hamilton finished sixth after starting sixth to earn 8 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Azerbaijan Grand Prix",
     "round": 15,
@@ -137,11 +137,11 @@
     ]
    },
    "review": {
-    "summary": "Third place with 306 points and two wins. Norris leads the team in the standings ahead of Piastri.",
-    "lastRace": "Piastri finished thirteenth from third on the grid, while Norris retired after starting fifth.",
+    "summary": "Third in the championship with 306 points and two wins from 15 rounds. Lando Norris holds fourth place with 186 points, while Oscar Piastri is seventh with 120 points.",
+    "lastRace": "Oscar Piastri finished thirteenth from third on the grid with no points. Lando Norris retired after starting fifth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Azerbaijan Grand Prix",
     "round": 15,
@@ -196,11 +196,11 @@
     ]
    },
    "review": {
-    "summary": "Fourth in the championship with 263 points and nine podiums. Verstappen leads the team ahead of Hadjar and Lawson.",
-    "lastRace": "Verstappen finished second after starting eighth, while Hadjar secured third from fourth on the grid.",
+    "summary": "Fourth in the standings with 263 points and nine podiums from 15 rounds. Max Verstappen is sixth with 163 points, followed by Isack Hadjar in eighth with 86 points and Liam Lawson in ninth with 59 points.",
+    "lastRace": "Max Verstappen finished second from eighth on the grid, earning 18 points. Isack Hadjar finished third from fourth on the grid to take 15 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Azerbaijan Grand Prix",
     "round": 15,
@@ -250,11 +250,11 @@
     ]
    },
    "review": {
-    "summary": "Fifth in the standings with 83 points and no wins or podiums. Lindblad holds a higher position than Tsunoda.",
-    "lastRace": "Lindblad finished seventh after starting fifteenth, while Lawson completed the race in twelfth from eleventh.",
+    "summary": "Fifth place with 83 points from 15 rounds. Arvid Lindblad sits eleventh with 37 points, while Yuki Tsunoda is twentieth with one point.",
+    "lastRace": "Arvid Lindblad finished seventh from fifteenth on the grid, scoring 6 points. Liam Lawson finished twelfth from eleventh with no points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Azerbaijan Grand Prix",
     "round": 15,
@@ -304,11 +304,11 @@
     ]
    },
    "review": {
-    "summary": "Sixth place with 68 points and no wins or podiums. Gasly is currently ahead of Colapinto.",
-    "lastRace": "Both Colapinto and Gasly failed to finish the race after starting ninth and seventh respectively.",
+    "summary": "Sixth in the championship with 68 points from 15 rounds. Pierre Gasly holds tenth place with 41 points, ahead of Franco Colapinto in twelfth with 27 points.",
+    "lastRace": "Franco Colapinto retired after starting ninth. Pierre Gasly retired after starting seventh.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Azerbaijan Grand Prix",
     "round": 15,
@@ -358,11 +358,11 @@
     ]
    },
    "review": {
-    "summary": "Seventh in the championship with 27 points and no wins or podiums. Bearman is ahead of Ocon in the standings.",
-    "lastRace": "Ocon finished eighth from thirteenth, while Bearman completed the race in ninth from tenth.",
+    "summary": "Seventh in the standings with 27 points from 15 rounds. Oliver Bearman is thirteenth with 20 points, while Esteban Ocon is sixteenth with seven points.",
+    "lastRace": "Esteban Ocon finished eighth from thirteenth on the grid to earn 4 points. Oliver Bearman finished ninth from tenth on the grid to take 2 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Azerbaijan Grand Prix",
     "round": 15,
@@ -412,11 +412,11 @@
     ]
    },
    "review": {
-    "summary": "Eighth place with 17 points and no wins or podiums. Bortoleto leads Hülkenberg in the standings.",
-    "lastRace": "Hülkenberg finished eleventh after starting eighteenth, while Bortoleto moved to fifteenth from seventeenth.",
+    "summary": "Eighth place with 17 points from 15 rounds. Gabriel Bortoleto sits fourteenth with 10 points, and Nico Hülkenberg is fifteenth with seven points.",
+    "lastRace": "Nico Hülkenberg finished eleventh from eighteenth on the grid with no points. Gabriel Bortoleto finished fifteenth from seventeenth on the grid with no points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Azerbaijan Grand Prix",
     "round": 15,
@@ -466,11 +466,11 @@
     ]
    },
    "review": {
-    "summary": "Ninth place with 12 points and no wins or podiums. Sainz is ahead of Albon in the standings.",
-    "lastRace": "Saints finished tenth from fourteenth, while Albon retired after starting twelfth.",
+    "summary": "Ninth in the championship with 12 points from 15 rounds. Carlos Sainz holds seventeenth place with seven points, while Alexander Albon is eighteenth with five points.",
+    "lastRace": "Carlos Sainly finished tenth from fourteenth on the grid, earning 1 point. Alexander Albon retired after starting twelfth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Azerbaijan Grand Prix",
     "round": 15,
@@ -520,11 +520,11 @@
     ]
    },
    "review": {
-    "summary": "Tenth place with 3 points and no wins or podiums. Alonso leads Stroll in the standings.",
-    "lastRace": "Both Alonso and Stroll failed to finish after starting twenty-first and twenty-second.",
+    "summary": "Tenth in the standings with three points from 15 rounds. Fernando Alonso is nineteenth with three points, and Lance Stroll is twenty-first with zero points.",
+    "lastRace": "Fernando Alonso retired after starting twenty-first. Lance Stroll retired after starting twenty-second.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Azerbaijan Grand Prix",
     "round": 15,
@@ -574,11 +574,11 @@
     ]
    },
    "review": {
-    "summary": "Eleventh place with zero points, wins, or podiums. Pérez is ahead of Bottas in the standings.",
-    "lastRace": "Pérez finished fourteenth from twentieth, while Bottas retired after starting nineteenth.",
+    "summary": "Eleventh in the championship with no points from 15 rounds. Sergio Pérez is twenty-third with zero points, while Valtteri Bottas is twenty-second with zero points.",
+    "lastRace": "Sergio Pérez finished fourteenth from twentieth on the grid with no points. Valtteri Bottas retired after starting nineteenth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Azerbaijan Grand Prix",
     "round": 15,
@@ -643,11 +643,11 @@
     ]
    },
    "review": {
-    "summary": "Aprilia currently lead the championship after fifteen rounds, boasting seven wins and twenty-six podiums. The team shows strong depth, with Jorge Martin leading the riders in the standings, followed closely by Marco Bezzecchi, Ai Ogura, and Raul Fernandez.",
-    "lastRace": "In Austria, Jorge Martin finished second, while Marco Bezzecchi took third. Ai Ogura completed the top four with a fourth-place finish, and Raul Fernandez ended the race in twelfth.",
+    "summary": "Leading the championship after fifteen rounds with seven wins and twenty-six podiums, Aprilia remains the team to beat. Jorge Martin sits top of the standings, followed by Marco Bezzecchi in third, while Ai Ogura and Raul Fernandez also feature prominently in the top seven.",
+    "lastRace": "Jorge Martin finished second, with Marco Bezzecchi taking third. Ai Ogura secured fourth, while Raul Fernandez finished twelfth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Grand Prix of Austria",
     "round": 15,
@@ -741,11 +741,11 @@
     ]
    },
    "review": {
-    "summary": "Ducati sit second in the standings with six wins and twelve podiums from fifteen rounds. Their rider lineup features Marc Marquez in second place, followed by Fabio Di Giannantonio, Alex Marquez, Francesco Bagnaia, and Fermin Aldeguer.",
-    "lastRace": "Marc Marquez finished fifth, with Francesco Bagnaia in seventh and Fermin Aldeguer in eighth. Fabio Di Giannantonio took ninth, while Franco Morbidelli finished eighteenth. Alex Marquez did not finish the race.",
+    "summary": "Ducati holds second place in the standings with six wins and twelve podiums from fifteen rounds. Marc Marquez leads their group of riders in second place, ahead of Fabio Di Giannantonio, Alex Marquez, Francesco Bagnaia, Fermin Aldeguer, and Franco Morbidelli.",
+    "lastRace": "Marc Marquez claimed fifth, followed by Francesco Bagnaia in seventh and Fermin Aldeguer in eighth. Fabio Di Giannantonio finished ninth, while Franco Morbidelli was eighteenth and Alex Marquez did not finish.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Grand Prix of Austria",
     "round": 15,
@@ -843,11 +843,11 @@
     ]
    },
    "review": {
-    "summary": "KTM hold third place in the championship after fifteen rounds, with two wins and seven podiums. Pedro Acosta leads the team's results, followed by Enea Bastianini, Brad Binder, Maverick Viñales, Pol Espargaro, and Jonas Folger.",
-    "lastRace": "Pedro Acosta won the race, while Brad Binder finished sixth. Enea Bastianini took eleventh and Pol Espargaro ended in sixteenth.",
+    "summary": "KTM is currently third in the championship with two wins and seven podiums after fifteen rounds. Pedro Acosta is the highest-placed rider in fourth, followed by Enea Bastianini and Brad Binder further down the standings.",
+    "lastRace": "Pedro Acosta won the race, with Brad Binder finishing sixth. Enea Bastianini took eleventh, while Pol Espargaro finished sixteenth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Grand Prix of Austria",
     "round": 15,
@@ -931,11 +931,11 @@
     ]
    },
    "review": {
-    "summary": "Honda sit fourth in the championship after fifteen rounds without any wins or podiums. Luca Marini leads the team's scoring, followed by Diogo Moreira, Johann Zarco, Joan Mir, and Takaaki Nakagami.",
-    "lastRace": "Johann Zarco finished tenth, with Takaaki Nakagami in thirteenth and Luca Marini in fourteenth. Diogo Moreira completed the points with a fifteenth-place finish.",
+    "summary": "Honda sits in fourth position after fifteen rounds without any wins or podium finishes. Luca Marini leads the team's points tally, followed by Diogo Moreira and Johann Zarco.",
+    "lastRace": "Johann Zarco finished tenth, followed by Takaaki Nakagami in thirteenth and Luca Marini in fourteenth. Diogo Moreira completed the group in fifteenth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Grand Prix of Austria",
     "round": 15,
@@ -1014,11 +1014,11 @@
     ]
    },
    "review": {
-    "summary": "Yamaha are fifth in the standings after fifteen rounds, having recorded no wins or podiums so far. Fabio Quartararo leads the scoring for the team, followed by Jack Miller, Alex Rins, Toprak Razgatlioglu, and Augusto Fernandez.",
-    "lastRace": "Fabio Quartararo finished seventeenth, with Alex Rins in nineteenth and Toprak Razgatlioglu in twentieth. Jack Miller ended the race in twenty-first.",
+    "summary": "Yamaha is positioned fifth in the championship after fifteen rounds without any wins or podium finishes. Fabio Quartararo is the highest-placed rider for the team, ahead of Jack Miller and Alex Rins.",
+    "lastRace": "Fabio Quartararo finished seventeenth, with Alex Rins in nineteenth and Toprak Razgatlioglu in twentieth. Jack Miller was twenty-first.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Grand Prix of Austria",
     "round": 15,
@@ -1072,10 +1072,10 @@
     "podiums": 12
    },
    "review": {
-    "summary": "Leading the championship with 302 points, eight wins, and 12 podiums from 15 rounds. He moved from 16th to fifth in Azerbaijan to take 10 points. He currently holds a points advantage over teammate George Russell.",
+    "summary": "Leading the championship with 302 points, 8 wins, and 12 podiums from 15 rounds. He finished fifth in the Azerbaijan Grand Prix after starting sixteenth. He currently holds a points advantage over teammate George Russell.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Azerbaijan Grand Prix",
     "position": 5,
@@ -1100,10 +1100,10 @@
     "podiums": 8
    },
    "review": {
-    "summary": "Second in the standings with 3 wins and 8 podiums from 15 rounds. He won the Azerbaijan Grand Prix after starting on pole. He trails teammate Andrea Kimi Antonelli.",
+    "summary": "Second in the standings with 236 points, 3 wins, and 8 podiums from 15 rounds. He won the Azerbaijan Grand Prix from pole position, outperforming teammate Andrea Kimi Antonelli.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Azerbaijan Grand Prix",
     "position": 1,
@@ -1128,10 +1128,10 @@
     "podiums": 5
    },
    "review": {
-    "summary": "Third in the championship with 199 points, one win, and five podiums across 15 rounds. He finished sixth in Azerbaijan after starting sixth on the grid. He leads teammate Charles Leclerc.",
+    "summary": "Third in the championship with 199 points, 1 win, and 5 podiums from 15 rounds. He finished sixth in his last race at the Azerbaijan Grand Prix after starting sixth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Azerbaijan Grand Prix",
     "position": 6,
@@ -1156,10 +1156,10 @@
     "podiums": 4
    },
    "review": {
-    "summary": "Fifth in the standings with 179 points, one win, and four podiums from 15 rounds. He finished fourth in Azerbaijan after starting second. He trails teammate Lewis Hamilton.",
+    "summary": "Fifth in the standings with 179 points, including 1 win and 4 podiums from 15 rounds. He finished fourth in the Azerbaijan Grand Prix after starting second.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Azerbaijan Grand Prix",
     "position": 4,
@@ -1184,10 +1184,10 @@
     "podiums": 5
    },
    "review": {
-    "summary": "Fourth in the championship with 186 points, two wins, and five podiums from 15 rounds. His Azerbaijan race ended in retirement after starting fifth on the grid. He leads teammate Oscar Piastri.",
+    "summary": "Fourth in the championship with 186 points, 2 wins, and 5 podiums from 15 rounds. He retired from the Azerbaijan Grand Prix after starting fifth, ahead of teammate Oscar Piastri.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Azerbaijan Grand Prix",
     "position": null,
@@ -1212,10 +1212,10 @@
     "podiums": 2
    },
    "review": {
-    "summary": "Seventh in the standings with 120 points and two podiums from 15 rounds. He finished thirteenth in Azerbaijan after starting third. He trails teammate Lando Norris.",
+    "summary": "Seventh in the standings with 120 points and 2 podiums from 15 rounds. He finished thirteenth in the Azerbaijan Grand Prix after starting third.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Azerbaijan Grand Prix",
     "position": 13,
@@ -1240,10 +1240,10 @@
     "podiums": 7
    },
    "review": {
-    "summary": "Sixth in the championship with 163 points and seven podiums from 15 rounds. He climbed from eighth to second in the Azerbaijan Grand Prix. He leads teammate Isack Hadjar.",
+    "summary": "Sixth in the championship with 163 points and 7 podiums from 15 rounds. He finished second at the Azerbaijan Grand Prix after starting eighth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Azerbaijan Grand Prix",
     "position": 2,
@@ -1268,10 +1268,10 @@
     "podiums": 2
    },
    "review": {
-    "summary": "Eighth in the standings with 86 points and two podiums from 15 rounds. He finished third in Azerbaijan after starting fourth. He trails teammate Max Verstappen.",
+    "summary": "Eighth in the standings with 86 points and 2 podiums from 15 rounds. He finished third in his last race at the Azerbaijan Grand Prix after starting fourth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Azerbaijan Grand Prix",
     "position": 3,
@@ -1296,10 +1296,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Liam Lawson is 9th in the standings with 59 points from 15 rounds and no wins or podiums.",
+    "summary": "Ninth in the standings with 59 points from 15 rounds and no wins or podiums.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z"
+   "publishedAt": "2026-09-28T15:53:51Z"
   },
   {
    "channelID": "f1",
@@ -1316,10 +1316,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Arvid Lindblad is 11th with 37 points from 15 rounds. He finished 7th at the Azerbaijan Grand Prix after starting 15th to earn 6 points, sitting ahead of teammate Yuki Tsunoda.",
+    "summary": "Eleventh in the championship with 37 points after 15 rounds. He finished seventh at the Azerbaijan Grand Prix after starting fifteenth to gain six points, placing him ahead of teammate Yuki Tsunoda.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Azerbaijan Grand Prix",
     "position": 7,
@@ -1344,10 +1344,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Yuki Tsunoda is 20th in the championship with 1 point from 15 rounds and no wins or podiums, trailing teammate Arvid Lindblad.",
+    "summary": "Twentieth in the standings with one point from 15 rounds and no wins or podiums.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z"
+   "publishedAt": "2026-09-28T15:53:51Z"
   },
   {
    "channelID": "f1",
@@ -1364,10 +1364,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Pierre Gasly is 10th with 41 points after 15 rounds. He retired from the Azerbaijan Grand Prix after starting 7th on the grid, leading teammate Franco Colapinto.",
+    "summary": "Tenth in the championship with 41 points after 15 rounds. He retired from seventh on the grid at the Azerbaijan Grand Prix, currently ahead of teammate Franco Colapinto.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Azerbaijan Grand Prix",
     "position": null,
@@ -1392,10 +1392,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Franco Colapinto is 12th with 27 points from 15 rounds. He retired from the Azerbaijan Grand Prix after starting 9th on the grid, trailing teammate Pierre Gasly.",
+    "summary": "Twelfth in the championship with 27 points after 15 rounds. He retired from ninth on the grid during the Azerbaijan Grand Prix.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Azerbaijan Grand Prix",
     "position": null,
@@ -1420,10 +1420,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Oliver Bearman is 13th in the standings with 20 points from 15 rounds. He finished 9th at the Azerbaijan Grand Prix after starting 10th to take 2 points, ahead of teammate Esteban Ocon.",
+    "summary": "Thirteenth in the championship with 20 points after 15 rounds. He finished ninth at the Azerbaijan Grand Prix, starting tenth to earn two points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Azerbaijan Grand Prix",
     "position": 9,
@@ -1448,10 +1448,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Esteban Ocon is 16th with 7 points from 15 rounds. He finished 8th in the Azerbaijan Grand Prix after starting 13th to earn 4 points, trailing teammate Oliver Bearman.",
+    "summary": "Sixteenth in the standings with seven points after 15 rounds. He finished eighth at the Azerbaijan Grand Prix after starting thirteenth to collect four points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Azerbaijan Grand Prix",
     "position": 8,
@@ -1476,10 +1476,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Gabriel Bortoleto is 14th with 10 points from 15 rounds and no wins or podiums. He finished 15th at the Azerbaijan Grand Prix after starting 17th.",
+    "summary": "Fourteenth in the championship with 10 points from 15 rounds. He finished fifteenth at the Azerbaijan Grand Prix after starting seventeenth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Azerbaijan Grand Prix",
     "position": 15,
@@ -1504,10 +1504,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Nico Hülkenberg is 15th in the standings with 7 points from 15 rounds. He finished 11th after starting 18th at the Azerbaijan Grand Prix.",
+    "summary": "Sitting 15th in the championship with seven points from fifteen rounds, Hülkenberg has no wins or podiums this season. He finished 11th in the Azerbaijan Grand Prix after starting 18th.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Azerbaijan Grand Prix",
     "position": 11,
@@ -1532,10 +1532,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Carlos Sainz sits 17th with 7 points from 15 rounds, ahead of teammate Alexander Albon. He finished 10th in the Azerbaijan Grand Prix after starting 14th.",
+    "summary": "Currently 17th with seven points from fifteen rounds, Sainz has not secured a win or podium. He finished 10th in the Azerbaijan Grand Prix after starting 14th, ahead of teammate Alexander Albon who is 18th.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Azerbaijan Grand Prix",
     "position": 10,
@@ -1560,10 +1560,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Alexander Albon is 18th in the championship with 5 points from 15 rounds, trailing teammate Carlos Sainz. He retired from the Azerbaijan Grand Prix after starting 12th.",
+    "summary": "Albon is 18th in the standings with five points from fifteen rounds. In his last race at the Azerbaijan Grand Prix, he retired after starting 12th on the grid.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Azerbaijan Grand Prix",
     "position": null,
@@ -1588,10 +1588,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Fernando Alonso is 19th with 3 points from 15 rounds, ahead of teammate Lance Stroll. He retired from the Azerbaijan Grand Prix after starting 21st.",
+    "summary": "With three points from fifteen rounds, Alonso sits 19th in the championship. He retired from the Azerbaijan Grand Prix after starting 21st, ahead of teammate Lance Stroll who is 21st.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Azerbaijan Grand Prix",
     "position": null,
@@ -1616,10 +1616,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Lance Stroll is 21st in the standings with no points from 15 rounds. He retired from the Azerbaijan Grand Prix after starting 22nd.",
+    "summary": "Stroll is 21st in the standings with no points from fifteen rounds. He failed to finish the Azerbaijan Grand Prix after starting 22nd, behind teammate Fernando Alonso who is 19th.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Azerbaijan Grand Prix",
     "position": null,
@@ -1644,10 +1644,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Valtteri Bottas is 22nd with zero points from 15 rounds. He finished 16th after starting 19th in the Azerbaijan Grand Prix, though his status was retired.",
+    "summary": "Currently 22nd with zero points from fifteen rounds, Bottas has not achieved a podium this season. He retired from the Azerbaijan Grand Prix after starting 19th.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Azerbaijan Grand Prix",
     "position": 16,
@@ -1672,10 +1672,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Sergio Pérez is 23rd with no points from 15 rounds. He finished 14th at the Azerbaijan Grand Prix after starting 20th.",
+    "summary": "Pérez is 23rd in the championship with no points from fifteen rounds. He finished 14th in the Azerbaijan Grand Prix after starting 20th, behind teammate Valtteri Bottas who is 22nd.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Azerbaijan Grand Prix",
     "position": 14,
@@ -1700,10 +1700,10 @@
     "podiums": 8
    },
    "review": {
-    "summary": "Martin leads the championship with 306 points from 15 rounds, including one win and eight podiums. He finished second at the Grand Prix of Austria to earn 20 points.",
+    "summary": "Leading the championship with 306 points from 15 rounds, including one win and eight podiums. He finished second in the Grand Prix of Austria to take 20 points, ahead of teammate Marco Bezzecchi.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Grand Prix of Austria",
     "position": 2,
@@ -1728,10 +1728,10 @@
     "podiums": 9
    },
    "review": {
-    "summary": "Bezzecchi is third in the standings with 264 points, four wins and nine podiums from 15 rounds. He secured third place at the Grand Prix of Austria.",
+    "summary": "Sitting third with 264 points, he has secured four wins and nine podiums this season. His last race was a third-place finish in the Grandly Prix of Austria, earning 16 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Grand Prix of Austria",
     "position": 3,
@@ -1756,10 +1756,10 @@
     "podiums": 4
    },
    "review": {
-    "summary": "Ogura holds sixth place with 222 points from 15 rounds, including one win and four podiums. His last race was fourth at the Grand Prix of Austria.",
+    "summary": "Currently sixth in the championship with 222 points from 15 rounds, including one win and four podiums. He finished fourth in the Grand Prix of Austria to take 13 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Grand Prix of Austria",
     "position": 4,
@@ -1784,10 +1784,10 @@
     "podiums": 5
    },
    "review": {
-    "summary": "Fernandez is seventh with 203 points from 15 rounds, having achieved one win and five podiums. He finished twelfth at the Grand Prix of Austria.",
+    "summary": "Holding seventh place with 203 points, he has achieved one win and five podiums so far. He finished twelfth in the Grand Prix of Austria, earning 4 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Grand Prix of Austria",
     "position": 12,
@@ -1812,10 +1812,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Savadori sits twenty-ninth in the standings with zero points from 15 rounds and no wins or podiums.",
+    "summary": "Sitting twenty-ninth in the standings with no points or podiums from fifteen rounds.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z"
+   "publishedAt": "2026-09-28T15:53:51Z"
   },
   {
    "channelID": "motogp",
@@ -1832,10 +1832,10 @@
     "podiums": 5
    },
    "review": {
-    "summary": "Marquez is second in the championship with 294 points, five wins and five podiums from 15 rounds. He finished fifth at the Grand Prix of Austria.",
+    "summary": "Currently second in the championship with 294 points, including five wins and five podiums. He finished fifth in the Grand Prix of Austria to take 11 points, ahead of teammate Fabio Di Giannantonio.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Grand Prix of Austria",
     "position": 5,
@@ -1860,10 +1860,10 @@
     "podiums": 2
    },
    "review": {
-    "summary": "Di Giannantonio holds fifth place with 230 points from 15 rounds and two podiums. He finished ninth at the Grand Prix of Austria.",
+    "summary": "Sitting fifth with 230 points from 15 rounds, he has two podiums to his name. He finished ninth in the Grand Prix of Austria, earning 7 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Grand Prix of Austria",
     "position": 9,
@@ -1888,10 +1888,10 @@
     "podiums": 2
    },
    "review": {
-    "summary": "Alex Marquez is eighth in the standings with 158 points, one win and two podiums from 15 rounds. He scored no points at the Grand Prix of Austria.",
+    "summary": "Currently eighth in the standings with 158 points, one win and two podiums. His last race in Austria resulted in zero points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Grand Prix of Austria",
     "position": null,
@@ -1916,10 +1916,10 @@
     "podiums": 3
    },
    "review": {
-    "summary": "Currently 9th with 156 points from 15 rounds and three podiums, ahead of teammate Fermin Aldeguer. He finished 7th at the Grand Prix of Austria to earn 9 points.",
+    "summary": "9th in the championship with 156 points and three podiums after 15 rounds. He finished 7th at the Grand Prix of Austria to earn 9 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Grand Prix of Austria",
     "position": 7,
@@ -1944,10 +1944,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Currently 10th with 115 points from 15 rounds. He finished 8th at the Grand Prix of Austria to earn 8 points.",
+    "summary": "Currently 10th in the standings with 115 points from 15 rounds. His last race was an 8th place finish at the Grand Prix of Austria, scoring 8 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Grand Prix of Austria",
     "position": 8,
@@ -1972,10 +1972,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Currently 16th with 56 points from 15 rounds. He finished 18th at the Grand Prix of Austria, scoring no points.",
+    "summary": "Sitting 16th in the championship with 56 points after 15 rounds. He finished 18th at the Grand Prix of Austria and scored no points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Grand Prix of Austria",
     "position": 18,
@@ -2000,10 +2000,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Currently 23rd in the standings with 9 points after 15 rounds.",
+    "summary": "Currently 23rd in the standings with 9 points from 15 rounds.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z"
+   "publishedAt": "2026-09-28T15:53:51Z"
   },
   {
    "channelID": "motogp",
@@ -2020,10 +2020,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Currently 30th in the championship with zero points from 15 rounds.",
+    "summary": "Positioned 30th in the championship with 0 points after 15 rounds.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z"
+   "publishedAt": "2026-09-28T15:53:51Z"
   },
   {
    "channelID": "motogp",
@@ -2040,10 +2040,10 @@
     "podiums": 7
    },
    "review": {
-    "summary": "Currently 4th with 234 points, two wins and seven podiums. He won the Grand Prix of Austria to take 25 points, ahead of teammate Enea Bastianini.",
+    "summary": "4th in the championship with 234 points, 2 wins and 7 podiums from 15 rounds. He won the Grand Prix of Austria to take 25 points, ahead of teammate Enea Bastianini.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Grand Prix of Austria",
     "position": 1,
@@ -2068,10 +2068,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Currently 12th with 97 points from 15 rounds. He finished 11th at the Grand Prix of Austria to earn 5 points.",
+    "summary": "Currently 12th in the standings with 97 points after 15 rounds. He finished 11th at the Grand Prix of Austria, earning 5 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Grand Prix of Austria",
     "position": 11,
@@ -2096,10 +2096,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Currently 13th with 94 points from 15 rounds. He finished 6th at the Grand Prix of Austria to earn 10 points.",
+    "summary": "Sitting 13th in the championship with 94 points from 15 rounds. He finished 6th at the Grand Prix of Austria to collect 10 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Grand Prix of Austria",
     "position": 6,
@@ -2124,10 +2124,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Sitting in 22nd place with 10 points from 15 rounds, he has yet to secure a win or podium this season.",
+    "summary": "Sitting 22nd in the standings with 10 points from 15 rounds, he has outscored team-mates Pol Espargaro and Jonas Folger.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z"
+   "publishedAt": "2026-09-28T15:53:51Z"
   },
   {
    "channelID": "motogp",
@@ -2144,10 +2144,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Currently 25th in the standings with 5 points after 15 rounds, his most recent result was 16th at the Grand Prix of Austria.",
+    "summary": "25th in the standings with 5 points after 15 rounds. He finished 16th at the Grand Prix of Austria, scoring no points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Grand Prix of Austria",
     "position": 16,
@@ -2172,10 +2172,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "With no points from 15 rounds, he currently sits in 28th place.",
+    "summary": "28th in the standings with 0 points from 15 rounds.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z"
+   "publishedAt": "2026-09-28T15:53:51Z"
   },
   {
    "channelID": "motogp",
@@ -2192,10 +2192,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Holding 11th place with 98 points after 15 rounds, he finished 14th in his last race at the Grand Prix of Austria.",
+    "summary": "Sitting 11th in the standings with 98 points from 15 rounds, he leads team-mates Diogo Moreira, Johann Zarco, Joan Mir and Takaaki Nakagami. He finished 14th at the Grand Prix of Austria to collect 2 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Grand Prix of Austria",
     "position": 14,
@@ -2220,10 +2220,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Currently 14th in the championship with 65 points from 15 rounds, he finished 15th at the Grand Prix of Austria.",
+    "summary": "14th in the standings with 65 points from 15 rounds. He finished 15th at the Grand Prix of Austria to earn 1 point, following team-mate Luca Marini.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Grand Prix of Austria",
     "position": 15,
@@ -2248,10 +2248,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Sitting in 17th place with 45 points after 15 rounds, he secured a 10th place finish at the Grand Prix of Austria.",
+    "summary": "17th in the standings with 45 points from 15 rounds. He finished 10th at the Grand Prix of Austria to take 6 points, trailing team-mates Luca Marini and Diogo Moreira.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Grand Prix of Austria",
     "position": 10,
@@ -2276,10 +2276,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Currently in 18th position with 33 points from 15 rounds, he has not yet achieved a win or podium this season.",
+    "summary": "18th in the standings with 33 points after 15 rounds, following team-mates Luca Marini, Diogo Moreira and Johann Zarco.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z"
+   "publishedAt": "2026-09-28T15:53:51Z"
   },
   {
    "channelID": "motogp",
@@ -2296,10 +2296,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "With 3 points from 15 rounds, he is in 26th place and finished 13th at the Grand Prix of Austria.",
+    "summary": "26th in the standings with 3 points from 15 rounds. He finished 13th at the Grand Prix of Austria to earn 3 points, trailing team-mates Luca Marini, Diogo Moreira, Johann Zarco and Joan Mir.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Grand Prix of Austria",
     "position": 13,
@@ -2324,10 +2324,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Currently 27th in the championship with no points after 15 rounds.",
+    "summary": "Currently 27th in the standings with no points from 15 rounds.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z"
+   "publishedAt": "2026-09-28T15:53:51Z"
   },
   {
    "channelID": "motogp",
@@ -2344,10 +2344,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Sitting 15th in the standings with 61 points from 15 rounds, ahead of teammates Jack Miller, Alex Rins, Toprak Razgatlioglu and Augusto Fernandez. He finished 17th at the Grand Prix of Austria, scoring no points.",
+    "summary": "Sitting 15th with 61 points after 15 rounds. He finished 17th at the Grand Prix of Austria, scoring no points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Grand Prix of Austria",
     "position": 17,
@@ -2372,10 +2372,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Currently 19th in the standings with 28 points after 15 rounds. His last race at the Grand Prix of Austria resulted in a 21st place finish.",
+    "summary": "Positioned 19th with 28 points from 15 rounds. At the Grand Prix of Austria, he finished 21st and scored no points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Grand Prix of Austria",
     "position": 21,
@@ -2400,10 +2400,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Holding 20th place with 24 points from 15 rounds, he finished 19th at the Grand Prix of Austria.",
+    "summary": "Currently 20th in the standings with 24 points after 15 rounds. He finished 19th at the Grand Prix of Austria, scoring no points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Grand Prix of Austria",
     "position": 19,
@@ -2428,10 +2428,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Currently 21st in the championship with 18 points after 15 rounds. He finished 20th at the Grand Prix of Austria.",
+    "summary": "Holding 21st place with 18 points from 15 rounds. His last race was the Grand Prix of Australia where he finished 20th and scored no points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z",
+   "publishedAt": "2026-09-28T15:53:51Z",
    "lastRace": {
     "name": "Grand Prix of Austria",
     "position": 20,
@@ -2456,10 +2456,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Sitting 24th in the standings with 6 points from 15 rounds.",
+    "summary": "Currently 24th in the standings with 6 points after 15 rounds.",
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z"
+   "publishedAt": "2026-09-28T15:53:51Z"
   }
  ],
  "races": [
@@ -2487,16 +2487,16 @@
    ],
    "classified": 16,
    "review": {
-    "summary": "George Russell won the race from pole position and set the fastest lap. Red Bull secured a double podium with Verstappen in second and Hadjar in third. The classification shows several retirements, including Lando Norris and both Alpine drivers.",
+    "summary": "George Russell won the Azerbaijan Grand Prix from pole position and set the fastest lap. The podium was completed by Max Verstappen in second and Isack Hadjar in third, both for Red Bull. Charles Leclerc finished fourth after starting second. The race saw several retirements, including Lando Norris, Alexander Albon, Fernando Alonso, Lance Stroll, Pierre Gasly, Franco Colapinto, and Valtteri Bottas.",
     "highlights": [
-     "George Russell secured victory and the fastest lap from pole position.",
+     "George Russell won from pole position and set the fastest lap.",
      "Max Verstappen climbed from eighth to second.",
-     "Lando Norris retired after starting fifth.",
-     "Both Alpine drivers failed to finish the race."
+     "Arvid Lindblad moved from fifteenth to seventh.",
+     "Lando Norris retired after starting fifth."
     ],
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z"
+   "publishedAt": "2026-09-28T15:53:51Z"
   },
   {
    "channelID": "motogp",
@@ -2522,14 +2522,15 @@
    ],
    "classified": 21,
    "review": {
-    "summary": "Pedro Acosta took victory for Red Bull KTM Factory Racing, leading an Aprilia 1-2 finish with Jorge Martin in second and Marco Bezzecchi in third. The top ten was completed by Ai Ogura, Marc Marquez, Brad Binder, Francesco Bagnaia, Fermin Aldeguer, Fabio Di Giannantonio, and Johann Zarco.",
+    "summary": "Pedro Acosta won for KTM, with Jorge Martin and Marco Bezzecchi of Aprilia following to complete the podium. The classification shows a spread of results across the field, including fifth for Marc Marquez and sixth for Brad Binder, while Alex Marquez was unable to finish.",
     "highlights": [
-     "Pedro Acosta won the race.",
+     "Pedro Acosta claimed victory.",
+     "Jorge Martin and Marco Bechelli secured second and third.",
      "Alex Marquez did not finish the race."
     ],
     "writer": "own server"
    },
-   "publishedAt": "2026-09-27T13:16:26Z"
+   "publishedAt": "2026-09-28T15:53:51Z"
   }
  ]
 }
