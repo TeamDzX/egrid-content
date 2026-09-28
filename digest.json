@@ -1,7 +1,79 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-27T12:51:05Z",
+  "generatedAt": "2026-09-28T15:01:44Z",
   "editions": [
+    {
+      "id": "2026-09-28-recap",
+      "kind": "recap",
+      "title": "Last week in motorsport",
+      "dateRange": "21–27 September",
+      "intro": "A busy week of racing saw action across Formula 1, Formula 2, NASCAR Cup Series, NHRA Drag Racing and the World Endurance Championship.",
+      "publishedAt": "2026-09-28T15:01:44Z",
+      "expiresAt": "2026-10-02T15:01:44Z",
+      "items": [
+        {
+          "channelID": "f1",
+          "channelName": "Formula 1",
+          "headline": "Azerbaijan Grand Prix",
+          "detail": "Baku City Circuit, Azerbaijan · Sat 26 Sep",
+          "body": "George Russell won the Azerbaijan Grand Prix for Mercedes, followed by Max Verstappen and Isack Hadjar, both for Red Bull.",
+          "date": "2026-09-26",
+          "round": 15,
+          "podium": [
+            {
+              "position": 1,
+              "name": "George Russell",
+              "team": "Mercedes"
+            },
+            {
+              "position": 2,
+              "name": "Max Verstappen",
+              "team": "Red Bull"
+            },
+            {
+              "position": 3,
+              "name": "Isack Hadjar",
+              "team": "Red Bull"
+            }
+          ]
+        },
+        {
+          "channelID": "f2",
+          "channelName": "Formula 2",
+          "headline": "Baku",
+          "detail": "Baku City Circuit, Azerbaijan · Sun 27 Sep",
+          "body": "Formula 2 arrived at the Baku City Circuit on Sun 27 Sep.",
+          "date": "2026-09-27",
+          "round": 12
+        },
+        {
+          "channelID": "nascar",
+          "channelName": "NASCAR Cup Series",
+          "headline": "Hollywood Casino 400",
+          "detail": "Kansas Speedway · Sun 27 Sep",
+          "body": "The NASCAR Cup Series held the Hollywood Casino 400 at Kansas Speedway on Sun 27 Sep.",
+          "date": "2026-09-27",
+          "round": 30
+        },
+        {
+          "channelID": "nhra",
+          "channelName": "NHRA Drag Racing",
+          "headline": "Nationals at The Rock",
+          "detail": "Rockingham Dragway, North Carolina · Sun 27 Sep",
+          "body": "NHRA Drag Racing visited Rockingham Dragway in North Carolina for the Nationals at The Rock on Sun 27 Sep.",
+          "date": "2026-09-27"
+        },
+        {
+          "channelID": "wec",
+          "channelName": "World Endurance Championship",
+          "headline": "6 Hours of Fuji",
+          "detail": "Fuji Speedway, Japan · Sun 27 Sep",
+          "body": "The World Endurance Championship held the 6 Hours of Fuji at Fuji Speedway on Sun 27 Sep.",
+          "date": "2026-09-27",
+          "round": 7
+        }
+      ]
+    },
     {
       "id": "2026-09-27-preview",
       "kind": "preview",
@@ -153,61 +225,6 @@
           "headline": "6 Hours of Fuji",
           "detail": "Fuji Speedway, Japan · Sun 27 Sep",
           "body": "The 6 Hours of Fuji is set for Fuji Speedway, Japan on Sun 27 Sep.",
-          "date": "2026-09-27",
-          "round": 7
-        }
-      ]
-    },
-    {
-      "id": "2026-09-24-preview",
-      "kind": "preview",
-      "title": "This weekend in motorsport",
-      "dateRange": "24–28 September",
-      "intro": "There is plenty to look forward to between 24–28 September, with racing across Formula 1, Formula 2, NASCAR Cup Series, NHRA Drag Racing, and the World Endurance Championship.",
-      "publishedAt": "2026-09-24T12:36:08Z",
-      "expiresAt": "2026-09-29T12:36:08Z",
-      "items": [
-        {
-          "channelID": "f1",
-          "channelName": "Formula 1",
-          "headline": "Azerbaijan Grand Prix",
-          "detail": "Baku City Circuit, Azerbaijan · Sat 26 Sep",
-          "body": "The Azerbaijan Grand Prix takes place at Baku City Circuit on Sat 26 Sep at 11:00 UTC.",
-          "date": "2026-09-26",
-          "round": 15
-        },
-        {
-          "channelID": "f2",
-          "channelName": "Formula 2",
-          "headline": "Baku",
-          "detail": "Baku City Circuit, Azerbaijan · Sun 27 Sep",
-          "body": "Formula 2 arrives at the Baku City Circuit on Sun 27 Sep.",
-          "date": "2026-09-27",
-          "round": 12
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "Hollywood Casino 400",
-          "detail": "Kansas Speedway · Sun 27 Sep",
-          "body": "The NASCAR Cup Series visits Kansas Speedway for the Hollywood Casino 400 on Sun 27 Sep.",
-          "date": "2026-09-27",
-          "round": 30
-        },
-        {
-          "channelID": "nhra",
-          "channelName": "NHRA Drag Racing",
-          "headline": "Nationals at The Rock",
-          "detail": "Rockingham Dragway, North Carolina · Sun 27 Sep",
-          "body": "NHRA Drag Racing holds the Nationals at The Rock at Rockingham Dragway, North Carolina, on Sun 27 Sep.",
-          "date": "2026-09-27"
-        },
-        {
-          "channelID": "wec",
-          "channelName": "World Endurance Championship",
-          "headline": "6 Hours of Fuji",
-          "detail": "Fuji Speedway, Japan · Sun 27 Sep",
-          "body": "The World Endurance Championship's 6 Hours of Fuji takes place at Fuji Speedway, Japan, on Sun 27 Sep.",
           "date": "2026-09-27",
           "round": 7
         }
