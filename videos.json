@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-28T15:31:22Z",
+  "generatedAt": "2026-09-29T14:06:27Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,17 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "1HSVupVFWkk",
+          "title": "70 Days: Solving Sepang | McLaren Racing & Gemini",
+          "publishedAt": "2026-09-28T18:15:59Z",
+          "duration": "9:01",
+          "seconds": 541,
+          "thumbnail": "https://i.ytimg.com/vi/1HSVupVFWkk/maxresdefault.jpg",
+          "source": "McLaren",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "osrB6hfGj5A",
           "title": "The Unofficial Komatsu Training You Didn’t Know You Needed",
@@ -416,17 +427,6 @@
           "allowedRegions": []
         },
         {
-          "id": "Mfccz2boJps",
-          "title": "AMR Network: Portraits | Cohere",
-          "publishedAt": "2026-07-17T16:57:33Z",
-          "duration": "6:59",
-          "seconds": 419,
-          "thumbnail": "https://i.ytimg.com/vi/Mfccz2boJps/maxresdefault.jpg",
-          "source": "Aston Martin Aramco F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "4aFCIR7Qajc",
           "title": "We Spent the Day with Franco Colapinto at an F1 Filming Day | Powered by Eni",
           "publishedAt": "2026-05-17T11:30:39Z",
@@ -456,6 +456,17 @@
       "source": "FIA World Endurance Championship",
       "sourceURL": "https://www.youtube.com/channel/UCwU7U7PiarcJKLjDJTnANjw",
       "videos": [
+        {
+          "id": "xgcEnCOPwOg",
+          "title": "Extended Highlights | 6 Hours of Fuji 2026 | FIA WEC",
+          "publishedAt": "2026-09-28T16:00:25Z",
+          "duration": "59:23",
+          "seconds": 3563,
+          "thumbnail": "https://i.ytimg.com/vi/xgcEnCOPwOg/maxresdefault.jpg",
+          "source": "FIA World Endurance Championship",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "7UQZagV0TVk",
           "title": "Race Highlights | 6 Hours of Fuji 2026 | FIA WEC",
@@ -563,6 +574,17 @@
       "source": "FIA World Rally Championship",
       "sourceURL": "https://www.youtube.com/channel/UC5G6kTnHXDz0WIBC2VGBOqg",
       "videos": [
+        {
+          "id": "JYLxGuNzqz8",
+          "title": "SS19 STAGE HIGHLIGHTS | WRC Rally Italia Sardegna 2019",
+          "publishedAt": "2026-09-29T13:00:12Z",
+          "duration": "20:16",
+          "seconds": 1216,
+          "thumbnail": "https://i.ytimg.com/vi/JYLxGuNzqz8/maxresdefault.jpg",
+          "source": "FIA World Rally Championship",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "F79xb7HXgmU",
           "title": "Best of RAW Action | WRC Rally Chile Biobío 2026",
@@ -680,17 +702,6 @@
           "duration": "3:33",
           "seconds": 213,
           "thumbnail": "https://i.ytimg.com/vi/SkWroMOCuf8/maxresdefault.jpg",
-          "source": "FIA World Rally Championship",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "g_uvYMGem3Y",
-          "title": "SS15 Stage Highlights | WRC Acropolis Rally Greece 2024",
-          "publishedAt": "2026-06-20T14:00:33Z",
-          "duration": "22:16",
-          "seconds": 1336,
-          "thumbnail": "https://i.ytimg.com/vi/g_uvYMGem3Y/maxresdefault.jpg",
           "source": "FIA World Rally Championship",
           "blockedRegions": [],
           "allowedRegions": []
