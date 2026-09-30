@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-29T14:06:27Z",
+  "generatedAt": "2026-09-30T13:46:44Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,17 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "AsvPhTnHZYU",
+          "title": "70 Days: Simulating Sepang | McLaren Racing & Gemini",
+          "publishedAt": "2026-09-29T20:51:30Z",
+          "duration": "6:24",
+          "seconds": 384,
+          "thumbnail": "https://i.ytimg.com/vi/AsvPhTnHZYU/maxresdefault.jpg",
+          "source": "McLaren",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "1HSVupVFWkk",
           "title": "70 Days: Solving Sepang | McLaren Racing & Gemini",
@@ -280,17 +291,6 @@
           "seconds": 499,
           "thumbnail": "https://i.ytimg.com/vi/2q_L5Duc__s/maxresdefault.jpg",
           "source": "TGR Haas F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "CQPGfhWBq84",
-          "title": "Can Arvid and Liam Solve These Riddles?",
-          "publishedAt": "2026-08-24T16:00:02Z",
-          "duration": "5:45",
-          "seconds": 345,
-          "thumbnail": "https://i.ytimg.com/vi/CQPGfhWBq84/maxresdefault.jpg",
-          "source": "Visa Cash App RB F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
         },
