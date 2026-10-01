@@ -764,6 +764,17 @@ def stray_names(text: str, allowed: set[str], everyone: set[str]) -> list[str]:
             if (sur := full.split()[-1].lower() if full else "") and sur not in ok and sur in words and len(sur) > 3]
 
 
+def _obj(value) -> dict:
+    """The writer's reply, or one part of it, as a dict — a self-hosted model
+    sometimes sends a string or a list where an object belongs (29 Sep: an
+    item in "teams" came back as a bare string and the whole job failed)."""
+    return value if isinstance(value, dict) else {}
+
+
+def _items(value) -> list:
+    return value if isinstance(value, list) else []
+
+
 def write_reviews(teams: list[Team], race: RaceSummary | None, notes: list[DriverNote],
                   use_llm: bool) -> tuple[list[tuple[str, str, str]], tuple[str, list[str], str], list[tuple[str, str]]]:
     """Per team (summary, lastRace, writer), for the race (summary,
@@ -787,7 +798,7 @@ def write_reviews(teams: list[Team], race: RaceSummary | None, notes: list[Drive
             log(f"  {name} writer crashed: {type(error).__name__}: {error}; falling through")
             continue
         if data is not None:
-            writer = name
+            data, writer = _obj(data), name
             break
     if data is None:
         log("  no writer available; using templated prose")
@@ -803,16 +814,16 @@ def write_reviews(teams: list[Team], race: RaceSummary | None, notes: list[Drive
             log(f"  driver batch {start}: {type(error).__name__}: {error}")
             reply = None
         if reply:
-            written_drivers += reply.get("drivers", []) or []
+            written_drivers += _items(_obj(reply).get("drivers"))
     data["drivers"] = written_drivers
     log(f"  {writer} wrote {len(written_drivers)} of {len(all_driver_facts)} driver notes")
     everyone = {m.name for t in teams for m in t.members} | {l.name for t in teams for l in t.lines}
     mates = {m.name: {x.name for x in t.members} for t in teams for m in t.members}
     by_driver = {}
-    for item in data.get("drivers", []) or []:
+    for item in _items(data.get("drivers")):
         try:
             by_driver[int(item["index"])] = str(item.get("summary") or "").strip()
-        except (KeyError, TypeError, ValueError):
+        except (AttributeError, KeyError, TypeError, ValueError):
             continue
     for index, d in enumerate(notes):
         summary = by_driver.get(index, "")
@@ -825,20 +836,20 @@ def write_reviews(teams: list[Team], race: RaceSummary | None, notes: list[Drive
         driver_out[index] = (summary, writer)
     if race:
         everyone |= race.everyone
-        written = data.get("race") or {}
+        written = _obj(data.get("race"))
         summary = str(written.get("summary") or "").strip()
-        highlights = [str(h).strip() for h in (written.get("highlights") or []) if str(h).strip()][:4]
+        highlights = [str(h).strip() for h in _items(written.get("highlights")) if str(h).strip()][:4]
         strays = stray_names(summary + " " + " ".join(highlights), race.everyone, everyone)
         if strays:
             log(f"  dropped {writer} race copy: names {', '.join(strays)} who were not classified")
         elif summary:
             race_out = (summary, highlights or race_out[1], writer)
     by_index = {}
-    for item in data.get("teams", []) or []:
+    for item in _items(data.get("teams")):
         try:
             by_index[int(item["index"])] = (str(item.get("summary") or "").strip(),
                                             str(item.get("lastRace") or "").strip())
-        except (KeyError, TypeError, ValueError):
+        except (AttributeError, KeyError, TypeError, ValueError):
             continue
     for index, team in enumerate(teams):
         summary, last = by_index.get(index, ("", ""))
@@ -872,7 +883,12 @@ def build(channels: list[str], use_llm: bool) -> dict:
             continue
         log(f"  {len(teams)} {ENTRANT[channel_id]}s, {teams[0].rounds if teams else 0} rounds run")
         notes = driver_notes(teams, race, PER_DRIVER[channel_id])
-        reviews, (race_summary, race_highlights, race_writer), driver_reviews = write_reviews(teams, race, notes, use_llm)
+        try:
+            written = write_reviews(teams, race, notes, use_llm)
+        except Exception as error:  # noqa: BLE001 - a writer's reply must never sink the file
+            log(f"  {channel_id} reviews failed ({type(error).__name__}: {error}); using templated prose")
+            written = write_reviews(teams, race, notes, use_llm=False)
+        reviews, (race_summary, race_highlights, race_writer), driver_reviews = written
         for d, (summary, writer) in zip(notes, driver_reviews):
             entry = {
                 "channelID": channel_id, "name": d.name, "matchKeys": [d.name.lower()], "team": d.team,
