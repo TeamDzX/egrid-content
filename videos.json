@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-30T13:46:44Z",
+  "generatedAt": "2026-10-01T14:30:10Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,39 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "PaI8jxwAlP0",
+          "title": "70 Days: Scaling Sepang | McLaren Racing & Gemini",
+          "publishedAt": "2026-09-30T19:20:15Z",
+          "duration": "7:36",
+          "seconds": 456,
+          "thumbnail": "https://i.ytimg.com/vi/PaI8jxwAlP0/maxresdefault.jpg",
+          "source": "McLaren",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "Ds48bXRt_v8",
+          "title": "Jamie Chadwick Drives Our F1 Car for the First Time!",
+          "publishedAt": "2026-09-30T16:00:04Z",
+          "duration": "9:40",
+          "seconds": 580,
+          "thumbnail": "https://i.ytimg.com/vi/Ds48bXRt_v8/maxresdefault.jpg",
+          "source": "Atlassian Williams F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "LFE4oF01Pz8",
+          "title": "Buckle Up, Baku | Cadillac Formula 1® Team",
+          "publishedAt": "2026-09-30T15:56:20Z",
+          "duration": "6:25",
+          "seconds": 385,
+          "thumbnail": "https://i.ytimg.com/vi/LFE4oF01Pz8/maxresdefault.jpg",
+          "source": "Cadillac Formula 1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "AsvPhTnHZYU",
           "title": "70 Days: Simulating Sepang | McLaren Racing & Gemini",
@@ -76,7 +109,7 @@
         },
         {
           "id": "f0c6uu8eYIA",
-          "title": "Are Alex & Carlos Good at Chess? | Team Torque | S3 E9",
+          "title": "Which F1 Driver is the Best at Chess? | Team Torque | S3 E9",
           "publishedAt": "2026-09-25T10:29:59Z",
           "duration": "27:26",
           "seconds": 1646,
@@ -152,17 +185,6 @@
           "allowedRegions": []
         },
         {
-          "id": "VB5icKU5N6E",
-          "title": "The Best Two Weeks of Our Season? Nu Silver Arrows Radio Show, Episode 9",
-          "publishedAt": "2026-09-18T09:47:30Z",
-          "duration": "39:59",
-          "seconds": 2399,
-          "thumbnail": "https://i.ytimg.com/vi/VB5icKU5N6E/maxresdefault.jpg",
-          "source": "Mercedes-AMG F1",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "Sdk1lPxI9pU",
           "title": "The Madring Debut | Cadillac Formula 1® Team",
           "publishedAt": "2026-09-17T20:36:14Z",
@@ -192,17 +214,6 @@
           "seconds": 410,
           "thumbnail": "https://i.ytimg.com/vi/t-7Pi7l8ru8/maxresdefault.jpg",
           "source": "Atlassian Williams F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "tB8MaQHkOAw",
-          "title": "Doriane Faces Her Toughest Interview Yet 😅 In Convo With Kids | Doriane Pin",
-          "publishedAt": "2026-09-17T11:49:23Z",
-          "duration": "10:01",
-          "seconds": 601,
-          "thumbnail": "https://i.ytimg.com/vi/tB8MaQHkOAw/maxresdefault.jpg",
-          "source": "Mercedes-AMG F1",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -412,17 +423,6 @@
           "seconds": 373,
           "thumbnail": "https://i.ytimg.com/vi/l9k2EOSG5Is/maxresdefault.jpg",
           "source": "Aston Martin Aramco F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "lfa2IOwWnHg",
-          "title": "Behind the Scenes of the Belgian Grand Prix 2026 | Cadillac Formula 1® Team",
-          "publishedAt": "2026-07-21T17:03:12Z",
-          "duration": "5:04",
-          "seconds": 304,
-          "thumbnail": "https://i.ytimg.com/vi/lfa2IOwWnHg/maxresdefault.jpg",
-          "source": "Cadillac Formula 1 Team",
           "blockedRegions": [],
           "allowedRegions": []
         },
