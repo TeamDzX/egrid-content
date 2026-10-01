@@ -1,7 +1,80 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-30T13:23:54Z",
+  "generatedAt": "2026-10-01T14:17:53Z",
   "editions": [
+    {
+      "id": "2026-10-01-preview",
+      "kind": "preview",
+      "title": "This weekend in motorsport",
+      "dateRange": "1–5 October",
+      "intro": "A busy week of racing awaits from 1–5 October, with seven rounds across IMSA, Formula 1, MotoGP, NASCAR, NHRA, and the World Rally Championship.",
+      "publishedAt": "2026-10-01T14:17:53Z",
+      "expiresAt": "2026-10-06T14:17:53Z",
+      "items": [
+        {
+          "channelID": "imsa",
+          "channelName": "IMSA SportsCar Championship",
+          "headline": "Motul Petit Le Mans",
+          "detail": "Michelin Raceway Road Atlanta · Sat 3 Oct",
+          "body": "The Motul Petit Le Mans is set for Michelin Raceway Road Atlanta on Sat 3 Oct.",
+          "date": "2026-10-03",
+          "round": 11
+        },
+        {
+          "channelID": "f1",
+          "channelName": "Formula 1",
+          "headline": "Bahrain Grand Prix in Malaysia",
+          "detail": "Sepang International Circuit, Malaysia · Sun 4 Oct",
+          "body": "The Bahrain Grand Prix in Malaysia takes place at Sepang International Circuit, Malaysia, on Sun 4 Oct, starting at 07:00 UTC.",
+          "date": "2026-10-04",
+          "round": 16
+        },
+        {
+          "channelID": "motogp",
+          "channelName": "MotoGP",
+          "headline": "Grand Prix of Japan",
+          "detail": "Mobility Resort Motegi, Japan · Sun 4 Oct",
+          "body": "Round 16 of MotoGP arrives at Mobility Resort Motegi, Japan, on Sun 4 Oct.",
+          "date": "2026-10-04",
+          "round": 16
+        },
+        {
+          "channelID": "motogp",
+          "channelName": "MotoGP",
+          "headline": "Grand Prix of Japan",
+          "detail": "Mobility Resort Motegi, Japan · Sun 4 Oct",
+          "body": "The Grand Prix of Japan continues at Mobility Resort Motegi, Japan, on Sun 4 Oct for round 24.",
+          "date": "2026-10-04",
+          "round": 24
+        },
+        {
+          "channelID": "nascar",
+          "channelName": "NASCAR Cup Series",
+          "headline": "South Point 400",
+          "detail": "Las Vegas Motor Speedway · Sun 4 Oct",
+          "body": "The South Point 400 is scheduled for Las Vegas Motor Speedway on Sun 4 Oct.",
+          "date": "2026-10-04",
+          "round": 31
+        },
+        {
+          "channelID": "nhra",
+          "channelName": "NHRA Drag Racing",
+          "headline": "Midwest Nationals",
+          "detail": "World Wide Technology Raceway, Illinois · Sun 4 Oct",
+          "body": "The Midwest Nationals will be held at World Wide Technology Raceway, Illinois, on Sun 4 Oct.",
+          "date": "2026-10-04"
+        },
+        {
+          "channelID": "wrc",
+          "channelName": "World Rally Championship",
+          "headline": "Rally Italia Sardegna",
+          "detail": "Alghero, Italy · Sun 4 Oct",
+          "body": "Rally Italia Sardegna returns to Alghero, Italy, on Sun 4 Oct for round 13.",
+          "date": "2026-10-04",
+          "round": 13
+        }
+      ]
+    },
     {
       "id": "2026-09-30-preview",
       "kind": "preview",
@@ -205,52 +278,6 @@
           "headline": "6 Hours of Fuji",
           "detail": "Fuji Speedway, Japan · Sun 27 Sep",
           "body": "The World Endurance Championship held the 6 Hours of Fuji at Fuji Speedway on Sun 27 Sep.",
-          "date": "2026-09-27",
-          "round": 7
-        }
-      ]
-    },
-    {
-      "id": "2026-09-27-preview",
-      "kind": "preview",
-      "title": "This weekend in motorsport",
-      "dateRange": "27–28 September",
-      "intro": "There is plenty to look forward to this weekend, with four rounds across various series scheduled for 27 and 28 September. The schedule includes Formula 2, NASCAR Cup Series, NHRA Drag Racing, and the World Endurance Championship.",
-      "publishedAt": "2026-09-27T12:51:05Z",
-      "expiresAt": "2026-10-02T12:51:05Z",
-      "items": [
-        {
-          "channelID": "f2",
-          "channelName": "Formula 2",
-          "headline": "Baku",
-          "detail": "Baku City Circuit, Azerbaijan · Sun 27 Sep",
-          "body": "Formula 2 returns to Baku City Circuit, Azerbaijan for round 12 on Sun 27 Sep.",
-          "date": "2026-09-27",
-          "round": 12
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "Hollywood Casino 400",
-          "detail": "Kansas Speedway · Sun 27 Sep",
-          "body": "The NASCAR Cup Series reaches round 30 at Kansas Speedway for the Hollywood Casino 400 on Sun 27 Sep.",
-          "date": "2026-09-27",
-          "round": 30
-        },
-        {
-          "channelID": "nhra",
-          "channelName": "NHRA Drag Racing",
-          "headline": "Nationals at The Rock",
-          "detail": "Rockingham Dragway, North Carolina · Sun 27 Sep",
-          "body": "NHRA Drag Racing heads to Rockingham Dragway, North Carolina on Sun 27 Sep for the Nationals at The Rock.",
-          "date": "2026-09-27"
-        },
-        {
-          "channelID": "wec",
-          "channelName": "World Endurance Championship",
-          "headline": "6 Hours of Fuji",
-          "detail": "Fuji Speedway, Japan · Sun 27 Sep",
-          "body": "Round 7 of the World Endurance Championship takes place at Fuji Speedway, Japan on Sun 27 Sep.",
           "date": "2026-09-27",
           "round": 7
         }
