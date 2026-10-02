@@ -1,7 +1,71 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-01T14:17:53Z",
+  "generatedAt": "2026-10-02T13:39:45Z",
   "editions": [
+    {
+      "id": "2026-10-02-preview",
+      "kind": "preview",
+      "title": "This weekend in motorsport",
+      "dateRange": "2–5 October",
+      "intro": "A busy period awaits from 2 to 5 October, with six rounds across IMSA, Formula 1, MotoGP, NASCAR, NHRA and the World Rally Championship.",
+      "publishedAt": "2026-10-02T13:39:45Z",
+      "expiresAt": "2026-10-07T13:39:45Z",
+      "items": [
+        {
+          "channelID": "imsa",
+          "channelName": "IMSA SportsCar Championship",
+          "headline": "Motul Petit Le Mans",
+          "detail": "Michelin Raceway Road Atlanta · Sat 3 Oct",
+          "body": "The Motul Petit Le Mans takes place at Michelin Raceway Road Atlanta on Sat 3 Oct.",
+          "date": "2026-10-03",
+          "round": 11
+        },
+        {
+          "channelID": "f1",
+          "channelName": "Formula 1",
+          "headline": "Bahrain Grand Prix in Malaysia",
+          "detail": "Sepang International Circuit, Malaysia · Sun 4 Oct",
+          "body": "Formula 1 visits the Sepang International Circuit, Malaysia, for the Bahrain Grand Prix in Malaysia on Sun 4 Oct, starting at 07:00 UTC.",
+          "date": "2026-10-04",
+          "round": 16
+        },
+        {
+          "channelID": "motogp",
+          "channelName": "MotoGP",
+          "headline": "Grand Prix of Japan",
+          "detail": "Mobility Resort Motegi, Japan · Sun 4 Oct",
+          "body": "The Grand Prix of Japan is scheduled for Sun 4 Oct at Mobility Resort Motegi, Japan.",
+          "date": "2026-10-04",
+          "round": 16
+        },
+        {
+          "channelID": "nascar",
+          "channelName": "NASCAR Cup Series",
+          "headline": "South Point 400",
+          "detail": "Las Vegas Motor Speedway · Sun 4 Oct",
+          "body": "The South Point 400 runs at Las Vegas Motor Speedway on Sun 4 Oct.",
+          "date": "2026-10-04",
+          "round": 31
+        },
+        {
+          "channelID": "nhra",
+          "channelName": "NHRA Drag Racing",
+          "headline": "Midwest Nationals",
+          "detail": "World Wide Technology Raceway, Illinois · Sun 4 Oct",
+          "body": "The Midwest Nationals takes place at World Wide Technology Raceway, Illinois, on Sun 4 Oct.",
+          "date": "2026-10-04"
+        },
+        {
+          "channelID": "wrc",
+          "channelName": "World Rally Championship",
+          "headline": "Rally Italia Sardegna",
+          "detail": "Alghero, Italy · Sun 4 Oct",
+          "body": "Rally Italia Sardegna is set for Alghero, Italy, on Sun 4 Oct.",
+          "date": "2026-10-04",
+          "round": 13
+        }
+      ]
+    },
     {
       "id": "2026-10-01-preview",
       "kind": "preview",
@@ -206,78 +270,6 @@
           "headline": "6 Hours of Fuji",
           "detail": "Fuji Speedway, Japan · Sun 27 Sep",
           "body": "Round seven of the World Endurance Championship took place at Fuji Speedway, Japan, for the 6 Hours of Fuji on Sunday 27 September.",
-          "date": "2026-09-27",
-          "round": 7
-        }
-      ]
-    },
-    {
-      "id": "2026-09-28-recap",
-      "kind": "recap",
-      "title": "Last week in motorsport",
-      "dateRange": "21–27 September",
-      "intro": "A busy week of racing saw action across Formula 1, Formula 2, NASCAR Cup Series, NHRA Drag Racing and the World Endurance Championship.",
-      "publishedAt": "2026-09-28T15:01:44Z",
-      "expiresAt": "2026-10-02T15:01:44Z",
-      "items": [
-        {
-          "channelID": "f1",
-          "channelName": "Formula 1",
-          "headline": "Azerbaijan Grand Prix",
-          "detail": "Baku City Circuit, Azerbaijan · Sat 26 Sep",
-          "body": "George Russell won the Azerbaijan Grand Prix for Mercedes, followed by Max Verstappen and Isack Hadjar, both for Red Bull.",
-          "date": "2026-09-26",
-          "round": 15,
-          "podium": [
-            {
-              "position": 1,
-              "name": "George Russell",
-              "team": "Mercedes"
-            },
-            {
-              "position": 2,
-              "name": "Max Verstappen",
-              "team": "Red Bull"
-            },
-            {
-              "position": 3,
-              "name": "Isack Hadjar",
-              "team": "Red Bull"
-            }
-          ]
-        },
-        {
-          "channelID": "f2",
-          "channelName": "Formula 2",
-          "headline": "Baku",
-          "detail": "Baku City Circuit, Azerbaijan · Sun 27 Sep",
-          "body": "Formula 2 arrived at the Baku City Circuit on Sun 27 Sep.",
-          "date": "2026-09-27",
-          "round": 12
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "Hollywood Casino 400",
-          "detail": "Kansas Speedway · Sun 27 Sep",
-          "body": "The NASCAR Cup Series held the Hollywood Casino 400 at Kansas Speedway on Sun 27 Sep.",
-          "date": "2026-09-27",
-          "round": 30
-        },
-        {
-          "channelID": "nhra",
-          "channelName": "NHRA Drag Racing",
-          "headline": "Nationals at The Rock",
-          "detail": "Rockingham Dragway, North Carolina · Sun 27 Sep",
-          "body": "NHRA Drag Racing visited Rockingham Dragway in North Carolina for the Nationals at The Rock on Sun 27 Sep.",
-          "date": "2026-09-27"
-        },
-        {
-          "channelID": "wec",
-          "channelName": "World Endurance Championship",
-          "headline": "6 Hours of Fuji",
-          "detail": "Fuji Speedway, Japan · Sun 27 Sep",
-          "body": "The World Endurance Championship held the 6 Hours of Fuji at Fuji Speedway on Sun 27 Sep.",
           "date": "2026-09-27",
           "round": 7
         }
