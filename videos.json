@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-01T14:30:10Z",
+  "generatedAt": "2026-10-02T13:53:39Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,17 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "5H6hVXJftqQ",
+          "title": "James Vowles Answers Your Azerbaijan Grand Prix Fan Questions!",
+          "publishedAt": "2026-10-01T15:59:58Z",
+          "duration": "9:30",
+          "seconds": 570,
+          "thumbnail": "https://i.ytimg.com/vi/5H6hVXJftqQ/maxresdefault.jpg",
+          "source": "Atlassian Williams F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "PaI8jxwAlP0",
           "title": "70 Days: Scaling Sepang | McLaren Racing & Gemini",
@@ -207,45 +218,12 @@
           "allowedRegions": []
         },
         {
-          "id": "t-7Pi7l8ru8",
-          "title": "James Vowles Answers Your Spanish Grand Prix Fan Questions!",
-          "publishedAt": "2026-09-17T14:29:58Z",
-          "duration": "6:50",
-          "seconds": 410,
-          "thumbnail": "https://i.ytimg.com/vi/t-7Pi7l8ru8/maxresdefault.jpg",
-          "source": "Atlassian Williams F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "Bb1kKpYJFWg",
           "title": "Inside The Madrid Grand Prix: The Full Breakdown! | Talking Bull",
           "publishedAt": "2026-09-14T13:00:04Z",
           "duration": "25:22",
           "seconds": 1522,
           "thumbnail": "https://i.ytimg.com/vi/Bb1kKpYJFWg/maxresdefault.jpg",
-          "source": "Red Bull Racing",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "HZgsEaACaaA",
-          "title": "Audi(o) | Episode 02 – Monza",
-          "publishedAt": "2026-09-09T16:26:12Z",
-          "duration": "9:39",
-          "seconds": 579,
-          "thumbnail": "https://i.ytimg.com/vi/HZgsEaACaaA/maxresdefault.jpg",
-          "source": "Audi Revolut F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "zu759oT11eE",
-          "title": "Driving a Formula 1 Car on Train Tracks",
-          "publishedAt": "2026-09-08T08:09:44Z",
-          "duration": "9:10",
-          "seconds": 550,
-          "thumbnail": "https://i.ytimg.com/vi/zu759oT11eE/maxresdefault.jpg",
           "source": "Red Bull Racing",
           "blockedRegions": [],
           "allowedRegions": []
@@ -258,17 +236,6 @@
           "seconds": 425,
           "thumbnail": "https://i.ytimg.com/vi/DCdaTzU8QAc/maxresdefault.jpg",
           "source": "Visa Cash App RB F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "knGCy_-2uqc",
-          "title": "Monza Magic, Max on the Podium & More! | Talking Bull",
-          "publishedAt": "2026-09-07T13:55:42Z",
-          "duration": "27:08",
-          "seconds": 1628,
-          "thumbnail": "https://i.ytimg.com/vi/knGCy_-2uqc/maxresdefault.jpg",
-          "source": "Red Bull Racing",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -423,6 +390,39 @@
           "seconds": 373,
           "thumbnail": "https://i.ytimg.com/vi/l9k2EOSG5Is/maxresdefault.jpg",
           "source": "Aston Martin Aramco F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "lfa2IOwWnHg",
+          "title": "Behind the Scenes of the Belgian Grand Prix 2026 | Cadillac Formula 1® Team",
+          "publishedAt": "2026-07-21T17:03:12Z",
+          "duration": "5:04",
+          "seconds": 304,
+          "thumbnail": "https://i.ytimg.com/vi/lfa2IOwWnHg/maxresdefault.jpg",
+          "source": "Cadillac Formula 1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "Mfccz2boJps",
+          "title": "AMR Network: Portraits | Cohere",
+          "publishedAt": "2026-07-17T16:57:33Z",
+          "duration": "6:59",
+          "seconds": 419,
+          "thumbnail": "https://i.ytimg.com/vi/Mfccz2boJps/maxresdefault.jpg",
+          "source": "Aston Martin Aramco F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "LNP6lgxiTTg",
+          "title": "Why Spa is Unlike Any Other Circuit in F1",
+          "publishedAt": "2026-07-16T14:00:31Z",
+          "duration": "6:01",
+          "seconds": 361,
+          "thumbnail": "https://i.ytimg.com/vi/LNP6lgxiTTg/maxresdefault.jpg",
+          "source": "FIA",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -907,6 +907,17 @@
       "sourceURL": "https://www.youtube.com/channel/UCJcErqlzaBzFmAh2uIxeqxQ",
       "videos": [
         {
+          "id": "V_nkR5r1Pqc",
+          "title": "Lucas Oil Drag Racing Series Highlights from the NHRA Nationals at The Rock",
+          "publishedAt": "2026-10-01T18:37:25Z",
+          "duration": "11:34",
+          "seconds": 694,
+          "thumbnail": "https://i.ytimg.com/vi/V_nkR5r1Pqc/maxresdefault.jpg",
+          "source": "NHRA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "jYN5hD2sQYk",
           "title": "NHRA Nationals at The Rock Elimination Highlights",
           "publishedAt": "2026-09-28T14:56:22Z",
@@ -1023,17 +1034,6 @@
           "duration": "13:36",
           "seconds": 816,
           "thumbnail": "https://i.ytimg.com/vi/jybMtFaUpmU/maxresdefault.jpg",
-          "source": "NHRA",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "EvAWQ2BVcFY",
-          "title": "Muckleshoot Casino Resort NHRA Northwest Nationals Elimination Highlights",
-          "publishedAt": "2026-07-27T14:45:38Z",
-          "duration": "8:28",
-          "seconds": 508,
-          "thumbnail": "https://i.ytimg.com/vi/EvAWQ2BVcFY/maxresdefault.jpg",
           "source": "NHRA",
           "blockedRegions": [],
           "allowedRegions": []
