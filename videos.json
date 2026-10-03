@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-02T13:53:39Z",
+  "generatedAt": "2026-10-03T12:35:51Z",
   "channels": [
     {
       "channelID": "f1",
@@ -170,17 +170,6 @@
           "seconds": 720,
           "thumbnail": "https://i.ytimg.com/vi/HmJCBuZBZGg/maxresdefault.jpg",
           "source": "FIA",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "3P1ElfxjTwA",
-          "title": "At Home with Alex Albon: His Monaco Morning Routine",
-          "publishedAt": "2026-09-18T16:00:04Z",
-          "duration": "8:17",
-          "seconds": 497,
-          "thumbnail": "https://i.ytimg.com/vi/3P1ElfxjTwA/maxresdefault.jpg",
-          "source": "Atlassian Williams F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -423,6 +412,17 @@
           "seconds": 361,
           "thumbnail": "https://i.ytimg.com/vi/LNP6lgxiTTg/maxresdefault.jpg",
           "source": "FIA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "-59xVmUn1YI",
+          "title": "AMR Network: Portraits | Cognition",
+          "publishedAt": "2026-07-14T14:17:27Z",
+          "duration": "5:49",
+          "seconds": 349,
+          "thumbnail": "https://i.ytimg.com/vi/-59xVmUn1YI/maxresdefault.jpg",
+          "source": "Aston Martin Aramco F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -809,17 +809,6 @@
           "duration": "23:41",
           "seconds": 1421,
           "thumbnail": "https://i.ytimg.com/vi/HYqZQd-WJX0/maxresdefault.jpg",
-          "source": "NASCAR",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "sdgBDf_Y9jQ",
-          "title": "NASCAR Cup Series Highlights | 2026 North Wilkesboro Speedway",
-          "publishedAt": "2026-07-20T02:49:20Z",
-          "duration": "20:45",
-          "seconds": 1245,
-          "thumbnail": "https://i.ytimg.com/vi/sdgBDf_Y9jQ/maxresdefault.jpg",
           "source": "NASCAR",
           "blockedRegions": [],
           "allowedRegions": []
