@@ -1,7 +1,71 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-02T13:39:45Z",
+  "generatedAt": "2026-10-03T12:17:53Z",
   "editions": [
+    {
+      "id": "2026-10-03-preview",
+      "kind": "preview",
+      "title": "This weekend in motorsport",
+      "dateRange": "3–5 October",
+      "intro": "6 rounds across Formula 1, IMSA SportsCar Championship, MotoGP, NASCAR Cup Series, NHRA Drag Racing and World Rally Championship between 3–5 October.",
+      "publishedAt": "2026-10-03T12:17:53Z",
+      "expiresAt": "2026-10-08T12:17:53Z",
+      "items": [
+        {
+          "channelID": "imsa",
+          "channelName": "IMSA SportsCar Championship",
+          "headline": "Motul Petit Le Mans",
+          "detail": "Michelin Raceway Road Atlanta · Sat 3 Oct",
+          "body": "Round 11 of the IMSA SportsCar Championship season.",
+          "date": "2026-10-03",
+          "round": 11
+        },
+        {
+          "channelID": "f1",
+          "channelName": "Formula 1",
+          "headline": "Bahrain Grand Prix in Malaysia",
+          "detail": "Sepang International Circuit, Malaysia · Sun 4 Oct",
+          "body": "Round 16 of the Formula 1 season. The race starts at 07:00 UTC.",
+          "date": "2026-10-04",
+          "round": 16
+        },
+        {
+          "channelID": "motogp",
+          "channelName": "MotoGP",
+          "headline": "Grand Prix of Japan",
+          "detail": "Mobility Resort Motegi, Japan · Sun 4 Oct",
+          "body": "Round 16 of the MotoGP season.",
+          "date": "2026-10-04",
+          "round": 16
+        },
+        {
+          "channelID": "nascar",
+          "channelName": "NASCAR Cup Series",
+          "headline": "South Point 400",
+          "detail": "Las Vegas Motor Speedway · Sun 4 Oct",
+          "body": "Round 31 of the NASCAR Cup Series season.",
+          "date": "2026-10-04",
+          "round": 31
+        },
+        {
+          "channelID": "nhra",
+          "channelName": "NHRA Drag Racing",
+          "headline": "Midwest Nationals",
+          "detail": "World Wide Technology Raceway, Illinois · Sun 4 Oct",
+          "body": "This NHRA Drag Racing round.",
+          "date": "2026-10-04"
+        },
+        {
+          "channelID": "wrc",
+          "channelName": "World Rally Championship",
+          "headline": "Rally Italia Sardegna",
+          "detail": "Alghero, Italy · Sun 4 Oct",
+          "body": "Round 13 of the World Rally Championship season.",
+          "date": "2026-10-04",
+          "round": 13
+        }
+      ]
+    },
     {
       "id": "2026-10-02-preview",
       "kind": "preview",
@@ -200,78 +264,6 @@
           "body": "The World Rally Championship travels to Alghero, Italy for Rally Italia Sardegna on Sun 4 Oct.",
           "date": "2026-10-04",
           "round": 13
-        }
-      ]
-    },
-    {
-      "id": "2026-09-29-recap",
-      "kind": "recap",
-      "title": "Last week in motorsport",
-      "dateRange": "22–28 September",
-      "intro": "A look back at the racing action from 22 to 28 September, covering rounds across Formula 1, Formula 2, NASCAR Cup Series, NHRA Drag Racing and the World Endurance Championship.",
-      "publishedAt": "2026-09-29T13:49:45Z",
-      "expiresAt": "2026-10-03T13:49:45Z",
-      "items": [
-        {
-          "channelID": "f1",
-          "channelName": "Formula 1",
-          "headline": "Azerbaijan Grand Prix",
-          "detail": "Baku City Circuit, Azerbaijan · Sat 26 Sep",
-          "body": "George Russell of Mercedes won the Azerbaijan Grand Prix at Baku City Circuit, Azerbaijan, followed by Max Verstappen and Isack Hadjar for Red Bull.",
-          "date": "2026-09-26",
-          "round": 15,
-          "podium": [
-            {
-              "position": 1,
-              "name": "George Russell",
-              "team": "Mercedes"
-            },
-            {
-              "position": 2,
-              "name": "Max Verstappen",
-              "team": "Red Bull"
-            },
-            {
-              "position": 3,
-              "name": "Isack Hadjar",
-              "team": "Red Bull"
-            }
-          ]
-        },
-        {
-          "channelID": "f2",
-          "channelName": "Formula 2",
-          "headline": "Baku",
-          "detail": "Baku City Circuit, Azerbaijan · Sun 27 Sep",
-          "body": "Formula 2 arrived in Baku on Sunday 27 September.",
-          "date": "2026-09-27",
-          "round": 12
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "Hollywood Casino 400",
-          "detail": "Kansas Speedway · Sun 27 Sep",
-          "body": "The NASCAR Cup Series visited Kansas Speedway for the Hollywood Casino 400 on Sunday 27 September.",
-          "date": "2026-09-27",
-          "round": 30
-        },
-        {
-          "channelID": "nhra",
-          "channelName": "NHRA Drag Racing",
-          "headline": "Nationals at The Rock",
-          "detail": "Rockingham Dragway, North Carolina · Sun 27 Sep",
-          "body": "NHRA Drag Racing held the Nationals at The Rock at Rockingham Dragway, North Carolina, on Sunday 27 September.",
-          "date": "2026-09-27"
-        },
-        {
-          "channelID": "wec",
-          "channelName": "World Endurance Championship",
-          "headline": "6 Hours of Fuji",
-          "detail": "Fuji Speedway, Japan · Sun 27 Sep",
-          "body": "Round seven of the World Endurance Championship took place at Fuji Speedway, Japan, for the 6 Hours of Fuji on Sunday 27 September.",
-          "date": "2026-09-27",
-          "round": 7
         }
       ]
     }
