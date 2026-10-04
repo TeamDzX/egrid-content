@@ -79,8 +79,14 @@ invented circuit length does not.
 
 ## `digest.json` — the weekly digest (generated, do not hand-edit)
 
-The card at the top of Home. **This file is written by a robot**, every
-morning at 07:00 UTC, straight to `live`:
+The card at the top of Home. **This file is written by a robot**, straight
+to `live`. The action checks hourly from 07:23 to 21:23 UTC and rebuilds
+only when something is due: the first build of the day, the three hours
+before a round with a known start time (so the preview carries the final
+running order), or a race that has just finished (its "Race Report" lands
+the same evening — four hours after a known start, otherwise next morning).
+Nothing is built while the writer's server hibernates, 23:00–07:00 UK time,
+whatever time GitHub actually starts the job. A manual run always builds.
 
 | Day | Edition | What it says |
 |---|---|---|
