@@ -1,49 +1,60 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-04T13:05:13Z",
+  "generatedAt": "2026-10-04T20:04:11Z",
   "editions": [
     {
       "id": "2026-10-04-preview",
       "kind": "preview",
       "title": "This weekend in motorsport",
       "dateRange": "4–5 October",
-      "intro": "A busy weekend of racing lies ahead with five rounds across Formula 1, MotoGP, NASCAR Cup Series, NHRA Drag Racing, and the World Rally Championship.",
-      "publishedAt": "2026-10-04T13:05:13Z",
-      "expiresAt": "2026-10-09T13:05:13Z",
+      "intro": "Looking ahead to the weekend of 4–5 October, we have plenty of action across several championships. Formula 1 and MotoGP both head into round 16, while NASCAR continues its season at round 31. The NHRA and World Rally Championship also have important events scheduled for the coming days.",
+      "publishedAt": "2026-10-04T20:04:11Z",
+      "expiresAt": "2026-10-09T20:04:11Z",
       "items": [
         {
           "channelID": "f1",
           "channelName": "Formula 1",
           "headline": "Bahrain Grand Prix in Malaysia",
           "detail": "Sepang International Circuit, Malaysia · Sun 4 Oct",
-          "body": "The Bahrain Grand Prix in Malaysia takes place at the Sepang International Circuit on Sun 4 Oct at 07:00 UTC.",
+          "body": "The Bahrain Grand Prix in Malaysia takes place on Sun 4 Oct at 07:00 UTC. With qualifying set for 08:00 UTC on Sat 3 Oct, all eyes will be on the championship battle where Andrea Kimi Antonelli holds an 84-point lead over George Russell.",
           "date": "2026-10-04",
-          "round": 16
+          "round": 16,
+          "facts": [
+            "Qualifying Sat 3 Oct, 08:00 UTC",
+            "Andrea Kimi Antonelli leads the championship by 84 points from George Russell"
+          ]
         },
         {
           "channelID": "motogp",
           "channelName": "MotoGP",
           "headline": "Grand Prix of Japan",
           "detail": "Mobility Resort Motegi, Japan · Sun 4 Oct",
-          "body": "MotoGP arrives at Mobility Resort Motegi for the Grand Prix of Japan on Sun 4 Oct.",
+          "body": "The Grand Prix of Japan arrives at Mobility Resort Motegi on Sun 4 Oct. Jorge Martin holds a slim two-point advantage over Marc Marquez in the championship standings.",
           "date": "2026-10-04",
-          "round": 16
+          "round": 16,
+          "facts": [
+            "Jorge Martin leads the championship by 2 points from Marc Marquez"
+          ]
         },
         {
           "channelID": "nascar",
           "channelName": "NASCAR Cup Series",
           "headline": "South Point 400",
           "detail": "Las Vegas Motor Speedway · Sun 4 Oct",
-          "body": "The NASCAR Cup Series visits Las Vegas Motor Speedway for the South Point 400 on Sun 4 Oct.",
+          "body": "The South Point 400 runs at Las Vegas Motor Speedway on Sun 4 Oct from 21:30 UTC. This 400.5-mile race consists of 267 laps, with US coverage available on TV via USA and on radio through PRN.",
           "date": "2026-10-04",
-          "round": 31
+          "round": 31,
+          "facts": [
+            "267 laps, 400.5 miles",
+            "US coverage: USA (TV), PRN (radio)"
+          ]
         },
         {
           "channelID": "nhra",
           "channelName": "NHRA Drag Racing",
           "headline": "Midwest Nationals",
           "detail": "World Wide Technology Raceway, Illinois · Sun 4 Oct",
-          "body": "The Midwest Nationals will be held at World Wide Technology Raceway, Illinois, on Sun 4 Oct.",
+          "body": "The Midwest Nationals will be held at the World Wide Technology Raceway in Illinois on Sun 4 Oct.",
           "date": "2026-10-04"
         },
         {
@@ -51,7 +62,7 @@
           "channelName": "World Rally Championship",
           "headline": "Rally Italia Sardegna",
           "detail": "Alghero, Italy · Sun 4 Oct",
-          "body": "Rally Italia Sardegna takes place in Alghero on Sun 4 Oct for round 13 of the World Rally Championship.",
+          "body": "Round 13 of the World Rally Championship is Rally Italia Sardegna, taking place in Alghero, Italy on Sun 4 Oct.",
           "date": "2026-10-04",
           "round": 13
         }
@@ -257,6 +268,195 @@
           "round": 13
         }
       ]
+    }
+  ],
+  "lastRaces": [
+    {
+      "channelID": "imsa",
+      "channelName": "IMSA SportsCar Championship",
+      "headline": "Motul Petit Le Mans",
+      "detail": "Michelin Raceway Road Atlanta · Sat 3 Oct",
+      "body": "The Motul Petit Le Mans was held at Michelin Raceway Road Atlanta. This round took place on Saturday 3 October.",
+      "date": "2026-10-03",
+      "round": 11,
+      "writer": "own server"
+    },
+    {
+      "channelID": "wec",
+      "channelName": "World Endurance Championship",
+      "headline": "6 Hours of Fuji",
+      "detail": "Fuji Speedway, Japan · Sun 27 Sep",
+      "body": "The 6 Hours of Fuji was held at Fuji Speedway, Japan. It ran on Sunday 27 September.",
+      "date": "2026-09-27",
+      "round": 7,
+      "writer": "own server"
+    },
+    {
+      "channelID": "nhra",
+      "channelName": "NHRA Drag Racing",
+      "headline": "Nationals at The Rock",
+      "detail": "Rockingham Dragway, North Carolina · Sun 27 Sep",
+      "body": "The Nationals at The Rock took place at Rockingham Dragway in North Carolina. This event occurred on Sunday 27 September.",
+      "date": "2026-09-27",
+      "writer": "own server"
+    },
+    {
+      "channelID": "nascar",
+      "channelName": "NASCAR Cup Series",
+      "headline": "Hollywood Casino 400",
+      "detail": "Kansas Speedway · Sun 27 Sep",
+      "body": "Kyle Larson from Hendrick Motorsports won the Hollywood Casino 400 at Kansas Speedway, with Austin Cindric for Team Penske and Denny Hamlin of Joe Gibbs Racing also on the podium. The race featured 13 lead changes among seven drivers over 267 laps.",
+      "date": "2026-09-27",
+      "round": 30,
+      "facts": [
+        "267 laps, 13 lead changes among 7 drivers",
+        "5 cautions for 26 laps",
+        "Most laps led: Kyle Larson (235)",
+        "Margin of victory: 0.565 s"
+      ],
+      "podium": [
+        {
+          "position": 1,
+          "name": "Kyle Larson",
+          "team": "Hendrick Motorsports"
+        },
+        {
+          "position": 2,
+          "name": "Austin Cindric",
+          "team": "Team Penske"
+        },
+        {
+          "position": 3,
+          "name": "Denny Hamlin",
+          "team": "Joe Gibbs Racing"
+        }
+      ],
+      "writer": "own server"
+    },
+    {
+      "channelID": "f2",
+      "channelName": "Formula 2",
+      "headline": "Baku",
+      "detail": "Baku City Circuit, Azerbaijan · Sun 27 Sep",
+      "body": "The Formula 2 action returned to the Baku City Circuit in Azerbaijan on Sunday 27 September for round 12. It was a busy weekend of racing on the streets of Baku.",
+      "date": "2026-09-27",
+      "round": 12,
+      "writer": "own server"
+    },
+    {
+      "channelID": "f1",
+      "channelName": "Formula 1",
+      "headline": "Azerbaijan Grand Prix",
+      "detail": "Baku City Circuit, Azerbaijan · Sat 26 Sep",
+      "body": "George Russell from Mercedes won the Azerbaijan Grand Prix on Saturday 26 September, with Max Verstappen and Isack Hadjar of Red Bull following him to the podium. Andrea Kimi Antonelli held an 84-point lead over Russell in the championship.",
+      "date": "2026-09-26",
+      "round": 15,
+      "facts": [
+        "Andrea Kimi Antonelli leads the championship by 84 points from George Russell"
+      ],
+      "podium": [
+        {
+          "position": 1,
+          "name": "George Russell",
+          "team": "Mercedes"
+        },
+        {
+          "position": 2,
+          "name": "Max Verstappen",
+          "team": "Red Bull"
+        },
+        {
+          "position": 3,
+          "name": "Isack Hadjar",
+          "team": "Red Bull"
+        }
+      ],
+      "writer": "own server"
+    },
+    {
+      "channelID": "motogp",
+      "channelName": "MotoGP",
+      "headline": "Grand Prix of Austria",
+      "detail": "Red Bull Ring - Spielberg, Austria · Sun 20 Sep",
+      "body": "Pedro Acosta of Red Bull KTM Factory Racing won the Grand Prix of Austria on Sunday 20 September, ahead of Aprilia Racing's Jorge Martin and Marco Bezzecchi. Jorge Martin led the championship by two points from Marc Marquez.",
+      "date": "2026-09-20",
+      "round": 15,
+      "facts": [
+        "Jorge Martin leads the championship by 2 points from Marc Marquez"
+      ],
+      "podium": [
+        {
+          "position": 1,
+          "name": "Pedro Acosta",
+          "team": "Red Bull KTM Factory Racing"
+        },
+        {
+          "position": 2,
+          "name": "Jorge Martin",
+          "team": "Aprilia Racing"
+        },
+        {
+          "position": 3,
+          "name": "Marco Bezzecchi",
+          "team": "Aprilia Racing"
+        }
+      ],
+      "writer": "own server"
+    },
+    {
+      "channelID": "cliocup",
+      "channelName": "Clio Cup Series",
+      "headline": "Spa-Francorchamps",
+      "detail": "Circuit de Spa-Francorchamps, Belgium · Sat 19 Sep",
+      "body": "The Clio Cup Series visited Spa-Francorchamps on Saturday 19 September for round 5. The circuit features a 7.004 km lap with 19 corners and has been racing since 1921.",
+      "date": "2026-09-19",
+      "round": 5,
+      "facts": [
+        "7.004 km lap, 19 corners, first raced 1921"
+      ],
+      "writer": "own server"
+    },
+    {
+      "channelID": "wrc",
+      "channelName": "World Rally Championship",
+      "headline": "Rally Chile",
+      "detail": "Concepcion, Chile · Sun 13 Sep",
+      "body": "Rally Chile took place in Concepcion, Chile, on Sunday 13 September for the twelfth round of the World Rally Championship.",
+      "date": "2026-09-13",
+      "round": 12,
+      "writer": "own server"
+    },
+    {
+      "channelID": "f3",
+      "channelName": "Formula 3",
+      "headline": "Madrid",
+      "detail": "Madrid, Spain · Sun 13 Sep",
+      "body": "The tenth round of Formula 3 was held in Madrid, Spain, on Sunday 13 September.",
+      "date": "2026-09-13",
+      "round": 10,
+      "writer": "own server"
+    },
+    {
+      "channelID": "porschecup",
+      "channelName": "Porsche Supercup",
+      "headline": "Monza (double-header)",
+      "detail": "Autodromo Nazionale Monza, Italy · Sun 6 Sep",
+      "body": "The seventh round of the Porsche Supercup was a double-header at Autodromo Nazionale Monza in Italy on Sunday 6 September. This circuit features an 11-corner, 5.793 km lap and was first raced in 1922.",
+      "date": "2026-09-06",
+      "round": 7,
+      "facts": [
+        "5.793 km lap, 11 corners, first raced 1922"
+      ],
+      "writer": "own server"
+    },
+    {
+      "channelID": "indycar",
+      "channelName": "IndyCar",
+      "headline": "Season Finale",
+      "detail": "WeatherTech Raceway Laguna Seca · Sun 6 Sep",
+      "body": "The IndyCar season concluded with its finale at WeatherTech Raceway Laguna Seca on Sunday 6 September.",
+      "date": "2026-09-06",
+      "writer": "own server"
     }
   ]
 }
