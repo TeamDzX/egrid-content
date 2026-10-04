@@ -12,8 +12,20 @@ Rebuilt every morning, written into `digest.json` at the repo root:
 
 The facts come from the same sources the apps use — the static calendars in
 `channels.json`, Jolpica for F1, and the Pulselive feeds for MotoGP and
-Formula E. WRC's API is dead, so its rounds come from the static calendar
-like the other nine channels.
+Formula E — plus NASCAR's own public results feed, which carries start
+times, broadcasters, podiums and race statistics the static calendar lacks.
+WRC's API is dead, so its rounds come from the static calendar like the
+other eight channels.
+
+Every round carries a few short `facts` lines (session times, the title
+fight, the venue, race statistics) that the apps show under the prose and
+the writer is given to work from.
+
+Besides the dated editions the file holds `lastRaces`: one write-up per
+series of its most recent completed round, whenever it was. Editions expire
+within days; these stay until the next round replaces them, so a race page
+and a channel's "Last Race" section always have something to say. A
+write-up is only re-written when its round or podium changes.
 
 The prose is optional, and comes from whichever writer is configured:
 
@@ -41,6 +53,7 @@ nothing at all could be built; a single failed source is logged and skipped.
 from __future__ import annotations
 
 import argparse
+import copy
 import datetime as dt
 import json
 import os
@@ -71,6 +84,9 @@ USER_AGENT = "EGrid-digest/1.0 (+https://github.com/TeamDzX/egrid-content)"
 TIMEOUT = 20
 
 JOLPICA = "https://api.jolpi.ca/ergast/f1"
+NASCAR = "https://cf.nascar.com/cacher"
+NASCAR_CUP_SERIES = 1
+CIRCUITS_PATH = REPO_ROOT / "circuits.json"
 MOTOGP = "https://api.motogp.pulselive.com/motogp/v1/results"
 FORMULA_E = "https://api.formula-e.pulselive.com/formula-e/v1"
 
@@ -106,6 +122,11 @@ class Round:
     round_number: int | None = None
     external_id: str | None = None       # the feed's own ID, for result lookups
     podium: list[PodiumEntry] = field(default_factory=list)
+    # Short factual lines shown under the prose: session times, the title
+    # fight, the venue, race statistics. Never written by a model.
+    facts: list[str] = field(default_factory=list)
+    # Qualifying and sprint times; facts only for a round still to run.
+    session_facts: list[str] = field(default_factory=list)
 
     @property
     def sort_key(self):
@@ -197,8 +218,36 @@ def f1_rounds(channel: dict) -> list[Round]:
             date=dt.date.fromisoformat(race["date"]),
             time_utc=(race.get("time") or "")[:5] or None,
             round_number=int(race["round"]) if race.get("round") else None,
+            session_facts=f1_session_facts(race),
         ))
     return rounds
+
+
+F1_SESSIONS = (("SprintQualifying", "Sprint qualifying"), ("Sprint", "Sprint"),
+               ("Qualifying", "Qualifying"))
+
+
+def f1_session_facts(race: dict) -> list[str]:
+    """The weekend's headline sessions, earliest first: "Qualifying Sat 10 Oct,
+    13:00 UTC". Practice is left out — the race page lists every session."""
+    lines = []
+    for key, label in F1_SESSIONS:
+        session = race.get(key) or {}
+        try:
+            day = dt.date.fromisoformat(session["date"])
+        except (KeyError, ValueError):
+            continue
+        time_utc = (session.get("time") or "")[:5]
+        lines.append(f"{label} {day_label(day)}" + (f", {time_utc} UTC" if time_utc else ""))
+    return lines
+
+
+def f1_leaders() -> list[tuple[str, float]]:
+    data = get_json(f"{JOLPICA}/current/driverStandings.json")
+    lists = data["MRData"]["StandingsTable"].get("StandingsLists", [])
+    rows = lists[0].get("DriverStandings", []) if lists else []
+    return [(f"{r['Driver'].get('givenName', '')} {r['Driver'].get('familyName', '')}".strip(),
+             float(r.get("points") or 0)) for r in rows[:2]]
 
 
 def f1_podium(round_number: int) -> list[PodiumEntry]:
@@ -218,14 +267,20 @@ def f1_podium(round_number: int) -> list[PodiumEntry]:
 def motogp_rounds(channel: dict) -> list[Round]:
     seasons = get_json(f"{MOTOGP}/seasons")
     current = next((s for s in seasons if s.get("current")), None) or max(seasons, key=lambda s: s.get("year", 0))
-    events = []
+    # An event under way can be listed as both finished and unfinished, and
+    # the finished list is not in date order (tests come last), so dedupe by
+    # ID, sort by date and count only the races.
+    by_id = {}
     for finished in ("true", "false"):
-        events += get_json(f"{MOTOGP}/events?seasonUuid={current['id']}&isFinished={finished}")
+        for event in get_json(f"{MOTOGP}/events?seasonUuid={current['id']}&isFinished={finished}"):
+            if event.get("id") and event.get("date_end") and not event.get("test"):
+                by_id[event["id"]] = event
+    events = sorted(by_id.values(), key=lambda e: e["date_end"])
     rounds = []
     for index, event in enumerate(events, start=1):
         name = (event.get("name") or "").strip()
         end = event.get("date_end")
-        if not name or not end or event.get("test"):
+        if not name:
             continue
         # The premier class races on the event's final day.
         date = dt.date.fromisoformat(end[:10])
@@ -256,6 +311,28 @@ def motogp_podium(event_id: str) -> list[PodiumEntry]:
         podium.append(PodiumEntry(position, (row.get("rider") or {}).get("full_name", ""),
                                   (row.get("team") or {}).get("name", "")))
     return sorted(podium, key=lambda p: p.position)[:3]
+
+
+def motogp_leaders() -> list[tuple[str, float]]:
+    seasons = get_json(f"{MOTOGP}/seasons")
+    current = next((s for s in seasons if s.get("current")), None) or max(seasons, key=lambda s: s.get("year", 0))
+    categories = get_json(f"{MOTOGP}/categories?seasonUuid={current['id']}")
+    premier = next((c for c in categories if "motogp" in (c.get("name") or "").lower()), None)
+    if not premier:
+        return []
+    rows = get_json(f"{MOTOGP}/standings?seasonUuid={current['id']}&categoryUuid={premier['id']}").get("classification") or []
+    return [((r.get("rider") or {}).get("full_name", ""), float(r.get("points") or 0)) for r in rows[:2]]
+
+
+def formula_e_leaders() -> list[tuple[str, float]]:
+    championships = get_json(f"{FORMULA_E}/championships")["championships"]
+    current = next((c for c in championships if c.get("status") == "Present"), championships[-1])
+    rows = get_json(f"{FORMULA_E}/standings/drivers?championshipId={current['id']}")
+    leaders = []
+    for row in rows[:2]:
+        name = f"{row.get('driverFirstName', '')} {row.get('driverLastName', '')}".strip()
+        leaders.append((name, float(row.get("points") or 0)))
+    return leaders
 
 
 def formula_e_rounds(channel: dict) -> list[Round]:
@@ -307,8 +384,156 @@ def tidy_title(shouted: str) -> str:
     return " ".join(w if (i and w in SMALL_WORDS) else w.capitalize() for i, w in enumerate(words))
 
 
-def gather_rounds(channels: list[dict], want_podiums: bool,
-                  start: dt.date, end: dt.date) -> list[Round]:
+def nascar_races() -> list[dict]:
+    year = dt.date.today().year
+    return get_json(f"{NASCAR}/{year}/{NASCAR_CUP_SERIES}/race_list_basic.json")
+
+
+def nascar_feed_race(r: Round, races: list[dict]) -> dict | None:
+    """The feed's entry for a calendar round: same day, give or take one,
+    since the static calendar and the feed disagree on time zones."""
+    best = None
+    for race in races:
+        try:
+            day = dt.date.fromisoformat((race.get("race_date") or "")[:10])
+        except ValueError:
+            continue
+        gap = abs((day - r.date).days)
+        if gap <= 1 and (best is None or gap < best[0]):
+            best = (gap, race)
+    return best[1] if best else None
+
+
+def enrich_nascar(r: Round, race: dict, finished: bool) -> None:
+    """Start time and broadcasters for a preview; podium and the race's
+    shape for a finished round. All of it straight from the feed."""
+    r.external_id = str(race.get("race_id"))
+    start = next((s.get("start_time_utc") for s in race.get("schedule") or []
+                  if (s.get("event_name") or "").strip().lower() == "race"), None)
+    if start and len(start) >= 16:
+        r.time_utc = start[11:16]
+    if not finished:
+        laps = race.get("scheduled_laps")
+        distance = race.get("scheduled_distance")
+        if laps and distance:
+            r.facts.append(f"{laps} laps, {distance:g} miles")
+        outlets = [o for o in (race.get("television_broadcaster"), race.get("radio_broadcaster")) if o]
+        if outlets:
+            r.facts.append("US coverage: " + " (TV), ".join(outlets[:1]) + (f" (TV), {outlets[1]} (radio)" if len(outlets) > 1 else " (TV)"))
+        return
+    feed = get_json(f"{NASCAR}/{r.date.year}/{NASCAR_CUP_SERIES}/{race['race_id']}/weekend-feed.json")
+    weekend = (feed.get("weekend_race") or [{}])[0]
+    results = sorted((x for x in weekend.get("results") or [] if x.get("finishing_position")),
+                     key=lambda x: x["finishing_position"])
+    r.podium = [PodiumEntry(x["finishing_position"], (x.get("driver_fullname") or "").strip(),
+                            (x.get("team_name") or "").strip()) for x in results[:3]]
+    laps = weekend.get("actual_laps") or race.get("actual_laps")
+    changes, leaders = weekend.get("number_of_lead_changes"), weekend.get("number_of_leaders")
+    if laps and changes is not None and leaders:
+        r.facts.append(f"{laps} laps, {changes} lead changes among {leaders} drivers")
+    cautions = weekend.get("number_of_cautions")
+    if cautions is not None:
+        r.facts.append(f"{cautions} caution{'s' if cautions != 1 else ''} for {weekend.get('number_of_caution_laps') or 0} laps")
+    led = max(results, key=lambda x: x.get("laps_led") or 0, default=None)
+    if led and led.get("laps_led"):
+        r.facts.append(f"Most laps led: {led['driver_fullname'].strip()} ({led['laps_led']})")
+    margin = (weekend.get("margin_of_victory") or "").strip()
+    if margin and margin[0] in ".0123456789":
+        r.facts.append(f"Margin of victory: {('0' + margin) if margin.startswith('.') else margin} s")
+
+
+def normalise(text: str) -> str:
+    import unicodedata
+    folded = unicodedata.normalize("NFKD", text.lower())
+    return "".join(c for c in folded if not unicodedata.combining(c))
+
+
+def load_circuits() -> list[dict]:
+    try:
+        return json.loads(CIRCUITS_PATH.read_text()).get("circuits", [])
+    except (OSError, json.JSONDecodeError):
+        return []
+
+
+def circuit_for(r: Round, circuits: list[dict]) -> dict | None:
+    """Same rule as the apps' `circuit(for:)`: longest matching key wins,
+    series-specific entries before shared ones."""
+    haystack = normalise(f"{r.location} {r.name}")
+
+    def best(candidates):
+        scored = []
+        for c in candidates:
+            hits = [len(k) for k in (normalise(k) for k in c.get("matchKeys") or [] if k) if k in haystack]
+            if hits:
+                scored.append((max(hits), c))
+        return max(scored, key=lambda t: t[0])[1] if scored else None
+
+    return (best([c for c in circuits if r.channel_id in (c.get("channelIDs") or [])])
+            or best([c for c in circuits if not c.get("channelIDs")]))
+
+
+def circuit_fact(circuit: dict) -> str | None:
+    parts = []
+    if circuit.get("lengthKm"):
+        parts.append(f"{circuit['lengthKm']:g} km lap")
+    if circuit.get("corners"):
+        parts.append(f"{circuit['corners']} corners")
+    if circuit.get("firstHeld"):
+        parts.append(f"first raced {circuit['firstHeld']}")
+    return ", ".join(parts).capitalize() if parts else None
+
+
+LEADER_SOURCES = {"f1": f1_leaders, "motogp": motogp_leaders, "formulae": formula_e_leaders}
+_leaders_cache: dict[str, list[tuple[str, float]]] = {}
+
+
+def title_fight(channel_id: str) -> str | None:
+    """'Kimi Antonelli leads the championship by 84 points from George
+    Russell' — current standings, so only ever attached to the newest
+    rounds (this weekend's, or a series' last race)."""
+    source = LEADER_SOURCES.get(channel_id)
+    if not source:
+        return None
+    if channel_id not in _leaders_cache:
+        _leaders_cache[channel_id] = safe(f"{channel_id} standings", source, [])
+    leaders = _leaders_cache[channel_id]
+    if len(leaders) < 2 or not leaders[0][0]:
+        return None
+    (first, a), (second, b) = leaders[0], leaders[1]
+    gap = a - b
+    if gap <= 0:
+        return f"{first} and {second} are level on {a:g} points at the top of the championship"
+    return f"{first} leads the championship by {gap:g} point{'s' if gap != 1 else ''} from {second}"
+
+
+def add_context(rounds: list[Round], circuits: list[dict], with_standings: bool,
+                upcoming: bool = False) -> None:
+    for r in rounds:
+        if upcoming:
+            r.facts[:0] = r.session_facts
+        if with_standings:
+            line = title_fight(r.channel_id)
+            if line:
+                r.facts.append(line)
+        circuit = circuit_for(r, circuits)
+        line = circuit_fact(circuit) if circuit else None
+        if line:
+            r.facts.append(line)
+
+
+def fetch_podium(r: Round) -> list[PodiumEntry]:
+    if r.channel_id == "f1" and r.round_number:
+        return safe(f"F1 podium round {r.round_number}", lambda: f1_podium(r.round_number), [])
+    if r.channel_id == "motogp" and r.external_id:
+        return safe(f"MotoGP podium {r.name}", lambda: motogp_podium(r.external_id), [])
+    if r.channel_id == "formulae" and r.external_id:
+        return safe(f"Formula E podium {r.name}", lambda: formula_e_podium(r.external_id), [])
+    return r.podium
+
+
+def season_rounds(channels: list[dict]) -> list[Round]:
+    """Every round of every live channel this season, undated filtering
+    left to the caller."""
     all_rounds: list[Round] = []
     for channel in channels:
         if channel.get("comingSoon"):
@@ -328,16 +553,22 @@ def gather_rounds(channels: list[dict], want_podiums: bool,
             rounds = static_rounds(channel)
         log(f"  {channel['name']}: {len(rounds)} rounds")
         all_rounds += rounds
-    all_rounds = [r for r in all_rounds if start <= r.date <= end]
-    if want_podiums:
-        for r in all_rounds:
-            if r.channel_id == "f1" and r.round_number:
-                r.podium = safe(f"F1 podium round {r.round_number}", lambda: f1_podium(r.round_number), [])
-            elif r.channel_id == "motogp" and r.external_id:
-                r.podium = safe(f"MotoGP podium {r.name}", lambda: motogp_podium(r.external_id), [])
-            elif r.channel_id == "formulae" and r.external_id:
-                r.podium = safe(f"Formula E podium {r.name}", lambda: formula_e_podium(r.external_id), [])
     return all_rounds
+
+
+def finish_rounds(rounds: list[Round], finished: bool, today: dt.date) -> None:
+    """Podiums for finished rounds, and NASCAR's feed for both kinds."""
+    nascar = [r for r in rounds if r.channel_id == "nascar"]
+    if nascar:
+        races = safe("NASCAR feed", nascar_races, [])
+        for r in nascar:
+            race = nascar_feed_race(r, races)
+            if race:
+                done = finished and r.date < today
+                safe(f"NASCAR {r.name}", lambda: enrich_nascar(r, race, done), None)
+    if finished:
+        for r in rounds:
+            r.podium = fetch_podium(r)
 
 
 # --------------------------------------------------------------------------- #
@@ -370,14 +601,15 @@ def template_body(r: Round, kind: str) -> str:
     the podium."""
     which = f"Round {r.round_number} of the {r.channel_name} season" if r.round_number \
         else f"This {r.channel_name} round"
-    if kind == "recap":
+    if kind != "preview":
         if r.podium:
             first = r.podium[0]
             winner = first.name + (f" ({first.team})" if first.team else "")
             rest = [p.name for p in r.podium[1:]]
             chase = f" from {' and '.join(rest)}" if rest else ""
             return f"{which}. Won by {winner}{chase}."
-        return f"{which} is complete. This series does not publish results to E-Grid's data sources."
+        when = f" on {day_label(r.date)}" if kind == "lastRaces" else ""
+        return f"{which} ran at {r.location or r.name}{when}. Results for this series are not in E-Grid's feeds yet."
     if r.time_utc:
         return f"{which}. The race starts at {r.time_utc} UTC."
     return f"{which}."
@@ -410,8 +642,10 @@ def facts_for_llm(rounds: list[Round], kind: str) -> list[dict]:
             entry["round"] = r.round_number
         if r.time_utc and kind == "preview":
             entry["startUTC"] = r.time_utc
-        if kind == "recap":
+        if kind != "preview":
             entry["podium"] = [asdict(p) for p in r.podium] or "not published"
+        if r.facts:
+            entry["facts"] = r.facts
         facts.append(entry)
     return facts
 
@@ -419,14 +653,16 @@ def facts_for_llm(rounds: list[Round], kind: str) -> list[dict]:
 SYSTEM_PROMPT = """You write the short weekly digest inside E-Grid, a motorsport companion app that follows thirteen championships. British English. Plain, warm, knowledgeable — a well-read fan writing to other fans, not a press release.
 
 Hard rules:
-- Use ONLY the facts supplied. Never add results, drivers, teams, weather, injuries, standings, penalties or storylines that are not in the facts. If a podium says "not published", do not name anyone.
+- Use ONLY the facts supplied. Never add results, drivers, teams, weather, injuries, standings, penalties or storylines that are not in the facts. If a podium says "not published", do not name anyone, and do not mention results or their absence at all — write about the event itself.
 - Never invent a start time, a round number or a location.
 - Do not mention "this app", "E-Grid" or "the digest" in the text.
 - No exclamation marks, no emoji, no headings, no bullet points.
 
 Write:
 - intro: at most 55 words setting up the week. It may count rounds and name series.
-- items: for every fact index, one or two sentences of at most 40 words about that round. For a recap with a podium, state the winner and the other two podium finishers with their teams where given. For a preview, say where and when it runs, in the local-day form given, and add the UTC start only when supplied."""
+- items: for every fact index, two or three sentences of at most 60 words about that round. For a recap with a podium, state the winner and the other two podium finishers with their teams where given. For a preview, say where and when it runs, in the local-day form given, and add the UTC start only when supplied.
+- Where a round carries "facts", use one or two of them to give the reader something more than the date: what is at stake in the championship, a session to watch, the character of the venue, how the race unfolded. Restate them faithfully; do not draw conclusions they do not support.
+- An edition called "lastRaces" covers each series' most recent round, whenever it ran: write about it in the past tense."""
 
 
 COPY_SCHEMA = {
@@ -472,8 +708,11 @@ def apply_copy(data: dict, rounds: list[Round], kind: str, start: dt.date, end: 
         body = by_index.get(index)
         if not body:
             continue
-        if kind == "recap" and not r.podium and looks_like_a_result(body):
+        if kind != "preview" and not r.podium and looks_like_a_result(body):
             log(f"  dropped {writer} copy for {r.name}: reads like a result with no podium supplied")
+            continue
+        if kind == "preview" and looks_like_a_result(body, PREVIEW_RESULT_WORDS):
+            log(f"  dropped {writer} copy for {r.name}: a preview that reads like a result")
             continue
         bodies[index] = body
     intro = str(data.get("intro") or "").strip() or template_intro(rounds, kind, start, end)
@@ -522,7 +761,7 @@ def write_with_own_server(rounds: list[Round], kind: str, start: dt.date, end: d
             {"role": "user", "content": copy_request(rounds, kind, start, end)},
         ],
         "temperature": 0.4,
-        "max_tokens": 4000,
+        "max_tokens": 8000,
         # Honoured by servers that support it (Ollama, vLLM, LM Studio),
         # harmlessly ignored by the rest — hence the instruction above too.
         "response_format": {"type": "json_object"},
@@ -592,7 +831,8 @@ def write_with_claude(rounds: list[Round], kind: str, start: dt.date, end: dt.da
     return data
 
 
-def write_copy(rounds: list[Round], kind: str, start: dt.date, end: dt.date) -> tuple[str, list[str]] | None:
+def write_copy(rounds: list[Round], kind: str, start: dt.date, end: dt.date,
+               writer_out: list | None = None) -> tuple[str, list[str]] | None:
     """Tries the writers in order — your own server first, then Claude — and
     returns None when neither produced anything, so the template stands in."""
     for name, writer in (("own server", write_with_own_server), ("Claude", write_with_claude)):
@@ -602,6 +842,8 @@ def write_copy(rounds: list[Round], kind: str, start: dt.date, end: dt.date) -> 
             log(f"  {name} writer crashed: {type(error).__name__}: {error}; falling through")
             continue
         if data is not None:
+            if writer_out is not None:
+                writer_out.append(name)
             return apply_copy(data, rounds, kind, start, end, writer=name)
     log("  no writer available; using templated prose")
     return None
@@ -610,16 +852,43 @@ def write_copy(rounds: list[Round], kind: str, start: dt.date, end: dt.date) -> 
 RESULT_WORDS = ("won", "win", "victory", "podium", "finished", "second", "third", "p1", "p2", "p3")
 
 
-def looks_like_a_result(text: str) -> bool:
+# A preview may say a driver is second in the standings, but never that
+# anyone won or finished anything.
+PREVIEW_RESULT_WORDS = ("won ", "winner", "victory", "podium", "finished")
+
+
+def looks_like_a_result(text: str, words=RESULT_WORDS) -> bool:
     lowered = text.lower()
-    return any(word in lowered for word in RESULT_WORDS)
+    return any(word in lowered for word in words)
 
 
-def build_edition(kind: str, today: dt.date, channels: list[dict], use_llm: bool) -> dict:
+def item_json(r: Round, body: str) -> dict:
+    detail = " · ".join(p for p in [r.location, day_label(r.date)] if p)
+    item = {
+        "channelID": r.channel_id,
+        "channelName": r.channel_name,
+        "headline": r.name,
+        "detail": detail,
+        "body": body,
+        "date": r.date.isoformat(),
+    }
+    if r.round_number:
+        item["round"] = r.round_number
+    if r.facts:
+        item["facts"] = r.facts
+    if r.podium:
+        item["podium"] = [asdict(p) for p in r.podium]
+    return item
+
+
+def build_edition(kind: str, today: dt.date, season: list[Round], circuits: list[dict],
+                  use_llm: bool) -> dict:
     start, end = window(kind, today)
     log(f"{kind} edition for {start} .. {end}")
-    rounds = gather_rounds(channels, want_podiums=(kind == "recap"), start=start, end=end)
-    rounds.sort(key=lambda r: r.sort_key)
+    rounds = sorted((r for r in season if start <= r.date <= end), key=lambda r: r.sort_key)
+    finish_rounds(rounds, finished=(kind == "recap"), today=today)
+    # Standings are today's, so they belong with this weekend, not last week.
+    add_context(rounds, circuits, with_standings=(kind == "preview"), upcoming=(kind == "preview"))
     log(f"  {len(rounds)} rounds in window")
 
     written = write_copy(rounds, kind, start, end) if (use_llm and rounds) else None
@@ -631,23 +900,6 @@ def build_edition(kind: str, today: dt.date, channels: list[dict], use_llm: bool
 
     now = dt.datetime.now(dt.timezone.utc).replace(microsecond=0)
     ttl = RECAP_TTL_DAYS if kind == "recap" else PREVIEW_TTL_DAYS
-    items = []
-    for r, body in zip(rounds, bodies):
-        detail = " · ".join(p for p in [r.location, day_label(r.date)] if p)
-        item = {
-            "channelID": r.channel_id,
-            "channelName": r.channel_name,
-            "headline": r.name,
-            "detail": detail,
-            "body": body,
-            "date": r.date.isoformat(),
-        }
-        if r.round_number:
-            item["round"] = r.round_number
-        if r.podium:
-            item["podium"] = [asdict(p) for p in r.podium]
-        items.append(item)
-
     return {
         "id": f"{today.isoformat()}-{kind}",
         "kind": kind,
@@ -656,22 +908,82 @@ def build_edition(kind: str, today: dt.date, channels: list[dict], use_llm: bool
         "intro": intro,
         "publishedAt": now.isoformat().replace("+00:00", "Z"),
         "expiresAt": (now + dt.timedelta(days=ttl)).isoformat().replace("+00:00", "Z"),
-        "items": items,
+        "items": [item_json(r, body) for r, body in zip(rounds, bodies)],
     }
 
 
-def merge(out_path: Path, edition: dict) -> dict:
-    existing = []
+LAST_RACE_BATCH = 4
+
+
+def lastrace_key(item: dict) -> tuple:
+    """What a write-up is about. When it is unchanged the old prose stands,
+    so the writer is asked only about rounds that are new or newly scored."""
+    return (item.get("channelID"), item.get("headline"), item.get("date"),
+            tuple(p.get("name") for p in item.get("podium") or []))
+
+
+def build_last_races(today: dt.date, season: list[Round], circuits: list[dict],
+                     previous: list[dict], use_llm: bool) -> list[dict]:
+    """Each series' most recent completed round, whenever it ran."""
+    latest: dict[str, Round] = {}
+    for r in season:
+        if r.date < today and (r.channel_id not in latest or r.date > latest[r.channel_id].date):
+            latest[r.channel_id] = r
+    rounds = sorted(latest.values(), key=lambda r: r.sort_key, reverse=True)
+    log(f"last races: {len(rounds)} series")
+    finish_rounds(rounds, finished=True, today=today)
+    add_context(rounds, circuits, with_standings=True)
+
+    old = {lastrace_key(i): i for i in previous}
+    items = [item_json(r, template_body(r, "lastRaces")) for r in rounds]
+    stale = [index for index, item in enumerate(items)
+             if (old.get(lastrace_key(item)) or {}).get("writer") in (None, "template")]
+    for index, item in enumerate(items):
+        kept = old.get(lastrace_key(item))
+        if kept and index not in stale:
+            item["body"], item["writer"] = kept["body"], kept["writer"]
+        else:
+            item["writer"] = "template"
+
+    if not stale:
+        log(f"  all {len(items)} unchanged; nothing to write")
+    elif use_llm:
+        log(f"  writing {len(stale)} last-race write-up(s)")
+        # In small batches: a self-hosted model asked for a dozen at once
+        # tends to run out of room and return broken JSON for all of them.
+        for first in range(0, len(stale), LAST_RACE_BATCH):
+            batch = stale[first:first + LAST_RACE_BATCH]
+            todo = [rounds[i] for i in batch]
+            writer_out: list[str] = []
+            written = write_copy(todo, "lastRaces", today, today, writer_out)
+            if not written:
+                continue
+            _, bodies = written
+            for index, body, r in zip(batch, bodies, todo):
+                if body != template_body(r, "lastRaces"):
+                    items[index]["body"] = body
+                    items[index]["writer"] = writer_out[0] if writer_out else "own server"
+    return items
+
+
+def read_existing(out_path: Path) -> dict:
     if out_path.exists():
         try:
-            existing = json.loads(out_path.read_text()).get("editions", [])
-        except (json.JSONDecodeError, AttributeError):
-            existing = []
-    editions = [edition] + [e for e in existing if e.get("id") != edition["id"]]
+            data = json.loads(out_path.read_text())
+            if isinstance(data, dict):
+                return data
+        except json.JSONDecodeError:
+            pass
+    return {}
+
+
+def merge(existing: dict, edition: dict, last_races: list[dict]) -> dict:
+    editions = [edition] + [e for e in existing.get("editions", []) if e.get("id") != edition["id"]]
     return {
         "version": 1,
         "generatedAt": edition["publishedAt"],
         "editions": editions[:KEEP_EDITIONS],
+        "lastRaces": last_races,
     }
 
 
@@ -687,10 +999,16 @@ def main() -> int:
     kind = args.kind if args.kind != "auto" else ("recap" if today.weekday() in RECAP_WEEKDAYS else "preview")
 
     channels = load_channels()
-    edition = build_edition(kind, today, channels, use_llm=not args.no_llm)
+    circuits = load_circuits()
     out_path = Path(args.out)
-    out_path.write_text(json.dumps(merge(out_path, edition), ensure_ascii=False, indent=2) + "\n")
-    log(f"wrote {out_path} ({len(edition['items'])} items, edition {edition['id']})")
+    existing = read_existing(out_path)
+    season = season_rounds(channels)
+    edition = build_edition(kind, today, copy.deepcopy(season), circuits, use_llm=not args.no_llm)
+    last_races = build_last_races(today, copy.deepcopy(season), circuits,
+                                  existing.get("lastRaces", []), use_llm=not args.no_llm)
+    out_path.write_text(json.dumps(merge(existing, edition, last_races), ensure_ascii=False, indent=2) + "\n")
+    log(f"wrote {out_path} ({len(edition['items'])} items, edition {edition['id']}, "
+        f"{len(last_races)} last races)")
     return 0
 
 

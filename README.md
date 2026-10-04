@@ -93,6 +93,21 @@ apps do — the static calendars in this repo's `channels.json`, Jolpica for F1,
 Pulselive for MotoGP and Formula E — so the digest can never name a round the
 app doesn't know about.
 
+NASCAR's own public results feed (`cf.nascar.com/cacher`) is matched to the
+static calendar by date and adds start times, US broadcasters, the podium and
+the race's shape (lead changes, cautions, laps led). Every round also carries
+a few `facts` lines — qualifying and sprint times, the title fight for F1,
+MotoGP and Formula E, the venue from `circuits.json` — which the apps show
+under the prose and the writer is given to work from. They are always read
+from a feed, never written by a model.
+
+Besides the dated editions the file holds **`lastRaces`**: one write-up per
+series of its most recent completed round, however long ago. The apps show it
+as the "Race Report" on that race's page and under "Last Race" on the channel
+page, wherever `teams.json` has no fuller review. A write-up is only re-written
+when its round or podium changes, and the writer is asked about four at a time
+(a self-hosted model asked for a dozen at once returns broken JSON).
+
 **It is the one file that skips the `main` → `live` gate.** A Thursday preview
 that waits for a human on Friday is worthless, it carries no images or
 licensing, and every fact in it is machine-read from a feed. After pushing
