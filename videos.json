@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-03T12:35:51Z",
+  "generatedAt": "2026-10-04T13:13:28Z",
   "channels": [
     {
       "channelID": "f1",
@@ -207,34 +207,12 @@
           "allowedRegions": []
         },
         {
-          "id": "Bb1kKpYJFWg",
-          "title": "Inside The Madrid Grand Prix: The Full Breakdown! | Talking Bull",
-          "publishedAt": "2026-09-14T13:00:04Z",
-          "duration": "25:22",
-          "seconds": 1522,
-          "thumbnail": "https://i.ytimg.com/vi/Bb1kKpYJFWg/maxresdefault.jpg",
-          "source": "Red Bull Racing",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "DCdaTzU8QAc",
           "title": "Can F1 Drivers Build Their Dream Pizzas? 🍕",
           "publishedAt": "2026-09-07T16:30:02Z",
           "duration": "7:05",
           "seconds": 425,
           "thumbnail": "https://i.ytimg.com/vi/DCdaTzU8QAc/maxresdefault.jpg",
-          "source": "Visa Cash App RB F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "xMjc98WJ6B8",
-          "title": "⁠Testing Liam Lawson’s Knowledge | Top 10s",
-          "publishedAt": "2026-08-29T10:00:13Z",
-          "duration": "9:43",
-          "seconds": 583,
-          "thumbnail": "https://i.ytimg.com/vi/xMjc98WJ6B8/maxresdefault.jpg",
           "source": "Visa Cash App RB F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
@@ -422,6 +400,28 @@
           "duration": "5:49",
           "seconds": 349,
           "thumbnail": "https://i.ytimg.com/vi/-59xVmUn1YI/maxresdefault.jpg",
+          "source": "Aston Martin Aramco F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "MtIZTFY0jgs",
+          "title": "Race Simulator: Inside the Driver's Seat | Cadillac Formula 1® Team",
+          "publishedAt": "2026-07-14T13:25:01Z",
+          "duration": "9:21",
+          "seconds": 561,
+          "thumbnail": "https://i.ytimg.com/vi/MtIZTFY0jgs/maxresdefault.jpg",
+          "source": "Cadillac Formula 1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "oRgcT9w9OfU",
+          "title": "What home means | Exploring belonging through sport with YoungMinds and Valvoline",
+          "publishedAt": "2026-07-13T16:34:21Z",
+          "duration": "11:45",
+          "seconds": 705,
+          "thumbnail": "https://i.ytimg.com/vi/oRgcT9w9OfU/maxresdefault.jpg",
           "source": "Aston Martin Aramco F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
@@ -1278,17 +1278,6 @@
           "allowedRegions": []
         },
         {
-          "id": "K-mbDujj2uU",
-          "title": "#ItalianGP MotoGP - Star Studded - Sashimi Behind The Scenes",
-          "publishedAt": "2026-06-03T07:54:55Z",
-          "duration": "15:02",
-          "seconds": 902,
-          "thumbnail": "https://i.ytimg.com/vi/K-mbDujj2uU/maxresdefault.jpg",
-          "source": "HondaRacingHRC",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "8e2xPXN6Xyw",
           "title": "Red Bull KTM MotoGP™ 2026 Factory Floor Episode 6 #CATALANGP | KTM",
           "publishedAt": "2026-05-21T17:00:29Z",
@@ -1328,6 +1317,17 @@
           "duration": "47:35",
           "seconds": 2855,
           "thumbnail": "https://i.ytimg.com/vi/U8ePf9_uDdw/maxresdefault.jpg",
+          "source": "Ducati",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "KUsLXsxHaE8",
+          "title": "LIVE ENG -  Campioni in Pista 2026 | Ducati Lenovo Team MotoGP™ Unveil from Madonna di Campiglio",
+          "publishedAt": "2026-01-19T10:55:18Z",
+          "duration": "47:36",
+          "seconds": 2856,
+          "thumbnail": "https://i.ytimg.com/vi/KUsLXsxHaE8/maxresdefault.jpg",
           "source": "Ducati",
           "blockedRegions": [],
           "allowedRegions": []
