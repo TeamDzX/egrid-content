@@ -44,6 +44,14 @@ template. That is what keeps an LLM out of the results business.
 Usage:
     python3 digest/build_digest.py [--kind auto|preview|recap] [--date YYYY-MM-DD]
                                    [--out digest.json] [--no-llm]
+                                   [--when-due | --check-due]
+
+The scheduled action runs hourly through the day with `--when-due`, which
+rebuilds only when something has changed enough to matter: the first build
+of the day, the three hours before a round with a known start time, or a
+race that has finished since the last build. Nothing runs while the writer's
+server hibernates (23:00-07:00 UK time), however late GitHub starts the job.
+`--check-due` prints "due" or "skip" and builds nothing.
 
 `auto` picks recap on Monday and Tuesday and preview on every other day. `--date`
 pretends it is another day, for testing. Exit code is non-zero only when
@@ -79,6 +87,16 @@ RECAP_WEEKDAYS = {0, 1}
 # by Tuesday; a Monday recap has been superseded by Thursday's preview.
 PREVIEW_TTL_DAYS = 5
 RECAP_TTL_DAYS = 4
+
+# The preview is rebuilt this long before each round with a known start, so
+# the copy and facts reflect the final running order.
+PRE_RACE_LEAD = dt.timedelta(hours=3)
+# A round with a start time counts as finished this long after it began, so
+# its write-up can land the same evening instead of the next morning.
+FINISHED_AFTER = dt.timedelta(hours=4)
+# Alex's own server, which writes the prose, hibernates overnight (UK time).
+SERVER_ZONE = "Europe/London"
+SERVER_SLEEPS_FROM, SERVER_WAKES_AT = 23, 7
 
 USER_AGENT = "EGrid-digest/1.0 (+https://github.com/TeamDzX/egrid-content)"
 TIMEOUT = 20
@@ -131,6 +149,23 @@ class Round:
     @property
     def sort_key(self):
         return (self.date, self.channel_name)
+
+    @property
+    def start(self) -> dt.datetime | None:
+        if not self.time_utc:
+            return None
+        try:
+            clock = dt.time.fromisoformat(self.time_utc[:5])
+        except ValueError:
+            return None
+        return dt.datetime.combine(self.date, clock, tzinfo=dt.timezone.utc)
+
+    def has_finished(self, now: dt.datetime) -> bool:
+        # A known start wins over the date: a US evening race runs past
+        # midnight UTC and is not over just because the date has turned.
+        if self.start is not None:
+            return now >= self.start + FINISHED_AFTER
+        return self.date < now.date()
 
 
 # --------------------------------------------------------------------------- #
@@ -404,7 +439,7 @@ def nascar_feed_race(r: Round, races: list[dict]) -> dict | None:
     return best[1] if best else None
 
 
-def enrich_nascar(r: Round, race: dict, finished: bool) -> None:
+def enrich_nascar(r: Round, race: dict, finished: bool, time_only: bool = False) -> None:
     """Start time and broadcasters for a preview; podium and the race's
     shape for a finished round. All of it straight from the feed."""
     r.external_id = str(race.get("race_id"))
@@ -412,6 +447,8 @@ def enrich_nascar(r: Round, race: dict, finished: bool) -> None:
                   if (s.get("event_name") or "").strip().lower() == "race"), None)
     if start and len(start) >= 16:
         r.time_utc = start[11:16]
+    if time_only:
+        return
     if not finished:
         laps = race.get("scheduled_laps")
         distance = race.get("scheduled_distance")
@@ -556,15 +593,32 @@ def season_rounds(channels: list[dict]) -> list[Round]:
     return all_rounds
 
 
-def finish_rounds(rounds: list[Round], finished: bool, today: dt.date) -> None:
-    """Podiums for finished rounds, and NASCAR's feed for both kinds."""
-    nascar = [r for r in rounds if r.channel_id == "nascar"]
-    if nascar:
-        races = safe("NASCAR feed", nascar_races, [])
-        for r in nascar:
-            race = nascar_feed_race(r, races)
+_nascar_cache: list[dict] | None = None
+
+
+def nascar_feed() -> list[dict]:
+    global _nascar_cache
+    if _nascar_cache is None:
+        _nascar_cache = safe("NASCAR feed", nascar_races, [])
+    return _nascar_cache
+
+
+def nascar_start_times(rounds: list[Round]) -> None:
+    """Fills in NASCAR start times only, which the static calendar lacks."""
+    for r in rounds:
+        if r.channel_id == "nascar":
+            race = nascar_feed_race(r, nascar_feed())
             if race:
-                done = finished and r.date < today
+                safe(f"NASCAR {r.name}", lambda: enrich_nascar(r, race, False, time_only=True), None)
+
+
+def finish_rounds(rounds: list[Round], finished: bool, now: dt.datetime) -> None:
+    """Podiums for finished rounds, and NASCAR's feed for both kinds."""
+    for r in rounds:
+        if r.channel_id == "nascar":
+            race = nascar_feed_race(r, nascar_feed())
+            if race:
+                done = finished and r.has_finished(now)
                 safe(f"NASCAR {r.name}", lambda: enrich_nascar(r, race, done), None)
     if finished:
         for r in rounds:
@@ -886,7 +940,8 @@ def build_edition(kind: str, today: dt.date, season: list[Round], circuits: list
     start, end = window(kind, today)
     log(f"{kind} edition for {start} .. {end}")
     rounds = sorted((r for r in season if start <= r.date <= end), key=lambda r: r.sort_key)
-    finish_rounds(rounds, finished=(kind == "recap"), today=today)
+    finish_rounds(rounds, finished=(kind == "recap"),
+                  now=dt.datetime.now(dt.timezone.utc))
     # Standings are today's, so they belong with this weekend, not last week.
     add_context(rounds, circuits, with_standings=(kind == "preview"), upcoming=(kind == "preview"))
     log(f"  {len(rounds)} rounds in window")
@@ -922,16 +977,24 @@ def lastrace_key(item: dict) -> tuple:
             tuple(p.get("name") for p in item.get("podium") or []))
 
 
-def build_last_races(today: dt.date, season: list[Round], circuits: list[dict],
-                     previous: list[dict], use_llm: bool) -> list[dict]:
-    """Each series' most recent completed round, whenever it ran."""
+def latest_finished(season: list[Round], now: dt.datetime) -> list[Round]:
+    """Each series' most recent finished round. Today's rounds count once
+    their known start is FINISHED_AFTER behind us."""
+    nascar_start_times([r for r in season if r.date == now.date()])
     latest: dict[str, Round] = {}
     for r in season:
-        if r.date < today and (r.channel_id not in latest or r.date > latest[r.channel_id].date):
+        if r.has_finished(now) and (r.channel_id not in latest or r.date > latest[r.channel_id].date):
             latest[r.channel_id] = r
-    rounds = sorted(latest.values(), key=lambda r: r.sort_key, reverse=True)
+    return sorted(latest.values(), key=lambda r: r.sort_key, reverse=True)
+
+
+def build_last_races(now: dt.datetime, season: list[Round], circuits: list[dict],
+                     previous: list[dict], use_llm: bool) -> list[dict]:
+    """Each series' most recent completed round, whenever it ran."""
+    rounds = latest_finished(season, now)
+    today = now.date()
     log(f"last races: {len(rounds)} series")
-    finish_rounds(rounds, finished=True, today=today)
+    finish_rounds(rounds, finished=True, now=now)
     add_context(rounds, circuits, with_standings=True)
 
     old = {lastrace_key(i): i for i in previous}
@@ -987,24 +1050,79 @@ def merge(existing: dict, edition: dict, last_races: list[dict]) -> dict:
     }
 
 
+def server_asleep(now: dt.datetime) -> bool:
+    from zoneinfo import ZoneInfo
+    hour = now.astimezone(ZoneInfo(SERVER_ZONE)).hour
+    return hour >= SERVER_SLEEPS_FROM or hour < SERVER_WAKES_AT
+
+
+def due_reason(existing: dict, kind: str, today: dt.date, now: dt.datetime,
+               season: list[Round]) -> str | None:
+    """Why a scheduled run should rebuild now, or None to leave the file be."""
+    edition = next((e for e in existing.get("editions", [])
+                    if e.get("id") == f"{today.isoformat()}-{kind}"), None)
+    published = parse_instant(edition.get("publishedAt")) if edition else None
+    if not published:
+        return "first build of the day"
+    if kind == "preview":
+        start, end = window(kind, today)
+        upcoming = [r for r in season if start <= r.date <= end]
+        nascar_start_times(upcoming)
+        for r in upcoming:
+            if r.start and published < r.start - PRE_RACE_LEAD <= now < r.start:
+                return f"{r.channel_name}: {r.name} starts at {r.time_utc} UTC"
+    known = {(i.get("channelID"), i.get("headline"), i.get("date")) for i in existing.get("lastRaces", [])}
+    for r in latest_finished(season, now):
+        if (r.channel_id, r.name, r.date.isoformat()) not in known:
+            return f"{r.channel_name}: {r.name} has finished"
+    return None
+
+
+def parse_instant(value: str | None) -> dt.datetime | None:
+    try:
+        return dt.datetime.fromisoformat(value.replace("Z", "+00:00")) if value else None
+    except ValueError:
+        return None
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--kind", choices=["auto", "preview", "recap"], default="auto")
     parser.add_argument("--date", help="Pretend today is this date (YYYY-MM-DD)")
     parser.add_argument("--out", default=str(DEFAULT_OUT))
     parser.add_argument("--no-llm", action="store_true", help="Templated prose only")
+    parser.add_argument("--when-due", action="store_true",
+                        help="Rebuild only when something is due (scheduled runs)")
+    parser.add_argument("--check-due", action="store_true",
+                        help='Print "due" or "skip" and build nothing')
     args = parser.parse_args()
 
     today = dt.date.fromisoformat(args.date) if args.date else dt.datetime.now(dt.timezone.utc).date()
     kind = args.kind if args.kind != "auto" else ("recap" if today.weekday() in RECAP_WEEKDAYS else "preview")
 
-    channels = load_channels()
-    circuits = load_circuits()
+    now = dt.datetime.now(dt.timezone.utc).replace(microsecond=0)
+    if args.date:
+        now = dt.datetime.combine(today, dt.time(12), tzinfo=dt.timezone.utc)
     out_path = Path(args.out)
     existing = read_existing(out_path)
+    if args.when_due or args.check_due:
+        if server_asleep(now):
+            log("the writer's server is hibernating (23:00-07:00 UK); not building")
+            reason = None
+        else:
+            reason = due_reason(existing, kind, today, now, season_rounds(load_channels()))
+            log(f"due: {reason}" if reason else "nothing due; leaving digest.json as it is")
+        if args.check_due:
+            print("due" if reason else "skip")
+            return 0
+        if not reason:
+            return 0
+
+    channels = load_channels()
+    circuits = load_circuits()
     season = season_rounds(channels)
     edition = build_edition(kind, today, copy.deepcopy(season), circuits, use_llm=not args.no_llm)
-    last_races = build_last_races(today, copy.deepcopy(season), circuits,
+    last_races = build_last_races(now, copy.deepcopy(season), circuits,
                                   existing.get("lastRaces", []), use_llm=not args.no_llm)
     out_path.write_text(json.dumps(merge(existing, edition, last_races), ensure_ascii=False, indent=2) + "\n")
     log(f"wrote {out_path} ({len(edition['items'])} items, edition {edition['id']}, "

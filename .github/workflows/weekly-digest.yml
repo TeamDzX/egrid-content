@@ -18,9 +18,15 @@ name: Weekly digest
 
 on:
   schedule:
-    # Every day at 07:00 UTC. The script picks the edition: recap on Monday
-    # and Tuesday, preview Wednesday to Sunday.
-    - cron: "0 7 * * *"
+    # Hourly through the day; each run asks the script whether anything is
+    # due (first build of the day, three hours before a round with a known
+    # start, or a race just finished) and stops there when nothing is. The
+    # script also refuses while the writer's server hibernates, 23:00-07:00
+    # UK time, which matters because GitHub starts scheduled runs hours late
+    # when it is busy. Off the hour (:23) because on-the-hour slots queue
+    # longest. The script picks the edition: recap on Monday and Tuesday,
+    # preview Wednesday to Sunday.
+    - cron: "23 7-21 * * *"
   workflow_dispatch:
     inputs:
       kind:
@@ -35,15 +41,42 @@ on:
 permissions:
   contents: write
 
-concurrency:
-  # Shared with the highlight-videos job: both push to `live`, and a
+jobs:
+  # The hourly check runs outside the shared push queue: GitHub keeps only
+  # one pending run per concurrency group, so a dozen idle digest checks
+  # queued there could bump the day's team-review or video run.
+  due:
+    runs-on: ubuntu-latest
+    outputs:
+      due: ${{ steps.check.outputs.due }}
+    steps:
+      - name: Check out live
+        uses: actions/checkout@v4
+        with:
+          ref: live
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Anything due?
+        id: check
+        run: |
+          set -euo pipefail
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "due=due" >> "$GITHUB_OUTPUT"
+          else
+            echo "due=$(python3 digest/build_digest.py --check-due)" >> "$GITHUB_OUTPUT"
+          fi
+
+  build:
+    needs: due
+    if: needs.due.outputs.due == 'due'
+    concurrency:
+      # Shared with the highlight-videos job: both push to `live`, and a
   # simultaneous push loses the race and fails. Serialising them here is
   # cheaper than teaching either one to retry.
-  group: egrid-live-push
-  cancel-in-progress: false
-
-jobs:
-  build:
+      group: egrid-live-push
+      cancel-in-progress: false
     runs-on: ubuntu-latest
     steps:
       - name: Check out live
@@ -72,8 +105,12 @@ jobs:
           DATE="${{ github.event.inputs.date || '' }}"
           if [ -n "$DATE" ]; then
             python3 digest/build_digest.py --kind "$KIND" --date "$DATE"
-          else
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             python3 digest/build_digest.py --kind "$KIND"
+          else
+            # Asked again: the build may have queued behind another job long
+            # enough to reach the server's night.
+            python3 digest/build_digest.py --when-due
           fi
           python3 -m json.tool digest.json > /dev/null
 
