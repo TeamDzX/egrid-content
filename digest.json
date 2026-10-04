@@ -1,7 +1,62 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-03T12:17:53Z",
+  "generatedAt": "2026-10-04T13:05:13Z",
   "editions": [
+    {
+      "id": "2026-10-04-preview",
+      "kind": "preview",
+      "title": "This weekend in motorsport",
+      "dateRange": "4–5 October",
+      "intro": "A busy weekend of racing lies ahead with five rounds across Formula 1, MotoGP, NASCAR Cup Series, NHRA Drag Racing, and the World Rally Championship.",
+      "publishedAt": "2026-10-04T13:05:13Z",
+      "expiresAt": "2026-10-09T13:05:13Z",
+      "items": [
+        {
+          "channelID": "f1",
+          "channelName": "Formula 1",
+          "headline": "Bahrain Grand Prix in Malaysia",
+          "detail": "Sepang International Circuit, Malaysia · Sun 4 Oct",
+          "body": "The Bahrain Grand Prix in Malaysia takes place at the Sepang International Circuit on Sun 4 Oct at 07:00 UTC.",
+          "date": "2026-10-04",
+          "round": 16
+        },
+        {
+          "channelID": "motogp",
+          "channelName": "MotoGP",
+          "headline": "Grand Prix of Japan",
+          "detail": "Mobility Resort Motegi, Japan · Sun 4 Oct",
+          "body": "MotoGP arrives at Mobility Resort Motegi for the Grand Prix of Japan on Sun 4 Oct.",
+          "date": "2026-10-04",
+          "round": 16
+        },
+        {
+          "channelID": "nascar",
+          "channelName": "NASCAR Cup Series",
+          "headline": "South Point 400",
+          "detail": "Las Vegas Motor Speedway · Sun 4 Oct",
+          "body": "The NASCAR Cup Series visits Las Vegas Motor Speedway for the South Point 400 on Sun 4 Oct.",
+          "date": "2026-10-04",
+          "round": 31
+        },
+        {
+          "channelID": "nhra",
+          "channelName": "NHRA Drag Racing",
+          "headline": "Midwest Nationals",
+          "detail": "World Wide Technology Raceway, Illinois · Sun 4 Oct",
+          "body": "The Midwest Nationals will be held at World Wide Technology Raceway, Illinois, on Sun 4 Oct.",
+          "date": "2026-10-04"
+        },
+        {
+          "channelID": "wrc",
+          "channelName": "World Rally Championship",
+          "headline": "Rally Italia Sardegna",
+          "detail": "Alghero, Italy · Sun 4 Oct",
+          "body": "Rally Italia Sardegna takes place in Alghero on Sun 4 Oct for round 13 of the World Rally Championship.",
+          "date": "2026-10-04",
+          "round": 13
+        }
+      ]
+    },
     {
       "id": "2026-10-03-preview",
       "kind": "preview",
@@ -198,70 +253,6 @@
           "headline": "Rally Italia Sardegna",
           "detail": "Alghero, Italy · Sun 4 Oct",
           "body": "Rally Italia Sardegna returns to Alghero, Italy, on Sun 4 Oct for round 13.",
-          "date": "2026-10-04",
-          "round": 13
-        }
-      ]
-    },
-    {
-      "id": "2026-09-30-preview",
-      "kind": "preview",
-      "title": "This weekend in motorsport",
-      "dateRange": "30 September – 5 October",
-      "intro": "A busy week of racing is ahead from 30 September to 5 October, with rounds in IMSA SportsCar Championship, Formula 1, MotoGP, NASCAR Cup Series, NHRA Drag Racing and the World Rally Championship.",
-      "publishedAt": "2026-09-30T13:23:54Z",
-      "expiresAt": "2026-10-05T13:23:54Z",
-      "items": [
-        {
-          "channelID": "imsa",
-          "channelName": "IMSA SportsCar Championship",
-          "headline": "Motul Petit Le Mans",
-          "detail": "Michelin Raceway Road Atlanta · Sat 3 Oct",
-          "body": "The IMSA SportsCar Championship arrives at Michelin Raceway Road Atlanta for the Motul Petit Le Mans on Sat 3 Oct.",
-          "date": "2026-10-03",
-          "round": 11
-        },
-        {
-          "channelID": "f1",
-          "channelName": "Formula 1",
-          "headline": "Bahrain Grand Prix in Malaysia",
-          "detail": "Sepang International Circuit, Malaysia · Sun 4 Oct",
-          "body": "Formula 1 holds the Bahrain Grand Prix in Malaysia at Sepang International Circuit, Malaysia on Sun 4 Oct at 07:00 UTC.",
-          "date": "2026-10-04",
-          "round": 16
-        },
-        {
-          "channelID": "motogp",
-          "channelName": "MotoGP",
-          "headline": "Grand Prix of Japan",
-          "detail": "Mobility Resort Motegi, Japan · Sun 4 Oct",
-          "body": "The MotoGP Grand Prix of Japan is held at Mobility Resort Motegi on Sun 4 Oct.",
-          "date": "2026-10-04",
-          "round": 23
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "South Point 400",
-          "detail": "Las Vegas Motor Speedway · Sun 4 Oct",
-          "body": "The NASCAR Cup Series visits Las Vegas Motor Speedway for the South Point 400 on Sun 4 Oct.",
-          "date": "2026-10-04",
-          "round": 31
-        },
-        {
-          "channelID": "nhra",
-          "channelName": "NHRA Drag Racing",
-          "headline": "Midwest Nationals",
-          "detail": "World Wide Technology Raceway, Illinois · Sun 4 Oct",
-          "body": "NHRA Drag Racing brings the Midwest Nationals to World Wide Technology Raceway, Illinois on Sun 4 Oct.",
-          "date": "2026-10-04"
-        },
-        {
-          "channelID": "wrc",
-          "channelName": "World Rally Championship",
-          "headline": "Rally Italia Sardegna",
-          "detail": "Alghero, Italy · Sun 4 Oct",
-          "body": "The World Rally Championship travels to Alghero, Italy for Rally Italia Sardegna on Sun 4 Oct.",
           "date": "2026-10-04",
           "round": 13
         }
