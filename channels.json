@@ -439,6 +439,134 @@
           "title": "Official Formula E site",
           "url": "https://www.fiaformulae.com"
         }
+      ],
+      "calendar": [
+        {
+          "round": 1,
+          "name": "Jeddah E-Prix",
+          "location": "Jeddah, Saudi Arabia",
+          "date": "2026-12-18"
+        },
+        {
+          "round": 2,
+          "name": "Jeddah E-Prix",
+          "location": "Jeddah, Saudi Arabia",
+          "date": "2026-12-19"
+        },
+        {
+          "round": 3,
+          "name": "Mexico City E-Prix",
+          "location": "Mexico City, Mexico",
+          "date": "2027-01-16"
+        },
+        {
+          "round": 4,
+          "name": "Austin E-Prix",
+          "location": "Circuit of the Americas, Austin, USA",
+          "date": "2027-02-06"
+        },
+        {
+          "round": 5,
+          "name": "Miami E-Prix",
+          "location": "Miami, USA",
+          "date": "2027-02-20"
+        },
+        {
+          "round": 6,
+          "name": "São Paulo E-Prix",
+          "location": "São Paulo, Brazil",
+          "date": "2027-03-13"
+        },
+        {
+          "round": 7,
+          "name": "Sanya E-Prix",
+          "location": "Sanya, China",
+          "date": "2027-04-17"
+        },
+        {
+          "round": 8,
+          "name": "Monaco E-Prix",
+          "location": "Monaco",
+          "date": "2027-05-01"
+        },
+        {
+          "round": 9,
+          "name": "Monaco E-Prix",
+          "location": "Monaco",
+          "date": "2027-05-02"
+        },
+        {
+          "round": 10,
+          "name": "Berlin E-Prix",
+          "location": "Tempelhof, Berlin, Germany",
+          "date": "2027-05-08"
+        },
+        {
+          "round": 11,
+          "name": "Berlin E-Prix",
+          "location": "Tempelhof, Berlin, Germany",
+          "date": "2027-05-09"
+        },
+        {
+          "round": 12,
+          "name": "London E-Prix",
+          "location": "Brands Hatch, United Kingdom",
+          "date": "2027-05-29"
+        },
+        {
+          "round": 13,
+          "name": "London E-Prix",
+          "location": "Brands Hatch, United Kingdom",
+          "date": "2027-05-30"
+        },
+        {
+          "round": 14,
+          "name": "Zandvoort E-Prix",
+          "location": "Zandvoort, Netherlands",
+          "date": "2027-06-18"
+        },
+        {
+          "round": 15,
+          "name": "Zandvoort E-Prix",
+          "location": "Zandvoort, Netherlands",
+          "date": "2027-06-19"
+        },
+        {
+          "round": 16,
+          "name": "Madrid E-Prix",
+          "location": "Jarama, Madrid, Spain",
+          "date": "2027-06-26"
+        },
+        {
+          "round": 17,
+          "name": "Madrid E-Prix",
+          "location": "Jarama, Madrid, Spain",
+          "date": "2027-06-27"
+        },
+        {
+          "round": 18,
+          "name": "Shanghai E-Prix",
+          "location": "Shanghai, China",
+          "date": "2027-07-10"
+        },
+        {
+          "round": 19,
+          "name": "Shanghai E-Prix",
+          "location": "Shanghai, China",
+          "date": "2027-07-11"
+        },
+        {
+          "round": 20,
+          "name": "Tokyo E-Prix",
+          "location": "Tokyo, Japan",
+          "date": "2027-07-24"
+        },
+        {
+          "round": 21,
+          "name": "Tokyo E-Prix",
+          "location": "Tokyo, Japan",
+          "date": "2027-07-25"
+        }
       ]
     },
     {
