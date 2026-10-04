@@ -1,0 +1,79 @@
+name: Formula E
+
+# Rebuilds formula-e.json — Formula E's calendar, session times, results and
+# standings — and publishes it straight to `live`, on the same terms as the
+# digest: generated, never hand-edited. Formula E's own data API stopped
+# resolving in October 2026; formulae/build_formula_e.py assembles the same
+# data from the official site and the sportstimes dataset instead. No
+# secrets and no writer: nothing here is prose.
+#
+# Every three hours through the day, so a race result lands within a few
+# hours of the flag. A run with nothing new changes nothing and publishes
+# nothing (about four page loads).
+#
+# Deliberately NOT in the egrid-live-push concurrency group: GitHub keeps one
+# pending run per group, and eight runs a day queued there could bump the
+# day's digest, video or team-review run. A rejected push is rebased and
+# retried instead — this job only ever touches formula-e.json.
+
+on:
+  schedule:
+    - cron: "13 6-21/3 * * *"
+  workflow_dispatch:
+    inputs:
+      refetch:
+        description: "Read every finished session again"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out live
+        uses: actions/checkout@v4
+        with:
+          ref: live
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build formula-e.json
+        run: |
+          set -euo pipefail
+          if [ "${{ github.event.inputs.refetch || 'false' }}" = "true" ]; then
+            python3 formulae/build_formula_e.py --refetch
+          else
+            python3 formulae/build_formula_e.py
+          fi
+          python3 -m json.tool formula-e.json > /dev/null
+
+      - name: Publish to live, then fold into main
+        run: |
+          set -euo pipefail
+          git config user.name "egrid-digest[bot]"
+          git config user.email "egrid-digest@users.noreply.github.com"
+          if git diff --quiet -- formula-e.json && [ -n "$(git ls-files formula-e.json)" ]; then
+            echo "formula-e.json unchanged; nothing to publish"
+            exit 0
+          fi
+          git add formula-e.json
+          git commit -m "Formula E: $(python3 -c "import json;print(json.load(open('formula-e.json'))['generatedAt'])")"
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:live; then break; fi
+            [ "$attempt" = 5 ] && exit 1
+            sleep $((attempt * 15))
+            git pull --rebase origin live
+          done
+          # Keep main a superset of live. If another job moved main in the
+          # meantime this is skipped; the next run of any job folds it in.
+          git fetch origin main live
+          git checkout -B main origin/main
+          git merge --no-edit -X theirs origin/live
+          git push origin main || echo "main moved underneath us; it will catch up on the next run"

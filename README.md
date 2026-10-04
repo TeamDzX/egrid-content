@@ -161,6 +161,36 @@ demand, with the same `kind` and `date` options.
 
 ---
 
+## `formula-e.json` — Formula E (generated, do not hand-edit)
+
+Formula E's data API (`api.formula-e.pulselive.com`) stopped resolving in
+October 2026 and the official site no longer exposes one, so this file is
+both apps' Formula E source from 2.6 / 1.6.0 on: calendar, session times,
+every session's classification, and the drivers' and teams' standings. The
+digest and the team reviews read it too.
+
+`formulae/build_formula_e.py` assembles it, run every three hours from 06:13
+to 21:13 UTC by `.github/workflows/formula-e.yml`, which pushes straight to
+`live` like the digest:
+
+| What | From |
+|---|---|
+| Calendar (round, date, venue, city, country) | The schema.org JSON-LD on fiaformulae.com/en/calendar (`?season=N` for past seasons). Race names there are "TBC" until announced, so a race is "<City> E-Prix" until then. |
+| Session start times (UTC) | sportstimes/f1 `_db/fe/{year}.json`, filed under the year a season ends (Season 13 = 2027.json). Until it exists, races carry a date and no sessions. |
+| Results and standings | The HTML of fiaformulae.com/en/results-and-standings, read on its `data-testid` row markers — never on class names, which carry build hashes. |
+
+It holds the current season and the one before, so the channel has a last
+race and a table between seasons. Standings are for the newest season with
+a race result. Results are fetched once per session and kept, so a quiet run
+costs about four page loads; the site is asked only for the sessions a
+round's results page links to (it answers anything else with the race).
+A failed source keeps the previous file's data rather than publishing less,
+and a run that changes nothing publishes nothing. The site refuses Python's
+default user agent and accepts the script's identifying one.
+
+The `channels.json` Formula E calendar stays as the fallback for 2.5 / 1.5.0
+and earlier, which still call the dead API and fall back to it.
+
 ## `channels.json` — the series catalogue
 
 Adds or changes the channels users can subscribe to.

@@ -47,7 +47,7 @@ DEFAULT_OUT = REPO_ROOT / "teams.json"
 # writers; borrow the pieces that are not digest-specific.
 sys.path.insert(0, str(REPO_ROOT / "digest"))
 from build_digest import (  # noqa: E402
-    FORMULA_E, JOLPICA, MOTOGP, USER_AGENT, log, parse_json_reply, tidy_title,
+    JOLPICA, MOTOGP, USER_AGENT, log, parse_json_reply, tidy_title,
 )
 from build_digest import get_json as _get_json  # noqa: E402
 
@@ -343,83 +343,61 @@ def motogp_race_rows(event_id: str, category_id: str) -> list[dict]:
 # Formula E
 
 
+FE_STATUS = {"didNotStart": "did not start", "disqualified": "disqualified",
+             "notClassified": "not classified"}
+FORMULA_E_FILE = Path(__file__).resolve().parent.parent / "formula-e.json"
+
+
 def formula_e_teams() -> list[Team]:
-    championships = get_json(f"{FORMULA_E}/championships")["championships"]
-    current = next((c for c in championships if c.get("status") == "Present"), championships[-1])
-    rows = get_json(f"{FORMULA_E}/standings/teams?championshipId={current['id']}")
-    rows = rows if isinstance(rows, list) else next((v for v in rows.values() if isinstance(v, list)), [])
-
+    """From `formula-e.json` (formulae/build_formula_e.py): Formula E's own
+    API went dark in October 2026, so the season is assembled from the
+    official site there and read back here."""
+    data = json.loads(FORMULA_E_FILE.read_text())
+    season = data.get("standingsSeason")
     teams: dict[str, Team] = {}
-    for index, row in enumerate(rows, start=1):
-        # The apps capitalise the feed's shouted names the same way.
-        name = title_case(row.get("teamName") or "")
-        if not name:
-            continue
-        teams[name.lower()] = Team("formulae", name, row.get("teamPosition") or index, row.get("teamPoints"))
-
-    drivers = get_json(f"{FORMULA_E}/standings/drivers?championshipId={current['id']}")
-    drivers = drivers if isinstance(drivers, list) else next((v for v in drivers.values() if isinstance(v, list)), [])
-    for row in drivers:
-        team = teams.get(title_case(row.get("driverTeamName") or row.get("teamName") or "").lower())
+    for index, row in enumerate(data.get("teamStandings", []), start=1):
+        name = row.get("name") or ""
+        if name:
+            teams[name.lower()] = Team("formulae", name, row.get("position") or index, row.get("points"))
+    for row in data.get("driverStandings", []):
+        team = teams.get((row.get("team") or "").lower())
         if team:
-            name = f"{row.get('driverFirstName', '')} {row.get('driverLastName', '')}".strip()
-            team.members.append(Member(name, row.get("driverPosition"), row.get("driverPoints")))
+            team.members.append(Member(row["name"], row.get("position"), row.get("points")))
 
-    races = get_json(f"{FORMULA_E}/races?championshipId={current['id']}")["races"]
-    today = dt.date.today().isoformat()
-    done = [r for r in races if (r.get("date") or "")[:10] <= today]
-    done.sort(key=lambda r: r.get("date") or "")
+    done = sorted((r for r in data.get("races", []) if r.get("season") == season and r["results"].get("Race")),
+                  key=lambda r: r["date"])
     last_rows, last_race = [], None
     for race in done:
-        rows = formula_e_race_rows(race["id"])
-        if not rows:
-            continue
+        rows = race["results"]["Race"]
         for team in teams.values():
             team.rounds += 1
         for row in rows:
-            team = teams.get(title_case((row.get("team") or {}).get("name") or "").lower())
-            position = row.get("driverPosition") or 0
-            tally("formulae", f"{row.get('driverFirstName', '')} {row.get('driverLastName', '')}".strip(), position or None)
+            team = teams.get((row.get("team") or "").lower())
+            position = row.get("position")
+            tally("formulae", row["name"], position)
             if team and position:
                 if position == 1:
                     team.wins += 1
                 if position <= 3:
                     team.podiums += 1
         last_rows, last_race = rows, race
+    race_summary = None
     if last_rows:
         for team in teams.values():
-            team.last_race = last_race.get("name")
-            team.last_race_round = last_race.get("sequence") or len(done)
-            team.last_race_date = (last_race.get("date") or "")[:10] or None
+            team.last_race = last_race["name"]
+            team.last_race_round = last_race["round"]
+            team.last_race_date = last_race["date"]
+        race_summary = RaceSummary("formulae", last_race["name"], last_race["round"], last_race["date"])
         for row in last_rows:
-            team = teams.get(title_case((row.get("team") or {}).get("name") or "").lower())
-            if not team:
-                continue
-            name = f"{row.get('driverFirstName', '')} {row.get('driverLastName', '')}".strip() or row.get("driverTLA", "")
-            points = row.get("driverPoints")
-            team.lines.append(RaceLine(name, row.get("driverPosition") or None, row.get("driverGridPosition"),
-                                       float(points) if points is not None else None, None))
-    race = None
-    if last_rows:
-        race = RaceSummary("formulae", last_race.get("name", "E-Prix"), last_race.get("sequence") or len(done),
-                           (last_race.get("date") or "")[:10] or None)
-        for row in last_rows:
-            name = f"{row.get('driverFirstName', '')} {row.get('driverLastName', '')}".strip() or row.get("driverTLA", "")
-            points = row.get("driverPoints")
-            race.rows.append(Classified(
-                row.get("driverPosition") or None, name, title_case((row.get("team") or {}).get("name") or ""),
-                row.get("driverGridPosition"), float(points) if points is not None else None, None))
-    return sorted(teams.values(), key=lambda t: t.position or 99), race
-
-
-def formula_e_race_rows(race_id: str) -> list[dict]:
-    sessions = get_json(f"{FORMULA_E}/races/{race_id}/sessions").get("sessions") or []
-    race = next((s for s in sessions
-                 if s.get("sessionDate") and (s.get("sessionName") or "").strip().lower() == "race"), None)
-    if not race:
-        return []
-    payload = get_json(f"{FORMULA_E}/races/{race_id}/sessions/{race['id']}/results")
-    return payload if isinstance(payload, list) else next((v for v in payload.values() if isinstance(v, list)), [])
+            # Shown in brackets after "did not finish"; a plain retirement
+            # carries no reason on the site, so it gets none here.
+            status = FE_STATUS.get(row.get("status"))
+            team = teams.get((row.get("team") or "").lower())
+            if team:
+                team.lines.append(RaceLine(row["name"], row.get("position"), row.get("grid"), row.get("points"), status))
+            race_summary.rows.append(Classified(row.get("position"), row["name"], row.get("team") or "",
+                                                row.get("grid"), row.get("points"), status))
+    return sorted(teams.values(), key=lambda t: t.position or 99), race_summary
 
 
 def title_case(shouted: str) -> str:
