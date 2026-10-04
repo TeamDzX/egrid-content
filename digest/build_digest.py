@@ -11,8 +11,9 @@ Rebuilt every morning, written into `digest.json` at the repo root:
                        is simply today's running order.
 
 The facts come from the same sources the apps use — the static calendars in
-`channels.json`, Jolpica for F1, and the Pulselive feeds for MotoGP and
-Formula E — plus NASCAR's own public results feed, which carries start
+`channels.json`, Jolpica for F1, the Pulselive feed for MotoGP and
+`formula-e.json` (built from the official site by formulae/build_formula_e.py)
+for Formula E — plus NASCAR's own public results feed, which carries start
 times, broadcasters, podiums and race statistics the static calendar lacks.
 WRC's API is dead, so its rounds come from the static calendar like the
 other eight channels.
@@ -105,8 +106,8 @@ JOLPICA = "https://api.jolpi.ca/ergast/f1"
 NASCAR = "https://cf.nascar.com/cacher"
 NASCAR_CUP_SERIES = 1
 CIRCUITS_PATH = REPO_ROOT / "circuits.json"
+FORMULA_E_PATH = REPO_ROOT / "formula-e.json"
 MOTOGP = "https://api.motogp.pulselive.com/motogp/v1/results"
-FORMULA_E = "https://api.formula-e.pulselive.com/formula-e/v1"
 
 # Channels whose calendar comes from a live API rather than channels.json.
 # Anything not listed here is read from the static `calendar` array.
@@ -360,50 +361,33 @@ def motogp_leaders() -> list[tuple[str, float]]:
 
 
 def formula_e_leaders() -> list[tuple[str, float]]:
-    championships = get_json(f"{FORMULA_E}/championships")["championships"]
-    current = next((c for c in championships if c.get("status") == "Present"), championships[-1])
-    rows = get_json(f"{FORMULA_E}/standings/drivers?championshipId={current['id']}")
-    leaders = []
-    for row in rows[:2]:
-        name = f"{row.get('driverFirstName', '')} {row.get('driverLastName', '')}".strip()
-        leaders.append((name, float(row.get("points") or 0)))
-    return leaders
+    rows = formula_e_file().get("driverStandings", [])
+    return [(r.get("name", ""), float(r.get("points") or 0)) for r in rows[:2]]
+
+
+def formula_e_file() -> dict:
+    """`formula-e.json`, written by formulae/build_formula_e.py from the
+    official site — Formula E's own API stopped resolving in October 2026."""
+    return json.loads(FORMULA_E_PATH.read_text())
 
 
 def formula_e_rounds(channel: dict) -> list[Round]:
-    championships = get_json(f"{FORMULA_E}/championships")["championships"]
-    current = next((c for c in championships if c.get("status") == "Present"), championships[-1])
-    races = get_json(f"{FORMULA_E}/races?championshipId={current['id']}")["races"]
     rounds = []
-    for index, race in enumerate(races, start=1):
-        name, date = race.get("name"), race.get("date")
-        if not name or not date:
-            continue
+    for race in formula_e_file().get("races", []):
         location = ", ".join(p for p in [race.get("city"), race.get("country")] if p)
-        rounds.append(Round("formulae", channel["name"], name, location,
-                            dt.date.fromisoformat(date[:10]),
-                            round_number=race.get("sequence") or index, external_id=race["id"]))
+        race_session = next((x for x in race.get("sessions") or [] if x["name"] == "Race"), None)
+        rounds.append(Round("formulae", channel["name"], race["name"], location,
+                            dt.date.fromisoformat(race["date"]),
+                            time_utc=race_session["start"][11:16] if race_session else None,
+                            round_number=race["round"], external_id=race["id"]))
     return rounds
 
 
 def formula_e_podium(race_id: str) -> list[PodiumEntry]:
-    sessions = get_json(f"{FORMULA_E}/races/{race_id}/sessions").get("sessions") or []
-    race = next((s for s in sessions
-                 if s.get("sessionDate") and (s.get("sessionName") or "").strip().lower() == "race"), None)
-    if not race:
-        return []
-    payload = get_json(f"{FORMULA_E}/races/{race_id}/sessions/{race['id']}/results")
-    rows = payload if isinstance(payload, list) else next(
-        (v for v in payload.values() if isinstance(v, list)), [])
-    podium = []
-    for row in rows:
-        position = row.get("driverPosition") or 0
-        if not 1 <= position <= 3:
-            continue
-        name = f"{row.get('driverFirstName', '')} {row.get('driverLastName', '')}".strip() or row.get("driverTLA", "")
-        team = (row.get("team") or {}).get("name", "")
-        podium.append(PodiumEntry(position, name, tidy_title(team) if team.isupper() else team))
-    return sorted(podium, key=lambda p: p.position)[:3]
+    race = next((r for r in formula_e_file().get("races", []) if r["id"] == race_id), None)
+    rows = ((race or {}).get("results") or {}).get("Race") or []
+    return [PodiumEntry(r["position"], r["name"], r.get("team", ""))
+            for r in rows if r.get("position") and r["position"] <= 3]
 
 
 SMALL_WORDS = {"of", "de", "the", "del", "di", "da"}
