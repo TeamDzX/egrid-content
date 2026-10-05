@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-10-04T13:26:45Z",
+ "generatedAt": "2026-10-05T16:21:14Z",
  "teams": [
   {
    "id": "f1-mercedes",
@@ -11,15 +11,15 @@
    ],
    "season": {
     "position": 1,
-    "points": 538.0,
-    "rounds": 15,
+    "points": 556.0,
+    "rounds": 16,
     "wins": 11,
-    "podiums": 20,
+    "podiums": 21,
     "members": [
      {
       "name": "Andrea Kimi Antonelli",
       "position": 1,
-      "points": 302.0
+      "points": 320.0
      },
      {
       "name": "George Russell",
@@ -29,29 +29,29 @@
     ]
    },
    "review": {
-    "summary": "Leading the championship with 538 points and 11 wins after 15 rounds. Antonelli holds first place in the standings, ahead of his team-mate Russell.",
-    "lastRace": "Russell took victory from pole position, securing 25 points. Antonelli finished fifth after starting sixteenth to collect 10 points.",
+    "summary": "Leading the championship with 556 points and 11 wins, Mercedes has been the dominant force so far. Antonelli holds the top spot in the standings ahead of Russell.",
+    "lastRace": "Antonelli finished second after starting third to take 18 points. Meanwhile, Russell struggled, retiring from seventh on the grid.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
-    "name": "Azerbaijan Grand Prix",
-    "round": 15,
-    "date": "2026-09-26",
+    "name": "Bahrain Grand Prix in Malaysia",
+    "round": 16,
+    "date": "2026-10-04",
     "lines": [
      {
-      "name": "George Russell",
-      "position": 1,
-      "grid": 1,
-      "points": 25.0,
+      "name": "Andrea Kimi Antonelli",
+      "position": 2,
+      "grid": 3,
+      "points": 18.0,
       "status": "Finished"
      },
      {
-      "name": "Andrea Kimi Antonelli",
-      "position": 5,
-      "grid": 16,
-      "points": 10.0,
-      "status": "Finished"
+      "name": "George Russell",
+      "position": 20,
+      "grid": 7,
+      "points": 0.0,
+      "status": "Retired"
      }
     ]
    }
@@ -65,46 +65,46 @@
    ],
    "season": {
     "position": 2,
-    "points": 378.0,
-    "rounds": 15,
+    "points": 405.0,
+    "rounds": 16,
     "wins": 2,
-    "podiums": 9,
+    "podiums": 10,
     "members": [
      {
       "name": "Lewis Hamilton",
       "position": 3,
-      "points": 199.0
+      "points": 214.0
      },
      {
       "name": "Charles Leclerc",
-      "position": 5,
-      "points": 179.0
+      "position": 4,
+      "points": 191.0
      }
     ]
    },
    "review": {
-    "summary": "Sitting second with 378 points and two wins. Hamilton leads the driver standings ahead of Leclerc.",
-    "lastRace": "Leclerc finished fourth from second on the grid, while Hamilton completed the race in sixth following a sixth-place start.",
+    "summary": "Sitting second in the championship with 405 points, Ferrari has secured two wins and ten podiums across sixteen rounds. Hamilton leads the driver standings ahead of Leclerc.",
+    "lastRace": "Both drivers finished in the top four, with Hamilton taking third from second and Leclerc finishing fourth from fourth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
-    "name": "Azerbaijan Grand Prix",
-    "round": 15,
-    "date": "2026-09-26",
+    "name": "Bahrain Grand Prix in Malaysia",
+    "round": 16,
+    "date": "2026-10-04",
     "lines": [
      {
-      "name": "Charles Leclerc",
-      "position": 4,
+      "name": "Lewis Hamilton",
+      "position": 3,
       "grid": 2,
-      "points": 12.0,
+      "points": 15.0,
       "status": "Finished"
      },
      {
-      "name": "Lewis Hamilton",
-      "position": 6,
-      "grid": 6,
-      "points": 8.0,
+      "name": "Charles Leclerc",
+      "position": 4,
+      "grid": 4,
+      "points": 12.0,
       "status": "Finished"
      }
     ]
@@ -119,47 +119,47 @@
    ],
    "season": {
     "position": 3,
-    "points": 306.0,
-    "rounds": 15,
+    "points": 316.0,
+    "rounds": 16,
     "wins": 2,
     "podiums": 7,
     "members": [
      {
       "name": "Lando Norris",
-      "position": 4,
-      "points": 186.0
+      "position": 5,
+      "points": 188.0
      },
      {
       "name": "Oscar Piastri",
       "position": 7,
-      "points": 120.0
+      "points": 128.0
      }
     ]
    },
    "review": {
-    "summary": "Third in the championship with 306 points and two victories. Norris currently outscores Piastri in the standings.",
-    "lastRace": "Piastri finished thirteenth after starting third, while Norris failed to finish after starting fifth.",
+    "summary": "McLaren holds third place in the standings with 316 points and two wins. Norris currently leads the team's driver count ahead of Piastri.",
+    "lastRace": "Piastri finished sixth after starting sixth, while Norris moved from fifth to ninth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
-    "name": "Azerbaijan Grand Prix",
-    "round": 15,
-    "date": "2026-09-26",
+    "name": "Bahrain Grand Prix in Malaysia",
+    "round": 16,
+    "date": "2026-10-04",
     "lines": [
      {
       "name": "Oscar Piastri",
-      "position": 13,
-      "grid": 3,
-      "points": 0.0,
+      "position": 6,
+      "grid": 6,
+      "points": 8.0,
       "status": "Finished"
      },
      {
       "name": "Lando Norris",
-      "position": null,
+      "position": 9,
       "grid": 5,
-      "points": 0.0,
-      "status": "Retired"
+      "points": 2.0,
+      "status": "Finished"
      }
     ]
    }
@@ -173,51 +173,51 @@
    ],
    "season": {
     "position": 4,
-    "points": 263.0,
-    "rounds": 15,
-    "wins": 0,
-    "podiums": 9,
+    "points": 298.0,
+    "rounds": 16,
+    "wins": 1,
+    "podiums": 10,
     "members": [
      {
       "name": "Max Verstappen",
       "position": 6,
-      "points": 163.0
+      "points": 188.0
      },
      {
       "name": "Isack Hadjar",
       "position": 8,
-      "points": 86.0
+      "points": 96.0
      },
      {
       "name": "Liam Lawson",
       "position": 9,
-      "points": 59.0
+      "points": 65.0
      }
     ]
    },
    "review": {
-    "summary": "Fourth place with 263 points and no wins so far. Verstappen leads the team's drivers, followed by Hadjar and Lawson.",
-    "lastRace": "Verstappen moved from eighth to second, while Hadjar finished third after starting fourth.",
+    "summary": "Red Bull is in fourth place with 298 points and one win. Verstappen leads the driver lineup ahead of Hadjar and Lawson.",
+    "lastRace": "Verstappen won from pole position, while Hadjar finished fifth after starting eighth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
-    "name": "Azerbaijan Grand Prix",
-    "round": 15,
-    "date": "2026-09-26",
+    "name": "Bahrain Grand Prix in Malaysia",
+    "round": 16,
+    "date": "2026-10-04",
     "lines": [
      {
       "name": "Max Verstappen",
-      "position": 2,
-      "grid": 8,
-      "points": 18.0,
+      "position": 1,
+      "grid": 1,
+      "points": 25.0,
       "status": "Finished"
      },
      {
       "name": "Isack Hadjar",
-      "position": 3,
-      "grid": 4,
-      "points": 15.0,
+      "position": 5,
+      "grid": 8,
+      "points": 10.0,
       "status": "Finished"
      }
     ]
@@ -232,15 +232,15 @@
    ],
    "season": {
     "position": 5,
-    "points": 83.0,
-    "rounds": 15,
+    "points": 90.0,
+    "rounds": 16,
     "wins": 0,
     "podiums": 0,
     "members": [
      {
       "name": "Arvid Lindblad",
       "position": 11,
-      "points": 37.0
+      "points": 38.0
      },
      {
       "name": "Yuki Tsunoda",
@@ -250,28 +250,28 @@
     ]
    },
    "review": {
-    "summary": "Fifth in the standings with 83 points. Lindblad holds a higher position than Tsunoda.",
-    "lastRace": "Lindblad climbed from fifteenth to seventh, while Lawson finished twelfth from eleventh on the grid.",
+    "summary": "The team sits fifth in the standings with 90 points. Lindblad is currently outperforming Tsunoda in the driver rankings.",
+    "lastRace": "Lawson finished seventh after starting eleventh, while Lindblad moved from twenty-second to tenth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
-    "name": "Azerbaijan Grand Prix",
-    "round": 15,
-    "date": "2026-09-26",
+    "name": "Bahrain Grand Prix in Malaysia",
+    "round": 16,
+    "date": "2026-10-04",
     "lines": [
      {
-      "name": "Arvid Lindblad",
+      "name": "Liam Lawson",
       "position": 7,
-      "grid": 15,
+      "grid": 11,
       "points": 6.0,
       "status": "Finished"
      },
      {
-      "name": "Liam Lawson",
-      "position": 12,
-      "grid": 11,
-      "points": 0.0,
+      "name": "Arvid Lindblad",
+      "position": 10,
+      "grid": 22,
+      "points": 1.0,
       "status": "Finished"
      }
     ]
@@ -287,7 +287,7 @@
    "season": {
     "position": 6,
     "points": 68.0,
-    "rounds": 15,
+    "rounds": 16,
     "wins": 0,
     "podiums": 0,
     "members": [
@@ -304,29 +304,29 @@
     ]
    },
    "review": {
-    "summary": "Sixth place with 68 points. Gasly leads the driver standings ahead of Colapinto.",
-    "lastRace": "Both drivers failed to finish the race, with Colapinto and Gasly both retiring after starting ninth and seventh respectively.",
+    "summary": "Alpine occupies sixth place with 68 points. Gasly leads the team's scoring efforts ahead of Colapinto.",
+    "lastRace": "Colapinto finished thirteenth after starting twenty-first, while Gasly dropped from ninth to sixteenth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
-    "name": "Azerbaijan Grand Prix",
-    "round": 15,
-    "date": "2026-09-26",
+    "name": "Bahrain Grand Prix in Malaysia",
+    "round": 16,
+    "date": "2026-10-04",
     "lines": [
      {
       "name": "Franco Colapinto",
-      "position": null,
-      "grid": 9,
+      "position": 13,
+      "grid": 21,
       "points": 0.0,
-      "status": "Retired"
+      "status": "Finished"
      },
      {
       "name": "Pierre Gasly",
-      "position": null,
-      "grid": 7,
+      "position": 16,
+      "grid": 9,
       "points": 0.0,
-      "status": "Retired"
+      "status": "Finished"
      }
     ]
    }
@@ -341,7 +341,7 @@
    "season": {
     "position": 7,
     "points": 27.0,
-    "rounds": 15,
+    "rounds": 16,
     "wins": 0,
     "podiums": 0,
     "members": [
@@ -358,28 +358,28 @@
     ]
    },
    "review": {
-    "summary": "Seventh in the championship with 27 points. Bearman is currently ahead of Ocon.",
-    "lastRace": "Ocon finished eighth from thirteenth, while Bearman moved from tenth to ninth.",
+    "summary": "Haas is in seventh place with 27 points. Bearman holds a higher position in the standings than Ocon.",
+    "lastRace": "Both drivers finished outside the top ten, with Bearman finishing fourteenth and Ocon in fifteenth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
-    "name": "Azerbaijan Grand Prix",
-    "round": 15,
-    "date": "2026-09-26",
+    "name": "Bahrain Grand Prix in Malaysia",
+    "round": 16,
+    "date": "2026-10-04",
     "lines": [
      {
-      "name": "Esteban Ocon",
-      "position": 8,
-      "grid": 13,
-      "points": 4.0,
+      "name": "Oliver Bearman",
+      "position": 14,
+      "grid": 16,
+      "points": 0.0,
       "status": "Finished"
      },
      {
-      "name": "Oliver Bearman",
-      "position": 9,
-      "grid": 10,
-      "points": 2.0,
+      "name": "Esteban Ocon",
+      "position": 15,
+      "grid": 17,
+      "points": 0.0,
       "status": "Finished"
      }
     ]
@@ -395,7 +395,7 @@
    "season": {
     "position": 8,
     "points": 17.0,
-    "rounds": 15,
+    "rounds": 16,
     "wins": 0,
     "podiums": 0,
     "members": [
@@ -412,27 +412,27 @@
     ]
    },
    "review": {
-    "summary": "Eighth place with 17 points. Bortoleto sits ahead of Hülkenberg in the standings.",
-    "lastRace": "Hülkenberg climbed from eighteenth to eleventh, whereas Bortoleto finished fifteenth after starting seventeenth.",
+    "summary": "Audi sits eighth with 17 points. Bortoleto leads the team's driver standings ahead of Hülkenberg.",
+    "lastRace": "Hülkenberg finished eleventh after starting fifteenth, while Bortoleto dropped from tenth to eighteenth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
-    "name": "Azerbaijan Grand Prix",
-    "round": 15,
-    "date": "2026-09-26",
+    "name": "Bahrain Grand Prix in Malaysia",
+    "round": 16,
+    "date": "2026-10-04",
     "lines": [
      {
       "name": "Nico Hülkenberg",
       "position": 11,
-      "grid": 18,
+      "grid": 15,
       "points": 0.0,
       "status": "Finished"
      },
      {
       "name": "Gabriel Bortoleto",
-      "position": 15,
-      "grid": 17,
+      "position": 18,
+      "grid": 10,
       "points": 0.0,
       "status": "Finished"
      }
@@ -449,44 +449,44 @@
    "season": {
     "position": 9,
     "points": 12.0,
-    "rounds": 15,
+    "rounds": 16,
     "wins": 0,
     "podiums": 0,
     "members": [
      {
       "name": "Carlos Sainz",
-      "position": 17,
+      "position": 18,
       "points": 7.0
      },
      {
       "name": "Alexander Albon",
-      "position": 18,
+      "position": 19,
       "points": 5.0
      }
     ]
    },
    "review": {
-    "summary": "Ninth in the championship with 12 points. Sainz is currently outperforming Albon.",
-    "lastRace": "Sainz finished tenth from fourteenth, but Albon retired after starting twelfth.",
+    "summary": "Williams is ninth in the championship with 12 points. Sainz leads the team's driver standings ahead of Albon.",
+    "lastRace": "Sainz finished seventeenth after starting thirteenth, while Albon retired from eighteenth on the grid.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
-    "name": "Azerbaijan Grand Prix",
-    "round": 15,
-    "date": "2026-09-26",
+    "name": "Bahrain Grand Prix in Malaysia",
+    "round": 16,
+    "date": "2026-10-04",
     "lines": [
      {
       "name": "Carlos Sainz",
-      "position": 10,
-      "grid": 14,
-      "points": 1.0,
+      "position": 17,
+      "grid": 13,
+      "points": 0.0,
       "status": "Finished"
      },
      {
       "name": "Alexander Albon",
       "position": null,
-      "grid": 12,
+      "grid": 18,
       "points": 0.0,
       "status": "Retired"
      }
@@ -502,15 +502,15 @@
    ],
    "season": {
     "position": 10,
-    "points": 3.0,
-    "rounds": 15,
+    "points": 7.0,
+    "rounds": 16,
     "wins": 0,
     "podiums": 0,
     "members": [
      {
       "name": "Fernando Alonso",
-      "position": 19,
-      "points": 3.0
+      "position": 17,
+      "points": 7.0
      },
      {
       "name": "Lance Stroll",
@@ -520,29 +520,29 @@
     ]
    },
    "review": {
-    "summary": "Tenth place with 3 points. Alonso leads the team's scoring ahead of Stroll.",
-    "lastRace": "Both Alonso and Stroll failed to finish the race, retiring from twenty-first and twenty-second on the grid.",
+    "summary": "Aston Martin holds tenth place with seven points. Alonso leads the team's driver standings ahead of Stroll.",
+    "lastRace": "Alonso finished eighth after starting twelfth, and Stroll finished twelfth from fourteenth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
-    "name": "Azerbaijan Grand Prix",
-    "round": 15,
-    "date": "2026-09-26",
+    "name": "Bahrain Grand Prix in Malaysia",
+    "round": 16,
+    "date": "2026-10-04",
     "lines": [
      {
       "name": "Fernando Alonso",
-      "position": null,
-      "grid": 21,
-      "points": 0.0,
-      "status": "Retired"
+      "position": 8,
+      "grid": 12,
+      "points": 4.0,
+      "status": "Finished"
      },
      {
       "name": "Lance Stroll",
-      "position": null,
-      "grid": 22,
+      "position": 12,
+      "grid": 14,
       "points": 0.0,
-      "status": "Retired"
+      "status": "Finished"
      }
     ]
    }
@@ -557,7 +557,7 @@
    "season": {
     "position": 11,
     "points": 0.0,
-    "rounds": 15,
+    "rounds": 16,
     "wins": 0,
     "podiums": 0,
     "members": [
@@ -574,26 +574,26 @@
     ]
    },
    "review": {
-    "summary": "Eleventh in the standings with no points scored this season. Bottas is ahead of Pérez in the driver rankings.",
-    "lastRace": "Pérez finished fourteenth from twentieth, while Bottates retired after starting nineteenth.",
+    "summary": "Cadillac is eleventh in the standings with no points scored so far this season.",
+    "lastRace": "Pérez finished nineteenth from twentieth, while Bottas retired after starting nineteenth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
-    "name": "Azerbaijan Grand Prix",
-    "round": 15,
-    "date": "2026-09-26",
+    "name": "Bahrain Grand Prix in Malaysia",
+    "round": 16,
+    "date": "2026-10-04",
     "lines": [
      {
       "name": "Sergio Pérez",
-      "position": 14,
+      "position": 19,
       "grid": 20,
       "points": 0.0,
       "status": "Finished"
      },
      {
       "name": "Valtteri Bottas",
-      "position": 16,
+      "position": null,
       "grid": 19,
       "points": 0.0,
       "status": "Retired"
@@ -643,11 +643,11 @@
     ]
    },
    "review": {
-    "summary": "Aprilia leads the championship with seven wins and 28 podiums from 16 rounds. Jorge Martin sits top of the standings, ahead of Marco Bezzecchi, Ai Ogura and Raul Fernandez.",
-    "lastRace": "Jorge Martin finished second, while Marco Bezzecchi took third. Raul Fernandez was fifth and Ai Ogura finished sixth.",
+    "summary": "Leading the championship after sixteen rounds with seven wins and twenty-eight podiums. Jorge Martin sits at the top of the standings, followed by Marco Bezzecchi, Ai Ogura, and Raul Fernandez.",
+    "lastRace": "A strong showing in Japan saw Jorge Martin finish second, with Marco Bezzecchi taking third. Raul Fernandez and Ai Ogura also finished well in fifth and sixth respectively.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
     "name": "Grand Prix of Japan",
     "round": 16,
@@ -741,11 +741,11 @@
     ]
    },
    "review": {
-    "summary": "Ducati is in second place with seven wins and 13 podiums from 16 rounds. Marc Marquez leads the team, followed by Fabio Di Giannantonio, Francesco Bagnaia and Alex Marquez.",
-    "lastRace": "Marc Marquez won the race, while Francesco Bagnaia finished eighth. Fermin Aldeguer was ninth, Franco Morbidelli fifteenth and Fabio Di Giannantonio eighteenth. Alex Marquez did not finish.",
+    "summary": "Sitting in second place after sixteen rounds, the team has secured seven wins and thirteen podiums. Marc Marquez leads the rider standings for the team, followed by Fabio Di Giannantonio and Francesco Bagnaia.",
+    "lastRace": "Marc Marquez took victory in Japan, while Francesco Bagnaia finished eighth. Fermin Aldeguer finished ninth, alongside Franco Morbidelli in fifteenth and Fabio Di Giannantonio in eighteenth. Alex Marquez did not finish.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
     "name": "Grand Prix of Japan",
     "round": 16,
@@ -843,11 +843,11 @@
     ]
    },
    "review": {
-    "summary": "KTM holds third place with two wins and seven podiums from 16 rounds. Pedro Acosta is the highest-placed rider, ahead of Enea Bastianini and Brad Binder.",
-    "lastRace": "Enea Bastianini finished fourth, followed by Pedro Acosta in seventh. Brad Binder was eleventh and Maverick Viñales finished fourteenth.",
+    "summary": "Third in the standings after sixteen rounds with two wins and seven podiums. Pedro Acosta is the highest-placed rider, followed by Enea Bastianini and Brad Binder.",
+    "lastRace": "Enea Bastianino finished fourth in Japan, ahead of Pedro Acosta in seventh. Brad Binder crossed the line eleventh, while Maverick Viñales finished fourteenth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
     "name": "Grand Prix of Japan",
     "round": 16,
@@ -936,11 +936,11 @@
     ]
    },
    "review": {
-    "summary": "Honda sits fourth after 16 rounds with no wins or podiums. Luca Marini is the top rider for the team, ahead of Diogo Moreira and Johann Zarco.",
-    "lastRace": "Luca Marini finished tenth, with Somkiat Chantra in thirteenth and Johann Zarco in twentieth. Diogo Moreira did not finish.",
+    "summary": "Currently fourth after sixteen rounds with no wins or podiums so far this season. Luca Marini is the leading rider for the team, followed by Diogo Moreira and Johann Zarco.",
+    "lastRace": "Luca Marini finished tenth, while Somkiat Chantra took thirteenth. Johann Zarco ended the race in twentieth, and Diogo Moreira did not finish.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
     "name": "Grand Prix of Japan",
     "round": 16,
@@ -1019,11 +1019,11 @@
     ]
    },
    "review": {
-    "summary": "Yamaha is fifth in the standings with no wins or podiums from 16 rounds. Fabio Quartararo leads the team, ahead of Jack Miller and Alex Rins.",
-    "lastRace": "Fabio Quartararo finished twelfth, followed by Alex Rins in sixteenth and Toprak Razgatlioglu in seventeenth. Jack Miller was nineteenth.",
+    "summary": "Positioned fifth after sixteen rounds with no wins or podiums recorded this season. Fabio Quartararo leads the team's scoring, followed by Jack Miller and Alex Rins.",
+    "lastRace": "Fabio Quartararo finished twelfth in Japan, with Alex Rins in sixteenth and Toprak Razgatlioglu in seventeenth. Jack Miller completed the race in nineteenth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
     "name": "Grand Prix of Japan",
     "round": 16,
@@ -1059,6 +1059,546 @@
      }
     ]
    }
+  },
+  {
+   "id": "formulae-jaguar-tcs-racing",
+   "channelID": "formulae",
+   "name": "Jaguar TCS Racing",
+   "matchKeys": [
+    "jaguar tcs racing"
+   ],
+   "season": {
+    "position": 1,
+    "points": 288.0,
+    "rounds": 17,
+    "wins": 4,
+    "podiums": 10,
+    "members": [
+     {
+      "name": "Mitch Evans",
+      "position": 3,
+      "points": 160.0
+     },
+     {
+      "name": "António Félix Da Costa",
+      "position": 6,
+      "points": 128.0
+     }
+    ]
+   },
+   "review": {
+    "summary": "Jaguar TCS Racing lead the championship with 288 points from 17 rounds, including four wins and ten podiums. Mitch Evans sits third in the standings with 160 points, while teammate António Félix Da Costa is sixth with 128 points.",
+    "lastRace": "Mitch Evans finished fourth after starting fifth, earning 12 points. António Félix Da Costa dropped from ninth to fifteenth, failing to score.",
+    "writer": "own server"
+   },
+   "publishedAt": "2026-10-05T16:21:14Z",
+   "lastRace": {
+    "name": "London E-Prix",
+    "round": 17,
+    "date": "2026-08-16",
+    "lines": [
+     {
+      "name": "Mitch Evans",
+      "position": 4,
+      "grid": 5,
+      "points": 12.0,
+      "status": null
+     },
+     {
+      "name": "António Félix Da Costa",
+      "position": 15,
+      "grid": 9,
+      "points": 0.0,
+      "status": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "formulae-porsche-formula-e-team",
+   "channelID": "formulae",
+   "name": "Porsche Formula E Team",
+   "matchKeys": [
+    "porsche formula e team"
+   ],
+   "season": {
+    "position": 2,
+    "points": 271.0,
+    "rounds": 17,
+    "wins": 4,
+    "podiums": 8,
+    "members": [
+     {
+      "name": "Pascal Wehrlein",
+      "position": 1,
+      "points": 169.0
+     },
+     {
+      "name": "Nico Müller",
+      "position": 9,
+      "points": 102.0
+     }
+    ]
+   },
+   "review": {
+    "summary": "Porsche Formula E Team are second in the championship with 271 points, having secured four wins and eight podiums across 17 rounds. Pascal Wehrlein leads the driver standings with 169 points, while Nico Müller follows in ninth with 102 points.",
+    "lastRace": "Both drivers struggled in London, with Nico Müller finishing twelfth from fourth on the grid and Pascal Wehrlein finishing fourteenth from third.",
+    "writer": "own server"
+   },
+   "publishedAt": "2026-10-05T16:21:14Z",
+   "lastRace": {
+    "name": "London E-Prix",
+    "round": 17,
+    "date": "2026-08-16",
+    "lines": [
+     {
+      "name": "Nico Müller",
+      "position": 12,
+      "grid": 4,
+      "points": 0.0,
+      "status": null
+     },
+     {
+      "name": "Pascal Wehrlein",
+      "position": 14,
+      "grid": 3,
+      "points": 0.0,
+      "status": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "formulae-mahindra-racing",
+   "channelID": "formulae",
+   "name": "Mahindra Racing",
+   "matchKeys": [
+    "mahindra racing"
+   ],
+   "season": {
+    "position": 3,
+    "points": 252.0,
+    "rounds": 17,
+    "wins": 2,
+    "podiums": 7,
+    "members": [
+     {
+      "name": "Edoardo Mortara",
+      "position": 5,
+      "points": 137.0
+     },
+     {
+      "name": "Nyck De Vries",
+      "position": 7,
+      "points": 115.0
+     }
+    ]
+   },
+   "review": {
+    "summary": "Mahindra Racing hold third place with 252 points from 17 rounds, including two wins and seven podiums. Edoardo Mortara sits fifth in the standings with 137 points, ahead of Nyck De Vries who is seventh with 115 points.",
+    "lastRace": "Nyck De Vries secured second place from pole position, earning 21 points. Edoardo Mortara followed closely in third after starting second.",
+    "writer": "own server"
+   },
+   "publishedAt": "2026-10-05T16:21:14Z",
+   "lastRace": {
+    "name": "London E-Prix",
+    "round": 17,
+    "date": "2026-08-16",
+    "lines": [
+     {
+      "name": "Nyck De Vries",
+      "position": 2,
+      "grid": 1,
+      "points": 21.0,
+      "status": null
+     },
+     {
+      "name": "Edoardo Mortara",
+      "position": 3,
+      "grid": 2,
+      "points": 15.0,
+      "status": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "formulae-andretti-formula-e",
+   "channelID": "formulae",
+   "name": "Andretti Formula E",
+   "matchKeys": [
+    "andretti formula e"
+   ],
+   "season": {
+    "position": 4,
+    "points": 229.0,
+    "rounds": 17,
+    "wins": 2,
+    "podiums": 7,
+    "members": [
+     {
+      "name": "Jake Dennis",
+      "position": 2,
+      "points": 164.0
+     },
+     {
+      "name": "Felipe Drugovich",
+      "position": 14,
+      "points": 65.0
+     }
+    ]
+   },
+   "review": {
+    "summary": "Andretti Formula E are fourth in the championship with 229 points, featuring two wins and seven podiums. Jake Dennis is second in the standings with 164 points, significantly ahead of teammate Felipe Drugovich who holds fourteenth place with 65 points.",
+    "lastRace": "Felipe Drugovich finished thirteenth from eleventh on the grid. Jake Dennis dropped from sixteenth to eighteenth, scoring no points.",
+    "writer": "own server"
+   },
+   "publishedAt": "2026-10-05T16:21:14Z",
+   "lastRace": {
+    "name": "London E-Prix",
+    "round": 17,
+    "date": "2026-08-16",
+    "lines": [
+     {
+      "name": "Felipe Drugovich",
+      "position": 13,
+      "grid": 11,
+      "points": 0.0,
+      "status": null
+     },
+     {
+      "name": "Jake Dennis",
+      "position": 18,
+      "grid": 16,
+      "points": 0.0,
+      "status": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "formulae-citroën-racing",
+   "channelID": "formulae",
+   "name": "Citroën Racing",
+   "matchKeys": [
+    "citroën racing"
+   ],
+   "season": {
+    "position": 5,
+    "points": 182.0,
+    "rounds": 17,
+    "wins": 1,
+    "podiums": 6,
+    "members": [
+     {
+      "name": "Nick Cassidy",
+      "position": 8,
+      "points": 114.0
+     },
+     {
+      "name": "Jean-Éric Vergne",
+      "position": 12,
+      "points": 68.0
+     }
+    ]
+   },
+   "review": {
+    "summary": "Citroën Racing sit fifth with 182 points from 17 rounds, including one win and six podiums. Nick Cassidy holds eighth in the standings with 114 points, while Jean-Éric Vergne is twelfth with 68 points.",
+    "lastRace": "Nick Cassidy finished sixth after starting seventh, taking 8 points. Jean-Éric Vergne moved up from twelfth to seventh, adding 6 points to his total.",
+    "writer": "own server"
+   },
+   "publishedAt": "2026-10-05T16:21:14Z",
+   "lastRace": {
+    "name": "London E-Prix",
+    "round": 17,
+    "date": "2026-08-16",
+    "lines": [
+     {
+      "name": "Nick Cassidy",
+      "position": 6,
+      "grid": 7,
+      "points": 8.0,
+      "status": null
+     },
+     {
+      "name": "Jean-Éric Vergne",
+      "position": 7,
+      "grid": 12,
+      "points": 6.0,
+      "status": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "formulae-nissan-formula-e-team",
+   "channelID": "formulae",
+   "name": "Nissan Formula E Team",
+   "matchKeys": [
+    "nissan formula e team"
+   ],
+   "season": {
+    "position": 6,
+    "points": 157.0,
+    "rounds": 17,
+    "wins": 1,
+    "podiums": 6,
+    "members": [
+     {
+      "name": "Oliver Rowland",
+      "position": 4,
+      "points": 137.0
+     },
+     {
+      "name": "Norman Nato",
+      "position": 19,
+      "points": 20.0
+     }
+    ]
+   },
+   "review": {
+    "summary": "Nissan Formula E Team are sixth in the championship with 157 points, having achieved one win and six podiums. Oliver Rowland sits fourth in the standings with 137 points, while Norman Nato is nineteenth with 20 points.",
+    "lastRace": "Oliver Rowland climbed from seventeenth to ninth to score 3 points. Norman Nato finished tenth after starting nineteenth, earning 1 point.",
+    "writer": "own server"
+   },
+   "publishedAt": "2026-10-05T16:21:14Z",
+   "lastRace": {
+    "name": "London E-Prix",
+    "round": 17,
+    "date": "2026-08-16",
+    "lines": [
+     {
+      "name": "Oliver Rowland",
+      "position": 9,
+      "grid": 17,
+      "points": 3.0,
+      "status": null
+     },
+     {
+      "name": "Norman Nato",
+      "position": 10,
+      "grid": 19,
+      "points": 1.0,
+      "status": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "formulae-envision-racing",
+   "channelID": "formulae",
+   "name": "Envision Racing",
+   "matchKeys": [
+    "envision racing"
+   ],
+   "season": {
+    "position": 7,
+    "points": 152.0,
+    "rounds": 17,
+    "wins": 0,
+    "podiums": 2,
+    "members": [
+     {
+      "name": "Sébastien Buemi",
+      "position": 10,
+      "points": 97.0
+     },
+     {
+      "name": "Joel Eriksson",
+      "position": 16,
+      "points": 55.0
+     }
+    ]
+   },
+   "review": {
+    "summary": "Envision Racing occupy seventh place with 152 points from 17 rounds, without any wins but with two podiums. Sébastien Buemi is tenth in the standings with 97 points, ahead of Joel Eriksson who is sixteenth with 55 points.",
+    "lastRace": "Sébastien Buemi finished fifth after starting tenth, taking 10 points. Joel Eriksson did not finish the race after starting fifteenth.",
+    "writer": "own server"
+   },
+   "publishedAt": "2026-10-05T16:21:14Z",
+   "lastRace": {
+    "name": "London E-Prix",
+    "round": 17,
+    "date": "2026-08-16",
+    "lines": [
+     {
+      "name": "Sébastien Buemi",
+      "position": 5,
+      "grid": 10,
+      "points": 10.0,
+      "status": null
+     },
+     {
+      "name": "Joel Eriksson",
+      "position": null,
+      "grid": 15,
+      "points": 0.0,
+      "status": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "formulae-cupra-kiro",
+   "channelID": "formulae",
+   "name": "Cupra Kiro",
+   "matchKeys": [
+    "cupra kiro"
+   ],
+   "season": {
+    "position": 8,
+    "points": 128.0,
+    "rounds": 17,
+    "wins": 1,
+    "podiums": 3,
+    "members": [
+     {
+      "name": "Josep Maria Martí",
+      "position": 13,
+      "points": 66.0
+     },
+     {
+      "name": "Dan Ticktum",
+      "position": 15,
+      "points": 62.0
+     }
+    ]
+   },
+   "review": {
+    "summary": "Cupra Kiro are eighth in the standings with 128 points from 17 rounds, including one win and three podiums. Josep Maria Martí is thirteenth with 66 points, while Dan Ticktum follows in fifteenth with 62 points.",
+    "lastRace": "Josep Maria Martí finished eighth after starting thirteenth, earning 4 points. Dan Ticktum dropped from eighth to sixteenth, scoring no points.",
+    "writer": "own server"
+   },
+   "publishedAt": "2026-10-05T16:21:14Z",
+   "lastRace": {
+    "name": "London E-Prix",
+    "round": 17,
+    "date": "2026-08-16",
+    "lines": [
+     {
+      "name": "Josep Maria Martí",
+      "position": 8,
+      "grid": 13,
+      "points": 4.0,
+      "status": null
+     },
+     {
+      "name": "Dan Ticktum",
+      "position": 16,
+      "grid": 8,
+      "points": 0.0,
+      "status": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "formulae-ds-penske",
+   "channelID": "formulae",
+   "name": "DS Penske",
+   "matchKeys": [
+    "ds penske"
+   ],
+   "season": {
+    "position": 9,
+    "points": 91.0,
+    "rounds": 17,
+    "wins": 1,
+    "podiums": 1,
+    "members": [
+     {
+      "name": "Taylor Barnard",
+      "position": 11,
+      "points": 68.0
+     },
+     {
+      "name": "Maximilian Günther",
+      "position": 18,
+      "points": 23.0
+     }
+    ]
+   },
+   "review": {
+    "summary": "DS Penske sit ninth with 91 points from 17 rounds, having secured one win and one podium. Taylor Barnard is eleventh in the standings with 68 points, while Maximilian Günther holds eighteenth with 23 points.",
+    "lastRace": "Taylor Barnard won the race after starting sixth, taking 25 points. Maximilian Günther finished eleventh from fourteenth on the grid.",
+    "writer": "own server"
+   },
+   "publishedAt": "2026-10-05T16:21:14Z",
+   "lastRace": {
+    "name": "London E-Prix",
+    "round": 17,
+    "date": "2026-08-16",
+    "lines": [
+     {
+      "name": "Taylor Barnard",
+      "position": 1,
+      "grid": 6,
+      "points": 25.0,
+      "status": null
+     },
+     {
+      "name": "Maximilian Günther",
+      "position": 11,
+      "grid": 14,
+      "points": 0.0,
+      "status": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "formulae-lola-yamaha-abt-formula-e-team",
+   "channelID": "formulae",
+   "name": "Lola Yamaha ABT Formula E Team",
+   "matchKeys": [
+    "lola yamaha abt formula e team"
+   ],
+   "season": {
+    "position": 10,
+    "points": 35.0,
+    "rounds": 17,
+    "wins": 1,
+    "podiums": 1,
+    "members": [
+     {
+      "name": "Lucas Di Grassi",
+      "position": 17,
+      "points": 32.0
+     },
+     {
+      "name": "Zane Maloney",
+      "position": 20,
+      "points": 3.0
+     }
+    ]
+   },
+   "review": {
+    "summary": "Lola Yamaha ABT Formula E Team are tenth in the championship with 35 points from 17 rounds, including one win and one podium. Lucas Di Grassi is seventeenth with 32 points, while Zane Maloney is twentieth with 3 points.",
+    "lastRace": "Zane Maloney finished seventeenth after starting eighteenth. Lucas Di Grassi did not finish the race after starting twentieth.",
+    "writer": "own server"
+   },
+   "publishedAt": "2026-10-05T16:21:14Z",
+   "lastRace": {
+    "name": "London E-Prix",
+    "round": 17,
+    "date": "2026-08-16",
+    "lines": [
+     {
+      "name": "Zane Maloney",
+      "position": 17,
+      "grid": 18,
+      "points": 0.0,
+      "status": null
+     },
+     {
+      "name": "Lucas Di Grassi",
+      "position": null,
+      "grid": 20,
+      "points": 0.0,
+      "status": null
+     }
+    ]
+   }
   }
  ],
  "drivers": [
@@ -1071,21 +1611,21 @@
    "team": "Mercedes",
    "season": {
     "position": 1,
-    "points": 302.0,
-    "rounds": 15,
+    "points": 320.0,
+    "rounds": 16,
     "wins": 8,
-    "podiums": 12
+    "podiums": 13
    },
    "review": {
-    "summary": "Antonelli leads the championship with 302 points and eight wins from 15 rounds, ahead of teammate George Russell. He moved from 16th on the grid to fifth in Azerbaijan.",
+    "summary": "Leading the championship with 320 points from 16 rounds, including 8 wins and 13 podiums. He finished second in his last race in Malaysia after starting third, earning 18 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
-    "name": "Azerbaijan Grand Prix",
-    "position": 5,
-    "grid": 16,
-    "points": 10.0,
+    "name": "Bahrain Grand Prix in Malaysia",
+    "position": 2,
+    "grid": 3,
+    "points": 18.0,
     "status": "Finished",
     "driver": "Andrea Kimi Antonelli"
    }
@@ -1100,21 +1640,21 @@
    "season": {
     "position": 2,
     "points": 236.0,
-    "rounds": 15,
+    "rounds": 16,
     "wins": 3,
     "podiums": 8
    },
    "review": {
-    "summary": "Russell is second in the standings with 236 points, three wins, and eight podiums. He won the Azerbaijan Grand Prix after starting from pole position.",
+    "summary": "Second in the standings with 236 points, 3 wins and 8 podiums from 16 rounds. He retired from his last race in Malaysia after starting seventh, scoring no points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
-    "name": "Azerbaijan Grand Prix",
-    "position": 1,
-    "grid": 1,
-    "points": 25.0,
-    "status": "Finished",
+    "name": "Bahrain Grand Prix in Malaysia",
+    "position": 20,
+    "grid": 7,
+    "points": 0.0,
+    "status": "Retired",
     "driver": "George Russell"
    }
   },
@@ -1127,21 +1667,21 @@
    "team": "Ferrari",
    "season": {
     "position": 3,
-    "points": 199.0,
-    "rounds": 15,
+    "points": 214.0,
+    "rounds": 16,
     "wins": 1,
-    "podiums": 5
+    "podiums": 6
    },
    "review": {
-    "summary": "Hamilton sits third in the championship with 199 points and five podiums. He finished sixth at the Azerbaijan Grand Prix after starting sixth.",
+    "summary": "Third in the championship with 214 points, including one win and 6 podiums across 16 rounds. He finished third in his most recent race in Malaysia after starting second, collecting 15 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
-    "name": "Azerbaijan Grand Prix",
-    "position": 6,
-    "grid": 6,
-    "points": 8.0,
+    "name": "Bahrain Grand Prix in Malaysia",
+    "position": 3,
+    "grid": 2,
+    "points": 15.0,
     "status": "Finished",
     "driver": "Lewis Hamilton"
    }
@@ -1154,21 +1694,21 @@
    ],
    "team": "Ferrari",
    "season": {
-    "position": 5,
-    "points": 179.0,
-    "rounds": 15,
+    "position": 4,
+    "points": 191.0,
+    "rounds": 16,
     "wins": 1,
     "podiums": 4
    },
    "review": {
-    "summary": "Leclerc is fifth in the standings with 179 points and four podiums. He finished fourth in Azerbaijan after starting second on the grid.",
+    "summary": "Fourth in the standings with 191 points from 16 rounds, featuring one win and 4 podiums. He finished fourth in his last race in Malaysia after starting fourth, gaining 12 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
-    "name": "Azerbaijan Grand Prix",
+    "name": "Bahrain Grand Prix in Malaysia",
     "position": 4,
-    "grid": 2,
+    "grid": 4,
     "points": 12.0,
     "status": "Finished",
     "driver": "Charles Leclerc"
@@ -1182,23 +1722,23 @@
    ],
    "team": "McLaren",
    "season": {
-    "position": 4,
-    "points": 186.0,
-    "rounds": 15,
+    "position": 5,
+    "points": 188.0,
+    "rounds": 16,
     "wins": 2,
     "podiums": 5
    },
    "review": {
-    "summary": "Norris is fourth in the championship with 186 points and two wins, ahead of teammate Oscar Piastri. He retired from the Azerbaijan Grand Prix after starting fifth.",
+    "summary": "Fifth in the championship with 188 points, including 2 wins and 5 podiums from 16 rounds. He finished ninth in his last race in Malaysia after starting fifth, earning 2 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
-    "name": "Azerbaijan Grand Prix",
-    "position": null,
+    "name": "Bahrain Grand Prix in Malaysia",
+    "position": 9,
     "grid": 5,
-    "points": 0.0,
-    "status": "Retired",
+    "points": 2.0,
+    "status": "Finished",
     "driver": "Lando Norris"
    }
   },
@@ -1211,21 +1751,21 @@
    "team": "McLaren",
    "season": {
     "position": 7,
-    "points": 120.0,
-    "rounds": 15,
+    "points": 128.0,
+    "rounds": 16,
     "wins": 0,
     "podiums": 2
    },
    "review": {
-    "summary": "Piastri holds seventh place with 120 points and two podiums this season. He finished thirteenth in Azerbaijan after starting third on the grid.",
+    "summary": "Seventh in the standings with 128 points and 2 podiums from 16 rounds. In his most recent outing in Malaysia, he finished sixth after starting sixth to take 8 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
-    "name": "Azerbaijan Grand Prix",
-    "position": 13,
-    "grid": 3,
-    "points": 0.0,
+    "name": "Bahrain Grand Prix in Malaysia",
+    "position": 6,
+    "grid": 6,
+    "points": 8.0,
     "status": "Finished",
     "driver": "Oscar Piastri"
    }
@@ -1239,21 +1779,21 @@
    "team": "Red Bull",
    "season": {
     "position": 6,
-    "points": 163.0,
-    "rounds": 15,
-    "wins": 0,
-    "podiums": 7
+    "points": 188.0,
+    "rounds": 16,
+    "wins": 1,
+    "podiums": 8
    },
    "review": {
-    "summary": "Verstappen is sixth in the championship with 163 points and seven podiums from 15 rounds. He finished second in Azerbaijan after starting eighth.",
+    "summary": "Sixth in the championship with 188 points, including one win and 8 podiums from 16 rounds. He won his last race in Malaysia after starting first, taking 25 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
-    "name": "Azerbaijan Grand Prix",
-    "position": 2,
-    "grid": 8,
-    "points": 18.0,
+    "name": "Bahrain Grand Prix in Malaysia",
+    "position": 1,
+    "grid": 1,
+    "points": 25.0,
     "status": "Finished",
     "driver": "Max Verstappen"
    }
@@ -1267,21 +1807,21 @@
    "team": "Red Bull",
    "season": {
     "position": 8,
-    "points": 86.0,
-    "rounds": 15,
+    "points": 96.0,
+    "rounds": 16,
     "wins": 0,
     "podiums": 2
    },
    "review": {
-    "summary": "Hadjar is eighth in the standings with 86 points and two podiums. He finished third at the Azerbaijan Grand Prix after starting fourth.",
+    "summary": "Eighth in the standings with 96 points and 2 podiums from 16 rounds. He finished fifth in his last race in Malaysia after starting eighth, earning 10 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
-    "name": "Azerbaijan Grand Prix",
-    "position": 3,
-    "grid": 4,
-    "points": 15.0,
+    "name": "Bahrain Grand Prix in Malaysia",
+    "position": 5,
+    "grid": 8,
+    "points": 10.0,
     "status": "Finished",
     "driver": "Isack Hadjar"
    }
@@ -1295,16 +1835,16 @@
    "team": "Red Bull",
    "season": {
     "position": 9,
-    "points": 59.0,
-    "rounds": 15,
+    "points": 65.0,
+    "rounds": 16,
     "wins": 0,
     "podiums": 0
    },
    "review": {
-    "summary": "9th in the standings with 59 points from 15 rounds and no wins or podiums.",
+    "summary": "Ninth in the standings with 65 points from 16 rounds, without a win or podium.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z"
+   "publishedAt": "2026-10-05T16:21:14Z"
   },
   {
    "channelID": "f1",
@@ -1315,21 +1855,21 @@
    "team": "RB F1 Team",
    "season": {
     "position": 11,
-    "points": 37.0,
-    "rounds": 15,
+    "points": 38.0,
+    "rounds": 16,
     "wins": 0,
     "podiums": 0
    },
    "review": {
-    "summary": "Currently 11th with 37 points after 15 rounds, ahead of teammate Yuki Tsunoda who has 1 point. He finished 7th in the Azerbaijan Grand Prix, scoring 6 points after starting 15th on the grid.",
+    "summary": "Eleventh in the championship with 38 points after 16 rounds. He finished tenth at the Bahrain Grand Prix in Malaysia, moving up from twenty-second on the grid to earn one point, ahead of teammate Yuki Tsunoda.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
-    "name": "Azerbaijan Grand Prix",
-    "position": 7,
-    "grid": 15,
-    "points": 6.0,
+    "name": "Bahrain Grand Prix in Malaysia",
+    "position": 10,
+    "grid": 22,
+    "points": 1.0,
     "status": "Finished",
     "driver": "Arvid Lindblad"
    }
@@ -1344,15 +1884,15 @@
    "season": {
     "position": 20,
     "points": 1.0,
-    "rounds": 15,
+    "rounds": 16,
     "wins": 0,
     "podiums": 0
    },
    "review": {
-    "summary": "Sitting 20th with 1 point from 15 rounds and no wins or podiums, trailing teammate Arvid Lindblad.",
+    "summary": "Twentieth in the standings with one point from 16 rounds, trailing teammate Arvid Lindblad.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z"
+   "publishedAt": "2026-10-05T16:21:14Z"
   },
   {
    "channelID": "f1",
@@ -1364,21 +1904,21 @@
    "season": {
     "position": 10,
     "points": 41.0,
-    "rounds": 15,
+    "rounds": 16,
     "wins": 0,
     "podiums": 0
    },
    "review": {
-    "summary": "Currently 10th with 41 points from 15 rounds, ahead of teammate Franco Colapinto who has 27 points. He retired from the Azerbaijan Grand Prix after starting 7th on the grid.",
+    "summary": "Tenth in the championship with 41 points after 16 rounds. He finished sixteenth at the Bahrain Grand Prix in Malaysia after starting ninth, ahead of teammate Franco Colapinto.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
-    "name": "Azerbaijan Grand Prix",
-    "position": null,
-    "grid": 7,
+    "name": "Bahrain Grand Prix in Malaysia",
+    "position": 16,
+    "grid": 9,
     "points": 0.0,
-    "status": "Retired",
+    "status": "Finished",
     "driver": "Pierre Gasly"
    }
   },
@@ -1392,21 +1932,21 @@
    "season": {
     "position": 12,
     "points": 27.0,
-    "rounds": 15,
+    "rounds": 16,
     "wins": 0,
     "podiums": 0
    },
    "review": {
-    "summary": "Holds 12th position with 27 points from 15 rounds and no wins or podiums, trailing teammate Pierre Gasly. He retired from the Azerbaijan Grand Prix after starting 9th.",
+    "summary": "Twelfth in the standings with 27 points from 16 rounds. He finished thirteenth at the Bahrain Grand Prix in Malaysia, starting twenty-first, behind teammate Pierre Gasly.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
-    "name": "Azerbaijan Grand Prix",
-    "position": null,
-    "grid": 9,
+    "name": "Bahrain Grand Prix in Malaysia",
+    "position": 13,
+    "grid": 21,
     "points": 0.0,
-    "status": "Retired",
+    "status": "Finished",
     "driver": "Franco Colapinto"
    }
   },
@@ -1420,20 +1960,20 @@
    "season": {
     "position": 13,
     "points": 20.0,
-    "rounds": 15,
+    "rounds": 16,
     "wins": 0,
     "podiums": 0
    },
    "review": {
-    "summary": "Positioned 13th with 20 points from 15 rounds, ahead of teammate Esteban Ocon who has 7 points. He finished 9th in the Azerbaijan Grand Prix, earning 2 points after starting 10th on the grid.",
+    "summary": "Thirteenth in the championship with 20 points after 16 rounds. His last race was a fourteenth-place finish at the Bahrain Grand Prix in Malaysia from sixteenth on the grid, ahead of teammate Esteban Ocon.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
-    "name": "Azerbaijan Grand Prix",
-    "position": 9,
-    "grid": 10,
-    "points": 2.0,
+    "name": "Bahrain Grand Prix in Malaysia",
+    "position": 14,
+    "grid": 16,
+    "points": 0.0,
     "status": "Finished",
     "driver": "Oliver Bearman"
    }
@@ -1448,20 +1988,20 @@
    "season": {
     "position": 16,
     "points": 7.0,
-    "rounds": 15,
+    "rounds": 16,
     "wins": 0,
     "podiums": 0
    },
    "review": {
-    "summary": "Currently 16th with 7 points from 15 rounds and no wins or podiums, trailing teammate Oliver Bearman. He finished 8th in the Azerbaijan Grand Prix, gaining 4 points after starting 13th on the grid.",
+    "summary": "Sixteenth in the standings with seven points from 16 rounds, behind teammate Oliver Bearman. He finished fifteenth at the Bahrain Grand Prix in Malaysia, starting seventeenth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
-    "name": "Azerbaijan Grand Prix",
-    "position": 8,
-    "grid": 13,
-    "points": 4.0,
+    "name": "Bahrain Grand Prix in Malaysia",
+    "position": 15,
+    "grid": 17,
+    "points": 0.0,
     "status": "Finished",
     "driver": "Esteban Ocon"
    }
@@ -1476,19 +2016,19 @@
    "season": {
     "position": 14,
     "points": 10.0,
-    "rounds": 15,
+    "rounds": 16,
     "wins": 0,
     "podiums": 0
    },
    "review": {
-    "summary": "Sitting 14th with 10 points from 15 rounds and no wins or podiums. He finished 15th in the Azerbaijan Grand Prix after starting 17th on the grid.",
+    "summary": "Fourteenth in the championship with 10 points after 16 rounds. He finished eighteenth at the Bahrain at the Bahrain Grand Prix in Malaysia, starting tenth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
-    "name": "Azerbaijan Grand Prix",
-    "position": 15,
-    "grid": 17,
+    "name": "Bahrain Grand Prix in Malaysia",
+    "position": 18,
+    "grid": 10,
     "points": 0.0,
     "status": "Finished",
     "driver": "Gabriel Bortoleto"
@@ -1504,19 +2044,19 @@
    "season": {
     "position": 15,
     "points": 7.0,
-    "rounds": 15,
+    "rounds": 16,
     "wins": 0,
     "podiums": 0
    },
    "review": {
-    "summary": "He has 7 points from 15 rounds and sits 15th in the standings with no wins or podiums. In his last race at the Azerbaijan Grand Prix, he finished 11th after starting 18th on the grid.",
+    "summary": "Sitting 15th in the standings with 7 points from 16 rounds, Hülkenberg has no wins or podiums this season. He finished 11th in his last race at the Bahrain Grand Prix in Malaysia, starting from 15th on the grid.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
-    "name": "Azerbaijan Grand Prix",
+    "name": "Bahrain Grand Prix in Malaysia",
     "position": 11,
-    "grid": 18,
+    "grid": 15,
     "points": 0.0,
     "status": "Finished",
     "driver": "Nico Hülkenberg"
@@ -1530,22 +2070,22 @@
    ],
    "team": "Williams",
    "season": {
-    "position": 17,
+    "position": 18,
     "points": 7.0,
-    "rounds": 15,
+    "rounds": 16,
     "wins": 0,
     "podiums": 0
    },
    "review": {
-    "summary": "He is 17th in the championship with 7 points from 15 rounds and no wins or podiums. At the Azerbaijan Grand Prix, he finished 10th after starting 14th on the grid to score one point.",
+    "summary": "Sainz is currently 18th in the championship with 7 points after 16 rounds. In the Bahrain Grand Prix in Malaysia, he finished 17th after starting 13th on the grid, placing him ahead of teammate Alexander Albon.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
-    "name": "Azerbaijan Grand Prix",
-    "position": 10,
-    "grid": 14,
-    "points": 1.0,
+    "name": "Bahrain Grand Prix in Malaysia",
+    "position": 17,
+    "grid": 13,
+    "points": 0.0,
     "status": "Finished",
     "driver": "Carlos Sainz"
    }
@@ -1558,21 +2098,21 @@
    ],
    "team": "Williams",
    "season": {
-    "position": 18,
+    "position": 19,
     "points": 5.0,
-    "rounds": 15,
+    "rounds": 16,
     "wins": 0,
     "podiums": 0
    },
    "review": {
-    "summary": "He is 18th in the standings with 5 points from 15 rounds and no wins or podiums. In the Azerbaijan Grand Prix, he started 12th but retired.",
+    "summary": "Albon holds 19th place in the standings with 5 points from 16 rounds. He started 18th at the Bahrain Grand Prix in Malaysia but retired from the race, leaving him behind teammate Carlos Sainz.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
-    "name": "Azerbaijan Grand Prix",
+    "name": "Bahrain Grand Prix in Malaysia",
     "position": null,
-    "grid": 12,
+    "grid": 18,
     "points": 0.0,
     "status": "Retired",
     "driver": "Alexander Albon"
@@ -1586,23 +2126,23 @@
    ],
    "team": "Aston Martin",
    "season": {
-    "position": 19,
-    "points": 3.0,
-    "rounds": 15,
+    "position": 17,
+    "points": 7.0,
+    "rounds": 16,
     "wins": 0,
     "podiums": 0
    },
    "review": {
-    "summary": "He sits 19th in the championship with 3 points from 15 rounds and no wins or podiums. His last race in Azerbaijan resulted in a retirement after starting 21st on the grid.",
+    "summary": "Alonso is 17th in the championship with 7 points after 16 rounds. In his last race, the Bahrain Grand Prix in Malaysia, he finished 8th and gained 4 points starting from 12th on the grid. He leads teammate Lance Stroll.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
-    "name": "Azerbaijan Grand Prix",
-    "position": null,
-    "grid": 21,
-    "points": 0.0,
-    "status": "Retired",
+    "name": "Bahrain Grand Prix in Malaysia",
+    "position": 8,
+    "grid": 12,
+    "points": 4.0,
+    "status": "Finished",
     "driver": "Fernando Alonso"
    }
   },
@@ -1616,21 +2156,21 @@
    "season": {
     "position": 21,
     "points": 0.0,
-    "rounds": 15,
+    "rounds": 16,
     "wins": 0,
     "podiums": 0
    },
    "review": {
-    "summary": "He is 21st in the standings with no points or wins from 15 rounds. In his most recent race at the Azerbaijan Grand Prix, he retired after starting 22nd.",
+    "summary": "Stroll is 21st in the standings with no points after 16 rounds. In the Bahrain Grand Prix in Malaysia, he finished 12th after starting 14th on the grid, currently trailing teammate Fernando Alonso.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
-    "name": "Azerbaijan Grand Prix",
-    "position": null,
-    "grid": 22,
+    "name": "Bahrain Grand Prix in Malaysia",
+    "position": 12,
+    "grid": 14,
     "points": 0.0,
-    "status": "Retired",
+    "status": "Finished",
     "driver": "Lance Stroll"
    }
   },
@@ -1644,18 +2184,18 @@
    "season": {
     "position": 22,
     "points": 0.0,
-    "rounds": 15,
+    "rounds": 16,
     "wins": 0,
     "podiums": 0
    },
    "review": {
-    "summary": "He is 22nd in the championship with zero points from 15 rounds and no wins or podiums. His last race in Azerbaijan resulted in a retirement after starting 19th on the grid.",
+    "summary": "Bottas sits 22nd in the championship with no points from 16 rounds. He started 19th at the Bahrain Grand Prix in Malaysia but retired from the race, placing him behind teammate Sergio Pérez.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
-    "name": "Azerbaijan Grand Prix",
-    "position": 16,
+    "name": "Bahrain Grand Prix in Malaysia",
+    "position": null,
     "grid": 19,
     "points": 0.0,
     "status": "Retired",
@@ -1672,18 +2212,18 @@
    "season": {
     "position": 23,
     "points": 0.0,
-    "rounds": 15,
+    "rounds": 16,
     "wins": 0,
     "podiums": 0
    },
    "review": {
-    "summary": "He sits 23rd in the standings with zero points from 15 rounds and no wins or podiums. In the Azerbaijan Grand Prix, he finished 14th after starting 20th on the grid.",
+    "summary": "Pérez is 23rd in the standings with no points after 16 rounds. In his last race at the Bahrain Grand Prix in Malaysia, he finished 19th after starting 20th on the grid, ahead of teammate Valtteri Bottas.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
-    "name": "Azerbaijan Grand Prix",
-    "position": 14,
+    "name": "Bahrain Grand Prix in Malaysia",
+    "position": 19,
     "grid": 20,
     "points": 0.0,
     "status": "Finished",
@@ -1705,10 +2245,10 @@
     "podiums": 9
    },
    "review": {
-    "summary": "Leading the championship with 333 points from 16 rounds, Martin has one win and nine podiums, ahead of teammate Marco Bezzecchi. He finished second at the Grand Prix of Japan to take 20 points.",
+    "summary": "Jorge Martin leads the championship with 333 points from 16 rounds, including one win and nine podiums. He finished second at the Grand Prix of Japan to earn 20 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
     "name": "Grand Prix of Japan",
     "position": 2,
@@ -1733,10 +2273,10 @@
     "podiums": 10
    },
    "review": {
-    "summary": "Bezzecchi is third in the standings with 284 points, including four wins and ten podiums, trailing Jorge Martin. He took third place at the Grand Prix of Japan, earning 16 points.",
+    "summary": "Marco Bezzecchi is third in the standings with 284 points from 16 rounds, featuring four wins and ten podiums. He secured third place at the Grand Prix of 16 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
     "name": "Grand Prix of Japan",
     "position": 3,
@@ -1761,10 +2301,10 @@
     "podiums": 4
    },
    "review": {
-    "summary": "Ogura holds fifth place with 237 points from 16 rounds, having achieved one win and four podiums. He finished sixth in the Grand Prix of Japan.",
+    "summary": "Ai Ogura sits fifth with 237 points after 16 rounds, having achieved one win and four podiums. His latest result was sixth at the Grand Prix of Japan.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
     "name": "Grand Prix of Japan",
     "position": 6,
@@ -1789,10 +2329,10 @@
     "podiums": 5
    },
    "review": {
-    "summary": "Fernandez is seventh in the championship with 216 points, one win, and five podiums. He secured fifth place at the Grand Prix of Japan.",
+    "summary": "Raul Fernandez is seventh in the championship with 216 points from 16 rounds, including one win and five podiums. He finished fifth at the Grand Prix of Japan to collect 11 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
     "name": "Grand Prix of Japan",
     "position": 5,
@@ -1817,10 +2357,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Savadori is currently 30th in the standings with no points or podiums from 16 rounds.",
+    "summary": "Lorenzo Savadori is currently 30th in the standings with no points after 16 rounds.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z"
+   "publishedAt": "2026-10-05T16:21:14Z"
   },
   {
    "channelID": "motogp",
@@ -1837,10 +2377,10 @@
     "podiums": 6
    },
    "review": {
-    "summary": "Second in the standings with 331 points, Marquez has six wins and six podiums from 16 rounds, ahead of teammate Fabio Di Giannantonio. He won the Grand Prix of Japan to earn 25 points.",
+    "summary": "Marc Marquez is second in the championship with 331 points from 16 rounds, including six wins and six podiums. He won the Grand Prix of Japan to take 25 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
     "name": "Grand Prix of Japan",
     "position": 1,
@@ -1865,10 +2405,10 @@
     "podiums": 2
    },
    "review": {
-    "summary": "Di Giannantonio is sixth in the championship with 230 points and two podiums from 16 rounds, trailing Marc Marquez. He finished 18th at the Grand Prix of Japan.",
+    "summary": "Fabio Di Giannantonio is sixth in the standings with 230 points from 16 rounds, including two podiums. He finished 18th at the Grand Prix of Japan without scoring points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
     "name": "Grand Prix of Japan",
     "position": 18,
@@ -1893,10 +2433,10 @@
     "podiums": 3
    },
    "review": {
-    "summary": "Bagnaia sits eighth with 164 points and three podiums from 16 rounds. He finished eighth at the Grand Prix of Japan to collect 8 points.",
+    "summary": "Francesco Bagnaia is eighth in the championship with 164 points from 16 rounds and three podiums. He finished eighth at the Grand Prix of Japan to earn 8 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
     "name": "Grand Prix of Japan",
     "position": 8,
@@ -1921,10 +2461,10 @@
     "podiums": 2
    },
    "review": {
-    "summary": "9th in the standings with 158 points and two podiums from 16 rounds, ahead of Fermin Aldeguer. He scored no points at the Grand Prix of Japan.",
+    "summary": "9th in the championship with 158 points from 16 rounds, including one win and two podiums. He scored no points at the Grand Prix of Japan.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
     "name": "Grand Prix of Japan",
     "position": null,
@@ -1949,10 +2489,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Currently 10th in the championship with 122 points after 16 rounds, following a 9th place finish at the Grand Prix of Japan.",
+    "summary": "Currently 10th in the standings with 122 points after 16 rounds. He finished 9th at the Grand Prix of Japan to earn 7 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
     "name": "Grand Prix of Japan",
     "position": 9,
@@ -1977,10 +2517,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Ranked 16th with 57 points from 16 rounds, having finished 15th at the Grand Prix of Japan.",
+    "summary": "Sitting 16th in the championship with 57 points from 16 rounds. He secured one point with a 15th place finish at the Grand Prix of Japan.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
     "name": "Grand Prix of Japan",
     "position": 15,
@@ -2005,10 +2545,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Holds 23rd position in the standings with 9 points from 16 rounds.",
+    "summary": "He is currently 23rd in the standings with 9 points after 16 rounds.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z"
+   "publishedAt": "2026-10-05T16:21:14Z"
   },
   {
    "channelID": "motogp",
@@ -2025,10 +2565,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Sits 31st in the championship with no points after 16 rounds.",
+    "summary": "He sits 31st in the championship with 0 points from 16 rounds.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z"
+   "publishedAt": "2026-10-05T16:21:14Z"
   },
   {
    "channelID": "motogp",
@@ -2045,10 +2585,10 @@
     "podiums": 7
    },
    "review": {
-    "summary": "In 4th place with 243 points, two wins, and seven podiums from 16 rounds, he finished 7th at the Grand Prix of Japan.",
+    "summary": "Ranked 4th in the standings with 243 points, two wins and seven podiums from 16 rounds. He finished 7th at the Grand Prix of Japan to gain 9 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
     "name": "Grand Prix of Japan",
     "position": 7,
@@ -2073,10 +2613,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Currently 11th in the standings with 116 points after 16 rounds, trailing Pedro Acosta, following a 4th place finish at the Grand Prix of Japan.",
+    "summary": "Currently 11th in the championship with 116 points after 16 rounds. He took 4th place at the Grand Prix of Japan, earning 13 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
     "name": "Grand Prix of Japan",
     "position": 4,
@@ -2101,10 +2641,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Ranked 13th with 99 points from 16 rounds, finishing 11th at the Grand Prix of Japan and trailing teammate Enea Bastianini.",
+    "summary": "He is 13th in the standings with 99 points from 16 rounds. His last outing at the Grand Prix of Japan saw him finish 11th and earn 5 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
     "name": "Grand Prix of Japan",
     "position": 11,
@@ -2129,10 +2669,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Maverick Viñales is in 22nd place with 12 points from 16 rounds and no wins or podiums. In his last race, the Grand Prix of Japan, he finished 14th to earn 2.0 points.",
+    "summary": "Sitting in 22nd with 12 points after 16 rounds, ahead of teammates Pol Espargaro and Jonas Folger. In Japan, he finished 14th to collect 2 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
     "name": "Grand Prix of Japan",
     "position": 14,
@@ -2157,10 +2697,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Pol Espargaro holds 25th position in the standings with 5 points after 16 rounds and no wins or podiums.",
+    "summary": "Currently 25th in the standings with 5 points from 16 rounds, ahead of Jonas Folger but behind Maverick Viñales.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z"
+   "publishedAt": "2026-10-05T16:21:14Z"
   },
   {
    "channelID": "motogp",
@@ -2177,10 +2717,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Jonas Folger is currently 29th in the championship with 0 points from 16 rounds and no wins or podiums.",
+    "summary": "Holding 29th position with no points scored across 16 rounds, trailing teammates Maverick Viñales and Pol Espargaro.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z"
+   "publishedAt": "2026-10-05T16:21:14Z"
   },
   {
    "channelID": "motogp",
@@ -2197,10 +2737,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Luca Marini sits in 12th place with 104 points after 16 rounds and no wins or podiums. In his last race, the Grand Prix of Japan, he finished 10th to collect 6.0 points.",
+    "summary": "12th in the championship with 104 points after 16 rounds, leading teammates Diogo Moreira, Johann Zarco, Joan Mir and Somkiat Chantra. In Japan, he finished 10th to earn 6 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
     "name": "Grand Prix of Japan",
     "position": 10,
@@ -2225,10 +2765,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Diogo Moreira is in 14th position with 74 points from 16 rounds and no wins or podiums. During the Grand Prix of Japan, he scored no points and was listed as outstanding.",
+    "summary": "Currently 14th with 74 points from 16 rounds, ahead of Zarco, Mir and Chantra but behind Marini. His last race in Japan resulted in no position and 0 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
     "name": "Grand Prix of Japan",
     "position": null,
@@ -2253,10 +2793,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Johann Zarco is 17th in the standings with 48 points after 16 rounds and no wins or podiums. His last race at the Grand Prix of Japan saw him finish 20th with no points.",
+    "summary": "Positioned 17th with 48 points after 16 rounds, ahead of Joan Mir and Somkiat Chantra but behind Marini and Moreira. In Japan, he finished 20th with no points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
     "name": "Grand Prix of Japan",
     "position": 20,
@@ -2281,10 +2821,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Joan Mir holds 18th place with 33 points from 16 rounds and has not secured any wins or podiums this season.",
+    "summary": "Sitting 18th in the standings with 33 points from 16 rounds, ahead of Somkiat Chantra but behind Marini, Moreira and Zarco.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z"
+   "publishedAt": "2026-10-05T16:21:14Z"
   },
   {
    "channelID": "motogp",
@@ -2301,10 +2841,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Somkiat Chantra is in 26th position with 3 points after 16 rounds and no wins or podiums. He finished 13th at the Grand Prix of Japan to earn 3.0 points.",
+    "summary": "Currently 26th with 3 points after 16 rounds, trailing teammates Luca Marini, Diogo Moreira, Johann Zarco and Joan Mir. In Japan, he finished 13th to earn 3 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
     "name": "Grand Prix of Japan",
     "position": 13,
@@ -2329,10 +2869,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Takaaki Nakagami sits in 27th place with 3 points from 16 rounds and has no wins or podiums.",
+    "summary": "Currently 27th in the standings with 3 points after 16 rounds and no wins or podiums, ahead of teammate Cal Crutchlow.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z"
+   "publishedAt": "2026-10-05T16:21:14Z"
   },
   {
    "channelID": "motogp",
@@ -2349,10 +2889,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Cal Crutchlow is currently 28th in the standings with 0 points from 16 rounds and no wins or podiums.",
+    "summary": "Sitting 28th after 16 rounds with no points, wins, or podiums, trailing Takaaki Nakagami.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z"
+   "publishedAt": "2026-10-05T16:21:14Z"
   },
   {
    "channelID": "motogp",
@@ -2369,10 +2909,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Fabio Quartararo holds 15th place with 66 points from 16 rounds and no wins or podiums. At the Grand Prix of Japan, he finished 12th to earn 4 points.",
+    "summary": "Holds 15th place with 66 points from 16 rounds and no wins or podiums. He finished 12th at the Grand Prix of Japan, earning 4 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
     "name": "Grand Prix of Japan",
     "position": 12,
@@ -2397,10 +2937,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Jack Miller is in 19th position with 28 points from 16 rounds and no wins or podiums. He finished 19th at the Grand Prix of Japan without scoring points.",
+    "summary": "Currently 19th in the standings with 28 points after 16 rounds and no wins or podiums, trailing Fabio Quartararo. He finished 19th at the Grand Prix of Japan.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
     "name": "Grand Prix of Japan",
     "position": 19,
@@ -2425,10 +2965,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Alex Rins sits in 20th place with 24 points from 16 rounds and no wins or podiums. His most recent result was 16th at the Grand Prix of Japan.",
+    "summary": "Positioned 20th with 24 points from 16 rounds and no wins or podiums, behind Fabio Quartararo. His last race at the Grand Prix of Japan saw him finish 16th.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
     "name": "Grand Prix of Japan",
     "position": 16,
@@ -2453,10 +2993,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Toprak Razgatlioglu is in 21st place with 18 points from 16 rounds and no wins or podiums. He finished 17th at the Grand Prix of Japan, scoring no points.",
+    "summary": "Currently 21st with 18 points after 16 rounds and no wins or podiums, following Fabio Quartararo. He finished 17th in his most recent outing at the Grand Prix of Japan.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z",
+   "publishedAt": "2026-10-05T16:21:14Z",
    "lastRace": {
     "name": "Grand Prix of Japan",
     "position": 17,
@@ -2481,47 +3021,607 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Augusto Fernandez is in 24th position with 6 points from 16 rounds and has recorded no wins or podiums.",
+    "summary": "Sitting 24th in the standings with 6 points from 16 rounds and no wins or podiums, behind Fabio Quartararo.",
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z"
+   "publishedAt": "2026-10-05T16:21:14Z"
+  },
+  {
+   "channelID": "formulae",
+   "name": "Mitch Evans",
+   "matchKeys": [
+    "mitch evans"
+   ],
+   "team": "Jaguar TCS Racing",
+   "season": {
+    "position": 3,
+    "points": 160.0,
+    "rounds": 17,
+    "wins": 2,
+    "podiums": 5
+   },
+   "review": {
+    "summary": "Mitch Evans sits third in the championship with 160 points from 17 rounds, including two wins and five podiums. He finished fourth at the London E-Prix after starting fifth, earning 12 points.",
+    "writer": "own server"
+   },
+   "publishedAt": "2026-10-05T16:21:14Z",
+   "lastRace": {
+    "name": "London E-Prix",
+    "position": 4,
+    "grid": 5,
+    "points": 12.0,
+    "status": null,
+    "driver": "Mitch Evans"
+   }
+  },
+  {
+   "channelID": "formulae",
+   "name": "António Félix Da Costa",
+   "matchKeys": [
+    "antónio félix da costa"
+   ],
+   "team": "Jaguar TCS Racing",
+   "season": {
+    "position": 6,
+    "points": 128.0,
+    "rounds": 17,
+    "wins": 2,
+    "podiums": 5
+   },
+   "review": {
+    "summary": "António Félix Da Costa is sixth in the standings with 128 points and two wins. He has five podiums this season but finished fifteenth in London after starting ninth.",
+    "writer": "own server"
+   },
+   "publishedAt": "2026-10-05T16:21:14Z",
+   "lastRace": {
+    "name": "London E-Prix",
+    "position": 15,
+    "grid": 9,
+    "points": 0.0,
+    "status": null,
+    "driver": "António Félix Da Costa"
+   }
+  },
+  {
+   "channelID": "formulae",
+   "name": "Pascal Wehrlein",
+   "matchKeys": [
+    "pascal wehrlein"
+   ],
+   "team": "Porsche Formula E Team",
+   "season": {
+    "position": 1,
+    "points": 169.0,
+    "rounds": 17,
+    "wins": 3,
+    "podiums": 6
+   },
+   "review": {
+    "summary": "Pascal Wehrlein leads the championship with 169 points from 17 rounds, boasting three wins and six podiums. He dropped to fourteenth in his last race after starting third.",
+    "writer": "own server"
+   },
+   "publishedAt": "2026-10-05T16:21:14Z",
+   "lastRace": {
+    "name": "London E-Prix",
+    "position": 14,
+    "grid": 3,
+    "points": 0.0,
+    "status": null,
+    "driver": "Pascal Wehrlein"
+   }
+  },
+  {
+   "channelID": "formulae",
+   "name": "Nico Müller",
+   "matchKeys": [
+    "nico müller"
+   ],
+   "team": "Porsche Formula E Team",
+   "season": {
+    "position": 9,
+    "points": 102.0,
+    "rounds": 17,
+    "wins": 1,
+    "podiums": 2
+   },
+   "review": {
+    "summary": "Nico Müller holds ninth place with 102 points, having secured one win and two podiums this season. He finished twelfth at the London E-Prix from fourth on the grid.",
+    "writer": "own server"
+   },
+   "publishedAt": "2026-10-05T16:21:14Z",
+   "lastRace": {
+    "name": "London E-Prix",
+    "position": 12,
+    "grid": 4,
+    "points": 0.0,
+    "status": null,
+    "driver": "Nico Müller"
+   }
+  },
+  {
+   "channelID": "formulae",
+   "name": "Edoardo Mortara",
+   "matchKeys": [
+    "edoardo mortara"
+   ],
+   "team": "Mahindra Racing",
+   "season": {
+    "position": 5,
+    "points": 137.0,
+    "rounds": 17,
+    "wins": 0,
+    "podiums": 3
+   },
+   "review": {
+    "summary": "Edoardo Mortara is fifth in the championship with 137 points and three podiums from 17 rounds. He claimed third place at the London E-Prix after starting second.",
+    "writer": "own server"
+   },
+   "publishedAt": "2026-10-05T16:21:14Z",
+   "lastRace": {
+    "name": "London E-Prix",
+    "position": 3,
+    "grid": 2,
+    "points": 15.0,
+    "status": null,
+    "driver": "Edoardo Mortara"
+   }
+  },
+  {
+   "channelID": "formulae",
+   "name": "Nyck De Vries",
+   "matchKeys": [
+    "nyck de vries"
+   ],
+   "team": "Mahindra Racing",
+   "season": {
+    "position": 7,
+    "points": 115.0,
+    "rounds": 17,
+    "wins": 2,
+    "podiums": 4
+   },
+   "review": {
+    "summary": "Nyck De Vries sits seventh with 115 points, including two wins and four podiums. He secured a second-place finish in London after starting first on the grid.",
+    "writer": "own server"
+   },
+   "publishedAt": "2026-10-05T16:21:14Z",
+   "lastRace": {
+    "name": "London E-Prix",
+    "position": 2,
+    "grid": 1,
+    "points": 21.0,
+    "status": null,
+    "driver": "Nyck De Vries"
+   }
+  },
+  {
+   "channelID": "formulae",
+   "name": "Jake Dennis",
+   "matchKeys": [
+    "jake dennis"
+   ],
+   "team": "Andretti Formula E",
+   "season": {
+    "position": 2,
+    "points": 164.0,
+    "rounds": 17,
+    "wins": 2,
+    "podiums": 6
+   },
+   "review": {
+    "summary": "Jake Dennis is second in the standings with 164 points, two wins, and six podiums. His recent outing in London saw him finish eighteenth after starting sixteenth.",
+    "writer": "own server"
+   },
+   "publishedAt": "2026-10-05T16:21:14Z",
+   "lastRace": {
+    "name": "London E-Prix",
+    "position": 18,
+    "grid": 16,
+    "points": 0.0,
+    "status": null,
+    "driver": "Jake Dennis"
+   }
+  },
+  {
+   "channelID": "formulae",
+   "name": "Felipe Drugovich",
+   "matchKeys": [
+    "felipe drugovich"
+   ],
+   "team": "Andretti Formula E",
+   "season": {
+    "position": 14,
+    "points": 65.0,
+    "rounds": 17,
+    "wins": 0,
+    "podiums": 1
+   },
+   "review": {
+    "summary": "Felipe Drugovich is fourteenth in the championship with 65 points and one podium from 17 rounds. He finished thirteenth at the London E-Prix after starting eleventh.",
+    "writer": "own server"
+   },
+   "publishedAt": "2026-10-05T16:21:14Z",
+   "lastRace": {
+    "name": "London E-Prix",
+    "position": 13,
+    "grid": 11,
+    "points": 0.0,
+    "status": null,
+    "driver": "Felipe Drugovich"
+   }
+  },
+  {
+   "channelID": "formulae",
+   "name": "Nick Cassidy",
+   "matchKeys": [
+    "nick cassidy"
+   ],
+   "team": "Citroën Racing",
+   "season": {
+    "position": 8,
+    "points": 114.0,
+    "rounds": 17,
+    "wins": 1,
+    "podiums": 5
+   },
+   "review": {
+    "summary": "Sitting in 8th with 114 points from 17 rounds, Cassidy has secured one win and five podiums. He finished the London E-Prix in 6th after starting 7th, earning 8 points. He currently leads teammate Jean-Éric Vergne.",
+    "writer": "own server"
+   },
+   "publishedAt": "2026-10-05T16:21:14Z",
+   "lastRace": {
+    "name": "London E-Prix",
+    "position": 6,
+    "grid": 7,
+    "points": 8.0,
+    "status": null,
+    "driver": "Nick Cassidy"
+   }
+  },
+  {
+   "channelID": "formulae",
+   "name": "Jean-Éric Vergne",
+   "matchKeys": [
+    "jean-éric vergne"
+   ],
+   "team": "Citroën Racing",
+   "season": {
+    "position": 12,
+    "points": 68.0,
+    "rounds": 17,
+    "wins": 0,
+    "podiums": 1
+   },
+   "review": {
+    "summary": "Vergne holds 12th place in the championship with 68 points from 17 rounds, including one podium. In London, he moved from 12th on the grid to finish 7th and collect 6 points. He trails teammate Nick Cassidy.",
+    "writer": "own server"
+   },
+   "publishedAt": "2026-10-05T16:21:14Z",
+   "lastRace": {
+    "name": "London E-Prix",
+    "position": 7,
+    "grid": 12,
+    "points": 6.0,
+    "status": null,
+    "driver": "Jean-Éric Vergne"
+   }
+  },
+  {
+   "channelID": "formulae",
+   "name": "Oliver Rowland",
+   "matchKeys": [
+    "oliver rowland"
+   ],
+   "team": "Nissan Formula E Team",
+   "season": {
+    "position": 4,
+    "points": 137.0,
+    "rounds": 17,
+    "wins": 1,
+    "podiums": 6
+   },
+   "review": {
+    "summary": "Rowland is 4th in the standings with 137 points, one win, and six podiums from 17 rounds. His London E-Prix saw him climb from 17th on the grid to finish 9th, earning 3 points. He sits ahead of teammate Norman Nato.",
+    "writer": "own server"
+   },
+   "publishedAt": "2026-10-05T16:21:14Z",
+   "lastRace": {
+    "name": "London E-Prix",
+    "position": 9,
+    "grid": 17,
+    "points": 3.0,
+    "status": null,
+    "driver": "Oliver Rowland"
+   }
+  },
+  {
+   "channelID": "formulae",
+   "name": "Norman Nato",
+   "matchKeys": [
+    "norman nato"
+   ],
+   "team": "Nissan Formula E Team",
+   "season": {
+    "position": 19,
+    "points": 20.0,
+    "rounds": 17,
+    "wins": 0,
+    "podiums": 0
+   },
+   "review": {
+    "summary": "Nato is 19th in the championship with 20 points from 17 rounds. He finished 10th at the London E-Prix after starting 19th, gaining one point. He trails teammate Oliver Rowland.",
+    "writer": "own server"
+   },
+   "publishedAt": "2026-10-05T16:21:14Z",
+   "lastRace": {
+    "name": "London E-Prix",
+    "position": 10,
+    "grid": 19,
+    "points": 1.0,
+    "status": null,
+    "driver": "Norman Nato"
+   }
+  },
+  {
+   "channelID": "formulae",
+   "name": "Sébastien Buemi",
+   "matchKeys": [
+    "sébastien buemi"
+   ],
+   "team": "Envision Racing",
+   "season": {
+    "position": 10,
+    "points": 97.0,
+    "rounds": 17,
+    "wins": 0,
+    "podiums": 1
+   },
+   "review": {
+    "summary": "Buemi holds 10th place with 97 points and one podium from 17 rounds. He finished 5th in London after starting 10th, taking 10 points. He currently leads teammate Joel Eriksson.",
+    "writer": "own server"
+   },
+   "publishedAt": "2026-10-05T16:21:14Z",
+   "lastRace": {
+    "name": "London E-Prix",
+    "position": 5,
+    "grid": 10,
+    "points": 10.0,
+    "status": null,
+    "driver": "Sébastien Buemi"
+   }
+  },
+  {
+   "channelID": "formulae",
+   "name": "Joel Eriksson",
+   "matchKeys": [
+    "joel eriksson"
+   ],
+   "team": "Envision Racing",
+   "season": {
+    "position": 16,
+    "points": 55.0,
+    "rounds": 17,
+    "wins": 0,
+    "podiums": 1
+   },
+   "review": {
+    "summary": "Eriksson is 16th in the standings with 55 points from 17 rounds and one podium. In London, he started 15th but failed to score points. He trails teammate Sébastien Buemi.",
+    "writer": "own server"
+   },
+   "publishedAt": "2026-10-05T16:21:14Z",
+   "lastRace": {
+    "name": "London E-Prix",
+    "position": null,
+    "grid": 15,
+    "points": 0.0,
+    "status": null,
+    "driver": "Joel Eriksson"
+   }
+  },
+  {
+   "channelID": "formulae",
+   "name": "Josep Maria Martí",
+   "matchKeys": [
+    "josep maria martí"
+   ],
+   "team": "Cupra Kiro",
+   "season": {
+    "position": 13,
+    "points": 66.0,
+    "rounds": 17,
+    "wins": 0,
+    "podiums": 2
+   },
+   "review": {
+    "summary": "Martí sits in 13th with 66 points and two podiums from 17 rounds. He finished 8th at the London E-Prix after starting 13th to earn 4 points. He is ahead of teammate Dan Ticktum.",
+    "writer": "own server"
+   },
+   "publishedAt": "2026-10-05T16:21:14Z",
+   "lastRace": {
+    "name": "London E-Prix",
+    "position": 8,
+    "grid": 13,
+    "points": 4.0,
+    "status": null,
+    "driver": "Josep Maria Martí"
+   }
+  },
+  {
+   "channelID": "formulae",
+   "name": "Dan Ticktum",
+   "matchKeys": [
+    "dan ticktum"
+   ],
+   "team": "Cupra Kiro",
+   "season": {
+    "position": 15,
+    "points": 62.0,
+    "rounds": 17,
+    "wins": 1,
+    "podiums": 1
+   },
+   "review": {
+    "summary": "Ticktum is 15th in the championship with 62 points, one win, and one podium from 17 rounds. He finished 16th in London after starting 8th, scoring no points. He trails teammate Josep Maria Martí.",
+    "writer": "own server"
+   },
+   "publishedAt": "2026-10-05T16:21:14Z",
+   "lastRace": {
+    "name": "London E-Prix",
+    "position": 16,
+    "grid": 8,
+    "points": 0.0,
+    "status": null,
+    "driver": "Dan Ticktum"
+   }
+  },
+  {
+   "channelID": "formulae",
+   "name": "Taylor Barnard",
+   "matchKeys": [
+    "taylor barnard"
+   ],
+   "team": "DS Penske",
+   "season": {
+    "position": 11,
+    "points": 68.0,
+    "rounds": 17,
+    "wins": 1,
+    "podiums": 1
+   },
+   "review": {
+    "summary": "Sitting 11th in the championship with 68 points from 17 rounds, he has secured one win and one podium. In his most recent outing at the London E-Prix, he finished first after starting sixth to take 25 points. He has outperformed teammate Maximilian Günther this season.",
+    "writer": "own server"
+   },
+   "publishedAt": "2026-10-05T16:21:14Z",
+   "lastRace": {
+    "name": "London E-Prix",
+    "position": 1,
+    "grid": 6,
+    "points": 25.0,
+    "status": null,
+    "driver": "Taylor Barnard"
+   }
+  },
+  {
+   "channelID": "formulae",
+   "name": "Maximilian Günther",
+   "matchKeys": [
+    "maximilian günther"
+   ],
+   "team": "DS Penske",
+   "season": {
+    "position": 18,
+    "points": 23.0,
+    "rounds": 17,
+    "wins": 0,
+    "podiums": 0
+   },
+   "review": {
+    "summary": "Currently 18th in the standings, he has collected 23 points across 17 rounds without a win or podium. His last race at the London E-Prix saw him finish 11th after starting 14th, earning no points. He trails teammate Taylor Barnard in the championship.",
+    "writer": "own server"
+   },
+   "publishedAt": "2026-10-05T16:21:14Z",
+   "lastRace": {
+    "name": "London E-Prix",
+    "position": 11,
+    "grid": 14,
+    "points": 0.0,
+    "status": null,
+    "driver": "Maximilian Günther"
+   }
+  },
+  {
+   "channelID": "formulae",
+   "name": "Lucas Di Grassi",
+   "matchKeys": [
+    "lucas di grassi"
+   ],
+   "team": "Lola Yamaha ABT Formula E Team",
+   "season": {
+    "position": 17,
+    "points": 32.0,
+    "rounds": 17,
+    "wins": 1,
+    "podiums": 1
+   },
+   "review": {
+    "summary": "Holding 17th place with 32 points from 17 rounds, he has one win and one podium. At the London E-Prix, he started from 20th on the grid but failed to score any points. He is ahead of teammate Zane Maloney.",
+    "writer": "own server"
+   },
+   "publishedAt": "2026-10-05T16:21:14Z",
+   "lastRace": {
+    "name": "London E-Prix",
+    "position": null,
+    "grid": 20,
+    "points": 0.0,
+    "status": null,
+    "driver": "Lucas Di Grassi"
+   }
+  },
+  {
+   "channelID": "formulae",
+   "name": "Zane Maloney",
+   "matchKeys": [
+    "zane maloney"
+   ],
+   "team": "Lola Yamaha ABT Formula E Team",
+   "season": {
+    "position": 20,
+    "points": 3.0,
+    "rounds": 17,
+    "wins": 0,
+    "podiums": 0
+   },
+   "review": {
+    "summary": "With 3 points from 17 rounds, he sits in 20th place and has no wins or podiums this season. In the London E-Prix, he finished 17th after starting 18th, scoring no points. He is currently behind teammate Lucas Di Grassi.",
+    "writer": "own server"
+   },
+   "publishedAt": "2026-10-05T16:21:14Z",
+   "lastRace": {
+    "name": "London E-Prix",
+    "position": 17,
+    "grid": 18,
+    "points": 0.0,
+    "status": null,
+    "driver": "Zane Maloney"
+   }
   }
  ],
  "races": [
   {
    "channelID": "f1",
-   "name": "Azerbaijan Grand Prix",
-   "round": 15,
-   "date": "2026-09-26",
+   "name": "Bahrain Grand Prix in Malaysia",
+   "round": 16,
+   "date": "2026-10-04",
    "podium": [
     {
      "position": 1,
-     "name": "George Russell",
-     "team": "Mercedes"
-    },
-    {
-     "position": 2,
      "name": "Max Verstappen",
      "team": "Red Bull"
     },
     {
+     "position": 2,
+     "name": "Andrea Kimi Antonelli",
+     "team": "Mercedes"
+    },
+    {
      "position": 3,
-     "name": "Isack Hadjar",
-     "team": "Red Bull"
+     "name": "Lewis Hamilton",
+     "team": "Ferrari"
     }
    ],
-   "classified": 16,
+   "classified": 20,
    "review": {
-    "summary": "Mercedes took victory through Russell, who led from pole and set the fastest lap. Red Bull secured a double podium with Verstappen in second and Hadjar in third. The race saw several retirements, including both McLaren and Alpine drivers, as well as Alonso, Stroll, Albon, and Bottas.",
+    "summary": "Max Verstappen won from pole position and set the fastest lap. He was followed by Antonelli and Hamilton in second and third. The classification shows a variety of results, with several drivers failing to finish the race.",
     "highlights": [
-     "Russell won from pole and set the fastest lap.",
-     "Verstappen climbed from eighth to second.",
-     "Lindblad moved from fifteenth to seventh.",
-     "Hülkenberg finished eleventh after starting eighteenth."
+     "Max Verstappen took victory from pole and set the fastest lap.",
+     "Arvid Lindblad climbed from twenty-second to tenth.",
+     "George Russell retired after starting seventh.",
+     "Alexander Albon also failed to finish the race."
     ],
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z"
+   "publishedAt": "2026-10-05T16:21:14Z"
   },
   {
    "channelID": "motogp",
@@ -2547,14 +3647,50 @@
    ],
    "classified": 20,
    "review": {
-    "summary": "Marc Marquez won for Ducati Lenovo Team, followed by Jorge Martin and Marco Bezzecchi of Aprilia Racing. The classification shows that Alex Marquez and Diogo Moreira did not finish the race.",
+    "summary": "Marc Marquez took the win for Ducati Lenovo Team, followed by Aprilia Racing riders Jorge Martin and Marco Bezzecchi on the podium. The classification shows a strong performance from the Aprilia squad, while several riders including Alex Marquez and Diogo Moreira failed to finish the race.",
     "highlights": [
-     "Marc Marquez won the Grand Prix of Japan.",
-     "Alex Marquez and Diogo Moreira did not finish."
+     "Marc Marquez claimed victory in Japan.",
+     "Jorge Martin and Marco Bezzecchi completed the podium for Aprilia Racing.",
+     "Alex Marquez and Diogo Moreira both failed to finish the race."
     ],
     "writer": "own server"
    },
-   "publishedAt": "2026-10-04T13:26:45Z"
+   "publishedAt": "2026-10-05T16:21:14Z"
+  },
+  {
+   "channelID": "formulae",
+   "name": "London E-Prix",
+   "round": 17,
+   "date": "2026-08-16",
+   "podium": [
+    {
+     "position": 1,
+     "name": "Taylor Barnard",
+     "team": "DS Penske"
+    },
+    {
+     "position": 2,
+     "name": "Nyck De Vries",
+     "team": "Mahindra Racing"
+    },
+    {
+     "position": 3,
+     "name": "Edoardo Mortara",
+     "team": "Mahindra Racing"
+    }
+   ],
+   "classified": 18,
+   "review": {
+    "summary": "Taylor Barnard won the race for DS Penske after starting sixth. Nyck De Vries and Edoardo Mortara of Mahindra Racing completed the podium in second and third respectively. The classification shows several drivers dropping back, including Pascal Wehrlein and Nico Müller from the front of the grid, while Oliver Rowland moved forward from seventeenth to ninth.",
+    "highlights": [
+     "Taylor Barnard won the race after starting sixth.",
+     "Nyck De Vis secured second place from pole position.",
+     "Oliver Rowland climbed from seventeenth to ninth.",
+     "Lucas Di Grassi did not finish the race after starting twentieth."
+    ],
+    "writer": "own server"
+   },
+   "publishedAt": "2026-10-05T16:21:14Z"
   }
  ]
 }
