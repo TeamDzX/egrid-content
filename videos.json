@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-04T13:13:28Z",
+  "generatedAt": "2026-10-05T16:03:24Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,17 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "SuCzitMKR08",
+          "title": "Max Wins The Bahrain Grand Prix, POWERED BY US! | Talking Bull",
+          "publishedAt": "2026-10-05T14:56:28Z",
+          "duration": "28:08",
+          "seconds": 1688,
+          "thumbnail": "https://i.ytimg.com/vi/SuCzitMKR08/maxresdefault.jpg",
+          "source": "Red Bull Racing",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "5H6hVXJftqQ",
           "title": "James Vowles Answers Your Azerbaijan Grand Prix Fan Questions!",
@@ -416,17 +427,6 @@
           "allowedRegions": []
         },
         {
-          "id": "oRgcT9w9OfU",
-          "title": "What home means | Exploring belonging through sport with YoungMinds and Valvoline",
-          "publishedAt": "2026-07-13T16:34:21Z",
-          "duration": "11:45",
-          "seconds": 705,
-          "thumbnail": "https://i.ytimg.com/vi/oRgcT9w9OfU/maxresdefault.jpg",
-          "source": "Aston Martin Aramco F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "4aFCIR7Qajc",
           "title": "We Spent the Day with Franco Colapinto at an F1 Filming Day | Powered by Eni",
           "publishedAt": "2026-05-17T11:30:39Z",
@@ -715,6 +715,17 @@
       "sourceURL": "https://www.youtube.com/channel/UCuN9hYw2RpoAW8rZ3VK3isA",
       "videos": [
         {
+          "id": "QjNqTrsrf2o",
+          "title": "NASCAR Cup Series Highlights | 2026 Las Vegas Motor Speedway",
+          "publishedAt": "2026-10-05T01:02:22Z",
+          "duration": "25:46",
+          "seconds": 1546,
+          "thumbnail": "https://i.ytimg.com/vi/QjNqTrsrf2o/maxresdefault.jpg",
+          "source": "NASCAR",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "c07cPE-xUxk",
           "title": "NASCAR Cup Series Highlights | 2026 Kansas Speedway",
           "publishedAt": "2026-09-27T22:31:02Z",
@@ -896,6 +907,17 @@
       "sourceURL": "https://www.youtube.com/channel/UCJcErqlzaBzFmAh2uIxeqxQ",
       "videos": [
         {
+          "id": "ppYJ2fXroZU",
+          "title": "NAPA Auto Parts NHRA Midwest Nationals Elimination Highlights",
+          "publishedAt": "2026-10-05T14:39:58Z",
+          "duration": "12:00",
+          "seconds": 720,
+          "thumbnail": "https://i.ytimg.com/vi/ppYJ2fXroZU/maxresdefault.jpg",
+          "source": "NHRA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "V_nkR5r1Pqc",
           "title": "Lucas Oil Drag Racing Series Highlights from the NHRA Nationals at The Rock",
           "publishedAt": "2026-10-01T18:37:25Z",
@@ -1015,17 +1037,6 @@
           "source": "NHRA",
           "blockedRegions": [],
           "allowedRegions": []
-        },
-        {
-          "id": "jybMtFaUpmU",
-          "title": "Lucas Oil Drag Racing Series Highlights from the DENSO NHRA Sonoma Nationals presented by PowerEdge",
-          "publishedAt": "2026-07-29T15:00:39Z",
-          "duration": "13:36",
-          "seconds": 816,
-          "thumbnail": "https://i.ytimg.com/vi/jybMtFaUpmU/maxresdefault.jpg",
-          "source": "NHRA",
-          "blockedRegions": [],
-          "allowedRegions": []
         }
       ]
     },
@@ -1035,6 +1046,17 @@
       "source": "the MotoGP manufacturers",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "iZPesWwYHaQ",
+          "title": "A recap of Yamaha’s home GP, featuring Izan Guevara as a special guest 🎙️🇯🇵 #JapaneseGP",
+          "publishedAt": "2026-10-05T07:07:54Z",
+          "duration": "1:58",
+          "seconds": 118,
+          "thumbnail": "https://i.ytimg.com/vi/iZPesWwYHaQ/maxresdefault.jpg",
+          "source": "Yamaha MotoGP",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "hqVOglIhTF4",
           "title": "Red Bull KTM MotoGP™ 2026 Factory Floor Episode 15 #AUSTRIANGP | KTM",
@@ -1208,17 +1230,6 @@
           "seconds": 862,
           "thumbnail": "https://i.ytimg.com/vi/QIHUzoA-tD4/maxresdefault.jpg",
           "source": "KTM",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "MkTRIyF26rs",
-          "title": "☎️ The #BritishGP is calling 🇬🇧 3 weeks to go ⏳🔥 Who’s ready for Silverstone? 🏁 #MotoGP",
-          "publishedAt": "2026-07-19T10:22:15Z",
-          "duration": "1:12",
-          "seconds": 72,
-          "thumbnail": "https://i.ytimg.com/vi/MkTRIyF26rs/maxresdefault.jpg",
-          "source": "Yamaha MotoGP",
           "blockedRegions": [],
           "allowedRegions": []
         },
