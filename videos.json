@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-05T16:03:24Z",
+  "generatedAt": "2026-10-06T14:13:37Z",
   "channels": [
     {
       "channelID": "f1",
@@ -1386,6 +1386,17 @@
       "name": "Lewis Hamilton",
       "videos": [
         {
+          "id": "TpMOMKfkPgs",
+          "title": "Restoring My F40",
+          "publishedAt": "2026-10-06T11:05:16Z",
+          "duration": "8:10",
+          "seconds": 490,
+          "thumbnail": "https://i.ytimg.com/vi/TpMOMKfkPgs/maxresdefault.jpg",
+          "source": "Lewis Hamilton",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "iXzJy0p9WQ4",
           "title": "quick one, thank you China",
           "publishedAt": "2026-03-23T11:20:06Z",
@@ -2309,6 +2320,17 @@
       "name": "Kyle Busch",
       "videos": [
         {
+          "id": "btibfc0d1EA",
+          "title": "Kyle Busch Classic at Las Vegas Bullring | Brex Ep. 62",
+          "publishedAt": "2026-10-05T21:00:08Z",
+          "duration": "10:55",
+          "seconds": 655,
+          "thumbnail": "https://i.ytimg.com/vi/btibfc0d1EA/maxresdefault.jpg",
+          "source": "Kyle Busch",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "FBpdJ-UYOe0",
           "title": "I Drove A Combine & Harvested Corn | Brex Ep. 61",
           "publishedAt": "2026-09-16T21:00:09Z",
@@ -2359,17 +2381,6 @@
           "duration": "17:11",
           "seconds": 1031,
           "thumbnail": "https://i.ytimg.com/vi/8W1YHx1DQeA/maxresdefault.jpg",
-          "source": "Kyle Busch",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "hOQyfptIjnc",
-          "title": "For My Dad | Brex Ep. 56",
-          "publishedAt": "2026-07-29T21:00:06Z",
-          "duration": "21:25",
-          "seconds": 1285,
-          "thumbnail": "https://i.ytimg.com/vi/hOQyfptIjnc/maxresdefault.jpg",
           "source": "Kyle Busch",
           "blockedRegions": [],
           "allowedRegions": []
