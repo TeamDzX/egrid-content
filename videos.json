@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-06T14:13:37Z",
+  "generatedAt": "2026-10-07T14:32:46Z",
   "channels": [
     {
       "channelID": "f1",
@@ -1047,6 +1047,28 @@
       "sourceURL": null,
       "videos": [
         {
+          "id": "cNsbO00b31c",
+          "title": "Marc Márquez and e Pecco Bagnaia | The Daruma game at #JapaneseGP",
+          "publishedAt": "2026-10-07T09:00:26Z",
+          "duration": "13:46",
+          "seconds": 826,
+          "thumbnail": "https://i.ytimg.com/vi/cNsbO00b31c/maxresdefault.jpg",
+          "source": "Ducati",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "T2C7-1vcVVE",
+          "title": "#JapaneseGP MotoGP - Back in 1966 - Sashimi Behind The Scenes",
+          "publishedAt": "2026-10-07T08:54:23Z",
+          "duration": "18:04",
+          "seconds": 1084,
+          "thumbnail": "https://i.ytimg.com/vi/T2C7-1vcVVE/maxresdefault.jpg",
+          "source": "HondaRacingHRC",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "iZPesWwYHaQ",
           "title": "A recap of Yamaha’s home GP, featuring Izan Guevara as a special guest 🎙️🇯🇵 #JapaneseGP",
           "publishedAt": "2026-10-05T07:07:54Z",
@@ -1318,28 +1340,6 @@
           "seconds": 696,
           "thumbnail": "https://i.ytimg.com/vi/yDjHxYENh_M/maxresdefault.jpg",
           "source": "KTM",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "U8ePf9_uDdw",
-          "title": "LIVE ITA - Campioni in Pista 2026 | Presentazione Ducati Lenovo Team MotoGP da Madonna di Campiglio",
-          "publishedAt": "2026-01-19T11:04:11Z",
-          "duration": "47:35",
-          "seconds": 2855,
-          "thumbnail": "https://i.ytimg.com/vi/U8ePf9_uDdw/maxresdefault.jpg",
-          "source": "Ducati",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "KUsLXsxHaE8",
-          "title": "LIVE ENG -  Campioni in Pista 2026 | Ducati Lenovo Team MotoGP™ Unveil from Madonna di Campiglio",
-          "publishedAt": "2026-01-19T10:55:18Z",
-          "duration": "47:36",
-          "seconds": 2856,
-          "thumbnail": "https://i.ytimg.com/vi/KUsLXsxHaE8/maxresdefault.jpg",
-          "source": "Ducati",
           "blockedRegions": [],
           "allowedRegions": []
         },
