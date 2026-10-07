@@ -1,7 +1,58 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-06T14:19:56Z",
+  "generatedAt": "2026-10-07T14:38:39Z",
   "editions": [
+    {
+      "id": "2026-10-07-preview",
+      "kind": "preview",
+      "title": "This weekend in motorsport",
+      "dateRange": "7–12 October",
+      "intro": "Looking ahead to 7–12 October, we have action across Formula 1, MotoGP and the NASCAR Cup Series. Round 17 sees racing in Singapore and Indonesia, while round 32 of NASCAR heads to Charlotte.",
+      "publishedAt": "2026-10-07T14:38:39Z",
+      "expiresAt": "2026-10-12T14:38:39Z",
+      "items": [
+        {
+          "channelID": "f1",
+          "channelName": "Formula 1",
+          "headline": "Singapore Grand Prix",
+          "detail": "Marina Bay Street Circuit, Singapore · Sun 11 Oct",
+          "body": "The Singapore Grand Prix takes place on Sun 11 Oct at the Marina Bay Street Circuit from 12:00 UTC. Andrea Kimi Antonelli holds an 84-point championship lead over George Russell. The weekend includes sprint qualifying on Fri 9 Oct at 12:30 UTC, with the sprint and qualifying both held on Saturday.",
+          "date": "2026-10-11",
+          "round": 17,
+          "facts": [
+            "Sprint qualifying Fri 9 Oct, 12:30 UTC",
+            "Sprint Sat 10 Oct, 09:00 UTC",
+            "Qualifying Sat 10 Oct, 13:00 UTC",
+            "Andrea Kimi Antonelli leads the championship by 84 points from George Russell"
+          ]
+        },
+        {
+          "channelID": "motogp",
+          "channelName": "MotoGP",
+          "headline": "Grand Prix of Indonesia",
+          "detail": "Pertamina Mandalika Circuit, Indonesia · Sun 11 Oct",
+          "body": "The Grand Prix of Indonesia arrives at the Pertamina Mandalika Circuit on Sun 11 Oct. Jorge Martin holds a narrow two-point advantage in the championship over Marc Marquez.",
+          "date": "2026-10-11",
+          "round": 17,
+          "facts": [
+            "Jorge Martin leads the championship by 2 points from Marc Marquez"
+          ]
+        },
+        {
+          "channelID": "nascar",
+          "channelName": "NASCAR Cup Series",
+          "headline": "Bank of America 400",
+          "detail": "Charlotte Motor Speedway · Sun 11 Oct",
+          "body": "The Bank of America 400 runs at Charlotte Motor Speedway on Sun 11 Oct from 19:00 UTC. This 400.5-mile race covers 267 laps, with US coverage provided by USA and PRN radio.",
+          "date": "2026-10-11",
+          "round": 32,
+          "facts": [
+            "267 laps, 400.5 miles",
+            "US coverage: USA (TV), PRN (radio)"
+          ]
+        }
+      ]
+    },
     {
       "id": "2026-10-06-recap",
       "kind": "recap",
@@ -305,70 +356,6 @@
           "headline": "Rally Italia Sardegna",
           "detail": "Alghero, Italy · Sun 4 Oct",
           "body": "Round 13 of the World Rally Championship is Rally Italia Sardegna, taking place in Alghero, Italy on Sun 4 Oct.",
-          "date": "2026-10-04",
-          "round": 13
-        }
-      ]
-    },
-    {
-      "id": "2026-10-03-preview",
-      "kind": "preview",
-      "title": "This weekend in motorsport",
-      "dateRange": "3–5 October",
-      "intro": "6 rounds across Formula 1, IMSA SportsCar Championship, MotoGP, NASCAR Cup Series, NHRA Drag Racing and World Rally Championship between 3–5 October.",
-      "publishedAt": "2026-10-03T12:17:53Z",
-      "expiresAt": "2026-10-08T12:17:53Z",
-      "items": [
-        {
-          "channelID": "imsa",
-          "channelName": "IMSA SportsCar Championship",
-          "headline": "Motul Petit Le Mans",
-          "detail": "Michelin Raceway Road Atlanta · Sat 3 Oct",
-          "body": "Round 11 of the IMSA SportsCar Championship season.",
-          "date": "2026-10-03",
-          "round": 11
-        },
-        {
-          "channelID": "f1",
-          "channelName": "Formula 1",
-          "headline": "Bahrain Grand Prix in Malaysia",
-          "detail": "Sepang International Circuit, Malaysia · Sun 4 Oct",
-          "body": "Round 16 of the Formula 1 season. The race starts at 07:00 UTC.",
-          "date": "2026-10-04",
-          "round": 16
-        },
-        {
-          "channelID": "motogp",
-          "channelName": "MotoGP",
-          "headline": "Grand Prix of Japan",
-          "detail": "Mobility Resort Motegi, Japan · Sun 4 Oct",
-          "body": "Round 16 of the MotoGP season.",
-          "date": "2026-10-04",
-          "round": 16
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "South Point 400",
-          "detail": "Las Vegas Motor Speedway · Sun 4 Oct",
-          "body": "Round 31 of the NASCAR Cup Series season.",
-          "date": "2026-10-04",
-          "round": 31
-        },
-        {
-          "channelID": "nhra",
-          "channelName": "NHRA Drag Racing",
-          "headline": "Midwest Nationals",
-          "detail": "World Wide Technology Raceway, Illinois · Sun 4 Oct",
-          "body": "This NHRA Drag Racing round.",
-          "date": "2026-10-04"
-        },
-        {
-          "channelID": "wrc",
-          "channelName": "World Rally Championship",
-          "headline": "Rally Italia Sardegna",
-          "detail": "Alghero, Italy · Sun 4 Oct",
-          "body": "Round 13 of the World Rally Championship season.",
           "date": "2026-10-04",
           "round": 13
         }
