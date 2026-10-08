@@ -1,7 +1,58 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-07T14:38:39Z",
+  "generatedAt": "2026-10-08T14:44:36Z",
   "editions": [
+    {
+      "id": "2026-10-08-preview",
+      "kind": "preview",
+      "title": "This weekend in motorsport",
+      "dateRange": "8–12 October",
+      "intro": "A busy week of racing arrives from 8 to 12 October, featuring round 17 of Formula 1 and MotoGP alongside round 32 of the NASCAR Cup Series.",
+      "publishedAt": "2026-10-08T14:44:36Z",
+      "expiresAt": "2026-10-13T14:44:36Z",
+      "items": [
+        {
+          "channelID": "f1",
+          "channelName": "Formula 1",
+          "headline": "Singapore Grand Prix",
+          "detail": "Marina Bay Street Circuit, Singapore · Sun 11 Oct",
+          "body": "The Singapore Grand Prix takes place on Sun 11 Oct at the Marina Bay Street Circuit from 12:00 UTC. Andrea Kimi Antonelli leads the championship by 84 points from George Russell. Sprint qualifying is set for Fri 9 Oct at 12:30 UTC, with the sprint and qualifying both occurring on Sat 10 Oct.",
+          "date": "2026-10-11",
+          "round": 17,
+          "facts": [
+            "Sprint qualifying Fri 9 Oct, 12:30 UTC",
+            "Sprint Sat 10 Oct, 09:00 UTC",
+            "Qualifying Sat 10 Oct, 13:00 UTC",
+            "Andrea Kimi Antonelli leads the championship by 84 points from George Russell"
+          ]
+        },
+        {
+          "channelID": "motogp",
+          "channelName": "MotoGP",
+          "headline": "Grand Prix of Indonesia",
+          "detail": "Pertamina Mandalika Circuit, Indonesia · Sun 11 Oct",
+          "body": "The Grand Prix of Indonesia takes place on Sun 11 Oct at the Pertamina Mandalika Circuit. Jorge Martin leads the championship by two points from Marc Marquez.",
+          "date": "2026-10-11",
+          "round": 17,
+          "facts": [
+            "Jorge Martin leads the championship by 2 points from Marc Marquez"
+          ]
+        },
+        {
+          "channelID": "nascar",
+          "channelName": "NASCAR Cup Series",
+          "headline": "Bank of America 400",
+          "detail": "Charlotte Motor Speedway · Sun 11 Oct",
+          "body": "The Bank of America 400 runs on Sun 11 Oct at 19:00 UTC at Charlotte Motor Speedway. This 267-lap, 400.5-mile race will be available on USA and PRN radio in the US.",
+          "date": "2026-10-11",
+          "round": 32,
+          "facts": [
+            "267 laps, 400.5 miles",
+            "US coverage: USA (TV), PRN (radio)"
+          ]
+        }
+      ]
+    },
     {
       "id": "2026-10-07-preview",
       "kind": "preview",
@@ -290,72 +341,6 @@
           "headline": "Rally Italia Sardegna",
           "detail": "Alghero, Italy · Sun 4 Oct",
           "body": "Round thirteen of the World Rally Championship, Rally Italia Sardegna, was held in Alghero, Italy, on Sunday 4 October.",
-          "date": "2026-10-04",
-          "round": 13
-        }
-      ]
-    },
-    {
-      "id": "2026-10-04-preview",
-      "kind": "preview",
-      "title": "This weekend in motorsport",
-      "dateRange": "4–5 October",
-      "intro": "Looking ahead to the weekend of 4–5 October, we have plenty of action across several championships. Formula 1 and MotoGP both head into round 16, while NASCAR continues its season at round 31. The NHRA and World Rally Championship also have important events scheduled for the coming days.",
-      "publishedAt": "2026-10-04T20:04:11Z",
-      "expiresAt": "2026-10-09T20:04:11Z",
-      "items": [
-        {
-          "channelID": "f1",
-          "channelName": "Formula 1",
-          "headline": "Bahrain Grand Prix in Malaysia",
-          "detail": "Sepang International Circuit, Malaysia · Sun 4 Oct",
-          "body": "The Bahrain Grand Prix in Malaysia takes place on Sun 4 Oct at 07:00 UTC. With qualifying set for 08:00 UTC on Sat 3 Oct, all eyes will be on the championship battle where Andrea Kimi Antonelli holds an 84-point lead over George Russell.",
-          "date": "2026-10-04",
-          "round": 16,
-          "facts": [
-            "Qualifying Sat 3 Oct, 08:00 UTC",
-            "Andrea Kimi Antonelli leads the championship by 84 points from George Russell"
-          ]
-        },
-        {
-          "channelID": "motogp",
-          "channelName": "MotoGP",
-          "headline": "Grand Prix of Japan",
-          "detail": "Mobility Resort Motegi, Japan · Sun 4 Oct",
-          "body": "The Grand Prix of Japan arrives at Mobility Resort Motegi on Sun 4 Oct. Jorge Martin holds a slim two-point advantage over Marc Marquez in the championship standings.",
-          "date": "2026-10-04",
-          "round": 16,
-          "facts": [
-            "Jorge Martin leads the championship by 2 points from Marc Marquez"
-          ]
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "South Point 400",
-          "detail": "Las Vegas Motor Speedway · Sun 4 Oct",
-          "body": "The South Point 400 runs at Las Vegas Motor Speedway on Sun 4 Oct from 21:30 UTC. This 400.5-mile race consists of 267 laps, with US coverage available on TV via USA and on radio through PRN.",
-          "date": "2026-10-04",
-          "round": 31,
-          "facts": [
-            "267 laps, 400.5 miles",
-            "US coverage: USA (TV), PRN (radio)"
-          ]
-        },
-        {
-          "channelID": "nhra",
-          "channelName": "NHRA Drag Racing",
-          "headline": "Midwest Nationals",
-          "detail": "World Wide Technology Raceway, Illinois · Sun 4 Oct",
-          "body": "The Midwest Nationals will be held at the World Wide Technology Raceway in Illinois on Sun 4 Oct.",
-          "date": "2026-10-04"
-        },
-        {
-          "channelID": "wrc",
-          "channelName": "World Rally Championship",
-          "headline": "Rally Italia Sardegna",
-          "detail": "Alghero, Italy · Sun 4 Oct",
-          "body": "Round 13 of the World Rally Championship is Rally Italia Sardegna, taking place in Alghero, Italy on Sun 4 Oct.",
           "date": "2026-10-04",
           "round": 13
         }
