@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-07T14:32:46Z",
+  "generatedAt": "2026-10-08T14:37:02Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,28 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "GDr9NA3ObLU",
+          "title": "Audi(o) | Episode 03 – Malaysia",
+          "publishedAt": "2026-10-08T11:00:25Z",
+          "duration": "8:15",
+          "seconds": 495,
+          "thumbnail": "https://i.ytimg.com/vi/GDr9NA3ObLU/maxresdefault.jpg",
+          "source": "Audi Revolut F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "ukFyAtMK0Ew",
+          "title": "The Science Behind FIA Helmet Standards",
+          "publishedAt": "2026-10-08T11:00:12Z",
+          "duration": "6:58",
+          "seconds": 418,
+          "thumbnail": "https://i.ytimg.com/vi/ukFyAtMK0Ew/maxresdefault.jpg",
+          "source": "FIA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "SuCzitMKR08",
           "title": "Max Wins The Bahrain Grand Prix, POWERED BY US! | Talking Bull",
@@ -147,17 +169,6 @@
           "duration": "10:51",
           "seconds": 651,
           "thumbnail": "https://i.ytimg.com/vi/lua5rOaTPEg/maxresdefault.jpg",
-          "source": "Atlassian Williams F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "rEEPYqtXcCw",
-          "title": "13 Year Old Karting Champion Gets Advice From Carlos Sainz",
-          "publishedAt": "2026-09-21T11:59:59Z",
-          "duration": "10:02",
-          "seconds": 602,
-          "thumbnail": "https://i.ytimg.com/vi/rEEPYqtXcCw/maxresdefault.jpg",
           "source": "Atlassian Williams F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
@@ -416,17 +427,6 @@
           "allowedRegions": []
         },
         {
-          "id": "MtIZTFY0jgs",
-          "title": "Race Simulator: Inside the Driver's Seat | Cadillac Formula 1® Team",
-          "publishedAt": "2026-07-14T13:25:01Z",
-          "duration": "9:21",
-          "seconds": 561,
-          "thumbnail": "https://i.ytimg.com/vi/MtIZTFY0jgs/maxresdefault.jpg",
-          "source": "Cadillac Formula 1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "4aFCIR7Qajc",
           "title": "We Spent the Day with Franco Colapinto at an F1 Filming Day | Powered by Eni",
           "publishedAt": "2026-05-17T11:30:39Z",
@@ -575,6 +575,17 @@
       "sourceURL": "https://www.youtube.com/channel/UC5G6kTnHXDz0WIBC2VGBOqg",
       "videos": [
         {
+          "id": "zad6e9xhpSQ",
+          "title": "Best of RAW Action | WRC Rally Italia Sardegna 2026",
+          "publishedAt": "2026-10-08T08:00:19Z",
+          "duration": "4:42",
+          "seconds": 282,
+          "thumbnail": "https://i.ytimg.com/vi/zad6e9xhpSQ/maxresdefault.jpg",
+          "source": "FIA World Rally Championship",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "JYLxGuNzqz8",
           "title": "SS19 STAGE HIGHLIGHTS | WRC Rally Italia Sardegna 2019",
           "publishedAt": "2026-09-29T13:00:12Z",
@@ -691,17 +702,6 @@
           "duration": "4:06",
           "seconds": 246,
           "thumbnail": "https://i.ytimg.com/vi/3ePSDHKYA3U/maxresdefault.jpg",
-          "source": "FIA World Rally Championship",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "SkWroMOCuf8",
-          "title": "WRC2 Event Highlights | WRC EKO Acropolis Rally 2026",
-          "publishedAt": "2026-06-29T15:27:47Z",
-          "duration": "3:33",
-          "seconds": 213,
-          "thumbnail": "https://i.ytimg.com/vi/SkWroMOCuf8/maxresdefault.jpg",
           "source": "FIA World Rally Championship",
           "blockedRegions": [],
           "allowedRegions": []
