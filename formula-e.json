@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-04T20:41:56Z",
+  "generatedAt": "2026-10-09T13:11:22Z",
   "sources": {
     "calendar": "https://www.fiaformulae.com/en/calendar",
     "sessions": "https://github.com/sportstimes/f1",
@@ -15013,7 +15013,7 @@
     },
     {
       "round": 1,
-      "name": "Jeddah E-Prix",
+      "name": "R01 Jeddah E-Prix",
       "venue": "Jeddah",
       "city": "Jeddah",
       "country": "Saudi Arabia",
@@ -15025,7 +15025,7 @@
     },
     {
       "round": 2,
-      "name": "Jeddah E-Prix",
+      "name": "R02 Jeddah E-Prix",
       "venue": "Jeddah",
       "city": "Jeddah",
       "country": "Saudi Arabia",
@@ -15037,9 +15037,9 @@
     },
     {
       "round": 3,
-      "name": "Mexico City E-Prix",
-      "venue": "Mexico City",
-      "city": "Mexico City",
+      "name": "R03 Mexico City E-Prix",
+      "venue": "Autodromo Hermanos Rodriguez",
+      "city": "Ciudad de México",
       "country": "Mexico",
       "date": "2027-01-16",
       "season": 13,
@@ -15049,7 +15049,7 @@
     },
     {
       "round": 4,
-      "name": "Austin E-Prix",
+      "name": "R04 Austin E-Prix",
       "venue": "Americas",
       "city": "Austin",
       "country": "USA",
@@ -15061,7 +15061,7 @@
     },
     {
       "round": 5,
-      "name": "Miami E-Prix",
+      "name": "R05 Miami E-Prix",
       "venue": "Miami IA",
       "city": "Miami",
       "country": "USA",
@@ -15073,7 +15073,7 @@
     },
     {
       "round": 6,
-      "name": "São Paulo E-Prix",
+      "name": "R06 São Paulo E-Prix",
       "venue": "São Paulo",
       "city": "São Paulo",
       "country": "Brazil",
@@ -15085,9 +15085,9 @@
     },
     {
       "round": 7,
-      "name": "Sanya E-Prix",
-      "venue": "Sanya",
-      "city": "Sanya",
+      "name": "R07 Sanya E-Prix",
+      "venue": "Haitang Bay Circuit",
+      "city": "Sanya Fenghuang International Apt",
       "country": "China",
       "date": "2027-04-17",
       "season": 13,
@@ -15097,7 +15097,7 @@
     },
     {
       "round": 8,
-      "name": "Monaco E-Prix",
+      "name": "R08 Monaco E-Prix",
       "venue": "Monte Carlo",
       "city": "Monaco",
       "country": "Monaco",
@@ -15109,7 +15109,7 @@
     },
     {
       "round": 9,
-      "name": "Monaco E-Prix",
+      "name": "R09 Monaco E-Prix",
       "venue": "Monte Carlo",
       "city": "Monaco",
       "country": "Monaco",
@@ -15121,7 +15121,7 @@
     },
     {
       "round": 10,
-      "name": "Berlin E-Prix",
+      "name": "R10 Berlin E-Prix",
       "venue": "Tempelhof",
       "city": "Berlin",
       "country": "Germany",
@@ -15133,7 +15133,7 @@
     },
     {
       "round": 11,
-      "name": "Berlin E-Prix",
+      "name": "R11 Berlin E-Prix",
       "venue": "Tempelhof",
       "city": "Berlin",
       "country": "Germany",
@@ -15145,7 +15145,7 @@
     },
     {
       "round": 12,
-      "name": "London E-Prix",
+      "name": "R12 London E-Prix",
       "venue": "Brands Hatch",
       "city": "London",
       "country": "United Kingdom",
@@ -15157,7 +15157,7 @@
     },
     {
       "round": 13,
-      "name": "London E-Prix",
+      "name": "R13 London E-Prix",
       "venue": "Brands Hatch",
       "city": "London",
       "country": "United Kingdom",
@@ -15169,7 +15169,7 @@
     },
     {
       "round": 14,
-      "name": "Zandvoort E-Prix",
+      "name": "R14 Zandvoort E-Prix",
       "venue": "Zandvoort",
       "city": "Zandvoort",
       "country": "Netherlands",
@@ -15181,7 +15181,7 @@
     },
     {
       "round": 15,
-      "name": "Zandvoort E-Prix",
+      "name": "R15 Zandvoort E-Prix",
       "venue": "Zandvoort",
       "city": "Zandvoort",
       "country": "Netherlands",
@@ -15193,7 +15193,7 @@
     },
     {
       "round": 16,
-      "name": "Madrid E-Prix",
+      "name": "R16 Madrid E-Prix",
       "venue": "Jarama",
       "city": "Madrid",
       "country": "Spain",
@@ -15205,7 +15205,7 @@
     },
     {
       "round": 17,
-      "name": "Madrid E-Prix",
+      "name": "R17 Madrid E-Prix",
       "venue": "Jarama",
       "city": "Madrid",
       "country": "Spain",
@@ -15217,7 +15217,7 @@
     },
     {
       "round": 18,
-      "name": "Shanghai E-Prix",
+      "name": "R18 Shanghai E-Prix",
       "venue": "Shanghai",
       "city": "Shanghai",
       "country": "China",
@@ -15229,7 +15229,7 @@
     },
     {
       "round": 19,
-      "name": "Shanghai E-Prix",
+      "name": "R19 Shanghai E-Prix",
       "venue": "Shanghai",
       "city": "Shanghai",
       "country": "China",
@@ -15241,7 +15241,7 @@
     },
     {
       "round": 20,
-      "name": "Tokyo E-Prix",
+      "name": "R20 Tokyo E-Prix",
       "venue": "Tokyo",
       "city": "Tokyo",
       "country": "Japan",
@@ -15253,7 +15253,7 @@
     },
     {
       "round": 21,
-      "name": "Tokyo E-Prix",
+      "name": "R21 Tokyo E-Prix",
       "venue": "Tokyo",
       "city": "Tokyo",
       "country": "Japan",
