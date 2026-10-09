@@ -1,7 +1,58 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-08T14:44:36Z",
+  "generatedAt": "2026-10-09T14:28:51Z",
   "editions": [
+    {
+      "id": "2026-10-09-preview",
+      "kind": "preview",
+      "title": "This weekend in motorsport",
+      "dateRange": "9–12 October",
+      "intro": "The week of 9–12 October features three rounds across Formula 1, MotoGP and the NASCAR Cup Series.",
+      "publishedAt": "2026-10-09T14:28:51Z",
+      "expiresAt": "2026-10-14T14:28:51Z",
+      "items": [
+        {
+          "channelID": "f1",
+          "channelName": "Formula 1",
+          "headline": "Singapore Grand Prix",
+          "detail": "Marina Bay Street Circuit, Singapore · Sun 11 Oct",
+          "body": "The Singapore Grand Prix takes place on Sun 11 Oct at the Marina Bay Street Circuit. Andrea Kimi Antonelli leads the championship by 84 points from George Russell. Sprint qualifying is set for Fri 9 Oct at 12:30 UTC, with the sprint and qualifying both scheduled for Saturday.",
+          "date": "2026-10-11",
+          "round": 17,
+          "facts": [
+            "Sprint qualifying Fri 9 Oct, 12:30 UTC",
+            "Sprint Sat 10 Oct, 09:00 UTC",
+            "Qualifying Sat 10 Oct, 13:00 UTC",
+            "Andrea Kimi Antonelli leads the championship by 84 points from George Russell"
+          ]
+        },
+        {
+          "channelID": "motogp",
+          "channelName": "MotoGP",
+          "headline": "Grand Prix of Indonesia",
+          "detail": "Pertamina Mandalika Circuit, Indonesia · Sun 11 Oct",
+          "body": "The Grand Prix of Indonesia arrives on Sun 11 Oct at the Pertamina Mandalika Circuit. Jorge Martin holds a two-point lead over Marc Marquez in the championship.",
+          "date": "2026-10-11",
+          "round": 17,
+          "facts": [
+            "Jorge Martin leads the championship by 2 points from Marc Marquez"
+          ]
+        },
+        {
+          "channelID": "nascar",
+          "channelName": "NASCAR Cup Series",
+          "headline": "Bank of America 400",
+          "detail": "Charlotte Motor Speedway · Sun 11 Oct",
+          "body": "The Bank of America 400 runs on Sun 11 Oct at Charlotte Motor Speedway from 19:00 UTC. This race will cover 400.5 miles across 267 laps.",
+          "date": "2026-10-11",
+          "round": 32,
+          "facts": [
+            "267 laps, 400.5 miles",
+            "US coverage: USA (TV), PRN (radio)"
+          ]
+        }
+      ]
+    },
     {
       "id": "2026-10-08-preview",
       "kind": "preview",
@@ -220,127 +271,6 @@
           "headline": "Rally Italia Sardegna",
           "detail": "Alghero, Italy · Sun 4 Oct",
           "body": "Rally Italia Sardegna took place in Alghero, Italy, on Sunday 4 October.",
-          "date": "2026-10-04",
-          "round": 13
-        }
-      ]
-    },
-    {
-      "id": "2026-10-05-recap",
-      "kind": "recap",
-      "title": "Last week in motorsport",
-      "dateRange": "28 September – 4 October",
-      "intro": "Racing action spanned several championships this week, including IMSA SportsCar Championship, Formula 1, MotoGP, NASCAR Cup Series, NHRA Drag Racing, and the World Rally Championship.",
-      "publishedAt": "2026-10-05T16:15:32Z",
-      "expiresAt": "2026-10-09T16:15:32Z",
-      "items": [
-        {
-          "channelID": "imsa",
-          "channelName": "IMSA SportsCar Championship",
-          "headline": "Motul Petit Le Mans",
-          "detail": "Michelin Raceway Road Atlanta · Sat 3 Oct",
-          "body": "The Motul Petit Le Mans was held at Michelin Raceway Road Atlanta on Saturday 3 October. This was the eleventh round of the IMSA SportsCar Championship.",
-          "date": "2026-10-03",
-          "round": 11
-        },
-        {
-          "channelID": "f1",
-          "channelName": "Formula 1",
-          "headline": "Bahrain Grand Prix in Malaysia",
-          "detail": "Sepang International Circuit, Malaysia · Sun 4 Oct",
-          "body": "Max Verstappen won the Bahrain Grand Prix in Malaysia, with Andrea Kimi Antonelli for Mercedes and Lewis Hamilton for Ferrari following him in second and third. The race was held at the Sepang International Circuit on Sunday 4 October.",
-          "date": "2026-10-04",
-          "round": 16,
-          "podium": [
-            {
-              "position": 1,
-              "name": "Max Verstappen",
-              "team": "Red Bull"
-            },
-            {
-              "position": 2,
-              "name": "Andrea Kimi Antonelli",
-              "team": "Mercedes"
-            },
-            {
-              "position": 3,
-              "name": "Lewis Hamilton",
-              "team": "Ferrari"
-            }
-          ]
-        },
-        {
-          "channelID": "motogp",
-          "channelName": "MotoGP",
-          "headline": "Grand Prix of Japan",
-          "detail": "Mobility Resort Motegi, Japan · Sun 4 Oct",
-          "body": "Marc Marquez took victory at the Grand Prix of Japan at Mobility Resort Motegi. Jorge Martin and Marco Bezzecchi, both with Aprilia Racing, completed the podium behind the Ducati Lenovo Team rider.",
-          "date": "2026-10-04",
-          "round": 16,
-          "podium": [
-            {
-              "position": 1,
-              "name": "Marc Marquez",
-              "team": "Ducati Lenovo Team"
-            },
-            {
-              "position": 2,
-              "name": "Jorge Martin",
-              "team": "Aprilia Racing"
-            },
-            {
-              "position": 3,
-              "name": "Marco Bezzecchi",
-              "team": "Aprilia Racing"
-            }
-          ]
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "South Point 400",
-          "detail": "Las Vegas Motor Speedway · Sun 4 Oct",
-          "body": "Chase Briscoe won the South Point 400 at Las Vegas Motor Speedway, leading 175 of the 267 laps. Kyle Larson and Tyler Reddick finished second and third in a race that saw 12 lead changes among seven drivers and four cautions.",
-          "date": "2026-10-04",
-          "round": 31,
-          "facts": [
-            "267 laps, 12 lead changes among 7 drivers",
-            "4 cautions for 21 laps",
-            "Most laps led: Chase Briscoe (175)",
-            "Margin of victory: 1.376 s"
-          ],
-          "podium": [
-            {
-              "position": 1,
-              "name": "Chase Briscoe",
-              "team": "Joe Gibbs Racing"
-            },
-            {
-              "position": 2,
-              "name": "Kyle Larson",
-              "team": "Hendrick Motorsports"
-            },
-            {
-              "position": 3,
-              "name": "Tyler Reddick",
-              "team": "23XI Racing"
-            }
-          ]
-        },
-        {
-          "channelID": "nhra",
-          "channelName": "NHRA Drag Racing",
-          "headline": "Midwest Nationals",
-          "detail": "World Wide Technology Raceway, Illinois · Sun 4 Oct",
-          "body": "The Midwest Nationals took place at the World Wide Technology Raceway in Illinois on Sunday 4 October.",
-          "date": "2026-10-04"
-        },
-        {
-          "channelID": "wrc",
-          "channelName": "World Rally Championship",
-          "headline": "Rally Italia Sardegna",
-          "detail": "Alghero, Italy · Sun 4 Oct",
-          "body": "Round thirteen of the World Rally Championship, Rally Italia Sardegna, was held in Alghero, Italy, on Sunday 4 October.",
           "date": "2026-10-04",
           "round": 13
         }
