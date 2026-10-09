@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-08T14:37:02Z",
+  "generatedAt": "2026-10-09T14:23:49Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,17 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "dV0FM2QJHyE",
+          "title": "James Vowles Answers Your Bahrain Grand Prix Fan Questions!",
+          "publishedAt": "2026-10-08T14:58:25Z",
+          "duration": "9:08",
+          "seconds": 548,
+          "thumbnail": "https://i.ytimg.com/vi/dV0FM2QJHyE/maxresdefault.jpg",
+          "source": "Atlassian Williams F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "GDr9NA3ObLU",
           "title": "Audi(o) | Episode 03 – Malaysia",
@@ -158,17 +169,6 @@
           "duration": "27:26",
           "seconds": 1646,
           "thumbnail": "https://i.ytimg.com/vi/f0c6uu8eYIA/maxresdefault.jpg",
-          "source": "Atlassian Williams F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "lua5rOaTPEg",
-          "title": "Which F1 Driver Is Better at Mini Golf?",
-          "publishedAt": "2026-09-24T10:29:59Z",
-          "duration": "10:51",
-          "seconds": 651,
-          "thumbnail": "https://i.ytimg.com/vi/lua5rOaTPEg/maxresdefault.jpg",
           "source": "Atlassian Williams F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
@@ -907,6 +907,17 @@
       "sourceURL": "https://www.youtube.com/channel/UCJcErqlzaBzFmAh2uIxeqxQ",
       "videos": [
         {
+          "id": "eWMsg2U5DeQ",
+          "title": "Lucas Oil Drag Racing Series Highlights from the NAPA Auto Parts NHRA Midwest Nationals",
+          "publishedAt": "2026-10-08T19:00:16Z",
+          "duration": "6:51",
+          "seconds": 411,
+          "thumbnail": "https://i.ytimg.com/vi/eWMsg2U5DeQ/maxresdefault.jpg",
+          "source": "NHRA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "ppYJ2fXroZU",
           "title": "NAPA Auto Parts NHRA Midwest Nationals Elimination Highlights",
           "publishedAt": "2026-10-05T14:39:58Z",
@@ -1023,17 +1034,6 @@
           "duration": "2:53",
           "seconds": 173,
           "thumbnail": "https://i.ytimg.com/vi/lvpqX_DBmyY/maxresdefault.jpg",
-          "source": "NHRA",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "jxryj3tj8wY",
-          "title": "Lucas Oil Drag Racing Series Highlights from the Muckleshoot Casino Resort NHRA Northwest Nationals",
-          "publishedAt": "2026-07-30T17:00:24Z",
-          "duration": "19:29",
-          "seconds": 1169,
-          "thumbnail": "https://i.ytimg.com/vi/jxryj3tj8wY/maxresdefault.jpg",
           "source": "NHRA",
           "blockedRegions": [],
           "allowedRegions": []
@@ -2247,6 +2247,17 @@
       "name": "Joey Logano",
       "videos": [
         {
+          "id": "WpJF-ybqLD0",
+          "title": "JL Kids Crew 2026: Adam, Ethan & Kyler at Vegas",
+          "publishedAt": "2026-10-08T16:18:03Z",
+          "duration": "8:54",
+          "seconds": 534,
+          "thumbnail": "https://i.ytimg.com/vi/WpJF-ybqLD0/maxresdefault.jpg",
+          "source": "Joey Logano",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "k7J2XPzCc4M",
           "title": "JL Kids Crew 2026: Drew, Gabriel, and Parker at Atlanta",
           "publishedAt": "2026-07-17T13:17:52Z",
@@ -2297,17 +2308,6 @@
           "duration": "6:18",
           "seconds": 378,
           "thumbnail": "https://i.ytimg.com/vi/mxiCl5k_U2g/maxresdefault.jpg",
-          "source": "Joey Logano",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "uPBy4QKHOy4",
-          "title": "JL Kids Crew 2025: Gage, Ellie & Hunter at Las Vegas",
-          "publishedAt": "2025-10-16T15:02:33Z",
-          "duration": "9:31",
-          "seconds": 571,
-          "thumbnail": "https://i.ytimg.com/vi/uPBy4QKHOy4/maxresdefault.jpg",
           "source": "Joey Logano",
           "blockedRegions": [],
           "allowedRegions": []
