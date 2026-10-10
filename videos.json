@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-09T14:23:49Z",
+  "generatedAt": "2026-10-10T13:45:28Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,50 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "-V6jJDssWEI",
+          "title": "F1 Drivers & TWICE's Tzuyu Compete in an Anime Art Challenge!",
+          "publishedAt": "2026-10-10T12:02:48Z",
+          "duration": "8:00",
+          "seconds": 480,
+          "thumbnail": "https://i.ytimg.com/vi/-V6jJDssWEI/maxresdefault.jpg",
+          "source": "Atlassian Williams F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "axdPg8WP8f4",
+          "title": "Sending It Around Sepang | Cadillac Formula 1® Team",
+          "publishedAt": "2026-10-09T20:55:15Z",
+          "duration": "5:11",
+          "seconds": 311,
+          "thumbnail": "https://i.ytimg.com/vi/axdPg8WP8f4/maxresdefault.jpg",
+          "source": "Cadillac Formula 1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "i5EnUkFLaWs",
+          "title": "Our First Win Of 2026!!! | Behind The Charge",
+          "publishedAt": "2026-10-09T20:05:11Z",
+          "duration": "8:05",
+          "seconds": 485,
+          "thumbnail": "https://i.ytimg.com/vi/i5EnUkFLaWs/maxresdefault.jpg",
+          "source": "Red Bull Racing",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "t7yMVYV7HSQ",
+          "title": "In the Paddock with Alex Albon: Behind the Scenes",
+          "publishedAt": "2026-10-09T15:00:02Z",
+          "duration": "9:28",
+          "seconds": 568,
+          "thumbnail": "https://i.ytimg.com/vi/t7yMVYV7HSQ/maxresdefault.jpg",
+          "source": "Atlassian Williams F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "dV0FM2QJHyE",
           "title": "James Vowles Answers Your Bahrain Grand Prix Fan Questions!",
@@ -141,17 +185,6 @@
           "allowedRegions": []
         },
         {
-          "id": "uNrCzhnjf2w",
-          "title": "Talking Bull Reacts To A DOUBLE PODIUM IN BAKU!!!",
-          "publishedAt": "2026-09-27T10:00:13Z",
-          "duration": "23:04",
-          "seconds": 1384,
-          "thumbnail": "https://i.ytimg.com/vi/uNrCzhnjf2w/maxresdefault.jpg",
-          "source": "Red Bull Racing",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "w2N7ME50sjs",
           "title": "The GABICO Challenge | Episode 2: What Is This?",
           "publishedAt": "2026-09-26T09:41:23Z",
@@ -170,17 +203,6 @@
           "seconds": 1646,
           "thumbnail": "https://i.ytimg.com/vi/f0c6uu8eYIA/maxresdefault.jpg",
           "source": "Atlassian Williams F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "AaK4KQe3q-4",
-          "title": "Freddie's F3 Finale",
-          "publishedAt": "2026-09-20T09:00:32Z",
-          "duration": "8:45",
-          "seconds": 525,
-          "thumbnail": "https://i.ytimg.com/vi/AaK4KQe3q-4/maxresdefault.jpg",
-          "source": "Audi Revolut F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -224,17 +246,6 @@
           "duration": "8:55",
           "seconds": 535,
           "thumbnail": "https://i.ytimg.com/vi/JwGUje2TCgA/maxresdefault.jpg",
-          "source": "Visa Cash App RB F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "DCdaTzU8QAc",
-          "title": "Can F1 Drivers Build Their Dream Pizzas? 🍕",
-          "publishedAt": "2026-09-07T16:30:02Z",
-          "duration": "7:05",
-          "seconds": 425,
-          "thumbnail": "https://i.ytimg.com/vi/DCdaTzU8QAc/maxresdefault.jpg",
           "source": "Visa Cash App RB F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
@@ -412,17 +423,6 @@
           "seconds": 361,
           "thumbnail": "https://i.ytimg.com/vi/LNP6lgxiTTg/maxresdefault.jpg",
           "source": "FIA",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "-59xVmUn1YI",
-          "title": "AMR Network: Portraits | Cognition",
-          "publishedAt": "2026-07-14T14:17:27Z",
-          "duration": "5:49",
-          "seconds": 349,
-          "thumbnail": "https://i.ytimg.com/vi/-59xVmUn1YI/maxresdefault.jpg",
-          "source": "Aston Martin Aramco F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -809,17 +809,6 @@
           "duration": "23:08",
           "seconds": 1388,
           "thumbnail": "https://i.ytimg.com/vi/z_6fqXoJesU/maxresdefault.jpg",
-          "source": "NASCAR",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "HYqZQd-WJX0",
-          "title": "NASCAR Cup Series Highlights | 2026 Brickyard 400 at Indianapolis",
-          "publishedAt": "2026-07-26T21:56:20Z",
-          "duration": "23:41",
-          "seconds": 1421,
-          "thumbnail": "https://i.ytimg.com/vi/HYqZQd-WJX0/maxresdefault.jpg",
           "source": "NASCAR",
           "blockedRegions": [],
           "allowedRegions": []
@@ -1454,17 +1443,6 @@
           "duration": "5:40",
           "seconds": 340,
           "thumbnail": "https://i.ytimg.com/vi/IwAVrkHs5EQ/maxresdefault.jpg",
-          "source": "Charles Leclerc",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "o8ezVPko3-s",
-          "title": "Monza Magic: My Second Win at the F1 Italian GP!",
-          "publishedAt": "2024-10-09T16:40:25Z",
-          "duration": "10:56",
-          "seconds": 656,
-          "thumbnail": "https://i.ytimg.com/vi/o8ezVPko3-s/maxresdefault.jpg",
           "source": "Charles Leclerc",
           "blockedRegions": [],
           "allowedRegions": []
@@ -2320,6 +2298,17 @@
       "name": "Kyle Busch",
       "videos": [
         {
+          "id": "4uq7dM9uBc0",
+          "title": "MY FIRST BURNOUT IN MY DAD's CUP CAR | Brex Ep. 63",
+          "publishedAt": "2026-10-10T13:00:08Z",
+          "duration": "17:44",
+          "seconds": 1064,
+          "thumbnail": "https://i.ytimg.com/vi/4uq7dM9uBc0/maxresdefault.jpg",
+          "source": "Kyle Busch",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "btibfc0d1EA",
           "title": "Kyle Busch Classic at Las Vegas Bullring | Brex Ep. 62",
           "publishedAt": "2026-10-05T21:00:08Z",
@@ -2370,17 +2359,6 @@
           "duration": "11:37",
           "seconds": 697,
           "thumbnail": "https://i.ytimg.com/vi/dqKJGy5AKTs/maxresdefault.jpg",
-          "source": "Kyle Busch",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "8W1YHx1DQeA",
-          "title": "Rocky Mountain Racing | Brex Ep. 57",
-          "publishedAt": "2026-08-07T21:22:36Z",
-          "duration": "17:11",
-          "seconds": 1031,
-          "thumbnail": "https://i.ytimg.com/vi/8W1YHx1DQeA/maxresdefault.jpg",
           "source": "Kyle Busch",
           "blockedRegions": [],
           "allowedRegions": []
