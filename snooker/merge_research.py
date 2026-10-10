@@ -50,6 +50,9 @@ def main(paths: list[str]) -> int:
                 "socials": socials,
                 "verifiedVia": {k: via[k] for k in socials},
                 "sources": r.get("sources") or [],
+                # When this was researched: snooker/bios_due.py flags bios
+                # older than a year for re-research.
+                "researchedAt": r.get("researchedAt") or __import__("datetime").date.today().isoformat(),
             }
             yt = r.get("youtube")
             if yt and yt.get("channelId") and yt.get("verifiedVia"):

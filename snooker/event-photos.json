@@ -1,0 +1,93 @@
+{
+ "_comment": "Tournament header photos, keyed by event name. Written by snooker/fetch_event_photos.py.",
+ "photos": {
+  "British Open": {
+   "url": "images/snooker/events/british-open.jpg",
+   "credit": "Lee Vilenski",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:2026_British_Open_(12507).jpg",
+   "caption": "British Open 2026, The Centaur, Cheltenham"
+  },
+  "English Open": {
+   "url": "images/snooker/events/english-open.jpg",
+   "credit": "BennyOnTheLoose",
+   "licence": "CC BY 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:2025_English_Open_round_one.jpg",
+   "caption": "English Open 2025, Brentwood Centre"
+  },
+  "German Masters": {
+   "url": "images/snooker/events/german-masters.jpg",
+   "credit": "LezFraniak",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:2014_German_Masters-Venue-Pano_Finals-1.jpg",
+   "caption": "German Masters 2014 final, Tempodrom, Berlin"
+  },
+  "Masters": {
+   "url": "images/snooker/events/masters.jpg",
+   "credit": "Lee Vilenski",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:2022_Cazoo_Masters_crowd_shot_2.jpg",
+   "caption": "The Masters 2022, Alexandra Palace, London"
+  },
+  "Northern Ireland Open": {
+   "url": "images/snooker/events/northern-ireland-open.jpg",
+   "credit": "William Murphy from Dublin, Ireland",
+   "licence": "CC BY-SA 2.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/2.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Belfast_-_The_Waterfront_Hall_(5688231860).jpg",
+   "caption": "Waterfront Hall, Belfast"
+  },
+  "Players Championship": {
+   "url": "images/snooker/events/players-championship.jpg",
+   "credit": "Pete from Liverpool, UK",
+   "licence": "CC BY 2.0",
+   "licenceURL": "https://creativecommons.org/licenses/by/2.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Southport_Theatre_and_Convention_Centre_during_the_2020_Players_Championship.jpg",
+   "caption": "Players Championship 2020, Southport Theatre and Convention Centre"
+  },
+  "Shoot Out": {
+   "url": "images/snooker/events/shoot-out.jpg",
+   "credit": "BennyOnTheLoose",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Jimmy_White_and_Matthew_Stevens_at_the_2020_Snooker_Shoot_Out.jpg",
+   "caption": "Snooker Shoot Out 2020, Watford Colosseum"
+  },
+  "Tour Championship": {
+   "url": "images/snooker/events/tour-championship.jpg",
+   "credit": "Craig Sunter from Manchester, UK",
+   "licence": "CC BY 2.0",
+   "licenceURL": "https://creativecommons.org/licenses/by/2.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:G-Mex_(6584031025).jpg",
+   "caption": "Manchester Central (G-Mex), Manchester"
+  },
+  "UK Championship": {
+   "url": "images/snooker/events/uk-championship.jpg",
+   "credit": "Malcolmxl5",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Auditorium_during_U.K._snooker_championship_2019.jpg",
+   "caption": "UK Championship 2019 semi-final, Barbican Centre, York"
+  },
+  "Welsh Open": {
+   "url": "images/snooker/events/welsh-open.jpg",
+   "credit": "Lee Vilenski",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:2022_Welsh_Open_snooker_quarter-finals_03.jpg",
+   "caption": "Welsh Open 2022, Venue Cymru, Llandudno"
+  },
+  "World Championship": {
+   "url": "images/snooker/events/world-championship.jpg",
+   "credit": "Bvayb",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:World_Championship_Snooker_2_tables_2.jpg",
+   "caption": "World Championship 2019, Crucible Theatre, Sheffield"
+  }
+ }
+}

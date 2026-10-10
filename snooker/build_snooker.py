@@ -61,6 +61,9 @@ DEFAULT_STATE = REPO_ROOT / "snooker" / "state.json"
 DEFAULT_PLAYERS_OUT = REPO_ROOT / "snooker-players.json"
 EDITORIAL = REPO_ROOT / "snooker" / "players.json"
 PHOTOS = REPO_ROOT / "snooker" / "photos.json"
+# Header photos per tournament name (past editions or the venue), from
+# snooker/fetch_event_photos.py. Keyed by name so they carry across seasons.
+EVENT_PHOTOS = REPO_ROOT / "snooker" / "event-photos.json"
 MONTHS = ["January", "February", "March", "April", "May", "June", "July",
           "August", "September", "October", "November", "December"]
 
@@ -289,6 +292,7 @@ def build(previous: dict, refetch: bool) -> dict:
     def nationality(player_id) -> str | None:
         return (players.get(str(player_id)) or {}).get("nationality") if player_id else None
 
+    event_photos = json.loads(EVENT_PHOTOS.read_text()).get("photos", {}) if EVENT_PHOTOS.exists() else {}
     events_out = []
     for raw in sorted(raw_events, key=lambda e: (e.get("StartDate") or "", e["ID"])):
         event_id = raw["ID"]
@@ -339,6 +343,8 @@ def build(previous: dict, refetch: bool) -> dict:
                 event[key] = raw[field]
         if name(raw.get("DefendingChampion")):
             event["defendingChampion"] = name(raw["DefendingChampion"])
+        if event_photos.get(event["name"]):
+            event["image"] = event_photos[event["name"]]
         final = next((m for m in matches if m["round"] == 15 and m["status"] == "finished" and m.get("winner")), None)
         if final:
             won = final["winner"] == 1
