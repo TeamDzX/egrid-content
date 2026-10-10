@@ -1,0 +1,52 @@
+name: Snooker bios due
+
+# The snooker player facts refresh themselves daily; the written bios for the
+# world's top 32 do not. On the 1st of every month this checks for
+#   - a newcomer to the top 32 with no bio, and
+#   - any bio researched more than 12 months ago (`researchedAt`),
+# and opens (or updates) one GitHub issue listing them. The first annual
+# re-research falls due in October 2027.
+#
+# Nothing here writes prose or changes the apps' data: research stays a
+# person-checked job (accounts only where an official page links them).
+# snooker/bios_due.py explains the steps; merge with snooker/merge_research.py.
+
+on:
+  schedule:
+    - cron: "0 8 1 * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: live
+
+      - name: Check bios
+        id: due
+        run: |
+          set +e
+          python3 snooker/bios_due.py > report.md
+          echo "due=$?" >> "$GITHUB_OUTPUT"
+          cat report.md
+
+      - name: Open or update the issue
+        if: steps.due.outputs.due == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          title="Snooker bios due"
+          number=$(gh issue list --state open --search "in:title \"$title\"" --json number -q '.[0].number')
+          if [ -n "$number" ]; then
+            gh issue edit "$number" --body-file report.md
+            gh issue comment "$number" --body "Re-checked $(date -u +%Y-%m-%d); list updated."
+          else
+            gh issue create --title "$title" --body-file report.md
+          fi
