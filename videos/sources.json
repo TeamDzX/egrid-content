@@ -217,6 +217,16 @@
           "minSeconds": 60
         }
       ]
+    },
+    {
+      "channelID": "snooker",
+      "enabled": true,
+      "sourceName": "WST",
+      "channelId": "UC5lTEvtwu6SR3LMSmU9VZ2Q",
+      "titleMatch": "^(?!.*(full match|in full|full session|fullmatchfriday)).*\\bvs\\b",
+      "minSeconds": 300,
+      "note": "World Snooker Tour's own channel (@worldsnookertour, ~635K subscribers), the tour operator and rights owner. Active: several uploads a day; the latest on 9 Oct 2026, covering the Shenzhen Open (finished 4 Oct) and Scottish Open qualifying. Embed-checked on 10 Oct 2026, 13 videos: match edits R7VX1Zy5y1k, B__IFmCdkhE, H7PLD09NVtc, qNFxH30MF0I and hgLGYanB_xI (a qualifier); full matches lxWsJMENXf0, Z3xI07Lne0I, fMzuNkvi_WM and noQILxwkkBw (the 2026 World Championship final session); and a Short. Every one gave embed preview status OK while the FORMULA 1 control in the same check gave UNPLAYABLE. All had availableCountries = 249, so they are unrestricted worldwide. There is no season-highlights playlist, only one playlist per event, so this uses uploads plus titleMatch. WST never puts 'Highlights' in a title: match edits look like 'HEADLINE! | Player vs Player | Shenzhen Open 2026' and run 8-22 minutes. The regex keeps titles containing 'vs' and drops full-match uploads (1-5 hours: 'Full Match', '#FullMatchFriday', 'In Full', 'The Final Session In Full'). Shorts never contain 'vs' or a pipe, so the regex skips them even in --no-key mode; minSeconds 300 also drops them and any short promo. On the last 30 /videos uploads the regex kept 25 match edits and correctly dropped 4 full matches; it missed 2 roundups with no 'vs' ('...Deja-Vu In Shenzhen!', 'SCOTTISH WONDERKIDS ON FIRE!'), which is acceptable. UNVERIFIED: (1) a real IFrame play in the app's WKWebView / Android WebView; (2) whether WST posts match edits for the BBC-produced events (UK Championship, Masters, World Championship), though its World Championship 2026 playlist exists and the final-session upload plays worldwide; (3) whether archive or throwback uploads with 'vs' in the title, such as a classic match, would slip in. If they do, add a year guard such as '20(2[6-9]|3\\d)'. Note @wstsnooker (UCKNtzeZZ4Gt8_4U_--n-6Jw) and @Worldsnookertour-1 are impostors. Fallback if WST fails the in-app play test: TNT Sports Snooker (UCexJsWmC7rvfRaqK8MF3JFA, titleMatch 'Highlights\\s*$'), but every video is limited to 63 European/Central Asian/North African countries.",
+      "credit": "World Snooker Tour"
     }
   ]
 }

@@ -1,0 +1,570 @@
+{
+ "_comment": "Hand-researched snooker player profiles, merged by merge_research.py. Accounts only with a verifiedVia page (see VERIFIED.md). Edit the research, then re-merge.",
+ "players": [
+  {
+   "name": "Ali Carter",
+   "birthplace": "Colchester, England",
+   "bio": "Ali Carter turned professional in 1996 and won his first ranking title at the 2009 Welsh Open, reaching number two in the world rankings in 2010. He has twice been World Championship runner-up, losing to Ronnie O'Sullivan in 2008 and 2012, and returned to win the 2016 World Open after treatment for cancer. His nickname, The Captain, comes from his hobby of flying aeroplanes.",
+   "highlights": [
+    "World Championship runner-up in 2008 and 2012",
+    "Won the English Open in 2026, beating Mark Williams 9-6 in the final",
+    "Won the German Masters in 2013 and 2023",
+    "Masters runner-up in 2020 and 2024",
+    "Made a 147 maximum at the Crucible in 2008"
+   ],
+   "sources": [
+    "https://www.wst.tv/players/ali-carter",
+    "https://players.snooker.web.gc.wstservices.co.uk/v2/c796b82d-1040-422d-b27d-9249310b99a3",
+    "https://en.wikipedia.org/wiki/Ali_Carter"
+   ]
+  },
+  {
+   "name": "Barry Hawkins",
+   "birthplace": "Ditton, England",
+   "bio": "Barry Hawkins turned professional in 1996 and waited 16 years for his first ranking title, which came at the 2012 Australian Goldfields Open. He reached the World Championship final in 2013, losing to Ronnie O'Sullivan, and went on to reach the Crucible semi-finals four more times in the following five years. He has played in the final of all three Triple Crown events.",
+   "highlights": [
+    "World Championship runner-up in 2013",
+    "Won the Welsh Open in 2026, beating Jack Lisowski 9-5 in the final",
+    "Won five ranking titles: Australian Goldfields Open 2012, Players Championship Grand Final 2015, World Grand Prix 2017, European Masters 2023 and Welsh Open 2026",
+    "Masters runner-up in 2016 and 2022, and UK Championship runner-up in 2024",
+    "Won the Snooker Shoot Out in 2012"
+   ],
+   "sources": [
+    "https://www.wst.tv/players/barry-hawkins",
+    "https://players.snooker.web.gc.wstservices.co.uk/v2/ec561f17-e982-43b3-8807-82fc76adbe75",
+    "https://en.wikipedia.org/wiki/Barry_Hawkins",
+    "https://www.bbc.co.uk/sport/snooker/articles/cy7jv30nm40o"
+   ]
+  },
+  {
+   "name": "Chang Bingyu",
+   "birthplace": "Golmud, China",
+   "bio": "Chang took up snooker at the age of six and first turned professional in 2019 via the CBSA China Tour. After regaining his tour card by winning the 2025 Asia-Pacific Championship, he reached his first ranking final at the 2025 Scottish Open, where he lost to Chris Wakelin. In 2026 he won his first ranking title at the Wuhan Open, beating Zhao Xintong 10–7 in the final.",
+   "highlights": [
+    "Won the Wuhan Open in 2026",
+    "Runner-up at the Scottish Open in 2025",
+    "Won the Asia-Pacific Championship in 2025 to regain his tour card",
+    "Made two maximum breaks in Triple Crown events during the 2025–26 season"
+   ],
+   "sources": [
+    "https://www.wst.tv/players/chang-bingyu/",
+    "https://players.snooker.web.gc.wstservices.co.uk/v2/f4834b43-a4d4-4810-ba79-b9a288e65f96",
+    "https://en.wikipedia.org/wiki/Chang_Bingyu",
+    "https://www.bbc.co.uk/sport/snooker/articles/cvgq72dd3pwo"
+   ]
+  },
+  {
+   "name": "Chris Wakelin",
+   "birthplace": "Rugby, England",
+   "bio": "Chris Wakelin earned his tour card through Q School in 2013. After almost ten years as a professional he won his first ranking title at the 2023 Snooker Shoot Out, and a run to the 2024 International Championship final took him into the world's top 16 for the first time. He won his second ranking title at the 2025 Scottish Open.",
+   "highlights": [
+    "Won the Scottish Open in 2025, beating Chang Bingyu 9-2 in the final",
+    "Won the Snooker Shoot Out in 2023, his first ranking title",
+    "Reached the World Championship quarter-finals in 2025",
+    "Runner-up at the Northern Ireland Open in 2023 and the International Championship in 2024",
+    "Made his first official 147 maximum at the Championship League in 2026"
+   ],
+   "sources": [
+    "https://www.wst.tv/players/chris-wakelin",
+    "https://players.snooker.web.gc.wstservices.co.uk/v2/a1beeb4b-2493-476c-9682-1900eb83c2d5",
+    "https://en.wikipedia.org/wiki/Chris_Wakelin"
+   ]
+  },
+  {
+   "name": "Ding Junhui",
+   "birthplace": "Yixing, China",
+   "bio": "Ding Junhui won the 2005 China Open aged 18, beating Stephen Hendry in the final, and went on to become the most successful Asian player in the sport's history. In 2014 he became the first Asian world number one, and in 2016 the first Asian player to reach the World Championship final. He is noted for the accuracy of his cue-ball control.",
+   "highlights": [
+    "Won the UK Championship in 2005, 2009 and 2019",
+    "Won the Masters in 2011",
+    "First Asian world number one, in 2014",
+    "World Championship runner-up in 2016",
+    "Won five ranking titles in the 2013-14 season, equalling Stephen Hendry's record"
+   ],
+   "sources": [
+    "https://www.wst.tv/players/ding-junhui",
+    "https://players.snooker.web.gc.wstservices.co.uk/v2/3ff06750-8c3c-456c-8fac-58209b6f679e",
+    "https://en.wikipedia.org/wiki/Ding_Junhui"
+   ]
+  },
+  {
+   "name": "Elliot Slessor",
+   "birthplace": "Gateshead, England",
+   "bio": "Slessor earned his professional tour card through Q School in 2013 at the age of 18. He reached his first ranking semi-final at the 2017 Northern Ireland Open, beating Ronnie O'Sullivan along the way, and has since reached the last four of several other ranking events. He has qualified for the World Championship at the Crucible twice, in 2020 and 2023.",
+   "highlights": [
+    "Semi-finalist at the Saudi Arabia Snooker Masters in 2025",
+    "Semi-finalist at the Welsh Open and the Northern Ireland Open in 2024",
+    "Semi-finalist at the British Open in 2021",
+    "Semi-finalist at the Northern Ireland Open in 2017",
+    "Qualified for the World Championship in 2020 and 2023"
+   ],
+   "sources": [
+    "https://www.wst.tv/players/elliot-slessor/",
+    "https://players.snooker.web.gc.wstservices.co.uk/v2/b1239913-b987-4bae-a7f6-ff4eb481f503",
+    "https://en.wikipedia.org/wiki/Elliot_Slessor"
+   ]
+  },
+  {
+   "name": "Gary Wilson",
+   "birthplace": "Wallsend, England",
+   "bio": "Gary Wilson won the World Under-21 Championship in 2004 and turned professional the same year, but dropped off the tour in 2006 and spent seven years as an amateur, working as a taxi driver, before regaining his place in 2013. Noted for his cue-ball control and break-building, he reached the World Championship semi-finals as a qualifier in 2019 and won his first ranking title at the 2022 Scottish Open, 18 years after first turning professional.",
+   "highlights": [
+    "Won the Scottish Open in 2022 and 2023",
+    "Won the Welsh Open in 2024",
+    "World Championship semi-finalist in 2019",
+    "Runner-up at the China Open (2015), British Open (2021) and Wuhan Open (2025)",
+    "World Under-21 Champion in 2004"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Gary_Wilson_(snooker_player)",
+    "https://www.wst.tv/players/e5f4377c-5119-4c0a-9a88-e42eb8e48677",
+    "https://players.snooker.web.gc.wstservices.co.uk/v2/e5f4377c-5119-4c0a-9a88-e42eb8e48677",
+    "https://www.wpbsa.com/player/gary-wilson/"
+   ]
+  },
+  {
+   "name": "Hossein Vafaei",
+   "birthplace": "Abadan, Iran",
+   "bio": "Hossein Vafaei won the IBSF World Amateur Championship in 2011 aged 17, then the youngest winner in the event's history, but recurring visa problems kept him from competing in the United Kingdom until 2014, when he became Iran's first professional snooker player. In 2022 he became the first Iranian to win a ranking title, at the Snooker Shoot Out, and the first to play at the Crucible. He reached his first World Championship quarter-final in 2026 after beating world number one Judd Trump 13–12.",
+   "highlights": [
+    "Won the Snooker Shoot Out in 2022, the first ranking title by an Iranian player",
+    "World Championship quarter-finalist in 2026",
+    "UK Championship semi-finalist in 2023",
+    "Won the IBSF World Amateur Championship in 2011",
+    "Won the IBSF World Under-21 Championship in 2014"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Hossein_Vafaei",
+    "https://www.wst.tv/players/99019ac8-ad6a-4927-9f93-1935ea43ca55",
+    "https://players.snooker.web.gc.wstservices.co.uk/v2/99019ac8-ad6a-4927-9f93-1935ea43ca55"
+   ]
+  },
+  {
+   "name": "Jack Lisowski",
+   "birthplace": "Cheltenham, England",
+   "bio": "Lisowski recovered from Hodgkin's lymphoma as a teenager, received the Paul Hunter Scholarship in 2009 and turned professional in 2010, when he was named Rookie of the Year. Known for a fast, attacking style, he lost his first six ranking finals before winning his maiden ranking title at the 2025 Northern Ireland Open, where he beat Judd Trump 9–8 in the final. He has reached a career-high of tenth in the world rankings.",
+   "highlights": [
+    "Won the Northern Ireland Open in 2025",
+    "Won the Home Nations Series bonus in 2026, finishing runner-up at the Welsh Open",
+    "World Championship quarter-finalist in 2022",
+    "Masters semi-finalist in 2023",
+    "Named Rookie of the Year in 2010"
+   ],
+   "sources": [
+    "https://www.wst.tv/players/jack-lisowski/",
+    "https://players.snooker.web.gc.wstservices.co.uk/v2/d56f02ab-f2df-41ca-b9a4-24167aded141",
+    "https://en.wikipedia.org/wiki/Jack_Lisowski"
+   ]
+  },
+  {
+   "name": "Jak Jones",
+   "birthplace": "Cwmbran, Wales",
+   "bio": "Jones turned professional in 2010 after winning the European Under-19 Championship, and later won the European Amateur Championship in 2016. He reached the final of the 2024 World Championship as a qualifier, losing 18–14 to Kyren Wilson, a run that took him into the world's top 16 for the first time. In the 2026–27 season he won his first two ranking titles, the Championship League and the British Open.",
+   "highlights": [
+    "Runner-up at the World Championship in 2024",
+    "Won the British Open in 2026",
+    "Won the Championship League in 2026",
+    "World Championship quarter-finalist in 2023",
+    "Won the European Amateur Championship in 2016"
+   ],
+   "sources": [
+    "https://www.wst.tv/players/jak-jones/",
+    "https://players.snooker.web.gc.wstservices.co.uk/v2/036bc430-6c51-4d63-a366-a6ca218f7f39",
+    "https://en.wikipedia.org/wiki/Jak_Jones"
+   ]
+  },
+  {
+   "name": "Joe O'Connor",
+   "birthplace": "Leicester, England",
+   "bio": "Joe O'Connor excelled at both pool and snooker as a junior, winning the under-20 title at the 2012 IEPF World Eightball Championship, and turned professional in 2018 after winning the English Amateur Championship. In his debut season he beat three top-ten players on the way to the Welsh Open semi-finals. He has since reached three ranking finals, and made the 200th official maximum break in 2024.",
+   "highlights": [
+    "Runner-up at the Scottish Open in 2022",
+    "Runner-up at the World Open and the Championship League in 2025",
+    "Beat Mark Selby on his Crucible debut in 2024",
+    "Made the 200th official maximum break in professional snooker in 2024",
+    "Won the English Amateur Championship in 2018"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Joe_O%27Connor_(snooker_player)",
+    "https://www.wst.tv/players/c2809815-3bd0-41fa-b727-458e22c98070",
+    "https://players.snooker.web.gc.wstservices.co.uk/v2/c2809815-3bd0-41fa-b727-458e22c98070"
+   ]
+  },
+  {
+   "name": "John Higgins",
+   "birthplace": "Wishaw, Scotland",
+   "bio": "Higgins turned professional in 1992 as part of the 'Class of '92' alongside Ronnie O'Sullivan and Mark Williams, and in the 1994-95 season became the first teenager to win three ranking events in one season. He has won four world titles and is widely regarded as one of the finest tactical players in the history of the game. His ranking-title career spans more than 30 years, from the 1994 Grand Prix to the 2025 Tour Championship.",
+   "highlights": [
+    "World Champion in 1998, 2007, 2009 and 2011",
+    "Won the UK Championship in 1998, 2000 and 2010",
+    "Won the Masters in 1999 and 2006",
+    "First teenager to win three ranking titles in one season (1994-95)",
+    "Won the 2025 World Open and Tour Championship, 30 years after his first ranking title"
+   ],
+   "sources": [
+    "https://www.wst.tv/players/john-higgins",
+    "https://players.snooker.web.gc.wstservices.co.uk/v2/a5eecca1-8302-4739-84fc-6721627baa43",
+    "https://en.wikipedia.org/wiki/John_Higgins"
+   ]
+  },
+  {
+   "name": "Judd Trump",
+   "birthplace": "Bristol, England",
+   "bio": "Trump made a competitive maximum break aged 14 in 2004 and turned professional in 2005. He won his first ranking title at the 2011 China Open and his first Triple Crown event at the UK Championship later that year, and completed the Triple Crown by winning the Masters and the World Championship in 2019. He is known for an attacking, fluent style and prolific break-building.",
+   "highlights": [
+    "World Champion in 2019, beating John Higgins 18-9 in the final",
+    "Won the Masters in 2019 and 2023",
+    "Won the UK Championship in 2011 and 2024",
+    "Won a record six ranking titles in the 2019-20 season",
+    "Made a record 107 century breaks in the 2024-25 season"
+   ],
+   "sources": [
+    "https://www.wst.tv/players/judd-trump",
+    "https://players.snooker.web.gc.wstservices.co.uk/v2/e2f3cfe7-6138-4ce6-b1dc-77dcc1d0a65f",
+    "https://en.wikipedia.org/wiki/Judd_Trump"
+   ]
+  },
+  {
+   "name": "Kyren Wilson",
+   "birthplace": "Kettering, England",
+   "bio": "Kyren Wilson first joined the professional tour in 2010 but lost his place after one season, returning in 2013 after two years as an amateur. He won his first ranking title at the 2015 Shanghai Masters, beating Judd Trump 10-9 in the final, and was runner-up to Ronnie O'Sullivan in the 2020 World Championship final. He became World Champion in 2024 and added his first Masters title in 2026.",
+   "highlights": [
+    "World Champion in 2024, beating Jak Jones 18-14 in the final",
+    "Won the Masters in 2026, beating John Higgins 10-6 in the final",
+    "Won four ranking titles in the 2024-25 season, including the German Masters and Players Championship in 2025",
+    "Won his maiden ranking title at the 2015 Shanghai Masters",
+    "Made a 147 maximum at the Crucible in 2023"
+   ],
+   "sources": [
+    "https://www.wst.tv/players/kyren-wilson",
+    "https://players.snooker.web.gc.wstservices.co.uk/v2/a8c0d3a6-706b-4bf0-8dce-9cde97fe88c4",
+    "https://en.wikipedia.org/wiki/Kyren_Wilson",
+    "https://www.bbc.co.uk/sport/snooker/articles/cm2jlvmz1xdo"
+   ]
+  },
+  {
+   "name": "Lei Peifan",
+   "birthplace": "Ankang, China",
+   "bio": "Lei Peifan first earned a tour card through Q School in 2019 and regained his professional status in 2024 by winning the Asia Pacific Championship. Later that year, ranked 84th in the world, he won the 2024 Scottish Open, beating Wu Yize 9–5 in the final to become the lowest-ranked winner of a ranking event since 1993. On his Crucible debut in 2025 he defeated defending champion Kyren Wilson 10–9.",
+   "highlights": [
+    "Won the Scottish Open in 2024",
+    "Beat defending champion Kyren Wilson on his Crucible debut in 2025, reaching the last 16",
+    "Won the Asia Pacific Championship in 2024 to regain his tour card"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Lei_Peifan",
+    "https://www.wst.tv/players/9e0b1245-cc2c-4dab-ad27-46db80701684",
+    "https://players.snooker.web.gc.wstservices.co.uk/v2/9e0b1245-cc2c-4dab-ad27-46db80701684"
+   ]
+  },
+  {
+   "name": "Mark Allen",
+   "birthplace": "Antrim, Northern Ireland",
+   "bio": "Mark Allen won the European and World Amateur Championships in 2004 and turned professional in 2005, reaching the world's top 16 within three seasons. He won his first ranking title at the 2012 World Open and has since won 12 ranking titles, along with the Masters in 2018 and the UK Championship in 2022. He finished the 2023-24 season as world number one.",
+   "highlights": [
+    "World number one at the end of the 2023-24 season",
+    "Won the Masters in 2018",
+    "Won the UK Championship in 2022",
+    "Won the Northern Ireland Open in 2021 and 2022",
+    "Won the World Amateur Championship in 2004"
+   ],
+   "sources": [
+    "https://www.wst.tv/players/mark-allen",
+    "https://players.snooker.web.gc.wstservices.co.uk/v2/c37aba27-5b12-4fae-8a8b-9e749c7a25f3",
+    "https://en.wikipedia.org/wiki/Mark_Allen_(snooker_player)"
+   ]
+  },
+  {
+   "name": "Mark Selby",
+   "birthplace": "Leicester, England",
+   "bio": "Selby won the England Under-15 Championship in 1998 and turned professional in 1999, aged 16. After finishing runner-up at the 2007 World Championship, he won the Masters on his debut the following season and went on to win four world titles. He is noted for his tactical, all-round game and determination, and in 2023 made the first maximum break in a World Championship final.",
+   "highlights": [
+    "World Champion in 2014, 2016, 2017 and 2021",
+    "Won the Masters in 2008, 2010 and 2013",
+    "Won the UK Championship in 2012, 2016 and 2025",
+    "Made the first maximum break in a World Championship final in 2023",
+    "Won the China Open for a record fourth time in 2026"
+   ],
+   "sources": [
+    "https://www.wst.tv/players/mark-selby",
+    "https://players.snooker.web.gc.wstservices.co.uk/v2/ba7831b4-ab75-4435-946a-c6f02e4e2d4b",
+    "https://en.wikipedia.org/wiki/Mark_Selby"
+   ]
+  },
+  {
+   "name": "Mark Williams",
+   "birthplace": "Cwm, Wales",
+   "bio": "Williams turned professional in 1992 as part of the 'Class of '92' and won his first ranking titles in 1996. In 2000 he became the first left-handed world champion, and in 2002-03 won the UK Championship, Masters and World Championship in a single season. He is known for his relaxed manner and long potting, and in 2025 became the oldest winner of a ranking event, at the age of 50.",
+   "highlights": [
+    "World Champion in 2000, 2003 and 2018",
+    "Won the UK Championship, Masters and World Championship in the 2002-03 season",
+    "Won the Masters in 1998 and 2003",
+    "Won the UK Championship in 1999 and 2002",
+    "Became the oldest ranking event winner at the 2025 Xi'an Grand Prix, aged 50"
+   ],
+   "sources": [
+    "https://www.wst.tv/players/mark-williams",
+    "https://players.snooker.web.gc.wstservices.co.uk/v2/6aaddcbb-345c-474a-9069-e7757e155729",
+    "https://en.wikipedia.org/wiki/Mark_Williams_(snooker_player)"
+   ]
+  },
+  {
+   "name": "Neil Robertson",
+   "birthplace": "Melbourne, Australia",
+   "bio": "Robertson first turned professional in 1998 but twice lost his tour place before re-establishing himself, and in 2006 became the first Australian to win a ranking event, at the Grand Prix. In 2010 he became the first Australian world champion, and he is the only player born outside the United Kingdom to have completed the Triple Crown. In the 2013-14 season he became the first player to compile 100 century breaks in a single season.",
+   "highlights": [
+    "World Champion in 2010, beating Graeme Dott in the final",
+    "Won the UK Championship in 2013, 2015 and 2020",
+    "Won the Masters in 2012 and 2022",
+    "First player to make 100 century breaks in a single season (2013-14)",
+    "Won the 2006 Grand Prix, the first ranking title by an Australian"
+   ],
+   "socials": {
+    "x": "nr147"
+   },
+   "verifiedVia": {
+    "x": "https://www.neilrobertson.net/"
+   },
+   "sources": [
+    "https://www.wst.tv/players/neil-robertson",
+    "https://players.snooker.web.gc.wstservices.co.uk/v2/8b83133a-4c15-4275-811e-bdf2cb02702f",
+    "https://en.wikipedia.org/wiki/Neil_Robertson"
+   ]
+  },
+  {
+   "name": "Noppon Saengkham",
+   "birthplace": "Samut Prakan, Thailand",
+   "bio": "Noppon Saengkham turned professional in 2010 after winning the World Under-21 Championship in 2009, and regained his tour card in 2013 by winning the Asian Under-21 Championship. He reached four ranking semi-finals before his first ranking final at the 2023 Scottish Open, and in 2026 reached the China Open final, beating Judd Trump, Ronnie O'Sullivan and Shaun Murphy before losing 10–6 to Mark Selby.",
+   "highlights": [
+    "Runner-up at the China Open in 2026",
+    "Runner-up at the Scottish Open in 2023",
+    "World Championship last 16 in 2020 and 2022",
+    "World Under-21 Champion in 2009"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Noppon_Saengkham",
+    "https://www.wst.tv/players/aaf6c342-11f7-4d03-86b3-1144a4fd92f8",
+    "https://players.snooker.web.gc.wstservices.co.uk/v2/aaf6c342-11f7-4d03-86b3-1144a4fd92f8"
+   ]
+  },
+  {
+   "name": "Pang Junxu",
+   "birthplace": "Bozhou, China",
+   "bio": "Pang Junxu earned his place on the World Snooker Tour through the CBSA China Tour in 2020 and was named Rookie of the Year after reaching the last 16 of three ranking events in his debut season. In spring 2023 he reached a quarter-final, a semi-final and his first ranking final, at the WST Classic, in consecutive events, and made his Crucible debut the same year.",
+   "highlights": [
+    "Runner-up at the WST Classic in 2023",
+    "Welsh Open semi-finalist in 2023 and Northern Ireland Open semi-finalist in 2024",
+    "UK Championship quarter-finalist in 2025",
+    "Named WST Rookie of the Year in 2021"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Pang_Junxu",
+    "https://www.wst.tv/players/9c842985-9f09-4bd0-aa6a-dafe523b40ee",
+    "https://players.snooker.web.gc.wstservices.co.uk/v2/9c842985-9f09-4bd0-aa6a-dafe523b40ee"
+   ]
+  },
+  {
+   "name": "Ronnie O'Sullivan",
+   "birthplace": "Wordsley, England",
+   "bio": "Ronnie O'Sullivan turned professional in 1992 and won the UK Championship the following year aged 17, becoming the youngest winner of a ranking title. He has won the World Championship seven times, equalling Stephen Hendry's modern-era record, and holds records for Masters titles, UK Championship titles, Triple Crown titles and ranking titles. He is known for his fast, attacking style of play.",
+   "highlights": [
+    "World Champion in 2001, 2004, 2008, 2012, 2013, 2020 and 2022",
+    "Won a record eight Masters titles and a record eight UK Championship titles",
+    "Holds the record for most ranking titles, with 41",
+    "Made the fastest recorded 147 maximum, in five minutes and eight seconds at the 1997 World Championship",
+    "Made the highest break in professional competition, a 153, at the 2026 World Open"
+   ],
+   "sources": [
+    "https://www.wst.tv/players/ronnie-osullivan",
+    "https://players.snooker.web.gc.wstservices.co.uk/v2/226c7294-655e-4925-bcde-17330ddfc438",
+    "https://en.wikipedia.org/wiki/Ronnie_O%27Sullivan",
+    "https://www.bbc.com/sport/snooker/articles/cn4391l3lvxo"
+   ]
+  },
+  {
+   "name": "Shaun Murphy",
+   "birthplace": "Harlow, England",
+   "bio": "Born in Harlow and raised in Irthlingborough, Northamptonshire, Murphy turned professional in 1998. He won the 2005 World Championship as a qualifier at the age of 22, and has since reached four further world finals. He is known for his straight cue action and long potting.",
+   "highlights": [
+    "World Champion in 2005, beating Matthew Stevens 18-16 as a qualifier",
+    "Won the UK Championship in 2008",
+    "Won the Masters in 2015 and 2025",
+    "Won the Players Championship and Tour Championship in 2023",
+    "World Championship runner-up in 2009, 2015, 2021 and 2026"
+   ],
+   "socials": {
+    "x": "Magician147",
+    "instagram": "shaunmurphy147",
+    "facebook": "magician147",
+    "website": "https://www.shaunmurphy.net"
+   },
+   "verifiedVia": {
+    "x": "https://www.shaunmurphy.net/",
+    "instagram": "https://www.shaunmurphy.net/",
+    "facebook": "https://www.shaunmurphy.net/",
+    "website": "https://en.wikipedia.org/wiki/Shaun_Murphy",
+    "youtube": "https://www.shaunmurphy.net/"
+   },
+   "sources": [
+    "https://www.wst.tv/players/shaun-murphy",
+    "https://players.snooker.web.gc.wstservices.co.uk/v2/03fe92d3-ad85-434c-bc17-5fe02a496187",
+    "https://en.wikipedia.org/wiki/Shaun_Murphy"
+   ],
+   "youtube": {
+    "channelId": "UCd0s35kgCwudqwfmq-zmU4Q",
+    "handle": "@shaunmurphysnooker147",
+    "embeddable": true
+   }
+  },
+  {
+   "name": "Si Jiahui",
+   "birthplace": "Zhuji, China",
+   "bio": "Si Jiahui trained at the Wiraka Billiard Academy in Foshan before moving to Sheffield aged 16, and first turned professional through Q School in 2019. Relegated in 2021, he regained his tour card by winning the 2022 WSF Open, and the following year became the first Crucible debutant since 1995 to reach the World Championship semi-finals, losing 17–15 to Luca Brecel after leading 14–5. He has since reached two ranking finals, both in 2024.",
+   "highlights": [
+    "World Championship semi-finalist on his Crucible debut in 2023",
+    "Runner-up at the German Masters in 2024",
+    "Runner-up at the Wuhan Open in 2024, having made his first maximum break in the semi-finals",
+    "World Championship quarter-finalist in 2025",
+    "Won the WSF Open (amateur) in 2022"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Si_Jiahui",
+    "https://www.wst.tv/players/f3c7e0cf-7cb6-405e-9ba1-4d02716a20c3",
+    "https://players.snooker.web.gc.wstservices.co.uk/v2/f3c7e0cf-7cb6-405e-9ba1-4d02716a20c3"
+   ]
+  },
+  {
+   "name": "Stuart Bingham",
+   "birthplace": "Basildon, England",
+   "bio": "Bingham won the IBSF World Amateur Championship in 1996 and made his name as a professional by beating defending champion Stephen Hendry on his Crucible debut in 2000. He won his first ranking title at the 2011 Australian Open aged 35, and in 2015 became the oldest first-time world champion when he beat Shaun Murphy 18–15 in the final. In 2020 he won the Masters at the age of 43, beating Ali Carter 10–8.",
+   "highlights": [
+    "World Champion in 2015",
+    "Won the Masters in 2020",
+    "Won six ranking titles, including the Shanghai Masters (2014), Welsh Open (2017), English Open (2018) and Gibraltar Open (2019)",
+    "Won the IBSF World Amateur Championship in 1996",
+    "Won the Premier League in 2012"
+   ],
+   "sources": [
+    "https://www.wst.tv/players/stuart-bingham/",
+    "https://players.snooker.web.gc.wstservices.co.uk/v2/ac932300-dacb-4e91-803b-99a03fa20853",
+    "https://en.wikipedia.org/wiki/Stuart_Bingham"
+   ]
+  },
+  {
+   "name": "Thepchaiya Un-Nooh",
+   "birthplace": "Nakhon Nayok, Thailand",
+   "bio": "Un-Nooh turned professional after winning the IBSF World Amateur Championship in 2008 and is regarded as one of the fastest players on the World Snooker Tour. He won his first ranking title at the 2019 Shoot Out and his second at the 2026 World Open, where he beat Ronnie O'Sullivan 10–7 and made a maximum break in the final. He is also a former Six-red World Champion.",
+   "highlights": [
+    "Won the World Open in 2026, making a 147 in the final",
+    "Won the Shoot Out in 2019",
+    "Won the Six-red World Championship in 2015",
+    "Won the IBSF World Amateur Championship in 2008",
+    "Runner-up at the World Open in 2019"
+   ],
+   "sources": [
+    "https://www.wst.tv/players/thepchaiya-un-nooh/",
+    "https://players.snooker.web.gc.wstservices.co.uk/v2/67203224-1d66-4c1e-b655-150f4f835aba",
+    "https://en.wikipedia.org/wiki/Thepchaiya_Un-Nooh"
+   ]
+  },
+  {
+   "name": "Wu Yize",
+   "birthplace": "Lanzhou, China",
+   "bio": "Born in Lanzhou, Wu trained at the Yushan International Billiards Academy from the age of 11, won the IBSF World Under-21 Championship aged 14 and moved to Sheffield at 16, turning professional in 2021. He won his first ranking title at the 2025 International Championship and became the second Chinese world champion in 2026, aged 22. He is noted for his long potting and attacking break-building.",
+   "highlights": [
+    "World Champion in 2026, beating Shaun Murphy 18-17 in the final",
+    "Won the 2025 International Championship, his first ranking title, beating John Higgins 10-6",
+    "Won the 2026 Shenzhen Open, beating Yuan Sijun 10-5 in the final",
+    "Won the IBSF World Under-21 Championship in 2018, aged 14",
+    "Semi-finalist on his Masters debut in 2026"
+   ],
+   "sources": [
+    "https://www.wst.tv/players/wu-yize",
+    "https://players.snooker.web.gc.wstservices.co.uk/v2/d935d534-e696-4292-b773-e9b8efee1ea7",
+    "https://en.wikipedia.org/wiki/Wu_Yize"
+   ]
+  },
+  {
+   "name": "Xiao Guodong",
+   "birthplace": "Chongqing, China",
+   "bio": "Xiao Guodong turned professional in 2007 after winning the Asian Under-21 Championship. In 2013 he played in the first all-Chinese ranking final, losing to Ding Junhui at the Shanghai Masters. He won his first ranking title at the 2024 Wuhan Open and retained it in 2025, becoming only the fourth player to successfully defend a maiden ranking title.",
+   "highlights": [
+    "Won the Wuhan Open in 2024 and 2025",
+    "Runner-up at the Champion of Champions in 2024",
+    "Runner-up at the 2013 Shanghai Masters, the first all-Chinese ranking final",
+    "Won the Asian Under-21 Championship in 2007"
+   ],
+   "sources": [
+    "https://www.wst.tv/players/xiao-guodong",
+    "https://players.snooker.web.gc.wstservices.co.uk/v2/c3d39c08-92fd-471b-8901-903a4bd22027",
+    "https://en.wikipedia.org/wiki/Xiao_Guodong"
+   ]
+  },
+  {
+   "name": "Yuan Sijun",
+   "birthplace": "Nanchang, China",
+   "bio": "Yuan Sijun came to attention through wildcard appearances in professional events in China as a teenager, and earned his tour card by winning the Asian Under-21 Championship in 2017, starting the 2017–18 season as the youngest player on tour. He dropped off the tour in 2021 but regained his place immediately through Q School. He reached his first ranking final at the 2026 Shenzhen Open, losing 10–5 to Wu Yize.",
+   "highlights": [
+    "Runner-up at the Shenzhen Open in 2026, his first ranking final",
+    "German Masters semi-finalist in 2025",
+    "Gibraltar Open semi-finalist in 2019",
+    "Won the Asian Under-21 Championship in 2017"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Yuan_Sijun",
+    "https://www.wst.tv/players/734865fe-9ee2-4a3e-b4d1-035bf819aff2",
+    "https://players.snooker.web.gc.wstservices.co.uk/v2/734865fe-9ee2-4a3e-b4d1-035bf819aff2"
+   ]
+  },
+  {
+   "name": "Zhang Anda",
+   "birthplace": "Shaoguan, China",
+   "bio": "Zhang qualified for the professional tour for the 2009–10 season by winning the Asian Under-21 Championship, and on his Crucible debut in 2010 led Stephen Hendry 9–7 before losing 10–9. After regaining his tour place through the CBSA China Tour in 2021, he reached his first ranking final at the 2023 English Open and weeks later won the 2023 International Championship, beating Tom Ford 10–6. He has made maximum breaks at the final stages of the 2024 UK Championship and in several other ranking events.",
+   "highlights": [
+    "Won the International Championship in 2023",
+    "Runner-up at the English Open in 2023",
+    "Runner-up at the Players Championship in 2024",
+    "Runner-up at the World Grand Prix in 2026",
+    "Won the Asian Under-21 Championship in 2009"
+   ],
+   "sources": [
+    "https://www.wst.tv/players/zhang-anda/",
+    "https://players.snooker.web.gc.wstservices.co.uk/v2/0512f55a-faea-48df-a8fc-895fbcaef511",
+    "https://en.wikipedia.org/wiki/Zhang_Anda"
+   ]
+  },
+  {
+   "name": "Zhao Xintong",
+   "bio": "Zhao turned professional in 2016 after finishing runner-up at the World Amateur Championship, and won his first ranking title at the 2021 UK Championship. After serving a 20-month ban imposed in 2023 for involvement in a match-fixing case, he returned through the amateur Q Tour and, still an amateur, came through qualifying to win the 2025 World Championship, the first player from Asia to take the title. He is known for his long potting and break-building.",
+   "highlights": [
+    "World Champion in 2025, beating Mark Williams 18-12 in the final as an amateur qualifier",
+    "Won the 2021 UK Championship, his first ranking title",
+    "Won the World Grand Prix, Players Championship and Tour Championship in 2026, the first player to win all three Players Series events in one season",
+    "Became world number one for the first time in 2026",
+    "Won the 2022 German Masters with a 9-0 final win over Yan Bingtao"
+   ],
+   "sources": [
+    "https://www.wst.tv/players/zhao-xintong",
+    "https://players.snooker.web.gc.wstservices.co.uk/v2/895d376f-9f42-4e67-8a63-bc78676d0726",
+    "https://en.wikipedia.org/wiki/Zhao_Xintong"
+   ]
+  },
+  {
+   "name": "Zhou Yuelong",
+   "birthplace": "Chengdu, China",
+   "bio": "Zhou won the IBSF World Amateur Championship in 2013 at the age of 15, earning a place on the professional tour from the 2014–15 season. Two years later, aged 17, he partnered Yan Bingtao to victory for China's B team at the 2015 World Cup. He has reached four ranking finals without yet winning a ranking title, losing to Neil Robertson, Michael Holt and, twice, Mark Allen.",
+   "highlights": [
+    "Won the IBSF World Amateur Championship in 2013, aged 15",
+    "Won the World Cup with China B (alongside Yan Bingtao) in 2015",
+    "Runner-up at the European Masters and the Shoot Out in 2020",
+    "Runner-up at the Northern Ireland Open in 2022 and the English Open in 2025",
+    "UK Championship semi-finalist in 2020"
+   ],
+   "sources": [
+    "https://www.wst.tv/players/zhou-yuelong/",
+    "https://players.snooker.web.gc.wstservices.co.uk/v2/960cd1e6-2bb4-4229-aefe-447646412bf2",
+    "https://en.wikipedia.org/wiki/Zhou_Yuelong"
+   ]
+  }
+ ]
+}

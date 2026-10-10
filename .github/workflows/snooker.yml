@@ -19,7 +19,8 @@ name: Snooker
 # Outside the egrid-live-push concurrency group for the same reason as
 # Formula E: 48 runs a day queued there would bump the digest, video and
 # team-review runs. A rejected push is rebased and retried instead — this
-# job only ever touches snooker.json and snooker/state.json.
+# job only ever touches snooker.json, snooker-players.json and
+# snooker/state.json.
 
 on:
   schedule:
@@ -69,17 +70,18 @@ jobs:
             python3 snooker/build_snooker.py
           fi
           python3 -m json.tool snooker.json > /dev/null
+          python3 -m json.tool snooker-players.json > /dev/null
 
       - name: Publish to live, then fold into main
         run: |
           set -euo pipefail
           git config user.name "egrid-digest[bot]"
           git config user.email "egrid-digest@users.noreply.github.com"
-          if git diff --quiet -- snooker.json snooker/state.json && [ -n "$(git ls-files snooker.json)" ]; then
+          if git diff --quiet -- snooker.json snooker-players.json snooker/state.json && [ -n "$(git ls-files snooker-players.json)" ]; then
             echo "snooker.json unchanged; nothing to publish"
             exit 0
           fi
-          git add snooker.json snooker/state.json
+          git add snooker.json snooker-players.json snooker/state.json
           git commit -m "Snooker: $(python3 -c "import json;print(json.load(open('snooker.json'))['generatedAt'])")"
           for attempt in 1 2 3 4 5; do
             if git push origin HEAD:live; then break; fi

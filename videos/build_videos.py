@@ -475,6 +475,8 @@ def build(sources: list[dict], key: str | None, want: int) -> list[ChannelVideos
 # are vlogs and shorts rather than features, so the floor is two minutes.
 
 DRIVERS_PATH = REPO_ROOT / "drivers.json"
+# Snooker players live in their own generated file, in the same shape.
+SNOOKER_PLAYERS_PATH = REPO_ROOT / "snooker-players.json"
 DRIVER_MIN_SECONDS = 120
 DRIVER_WANT = 6
 DRIVER_MAX_AGE_DAYS = 730
@@ -485,7 +487,11 @@ def build_drivers(key: str | None, want: int = DRIVER_WANT) -> list[dict]:
         drivers = json.loads(DRIVERS_PATH.read_text(encoding="utf-8")).get("drivers", [])
     except (OSError, json.JSONDecodeError):
         log("drivers.json unreadable; no driver videos")
-        return []
+        drivers = []
+    try:
+        drivers += json.loads(SNOOKER_PLAYERS_PATH.read_text(encoding="utf-8")).get("drivers", [])
+    except (OSError, json.JSONDecodeError):
+        log("snooker-players.json unreadable; no snooker player videos")
     out = []
     for driver in drivers:
         yt = driver.get("youtube") or {}

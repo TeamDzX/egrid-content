@@ -1,0 +1,628 @@
+{
+ "_comment": "Written by snooker/fetch_photos.py; keyed by snooker.org player ID.",
+ "photos": {
+  "1": {
+   "url": "images/snooker/1.jpg",
+   "credit": "Martin Rulsch, Wikimedia Commons",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Mark_Williams_at_Snooker_German_Masters_(Martin_Rulsch)_2014-01-30_05_(cropped).jpg"
+  },
+  "2": {
+   "url": "images/snooker/2.jpg",
+   "credit": "Photo and original upload to Commons: User:DerHexer Crop and color level adjustments: User:Spike",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Stephen_Maguire_at_Snooker_German_Masters_2015-02-04_03.jpg"
+  },
+  "4": {
+   "url": "images/snooker/4.jpg",
+   "credit": "Martin Rulsch, Wikimedia Commons",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Marco_Fu_at_Snooker_German_Masters_(Martin_Rulsch)_2014-01-29_01.jpg"
+  },
+  "5": {
+   "url": "images/snooker/5.jpg",
+   "credit": "DerHexer",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Ronnie_O%E2%80%99Sullivan_at_Snooker_German_Masters_(DerHexer)_2015-02-06_07.jpg"
+  },
+  "8": {
+   "url": "images/snooker/8.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Tom_Ford_PHC_2016-1.jpg"
+  },
+  "9": {
+   "url": "images/snooker/9.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Matthew_Stevens_PHC_2016-1.jpg"
+  },
+  "10": {
+   "url": "images/snooker/10.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Jamie_Jones_PHC_2013-1.JPG"
+  },
+  "12": {
+   "url": "images/snooker/12.jpg",
+   "credit": "Anne-Marie Forker",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Judd_Trump_May_2015_(cropped).jpg"
+  },
+  "16": {
+   "url": "images/snooker/16.jpg",
+   "credit": "Martin Rulsch, Wikimedia Commons",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Barry_Hawkins_at_Snooker_German_Masters_(Martin_Rulsch)_2014-01-29_03.jpg"
+  },
+  "17": {
+   "url": "images/snooker/17.jpg",
+   "credit": "Aranka81",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Mark_Selby_2020.jpg"
+  },
+  "19": {
+   "url": "images/snooker/19.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Ben_Woollaston_PHC_2016.jpg"
+  },
+  "20": {
+   "url": "images/snooker/20.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Jimmy_White_PHC_2016-1.JPG"
+  },
+  "21": {
+   "url": "images/snooker/21.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Alfie_Burden_PHC_2016.jpg"
+  },
+  "22": {
+   "url": "images/snooker/22.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Anthony_McGill_PHC_2016-3.jpg"
+  },
+  "24": {
+   "url": "images/snooker/24.jpg",
+   "credit": "DerHexer",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Xiao_Guodong_at_Snooker_German_Masters_(DerHexer)_2015-02-04_04_(cropped).jpg"
+  },
+  "25": {
+   "url": "images/snooker/25.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Andrew_Higginson_PHC_2012-1.jpg"
+  },
+  "30": {
+   "url": "images/snooker/30.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Stuart_Bingham_PHC_2016-1.jpg"
+  },
+  "32": {
+   "url": "images/snooker/32.jpg",
+   "credit": "DerHexer, Wikimedia Commons",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Daniel_Wells_at_Snooker_German_Masters_(DerHexer)_2013-01-30_05.jpg"
+  },
+  "39": {
+   "url": "images/snooker/39.jpg",
+   "credit": "Daniel King",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Kyren_Wilson_at_the_World_Snooker_Green_Carpet_Ceremony_2026.jpg"
+  },
+  "45": {
+   "url": "images/snooker/45.jpg",
+   "credit": "BennyOnTheLoose",
+   "licence": "CC BY 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Liam_Highfield_2025.jpg"
+  },
+  "47": {
+   "url": "images/snooker/47.jpg",
+   "credit": "LezFraniak",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:German_Masters_2015-Day_2-Session_1-08_(LezFraniak).jpg"
+  },
+  "48": {
+   "url": "images/snooker/48.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Mark_Joyce_PHC_2016-3.jpg"
+  },
+  "49": {
+   "url": "images/snooker/49.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Mitchell_Mann_PHC_2016-1.jpg"
+  },
+  "58": {
+   "url": "images/snooker/58.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Jordan_Brown_PHC_2012.jpg"
+  },
+  "62": {
+   "url": "images/snooker/62.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Ricky_Walden_PHC_2016-1.jpg"
+  },
+  "67": {
+   "url": "images/snooker/67.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:David_Grace_PHC_2012-2.jpg"
+  },
+  "68": {
+   "url": "images/snooker/68.jpg",
+   "credit": "DerHexer",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Ryan_Day_at_Snooker_German_Masters_(DerHexer)_2015-02-05_01.jpg"
+  },
+  "81": {
+   "url": "images/snooker/81.jpg",
+   "credit": "Andrej146",
+   "licence": "CC0",
+   "licenceURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Zhang_Anda_(cropped_2).jpg"
+  },
+  "85": {
+   "url": "images/snooker/85.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Jack_Lisowski_PHC_2016.jpg"
+  },
+  "87": {
+   "url": "images/snooker/87.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Ian_Burns_PHC_2012-2.jpg"
+  },
+  "89": {
+   "url": "images/snooker/89.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Zak_Surety_PHC_2014-1.jpg"
+  },
+  "90": {
+   "url": "images/snooker/90.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Jak_Jones_PHC_2016-3.jpg"
+  },
+  "93": {
+   "url": "images/snooker/93.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Jimmy_Robertson_PHC_2018.jpg"
+  },
+  "96": {
+   "url": "images/snooker/96.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Robbie_Williams_PHC_2016-3.jpg"
+  },
+  "97": {
+   "url": "images/snooker/97.jpg",
+   "credit": "DerHexer",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Shaun_Murphy_at_Snooker_German_Masters_(DerHexer)_2015-02-08_15_(cropped).jpg"
+  },
+  "101": {
+   "url": "images/snooker/101.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Luca_Brecel_EuM_2022-1.jpg"
+  },
+  "109": {
+   "url": "images/snooker/109.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Sam_Craigie_PHC_2015-1.jpg"
+  },
+  "118": {
+   "url": "images/snooker/118.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:David_Gilbert_PHC_2016-3.jpg"
+  },
+  "120": {
+   "url": "images/snooker/120.jpg",
+   "credit": "DerHexer, Wikimedia Commons",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Martin_O%E2%80%99Donnell_at_Snooker_German_Masters_(DerHexer)_2013-01-30_03.jpg"
+  },
+  "125": {
+   "url": "images/snooker/125.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Michael_Holt_PHC_2016-1.jpg"
+  },
+  "128": {
+   "url": "images/snooker/128.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Stuart_Carrington_PHC_2016-1.jpg"
+  },
+  "131": {
+   "url": "images/snooker/131.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Craig_Steadman_PHC_2016.jpg"
+  },
+  "146": {
+   "url": "images/snooker/146.jpg",
+   "credit": "Charosborne17",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Oliverbrown.jpg"
+  },
+  "154": {
+   "url": "images/snooker/154.jpg",
+   "credit": "DerHexer",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Neil_Robertson_at_Snooker_German_Masters_(DerHexer)_2015-02-05_02_(cropped).jpg"
+  },
+  "158": {
+   "url": "images/snooker/158.jpg",
+   "credit": "DerHexer",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Ali_Carter_at_Snooker_German_Masters_(DerHexer)_2013-02-03_12_(cropped).jpg"
+  },
+  "175": {
+   "url": "images/snooker/175.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Reanne_Evans_PHC_2017-1.jpg"
+  },
+  "202": {
+   "url": "images/snooker/202.jpg",
+   "credit": "BennyOnTheLoose",
+   "licence": "CC BY 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Mark_Allen_with_English_Open_trophy_2025.jpg"
+  },
+  "208": {
+   "url": "images/snooker/208.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Noppon_Saengkham_PHC_2015-2.jpg"
+  },
+  "216": {
+   "url": "images/snooker/216.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Thanawat_Thirapongpaiboon_PHC_2015-2.jpg"
+  },
+  "217": {
+   "url": "images/snooker/217.jpg",
+   "credit": "Martin Rulsch, Wikimedia Commons",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Thepchaiya_Un-Nooh_at_Snooker_German_Masters_(Martin_Rulsch)_2014-01-29_01.jpg"
+  },
+  "224": {
+   "url": "images/snooker/224.jpg",
+   "credit": "Kroome111",
+   "licence": "CC BY 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Ding_Junhui_2025_Masters.jpg"
+  },
+  "237": {
+   "url": "images/snooker/237.jpg",
+   "credit": "Daniel King",
+   "licence": "CC BY 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:John_Higgins_at_the_World_Snooker_Green_Carpet_Ceremony_2026_(cropped).jpg"
+  },
+  "239": {
+   "url": "images/snooker/239.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Alexander_Ursenbacher_PHC_2014-2.jpg"
+  },
+  "448": {
+   "url": "images/snooker/448.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Duane_Jones_PHC_2015-5.jpg"
+  },
+  "546": {
+   "url": "images/snooker/546.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Gary_Wilson_PHC_2016-1.jpg"
+  },
+  "552": {
+   "url": "images/snooker/552.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Sean_O%27Sullivan_PHC_2016-3.jpg"
+  },
+  "592": {
+   "url": "images/snooker/592.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Oliver_Lines_PHC_2014-6.jpg"
+  },
+  "593": {
+   "url": "images/snooker/593.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Hammad_Miah_PHC_2016.jpg"
+  },
+  "605": {
+   "url": "images/snooker/605.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Steven_Hallworth_PHC_2016-2.jpg"
+  },
+  "608": {
+   "url": "images/snooker/608.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Elliot_Slessor_PHC_2014-2.jpg"
+  },
+  "724": {
+   "url": "images/snooker/724.jpg",
+   "credit": "DerHexer",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Ashley_Carty_at_Snooker_German_Masters_(DerHexer)_2015-02-04_03.jpg"
+  },
+  "894": {
+   "url": "images/snooker/894.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Scott_Donaldson_PHC_2016-1.jpg"
+  },
+  "898": {
+   "url": "images/snooker/898.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Ross_Muir_PHC_2016-1.jpg"
+  },
+  "905": {
+   "url": "images/snooker/905.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Lu_Haotian_PHC_2014-2.jpg"
+  },
+  "906": {
+   "url": "images/snooker/906.jpg",
+   "credit": "Andrej146",
+   "licence": "CC0",
+   "licenceURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Zhou_Yuelong_at_2025_German_Masters.jpg"
+  },
+  "946": {
+   "url": "images/snooker/946.jpg",
+   "credit": "Daniel King",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Zhao_Xintong_at_the_World_Snooker_Green_Carpet_Ceremony_2026.jpg"
+  },
+  "1038": {
+   "url": "images/snooker/1038.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Joe_OConnor_PHC_2017-4.jpg"
+  },
+  "1044": {
+   "url": "images/snooker/1044.jpg",
+   "credit": "Daniel King",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Chris_Wakelin_at_the_World_Snooker_Green_Carpet_Ceremony_2026.jpg"
+  },
+  "1045": {
+   "url": "images/snooker/1045.jpg",
+   "credit": "Lee Vilenski",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:2025_British_Open_(47352).jpg"
+  },
+  "1261": {
+   "url": "images/snooker/1261.jpg",
+   "credit": "Andrej146",
+   "licence": "CC0",
+   "licenceURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Long_Zehuang_2026.jpg"
+  },
+  "1323": {
+   "url": "images/snooker/1323.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Ashley_Hugill_PHC_2016-1.jpg"
+  },
+  "1407": {
+   "url": "images/snooker/1407.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Xu_Si_PHC_2017-7.jpg"
+  },
+  "1417": {
+   "url": "images/snooker/1417.jpg",
+   "credit": "Andrej146",
+   "licence": "CC0",
+   "licenceURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Fan_Zhengyi_at_2025_German_Masters.jpg"
+  },
+  "1465": {
+   "url": "images/snooker/1465.jpg",
+   "credit": "Andrej146",
+   "licence": "CC0",
+   "licenceURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Antoni_Kowalski_2025_(cropped).jpg"
+  },
+  "1485": {
+   "url": "images/snooker/1485.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Ng_On_Yee_PHC_2017-7.jpg"
+  },
+  "1835": {
+   "url": "images/snooker/1835.jpg",
+   "credit": "Benutzer:Bill da Flute",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Florian_N%C3%BC%C3%9Fle_PHC_2018-5.jpg"
+  },
+  "1893": {
+   "url": "images/snooker/1893.jpg",
+   "credit": "BennyOnTheLoose",
+   "licence": "CC BY 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Cheung_Ka_Wai_2025.jpg"
+  },
+  "2066": {
+   "url": "images/snooker/2066.jpg",
+   "credit": "Andrej146",
+   "licence": "CC0",
+   "licenceURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Ishpreet_Singh_Chadha_2026_(1).jpg"
+  },
+  "2103": {
+   "url": "images/snooker/2103.jpg",
+   "credit": "BennyOnTheLoose",
+   "licence": "CC BY 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Xu_Yichen.jpg"
+  },
+  "2469": {
+   "url": "images/snooker/2469.jpg",
+   "credit": "Daniel King",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Wu_Yize_at_the_World_Snooker_Green_Carpet_Ceremony_2026_(cropped).jpg"
+  },
+  "2616": {
+   "url": "images/snooker/2616.jpg",
+   "credit": "BennyOnTheLoose",
+   "licence": "CC BY 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Bai_Yulu_in_Sheffield_2025.jpg"
+  },
+  "2640": {
+   "url": "images/snooker/2640.jpg",
+   "credit": "Andrej146",
+   "licence": "CC0",
+   "licenceURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Jiang_Jun_2025_(cropped).jpg"
+  },
+  "2754": {
+   "url": "images/snooker/2754.jpg",
+   "credit": "Andrej146",
+   "licence": "CC0",
+   "licenceURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Julien_Leclercq_and_Maike_Kesseler_2026.jpg"
+  },
+  "2758": {
+   "url": "images/snooker/2758.jpg",
+   "credit": "Lee Vilenski",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:2025_British_Open_(snooker)_(65868).jpg"
+  },
+  "2767": {
+   "url": "images/snooker/2767.jpg",
+   "credit": "BennyOnTheLoose",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Anton_Kazakov_Sheffield_2026.jpg"
+  },
+  "2887": {
+   "url": "images/snooker/2887.jpg",
+   "credit": "BennyOnTheLoose",
+   "licence": "CC BY 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Chatchapong_Nasa.jpg"
+  },
+  "3192": {
+   "url": "images/snooker/3192.jpg",
+   "credit": "BennyOnTheLoose",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Micha%C5%82_Szubarczyk_Sheffield_2026.jpg"
+  },
+  "3534": {
+   "url": "images/snooker/3534.jpg",
+   "credit": "Andrej146",
+   "licence": "CC0",
+   "licenceURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Artemijs_%C5%BDi%C5%BEins_(cropped).jpg"
+  },
+  "3832": {
+   "url": "images/snooker/3832.jpg",
+   "credit": "SteeveMal",
+   "licence": "CC0",
+   "licenceURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Sahil_Nayyar1.jpg"
+  }
+ }
+}
