@@ -230,6 +230,33 @@ convenience; the apps work it out from the dates. `t=20` (current season)
 answers 403 for our key, so the season is the calendar year it began in
 (June to May).
 
+### `snooker-players.json` — player pages (generated)
+
+Written by the same run, in the `drivers.json` profile shape so both apps
+reuse the driver page (and favourites, news and alerts). Every player who is
+ranked, in a draw or defending a title gets a profile:
+
+| Field | From |
+|---|---|
+| Nationality, born, `facts` (turned pro, ranking titles, maximums, highest ranking), Wikipedia link | snooker.org (`t=10`, `p=`) |
+| `bio`, `highlights`, `birthplace`, `socials`, `youtube` | `snooker/players.json` — hand-researched for the top 32, merged by `snooker/merge_research.py` |
+| `image` | `snooker/photos.json` — Wikimedia Commons only, by `snooker/fetch_photos.py`; credits in `images/snooker/CREDITS.md` |
+
+Account rule, as for drivers: an account ships only when it is linked from
+the player's own site, their WST profile or a management/sponsor page —
+`snooker/VERIFIED.md` records where. snooker.org's own Twitter/URL fields are
+kept in the state file and never published. WST's player feed is not a safe
+shortcut: in October 2026 it carried test data and other players' accounts
+(Yuan Sijun's record linked a WST developer, Zhou Yuelong's linked
+@ronnie). snooker.org's player photos are not used — their rights are not
+ours.
+
+Re-run `python3 snooker/fetch_photos.py` when new players appear, and
+re-research the top 32 each season; the facts refresh themselves daily.
+
+The snooker channel's video feed is WST's own YouTube channel
+(`videos/sources.json`), and Shaun Murphy's own channel feeds his page.
+
 The snooker channel is in the apps' **bundled** `channels.json` only, not in
 this repo's: older versions read this repo's directory and have no snooker
 code. Apps from 2.7 / 1.7.0 append bundled channels the remote directory
