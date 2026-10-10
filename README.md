@@ -191,6 +191,50 @@ default user agent and accepts the script's identifying one.
 The `channels.json` Formula E calendar stays as the fallback for 2.5 / 1.5.0
 and earlier, which still call the dead API and fall back to it.
 
+## `snooker.json` — Snooker (generated, do not hand-edit)
+
+The snooker channel's only source: the World Snooker Tour calendar, every
+main-stage draw and score, and the world rankings. Read by the snooker
+channel from iOS 2.7 / Android 1.7.0 on.
+
+The data is **api.snooker.org's, used with permission** (Hermund Årdalen,
+webmaster@snooker.org, October 2026). The terms we accepted:
+
+- Every request carries our approved `X-Requested-By` value. It lives in the
+  `EGRID_SNOOKER_KEY` repo secret and nowhere else — never in the apps,
+  never committed.
+- **Two requests a minute for the whole key.** The apps therefore never call
+  snooker.org; `snooker/build_snooker.py` is the only client, paces itself
+  at one call every 31 seconds, and asks only for what changed.
+- snooker.org must be credited prominently. Both apps show "Snooker data
+  from snooker.org" on the channel page, on every event page and in
+  Settings. Keep it there.
+- If E-Grid earns revenue from snooker, snooker.org has asked to discuss a
+  fair share (otherwise, a donation to Doctors Without Borders).
+
+`.github/workflows/snooker.yml` runs it every 30 minutes and pushes straight
+to `live`, outside the `egrid-live-push` group, like Formula E:
+
+| What | Call | How often |
+|---|---|---|
+| Events of the season, round names and distances, world rankings, pro players | `t=5`, `t=12`, `rt=MoneyRankings`, `t=10` | Once every ~20 hours |
+| Matches of an event under way, starting within three days, or finished yesterday | `t=6` | Every run while it applies |
+| Matches of every other finished event | `t=6` | Once, then kept |
+| A player missing from the pro list | `p=` | Up to four a run, then remembered |
+
+`snooker/state.json` holds what the next run needs (raw matches, the round
+table, every player named so far) and is committed with the output; the
+apps never read it. Only main events are listed — no qualifying stages and
+none of the Championship League's group events. An event's `status` is a
+convenience; the apps work it out from the dates. `t=20` (current season)
+answers 403 for our key, so the season is the calendar year it began in
+(June to May).
+
+The snooker channel is in the apps' **bundled** `channels.json` only, not in
+this repo's: older versions read this repo's directory and have no snooker
+code. Apps from 2.7 / 1.7.0 append bundled channels the remote directory
+lacks.
+
 ## `channels.json` — the series catalogue
 
 Adds or changes the channels users can subscribe to.
@@ -201,7 +245,7 @@ Adds or changes the channels users can subscribe to.
 | `name`, `tagline` | Shown in the channel browser and page header. |
 | `accentHex` | Channel accent colour, no `#`. |
 | `heroImageAsset` | Must match an image set already in the app bundle. New artwork is the one thing that *does* need an app update. |
-| `hasStandings` | `true` only where the app has a data service for that series (F1, MotoGP, Formula E). |
+| `hasStandings` | `true` only where the app has a data service for that series (F1, MotoGP, Formula E; snooker in the bundled directory). |
 | `comingSoon` | Greys the row out and disables subscribing. |
 | `feeds` | RSS/Atom sources. **Check a feed returns HTTP 200 before adding it.** |
 | `regulationLinks` | Official rulebook/series links. |

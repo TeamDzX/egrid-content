@@ -1,0 +1,95 @@
+name: Snooker
+
+# Rebuilds snooker.json — the World Snooker Tour calendar, draws, scores and
+# world rankings — from api.snooker.org and publishes it straight to `live`.
+# Generated, never hand-edited.
+#
+# snooker.org allows our key two requests a minute, so the apps never call it
+# and this job is the only client. snooker/build_snooker.py paces itself at
+# one call every 31 seconds and asks only for what changed: four calls once a
+# day, plus one per tournament that is under way. A run with nothing new
+# makes no calls and publishes nothing.
+#
+# Every 30 minutes, so a score is never much more than half an hour old
+# while a tournament is on.
+#
+# Needs the EGRID_SNOOKER_KEY secret: the X-Requested-By value snooker.org
+# issued for E-Grid. Never put it in the apps or in this repo.
+#
+# Outside the egrid-live-push concurrency group for the same reason as
+# Formula E: 48 runs a day queued there would bump the digest, video and
+# team-review runs. A rejected push is rebased and retried instead — this
+# job only ever touches snooker.json and snooker/state.json.
+
+on:
+  schedule:
+    - cron: "7,37 * * * *"
+  workflow_dispatch:
+    inputs:
+      refetch:
+        description: "Forget stored matches and re-read the season"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: snooker
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out live
+        uses: actions/checkout@v4
+        with:
+          ref: live
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build snooker.json
+        env:
+          EGRID_SNOOKER_KEY: ${{ secrets.EGRID_SNOOKER_KEY }}
+        run: |
+          set -euo pipefail
+          if [ -z "$EGRID_SNOOKER_KEY" ]; then
+            echo "EGRID_SNOOKER_KEY is not set; skipping"
+            exit 0
+          fi
+          if [ "${{ github.event.inputs.refetch || 'false' }}" = "true" ]; then
+            python3 snooker/build_snooker.py --refetch
+          else
+            python3 snooker/build_snooker.py
+          fi
+          python3 -m json.tool snooker.json > /dev/null
+
+      - name: Publish to live, then fold into main
+        run: |
+          set -euo pipefail
+          git config user.name "egrid-digest[bot]"
+          git config user.email "egrid-digest@users.noreply.github.com"
+          if git diff --quiet -- snooker.json snooker/state.json && [ -n "$(git ls-files snooker.json)" ]; then
+            echo "snooker.json unchanged; nothing to publish"
+            exit 0
+          fi
+          git add snooker.json snooker/state.json
+          git commit -m "Snooker: $(python3 -c "import json;print(json.load(open('snooker.json'))['generatedAt'])")"
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:live; then break; fi
+            [ "$attempt" = 5 ] && exit 1
+            sleep $((attempt * 15))
+            git pull --rebase origin live
+          done
+          # Keep main a superset of live. If another job moved main in the
+          # meantime this is skipped; the next run of any job folds it in.
+          git fetch origin main live
+          git checkout -B main origin/main
+          git merge --no-edit -X theirs origin/live
+          git push origin main || echo "main moved underneath us; it will catch up on the next run"
