@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-10T13:45:28Z",
+  "generatedAt": "2026-10-10T13:48:16Z",
   "channels": [
     {
       "channelID": "f1",
@@ -1366,6 +1366,146 @@
           "allowedRegions": []
         }
       ]
+    },
+    {
+      "channelID": "snooker",
+      "label": "Highlights",
+      "source": "World Snooker Tour",
+      "sourceURL": "https://www.youtube.com/channel/UC5lTEvtwu6SR3LMSmU9VZ2Q",
+      "videos": [
+        {
+          "id": "R7VX1Zy5y1k",
+          "title": "RUTHLESS CHAMPION! 🏆 Wu Yize vs Yuan Sijun | 2026 Shenzhen Open Final",
+          "publishedAt": "2026-10-04T14:41:19Z",
+          "duration": "18:56",
+          "seconds": 1136,
+          "thumbnail": "https://i.ytimg.com/vi/R7VX1Zy5y1k/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "B__IFmCdkhE",
+          "title": "WHAT A BREAK! 🤯 Wu Yize vs Yuan Sijun | 2026 Shenzhen Open Final",
+          "publishedAt": "2026-10-04T10:05:31Z",
+          "duration": "9:34",
+          "seconds": 574,
+          "thumbnail": "https://i.ytimg.com/vi/B__IFmCdkhE/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "-o4hd8fSXA8",
+          "title": "DRAMATIC EARLY BATTLE! 👀 Wu Yize vs Yuan Sijun | 2026 Shenzhen Open Final",
+          "publishedAt": "2026-10-04T08:37:14Z",
+          "duration": "8:30",
+          "seconds": 510,
+          "thumbnail": "https://i.ytimg.com/vi/-o4hd8fSXA8/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "zQ-cEB8s9VY",
+          "title": "UNEXPECTED SCORELINE! | Wu Yize vs Judd Trump | Shenzhen Open 2026",
+          "publishedAt": "2026-10-03T15:36:50Z",
+          "duration": "10:12",
+          "seconds": 612,
+          "thumbnail": "https://i.ytimg.com/vi/zQ-cEB8s9VY/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "2aup5j0net8",
+          "title": "ONE OF THE MOST DRAMATIC DECIDERS EVER?! 🔥 | Jimmy Robertson vs Yuan Sijun | Shenzhen Open 2026",
+          "publishedAt": "2026-10-03T12:26:50Z",
+          "duration": "11:27",
+          "seconds": 687,
+          "thumbnail": "https://i.ytimg.com/vi/2aup5j0net8/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "sEtEyiyU4y0",
+          "title": "WHAT A PERFORMANCE! 🤯 | Judd Trump vs Mark Selby | Shenzhen Open 2026",
+          "publishedAt": "2026-10-02T08:25:22Z",
+          "duration": "8:54",
+          "seconds": 534,
+          "thumbnail": "https://i.ytimg.com/vi/sEtEyiyU4y0/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "woQV4Baj2JM",
+          "title": "QUALITY MEETS QUALITY! 🔥 | Judd Trump vs Mark Selby Opening Frame | Shenzhen Open 2026",
+          "publishedAt": "2026-10-02T07:04:37Z",
+          "duration": "8:52",
+          "seconds": 532,
+          "thumbnail": "https://i.ytimg.com/vi/woQV4Baj2JM/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "H7PLD09NVtc",
+          "title": "HIGH-CLASS POTTING! 🔥 Wu Yize vs Ricky Walden | 2026 Shenzhen Open",
+          "publishedAt": "2026-10-01T15:06:56Z",
+          "duration": "17:31",
+          "seconds": 1051,
+          "thumbnail": "https://i.ytimg.com/vi/H7PLD09NVtc/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "E9wkhojGSh8",
+          "title": "BACK-AND-FORTH BATTLE! 👀 Judd Trump vs Si Jiahui | 2026 Shenzhen Open",
+          "publishedAt": "2026-10-01T14:46:39Z",
+          "duration": "17:49",
+          "seconds": 1069,
+          "thumbnail": "https://i.ytimg.com/vi/E9wkhojGSh8/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "yGHNA0TscBE",
+          "title": "OUTWITTING SELBY!? 😅 | Mark Selby vs Stephen Maguire | Shenzhen Open 2026",
+          "publishedAt": "2026-10-01T09:08:42Z",
+          "duration": "11:55",
+          "seconds": 715,
+          "thumbnail": "https://i.ytimg.com/vi/yGHNA0TscBE/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "MuJ_rcd33a0",
+          "title": "INCREDIBLE MATCH, INCREDIBLE PLAYERS! 👏 | Wu Yize vs Xu Si | Shenzhen Open 2026",
+          "publishedAt": "2026-09-30T15:08:59Z",
+          "duration": "18:13",
+          "seconds": 1093,
+          "thumbnail": "https://i.ytimg.com/vi/MuJ_rcd33a0/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "o5TKPUWN-jE",
+          "title": "BREAK-BUILDING EXHIBITION! 🙌 Mark Selby vs Jackson Page | 2026 Shenzhen Open",
+          "publishedAt": "2026-09-30T08:38:34Z",
+          "duration": "11:27",
+          "seconds": 687,
+          "thumbnail": "https://i.ytimg.com/vi/o5TKPUWN-jE/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        }
+      ]
     }
   ],
   "drivers": [
@@ -2684,6 +2824,79 @@
           "seconds": 452,
           "thumbnail": "https://i.ytimg.com/vi/gPwTsXCSD5A/maxresdefault.jpg",
           "source": "Michael McDowell",
+          "blockedRegions": [],
+          "allowedRegions": []
+        }
+      ]
+    },
+    {
+      "driverID": "snooker-97",
+      "channelID": "snooker",
+      "name": "Shaun Murphy",
+      "videos": [
+        {
+          "id": "IpnYg4_cp_M",
+          "title": "Episode 4 - The World Cup, toilet roll wars and drinking on the job.",
+          "publishedAt": "2026-07-24T17:00:18Z",
+          "duration": "56:01",
+          "seconds": 3361,
+          "thumbnail": "https://i.ytimg.com/vi/IpnYg4_cp_M/maxresdefault.jpg",
+          "source": "Shaun Murphy",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "cyFpELk4h0M",
+          "title": "Episode 3 - Travel horror stories, airing their dirty laundry and Shaun's new fear unlocked",
+          "publishedAt": "2026-07-10T17:00:31Z",
+          "duration": "58:25",
+          "seconds": 3505,
+          "thumbnail": "https://i.ytimg.com/vi/cyFpELk4h0M/maxresdefault.jpg",
+          "source": "Shaun Murphy",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "R1N9ZEvTJ5w",
+          "title": "Episode 2 - The OBE, social media and a man on a camel!",
+          "publishedAt": "2026-06-26T17:00:34Z",
+          "duration": "51:54",
+          "seconds": 3114,
+          "thumbnail": "https://i.ytimg.com/vi/R1N9ZEvTJ5w/maxresdefault.jpg",
+          "source": "Shaun Murphy",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "7O9lTs4Ajzk",
+          "title": "Clearing the Table - Episode 1",
+          "publishedAt": "2026-06-15T15:31:49Z",
+          "duration": "38:53",
+          "seconds": 2333,
+          "thumbnail": "https://i.ytimg.com/vi/7O9lTs4Ajzk/maxresdefault.jpg",
+          "source": "Shaun Murphy",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "fhoHHNLWDaQ",
+          "title": "How to utilise a \"Shot To Nothing\"",
+          "publishedAt": "2025-09-26T16:01:23Z",
+          "duration": "8:03",
+          "seconds": 483,
+          "thumbnail": "https://i.ytimg.com/vi/fhoHHNLWDaQ/maxresdefault.jpg",
+          "source": "Shaun Murphy",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "WuTuMqAMLQw",
+          "title": "The One Four Seven Podcast - Episode 2",
+          "publishedAt": "2025-09-25T08:55:14Z",
+          "duration": "1:04:26",
+          "seconds": 3866,
+          "thumbnail": "https://i.ytimg.com/vi/WuTuMqAMLQw/maxresdefault.jpg",
+          "source": "Shaun Murphy",
           "blockedRegions": [],
           "allowedRegions": []
         }
