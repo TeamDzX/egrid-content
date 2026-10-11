@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-10-11T22:05:43Z",
+ "generatedAt": "2026-10-11T22:08:30Z",
  "_comment": "Tyre supplier per series, for the race page. Written by tyres/build_tyres.py.",
  "suppliers": [
   {
@@ -99,7 +99,7 @@
    "channelID": "nascar",
    "season": 2026,
    "name": "Goodyear",
-   "summary": "Goodyear supplies the tyres for the NASCAR Cup Series, and has done since 1954.",
+   "summary": "Goodyear supplies the tyres for the NASCAR Cup Series. The company has been a tire supplier for NASCAR stock car series since 1954, becoming the sole supplier in 1975 apart from short intervals. In 1997 it became the exclusive tyre provider for the three national series, including Cup.\n\nOn race day, what matters is the rubber compounds used in tire construction and how they are managed. These characteristics depend on tire stagger and settings decided by NASCAR and Goodyear engineers; teams may not adjust them themselves. Changing weather also affects handling, and on oval races rain forces a halt immediately.",
    "facts": [
     {
      "label": "Supplier since",
@@ -124,7 +124,7 @@
     "caption": "Goodyear Eagle tyres in the pit lane"
    },
    "sourceURL": "https://en.wikipedia.org/wiki/Goodyear_Tire_and_Rubber_Company",
-   "writer": "template"
+   "writer": "llm"
   },
   {
    "channelID": "indycar",
