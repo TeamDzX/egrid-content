@@ -1,26 +1,31 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T17:21:24Z",
+  "generatedAt": "2026-10-11T17:32:59Z",
   "editions": [
     {
       "id": "2026-10-11-preview",
       "kind": "preview",
       "title": "Results from the weekend",
       "dateRange": "9–12 October",
-      "intro": "With action concluded in Formula 1 and MotoGP, we look back at recent results before the Bank of America 400 begins.",
-      "publishedAt": "2026-10-11T17:21:24Z",
-      "expiresAt": "2026-10-16T17:21:24Z",
+      "intro": "Results have been decided in Formula 1 and MotoGP, while the NASCAR Cup Series awaits its next round.",
+      "publishedAt": "2026-10-11T17:32:59Z",
+      "expiresAt": "2026-10-16T17:32:59Z",
       "items": [
         {
           "channelID": "f1",
           "channelName": "Formula 1",
           "headline": "Singapore Grand Prix",
           "detail": "Marina Bay Street Circuit, Singapore · Sun 11 Oct",
-          "body": "Max Verstappen won the Singapore Grand Prix for Red Bull, ahead of Charles Leclerc for Ferrari and Andrea Kimi Antonelli for Mercedes. Antonelli currently leads the championship by 102 points from George Russell.",
+          "body": "Max Verstappen won the Singapore Grand Prix from pole, finishing 7.3 seconds ahead of Charles Leclerc for Ferrari. The race included a red flag on lap 62 and virtual safety cars, with Andrea Kimi Antonelli also claiming third for Mercedes. This result extended Antonelli's championship lead over George Russell to 102 points.",
           "date": "2026-10-11",
           "round": 17,
           "facts": [
-            "Andrea Kimi Antonelli leads the championship by 102 points from George Russell"
+            "Max Verstappen won from pole, 7.3 seconds ahead of Charles Leclerc",
+            "Biggest climbers: Isack Hadjar from 22nd to 10th and George Russell from 19th to 9th",
+            "Fastest lap: Charles Leclerc, 1:35.202",
+            "Did not finish: Alexander Albon, Lance Stroll, Franco Colapinto and Gabriel Bortoleto",
+            "Andrea Kimi Antonelli's championship lead over George Russell went from 84 to 102 points over the weekend",
+            "Virtual safety car on laps 8 and 39"
           ],
           "podium": [
             {
@@ -45,10 +50,15 @@
           "channelName": "MotoGP",
           "headline": "Grand Prix of Indonesia",
           "detail": "Pertamina Mandalika Circuit, Indonesia · Sun 11 Oct",
-          "body": "Marco Bezzecchi won the Grand Prix of Indonesia for Aprilia Racing, ahead of Raul Fernandez for SuperFile Trackhouse MotoGP Team and Jorge Martin for Aprilia Racing. Jorge Martin leads the championship by two points from Marc Marquez.",
+          "body": "Marco Bezzecchi won the Grand Prix of Indonesia, finishing 4.3 seconds ahead of Raul Fernandez for SuperFile Trackhouse MotoGP Team. He also set a new lap record during the race, with Jorge Martin completing the podium for Aprilia Racing. The event was held in dry conditions.",
           "date": "2026-10-11",
           "round": 17,
           "facts": [
+            "Marco Bezzecchi won by 4.3 seconds from Raul Fernandez",
+            "Did not finish: Toprak Razgatlioglu, Jack Miller, Francesco Bagnaia and Fermin Aldeguer",
+            "Marco Bezzecchi set a new lap record, 1:29.960",
+            "Dry, 29°C air and 62°C track",
+            "Saturday's sprint was won by Marc Marquez",
             "Jorge Martin leads the championship by 2 points from Marc Marquez"
           ],
           "podium": [
@@ -74,7 +84,7 @@
           "channelName": "NASCAR Cup Series",
           "headline": "Bank of America 400",
           "detail": "Charlotte Motor Speedway · Sun 11 Oct",
-          "body": "The Bank of America 400 takes place on Sun 11 Oct at Charlotte Motor Speedway starting at 19:00 UTC. The race will cover 400.5 miles over 267 laps.",
+          "body": "The Bank of America 400 runs on Sun 11 Oct at Charlotte Motor Speedway. The event will cover 400.5 miles over 267 laps, starting at 19:00 UTC.",
           "date": "2026-10-11",
           "round": 32,
           "facts": [
@@ -244,10 +254,15 @@
       "channelName": "MotoGP",
       "headline": "Grand Prix of Indonesia",
       "detail": "Pertamina Mandalika Circuit, Indonesia · Sun 11 Oct",
-      "body": "Marco Bezzecchi won for Aprilia Racing at the Grand Prix of Indonesia, followed by Raul Fernandez with SuperFile Trackhouse MotoGP Team and Jorge Martin for Aprilia Racing. Jorge Martin leads the championship by two points from Marc Marquez.",
+      "body": "Marco Bezzecchi took victory at the Grand Prix of Indonesia for Aprilia Racing, finishing 4.3 seconds ahead of Raul Fernandez from SuperFile Trackhouse MotoGP Team. Jorge Martin also joined the podium for Aprilia Racing. The race saw a new lap record of 1:29.960 set under dry conditions. Marc Marquez won the Saturday sprint.",
       "date": "2026-10-11",
       "round": 17,
       "facts": [
+        "Marco Bezzecchi won by 4.3 seconds from Raul Fernandez",
+        "Did not finish: Toprak Razgatlioglu, Jack Miller, Francesco Bagnaia and Fermin Aldeguer",
+        "Marco Bezzecchi set a new lap record, 1:29.960",
+        "Dry, 29°C air and 62°C track",
+        "Saturday's sprint was won by Marc Marquez",
         "Jorge Martin leads the championship by 2 points from Marc Marquez"
       ],
       "podium": [
@@ -267,6 +282,7 @@
           "team": "Aprilia Racing"
         }
       ],
+      "factsVersion": 2,
       "writer": "own server"
     },
     {
@@ -274,11 +290,16 @@
       "channelName": "Formula 1",
       "headline": "Singapore Grand Prix",
       "detail": "Marina Bay Street Circuit, Singapore · Sun 11 Oct",
-      "body": "Max Verstappen won the Singapore Grand Prix, ahead of Charles Leclerc for Ferrari and Andrea Kimi Antonelli for Mercedes. Antonelli leads the championship by 102 points from George Russell.",
+      "body": "Max Verstappen won the Singapore Grand Prix from pole for Red Bull, finishing 7.3 seconds ahead of Charles Leclerc for Ferrari. Andrea Kimi Antonelli completed the podium for Mercedes. The race featured a red flag on lap 62 and significant climbs for Isack Hadjar and George Russell. Charles Leclerc also secured the fastest lap.",
       "date": "2026-10-11",
       "round": 17,
       "facts": [
-        "Andrea Kimi Antonelli leads the championship by 102 points from George Russell"
+        "Max Verstappen won from pole, 7.3 seconds ahead of Charles Leclerc",
+        "Biggest climbers: Isack Hadjar from 22nd to 10th and George Russell from 19th to 9th",
+        "Fastest lap: Charles Leclerc, 1:35.202",
+        "Did not finish: Alexander Albon, Lance Stroll, Franco Colapinto and Gabriel Bortoleto",
+        "Andrea Kimi Antonelli's championship lead over George Russell went from 84 to 102 points over the weekend",
+        "Virtual safety car on laps 8 and 39"
       ],
       "podium": [
         {
@@ -297,6 +318,7 @@
           "team": "Mercedes"
         }
       ],
+      "factsVersion": 2,
       "writer": "own server"
     },
     {
@@ -304,9 +326,10 @@
       "channelName": "World Rally Championship",
       "headline": "Rally Italia Sardegna",
       "detail": "Alghero, Italy · Sun 4 Oct",
-      "body": "Rally Italia Sardegna took place in Alghero, Italy on Sunday 4 October.",
+      "body": "Rally Italia Sardegna took place in Alghero, Italy.",
       "date": "2026-10-04",
       "round": 13,
+      "factsVersion": 2,
       "writer": "own server"
     },
     {
@@ -314,8 +337,9 @@
       "channelName": "NHRA Drag Racing",
       "headline": "Midwest Nationals",
       "detail": "World Wide Technology Raceway, Illinois · Sun 4 Oct",
-      "body": "The Midwest Nationals at World Wide Technology Raceway in Illinois also ran on Sunday 4 October.",
+      "body": "The Midwest Nationals were held at the World Wide Technology Raceway in Illinois.",
       "date": "2026-10-04",
+      "factsVersion": 2,
       "writer": "own server"
     },
     {
@@ -323,7 +347,7 @@
       "channelName": "NASCAR Cup Series",
       "headline": "South Point 400",
       "detail": "Las Vegas Motor Speedway · Sun 4 Oct",
-      "body": "Chase Briscoe from Joe Gibbs Racing won the South Point 400 at Las Vegas Motor Speedway, ahead of Kyle Larson for Hendrick Motorsports and Tyler Reddick with 23XI Racing. Briscoe led 175 laps during a race that saw 12 lead changes among seven drivers.",
+      "body": "Round 31 of the NASCAR Cup Series season. Won by Chase Briscoe (Joe Gibbs Racing) from Kyle Larson and Tyler Reddick.",
       "date": "2026-10-04",
       "round": 31,
       "facts": [
@@ -349,16 +373,18 @@
           "team": "23XI Racing"
         }
       ],
-      "writer": "own server"
+      "factsVersion": 2,
+      "writer": "template"
     },
     {
       "channelID": "imsa",
       "channelName": "IMSA SportsCar Championship",
       "headline": "Motul Petit Le Mans",
       "detail": "Michelin Raceway Road Atlanta · Sat 3 Oct",
-      "body": "The Motul Petit Le Mans was held at Michelin Raceway Road Atlanta. This round took place on Saturday 3 October.",
+      "body": "The Motul Petit Le Mans took place at Michelin Raceway Road Atlanta on Saturday 3 October for the eleventh round of the IMSA SportsCar Championship.",
       "date": "2026-10-03",
       "round": 11,
+      "factsVersion": 2,
       "writer": "own server"
     },
     {
@@ -366,9 +392,10 @@
       "channelName": "World Endurance Championship",
       "headline": "6 Hours of Fuji",
       "detail": "Fuji Speedway, Japan · Sun 27 Sep",
-      "body": "The 6 Hours of Fuji was held at Fuji Speedway, Japan. It ran on Sunday 27 September.",
+      "body": "Round seven of the World Endurance Championship visited Fuji Speedway in Japan on Sunday 27 September for the 6 Hours of Fuji.",
       "date": "2026-09-27",
       "round": 7,
+      "factsVersion": 2,
       "writer": "own server"
     },
     {
@@ -376,9 +403,10 @@
       "channelName": "Formula 2",
       "headline": "Baku",
       "detail": "Baku City Circuit, Azerbaijan · Sun 27 Sep",
-      "body": "The Formula 2 action returned to the Baku City Circuit in Azerbaijan on Sunday 27 September for round 12. It was a busy weekend of racing on the streets of Baku.",
+      "body": "Formula 2 returned to the Baku City Circuit in Azerbaijan for round twelve on Sunday 27 September.",
       "date": "2026-09-27",
       "round": 12,
+      "factsVersion": 2,
       "writer": "own server"
     },
     {
@@ -386,12 +414,13 @@
       "channelName": "Clio Cup Series",
       "headline": "Spa-Francorchamps",
       "detail": "Circuit de Spa-Francorchamps, Belgium · Sat 19 Sep",
-      "body": "The Clio Cup Series visited Spa-Francorchamps on Saturday 19 September for round 5. The circuit features a 7.004 km lap with 19 corners and has been racing since 1921.",
+      "body": "The Clio Cup Series visited Circuit de Spa-Francorchamps on Saturday 19 September. This venue features a 7.004 km lap with 19 corners and has been racing since 1921.",
       "date": "2026-09-19",
       "round": 5,
       "facts": [
         "7.004 km lap, 19 corners, first raced 1921"
       ],
+      "factsVersion": 2,
       "writer": "own server"
     },
     {
@@ -399,9 +428,10 @@
       "channelName": "Formula 3",
       "headline": "Madrid",
       "detail": "Madrid, Spain · Sun 13 Sep",
-      "body": "The tenth round of Formula 3 was held in Madrid, Spain, on Sunday 13 September.",
+      "body": "Formula 3 held its tenth round in Madrid on Sunday 13 September.",
       "date": "2026-09-13",
       "round": 10,
+      "factsVersion": 2,
       "writer": "own server"
     },
     {
@@ -409,12 +439,13 @@
       "channelName": "Porsche Supercup",
       "headline": "Monza (double-header)",
       "detail": "Autodromo Nazionale Monza, Italy · Sun 6 Sep",
-      "body": "The seventh round of the Porsche Supercup was a double-header at Autodromo Nazionale Monza in Italy on Sunday 6 September. This circuit features an 11-corner, 5.793 km lap and was first raced in 1922.",
+      "body": "The Porsche Supercup arrived at Autodromo Nazionale Monza for a double-header on Sunday 6 September. This circuit features an 11-corner, 5.793 km lap and was first raced in 1922.",
       "date": "2026-09-06",
       "round": 7,
       "facts": [
         "5.793 km lap, 11 corners, first raced 1922"
       ],
+      "factsVersion": 2,
       "writer": "own server"
     },
     {
@@ -422,8 +453,9 @@
       "channelName": "IndyCar",
       "headline": "Season Finale",
       "detail": "WeatherTech Raceway Laguna Seca · Sun 6 Sep",
-      "body": "The IndyCar season concluded with its finale at WeatherTech Raceway Laguna Seca on Sunday 6 September.",
+      "body": "The IndyCar season concluded at WeatherTech Raceway Laguna Seca on Sunday 6 September.",
       "date": "2026-09-06",
+      "factsVersion": 2,
       "writer": "own server"
     },
     {
@@ -431,7 +463,7 @@
       "channelName": "Formula E",
       "headline": "London E-Prix",
       "detail": "London, United Kingdom · Sun 16 Aug",
-      "body": "Taylor Barnard took victory at the London E-Prix for DS Penske, ahead of Mahindra Racing's Nyck De Vries and Edoardo Mortara. Pascal Wehrlein leads the championship by 5 points from Jake Dennis.",
+      "body": "Taylor Barnard took victory for DS Penske at the London E-Prix in the United Kingdom. Nyck De Vries and Edoardo Mortara of Mahindra Racing finished second and third. Pascal Wehrlein held a five-point lead over Jake Dennis.",
       "date": "2026-08-16",
       "round": 17,
       "facts": [
@@ -454,6 +486,7 @@
           "team": "Mahindra Racing"
         }
       ],
+      "factsVersion": 2,
       "writer": "own server"
     }
   ]
