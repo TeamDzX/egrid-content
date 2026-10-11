@@ -1,29 +1,43 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T14:15:07Z",
+  "generatedAt": "2026-10-11T17:21:24Z",
   "editions": [
     {
       "id": "2026-10-11-preview",
       "kind": "preview",
-      "title": "This weekend on E-Grid",
-      "dateRange": "11–12 October",
-      "intro": "Action continues across Formula 1, MotoGP and the NASCAR Cup Series during the weekend of 11–12 October.",
-      "publishedAt": "2026-10-11T14:15:07Z",
-      "expiresAt": "2026-10-16T14:15:07Z",
+      "title": "Results from the weekend",
+      "dateRange": "9–12 October",
+      "intro": "With action concluded in Formula 1 and MotoGP, we look back at recent results before the Bank of America 400 begins.",
+      "publishedAt": "2026-10-11T17:21:24Z",
+      "expiresAt": "2026-10-16T17:21:24Z",
       "items": [
         {
           "channelID": "f1",
           "channelName": "Formula 1",
           "headline": "Singapore Grand Prix",
           "detail": "Marina Bay Street Circuit, Singapore · Sun 11 Oct",
-          "body": "The Singapore Grand Prix takes place on Sun 11 Oct at the Marina Bay Street Circuit from 12:00 UTC. Sprint qualifying is set for Fri 9 Oct at 12:30 UTC, with the sprint and qualifying both following on Sat 10 Oct. Andrea Kimi Antonelli leads George Russell by 89 points in the championship.",
+          "body": "Max Verstappen won the Singapore Grand Prix for Red Bull, ahead of Charles Leclerc for Ferrari and Andrea Kimi Antonelli for Mercedes. Antonelli currently leads the championship by 102 points from George Russell.",
           "date": "2026-10-11",
           "round": 17,
           "facts": [
-            "Sprint qualifying Fri 9 Oct, 12:30 UTC",
-            "Sprint Sat 10 Oct, 09:00 UTC",
-            "Qualifying Sat 10 Oct, 13:00 UTC",
-            "Andrea Kimi Antonelli leads the championship by 89 points from George Russell"
+            "Andrea Kimi Antonelli leads the championship by 102 points from George Russell"
+          ],
+          "podium": [
+            {
+              "position": 1,
+              "name": "Max Verstappen",
+              "team": "Red Bull"
+            },
+            {
+              "position": 2,
+              "name": "Charles Leclerc",
+              "team": "Ferrari"
+            },
+            {
+              "position": 3,
+              "name": "Andrea Kimi Antonelli",
+              "team": "Mercedes"
+            }
           ]
         },
         {
@@ -31,11 +45,28 @@
           "channelName": "MotoGP",
           "headline": "Grand Prix of Indonesia",
           "detail": "Pertamina Mandalika Circuit, Indonesia · Sun 11 Oct",
-          "body": "The Grand Prix of Indonesia takes place on Sun 11 Oct at the Pertamina Mandalika Circuit. Jorge Martin holds a two-point lead over Marc Marquez in the championship.",
+          "body": "Marco Bezzecchi won the Grand Prix of Indonesia for Aprilia Racing, ahead of Raul Fernandez for SuperFile Trackhouse MotoGP Team and Jorge Martin for Aprilia Racing. Jorge Martin leads the championship by two points from Marc Marquez.",
           "date": "2026-10-11",
           "round": 17,
           "facts": [
             "Jorge Martin leads the championship by 2 points from Marc Marquez"
+          ],
+          "podium": [
+            {
+              "position": 1,
+              "name": "Marco Bezzecchi",
+              "team": "Aprilia Racing"
+            },
+            {
+              "position": 2,
+              "name": "Raul Fernandez",
+              "team": "SuperFile Trackhouse MotoGP Team"
+            },
+            {
+              "position": 3,
+              "name": "Jorge Martin",
+              "team": "Aprilia Racing"
+            }
           ]
         },
         {
@@ -43,7 +74,7 @@
           "channelName": "NASCAR Cup Series",
           "headline": "Bank of America 400",
           "detail": "Charlotte Motor Speedway · Sun 11 Oct",
-          "body": "The Bank of America 400 at Charlotte Motor Speedway runs on Sun 11 Oct from 19:00 UTC. This 400.5-mile race consists of 267 laps, with coverage available via USA and PRN radio.",
+          "body": "The Bank of America 400 takes place on Sun 11 Oct at Charlotte Motor Speedway starting at 19:00 UTC. The race will cover 400.5 miles over 267 laps.",
           "date": "2026-10-11",
           "round": 32,
           "facts": [
@@ -209,6 +240,66 @@
   ],
   "lastRaces": [
     {
+      "channelID": "motogp",
+      "channelName": "MotoGP",
+      "headline": "Grand Prix of Indonesia",
+      "detail": "Pertamina Mandalika Circuit, Indonesia · Sun 11 Oct",
+      "body": "Marco Bezzecchi won for Aprilia Racing at the Grand Prix of Indonesia, followed by Raul Fernandez with SuperFile Trackhouse MotoGP Team and Jorge Martin for Aprilia Racing. Jorge Martin leads the championship by two points from Marc Marquez.",
+      "date": "2026-10-11",
+      "round": 17,
+      "facts": [
+        "Jorge Martin leads the championship by 2 points from Marc Marquez"
+      ],
+      "podium": [
+        {
+          "position": 1,
+          "name": "Marco Bezzecchi",
+          "team": "Aprilia Racing"
+        },
+        {
+          "position": 2,
+          "name": "Raul Fernandez",
+          "team": "SuperFile Trackhouse MotoGP Team"
+        },
+        {
+          "position": 3,
+          "name": "Jorge Martin",
+          "team": "Aprilia Racing"
+        }
+      ],
+      "writer": "own server"
+    },
+    {
+      "channelID": "f1",
+      "channelName": "Formula 1",
+      "headline": "Singapore Grand Prix",
+      "detail": "Marina Bay Street Circuit, Singapore · Sun 11 Oct",
+      "body": "Max Verstappen won the Singapore Grand Prix, ahead of Charles Leclerc for Ferrari and Andrea Kimi Antonelli for Mercedes. Antonelli leads the championship by 102 points from George Russell.",
+      "date": "2026-10-11",
+      "round": 17,
+      "facts": [
+        "Andrea Kimi Antonelli leads the championship by 102 points from George Russell"
+      ],
+      "podium": [
+        {
+          "position": 1,
+          "name": "Max Verstappen",
+          "team": "Red Bull"
+        },
+        {
+          "position": 2,
+          "name": "Charles Leclerc",
+          "team": "Ferrari"
+        },
+        {
+          "position": 3,
+          "name": "Andrea Kimi Antonelli",
+          "team": "Mercedes"
+        }
+      ],
+      "writer": "own server"
+    },
+    {
       "channelID": "wrc",
       "channelName": "World Rally Championship",
       "headline": "Rally Italia Sardegna",
@@ -256,66 +347,6 @@
           "position": 3,
           "name": "Tyler Reddick",
           "team": "23XI Racing"
-        }
-      ],
-      "writer": "own server"
-    },
-    {
-      "channelID": "motogp",
-      "channelName": "MotoGP",
-      "headline": "Grand Prix of Japan",
-      "detail": "Mobility Resort Motegi, Japan · Sun 4 Oct",
-      "body": "Marc Marquez of Ducati Lenovo Team won the Grand Prix of Japan, followed by Jorge Martin and Marco Bezzecchi, both with Aprilia Racing. Martin leads the championship by just two points over Marquez.",
-      "date": "2026-10-04",
-      "round": 16,
-      "facts": [
-        "Jorge Martin leads the championship by 2 points from Marc Marquez"
-      ],
-      "podium": [
-        {
-          "position": 1,
-          "name": "Marc Marquez",
-          "team": "Ducati Lenovo Team"
-        },
-        {
-          "position": 2,
-          "name": "Jorge Martin",
-          "team": "Aprilia Racing"
-        },
-        {
-          "position": 3,
-          "name": "Marco Bezzecchi",
-          "team": "Aprilia Racing"
-        }
-      ],
-      "writer": "own server"
-    },
-    {
-      "channelID": "f1",
-      "channelName": "Formula 1",
-      "headline": "Bahrain Grand Prix in Malaysia",
-      "detail": "Sepang International Circuit, Malaysia · Sun 4 Oct",
-      "body": "Max Verstappen won the Bahrain Grand Prix in Malaysia for Red Bull, followed by Andrea Kimi Antonelli for Mercedes and Lewis Hamilton for Ferrari. Antonelli leads the championship by 84 points from George Russell.",
-      "date": "2026-10-04",
-      "round": 16,
-      "facts": [
-        "Andrea Kimi Antonelli leads the championship by 89 points from George Russell"
-      ],
-      "podium": [
-        {
-          "position": 1,
-          "name": "Max Verstappen",
-          "team": "Red Bull"
-        },
-        {
-          "position": 2,
-          "name": "Andrea Kimi Antonelli",
-          "team": "Mercedes"
-        },
-        {
-          "position": 3,
-          "name": "Lewis Hamilton",
-          "team": "Ferrari"
         }
       ],
       "writer": "own server"
