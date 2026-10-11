@@ -137,7 +137,7 @@ OPENF1 = "https://api.openf1.org/v1"
 FACTS_SHOWN = 6
 # Bump when the facts given to the writer change enough that every
 # last-race write-up deserves rewriting from them.
-FACTS_VERSION = 2
+FACTS_VERSION = 3
 
 # Channels whose calendar comes from a live API rather than channels.json.
 # Anything not listed here is read from the static `calendar` array.
@@ -758,7 +758,8 @@ def openf1_story(r: Round, winner: dict) -> None:
     for message in get_cached(f"{OPENF1}/race_control?session_key={key}"):
         text = (message.get("message") or "").upper()
         lap = message.get("lap_number")
-        label = ("Red flag" if "RED FLAG" in text else
+        # By word: "CHEQUERED FLAG" contains "RED FLAG".
+        label = ("Red flag" if message.get("flag") == "RED" or re.search(r"\bRED FLAG\b", text) else
                  "Virtual safety car" if text.startswith("VSC DEPLOYED") else
                  "Safety car" if text.startswith("SAFETY CAR DEPLOYED") else None)
         if label and lap and lap not in neutralised.setdefault(label, []):
@@ -1231,6 +1232,10 @@ def apply_copy(data: dict, rounds: list[Round], kind: str, start: dt.date, end: 
         if stranger:
             log(f"  dropped {writer} copy for {r.name}: names {stranger}, who is in neither the podium nor the facts")
             continue
+        claim = unsupported_claim(body, r, kind)
+        if claim:
+            log(f"  dropped {writer} copy for {r.name}: {claim} is not in its facts")
+            continue
         bodies[index] = body
     intro = str(data.get("intro") or "").strip() or template_intro(rounds, edition, start, end)
     return intro, bodies
@@ -1390,6 +1395,31 @@ def unsupported_name(text: str, r: Round) -> str | None:
             patterns.append(name.split()[-1])
         if any(re.search(rf"\b{re.escape(pattern)}\b", text) for pattern in patterns):
             return name
+    return None
+
+
+# Things that happen in a race which copy may only mention when a fact does.
+INCIDENT_WORDS = ("red flag", "safety car", "rain", "wet", "crash", "collision", "penalt",
+                  "lap record", "puncture", "disqualif")
+
+
+def unsupported_claim(text: str, r: Round, kind: str) -> str | None:
+    """A number or an incident the copy has from nowhere: a self-hosted
+    model given several rounds at once will lend one round's "62°C track"
+    to another as "a red flag on lap 62"."""
+    source = " ".join([r.name, r.location, r.channel_name, span_label(r), day_label(r.date),
+                       r.date.isoformat(), str(r.round_number or ""), r.time_utc or "",
+                       *r.facts, *(f"{p.position} {p.name} {p.team}" for p in r.podium)])
+    if r.end:
+        source += f" {r.end.isoformat()} {day_label(r.end)}"
+    known = set(re.findall(r"\d+(?:\.\d+)?", source))
+    for number in re.findall(r"\d+(?:\.\d+)?", text):
+        if number not in known and number.lstrip("0") not in known:
+            return f'the number "{number}"'
+    lowered, facts = text.lower(), " ".join(r.facts).lower()
+    for word in INCIDENT_WORDS:
+        if re.search(rf"\b{word}", lowered) and not re.search(rf"\b{word}", facts):
+            return f'"{word}"'
     return None
 
 
