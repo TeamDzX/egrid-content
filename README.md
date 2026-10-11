@@ -91,18 +91,19 @@ and writes its own one-line summary unless they follow every channel in the
 edition. `lastRaces` stays motorsport-only.
 
 The card at the top of Home. **This file is written by a robot**, straight
-to `live`. The action checks hourly from 07:23 to 21:23 UTC and rebuilds
-only when something is due: the first build of the day, the three hours
-before a round with a known start time (so the preview carries the final
-running order), or a race that has just finished (its "Race Report" lands
-the same evening — four hours after a known start, otherwise next morning).
-Nothing is built while the writer's server hibernates, 23:00–07:00 UK time,
-whatever time GitHub actually starts the job. A manual run always builds.
+to `live`. The action checks hourly, around the clock (the writer's server
+runs 24/7 since October 2026), and rebuilds only when something is due: the
+first build of the day, the three hours before a round with a known start
+time (so the preview carries the final running order), or a race that has
+just finished (its "Race Report" lands the same evening — four hours after a
+known start, otherwise once its series posts a podium or the date turns). A
+manual run always builds.
 
 | Day | Edition | What it says |
 |---|---|---|
 | Monday, Tuesday | `recap` | What ran over the last seven days, with podiums for F1, MotoGP and Formula E. Tuesday re-runs it so a late Sunday-night result lands. |
 | Wednesday to Sunday | `preview` | Every round of every channel racing between now and Monday, refreshed daily. On Sunday it is today's running order. |
+| Saturday, Sunday, after the last race | `recap` titled "This weekend's results" | Replaces the preview the moment every round from Wednesday to Monday has finished: podiums, race facts and the championship standings straight after the race. A timed round counts as finished four hours after its start; a date-only one once its series publishes a podium (MotoGP, snooker), otherwise when the date turns. Carries `eyebrow: "THIS WEEKEND"` (2.7 / 1.7.0 show it; older apps say "LAST WEEK"). Monday's recap supersedes it. `--kind weekend` forces one. |
 
 The generator is `digest/build_digest.py`, run by the
 `.github/workflows/weekly-digest.yml` action. It reads the same sources the

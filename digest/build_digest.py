@@ -9,6 +9,12 @@ Rebuilt every morning, written into `digest.json` at the repo root:
   preview  (Wed-Sun)   every round of every channel racing this weekend,
                        refreshed daily as start times firm up; on Sunday it
                        is simply today's running order.
+  weekend  (Sat, Sun)  replaces the preview as soon as every round of the
+                       weekend has finished: the results, podiums and the
+                       championship picture straight after the last race,
+                       instead of a preview of races already run. Published
+                       as a recap ("This weekend's results"); Monday's
+                       recap then supersedes it with the full week.
 
 The facts come from the same sources the apps use — the static calendars in
 `channels.json`, Jolpica for F1, the Pulselive feed for MotoGP and
@@ -50,11 +56,14 @@ Usage:
 The scheduled action runs hourly through the day with `--when-due`, which
 rebuilds only when something has changed enough to matter: the first build
 of the day, the three hours before a round with a known start time, or a
-race that has finished since the last build. Nothing runs while the writer's
-server hibernates (23:00-07:00 UK time), however late GitHub starts the job.
+race that has finished since the last build. The writer's server runs around
+the clock, so the job does too: a Sunday race in America finishes after
+midnight UK time, and the weekend's results should not wait for morning.
 `--check-due` prints "due" or "skip" and builds nothing.
 
-`auto` picks recap on Monday and Tuesday and preview on every other day. `--date`
+`auto` picks recap on Monday and Tuesday and preview on every other day,
+switching a Saturday or Sunday preview to the weekend's results once every
+round in it has finished (`--kind weekend` forces that). `--date`
 pretends it is another day, for testing. Exit code is non-zero only when
 nothing at all could be built; a single failed source is logged and skipped.
 """
@@ -95,9 +104,9 @@ PRE_RACE_LEAD = dt.timedelta(hours=3)
 # A round with a start time counts as finished this long after it began, so
 # its write-up can land the same evening instead of the next morning.
 FINISHED_AFTER = dt.timedelta(hours=4)
-# Alex's own server, which writes the prose, hibernates overnight (UK time).
-SERVER_ZONE = "Europe/London"
-SERVER_SLEEPS_FROM, SERVER_WAKES_AT = 23, 7
+# The weekend's results replace the preview on these days only: a Wednesday
+# race finishing does not end "this weekend".
+WEEKEND_DAYS = {5, 6}
 
 USER_AGENT = "EGrid-digest/1.0 (+https://github.com/TeamDzX/egrid-content)"
 TIMEOUT = 20
@@ -671,6 +680,9 @@ def finish_rounds(rounds: list[Round], finished: bool, now: dt.datetime) -> None
 def window(kind: str, today: dt.date) -> tuple[dt.date, dt.date]:
     if kind == "recap":
         return today - dt.timedelta(days=7), today - dt.timedelta(days=1)
+    if kind == "weekend":
+        # The week the preview covered, from its first day (Wednesday).
+        return today - dt.timedelta(days=(today.weekday() - 2) % 7), today
     # Preview: from today to the coming Sunday, plus Monday for the handful of
     # rounds (Le Mans, Bathurst-style events) that spill over.
     days_to_sunday = (6 - today.weekday()) % 7
@@ -691,6 +703,8 @@ def span_label(r: Round) -> str:
 
 
 def range_label(start: dt.date, end: dt.date) -> str:
+    if start == end:
+        return f"{end.day} {end:%B}"
     if start.month == end.month:
         return f"{start.day}–{end.day} {end:%B}"
     return f"{start.day} {start:%B} – {end.day} {end:%B}"
@@ -733,9 +747,10 @@ def template_intro(rounds: list[Round], kind: str, start: dt.date, end: dt.date)
     listed = ", ".join(series[:-1]) + (f" and {series[-1]}" if len(series) > 1 else series[0])
     noun = "round" if all(r.sport == "motorsport" for r in rounds) else "event"
     plural = "s" if len(rounds) != 1 else ""
+    span = f"on {range_label(start, end)}" if start == end else f"between {range_label(start, end)}"
     if kind == "recap":
-        return f"{len(rounds)} {noun}{plural} ran between {range_label(start, end)}, across {listed}."
-    return f"{len(rounds)} {noun}{plural} across {listed} between {range_label(start, end)}."
+        return f"{len(rounds)} {noun}{plural} ran {span}, across {listed}."
+    return f"{len(rounds)} {noun}{plural} across {listed} {span}."
 
 
 def facts_for_llm(rounds: list[Round], kind: str) -> list[dict]:
@@ -999,18 +1014,28 @@ def item_json(r: Round, body: str) -> dict:
 
 def build_edition(kind: str, today: dt.date, season: list[Round], circuits: list[dict],
                   use_llm: bool) -> dict:
+    """`kind` is preview, recap or weekend; a weekend edition is published as
+    a recap of the days since Wednesday, built the evening the last race
+    ends."""
+    weekend = kind == "weekend"
     start, end = window(kind, today)
     log(f"{kind} edition for {start} .. {end}")
     # A preview takes anything on during the window, so a tournament already
     # under way stays in; a recap takes what finished in it.
-    if kind == "recap":
-        rounds = sorted((r for r in season if start <= r.last_day <= end), key=lambda r: r.sort_key)
-    else:
+    if kind == "preview":
         rounds = sorted((r for r in season if r.date <= end and r.last_day >= start), key=lambda r: r.sort_key)
+    else:
+        rounds = sorted((r for r in season if start <= r.last_day <= end), key=lambda r: r.sort_key)
+    if weekend and rounds:
+        # Label the days that actually had racing: "10–11 October".
+        start = min(r.date for r in rounds)
+        kind = "recap"
     finish_rounds(rounds, finished=(kind == "recap"),
                   now=dt.datetime.now(dt.timezone.utc))
-    # Standings are today's, so they belong with this weekend, not last week.
-    add_context(rounds, circuits, with_standings=(kind == "preview"), upcoming=(kind == "preview"))
+    # Standings are today's, so they belong with this weekend (to come, or
+    # just run), not last week.
+    add_context(rounds, circuits, with_standings=(kind == "preview" or weekend),
+                upcoming=(kind == "preview"))
     log(f"  {len(rounds)} rounds in window")
 
     written = write_copy(rounds, kind, start, end) if (use_llm and rounds) else None
@@ -1026,9 +1051,10 @@ def build_edition(kind: str, today: dt.date, season: list[Round], circuits: list
     motorsport = [(r, b) for r, b in pairs if r.sport == "motorsport"]
     others = [(r, b) for r, b in pairs if r.sport != "motorsport"]
     edition = {
-        "id": f"{today.isoformat()}-{kind}",
+        "id": f"{today.isoformat()}-{kind}",  # a weekend edition is "-recap"
         "kind": kind,
-        "title": "Last week on E-Grid" if kind == "recap" else "This weekend on E-Grid",
+        "title": ("This weekend's results" if weekend else
+                  "Last week on E-Grid" if kind == "recap" else "This weekend on E-Grid"),
         "dateRange": range_label(start, end),
         # Older apps read only `items` and `intro`, so `intro` must not talk
         # about events they cannot show; `introAll` covers everything.
@@ -1037,6 +1063,10 @@ def build_edition(kind: str, today: dt.date, season: list[Round], circuits: list
         "expiresAt": (now + dt.timedelta(days=ttl)).isoformat().replace("+00:00", "Z"),
         "items": [item_json(r, body) for r, body in motorsport],
     }
+    if weekend:
+        # Apps from 2.7 / 1.7.0 show this over the title; older ones say
+        # "LAST WEEK" for every recap.
+        edition["eyebrow"] = "THIS WEEKEND"
     if others:
         edition["introAll"] = intro
         edition["moreItems"] = [item_json(r, body) for r, body in others]
@@ -1129,10 +1159,37 @@ def merge(existing: dict, edition: dict, last_races: list[dict]) -> dict:
     }
 
 
-def server_asleep(now: dt.datetime) -> bool:
-    from zoneinfo import ZoneInfo
-    hour = now.astimezone(ZoneInfo(SERVER_ZONE)).hour
-    return hour >= SERVER_SLEEPS_FROM or hour < SERVER_WAKES_AT
+def round_over(r: Round, now: dt.datetime) -> bool:
+    """Whether a round can be written up as a result yet. A timed round is
+    over FINISHED_AFTER its start. A date-only one on today's date is over
+    once its series has published a podium (MotoGP, snooker); with no
+    results feed it waits for the date to turn, rather than risk calling a
+    race finished that is still running in America."""
+    if r.has_finished(now):
+        return True
+    if r.start is None and r.last_day == now.date():
+        return bool(fetch_podium(r))
+    return False
+
+
+def weekend_over(season: list[Round], today: dt.date, now: dt.datetime) -> bool:
+    """True on a Saturday or Sunday once every round of the weekend has
+    finished: something ran since Wednesday, and nothing in the preview's
+    window (to Monday) is still to come or under way."""
+    if today.weekday() not in WEEKEND_DAYS:
+        return False
+    first, _ = window("weekend", today)
+    _, last = window("preview", today)
+    rounds = [r for r in season if r.date <= last and r.last_day >= first]
+    if not any(r.last_day <= today for r in rounds):
+        return False
+    nascar_start_times([r for r in rounds if r.date == today])
+    # Cheapest first: anything later in the window, then timed rounds, and
+    # only then a podium lookup per date-only round.
+    if any(r.last_day > today for r in rounds):
+        return False
+    pending = sorted(rounds, key=lambda r: r.start is None)
+    return all(round_over(r, now) for r in pending)
 
 
 def due_reason(existing: dict, kind: str, today: dt.date, now: dt.datetime,
@@ -1166,7 +1223,7 @@ def parse_instant(value: str | None) -> dt.datetime | None:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--kind", choices=["auto", "preview", "recap"], default="auto")
+    parser.add_argument("--kind", choices=["auto", "preview", "recap", "weekend"], default="auto")
     parser.add_argument("--date", help="Pretend today is this date (YYYY-MM-DD)")
     parser.add_argument("--out", default=str(DEFAULT_OUT))
     parser.add_argument("--no-llm", action="store_true", help="Templated prose only")
@@ -1184,22 +1241,25 @@ def main() -> int:
         now = dt.datetime.combine(today, dt.time(12), tzinfo=dt.timezone.utc)
     out_path = Path(args.out)
     existing = read_existing(out_path)
+    season = season_rounds(load_channels())
+    if kind == "preview" and args.kind == "auto":
+        # Once today's results edition exists it stays, even if a feed
+        # hiccups and the weekend briefly looks unfinished again.
+        built = any(e.get("id") == f"{today.isoformat()}-recap" for e in existing.get("editions", []))
+        if built or weekend_over(copy.deepcopy(season), today, now):
+            kind = "weekend"
+            log("every round this weekend has finished: building the weekend's results")
     if args.when_due or args.check_due:
-        if server_asleep(now):
-            log("the writer's server is hibernating (23:00-07:00 UK); not building")
-            reason = None
-        else:
-            reason = due_reason(existing, kind, today, now, season_rounds(load_channels()))
-            log(f"due: {reason}" if reason else "nothing due; leaving digest.json as it is")
+        # The weekend's results are filed under today's recap.
+        reason = due_reason(existing, "recap" if kind == "weekend" else kind, today, now, season)
+        log(f"due: {reason}" if reason else "nothing due; leaving digest.json as it is")
         if args.check_due:
             print("due" if reason else "skip")
             return 0
         if not reason:
             return 0
 
-    channels = load_channels()
     circuits = load_circuits()
-    season = season_rounds(channels)
     edition = build_edition(kind, today, copy.deepcopy(season), circuits, use_llm=not args.no_llm)
     last_races = build_last_races(now, copy.deepcopy(season), circuits,
                                   existing.get("lastRaces", []), use_llm=not args.no_llm)

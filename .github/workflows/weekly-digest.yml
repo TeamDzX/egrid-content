@@ -18,22 +18,22 @@ name: Weekly digest
 
 on:
   schedule:
-    # Hourly through the day; each run asks the script whether anything is
-    # due (first build of the day, three hours before a round with a known
-    # start, or a race just finished) and stops there when nothing is. The
-    # script also refuses while the writer's server hibernates, 23:00-07:00
-    # UK time, which matters because GitHub starts scheduled runs hours late
-    # when it is busy. Off the hour (:23) because on-the-hour slots queue
-    # longest. The script picks the edition: recap on Monday and Tuesday,
-    # preview Wednesday to Sunday.
-    - cron: "23 7-21 * * *"
+    # Hourly, around the clock (the writer's server never sleeps); each run
+    # asks the script whether anything is due (first build of the day, three
+    # hours before a round with a known start, or a race just finished) and
+    # stops there when nothing is. Off the hour (:23) because on-the-hour
+    # slots queue longest. The script picks the edition: recap on Monday and
+    # Tuesday, preview Wednesday to Sunday, and on Saturday or Sunday the
+    # weekend's results as soon as the last race of the weekend has
+    # finished — which for a NASCAR night race is around midnight UK time.
+    - cron: "23 * * * *"
   workflow_dispatch:
     inputs:
       kind:
         description: "Edition to build"
         type: choice
         default: auto
-        options: [auto, preview, recap]
+        options: [auto, preview, recap, weekend]
       date:
         description: "Pretend today is (YYYY-MM-DD), for testing"
         required: false
@@ -108,8 +108,8 @@ jobs:
           elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             python3 digest/build_digest.py --kind "$KIND"
           else
-            # Asked again: the build may have queued behind another job long
-            # enough to reach the server's night.
+            # Asked again: the build may have queued behind another job
+            # long enough for something else to become due, or nothing.
             python3 digest/build_digest.py --when-due
           fi
           python3 -m json.tool digest.json > /dev/null
