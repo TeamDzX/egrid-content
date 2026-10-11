@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-10T13:48:16Z",
+  "generatedAt": "2026-10-11T14:04:59Z",
   "channels": [
     {
       "channelID": "f1",
@@ -192,17 +192,6 @@
           "seconds": 406,
           "thumbnail": "https://i.ytimg.com/vi/w2N7ME50sjs/maxresdefault.jpg",
           "source": "Audi Revolut F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "f0c6uu8eYIA",
-          "title": "Which F1 Driver is the Best at Chess? | Team Torque | S3 E9",
-          "publishedAt": "2026-09-25T10:29:59Z",
-          "duration": "27:26",
-          "seconds": 1646,
-          "thumbnail": "https://i.ytimg.com/vi/f0c6uu8eYIA/maxresdefault.jpg",
-          "source": "Atlassian Williams F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -423,6 +412,17 @@
           "seconds": 361,
           "thumbnail": "https://i.ytimg.com/vi/LNP6lgxiTTg/maxresdefault.jpg",
           "source": "FIA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "-59xVmUn1YI",
+          "title": "AMR Network: Portraits | Cognition",
+          "publishedAt": "2026-07-14T14:17:27Z",
+          "duration": "5:49",
+          "seconds": 349,
+          "thumbnail": "https://i.ytimg.com/vi/-59xVmUn1YI/maxresdefault.jpg",
+          "source": "Aston Martin Aramco F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
         },
