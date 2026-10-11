@@ -79,7 +79,7 @@ invented circuit length does not.
 
 ## `digest.json` — the weekly digest (generated, do not hand-edit)
 
-**Multi-sport (October 2026).** Snooker rounds come from `snooker.json` (not
+**Multi-sport (October 2026).** Snooker is **off in the public digest**: snooker.org asked (11 Oct 2026) that its data not be publicly readable, so the generator includes snooker only when `EGRID_DIGEST_SNOOKER=1`, for a digest served from the private endpoint. When on, snooker rounds come from `snooker.json` (not
 `channels.json`) and span their days: a preview includes anything on during
 its window, a recap anything that finished in it. Non-motorsport rounds go in
 each edition's **`moreItems`**, never `items`, because app versions before
@@ -203,6 +203,13 @@ The `channels.json` Formula E calendar stays as the fallback for 2.5 / 1.5.0
 and earlier, which still call the dead API and fall back to it.
 
 ## `snooker.json` — Snooker (generated, do not hand-edit)
+
+> **Not in this repo since 11 Oct 2026.** snooker.org asked that its data be
+> served only to holders of a header value, not from a public repository.
+> `snooker.json`, `snooker-players.json` and `snooker/state.json` are
+> gitignored and the Snooker workflow is disabled until the private endpoint
+> is in place. The scripts below are unchanged and still describe the data.
+
 
 The snooker channel's only source: the World Snooker Tour calendar, every
 main-stage draw and score, and the world rankings. Read by the snooker

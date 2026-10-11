@@ -1,1 +1,6 @@
 .DS_Store
+# snooker.org data must not be public (Hermund Årdalen, 11 Oct 2026): access is
+# limited to holders of a header value. Built locally / in CI, served privately.
+snooker.json
+snooker-players.json
+snooker/state.json

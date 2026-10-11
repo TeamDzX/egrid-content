@@ -621,6 +621,11 @@ def season_rounds(channels: list[dict]) -> list[Round]:
             rounds = static_rounds(channel)
         log(f"  {channel['name']}: {len(rounds)} rounds")
         all_rounds += rounds
+    # snooker.org's data may not appear in a public file (Hermund Årdalen,
+    # 11 Oct 2026), and digest.json is public. Snooker joins only a digest
+    # built for the private endpoint, which sets EGRID_DIGEST_SNOOKER=1.
+    if os.environ.get("EGRID_DIGEST_SNOOKER") != "1":
+        return all_rounds
     snooker = snooker_rounds()
     log(f"  Snooker: {len(snooker)} events")
     return all_rounds + snooker
