@@ -79,6 +79,17 @@ invented circuit length does not.
 
 ## `digest.json` — the weekly digest (generated, do not hand-edit)
 
+**Multi-sport (October 2026).** Snooker rounds come from `snooker.json` (not
+`channels.json`) and span their days: a preview includes anything on during
+its window, a recap anything that finished in it. Non-motorsport rounds go in
+each edition's **`moreItems`**, never `items`, because app versions before
+2.7 / 1.7.0 read only `items` and cannot show an unknown channel; for the
+same reason `intro` describes `items` only and **`introAll`** covers both.
+Titles are "This weekend on E-Grid" / "Last week on E-Grid". From 2.7 /
+1.7.0 the Home card lists only the reader's own channels (hidden when none)
+and writes its own one-line summary unless they follow every channel in the
+edition. `lastRaces` stays motorsport-only.
+
 The card at the top of Home. **This file is written by a robot**, straight
 to `live`. The action checks hourly from 07:23 to 21:23 UTC and rebuilds
 only when something is due: the first build of the day, the three hours

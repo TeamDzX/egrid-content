@@ -107,6 +107,9 @@ NASCAR = "https://cf.nascar.com/cacher"
 NASCAR_CUP_SERIES = 1
 CIRCUITS_PATH = REPO_ROOT / "circuits.json"
 FORMULA_E_PATH = REPO_ROOT / "formula-e.json"
+# Snooker, built by snooker/build_snooker.py. Not in channels.json (older app
+# versions read that and have no snooker code), so read on its own.
+SNOOKER_PATH = REPO_ROOT / "snooker.json"
 MOTOGP = "https://api.motogp.pulselive.com/motogp/v1/results"
 
 # Channels whose calendar comes from a live API rather than channels.json.
@@ -146,6 +149,15 @@ class Round:
     facts: list[str] = field(default_factory=list)
     # Qualifying and sprint times; facts only for a round still to run.
     session_facts: list[str] = field(default_factory=list)
+    # Last day of a multi-day event (a snooker tournament); None for one day.
+    end: dt.date | None = None
+    # "motorsport" items go in an edition's `items`; any other sport goes in
+    # `moreItems`, which only app versions that know that sport read.
+    sport: str = "motorsport"
+
+    @property
+    def last_day(self) -> dt.date:
+        return self.end or self.date
 
     @property
     def sort_key(self):
@@ -166,7 +178,7 @@ class Round:
         # midnight UTC and is not over just because the date has turned.
         if self.start is not None:
             return now >= self.start + FINISHED_AFTER
-        return self.date < now.date()
+        return self.last_day < now.date()
 
 
 # --------------------------------------------------------------------------- #
@@ -536,7 +548,9 @@ def add_context(rounds: list[Round], circuits: list[dict], with_standings: bool,
             line = title_fight(r.channel_id)
             if line:
                 r.facts.append(line)
-        circuit = circuit_for(r, circuits)
+        # Circuit guides are motorsport's; a snooker venue's city would match
+        # a racetrack.
+        circuit = circuit_for(r, circuits) if r.sport == "motorsport" else None
         line = circuit_fact(circuit) if circuit else None
         if line:
             r.facts.append(line)
@@ -550,6 +564,39 @@ def fetch_podium(r: Round) -> list[PodiumEntry]:
     if r.channel_id == "formulae" and r.external_id:
         return safe(f"Formula E podium {r.name}", lambda: formula_e_podium(r.external_id), [])
     return r.podium
+
+
+def snooker_rounds() -> list[Round]:
+    """The season's main snooker tournaments from snooker.json, each spanning
+    its days. A finished one carries winner and runner-up as its podium."""
+    try:
+        data = json.loads(SNOOKER_PATH.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        log("snooker.json unreadable; no snooker rounds")
+        return []
+    rounds = []
+    for e in data.get("events", []):
+        try:
+            start = dt.date.fromisoformat(e["start"])
+            end = dt.date.fromisoformat(e.get("end") or e["start"])
+        except (KeyError, ValueError):
+            continue
+        location = ", ".join(p for p in (e.get("venue"), e.get("city")) if p)
+        r = Round("snooker", "Snooker", e.get("name", ""), location, start,
+                  external_id=str(e.get("id")), end=end, sport="snooker")
+        final = next((x for x in e.get("rounds", []) if x.get("round") == 15 and x.get("bestOf")), None)
+        if e.get("defendingChampion"):
+            r.session_facts.append(f"Defending champion: {e['defendingChampion']}")
+        if final:
+            r.session_facts.append(f"The final is best of {final['bestOf']} frames")
+        if e.get("winner"):
+            r.podium = [PodiumEntry(1, e["winner"])]
+            if e.get("runnerUp"):
+                r.podium.append(PodiumEntry(2, e["runnerUp"]))
+            if e.get("finalScore"):
+                r.facts.append(f"Final score {e['finalScore']}")
+        rounds.append(r)
+    return rounds
 
 
 def season_rounds(channels: list[dict]) -> list[Round]:
@@ -574,7 +621,9 @@ def season_rounds(channels: list[dict]) -> list[Round]:
             rounds = static_rounds(channel)
         log(f"  {channel['name']}: {len(rounds)} rounds")
         all_rounds += rounds
-    return all_rounds
+    snooker = snooker_rounds()
+    log(f"  Snooker: {len(snooker)} events")
+    return all_rounds + snooker
 
 
 _nascar_cache: list[dict] | None = None
@@ -627,6 +676,15 @@ def day_label(date: dt.date) -> str:
     return f"{date:%a} {date.day} {date:%b}"
 
 
+def span_label(r: Round) -> str:
+    """"Sun 11 Oct" for a one-day round, "18–25 Oct" for a tournament."""
+    if not r.end or r.end == r.date:
+        return day_label(r.date)
+    if r.date.month == r.end.month:
+        return f"{r.date.day}–{r.end.day} {r.end:%b}"
+    return f"{r.date.day} {r.date:%b} – {r.end.day} {r.end:%b}"
+
+
 def range_label(start: dt.date, end: dt.date) -> str:
     if start.month == end.month:
         return f"{start.day}–{end.day} {end:%B}"
@@ -637,6 +695,14 @@ def template_body(r: Round, kind: str) -> str:
     """Fallback copy. The headline and detail line already carry the event,
     venue and day, so this adds what they don't: the round, the start time,
     the podium."""
+    if r.sport != "motorsport":
+        if kind != "preview":
+            if r.podium:
+                runner = f", beating {r.podium[1].name}" if len(r.podium) > 1 else ""
+                score = next((f[len("Final score "):] for f in r.facts if f.startswith("Final score ")), None)
+                return f"{r.podium[0].name} won the {r.name}{runner}" + (f" {score}" if score else "") + "."
+            return f"The {r.name} ran at {r.location or r.name}, {span_label(r)}."
+        return f"The {r.name} runs {span_label(r)}" + (f" at {r.location}" if r.location else "") + "."
     which = f"Round {r.round_number} of the {r.channel_name} season" if r.round_number \
         else f"This {r.channel_name} round"
     if kind != "preview":
@@ -656,13 +722,15 @@ def template_body(r: Round, kind: str) -> str:
 def template_intro(rounds: list[Round], kind: str, start: dt.date, end: dt.date) -> str:
     series = sorted({r.channel_name for r in rounds})
     if not rounds:
-        return ("No rounds in the last seven days across the series E-Grid follows."
+        return ("Nothing finished in the last seven days across E-Grid's channels."
                 if kind == "recap" else
-                "A quiet weekend: none of the thirteen series E-Grid follows is racing.")
+                "A quiet week: nothing on across E-Grid's channels.")
     listed = ", ".join(series[:-1]) + (f" and {series[-1]}" if len(series) > 1 else series[0])
+    noun = "round" if all(r.sport == "motorsport" for r in rounds) else "event"
+    plural = "s" if len(rounds) != 1 else ""
     if kind == "recap":
-        return f"{len(rounds)} round{'s' if len(rounds) != 1 else ''} ran between {range_label(start, end)}, across {listed}."
-    return f"{len(rounds)} round{'s' if len(rounds) != 1 else ''} across {listed} between {range_label(start, end)}."
+        return f"{len(rounds)} {noun}{plural} ran between {range_label(start, end)}, across {listed}."
+    return f"{len(rounds)} {noun}{plural} across {listed} between {range_label(start, end)}."
 
 
 def facts_for_llm(rounds: list[Round], kind: str) -> list[dict]:
@@ -674,8 +742,12 @@ def facts_for_llm(rounds: list[Round], kind: str) -> list[dict]:
             "event": r.name,
             "location": r.location or None,
             "date": r.date.isoformat(),
-            "day": day_label(r.date),
+            "day": span_label(r),
         }
+        if r.sport != "motorsport":
+            entry["sport"] = r.sport
+            if r.end and r.end != r.date:
+                entry["lastDay"] = r.end.isoformat()
         if r.round_number:
             entry["round"] = r.round_number
         if r.time_utc and kind == "preview":
@@ -688,7 +760,7 @@ def facts_for_llm(rounds: list[Round], kind: str) -> list[dict]:
     return facts
 
 
-SYSTEM_PROMPT = """You write the short weekly digest inside E-Grid, a motorsport companion app that follows thirteen championships. British English. Plain, warm, knowledgeable — a well-read fan writing to other fans, not a press release.
+SYSTEM_PROMPT = """You write the short weekly digest inside E-Grid, a sports companion app that follows motorsport championships and professional snooker. British English. Plain, warm, knowledgeable — a well-read fan writing to other fans, not a press release.
 
 Hard rules:
 - Use ONLY the facts supplied. Never add results, drivers, teams, weather, injuries, standings, penalties or storylines that are not in the facts. If a podium says "not published", do not name anyone, and do not mention results or their absence at all — write about the event itself.
@@ -700,7 +772,8 @@ Write:
 - intro: at most 55 words setting up the week. It may count rounds and name series.
 - items: for every fact index, two or three sentences of at most 60 words about that round. For a recap with a podium, state the winner and the other two podium finishers with their teams where given. For a preview, say where and when it runs, in the local-day form given, and add the UTC start only when supplied.
 - Where a round carries "facts", use one or two of them to give the reader something more than the date: what is at stake in the championship, a session to watch, the character of the venue, how the race unfolded. Restate them faithfully; do not draw conclusions they do not support.
-- An edition called "lastRaces" covers each series' most recent round, whenever it ran: write about it in the past tense."""
+- An edition called "lastRaces" covers each series' most recent round, whenever it ran: write about it in the past tense.
+- A round with "sport": "snooker" is a tournament played over several days (from "date" to "lastDay"), not a race: no laps, grids, drivers or teams. Its podium is the winner (position 1) and the runner-up (position 2); in a recap say who won the final and whom they beat, with the final score when a fact gives it."""
 
 
 COPY_SCHEMA = {
@@ -901,7 +974,7 @@ def looks_like_a_result(text: str, words=RESULT_WORDS) -> bool:
 
 
 def item_json(r: Round, body: str) -> dict:
-    detail = " · ".join(p for p in [r.location, day_label(r.date)] if p)
+    detail = " · ".join(p for p in [r.location, span_label(r)] if p)
     item = {
         "channelID": r.channel_id,
         "channelName": r.channel_name,
@@ -923,7 +996,12 @@ def build_edition(kind: str, today: dt.date, season: list[Round], circuits: list
                   use_llm: bool) -> dict:
     start, end = window(kind, today)
     log(f"{kind} edition for {start} .. {end}")
-    rounds = sorted((r for r in season if start <= r.date <= end), key=lambda r: r.sort_key)
+    # A preview takes anything on during the window, so a tournament already
+    # under way stays in; a recap takes what finished in it.
+    if kind == "recap":
+        rounds = sorted((r for r in season if start <= r.last_day <= end), key=lambda r: r.sort_key)
+    else:
+        rounds = sorted((r for r in season if r.date <= end and r.last_day >= start), key=lambda r: r.sort_key)
     finish_rounds(rounds, finished=(kind == "recap"),
                   now=dt.datetime.now(dt.timezone.utc))
     # Standings are today's, so they belong with this weekend, not last week.
@@ -939,16 +1017,25 @@ def build_edition(kind: str, today: dt.date, season: list[Round], circuits: list
 
     now = dt.datetime.now(dt.timezone.utc).replace(microsecond=0)
     ttl = RECAP_TTL_DAYS if kind == "recap" else PREVIEW_TTL_DAYS
-    return {
+    pairs = list(zip(rounds, bodies))
+    motorsport = [(r, b) for r, b in pairs if r.sport == "motorsport"]
+    others = [(r, b) for r, b in pairs if r.sport != "motorsport"]
+    edition = {
         "id": f"{today.isoformat()}-{kind}",
         "kind": kind,
-        "title": "Last week in motorsport" if kind == "recap" else "This weekend in motorsport",
+        "title": "Last week on E-Grid" if kind == "recap" else "This weekend on E-Grid",
         "dateRange": range_label(start, end),
-        "intro": intro,
+        # Older apps read only `items` and `intro`, so `intro` must not talk
+        # about events they cannot show; `introAll` covers everything.
+        "intro": intro if not others else template_intro([r for r, _ in motorsport], kind, start, end),
         "publishedAt": now.isoformat().replace("+00:00", "Z"),
         "expiresAt": (now + dt.timedelta(days=ttl)).isoformat().replace("+00:00", "Z"),
-        "items": [item_json(r, body) for r, body in zip(rounds, bodies)],
+        "items": [item_json(r, body) for r, body in motorsport],
     }
+    if others:
+        edition["introAll"] = intro
+        edition["moreItems"] = [item_json(r, body) for r, body in others]
+    return edition
 
 
 LAST_RACE_BATCH = 4
@@ -967,6 +1054,9 @@ def latest_finished(season: list[Round], now: dt.datetime) -> list[Round]:
     nascar_start_times([r for r in season if r.date == now.date()])
     latest: dict[str, Round] = {}
     for r in season:
+        # Last-race write-ups feed motorsport race pages only.
+        if r.sport != "motorsport":
+            continue
         if r.has_finished(now) and (r.channel_id not in latest or r.date > latest[r.channel_id].date):
             latest[r.channel_id] = r
     return sorted(latest.values(), key=lambda r: r.sort_key, reverse=True)
@@ -1109,7 +1199,7 @@ def main() -> int:
     last_races = build_last_races(now, copy.deepcopy(season), circuits,
                                   existing.get("lastRaces", []), use_llm=not args.no_llm)
     out_path.write_text(json.dumps(merge(existing, edition, last_races), ensure_ascii=False, indent=2) + "\n")
-    log(f"wrote {out_path} ({len(edition['items'])} items, edition {edition['id']}, "
+    log(f"wrote {out_path} ({len(edition['items'])} items + {len(edition.get('moreItems', []))} more, edition {edition['id']}, "
         f"{len(last_races)} last races)")
     return 0
 
