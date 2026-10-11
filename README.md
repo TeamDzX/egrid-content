@@ -95,15 +95,16 @@ to `live`. The action checks hourly, around the clock (the writer's server
 runs 24/7 since October 2026), and rebuilds only when something is due: the
 first build of the day, the three hours before a round with a known start
 time (so the preview carries the final running order), or a race that has
-just finished (its "Race Report" lands the same evening — four hours after a
-known start, otherwise once its series posts a podium or the date turns). A
-manual run always builds.
+just finished (its "Race Report" and the weekend edition update as soon as
+the official result is published; series without a results feed four hours
+after a known start, otherwise when the date turns). A manual run always
+builds.
 
 | Day | Edition | What it says |
 |---|---|---|
 | Monday, Tuesday | `recap` | What ran over the last seven days, with podiums for F1, MotoGP and Formula E. Tuesday re-runs it so a late Sunday-night result lands. |
 | Wednesday to Sunday | `preview` | Every round of every channel racing between now and Monday, refreshed daily. On Sunday it is today's running order. |
-| Saturday, Sunday, after the last race | `recap` titled "This weekend's results" | Replaces the preview the moment every round from Wednesday to Monday has finished: podiums, race facts and the championship standings straight after the race. A timed round counts as finished four hours after its start; a date-only one once its series publishes a podium (MotoGP, snooker), otherwise when the date turns. Carries `eyebrow: "THIS WEEKEND"` (2.7 / 1.7.0 show it; older apps say "LAST WEEK"). Monday's recap supersedes it. `--kind weekend` forces one. |
+| Saturday, Sunday | `preview` titled "Results from the weekend" once a result is in | The preview reaches back to Friday. As each official result arrives (F1 from Jolpica about an hour after the flag, MotoGP when its race session is marked finished, NASCAR when it names a winner, snooker when the final is won) that round gets its podium, race facts, the standings and a past-tense write-up, and the edition rebuilds; rounds still to run stay previews. Series without a results feed count as run four hours after a known start, otherwise when the date turns. It stays kind `preview`, so every app version labels it THIS WEEKEND. Monday's recap supersedes it. |
 
 The generator is `digest/build_digest.py`, run by the
 `.github/workflows/weekly-digest.yml` action. It reads the same sources the

@@ -23,9 +23,9 @@ on:
     # hours before a round with a known start, or a race just finished) and
     # stops there when nothing is. Off the hour (:23) because on-the-hour
     # slots queue longest. The script picks the edition: recap on Monday and
-    # Tuesday, preview Wednesday to Sunday, and on Saturday or Sunday the
-    # weekend's results as soon as the last race of the weekend has
-    # finished — which for a NASCAR night race is around midnight UK time.
+    # Tuesday, preview Wednesday to Sunday; at the weekend the preview
+    # turns into "Results from the weekend", rebuilt as each official
+    # result lands.
     - cron: "23 * * * *"
   workflow_dispatch:
     inputs:
@@ -33,7 +33,7 @@ on:
         description: "Edition to build"
         type: choice
         default: auto
-        options: [auto, preview, recap, weekend]
+        options: [auto, preview, recap]
       date:
         description: "Pretend today is (YYYY-MM-DD), for testing"
         required: false
