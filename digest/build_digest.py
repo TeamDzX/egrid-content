@@ -44,8 +44,15 @@ Without either, or if the call fails for any reason, a plain templated
 sentence is used instead. Either way the edition ships — a missing key
 downgrades the writing, never the data. Claude is told to use only the facts
 given, and the structured output is checked back against them: an item body
-naming a driver who is not in the supplied podium is discarded for the
-template. That is what keeps an LLM out of the results business.
+that names anyone from the results who is in neither the supplied podium nor
+the facts, or reads like a result where none was supplied, is discarded for
+the template. That is what keeps an LLM out of the results business.
+
+For a finished F1, MotoGP or snooker round the facts include its story,
+computed from the feeds: winning margin and grid slot, biggest climbers,
+retirements, safety cars, weather and tyres (OpenF1), lap records, the
+sprint, how the championship lead moved; for snooker the winner's route,
+the other semi-final and the fate of the defending champion and world No. 1.
 
 Usage:
     python3 digest/build_digest.py [--kind auto|preview|recap] [--date YYYY-MM-DD]
@@ -72,6 +79,7 @@ import copy
 import datetime as dt
 import json
 import os
+import re
 import sys
 import time
 import urllib.error
@@ -124,6 +132,12 @@ FORMULA_E_PATH = REPO_ROOT / "formula-e.json"
 # versions read that and have no snooker code), so read on its own.
 SNOOKER_PATH = REPO_ROOT / "snooker.json"
 MOTOGP = "https://api.motogp.pulselive.com/motogp/v1/results"
+OPENF1 = "https://api.openf1.org/v1"
+# The apps list an item's facts under the prose; the writer sees them all.
+FACTS_SHOWN = 6
+# Bump when the facts given to the writer change enough that every
+# last-race write-up deserves rewriting from them.
+FACTS_VERSION = 2
 
 # Channels whose calendar comes from a live API rather than channels.json.
 # Anything not listed here is read from the static `calendar` array.
@@ -169,6 +183,12 @@ class Round:
     sport: str = "motorsport"
     # Set in a weekend preview: the round's official result is in.
     over: bool = False
+    # Everyone in the results (drivers, riders, players), so a write-up that
+    # names anyone outside the podium and the facts can be caught.
+    field_names: list[str] = field(default_factory=list)
+    # A story fact already says how the championship moved, so the plain
+    # "X leads by N" line is not added as well.
+    has_title_line: bool = False
 
     @property
     def last_day(self) -> dt.date:
@@ -219,6 +239,17 @@ def get_json(url: str):
                 time.sleep(3)
                 continue
             raise
+
+
+_json_cache: dict[str, object] = {}
+
+
+def get_cached(url: str):
+    """get_json, remembered for the run: the podium and the race story read
+    the same results table."""
+    if url not in _json_cache:
+        _json_cache[url] = get_json(url)
+    return _json_cache[url]
 
 
 def safe(label: str, fn, default):
@@ -308,7 +339,7 @@ def f1_leaders() -> list[tuple[str, float]]:
 
 
 def f1_podium(round_number: int) -> list[PodiumEntry]:
-    data = get_json(f"{JOLPICA}/current/{round_number}/results.json")
+    data = get_cached(f"{JOLPICA}/current/{round_number}/results.json")
     races = data["MRData"]["RaceTable"].get("Races", [])
     if not races:
         return []
@@ -350,18 +381,26 @@ def motogp_rounds(channel: dict) -> list[Round]:
     return rounds
 
 
-def motogp_podium(event_id: str) -> list[PodiumEntry]:
-    categories = get_json(f"{MOTOGP}/categories?eventUuid={event_id}")
+def motogp_sessions(event_id: str) -> dict[str, dict]:
+    """The premier class's sessions of an event, by type (RAC, SPR, Q ...)."""
+    categories = get_cached(f"{MOTOGP}/categories?eventUuid={event_id}")
     premier = next((c for c in categories if "motogp" in (c.get("name") or "").lower()), None)
     if not premier:
-        return []
-    sessions = get_json(f"{MOTOGP}/sessions?eventUuid={event_id}&categoryUuid={premier['id']}")
-    race = next((s for s in sessions if (s.get("type") or "").upper() == "RAC"), None)
-    # A race still running has a live classification; only a finished one is
-    # a result.
-    if not race or (race.get("status") or "").upper() != "FINISHED":
-        return []
-    rows = get_json(f"{MOTOGP}/session/{race['id']}/classification").get("classification") or []
+        return {}
+    sessions = get_cached(f"{MOTOGP}/sessions?eventUuid={event_id}&categoryUuid={premier['id']}")
+    return {(s.get("type") or "").upper(): s for s in sessions}
+
+
+def motogp_classification(session: dict | None) -> dict:
+    """A session's classification, only once the session is finished: a race
+    still running has a live one, which is not a result."""
+    if not session or (session.get("status") or "").upper() != "FINISHED":
+        return {}
+    return get_cached(f"{MOTOGP}/session/{session['id']}/classification")
+
+
+def motogp_podium(event_id: str) -> list[PodiumEntry]:
+    rows = motogp_classification(motogp_sessions(event_id).get("RAC")).get("classification") or []
     podium = []
     for row in rows:
         position = row.get("position")
@@ -472,6 +511,7 @@ def enrich_nascar(r: Round, race: dict, finished: bool, time_only: bool = False)
                      key=lambda x: x["finishing_position"])
     r.podium = [PodiumEntry(x["finishing_position"], (x.get("driver_fullname") or "").strip(),
                             (x.get("team_name") or "").strip()) for x in results[:3]]
+    r.field_names = [(x.get("driver_fullname") or "").strip() for x in results if x.get("driver_fullname")]
     laps = weekend.get("actual_laps") or race.get("actual_laps")
     changes, leaders = weekend.get("number_of_lead_changes"), weekend.get("number_of_leaders")
     if laps and changes is not None and leaders:
@@ -556,7 +596,7 @@ def add_context(rounds: list[Round], circuits: list[dict], with_standings: bool,
     for r in rounds:
         if upcoming:
             r.facts[:0] = r.session_facts
-        if with_standings:
+        if with_standings and not r.has_title_line:
             line = title_fight(r.channel_id)
             if line:
                 r.facts.append(line)
@@ -592,6 +632,303 @@ def _fetch_podium(r: Round) -> list[PodiumEntry]:
     return r.podium
 
 
+# --------------------------------------------------------------------------- #
+# Race stories: how a finished round unfolded, worked out from the feeds
+# --------------------------------------------------------------------------- #
+#
+# The writer is given these as facts and told to tell the race from two or
+# three of them. Every line is computed here from published results; a
+# model never decides who climbed, retired or took the lead.
+
+
+def ordinal(n: int) -> str:
+    suffix = "th" if 10 <= n % 100 <= 20 else {1: "st", 2: "nd", 3: "rd"}.get(n % 10, "th")
+    return f"{n}{suffix}"
+
+
+def name_list_and(names: list[str]) -> str:
+    return names[0] if len(names) == 1 else ", ".join(names[:-1]) + f" and {names[-1]}"
+
+
+def gap_text(gap: str) -> str:
+    """"+7.335" -> "7.3 seconds"; "+1:21.666" -> "1 minute 21.7 seconds"."""
+    gap = gap.lstrip("+").strip()
+    try:
+        if ":" in gap:
+            minutes, seconds = gap.split(":")
+            return f"{int(minutes)} minute{'s' if int(minutes) != 1 else ''} {float(seconds):.1f} seconds"
+        return f"{float(gap):.1f} seconds"
+    except ValueError:
+        return gap
+
+
+def lap_time(text: str) -> str:
+    """"01:29.960" -> "1:29.960"."""
+    return text.lstrip("0") if text.startswith("0") and ":" in text else text
+
+
+def championship_move(before: list[tuple[str, float]], after: list[tuple[str, float]],
+                      when: str) -> str | None:
+    """How the top of the table moved: a new leader, or the lead growing or
+    shrinking. `before` and `after` are (name, points), leader first."""
+    if len(before) < 2 or len(after) < 2:
+        return None
+    (old_leader, a0), (_, b0) = before[0], before[1]
+    (leader, a1), (second, b1) = after[0], after[1]
+    if leader != old_leader:
+        return f"{leader} took the championship lead from {old_leader}, and now leads by {a1 - b1:g} points"
+    old_gap, gap = a0 - b0, a1 - b1
+    if old_gap == gap:
+        return None
+    return (f"{leader}'s championship lead over {second} went from {old_gap:g} to {gap:g} points "
+            f"{when}")
+
+
+def jolpica_standings(round_number: int) -> list[tuple[str, float]]:
+    data = get_cached(f"{JOLPICA}/current/{round_number}/driverStandings.json")
+    lists = data["MRData"]["StandingsTable"].get("StandingsLists", [])
+    rows = lists[0].get("DriverStandings", []) if lists else []
+    return [(f"{r['Driver'].get('givenName', '')} {r['Driver'].get('familyName', '')}".strip(),
+             float(r.get("points") or 0)) for r in rows[:2]]
+
+
+def f1_story(r: Round) -> None:
+    data = get_cached(f"{JOLPICA}/current/{r.round_number}/results.json")
+    races = data["MRData"]["RaceTable"].get("Races", [])
+    rows = races[0].get("Results", []) if races else []
+    if len(rows) < 2:
+        return
+
+    def full(row):
+        d = row.get("Driver", {})
+        return f"{d.get('givenName', '')} {d.get('familyName', '')}".strip()
+
+    r.field_names = [full(row) for row in rows]
+    winner, second = rows[0], rows[1]
+    grid = int(winner.get("grid") or 0)
+    start = "from pole" if grid == 1 else "from the pit lane" if grid == 0 else f"from {ordinal(grid)} on the grid"
+    margin = (second.get("Time") or {}).get("time")
+    r.facts.append(f"{full(winner)} won {start}"
+                   + (f", {gap_text(margin)} ahead of {full(second)}" if margin else ""))
+
+    climbers = []
+    for row in rows:
+        g, pos = int(row.get("grid") or 0), int(row.get("position") or 0)
+        if g > 0 and pos and g - pos >= 5 and row.get("positionText", "").isdigit():
+            climbers.append((g - pos, f"{full(row)} from {ordinal(g)} to {ordinal(pos)}"))
+    if climbers:
+        best = [text for _, text in sorted(climbers, key=lambda c: -c[0])[:2]]
+        r.facts.append(f"Biggest climber{'s' if len(best) > 1 else ''}: {name_list_and(best)}")
+
+    fastest = next((row for row in rows if (row.get("FastestLap") or {}).get("rank") == "1"), None)
+    if fastest:
+        time_text = ((fastest["FastestLap"].get("Time") or {}).get("time"))
+        r.facts.append(f"Fastest lap: {full(fastest)}" + (f", {time_text}" if time_text else ""))
+
+    out = []
+    for row in rows:
+        status = row.get("status") or ""
+        if status in ("Finished", "Lapped") or status.startswith("+"):
+            continue
+        out.append(full(row) + ("" if status in ("Retired", "") else f" ({status.lower()})"))
+    if out:
+        r.facts.append(f"Did not finish: {name_list_and(out)}")
+
+    if r.round_number and r.round_number > 1:
+        line = championship_move(jolpica_standings(r.round_number - 1), jolpica_standings(r.round_number),
+                                 "over the weekend")
+        if line:
+            r.facts.append(line)
+            r.has_title_line = True
+
+    safe(f"OpenF1 {r.name}", lambda: openf1_story(r, winner), None)
+
+
+def openf1_story(r: Round, winner: dict) -> None:
+    """Safety cars, red flags, rain and the winner's tyres. OpenF1 refuses
+    every request while any F1 session is live; a refusal just means fewer
+    facts this run."""
+    day = r.date.isoformat()
+    nxt = (r.date + dt.timedelta(days=1)).isoformat()
+    sessions = get_cached(f"{OPENF1}/sessions?session_name=Race&date_start>={day}&date_start<{nxt}")
+    if not sessions:
+        return
+    key = sessions[0]["session_key"]
+    neutralised: dict[str, list[int]] = {}
+    for message in get_cached(f"{OPENF1}/race_control?session_key={key}"):
+        text = (message.get("message") or "").upper()
+        lap = message.get("lap_number")
+        label = ("Red flag" if "RED FLAG" in text else
+                 "Virtual safety car" if text.startswith("VSC DEPLOYED") else
+                 "Safety car" if text.startswith("SAFETY CAR DEPLOYED") else None)
+        if label and lap and lap not in neutralised.setdefault(label, []):
+            neutralised[label].append(lap)
+    for label, laps in neutralised.items():
+        r.facts.append(f"{label} on lap{'s' if len(laps) > 1 else ''} {name_list_and([str(n) for n in laps])}")
+
+    weather = get_cached(f"{OPENF1}/weather?session_key={key}")
+    if weather:
+        if any(w.get("rainfall") for w in weather):
+            r.facts.append("Rain fell during the race")
+        else:
+            mid = weather[len(weather) // 2]
+            r.facts.append(f"Dry, {mid['air_temperature']:.0f}°C air and {mid['track_temperature']:.0f}°C track")
+
+    number = winner.get("number")
+    stints = [s for s in get_cached(f"{OPENF1}/stints?session_key={key}")
+              if str(s.get("driver_number")) == str(number)]
+    tyres = [s.get("compound", "").lower() for s in sorted(stints, key=lambda s: s.get("stint_number") or 0)
+             if s.get("compound")]
+    if tyres:
+        stops = len(tyres) - 1
+        family = (winner.get("Driver") or {}).get("familyName", "The winner")
+        r.facts.append(f"{family}'s tyres: {' then '.join(tyres)}"
+                       + (f", {stops} stop{'s' if stops != 1 else ''}" if stops else ", no stop"))
+
+
+def motogp_story(r: Round, today: dt.date) -> None:
+    sessions = motogp_sessions(r.external_id)
+    race = motogp_classification(sessions.get("RAC"))
+    rows = race.get("classification") or []
+    if len(rows) < 2:
+        return
+
+    def full(row):
+        return (row.get("rider") or {}).get("full_name", "")
+
+    r.field_names = [full(row) for row in rows]
+    finishers = sorted((row for row in rows if row.get("position")), key=lambda row: row["position"])
+    if len(finishers) >= 2:
+        gap = (finishers[1].get("gap") or {}).get("first")
+        r.facts.append(f"{full(finishers[0])} won by {gap_text(gap)} from {full(finishers[1])}" if gap
+                       else f"{full(finishers[0])} won from {full(finishers[1])}")
+
+    out = [full(row) for row in rows if not row.get("position")]
+    if out:
+        r.facts.append(f"Did not finish: {name_list_and(out)}")
+
+    for record in race.get("records") or []:
+        if record.get("type") == "fastestLap":
+            time_text = lap_time((record.get("bestLap") or {}).get("time") or "")
+            who = (record.get("rider") or {}).get("full_name", "")
+            if record.get("isNewRecord"):
+                r.facts.append(f"{who} set a new lap record, {time_text}")
+            elif who:
+                r.facts.append(f"Fastest lap: {who}, {time_text}")
+
+    condition = (sessions.get("RAC") or {}).get("condition") or {}
+    track = (condition.get("track") or "").lower()
+    air, ground = (condition.get("air") or "").strip("º"), (condition.get("ground") or "").strip("º")
+    if track and track != "dry":
+        r.facts.append(f"{track.capitalize()} track")
+    elif track and air and ground:
+        r.facts.append(f"Dry, {air}°C air and {ground}°C track")
+
+    sprint_rows = motogp_classification(sessions.get("SPR")).get("classification") or []
+    sprint_winner = next((row for row in sprint_rows if row.get("position") == 1), None)
+    if sprint_winner:
+        r.facts.append(f"Saturday's sprint was won by {full(sprint_winner)}")
+
+    # The standings feed is today's, so the before-and-after only holds
+    # while this is the last round scored: today's table minus this
+    # weekend's points. A back-to-back weekend's sprint can come six days
+    # later, so only up to the Thursday after.
+    if 0 <= (today - r.date).days <= 4:
+        after = motogp_table()
+        scored: dict[str, float] = {}
+        for row in rows + sprint_rows:
+            scored[full(row)] = scored.get(full(row), 0) + float(row.get("points") or 0)
+        before = sorted(((name, pts - scored.get(name, 0)) for name, pts in after), key=lambda x: -x[1])
+        line = championship_move(before[:2], after[:2], "this weekend")
+        if line:
+            r.facts.append(line)
+            r.has_title_line = True
+
+
+def motogp_table() -> list[tuple[str, float]]:
+    seasons = get_cached(f"{MOTOGP}/seasons")
+    current = next((s for s in seasons if s.get("current")), None) or max(seasons, key=lambda s: s.get("year", 0))
+    categories = get_cached(f"{MOTOGP}/categories?seasonUuid={current['id']}")
+    premier = next((c for c in categories if "motogp" in (c.get("name") or "").lower()), None)
+    if not premier:
+        return []
+    rows = get_cached(f"{MOTOGP}/standings?seasonUuid={current['id']}&categoryUuid={premier['id']}").get("classification") or []
+    return [((row.get("rider") or {}).get("full_name", ""), float(row.get("points") or 0)) for row in rows]
+
+
+def snooker_round_name(name: str) -> str:
+    """snooker.org's "Quarterfinals" -> "quarter-finals", "Round 2" -> "round 2"."""
+    return {"quarterfinals": "quarter-finals", "semifinals": "semi-finals",
+            "final": "final"}.get(name.lower(), name.lower())
+
+
+def snooker_story(r: Round, e: dict, rankings: list[dict]) -> None:
+    """A finished tournament: the winner's route, the other semi-final, what
+    became of the defending champion and the world No. 1, and how many
+    matches went the distance."""
+    matches = [m for m in e.get("matches") or [] if m.get("status") == "finished" and m.get("winner") in (1, 2)]
+    if not matches:
+        return
+    names = {x["round"]: snooker_round_name(x.get("name", "")) for x in e.get("rounds") or []}
+
+    def won_by(m):
+        return m["player1"] if m["winner"] == 1 else m["player2"]
+
+    def lost_by(m):
+        return m["player2"] if m["winner"] == 1 else m["player1"]
+
+    def score(m):
+        a, b = m.get("score1"), m.get("score2")
+        return f"{max(a, b)}-{min(a, b)}" if isinstance(a, int) and isinstance(b, int) else ""
+
+    r.field_names = sorted({m.get("player1") for m in matches} | {m.get("player2") for m in matches} - {None})
+    winner = e.get("winner")
+    route = sorted((m for m in matches if won_by(m) == winner and m.get("round") != 15), key=lambda m: m["round"])
+    if route:
+        steps = [f"{lost_by(m)} {score(m)}".strip() for m in route]
+        r.facts.append(f"{winner}'s route to the final: beat {name_list_and(steps)}")
+    other_semi = next((m for m in matches if m.get("round") == 14 and won_by(m) != winner), None)
+    if other_semi:
+        r.facts.append(f"Other semi-final: {won_by(other_semi)} beat {lost_by(other_semi)} {score(other_semi)}")
+
+    def fate(player: str, label: str) -> str | None:
+        if not player:
+            return None
+        if player == winner:
+            return f"{label} {player} won the title"
+        beaten = next((m for m in matches if lost_by(m) == player), None)
+        if beaten and beaten.get("round") != 15:
+            where = names.get(beaten["round"])
+            return f"{label} {player} lost to {won_by(beaten)} {score(beaten)}" + (f" in the {where}" if where else "")
+        return None
+
+    champion = e.get("defendingChampion")
+    line = fate(champion, "Defending champion")
+    if line:
+        r.facts.append(line.replace("won the title", "retained the title"))
+    top = (rankings or [{}])[0].get("name")
+    if top and top != champion:
+        line = fate(top, "World No. 1")
+        if line:
+            r.facts.append(line)
+
+    deciders = 0
+    for m in matches:
+        a, b, best_of = m.get("score1"), m.get("score2"), m.get("bestOf")
+        if isinstance(a, int) and isinstance(b, int) and best_of and max(a, b) == best_of // 2 + 1 and abs(a - b) == 1:
+            deciders += 1
+    if deciders:
+        r.facts.append(f"{deciders} of {len(matches)} matches went to a deciding frame")
+
+
+def add_story(r: Round, today: dt.date) -> None:
+    """Story facts for a finished round with a results feed."""
+    if r.channel_id == "f1" and r.round_number:
+        safe(f"F1 story {r.name}", lambda: f1_story(r), None)
+    elif r.channel_id == "motogp" and r.external_id:
+        safe(f"MotoGP story {r.name}", lambda: motogp_story(r, today), None)
+
+
 def snooker_rounds() -> list[Round]:
     """The season's main snooker tournaments from snooker.json, each spanning
     its days. A finished one carries winner and runner-up as its podium."""
@@ -621,6 +958,8 @@ def snooker_rounds() -> list[Round]:
                 r.podium.append(PodiumEntry(2, e["runnerUp"]))
             if e.get("finalScore"):
                 r.facts.append(f"Final score {e['finalScore']}")
+            safe(f"snooker story {r.name}",
+                 lambda: snooker_story(r, e, (data.get("rankings") or {}).get("rows") or []), None)
         rounds.append(r)
     return rounds
 
@@ -687,6 +1026,8 @@ def finish_rounds(rounds: list[Round], finished: bool, now: dt.datetime) -> None
     if finished:
         for r in rounds:
             r.podium = fetch_podium(r)
+            if r.podium:
+                add_story(r, now.date())
 
 
 # --------------------------------------------------------------------------- #
@@ -828,7 +1169,8 @@ Hard rules:
 Write:
 - intro: at most 55 words setting up the week. It may count rounds and name series.
 - items: for every fact index, two or three sentences of at most 60 words about that round. For a recap with a podium, state the winner and the other two podium finishers with their teams where given. For a preview, say where and when it runs, in the local-day form given, and add the UTC start only when supplied.
-- Where a round carries "facts", use one or two of them to give the reader something more than the date: what is at stake in the championship, a session to watch, the character of the venue, how the race unfolded. Restate them faithfully; do not draw conclusions they do not support.
+- Where a round carries "facts", use one or two of them to give the reader something more than the date: what is at stake in the championship, a session to watch, the character of the venue. Restate them faithfully; do not draw conclusions they do not support.
+- A finished round may carry several facts about how it unfolded: the winning margin, where the winner started, the biggest climbers, who did not finish, safety cars, the weather, tyres, a lap record, how the championship lead moved (for snooker: the winner's route, the other semi-final, what became of the defending champion). For such a round write three or four sentences, at most 90 words: lead with the result, then tell the race through the two or three most telling facts. Never list them all, and never name anyone who is not in the podium or the facts.
 - An edition called "lastRaces" covers each series' most recent round, whenever it ran: write about it in the past tense.
 - An edition called "results" is this weekend, part run: a round with "status": "finished" is a recap (past tense, the result from its podium); a round with "status": "upcoming" is still a preview and must not read like a result. The intro leads with what has been decided so far and says what is still to come.
 - A round with "sport": "snooker" is a tournament played over several days (from "date" to "lastDay"), not a race: no laps, grids, drivers or teams. Its podium is the winner (position 1) and the runner-up (position 2); in a recap say who won the final and whom they beat, with the final score when a fact gives it."""
@@ -884,6 +1226,10 @@ def apply_copy(data: dict, rounds: list[Round], kind: str, start: dt.date, end: 
             continue
         if kind == "preview" and looks_like_a_result(body, PREVIEW_RESULT_WORDS):
             log(f"  dropped {writer} copy for {r.name}: a preview that reads like a result")
+            continue
+        stranger = unsupported_name(body, r)
+        if stranger:
+            log(f"  dropped {writer} copy for {r.name}: names {stranger}, who is in neither the podium nor the facts")
             continue
         bodies[index] = body
     intro = str(data.get("intro") or "").strip() or template_intro(rounds, edition, start, end)
@@ -1028,6 +1374,25 @@ RESULT_WORDS = ("won", "win", "victory", "podium", "finished", "second", "third"
 PREVIEW_RESULT_WORDS = ("won ", "winner", "victory", "podium", "finished")
 
 
+def unsupported_name(text: str, r: Round) -> str | None:
+    """Someone from the round's results whom the copy names although the
+    podium and facts it was given do not: the writer reaching past its
+    facts. Motorsport names are matched by surname too ("Russell"); a
+    surname shared with someone supported (the Marquez brothers) is let
+    through. Snooker names, family name first, only in full."""
+    supported = [p.name for p in r.podium] + [n for n in r.field_names if any(n in f for f in r.facts)]
+    surnames = {n.split()[-1] for n in supported if n}
+    for name in r.field_names:
+        if not name or name in supported:
+            continue
+        patterns = [name]
+        if r.sport == "motorsport" and name.split()[-1] not in surnames and len(name.split()[-1]) > 2:
+            patterns.append(name.split()[-1])
+        if any(re.search(rf"\b{re.escape(pattern)}\b", text) for pattern in patterns):
+            return name
+    return None
+
+
 def looks_like_a_result(text: str, words=RESULT_WORDS) -> bool:
     lowered = text.lower()
     return any(word in lowered for word in words)
@@ -1046,7 +1411,7 @@ def item_json(r: Round, body: str) -> dict:
     if r.round_number:
         item["round"] = r.round_number
     if r.facts:
-        item["facts"] = r.facts
+        item["facts"] = r.facts[:FACTS_SHOWN]
     if r.podium:
         item["podium"] = [asdict(p) for p in r.podium]
     return item
@@ -1151,8 +1516,13 @@ def build_last_races(now: dt.datetime, season: list[Round], circuits: list[dict]
 
     old = {lastrace_key(i): i for i in previous}
     items = [item_json(r, template_body(r, "lastRaces")) for r in rounds]
+    for item in items:
+        item["factsVersion"] = FACTS_VERSION
+    # Re-written when new, when only the template had it, or when it was
+    # written from an older set of facts.
     stale = [index for index, item in enumerate(items)
-             if (old.get(lastrace_key(item)) or {}).get("writer") in (None, "template")]
+             if (old.get(lastrace_key(item)) or {}).get("writer") in (None, "template")
+             or (old.get(lastrace_key(item)) or {}).get("factsVersion") != FACTS_VERSION]
     for index, item in enumerate(items):
         kept = old.get(lastrace_key(item))
         if kept and index not in stale:
