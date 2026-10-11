@@ -184,7 +184,7 @@ def ask_own_server(spec: dict, source: str) -> str | None:
                 "series": spec["series"], "supplier": spec["name"], "season": SEASON,
                 "source": source}, ensure_ascii=False)},
         ],
-        "temperature": 0.3, "max_tokens": 1500, "response_format": {"type": "json_object"},
+        "temperature": 0.3, "max_tokens": 6000, "response_format": {"type": "json_object"},
     }
     if os.environ.get("EGRID_LLM_MODEL", "").strip():
         payload["model"] = os.environ["EGRID_LLM_MODEL"].strip()
@@ -193,14 +193,24 @@ def ask_own_server(spec: dict, source: str) -> str | None:
         try:
             with urllib.request.urlopen(request, timeout=300) as response:
                 reply = json.load(response)
-            data = parse_json_reply(reply["choices"][0]["message"]["content"] or "")
+            content = reply["choices"][0]["message"]["content"] or ""
+            data = parse_json_reply(content)
         except (urllib.error.URLError, TimeoutError, OSError, KeyError, IndexError, TypeError,
                 json.JSONDecodeError) as error:
             log(f"  own server: {type(error).__name__}: {error}")
             return None
         if data and isinstance(data.get("summary"), str):
             return data["summary"].strip()
-        log(f"  own server returned no summary (attempt {attempt})")
+        # Some models name the key differently or split the paragraphs.
+        if data:
+            texts = [v for v in data.values() if isinstance(v, str) and len(v) > 80]
+            lists = [v for v in data.values() if isinstance(v, list) and all(isinstance(x, str) for x in v)]
+            if texts:
+                return texts[0].strip()
+            if lists and lists[0]:
+                return "\n\n".join(x.strip() for x in lists[0])
+        finish = (reply.get("choices") or [{}])[0].get("finish_reason")
+        log(f"  own server returned no summary (attempt {attempt}, finish {finish}): {content[:160]!r}")
     return None
 
 
