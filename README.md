@@ -114,7 +114,11 @@ app doesn't know about.
 
 NASCAR's own public results feed (`cf.nascar.com/cacher`) is matched to the
 static calendar by date and adds start times, US broadcasters, the podium and
-the race's shape (lead changes, cautions, laps led). Every round also carries
+the race's story: where the winner started, stage winners, the margin, how the
+Chase lead moved (2026's title format: the top 16 race the last ten rounds on
+points, so the feed's playoff points are always zero) from the race's own
+`live_points.json`, lead changes, cautions, retirements and pre-race penalties.
+Every round also carries
 a few `facts` lines — qualifying and sprint times, the title fight for F1,
 MotoGP and Formula E, the venue from `circuits.json` — which the apps show
 under the prose and the writer is given to work from. They are always read
@@ -569,3 +573,29 @@ written from the full classification — which the channel page shows under
 Never edit it by hand; never bundle it. The apps match entries the way they
 match `machines.json`: `channelID` plus `matchKeys` against the live name.
 
+
+---
+
+## `tyres.json` — tyre suppliers (generated)
+
+Written on the 1st of every month by `tyres/build_tyres.py` (the "Tyre
+suppliers" Action; run it by hand after editing the script). One entry per
+series in `SUPPLIERS` (F1 Pirelli, MotoGP Michelin, NASCAR Goodyear, IndyCar
+Firestone): name, product, a two-paragraph summary, fact rows, F1's compounds
+with their official colours, a Commons photo mirrored to `images/tyres/` and
+the Wikipedia article it came from. The apps show it as "Tyres: <name>" on
+every race page of that series.
+
+All of it is grounded in the Wikipedia paragraphs about the series' tyres,
+re-read every run: a configured fact is kept only if its numbers and words are
+in that text, and the summary (`EGRID_LLM_*`, else a templated line) is
+dropped if it carries a number the text does not. Formula E is left out on
+purpose: Hankook's contract ran to 2025–26 and the Gen4 supplier for 2026–27
+should be confirmed before an entry is added.
+
+## `videos.json` — `externalVideos`
+
+A source in `videos/sources.json` may name an `external` channel: the series'
+own race edits from a channel that refuses embedding (Formula 1). They are
+written as `externalVideos` beside `videos`; a finished race's page lists the
+ones about that race under "Highlights" and opens them in YouTube.

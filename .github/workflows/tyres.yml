@@ -1,0 +1,72 @@
+name: Tyre suppliers
+
+# Rebuilds tyres.json (the "Tyres: <supplier>" section on a race page) on the
+# first of every month and publishes it straight to `live`, like the team
+# reviews. Wikipedia is re-read each time, so a fact it stops supporting
+# drops out; the summary comes from your own server (EGRID_LLM_*), and
+# without it the file still ships with a templated line.
+#
+# Shares the concurrency group with every other job that pushes to `live`.
+
+on:
+  schedule:
+    - cron: "10 8 1 * *"
+  workflow_dispatch:
+    inputs:
+      channel:
+        description: "Limit to one series (blank = all)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: egrid-live-push
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out live
+        uses: actions/checkout@v4
+        with:
+          ref: live
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install Pillow
+        run: python -m pip install --quiet pillow
+      - name: Build the supplier notes
+        env:
+          EGRID_LLM_URL: ${{ secrets.EGRID_LLM_URL }}
+          EGRID_LLM_TOKEN: ${{ secrets.EGRID_LLM_TOKEN }}
+          EGRID_LLM_MODEL: ${{ secrets.EGRID_LLM_MODEL }}
+        run: |
+          set -euo pipefail
+          CHANNEL="${{ github.event.inputs.channel || '' }}"
+          if [ -n "$CHANNEL" ]; then
+            python3 tyres/build_tyres.py --channel "$CHANNEL"
+          else
+            python3 tyres/build_tyres.py
+          fi
+          python3 -m json.tool tyres.json > /dev/null
+      - name: Publish to live, then fold into main
+        run: |
+          set -euo pipefail
+          git config user.name "egrid-digest[bot]"
+          git config user.email "egrid-digest@users.noreply.github.com"
+          git add tyres.json images/tyres
+          if git diff --cached --quiet; then
+            echo "tyres.json unchanged; nothing to publish"
+            exit 0
+          fi
+          git commit -m "Tyre suppliers: $(python3 -c "import json;print(json.load(open('tyres.json'))['generatedAt'])")"
+          git push origin HEAD:live
+          git fetch origin main
+          git checkout -B main origin/main
+          git merge --no-edit -X theirs live
+          git push origin main

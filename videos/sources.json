@@ -28,7 +28,11 @@
     "'keep' raises the per-channel cap for a multi-feed source (default: the --limit), and 'perFeed'",
     "reserves that many newest videos for every feed before the rest fill by date, so each team page",
     "finds its own team's videos in the channel feed. Feed-level 'titleMatch' and 'minSeconds' override",
-    "the source's, for brand channels that mix racing with road cars (Ferrari, Alpine, the MotoGP makes)."
+    "the source's, for brand channels that mix racing with road cars (Ferrari, Alpine, the MotoGP makes).",
+    "",
+    "'external' names a channel whose race edits a finished race's page lists but opens in YouTube instead of",
+    "playing in place: for a series whose own channel refuses embedding (Formula 1). 'titleMatch' keeps it to",
+    "race edits; 'want' caps it. Written to videos.json as 'externalVideos'; needs the API key."
   ],
   "sources": [
     {
@@ -36,7 +40,13 @@
       "enabled": true,
       "label": "F1 Video",
       "credit": "the F1 teams and the FIA",
-      "note": "Formula 1's own channel refuses to be embedded — error 150 on every video tried, including its F2 and F3 reels, and the Data API reports all of them as embeddable, so it is only visible by playing one. There is therefore no way to show F1 race highlights at all. These four official channels are the honest substitute: all verified embeddable and, unlike Sky, unrestricted worldwide. The section is labelled 'F1 Video' rather than 'Highlights' because that is what it is. A 5-minute floor (minSeconds) keeps the section to features, onboards and podcasts; without it the teams' social clips — paddock cooking, birthday messages — dominate it. Every team channel below was embed-tested on 19 Sep 2026 (a video played to state 1 in the IFrame player; the FORMULA 1 control gave error 150 in the same harness). Ferrari and Alpine have no separate F1 channel, so their brand channels are narrowed by titleMatch.",
+      "external": {
+        "channelId": "UCB_qr75-ydFVKSF9Dmo6izg",
+        "sourceName": "FORMULA 1",
+        "titleMatch": "^(Race|Qualifying|Sprint) Highlights \\| 20\\d\\d ",
+        "want": 24
+      },
+      "note": "Formula 1's own channel refuses to be embedded — error 150 on every video tried, including its F2 and F3 reels, and the Data API reports all of them as embeddable, so it is only visible by playing one. There is therefore no way to play F1 race highlights in the app; the race edits are listed under `external` and open in YouTube. These four official channels are the honest substitute: all verified embeddable and, unlike Sky, unrestricted worldwide. The section is labelled 'F1 Video' rather than 'Highlights' because that is what it is. A 5-minute floor (minSeconds) keeps the section to features, onboards and podcasts; without it the teams' social clips — paddock cooking, birthday messages — dominate it. Every team channel below was embed-tested on 19 Sep 2026 (a video played to state 1 in the IFrame player; the FORMULA 1 control gave error 150 in the same harness). Ferrari and Alpine have no separate F1 channel, so their brand channels are narrowed by titleMatch.",
       "feeds": [
         {
           "channelId": "UC7_VGkwCoKfqh1eZEkzey3A",

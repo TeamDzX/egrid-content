@@ -137,7 +137,7 @@ OPENF1 = "https://api.openf1.org/v1"
 FACTS_SHOWN = 6
 # Bump when the facts given to the writer change enough that every
 # last-race write-up deserves rewriting from them.
-FACTS_VERSION = 3
+FACTS_VERSION = 4
 
 # Channels whose calendar comes from a live API rather than channels.json.
 # Anything not listed here is read from the static `calendar` array.
@@ -512,19 +512,106 @@ def enrich_nascar(r: Round, race: dict, finished: bool, time_only: bool = False)
     r.podium = [PodiumEntry(x["finishing_position"], (x.get("driver_fullname") or "").strip(),
                             (x.get("team_name") or "").strip()) for x in results[:3]]
     r.field_names = [(x.get("driver_fullname") or "").strip() for x in results if x.get("driver_fullname")]
+    nascar_story(r, race, weekend, results)
+
+
+def nascar_story(r: Round, race: dict, weekend: dict, results: list[dict]) -> None:
+    """The race's shape from NASCAR's weekend feed, most telling first: how
+    the winner got there, the stages, the margin, the Chase, then the race's
+    texture (lead changes, cautions, retirements, penalties)."""
+    def name(x: dict) -> str:
+        return (x.get("driver_fullname") or "").strip()
+
     laps = weekend.get("actual_laps") or race.get("actual_laps")
+    winner = results[0] if results else {}
+    led = max(results, key=lambda x: x.get("laps_led") or 0, default=None)
+    start = winner.get("starting_position")
+    if winner and start:
+        line = f"{name(winner)} won from {ordinal(start)} on the grid"
+        if led is winner and winner.get("laps_led") and laps:
+            line += f" and led {winner['laps_led']} of {laps} laps"
+        r.facts.append(line)
+    if led and led.get("laps_led") and led is not winner:
+        r.facts.append(f"Most laps led: {name(led)} ({led['laps_led']})")
+
+    stages = [(s.get("stage_number"), name((s.get("results") or [{}])[0]))
+              for s in sorted(weekend.get("stage_results") or [], key=lambda s: s.get("stage_number") or 0)
+              if s.get("results")]
+    stages = [(n, who) for n, who in stages if n and who]
+    if stages:
+        winners = {who for _, who in stages}
+        if len(stages) > 1 and len(winners) == 1:
+            r.facts.append(f"{stages[0][1]} swept stages {name_list_and([str(n) for n, _ in stages])}")
+        else:
+            r.facts.append("Stage winners: " + ", ".join(f"Stage {n} {who}" for n, who in stages))
+
+    margin = (weekend.get("margin_of_victory") or "").strip()
+    if margin and margin[0] in ".0123456789":
+        r.facts.append(f"Margin of victory: {('0' + margin) if margin.startswith('.') else margin} s")
+
+    safe(f"NASCAR Chase {r.name}", lambda: nascar_chase(r, race, winner), None)
+
     changes, leaders = weekend.get("number_of_lead_changes"), weekend.get("number_of_leaders")
     if laps and changes is not None and leaders:
         r.facts.append(f"{laps} laps, {changes} lead changes among {leaders} drivers")
     cautions = weekend.get("number_of_cautions")
     if cautions is not None:
         r.facts.append(f"{cautions} caution{'s' if cautions != 1 else ''} for {weekend.get('number_of_caution_laps') or 0} laps")
-    led = max(results, key=lambda x: x.get("laps_led") or 0, default=None)
-    if led and led.get("laps_led"):
-        r.facts.append(f"Most laps led: {led['driver_fullname'].strip()} ({led['laps_led']})")
-    margin = (weekend.get("margin_of_victory") or "").strip()
-    if margin and margin[0] in ".0123456789":
-        r.facts.append(f"Margin of victory: {('0' + margin) if margin.startswith('.') else margin} s")
+
+    out = [f"{name(x)} ({x['finishing_status'].lower()})" for x in results
+           if (x.get("finishing_status") or "Running") != "Running" and name(x)]
+    if out:
+        r.facts.append(f"Did not finish: {name_list_and(out[:4])}" + (f" and {len(out) - 4} more" if len(out) > 4 else ""))
+
+    # "dropped to the rear of the field under penalty: No. 21 (Backup car) and No. 4 (...)"
+    comments = weekend.get("race_comments") or ""
+    if "to the rear" in comments:
+        by_car = {str(x.get("car_number")): name(x) for x in results}
+        dropped = [f"{by_car[car]} ({why.strip().lower()})"
+                   for car, why in re.findall(r"No\. (\d+) \(([^)]+)\)", comments.split("to the rear", 1)[1])
+                   if by_car.get(car)]
+        if dropped:
+            r.facts.append(f"Started from the rear under penalty: {name_list_and(dropped)}")
+
+
+def nascar_chase(r: Round, race: dict, winner: dict) -> None:
+    """The Chase (NASCAR's 2026 title format: the top 16 race the last ten
+    rounds on points, no eliminations, no playoff points): how its lead moved
+    and how many races are left. Standings after this race come from the
+    race's own points feed; before = after minus this race's points."""
+    if not race.get("playoff_round"):
+        return
+    rows = get_json(f"https://cf.nascar.com/live/feeds/series_1/{race['race_id']}/live_points.json")
+    chase = [x for x in rows or [] if x.get("is_in_chase")]
+    if len(chase) < 2:
+        return
+
+    def full(x: dict) -> str:
+        return re.sub(r"\s*\([A-Z]\)$", "", f"{x.get('first_name', '')} {x.get('last_name', '')}".strip())
+
+    # The feed is keyed by race; make sure it really is this race's table.
+    if winner and not any(x.get("driver_id") == winner.get("driver_id")
+                          and x.get("points_earned_this_race") == winner.get("points_earned") for x in rows):
+        log(f"  NASCAR Chase {r.name}: points feed does not match the result, skipped")
+        return
+    after = sorted(((full(x), float(x.get("points") or 0)) for x in chase), key=lambda t: -t[1])
+    before = sorted(((full(x), float((x.get("points") or 0) - (x.get("points_earned_this_race") or 0)))
+                     for x in chase), key=lambda t: -t[1])
+    races = [x for x in nascar_feed() if x.get("playoff_round") and x.get("race_type_id") == 1]
+    left = sum(1 for x in races if (x.get("race_date") or "") > (race.get("race_date") or ""))
+    line = championship_move(before[:2], after[:2], "this weekend", title="Chase")
+    (leader, a), (second, b) = after[0], after[1]
+    to_go = f"{left} race{'s' if left != 1 else ''} to go" if left else "the title decided"
+    if line:
+        r.facts.append(f"{line}, with {to_go}")
+    else:
+        r.facts.append(f"{leader} leads the Chase by {a - b:g} points from {second}, with {to_go}")
+    r.has_title_line = True
+    who = (winner.get("driver_fullname") or "").strip()
+    was = next((i for i, (n, _) in enumerate(before, 1) if n == who), None)
+    now_at = next((i for i, (n, _) in enumerate(after, 1) if n == who), None)
+    if was and now_at and now_at < was:
+        r.facts.append(f"The win lifted {who} from {ordinal(was)} to {ordinal(now_at)} in the Chase")
 
 
 def normalise(text: str) -> str:
@@ -668,7 +755,7 @@ def lap_time(text: str) -> str:
 
 
 def championship_move(before: list[tuple[str, float]], after: list[tuple[str, float]],
-                      when: str) -> str | None:
+                      when: str, title: str = "championship") -> str | None:
     """How the top of the table moved: a new leader, or the lead growing or
     shrinking. `before` and `after` are (name, points), leader first."""
     if len(before) < 2 or len(after) < 2:
@@ -676,11 +763,11 @@ def championship_move(before: list[tuple[str, float]], after: list[tuple[str, fl
     (old_leader, a0), (_, b0) = before[0], before[1]
     (leader, a1), (second, b1) = after[0], after[1]
     if leader != old_leader:
-        return f"{leader} took the championship lead from {old_leader}, and now leads by {a1 - b1:g} points"
+        return f"{leader} took the {title} lead from {old_leader}, and now leads by {a1 - b1:g} points"
     old_gap, gap = a0 - b0, a1 - b1
     if old_gap == gap:
         return None
-    return (f"{leader}'s championship lead over {second} went from {old_gap:g} to {gap:g} points "
+    return (f"{leader}'s {title} lead over {second} went from {old_gap:g} to {gap:g} points "
             f"{when}")
 
 

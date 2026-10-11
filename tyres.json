@@ -1,0 +1,162 @@
+{
+ "version": 1,
+ "generatedAt": "2026-10-11T22:05:43Z",
+ "_comment": "Tyre supplier per series, for the race page. Written by tyres/build_tyres.py.",
+ "suppliers": [
+  {
+   "channelID": "f1",
+   "season": 2026,
+   "name": "Pirelli",
+   "product": "P Zero",
+   "summary": "Pirelli supplies the tyres for Formula 1, and has done since 2011.",
+   "facts": [
+    {
+     "label": "Sole supplier since",
+     "value": "2011"
+    },
+    {
+     "label": "Slick range",
+     "value": "C1 to C5, hardest to softest"
+    },
+    {
+     "label": "Per race",
+     "value": "Three slick compounds nominated as hard, medium and soft"
+    },
+    {
+     "label": "Wet weather",
+     "value": "Intermediate (green) and full wet (blue)"
+    },
+    {
+     "label": "2026 slick sizes",
+     "value": "280/705 R18 front, 375/710 R18 rear"
+    }
+   ],
+   "compounds": [
+    {
+     "name": "Soft",
+     "colour": "#DA291C"
+    },
+    {
+     "name": "Medium",
+     "colour": "#FFD12E"
+    },
+    {
+     "name": "Hard",
+     "colour": "#F0F0EC"
+    },
+    {
+     "name": "Intermediate",
+     "colour": "#43B02A"
+    },
+    {
+     "name": "Wet",
+     "colour": "#0067AD"
+    }
+   ],
+   "photo": {
+    "url": "images/tyres/f1.jpg",
+    "credit": "Hullian111",
+    "licence": "CC BY-SA 4.0",
+    "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Pirelli_Tyre_Sets_at_Formula_1_Exhibition,_London_03.jpg",
+    "caption": "Pirelli slicks, intermediates and full wets"
+   },
+   "sourceURL": "https://en.wikipedia.org/wiki/Formula_One_tyres",
+   "writer": "template"
+  },
+  {
+   "channelID": "motogp",
+   "season": 2026,
+   "name": "Michelin",
+   "summary": "Michelin supplies the tyres for MotoGP, and has done since 2016.",
+   "facts": [
+    {
+     "label": "Sole supplier since",
+     "value": "2016"
+    },
+    {
+     "label": "Before that",
+     "value": "Bridgestone, 2009 to 2015"
+    },
+    {
+     "label": "Moto2 and Moto3",
+     "value": "Pirelli since 2024"
+    }
+   ],
+   "compounds": [],
+   "photo": {
+    "url": "images/tyres/motogp.jpg",
+    "credit": "Alberto-g-rovi",
+    "licence": "CC BY 3.0",
+    "licenceURL": "https://creativecommons.org/licenses/by/3.0",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Suzuki_GSX-RR_MotoGP-2015.JPG",
+    "caption": "A MotoGP bike on the grid with its tyres in warmers"
+   },
+   "sourceURL": "https://en.wikipedia.org/wiki/Michelin",
+   "writer": "template"
+  },
+  {
+   "channelID": "nascar",
+   "season": 2026,
+   "name": "Goodyear",
+   "summary": "Goodyear supplies the tyres for the NASCAR Cup Series, and has done since 1954.",
+   "facts": [
+    {
+     "label": "Supplier since",
+     "value": "1954"
+    },
+    {
+     "label": "Sole supplier since",
+     "value": "1975"
+    },
+    {
+     "label": "Exclusive across",
+     "value": "Cup, O'Reilly and Truck since 1997"
+    }
+   ],
+   "compounds": [],
+   "photo": {
+    "url": "images/tyres/nascar.jpg",
+    "credit": "Broadbandito from Sammamish, USA",
+    "licence": "CC BY 2.0",
+    "licenceURL": "https://creativecommons.org/licenses/by/2.0",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:NASCAR_Goodyear_Eagles_(7160044492).jpg",
+    "caption": "Goodyear Eagle tyres in the pit lane"
+   },
+   "sourceURL": "https://en.wikipedia.org/wiki/Goodyear_Tire_and_Rubber_Company",
+   "writer": "template"
+  },
+  {
+   "channelID": "indycar",
+   "season": 2026,
+   "name": "Firestone",
+   "product": "Firehawk",
+   "summary": "Firestone supplies the tyres for IndyCar, and has done since 1996.",
+   "facts": [
+    {
+     "label": "Supplier since",
+     "value": "1996"
+    },
+    {
+     "label": "Sole supplier since",
+     "value": "2000"
+    },
+    {
+     "label": "Sizes",
+     "value": "305/45-R15 front, 415/40-R15 rear"
+    }
+   ],
+   "compounds": [],
+   "photo": {
+    "url": "images/tyres/indycar.jpg",
+    "credit": "Morio",
+    "licence": "CC BY-SA 3.0",
+    "licenceURL": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Firestone_tires_2011_Indy_Japan_300.jpg",
+    "caption": "Firestone Firehawk tyres, alternates with red sidewalls"
+   },
+   "sourceURL": "https://en.wikipedia.org/wiki/IndyCar_Series",
+   "writer": "template"
+  }
+ ]
+}

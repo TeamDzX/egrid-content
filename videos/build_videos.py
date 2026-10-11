@@ -124,6 +124,10 @@ class ChannelVideos:
     source: str                          # who is publishing, for the credit line
     sourceURL: str | None
     videos: list[Video] = field(default_factory=list)
+    # The series' own race edits from a channel that refuses embedding (the
+    # Formula 1 channel answers error 150). The apps never play these in
+    # place: a race page lists the ones about that race and opens YouTube.
+    externalVideos: list[Video] = field(default_factory=list)
 
 
 # --------------------------------------------------------------------------- #
@@ -270,7 +274,7 @@ def video_details(video_ids: list[str], key: str) -> list[dict]:
     return items
 
 
-def collect_with_key(source: dict, key: str, want: int) -> list[Video]:
+def collect_with_key(source: dict, key: str, want: int, embed: bool = True) -> list[Video]:
     playlist = source.get("playlist") or uploads_playlist(source["channelId"])
     pattern = re.compile(source["titleMatch"], re.I) if source.get("titleMatch") else None
     ids = playlist_candidates(playlist, key, pattern, want)
@@ -288,7 +292,7 @@ def collect_with_key(source: dict, key: str, want: int) -> list[Video]:
         # video as embeddable and then answers error 150 when one is played.
         # Nothing in the API exposes that, so it is recorded per source in
         # sources.json instead, and the app shows a message if one slips past.
-        if status.get("embeddable") is False:
+        if embed and status.get("embeddable") is False:
             log(f"    - not embeddable: {title[:60]}")
             continue
         if snippet.get("liveBroadcastContent", "none") != "none":
@@ -453,6 +457,17 @@ def build(sources: list[dict], key: str | None, want: int) -> list[ChannelVideos
             continue
         log(f"    -> {len(videos)} kept, newest {videos[0].title[:48]!r}")
 
+        # Link-out race edits (`external`): opened in YouTube, so whether the
+        # channel allows embedding does not matter. Needs the API: the keyless
+        # RSS feed carries only the newest fifteen uploads, too few to reach
+        # back past the weekend's practice clips.
+        external: list[Video] = []
+        if source.get("external") and key:
+            ext = source["external"]
+            external = safe(f"{channel_id}/external", lambda: collect_with_key(
+                {"minSeconds": 60, **ext}, key, int(ext.get("want", 24)), embed=False), [])
+            log(f"    external {ext.get('sourceName', ext['channelId'])}: {len(external)}")
+
         single = feeds[0] if len(feeds) == 1 else None
         out.append(ChannelVideos(
             channelID=channel_id,
@@ -462,6 +477,7 @@ def build(sources: list[dict], key: str | None, want: int) -> list[ChannelVideos
             # several there is no single "source channel" to send anyone to.
             sourceURL=f"https://www.youtube.com/channel/{single['channelId']}" if single else None,
             videos=videos,
+            externalVideos=external,
         ))
     return out
 
