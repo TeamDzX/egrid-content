@@ -126,7 +126,14 @@ jobs:
           EDITION=$(python3 -c "import json;print(json.load(open('digest.json'))['editions'][0]['id'])")
           git add digest.json
           git commit -m "Digest: $EDITION"
-          git push origin HEAD:live
+          # Another job (or a hand promotion) may have moved live since checkout:
+          # replay this commit on top and try again rather than failing.
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:live; then break; fi
+            [ "$attempt" = 5 ] && exit 1
+            sleep $((attempt * 15))
+            git pull --rebase origin live
+          done
 
           # Keep main a superset of live so the manual promotion (a
           # fast-forward of live onto main) never refuses. Any conflict can

@@ -69,7 +69,14 @@ jobs:
           fi
           git add teams.json
           git commit -m "Team reviews: $(python3 -c "import json;print(json.load(open('teams.json'))['generatedAt'])")"
-          git push origin HEAD:live
+          # Another job (or a hand promotion) may have moved live since checkout:
+          # replay this commit on top and try again rather than failing.
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:live; then break; fi
+            [ "$attempt" = 5 ] && exit 1
+            sleep $((attempt * 15))
+            git pull --rebase origin live
+          done
           git fetch origin main
           git checkout -B main origin/main
           git merge --no-edit -X theirs live
