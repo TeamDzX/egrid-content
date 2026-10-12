@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-11T22:18:57Z",
+  "generatedAt": "2026-10-12T16:45:54Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,28 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "uJAur_OKoLs",
+          "title": "Unboxed: Singapore Marketing Day | McLaren Racing",
+          "publishedAt": "2026-10-12T15:00:39Z",
+          "duration": "14:45",
+          "seconds": 885,
+          "thumbnail": "https://i.ytimg.com/vi/uJAur_OKoLs/maxresdefault.jpg",
+          "source": "McLaren",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "7QBFk9ZcQWY",
+          "title": "BACK-TO-BACK VICTORIES! | Talking Bull Singapore GP Review",
+          "publishedAt": "2026-10-12T12:45:00Z",
+          "duration": "24:12",
+          "seconds": 1452,
+          "thumbnail": "https://i.ytimg.com/vi/7QBFk9ZcQWY/maxresdefault.jpg",
+          "source": "Red Bull Racing",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "-V6jJDssWEI",
           "title": "F1 Drivers & TWICE's Tzuyu Compete in an Anime Art Challenge!",
@@ -401,28 +423,6 @@
           "seconds": 361,
           "thumbnail": "https://i.ytimg.com/vi/LNP6lgxiTTg/maxresdefault.jpg",
           "source": "FIA",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "-59xVmUn1YI",
-          "title": "AMR Network: Portraits | Cognition",
-          "publishedAt": "2026-07-14T14:17:27Z",
-          "duration": "5:49",
-          "seconds": 349,
-          "thumbnail": "https://i.ytimg.com/vi/-59xVmUn1YI/maxresdefault.jpg",
-          "source": "Aston Martin Aramco F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "oRgcT9w9OfU",
-          "title": "What home means | Exploring belonging through sport with YoungMinds and Valvoline",
-          "publishedAt": "2026-07-13T16:34:21Z",
-          "duration": "11:45",
-          "seconds": 705,
-          "thumbnail": "https://i.ytimg.com/vi/oRgcT9w9OfU/maxresdefault.jpg",
-          "source": "Aston Martin Aramco F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -873,6 +873,17 @@
       "sourceURL": "https://www.youtube.com/channel/UCuN9hYw2RpoAW8rZ3VK3isA",
       "videos": [
         {
+          "id": "Yb4yUXZivtE",
+          "title": "NASCAR Cup Series Highlights | 2026 Charlotte Motor Speedway",
+          "publishedAt": "2026-10-11T22:39:37Z",
+          "duration": "27:18",
+          "seconds": 1638,
+          "thumbnail": "https://i.ytimg.com/vi/Yb4yUXZivtE/maxresdefault.jpg",
+          "source": "NASCAR",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "QjNqTrsrf2o",
           "title": "NASCAR Cup Series Highlights | 2026 Las Vegas Motor Speedway",
           "publishedAt": "2026-10-05T01:02:22Z",
@@ -1197,6 +1208,28 @@
       "sourceURL": null,
       "videos": [
         {
+          "id": "Qp6v4xYHuHM",
+          "title": "Red Bull KTM MotoGP™ 2026 Factory Floor Episode 16 #JAPANESEGP | KTM",
+          "publishedAt": "2026-10-12T15:27:55Z",
+          "duration": "10:34",
+          "seconds": 634,
+          "thumbnail": "https://i.ytimg.com/vi/Qp6v4xYHuHM/maxresdefault.jpg",
+          "source": "KTM",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "03e5aZroVCY",
+          "title": "Good vibes in a key Yamaha market 🇮🇩 Fabio brought the pace & Izan made it 3/3 💙 #IndonesiaGP",
+          "publishedAt": "2026-10-12T13:11:39Z",
+          "duration": "1:56",
+          "seconds": 116,
+          "thumbnail": "https://i.ytimg.com/vi/03e5aZroVCY/maxresdefault.jpg",
+          "source": "Yamaha MotoGP",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "cNsbO00b31c",
           "title": "Marc Márquez and e Pecco Bagnaia | The Daruma game at #JapaneseGP",
           "publishedAt": "2026-10-07T09:00:26Z",
@@ -1467,28 +1500,6 @@
           "duration": "13:37",
           "seconds": 817,
           "thumbnail": "https://i.ytimg.com/vi/8e2xPXN6Xyw/maxresdefault.jpg",
-          "source": "KTM",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "wHsVl8rDSrU",
-          "title": "Red Bull KTM MotoGP™ 2026 Factory Floor Episode 5 #FRENCHGP | KTM",
-          "publishedAt": "2026-05-13T14:50:01Z",
-          "duration": "10:28",
-          "seconds": 628,
-          "thumbnail": "https://i.ytimg.com/vi/wHsVl8rDSrU/maxresdefault.jpg",
-          "source": "KTM",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "yDjHxYENh_M",
-          "title": "Red Bull KTM MotoGP™ 2026 Factory Floor Episode 4 #SPANISHGP | KTM",
-          "publishedAt": "2026-05-01T12:40:20Z",
-          "duration": "11:36",
-          "seconds": 696,
-          "thumbnail": "https://i.ytimg.com/vi/yDjHxYENh_M/maxresdefault.jpg",
           "source": "KTM",
           "blockedRegions": [],
           "allowedRegions": []
