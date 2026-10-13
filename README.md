@@ -210,49 +210,21 @@ and earlier, which still call the dead API and fall back to it.
 
 ## `snooker.json` — Snooker (generated, do not hand-edit)
 
-> **Not in this repo since 11 Oct 2026.** snooker.org asked that its data be
-> served only to holders of a header value, not from a public repository.
-> `snooker.json`, `snooker-players.json` and `snooker/state.json` are
-> gitignored and the Snooker workflow is disabled until the private endpoint
-> is in place. The scripts below are unchanged and still describe the data.
-
-
-The snooker channel's only source: the World Snooker Tour calendar, every
-main-stage draw and score, and the world rankings. Read by the snooker
-channel from iOS 2.7 / Android 1.7.0 on.
-
-The data is **api.snooker.org's, used with permission** (Hermund Årdalen,
-webmaster@snooker.org, October 2026). The terms we accepted:
-
-- Every request carries our approved `X-Requested-By` value. It lives in the
-  `EGRID_SNOOKER_KEY` repo secret and nowhere else — never in the apps,
-  never committed.
-- **Two requests a minute for the whole key.** The apps therefore never call
-  snooker.org; `snooker/build_snooker.py` is the only client, paces itself
-  at one call every 31 seconds, and asks only for what changed.
-- snooker.org must be credited prominently. Both apps show "Snooker data
-  from snooker.org" on the channel page, on every event page and in
-  Settings. Keep it there.
-- If E-Grid earns revenue from snooker, snooker.org has asked to discuss a
-  fair share (otherwise, a donation to Doctors Without Borders).
-
-`.github/workflows/snooker.yml` runs it every 30 minutes and pushes straight
-to `live`, outside the `egrid-live-push` group, like Formula E:
-
-| What | Call | How often |
-|---|---|---|
-| Events of the season, round names and distances, world rankings, pro players | `t=5`, `t=12`, `rt=MoneyRankings`, `t=10` | Once every ~20 hours |
-| Matches of an event under way, starting within three days, or finished yesterday | `t=6` | Every run while it applies |
-| Matches of every other finished event | `t=6` | Once, then kept |
-| A player missing from the pro list | `p=` | Up to four a run, then remembered |
-
-`snooker/state.json` holds what the next run needs (raw matches, the round
-table, every player named so far) and is committed with the output; the
-apps never read it. Only main events are listed — no qualifying stages and
-none of the Championship League's group events. An event's `status` is a
-convenience; the apps work it out from the dates. `t=20` (current season)
-answers 403 for our key, so the season is the calendar year it began in
-(June to May).
+> **Private since 11 Oct 2026.** snooker.org asked that its data reach only
+> holders of a key, not a public repository. The generator, the server job
+> and the endpoint config live in the private repo **TeamDzX/egrid-snooker**;
+> the data lives only on Alex's server and is served at
+> `https://optidns.uk/egrid/snooker/` to requests carrying an app's
+> `X-EGrid-Key`. `snooker.json`, `snooker-players.json` and
+> `snooker/state.json` stay gitignored here, and the old Snooker workflow is
+> gone. See that repo's README for the fetch schedule, rate limit and
+> licence terms (credit "Snooker data from snooker.org" on the channel page,
+> every event page and in Settings).
+>
+> What stays here, because none of it is snooker.org data: the hand-written
+> inputs the generator merges (`snooker/players.json`, `photos.json`,
+> `event-photos.json`), the Wikimedia photos in `images/snooker/`, and the
+> scripts that maintain them.
 
 ### `snooker-players.json` — player pages (generated)
 

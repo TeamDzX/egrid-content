@@ -128,7 +128,7 @@ NASCAR = "https://cf.nascar.com/cacher"
 NASCAR_CUP_SERIES = 1
 CIRCUITS_PATH = REPO_ROOT / "circuits.json"
 FORMULA_E_PATH = REPO_ROOT / "formula-e.json"
-# Snooker, built by snooker/build_snooker.py. Not in channels.json (older app
+# Snooker, built by TeamDzX/egrid-snooker (private). Not in channels.json (older app
 # versions read that and have no snooker code), so read on its own.
 SNOOKER_PATH = REPO_ROOT / "snooker.json"
 MOTOGP = "https://api.motogp.pulselive.com/motogp/v1/results"
