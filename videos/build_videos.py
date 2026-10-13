@@ -91,6 +91,18 @@ def log(message: str) -> None:
 # --------------------------------------------------------------------------- #
 
 
+# Pictographs channels decorate titles with ("RUTHLESS CHAMPION! 🏆 ..."):
+# emoji, their variation selectors and joiners, and the regional-indicator
+# flags. They read as clickbait next to a plain card and some render as
+# empty boxes, so titles go out without them.
+_PICTOGRAPHS = re.compile(
+    "[\U0001F000-\U0001FAFF\u2600-\u27BF\u2B00-\u2BFF\uFE0F\u200D\u20E3]+")
+
+
+def clean_title(title: str) -> str:
+    return re.sub(r"\s{2,}", " ", _PICTOGRAPHS.sub(" ", title)).strip()
+
+
 @dataclass
 class Video:
     id: str
@@ -112,6 +124,9 @@ class Video:
     # allows six. A video carrying one of these is invisible to most of the
     # world, so the apps treat the two lists differently; see `isPlayable`.
     allowedRegions: list[str] = field(default_factory=list)
+
+    def __post_init__(self) -> None:
+        self.title = clean_title(self.title)
 
 
 @dataclass
