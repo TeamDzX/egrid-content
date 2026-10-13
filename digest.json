@@ -1,7 +1,119 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-12T00:37:15Z",
+  "generatedAt": "2026-10-13T00:48:37Z",
   "editions": [
+    {
+      "id": "2026-10-13-recap",
+      "kind": "recap",
+      "title": "Last week on E-Grid",
+      "dateRange": "6–12 October",
+      "intro": "This week delivered three race weekends decided under Sunday lights. Formula 1 raced Singapore's streets, MotoGP rode into Indonesia, and NASCAR's Chase reached Charlotte with four races remaining.",
+      "publishedAt": "2026-10-13T00:48:37Z",
+      "expiresAt": "2026-10-17T00:48:37Z",
+      "items": [
+        {
+          "channelID": "f1",
+          "channelName": "Formula 1",
+          "headline": "Singapore Grand Prix",
+          "detail": "Marina Bay Street Circuit, Singapore · Sun 11 Oct",
+          "body": "Max Verstappen took the Singapore Grand Prix from pole, finishing 7.3 seconds clear of Charles Leclerc with Andrea Kimi Antonelli third. The result extended Antonelli's championship lead over George Russell to 102 points. Isack Hadjar made a notable climb from 22nd to 10th, while Russell moved from 19th to 9th.",
+          "date": "2026-10-11",
+          "round": 17,
+          "facts": [
+            "Max Verstappen won from pole, 7.3 seconds ahead of Charles Leclerc",
+            "Biggest climbers: Isack Hadjar from 22nd to 10th and George Russell from 19th to 9th",
+            "Fastest lap: Charles Leclerc, 1:35.202",
+            "Did not finish: Alexander Albon, Lance Stroll, Franco Colapinto and Gabriel Bortoleto",
+            "Andrea Kimi Antonelli's championship lead over George Russell went from 84 to 102 points over the weekend",
+            "Virtual safety car on laps 8 and 39"
+          ],
+          "podium": [
+            {
+              "position": 1,
+              "name": "Max Verstappen",
+              "team": "Red Bull"
+            },
+            {
+              "position": 2,
+              "name": "Charles Leclerc",
+              "team": "Ferrari"
+            },
+            {
+              "position": 3,
+              "name": "Andrea Kimi Antonelli",
+              "team": "Mercedes"
+            }
+          ]
+        },
+        {
+          "channelID": "motogp",
+          "channelName": "MotoGP",
+          "headline": "Grand Prix of Indonesia",
+          "detail": "Pertamina Mandalika Circuit, Indonesia · Sun 11 Oct",
+          "body": "Marco Bezzecchi claimed the Grand Prix of Indonesia, finishing 4.3 seconds ahead of Raul Fernandez with Jorge Martin third. He set a new lap record of 1:29.960 on a day reaching 62°C at trackside. Saturday's sprint had gone to Marc Marquez.",
+          "date": "2026-10-11",
+          "round": 17,
+          "facts": [
+            "Marco Bezzecchi won by 4.3 seconds from Raul Fernandez",
+            "Did not finish: Toprak Razgatlioglu, Jack Miller, Francesco Bagnaia and Fermin Aldeguer",
+            "Marco Bezzecchi set a new lap record, 1:29.960",
+            "Dry, 29°C air and 62°C track",
+            "Saturday's sprint was won by Marc Marquez"
+          ],
+          "podium": [
+            {
+              "position": 1,
+              "name": "Marco Bezzecchi",
+              "team": "Aprilia Racing"
+            },
+            {
+              "position": 2,
+              "name": "Raul Fernandez",
+              "team": "SuperFile Trackhouse MotoGP Team"
+            },
+            {
+              "position": 3,
+              "name": "Jorge Martin",
+              "team": "Aprilia Racing"
+            }
+          ]
+        },
+        {
+          "channelID": "nascar",
+          "channelName": "NASCAR Cup Series",
+          "headline": "Bank of America 400",
+          "detail": "Charlotte Motor Speedway · Sun 11 Oct",
+          "body": "Chase Briscoe won the Bank of America 400 from second on the grid, holding off teammate Christopher Bell at the line with Ryan Blaney third in a 0.029-second finish. The result lifted him to fourth in the Chase. Kyle Larson led the most laps and his points lead over Denny Hamlin grew to 49.",
+          "date": "2026-10-11",
+          "round": 32,
+          "facts": [
+            "Chase Briscoe won from 2nd on the grid",
+            "Most laps led: Kyle Larson (97)",
+            "Stage winners: Stage 1 Kyle Larson, Stage 2 Christopher Bell",
+            "Margin of victory: 0.029 s",
+            "Kyle Larson's Chase lead over Denny Hamlin went from 40 to 49 points this weekend, with 4 races to go",
+            "The win lifted Chase Briscoe from 6th to 4th in the Chase"
+          ],
+          "podium": [
+            {
+              "position": 1,
+              "name": "Chase Briscoe",
+              "team": "Joe Gibbs Racing"
+            },
+            {
+              "position": 2,
+              "name": "Christopher Bell",
+              "team": "Joe Gibbs Racing"
+            },
+            {
+              "position": 3,
+              "name": "Ryan Blaney",
+              "team": "Team Penske"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "2026-10-12-recap",
       "kind": "recap",
@@ -248,57 +360,6 @@
           "headline": "Bank of America 400",
           "detail": "Charlotte Motor Speedway · Sun 11 Oct",
           "body": "Round 32 of the NASCAR Cup Series season. The race starts at 19:00 UTC.",
-          "date": "2026-10-11",
-          "round": 32,
-          "facts": [
-            "267 laps, 400.5 miles",
-            "US coverage: USA (TV), PRN (radio)"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2026-10-09-preview",
-      "kind": "preview",
-      "title": "This weekend in motorsport",
-      "dateRange": "9–12 October",
-      "intro": "The week of 9–12 October features three rounds across Formula 1, MotoGP and the NASCAR Cup Series.",
-      "publishedAt": "2026-10-09T14:28:51Z",
-      "expiresAt": "2026-10-14T14:28:51Z",
-      "items": [
-        {
-          "channelID": "f1",
-          "channelName": "Formula 1",
-          "headline": "Singapore Grand Prix",
-          "detail": "Marina Bay Street Circuit, Singapore · Sun 11 Oct",
-          "body": "The Singapore Grand Prix takes place on Sun 11 Oct at the Marina Bay Street Circuit. Andrea Kimi Antonelli leads the championship by 84 points from George Russell. Sprint qualifying is set for Fri 9 Oct at 12:30 UTC, with the sprint and qualifying both scheduled for Saturday.",
-          "date": "2026-10-11",
-          "round": 17,
-          "facts": [
-            "Sprint qualifying Fri 9 Oct, 12:30 UTC",
-            "Sprint Sat 10 Oct, 09:00 UTC",
-            "Qualifying Sat 10 Oct, 13:00 UTC",
-            "Andrea Kimi Antonelli leads the championship by 84 points from George Russell"
-          ]
-        },
-        {
-          "channelID": "motogp",
-          "channelName": "MotoGP",
-          "headline": "Grand Prix of Indonesia",
-          "detail": "Pertamina Mandalika Circuit, Indonesia · Sun 11 Oct",
-          "body": "The Grand Prix of Indonesia arrives on Sun 11 Oct at the Pertamina Mandalika Circuit. Jorge Martin holds a two-point lead over Marc Marquez in the championship.",
-          "date": "2026-10-11",
-          "round": 17,
-          "facts": [
-            "Jorge Martin leads the championship by 2 points from Marc Marquez"
-          ]
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "Bank of America 400",
-          "detail": "Charlotte Motor Speedway · Sun 11 Oct",
-          "body": "The Bank of America 400 runs on Sun 11 Oct at Charlotte Motor Speedway from 19:00 UTC. This race will cover 400.5 miles across 267 laps.",
           "date": "2026-10-11",
           "round": 32,
           "facts": [
