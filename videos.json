@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-13T09:07:57Z",
+  "generatedAt": "2026-10-13T15:05:24Z",
   "channels": [
     {
       "channelID": "f1",
@@ -169,17 +169,6 @@
           "duration": "6:24",
           "seconds": 384,
           "thumbnail": "https://i.ytimg.com/vi/AsvPhTnHZYU/maxresdefault.jpg",
-          "source": "McLaren",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "1HSVupVFWkk",
-          "title": "70 Days: Solving Sepang | McLaren Racing & Gemini",
-          "publishedAt": "2026-09-28T18:15:59Z",
-          "duration": "9:01",
-          "seconds": 541,
-          "thumbnail": "https://i.ytimg.com/vi/1HSVupVFWkk/maxresdefault.jpg",
           "source": "McLaren",
           "blockedRegions": [],
           "allowedRegions": []
@@ -423,6 +412,17 @@
           "seconds": 361,
           "thumbnail": "https://i.ytimg.com/vi/LNP6lgxiTTg/maxresdefault.jpg",
           "source": "FIA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "-59xVmUn1YI",
+          "title": "AMR Network: Portraits | Cognition",
+          "publishedAt": "2026-07-14T14:17:27Z",
+          "duration": "5:49",
+          "seconds": 349,
+          "thumbnail": "https://i.ytimg.com/vi/-59xVmUn1YI/maxresdefault.jpg",
+          "source": "Aston Martin Aramco F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -1547,6 +1547,17 @@
       "sourceURL": "https://www.youtube.com/channel/UC5lTEvtwu6SR3LMSmU9VZ2Q",
       "videos": [
         {
+          "id": "ulRPJO6znJQ",
+          "title": "CLASSIC FINAL! | Ronnie O'Sullivan vs Judd Trump THRILLER! | 2020 BetVictor Northern Ireland Open",
+          "publishedAt": "2026-10-13T14:48:11Z",
+          "duration": "21:03",
+          "seconds": 1263,
+          "thumbnail": "https://i.ytimg.com/vi/ulRPJO6znJQ/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "R7VX1Zy5y1k",
           "title": "RUTHLESS CHAMPION! Wu Yize vs Yuan Sijun | 2026 Shenzhen Open Final",
           "publishedAt": "2026-10-04T14:41:19Z",
@@ -1663,17 +1674,6 @@
           "duration": "18:13",
           "seconds": 1093,
           "thumbnail": "https://i.ytimg.com/vi/MuJ_rcd33a0/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "o5TKPUWN-jE",
-          "title": "BREAK-BUILDING EXHIBITION! Mark Selby vs Jackson Page | 2026 Shenzhen Open",
-          "publishedAt": "2026-09-30T08:38:34Z",
-          "duration": "11:27",
-          "seconds": 687,
-          "thumbnail": "https://i.ytimg.com/vi/o5TKPUWN-jE/maxresdefault.jpg",
           "source": "WST",
           "blockedRegions": [],
           "allowedRegions": []
