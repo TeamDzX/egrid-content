@@ -108,7 +108,7 @@
   },
   {
    "name": "Premier League – Night 1, Glasgow",
-   "bsdName": "Premier League 2027",
+   "bsdName": "Premier League 2027 Night 1",
    "start": "2027-02-04",
    "end": "2027-02-04",
    "venue": "OVO Hydro",
@@ -121,7 +121,7 @@
   },
   {
    "name": "Premier League – Night 2, Berlin",
-   "bsdName": "Premier League 2027",
+   "bsdName": "Premier League 2027 Night 2",
    "start": "2027-02-11",
    "end": "2027-02-11",
    "venue": "Uber Arena",
@@ -134,7 +134,7 @@
   },
   {
    "name": "Premier League – Night 3, Newcastle",
-   "bsdName": "Premier League 2027",
+   "bsdName": "Premier League 2027 Night 3",
    "start": "2027-02-18",
    "end": "2027-02-18",
    "venue": "Utilita Arena",
@@ -147,7 +147,7 @@
   },
   {
    "name": "Premier League – Night 4, Belfast",
-   "bsdName": "Premier League 2027",
+   "bsdName": "Premier League 2027 Night 4",
    "start": "2027-02-25",
    "end": "2027-02-25",
    "venue": "The O2 Belfast",
@@ -160,7 +160,7 @@
   },
   {
    "name": "Premier League – Night 5, Cardiff",
-   "bsdName": "Premier League 2027",
+   "bsdName": "Premier League 2027 Night 5",
    "start": "2027-03-04",
    "end": "2027-03-04",
    "venue": "Utilita Arena",
@@ -173,7 +173,7 @@
   },
   {
    "name": "Premier League – Night 6, Nottingham",
-   "bsdName": "Premier League 2027",
+   "bsdName": "Premier League 2027 Night 6",
    "start": "2027-03-11",
    "end": "2027-03-11",
    "venue": "Motorpoint Arena",
@@ -186,7 +186,7 @@
   },
   {
    "name": "Premier League – Night 7, Dublin",
-   "bsdName": "Premier League 2027",
+   "bsdName": "Premier League 2027 Night 7",
    "start": "2027-03-18",
    "end": "2027-03-18",
    "venue": "3Arena",
@@ -199,7 +199,7 @@
   },
   {
    "name": "Premier League – Night 8, Antwerp",
-   "bsdName": "Premier League 2027",
+   "bsdName": "Premier League 2027 Night 8",
    "start": "2027-03-25",
    "end": "2027-03-25",
    "venue": "AFAS Dome",
@@ -212,7 +212,7 @@
   },
   {
    "name": "Premier League – Night 9, Brighton",
-   "bsdName": "Premier League 2027",
+   "bsdName": "Premier League 2027 Night 9",
    "start": "2027-04-01",
    "end": "2027-04-01",
    "venue": "Brighton Centre",
@@ -225,7 +225,7 @@
   },
   {
    "name": "Premier League – Night 10, Manchester",
-   "bsdName": "Premier League 2027",
+   "bsdName": "Premier League 2027 Night 10",
    "start": "2027-04-08",
    "end": "2027-04-08",
    "venue": "AO Arena",
@@ -238,7 +238,7 @@
   },
   {
    "name": "Premier League – Night 11, Rotterdam",
-   "bsdName": "Premier League 2027",
+   "bsdName": "Premier League 2027 Night 11",
    "start": "2027-04-15",
    "end": "2027-04-15",
    "venue": "Rotterdam Ahoy",
@@ -251,7 +251,7 @@
   },
   {
    "name": "Premier League – Night 12, Liverpool",
-   "bsdName": "Premier League 2027",
+   "bsdName": "Premier League 2027 Night 12",
    "start": "2027-04-22",
    "end": "2027-04-22",
    "venue": "M&S Bank Arena",
@@ -264,7 +264,7 @@
   },
   {
    "name": "Premier League – Night 13, Birmingham",
-   "bsdName": "Premier League 2027",
+   "bsdName": "Premier League 2027 Night 13",
    "start": "2027-04-29",
    "end": "2027-04-29",
    "venue": "Utilita Arena",
@@ -277,7 +277,7 @@
   },
   {
    "name": "Premier League – Night 14, Leeds",
-   "bsdName": "Premier League 2027",
+   "bsdName": "Premier League 2027 Night 14",
    "start": "2027-05-06",
    "end": "2027-05-06",
    "venue": "First Direct Arena",
@@ -290,7 +290,7 @@
   },
   {
    "name": "Premier League – Night 15, Aberdeen",
-   "bsdName": "Premier League 2027",
+   "bsdName": "Premier League 2027 Night 15",
    "start": "2027-05-13",
    "end": "2027-05-13",
    "venue": "P&J Live",
@@ -303,7 +303,7 @@
   },
   {
    "name": "Premier League – Night 16, Sheffield",
-   "bsdName": "Premier League 2027",
+   "bsdName": "Premier League 2027 Night 16",
    "start": "2027-05-20",
    "end": "2027-05-20",
    "venue": "Utilita Arena",
@@ -316,7 +316,7 @@
   },
   {
    "name": "Premier League – Finals Night, London",
-   "bsdName": "Premier League 2027",
+   "bsdName": "Premier League 2027 Playoffs",
    "start": "2027-05-27",
    "end": "2027-05-27",
    "venue": "The O2",
