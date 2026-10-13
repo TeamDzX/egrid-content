@@ -1,0 +1,197 @@
+{
+ "_comment": "Event header photos, keyed by calendar event name. Written by darts/fetch_event_photos.py.",
+ "photos": {
+  "European Championship": {
+   "url": "images/darts/events/european-championship.jpg",
+   "credit": "Arne Müseler / www.arne-mueseler.com",
+   "licence": "CC BY-SA 3.0 de",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Westfalenhalle_dortmund_6.jpg",
+   "caption": "Westfalenhallen, Dortmund"
+  },
+  "Grand Slam of Darts": {
+   "url": "images/darts/events/grand-slam-of-darts.jpg",
+   "credit": "Æthelred",
+   "licence": "CC0",
+   "licenceURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Grand_Slam_Of_Darts_2025_Aldersley_Wolverhampton.jpg",
+   "caption": "WV Active Aldersley, Wolverhampton"
+  },
+  "Players Championship Finals": {
+   "url": "images/darts/events/players-championship-finals.jpg",
+   "credit": "Ian Sherlock",
+   "licence": "CC BY-SA 2.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/2.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Skyline_Pavilion,_Minehead,_Somerset.jpg",
+   "caption": "Butlin's Resort, Minehead"
+  },
+  "Premier League – Finals Night, London": {
+   "url": "images/darts/events/premier-league-finals-night-london.jpg",
+   "credit": "Lewis Hulbert",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:The_O2,_Greenwich,_London.jpg",
+   "caption": "The O2, London"
+  },
+  "Premier League – Night 1, Glasgow": {
+   "url": "images/darts/events/premier-league-night-1-glasgow.jpg",
+   "credit": "William Starkey",
+   "licence": "CC BY-SA 2.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/2.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:SSE_Hydro_Arena,_Glasgow_(geograph_3734956).jpg",
+   "caption": "OVO Hydro, Glasgow"
+  },
+  "Premier League – Night 10, Manchester": {
+   "url": "images/darts/events/premier-league-night-10-manchester.jpg",
+   "credit": "G-13114",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Manchester_Arena_exterior,_(3)_May19.jpg",
+   "caption": "AO Arena, Manchester"
+  },
+  "Premier League – Night 11, Rotterdam": {
+   "url": "images/darts/events/premier-league-night-11-rotterdam.jpg",
+   "credit": "Tukka",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Rotterdam_Ahoy_2.jpg",
+   "caption": "Rotterdam Ahoy, Rotterdam"
+  },
+  "Premier League – Night 12, Liverpool": {
+   "url": "images/darts/events/premier-league-night-12-liverpool.jpg",
+   "credit": "Rodhullandemu",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:M%26S_Bank_Arena_1.jpg",
+   "caption": "M&S Bank Arena, Liverpool"
+  },
+  "Premier League – Night 13, Birmingham": {
+   "url": "images/darts/events/premier-league-night-13-birmingham.jpg",
+   "credit": "The wub",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Arena_from_Library_of_Birmingham_2024-07-19.jpg",
+   "caption": "Utilita Arena, Birmingham"
+  },
+  "Premier League – Night 14, Leeds": {
+   "url": "images/darts/events/premier-league-night-14-leeds.jpg",
+   "credit": "Chemical Engineer",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:First_Direct_Arena,_Leeds_24_October_2018_2.jpg",
+   "caption": "First Direct Arena, Leeds"
+  },
+  "Premier League – Night 15, Aberdeen": {
+   "url": "images/darts/events/premier-league-night-15-aberdeen.jpg",
+   "credit": "Bill Harrison",
+   "licence": "CC BY-SA 2.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/2.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:TECA_(The_Event_Complex,_Aberdeen)_(geograph_6441712).jpg",
+   "caption": "P&J Live, Aberdeen"
+  },
+  "Premier League – Night 16, Sheffield": {
+   "url": "images/darts/events/premier-league-night-16-sheffield.jpg",
+   "credit": "BCDS",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Sheffield_Arena_2022.jpg",
+   "caption": "Utilita Arena, Sheffield"
+  },
+  "Premier League – Night 2, Berlin": {
+   "url": "images/darts/events/premier-league-night-2-berlin.jpg",
+   "credit": "Kostisl",
+   "licence": "CC0",
+   "licenceURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Uber_Arena_Berlin_2024.jpg",
+   "caption": "Uber Arena, Berlin"
+  },
+  "Premier League – Night 3, Newcastle": {
+   "url": "images/darts/events/premier-league-night-3-newcastle.jpg",
+   "credit": "Anthony Foster",
+   "licence": "CC BY-SA 2.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/2.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Metro_Radio_Arena,_Newcastle_upon_Tyne_(geograph_5237390)_(cropped).jpg",
+   "caption": "Utilita Arena, Newcastle"
+  },
+  "Premier League – Night 4, Belfast": {
+   "url": "images/darts/events/premier-league-night-4-belfast.jpg",
+   "credit": "Ross",
+   "licence": "CC BY-SA 2.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/2.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Odyssey_Arena,_Belfast_-_geograph.org.uk_-_860741_(cropped).jpg",
+   "caption": "The O2 Belfast, Belfast"
+  },
+  "Premier League – Night 5, Cardiff": {
+   "url": "images/darts/events/premier-league-night-5-cardiff.jpg",
+   "credit": "DaHuzyBru",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Utilita_Arena_Cardiff_September_2023_10.jpg",
+   "caption": "Utilita Arena, Cardiff"
+  },
+  "Premier League – Night 6, Nottingham": {
+   "url": "images/darts/events/premier-league-night-6-nottingham.jpg",
+   "credit": "Dave Thompson",
+   "licence": "CC BY-SA 2.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/2.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Motorpoint_Arena_-_Nottingham_(geograph_7094777).jpg",
+   "caption": "Motorpoint Arena, Nottingham"
+  },
+  "Premier League – Night 7, Dublin": {
+   "url": "images/darts/events/premier-league-night-7-dublin.jpg",
+   "credit": "David Dixon",
+   "licence": "CC BY-SA 2.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/2.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:3Arena,_Dublin_(geograph_5417559).jpg",
+   "caption": "3Arena, Dublin"
+  },
+  "Premier League – Night 8, Antwerp": {
+   "url": "images/darts/events/premier-league-night-8-antwerp.jpg",
+   "credit": "Andries Schotte",
+   "licence": "CC BY 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Afas-dome-luchtfoto-1.jpg",
+   "caption": "AFAS Dome, Antwerp"
+  },
+  "Premier League – Night 9, Brighton": {
+   "url": "images/darts/events/premier-league-night-9-brighton.jpg",
+   "credit": "The Voice of Hassocks",
+   "licence": "CC0",
+   "licenceURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Brighton_Centre,_Kings_Road,_Brighton_(from_SE)_(April_2013).JPG",
+   "caption": "Brighton Centre, Brighton"
+  },
+  "UK Open": {
+   "url": "images/darts/events/uk-open.jpg",
+   "credit": "Ian Sherlock",
+   "licence": "CC BY-SA 2.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/2.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Skyline_Pavilion,_Minehead,_Somerset.jpg",
+   "caption": "Butlin's Resort, Minehead"
+  },
+  "World Championship": {
+   "url": "images/darts/events/world-championship.jpg",
+   "credit": "TWsk",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:PDC_World_Darts_Championship_2016.jpg",
+   "caption": "PDC World Championship 2016, Alexandra Palace, London"
+  },
+  "World Grand Prix": {
+   "url": "images/darts/events/world-grand-prix.jpg",
+   "credit": "DougPR",
+   "licence": "CC0",
+   "licenceURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Riders_Arena.jpg",
+   "caption": "Mattioli Arena, Leicester"
+  },
+  "World Series of Darts Finals": {
+   "url": "images/darts/events/world-series-of-darts-finals.jpg",
+   "credit": "AFASLive Amsterdam",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:AFAS_Live_voorgevel.jpg",
+   "caption": "AFAS Live, Amsterdam"
+  }
+ }
+}

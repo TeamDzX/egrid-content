@@ -258,6 +258,22 @@ this repo's: older versions read this repo's directory and have no snooker
 code. Apps from 2.7 / 1.7.0 append bundled channels the remote directory
 lacks.
 
+## `darts/` — Darts inputs (public; the data is private)
+
+The darts channel (iOS 2.7 / Android 1.7.0) gets results, draws, live scores and
+the PDC Order of Merit from **BSD** (sports.bzzoiro.com, Bzzoiro LLC), whose
+licence allows showing the data in our own apps but not republishing it as a
+feed. So, like snooker, the generator lives in the private repo
+**TeamDzX/egrid-snooker** (`darts/build_darts.py`), runs on Alex's server and is
+served only to the apps at `https://optidns.uk/egrid/darts/` with an app key.
+`darts.json` and `darts-players.json` are never committed here.
+
+What lives here is ours and public: `darts/calendar.json` (the season's televised
+events with dates and venues from Wikipedia and pdc.tv, which BSD lacks),
+`darts/players.json` (bios for the top 32), Commons photos in `images/darts/`
+and `images/darts/events/`, and the scripts that maintain them. Details in
+`darts/README.md`.
+
 ## `channels.json` — the series catalogue
 
 Adds or changes the channels users can subscribe to.

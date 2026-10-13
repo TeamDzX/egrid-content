@@ -1,0 +1,229 @@
+{
+ "_comment": "Written by darts/fetch_photos.py; keyed by player name.",
+ "photos": {
+  "Andrew Gilding": {
+   "url": "images/darts/andrew-gilding.jpg",
+   "credit": "DARTS NOW",
+   "licence": "CC BY 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Andrew_Gilding_2025_World_Matchplay.png"
+  },
+  "Cameron Menzies": {
+   "url": "images/darts/cameron-menzies.jpg",
+   "credit": "Oche180",
+   "licence": "CC BY 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Cameron_Menzies_2026.png"
+  },
+  "Chris Dobey": {
+   "url": "images/darts/chris-dobey.jpg",
+   "credit": "Sandro Halank, Wikimedia Commons",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:2025-04-03_Premier_League_Darts_Berlin_2025_by_Sandro_Halank%E2%80%93158.jpg"
+  },
+  "Damon Heta": {
+   "url": "images/darts/damon-heta.jpg",
+   "credit": "DARTS NOW",
+   "licence": "CC BY 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Damon_Heta_2025.png"
+  },
+  "Danny Noppert": {
+   "url": "images/darts/danny-noppert.jpg",
+   "credit": "DARTS NOW",
+   "licence": "CC BY 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Danny_Noppert_2025.png"
+  },
+  "Daryl Gurney": {
+   "url": "images/darts/daryl-gurney.jpg",
+   "credit": "Sven Mandel",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Daryl_Gurney_2019_PDC_European_Darts_Matchplay_(cropped).jpg"
+  },
+  "Dave Chisnall": {
+   "url": "images/darts/dave-chisnall.jpg",
+   "credit": "Sven Mandel",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Dave_Chisnall_6-2_Ryan_Meikle_-_Dave_Chisnall_-_2019250131009_2019-09-07_PDC_European_Darts_Matchplay_-_0068_-_B70I6438_(cropped).jpg"
+  },
+  "Dirk van Duijvenbode": {
+   "url": "images/darts/dirk-van-duijvenbode.jpg",
+   "credit": "Sven Mandel",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Dirk_van_Duijvenbode_(cropped).jpg"
+  },
+  "Gary Anderson": {
+   "url": "images/darts/gary-anderson.jpg",
+   "credit": "DARTS NOW",
+   "licence": "CC BY 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Gary_Anderson_2024_(cropped).png"
+  },
+  "Gerwyn Price": {
+   "url": "images/darts/gerwyn-price.jpg",
+   "credit": "Sandro Halank, Wikimedia Commons",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:2025-04-03_Premier_League_Darts_Berlin_2025_by_Sandro_Halank%E2%80%93167.jpg"
+  },
+  "Gian van Veen": {
+   "url": "images/darts/gian-van-veen.jpg",
+   "credit": "Sandro Halank, Wikimedia Commons",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:2026-03-26_Premier_League_Darts_%E2%80%93_Night_8_%E2%80%93_Berlin_2026_by_Sandro_Halank%E2%80%93102.jpg"
+  },
+  "James Wade": {
+   "url": "images/darts/james-wade.jpg",
+   "credit": "Sandro Halank, Wikimedia Commons",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:2022-06-13_Play-offs_(2022_Premier_League_Darts)_by_Sandro_Halank%E2%80%93073.jpg"
+  },
+  "Jermaine Wattimena": {
+   "url": "images/darts/jermaine-wattimena.jpg",
+   "credit": "DARTS NOW",
+   "licence": "CC BY 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Jermaine_Wattimena_Grand_Slam_2024.png"
+  },
+  "Joe Cullen": {
+   "url": "images/darts/joe-cullen.jpg",
+   "credit": "Sandro Halank, Wikimedia Commons",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:2022-06-13_Play-offs_(2022_Premier_League_Darts)_by_Sandro_Halank%E2%80%93053.jpg"
+  },
+  "Jonny Clayton": {
+   "url": "images/darts/jonny-clayton.jpg",
+   "credit": "Sandro Halank, Wikimedia Commons",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:2026-03-26_Premier_League_Darts_%E2%80%93_Night_8_%E2%80%93_Berlin_2026_by_Sandro_Halank%E2%80%93028_(cropped).jpg"
+  },
+  "Josh Rock": {
+   "url": "images/darts/josh-rock.jpg",
+   "credit": "Sandro Halank, Wikimedia Commons",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:2026-03-26_Premier_League_Darts_%E2%80%93_Night_8_%E2%80%93_Berlin_2026_by_Sandro_Halank%E2%80%93130.jpg"
+  },
+  "Kevin Doets": {
+   "url": "images/darts/kevin-doets.jpg",
+   "credit": "Oche180",
+   "licence": "CC BY 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Kevin_Doets_2026.png"
+  },
+  "Krzysztof Ratajski": {
+   "url": "images/darts/krzysztof-ratajski.jpg",
+   "credit": "Sven Mandel",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Michael_van_Gerwen_6-5_Krzysztof_Ratajski_-_Krzysztof_Ratajski_-_2019251191220_2019-09-08_PDC_European_Darts_Matchplay_-_1685_-_AK8I9902_(cropped)_(cropped).jpg"
+  },
+  "Luke Humphries": {
+   "url": "images/darts/luke-humphries.jpg",
+   "credit": "Sandro Halank, Wikimedia Commons",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:2026-03-26_Premier_League_Darts_%E2%80%93_Night_8_%E2%80%93_Berlin_2026_by_Sandro_Halank%E2%80%93049.jpg"
+  },
+  "Luke Littler": {
+   "url": "images/darts/luke-littler.jpg",
+   "credit": "Sandro Halank, Wikimedia Commons",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:2026-03-26_Premier_League_Darts_%E2%80%93_Night_8_%E2%80%93_Berlin_2026_by_Sandro_Halank%E2%80%93168.jpg"
+  },
+  "Luke Woodhouse": {
+   "url": "images/darts/luke-woodhouse.jpg",
+   "credit": "DARTS NOW",
+   "licence": "CC BY 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Luke_Woodhouse_WDC_2024.png"
+  },
+  "Martin Schindler": {
+   "url": "images/darts/martin-schindler.jpg",
+   "credit": "DARTS NOW",
+   "licence": "CC BY 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Martin_Schindler_2024_3.png"
+  },
+  "Michael van Gerwen": {
+   "url": "images/darts/michael-van-gerwen.jpg",
+   "credit": "Sandro Halank, Wikimedia Commons",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:2026-03-26_Premier_League_Darts_%E2%80%93_Night_8_%E2%80%93_Berlin_2026_by_Sandro_Halank%E2%80%93162.jpg"
+  },
+  "Nathan Aspinall": {
+   "url": "images/darts/nathan-aspinall.jpg",
+   "credit": "Sandro Halank, Wikimedia Commons",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:2025-04-03_Premier_League_Darts_Berlin_2025_by_Sandro_Halank%E2%80%93016.jpg"
+  },
+  "Niels Zonneveld": {
+   "url": "images/darts/niels-zonneveld.jpg",
+   "credit": "Darts Actueel",
+   "licence": "CC BY 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Niels_Zonneveld.png"
+  },
+  "Ritchie Edhouse": {
+   "url": "images/darts/ritchie-edhouse.jpg",
+   "credit": "DARTS NOW",
+   "licence": "CC BY 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Ritchie_Edhouse_2024_2.png"
+  },
+  "Rob Cross": {
+   "url": "images/darts/rob-cross.jpg",
+   "credit": "Sandro Halank, Wikimedia Commons",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:2025-04-03_Premier_League_Darts_Berlin_2025_by_Sandro_Halank%E2%80%93100.jpg"
+  },
+  "Ross Smith": {
+   "url": "images/darts/ross-smith.jpg",
+   "credit": "DARTS NOW",
+   "licence": "CC BY 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:RossSmithEC25.png"
+  },
+  "Ryan Joyce": {
+   "url": "images/darts/ryan-joyce.jpg",
+   "credit": "DARTS NOW",
+   "licence": "CC BY 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Ryan_Joyce_2025_European_Championship.png"
+  },
+  "Ryan Searle": {
+   "url": "images/darts/ryan-searle.jpg",
+   "credit": "DARTS NOW",
+   "licence": "CC BY 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Ryan_Searle_2025.png"
+  },
+  "Stephen Bunting": {
+   "url": "images/darts/stephen-bunting.jpg",
+   "credit": "Sandro Halank, Wikimedia Commons",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:2025-04-03_Premier_League_Darts_Berlin_2025_by_Sandro_Halank%E2%80%93056.jpg"
+  },
+  "Wessel Nijman": {
+   "url": "images/darts/wessel-nijman.jpg",
+   "credit": "DARTS NOW",
+   "licence": "CC BY 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Wessel_Nijman_2025_World_Matchplay.png"
+  }
+ }
+}

@@ -1,0 +1,467 @@
+{
+ "_comment": "Hand-researched for the top 32 of the PDC Order of Merit (Wikipedia 'PDC World Rankings', as of 11 Oct 2026). Bios and highlights are written only from the cited Wikipedia articles; no ranking positions or running totals, which go stale. No social accounts yet: none verified (see VERIFIED.md). build_darts.py merges these by name.",
+ "players": [
+  {
+   "name": "Luke Littler",
+   "birthplace": "Warrington, Cheshire, England",
+   "bio": "Luke Littler, \"the Nuke\", reached the 2024 World Championship final on his debut aged 16 as a 66/1 outsider, losing to Luke Humphries. He won the title in 2025, becoming the youngest world champion in darts history, and retained it in 2026 against Gian van Veen. His rise brought a surge of new interest in the sport, dubbed the \"Littler effect\". He was appointed MBE in the 2025 Birthday Honours.",
+   "highlights": [
+    "World champion in 2025 and 2026",
+    "Youngest world champion in darts history (17 years, 347 days)",
+    "Won the Premier League in 2024",
+    "Won the World Cup of Darts for England with Luke Humphries in 2026",
+    "BBC Young Sports Personality of the Year 2024"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Luke_Littler"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Luke Humphries",
+   "birthplace": "Reading, Berkshire, England",
+   "bio": "Luke Humphries, \"Cool Hand\", won the 2024 World Championship, beating Luke Littler 7–4 in the final, and was world number one from January 2024 to November 2025. He came through the PDC youth system, winning the 2019 World Youth Championship, and won his first three major titles in 2023. He has also won the World Matchplay and the Premier League, and was appointed MBE in 2025.",
+   "highlights": [
+    "World champion in 2024",
+    "World number one from 3 January 2024 to 16 November 2025",
+    "Won the World Matchplay in 2024 and the Premier League in 2025",
+    "World Cup of Darts winner for England in 2024 and 2026",
+    "PDC Player of the Year 2023"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Luke_Humphries"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Gian van Veen",
+   "birthplace": "Poederoijen, Netherlands",
+   "bio": "Gian van Veen, \"the Giant\", won back-to-back PDC World Youth Championships in 2024 and 2025. His first major title came at the 2025 European Championship, where he beat Luke Humphries in the final. Having lost his opening match at his two previous World Championships, he reached the 2026 final, losing to Luke Littler.",
+   "highlights": [
+    "Won the 2025 European Championship",
+    "Runner-up at the 2026 World Championship",
+    "PDC World Youth Champion in 2024 and 2025",
+    "Topped the 2023 Development Tour rankings with six titles"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Gian_van_Veen"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Gerwyn Price",
+   "birthplace": "Markham, Caerphilly, Wales",
+   "bio": "Gerwyn Price, \"the Iceman\", played professional rugby union and rugby league before darts. He beat Gary Anderson in the 2021 World Championship final to become the first Welsh PDC world champion, and was world number one on three occasions between 2021 and 2022. His major titles include three Grand Slams and the 2020 World Grand Prix.",
+   "highlights": [
+    "World champion in 2021, the first Welsh PDC world champion",
+    "Three-time Grand Slam of Darts champion, first in 2018",
+    "Won the World Grand Prix in 2020",
+    "Won the World Cup of Darts twice for Wales with Jonny Clayton",
+    "Former rugby player for Neath, Cross Keys and Glasgow Warriors"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Gerwyn_Price"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Jonny Clayton",
+   "birthplace": "Llanelli, Carmarthenshire, Wales",
+   "bio": "Jonny Clayton, \"the Ferret\", had his breakthrough year in 2021, winning four major titles: the Masters, the Premier League, the World Series Finals and the World Grand Prix. He has twice won the World Cup of Darts for Wales alongside Gerwyn Price, in 2020 and 2023, and reached the World Championship quarter-finals in 2023 and 2026.",
+   "highlights": [
+    "Won the Masters, Premier League, World Series Finals and World Grand Prix in 2021",
+    "World Cup of Darts winner for Wales in 2020 and 2023",
+    "World Championship quarter-finalist in 2023 and 2026"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Jonny_Clayton"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "James Wade",
+   "birthplace": "Ash, Surrey, England",
+   "bio": "James Wade, \"the Machine\", is widely regarded as the greatest left-hander in darts history. He moved from the BDO to the PDC in 2004 and in 2007, aged 24, became the then-youngest PDC major winner at the World Matchplay. His major titles include three UK Opens, two World Grand Prix titles and the 2009 Premier League, and he is a four-time World Championship semi-finalist.",
+   "highlights": [
+    "Won the World Matchplay in 2007",
+    "Three-time UK Open champion",
+    "Two-time World Grand Prix champion",
+    "Won the Premier League in 2009",
+    "Four-time World Championship semi-finalist"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/James_Wade"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Josh Rock",
+   "birthplace": "Antrim, County Antrim, Northern Ireland",
+   "bio": "Josh Rock, \"Rocky\", won the PDC World Youth Championship in 2022 along with five Development Tour titles that year, and threw his first televised nine-dart finish against Michael van Gerwen at the 2022 Grand Slam. He won the World Cup of Darts for Northern Ireland with Daryl Gurney in 2025, the same year he reached the semi-finals of the UK Open, World Matchplay and World Series Finals.",
+   "highlights": [
+    "World Cup of Darts winner for Northern Ireland in 2025",
+    "PDC World Youth Champion in 2022",
+    "Televised nine-dart finish at the 2022 Grand Slam of Darts"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Josh_Rock"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Danny Noppert",
+   "birthplace": "Joure, Netherlands",
+   "bio": "Danny Noppert, \"the Freeze\", began in the BDO, winning the 2017 Finder Darts Masters and finishing runner-up at that year's BDO World Championship. He switched to the PDC in 2018 and won his first PDC major at the 2022 UK Open, beating Michael Smith 11–10 in the final. He has represented the Netherlands at five World Cups of Darts.",
+   "highlights": [
+    "Won the 2022 UK Open, beating Michael Smith 11–10",
+    "Runner-up at the 2017 BDO World Championship",
+    "Won the 2017 Finder Darts Masters"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Danny_Noppert"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Michael van Gerwen",
+   "birthplace": "Boxtel, Netherlands",
+   "bio": "Michael van Gerwen, \"Mighty Mike\", is widely regarded as one of the greatest players in darts history. He won the World Masters aged 17 and became the then-youngest PDC world champion in 2014, adding further titles in 2017 and 2019. He was world number one from 2014 to 2021 and holds the record for the highest televised three-dart average, 123.4, set in the 2016 Premier League.",
+   "highlights": [
+    "World champion in 2014, 2017 and 2019",
+    "World number one from 2014 to 2021",
+    "A record seven Premier League titles",
+    "Highest televised three-dart average: 123.4 in the 2016 Premier League",
+    "Three-time World Cup of Darts winner with Raymond van Barneveld"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Michael_van_Gerwen"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Gary Anderson",
+   "birthplace": "Musselburgh, Scotland",
+   "bio": "Gary Anderson, \"the Flying Scotsman\", won back-to-back PDC World Championships in 2015 and 2016, beating Phil Taylor 7–6 and then Adrian Lewis 7–5 in the finals. Before switching to the PDC in 2009 he won four BDO major titles. Known for his heavy scoring and smooth throw, he has also won the Premier League twice and the 2018 World Matchplay.",
+   "highlights": [
+    "World champion in 2015 and 2016",
+    "Premier League champion in 2011 and 2015",
+    "Won the UK Open and World Matchplay in 2018",
+    "World Cup of Darts winner for Scotland with Peter Wright in 2019"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Gary_Anderson_(darts_player)"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Nathan Aspinall",
+   "birthplace": "Stockport, England",
+   "bio": "Nathan Aspinall, \"the Asp\", has won two PDC major titles: the 2019 UK Open and the 2023 World Matchplay. He reached the World Championship semi-finals in back-to-back years, 2019 and 2020, and won his first World Series title at the 2019 US Darts Masters. He reached a peak ranking of world number four in 2024.",
+   "highlights": [
+    "Won the UK Open in 2019",
+    "Won the World Matchplay in 2023",
+    "World Championship semi-finalist in 2019 and 2020",
+    "Won the 2019 US Darts Masters"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Nathan_Aspinall"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Wessel Nijman",
+   "birthplace": "Uitgeest, Netherlands",
+   "bio": "Wessel Nijman returned to darts in 2023 after a ban of two and a half years for match-fixing. He won twelve Development Tour titles, topped the 2024 Development Tour rankings and made his World Championship debut that year. Since earning his Tour Card he has become a prolific Pro Tour winner, taking six Players Championship titles during the 2026 season.",
+   "highlights": [
+    "Six Players Championship titles in the 2026 season",
+    "Topped the 2024 Development Tour rankings",
+    "Two European Tour titles"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Wessel_Nijman"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Stephen Bunting",
+   "birthplace": "Liverpool, Merseyside, England",
+   "bio": "Stephen Bunting, \"the Bullet\", won the BDO World Championship in 2014, along with the World Masters in 2012 and 2013, before switching to the PDC later that year. His first PDC major title came at the 2024 Masters, where he beat Michael van Gerwen in the final. He reached the PDC World Championship semi-finals in 2021 and 2025.",
+   "highlights": [
+    "BDO world champion in 2014",
+    "Won the 2024 Masters, beating Michael van Gerwen",
+    "PDC World Championship semi-finalist in 2021 and 2025",
+    "BDO World Masters champion in 2012 and 2013"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Stephen_Bunting"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Ryan Searle",
+   "birthplace": "Tiverton, Devon, England",
+   "bio": "Ryan Searle, \"Heavy Metal\", reached his first major final at the 2021 Players Championship Finals, where he finished runner-up to Peter Wright. He has won eight Players Championship titles, reached two European Tour finals and made the semi-finals of the 2026 World Championship. He reached a peak ranking of world number eight in 2026.",
+   "highlights": [
+    "World Championship semi-finalist in 2026",
+    "Runner-up at the 2021 Players Championship Finals",
+    "Eight Players Championship titles"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ryan_Searle_(darts_player)"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Ross Smith",
+   "birthplace": "Chatham, Kent, England",
+   "bio": "Ross Smith, \"Smudger\", reached the quarter-finals of the 2011 BDO World Championship before moving to the PDC. He won his first ranking title in 2021 and his first major the following year at the European Championship, beating Michael Smith 11–8 in the final. He added a second major at the 2026 World Series of Darts Finals.",
+   "highlights": [
+    "Won the 2022 European Championship, beating Michael Smith 11–8",
+    "Won the 2026 World Series of Darts Finals",
+    "Most PDC Challenge Tour titles of any player in 2013 (four)"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ross_Smith_(darts_player)"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Jermaine Wattimena",
+   "birthplace": "Westervoort, Netherlands",
+   "bio": "Jermaine Wattimena, \"the Machine Gun\", has held a PDC Tour Card since 2015. He reached his first major final at the 2024 European Championship, finishing runner-up, and won his first two ranking titles at Players Championship events in 2025, adding a third in 2026. He reached the World Cup of Darts semi-finals with Michael van Gerwen in 2019.",
+   "highlights": [
+    "Runner-up at the 2024 European Championship",
+    "Three Players Championship titles",
+    "World Cup of Darts semi-finalist for the Netherlands in 2019"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Jermaine_Wattimena"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Chris Dobey",
+   "birthplace": "Bedlington, Northumberland, England",
+   "bio": "Chris Dobey, \"Hollywood\", has held a PDC Tour Card since 2015. He won his first major title at the 2023 Masters, beating Rob Cross 11–7 in the final, and has won ten Players Championship titles. He reached the World Championship semi-finals in 2025 and a peak ranking of world number six that year.",
+   "highlights": [
+    "Won the 2023 Masters, beating Rob Cross 11–7",
+    "World Championship semi-finalist in 2025",
+    "Ten Players Championship titles"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Chris_Dobey"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Luke Woodhouse",
+   "birthplace": "Bewdley, Worcestershire, England",
+   "bio": "Luke Woodhouse, \"Woody\", turned professional in 2018 and reached his first major semi-final at the 2024 European Championship. After four runner-up finishes on the Pro Tour, he won his first ranking title at Players Championship 18 in May 2026 and his first European Tour title, the Baltic Sea Darts Open, twelve days later. He reached the last 16 of the World Championship in 2025 and 2026.",
+   "highlights": [
+    "Won the 2026 Baltic Sea Darts Open",
+    "Won his first ranking title in May 2026",
+    "European Championship semi-finalist in 2024"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Luke_Woodhouse"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Krzysztof Ratajski",
+   "birthplace": "Skarżysko-Kamienna, Poland",
+   "bio": "Krzysztof Ratajski, \"the Polish Eagle\", is regarded as the best Polish player in the sport's history and is a four-time Polish national champion. He won the 2017 World Masters in the BDO, then won three PDC ranking titles in 2018 without a Tour Card. He has reached the World Championship quarter-finals in 2021 and 2026 and represented Poland at eleven World Cups.",
+   "highlights": [
+    "Won the 2017 World Masters (BDO)",
+    "World Championship quarter-finalist in 2021 and 2026",
+    "World record pairs average of 118.10 with Krzysztof Kciuk at the 2023 World Cup"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Krzysztof_Ratajski"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Dirk van Duijvenbode",
+   "birthplace": "Katwijk aan Zee, Netherlands",
+   "bio": "Dirk van Duijvenbode, \"the Titan\" or \"Aubergenius\", is known for his energetic walk-on to hardstyle music. A Tour Card holder since 2016, he has won six Players Championship titles and finished runner-up to Gerwyn Price at both the 2020 World Grand Prix and the 2022 World Series Finals. He reached a peak ranking of world number ten in 2023.",
+   "highlights": [
+    "Runner-up at the 2020 World Grand Prix",
+    "Runner-up at the 2022 World Series of Darts Finals",
+    "Six Players Championship titles"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Dirk_van_Duijvenbode"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Damon Heta",
+   "birthplace": "Perth, Australia",
+   "bio": "Damon Heta, \"the Heat\", won his first PDC title as a regional qualifier at the 2019 Brisbane Darts Masters and turned professional in 2020. He won the 2022 World Cup of Darts for Australia with Simon Whitlock, took his first European Tour title at that year's Gibraltar Darts Trophy, and reached a peak ranking of world number six in 2024.",
+   "highlights": [
+    "World Cup of Darts winner for Australia in 2022",
+    "Won the 2019 Brisbane Darts Masters",
+    "UK Open semi-finalist in 2024"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Damon_Heta"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Rob Cross",
+   "birthplace": "Pembury, Kent, England",
+   "bio": "Rob Cross, \"Voltage\", won the 2018 World Championship less than a year after turning professional, beating Phil Taylor 7–2 in the final. He added the 2019 World Matchplay and the European Championship in 2019 and 2021, along with five World Series titles, and reached a peak ranking of world number two in 2018 and 2019.",
+   "highlights": [
+    "World champion in 2018, beating Phil Taylor 7–2",
+    "Won the World Matchplay in 2019",
+    "European Champion in 2019 and 2021",
+    "Five World Series of Darts titles"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Rob_Cross"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Martin Schindler",
+   "birthplace": "Strausberg, Germany",
+   "bio": "Martin Schindler, \"the Wall\", became the first German player to reach the top 16 of the PDC World Rankings in 2025. Runner-up at the 2018 World Youth Championship, he has won three European Tour titles and the 2025 Players Championship 8, and reached the semi-finals of the World Cup of Darts with Germany in 2023 and 2025.",
+   "highlights": [
+    "First German player in the PDC top 16 (2025)",
+    "Three European Tour titles",
+    "World Cup of Darts semi-finalist for Germany in 2023 and 2025"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Martin_Schindler"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Ryan Joyce",
+   "birthplace": "Newcastle, England",
+   "bio": "Ryan Joyce, \"Relentless\", turned professional in 2018 and reached the World Championship quarter-finals in 2019. He has won two ranking titles and reached two major semi-finals, at the 2023 Players Championship Finals and the 2024 World Grand Prix, as well as two European Tour finals. He is from Newcastle.",
+   "highlights": [
+    "World Championship quarter-finalist in 2019",
+    "Semi-finalist at the 2023 Players Championship Finals and the 2024 World Grand Prix",
+    "Two PDC ranking titles"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ryan_Joyce"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Kevin Doets",
+   "birthplace": "Almere, Netherlands",
+   "bio": "Kevin Doets, \"Hawkeye\", came through the PDC's secondary tours, winning two Challenge Tour and three Development Tour titles. A Tour Card holder since 2022, he won his first ranking title at Players Championship 13 in May 2026, beating Luke Woodhouse 8–5, and reached his first European Tour final six days later. He reached the last 16 of the World Championship in 2025 and 2026.",
+   "highlights": [
+    "First ranking title at Players Championship 13 in May 2026",
+    "Reached the 2026 Austrian Darts Open final",
+    "Won the 2019 Catalonia Open (BDO)"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kevin_Doets"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Cameron Menzies",
+   "birthplace": "Ayrshire, Scotland",
+   "bio": "Cameron Menzies, \"Cammy\", competed in the BDO and WDF before earning a PDC Tour Card in 2022, reaching the semi-finals of the 2017 World Masters and the 2022 Lakeside World Championship. He has since won four Players Championship titles and reached the quarter-finals of the 2024 Grand Slam and the 2025 World Grand Prix.",
+   "highlights": [
+    "Four Players Championship titles",
+    "Quarter-finalist at the 2024 Grand Slam and 2025 World Grand Prix",
+    "Semi-finalist at the 2022 Lakeside World Championship"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Cameron_Menzies"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Andrew Gilding",
+   "birthplace": "Earsham, Norfolk, England",
+   "bio": "Andrew Gilding, \"Goldfinger\", won his maiden PDC title at the 2023 UK Open, beating Michael van Gerwen 11–10 in the final. He had reached the UK Open semi-finals in 2015 and is a two-time World Matchplay quarter-finalist. After seven runner-up finishes on the Pro Tour, he won his first Pro Tour title at Players Championship 16 in 2026.",
+   "highlights": [
+    "Won the 2023 UK Open, beating Michael van Gerwen 11–10",
+    "First Pro Tour title at Players Championship 16 in 2026",
+    "Two-time World Matchplay quarter-finalist"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Andrew_Gilding"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Daryl Gurney",
+   "birthplace": "Derry, Northern Ireland",
+   "bio": "Daryl Gurney, \"Superchin\", won the 2017 World Grand Prix and the 2018 Players Championship Finals and reached a peak ranking of world number three in 2019. In 2025 he won the World Cup of Darts for Northern Ireland alongside Josh Rock. He has won six PDC titles in his professional career.",
+   "highlights": [
+    "Won the 2017 World Grand Prix",
+    "Won the 2018 Players Championship Finals",
+    "World Cup of Darts winner for Northern Ireland in 2025"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Daryl_Gurney"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Niels Zonneveld",
+   "birthplace": "Uitgeest, Netherlands",
+   "bio": "Niels Zonneveld, \"Triple Z\", turned professional in 2019 after two Development Tour titles and a semi-final at the 2020 World Youth Championship. He reached his first ranking final at Players Championship 22 in 2025, has made three European Tour semi-finals and was a quarter-finalist at the 2021 World Series Finals.",
+   "highlights": [
+    "First ranking final at Players Championship 22 in 2025",
+    "Three European Tour semi-finals",
+    "World Youth Championship semi-finalist in 2020"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Niels_Zonneveld"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Dave Chisnall",
+   "birthplace": "St Helens, Merseyside, England",
+   "bio": "Dave Chisnall, \"Chizzy\", was runner-up at the 2010 BDO World Championship before switching to the PDC, where he has won 26 Pro Tour titles and reached six major finals. He has twice been runner-up at both the Masters and the World Grand Prix, reached the World Championship semi-finals in 2021, and peaked at world number five in 2017 and 2024.",
+   "highlights": [
+    "Runner-up at the 2010 BDO World Championship",
+    "26 PDC Pro Tour titles",
+    "PDC World Championship semi-finalist in 2021"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Dave_Chisnall"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Joe Cullen",
+   "birthplace": "Bradford, England",
+   "bio": "Joe Cullen, \"the Rockstar\", made his World Championship debut in 2011. His first major title came at the 2022 Masters, where he beat Dave Chisnall 11–9, earning a Premier League place that year; he reached the final, missing a match dart before losing 11–10 to Michael van Gerwen. He has won twelve ranking titles, three on the European Tour.",
+   "highlights": [
+    "Won the 2022 Masters, beating Dave Chisnall 11–9",
+    "Runner-up in the 2022 Premier League",
+    "Won the 2019 European Darts Matchplay"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Joe_Cullen_(darts_player)"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Ritchie Edhouse",
+   "birthplace": "Basildon, Essex, England",
+   "bio": "Ritchie Edhouse, \"Madhouse\", won his first major title at the 2024 European Championship, beating Jermaine Wattimena 11–3 in the final. He has reached five ranking semi-finals on the Pro Tour, including the 2018 Dutch Darts Championship, and won three titles on the PDC Challenge Tour. Born in Basildon, Essex, he came through the Challenge Tour before his major breakthrough.",
+   "highlights": [
+    "Won the 2024 European Championship, beating Jermaine Wattimena 11–3",
+    "Three PDC Challenge Tour titles"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ritchie_Edhouse"
+   ],
+   "researchedAt": "2026-10-13"
+  }
+ ]
+}
