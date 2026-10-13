@@ -1,0 +1,282 @@
+{
+ "_comment": "Written by tennis/fetch_photos.py; keyed by player name.",
+ "photos": {
+  "Alex de Minaur": {
+   "url": "images/tennis/alex-de-minaur.jpg",
+   "credit": "Barcex",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Alex_de_Minaur_2024.jpg"
+  },
+  "Alexander Zverev": {
+   "url": "images/tennis/alexander-zverev.jpg",
+   "credit": "Rick Munroe",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Alexander_Zverev_(cropped).jpg"
+  },
+  "Alexandra Eala": {
+   "url": "images/tennis/alexandra-eala.jpg",
+   "credit": "Philippine Sports Commission",
+   "licence": "Public domain",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Ealas_and_Patrick_Gregorio_(cropped_Alexandra_Eala).jpg"
+  },
+  "Amanda Anisimova": {
+   "url": "images/tennis/amanda-anisimova.jpg",
+   "credit": "Hameltion",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Amanda_Anisimova_(2024_DC_Open)_05_(cropped4).jpg"
+  },
+  "Arthur Fils": {
+   "url": "images/tennis/arthur-fils.jpg",
+   "credit": "si.robi",
+   "licence": "CC BY-SA 2.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/2.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Fils_BOR22_(52083970501).jpg"
+  },
+  "Aryna Sabalenka": {
+   "url": "images/tennis/aryna-sabalenka.jpg",
+   "credit": "Rick Munroe",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Aryna_Sabalenka_Miami_Open_Final.jpg"
+  },
+  "Belinda Bencic": {
+   "url": "images/tennis/belinda-bencic.jpg",
+   "credit": "Hameltion",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Belinda_Bencic_(2023_DC_Open)_01a_(cropped).jpg"
+  },
+  "Ben Shelton": {
+   "url": "images/tennis/ben-shelton.jpg",
+   "credit": "Skyscraper2010",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Ben_Shelton,_media_conference,_Swiss_Indoors_Basel_2025_(cropped).jpg"
+  },
+  "Brandon Nakashima": {
+   "url": "images/tennis/brandon-nakashima.jpg",
+   "credit": "Hameltion",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Brandon_Nakashima_(2024_DC_Open)_01_(cropped).jpg"
+  },
+  "Carlos Alcaraz": {
+   "url": "images/tennis/carlos-alcaraz.jpg",
+   "credit": "Barcex",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Carlos_Alcaraz_-_240422_192324_(cropped).jpg"
+  },
+  "Coco Gauff": {
+   "url": "images/tennis/coco-gauff.jpg",
+   "credit": "Rick Munroe",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Coco_Gauff_Miami_Open.jpg"
+  },
+  "Daniil Medvedev": {
+   "url": "images/tennis/daniil-medvedev.jpg",
+   "credit": "Hameltion",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Daniil_Medvedev_(2025_DC_Open)_05_(cropped).jpg"
+  },
+  "Diana Shnaider": {
+   "url": "images/tennis/diana-shnaider.jpg",
+   "credit": "Hameltion",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Diana_Shnaider_(2023_US_Open)_05_(cropped).jpg"
+  },
+  "Elena Rybakina": {
+   "url": "images/tennis/elena-rybakina.jpg",
+   "credit": "Hameltion",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Elena_Rybakina_(2025_DC_Open)_11_(cropped).jpg"
+  },
+  "Elina Svitolina": {
+   "url": "images/tennis/elina-svitolina.jpg",
+   "credit": "Nuță Lucian",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Elina_Svitolina_at_Sports_Festival_2026.jpg"
+  },
+  "Elise Mertens": {
+   "url": "images/tennis/elise-mertens.jpg",
+   "credit": "Hameltion",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Elise_Mertens_(2024_DC_Open)_06_(cropped).jpg"
+  },
+  "Felix Auger-Aliassime": {
+   "url": "images/tennis/felix-auger-aliassime.jpg",
+   "credit": "Hameltion",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:F%C3%A9lix_Auger-Aliassime_(2023_DC_Open)_01_(cropped).jpg"
+  },
+  "Flavio Cobolli": {
+   "url": "images/tennis/flavio-cobolli.jpg",
+   "credit": "si.robi",
+   "licence": "CC BY-SA 2.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/2.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Cobolli_RGQ23_(52944096963).jpg"
+  },
+  "Frances Tiafoe": {
+   "url": "images/tennis/frances-tiafoe.jpg",
+   "credit": "Rickmunroe01",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:FrancesTiafo.jpg"
+  },
+  "Francisco Cerundolo": {
+   "url": "images/tennis/francisco-cerundolo.jpg",
+   "credit": "si.robi",
+   "licence": "CC BY-SA 2.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/2.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Cerundolo_MCM23_(21)_(52883527185).jpg"
+  },
+  "Iga Swiatek": {
+   "url": "images/tennis/iga-swiatek.jpg",
+   "credit": "Hameltion",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Iga_Swiatek_2023_Cropped_%2B_Retouched.jpg"
+  },
+  "Iva Jović": {
+   "url": "images/tennis/iva-jovic.jpg",
+   "credit": "Raffaele Di Buono",
+   "licence": "Public domain",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Iva_Jovic,_Roma_7_May_2026_(cropped_v2).jpg"
+  },
+  "Jakub Menšik": {
+   "url": "images/tennis/jakub-mensik.jpg",
+   "credit": "Hameltion",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Jakub_Men%C5%A1%C3%ADk_(2023_US_Open)_14_(cropped).jpg"
+  },
+  "Jannik Sinner": {
+   "url": "images/tennis/jannik-sinner.jpg",
+   "credit": "The White House",
+   "licence": "Public domain",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Jannik_Sinner_2025_US_Open.jpg"
+  },
+  "Jessica Pegula": {
+   "url": "images/tennis/jessica-pegula.jpg",
+   "credit": "Hameltion",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Jessica_Pegula_(2025_DC_Open)_01_(cropped).jpg"
+  },
+  "Jiri Lehečka": {
+   "url": "images/tennis/jiri-lehecka.jpg",
+   "credit": "si.robi",
+   "licence": "CC BY-SA 2.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/2.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Lehecka_MCM23_(5)_(52883527310).jpg"
+  },
+  "Karolina Muchova": {
+   "url": "images/tennis/karolina-muchova.jpg",
+   "credit": "Hameltion",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Karol%C3%ADna_Muchov%C3%A1_(2023_US_Open)_25_(cropped2).jpg"
+  },
+  "Learner Tien": {
+   "url": "images/tennis/learner-tien.jpg",
+   "credit": "Hameltion",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Learner_Tien_(2024_US_Open)_04.jpg"
+  },
+  "Linda Noskova": {
+   "url": "images/tennis/linda-noskova.jpg",
+   "credit": "Hameltion",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Linda_Noskov%C3%A1_(2023_US_Open)_01_(cropped2).jpg"
+  },
+  "Madison Keys": {
+   "url": "images/tennis/madison-keys.jpg",
+   "credit": "Hameltion",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Madison_Keys_(2023_DC_Open)_01a_(cropped2).jpg"
+  },
+  "Marta Kostyuk": {
+   "url": "images/tennis/marta-kostyuk.jpg",
+   "credit": "Hameltion",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Marta_Kostyuk_(2023_US_Open)_20_(cropped).jpg"
+  },
+  "Mirra Andreeva": {
+   "url": "images/tennis/mirra-andreeva.jpg",
+   "credit": "si.robi",
+   "licence": "CC BY-SA 2.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/2.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Mirra_Andreeva_WMQ23_(cropped).jpg"
+  },
+  "Naomi Osaka": {
+   "url": "images/tennis/naomi-osaka.jpg",
+   "credit": "AndrewHenkelman",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:NaomiOsaka-smile-2020_(cropped_tight).png"
+  },
+  "Novak Djokovic": {
+   "url": "images/tennis/novak-djokovic.jpg",
+   "credit": "Andymiah",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Novak_Djokovic_Paris_2024_Olympic_Games_(cropped).jpg"
+  },
+  "Rafael Jodar": {
+   "url": "images/tennis/rafael-jodar.jpg",
+   "credit": "Crosscourt View",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Rafael_J%C3%B3dar_Roland_Garros_2026_(cropped).jpg"
+  },
+  "Sorana Cirstea": {
+   "url": "images/tennis/sorana-cirstea.jpg",
+   "credit": "Nuță Lucian from Cluj-Napoca, Romania",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Transylvania_Open_2026_Final_-_Sorana_C%C3%AErstea_vs_Emma_R%C4%83ducanu_6%E2%80%930,_6%E2%80%932_07.02.2026_(cropped2).jpg"
+  },
+  "Taylor Fritz": {
+   "url": "images/tennis/taylor-fritz.jpg",
+   "credit": "Rickmunroe01",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Taylor_Fritz_-_Delray_Beach_Open_Final_Round_(cropped).jpg"
+  },
+  "Tommy Paul": {
+   "url": "images/tennis/tommy-paul.jpg",
+   "credit": "Gatorfan252525",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Tommy_Paul_at_the_2026_Delray_Beach_Open.jpg"
+  },
+  "Valentin Vacherot": {
+   "url": "images/tennis/valentin-vacherot.jpg",
+   "credit": "Skyscraper2010",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Valentin_Vacherot_2025_Swiss_Indoors.jpg"
+  },
+  "Victoria Mboko": {
+   "url": "images/tennis/victoria-mboko.jpg",
+   "credit": "Hameltion",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Victoria_Mboko_(2025_DC_Open)_01_(cropped).jpg"
+  }
+ }
+}

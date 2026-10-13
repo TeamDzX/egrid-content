@@ -1,0 +1,560 @@
+{
+ "_comment": "Grand Slams, ATP Masters 1000, WTA 1000, ATP Finals and WTA Finals from the current week to the 2027 Finals; hand-maintained, facts only. start is the first main-draw day (qualifying excluded); utcOffset is the venue's offset during the event (DST included). Sources: Wikipedia '2026 ATP Tour', '2026 WTA Tour' and each 2026 event and singles-draw article (dates, venues, champions); ATP '2027 ATP Tour Calendar' PDF of 14 Jan 2026 (start weekdays from its footnotes); WTA '2027 Calendar' PDF of 1 Oct 2026 (weeks); WBTV 16 Sep 2026 for the 2027 WTA Finals dates. 2027 dates not stated to the day are provisional (see README). defendingChampion is the previous edition's singles winner; for 2027 events whose 2026 edition is still to be played it is the 2025 winner until updated. Player names are spelt as the data feed spells them. bsdId is the BSD singles tournament id per draw (BSD has no dates or venues). 2027 Canadian Open: men in Toronto, women in Montreal, one entry each.",
+ "season": "2026-27",
+ "events": [
+  {
+   "name": "Shanghai Masters",
+   "type": "ATP Masters 1000",
+   "start": "2026-10-07",
+   "end": "2026-10-18",
+   "venue": "Qizhong Forest Sports City Arena",
+   "city": "Shanghai",
+   "country": "China",
+   "surface": "Hard",
+   "utcOffset": 8,
+   "draws": [
+    {
+     "key": "men",
+     "name": "Men's Singles",
+     "bsdId": 175,
+     "defendingChampion": "Valentin Vacherot"
+    }
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_Rolex_Shanghai_Masters"
+  },
+  {
+   "name": "Wuhan Open",
+   "type": "WTA 1000",
+   "start": "2026-10-12",
+   "end": "2026-10-18",
+   "venue": "Optics Valley International Tennis Center",
+   "city": "Wuhan",
+   "country": "China",
+   "surface": "Hard",
+   "utcOffset": 8,
+   "draws": [
+    {
+     "key": "women",
+     "name": "Women's Singles",
+     "bsdId": 177,
+     "defendingChampion": "Coco Gauff"
+    }
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_Wuhan_Open"
+  },
+  {
+   "name": "Paris Masters",
+   "type": "ATP Masters 1000",
+   "start": "2026-11-02",
+   "end": "2026-11-08",
+   "venue": "La Défense Arena",
+   "city": "Nanterre",
+   "country": "France",
+   "surface": "Hard",
+   "utcOffset": 1,
+   "draws": [
+    {
+     "key": "men",
+     "name": "Men's Singles",
+     "bsdId": 196,
+     "defendingChampion": "Jannik Sinner"
+    }
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_Rolex_Paris_Masters"
+  },
+  {
+   "name": "WTA Finals",
+   "type": "WTA Finals",
+   "start": "2026-11-08",
+   "end": "2026-11-15",
+   "venue": "Indian Wells Tennis Garden",
+   "city": "Indian Wells",
+   "country": "United States",
+   "surface": "Hard",
+   "utcOffset": -8,
+   "draws": [
+    {
+     "key": "women",
+     "name": "Women's Singles",
+     "bsdId": 204,
+     "defendingChampion": "Elena Rybakina"
+    }
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_WTA_Finals"
+  },
+  {
+   "name": "ATP Finals",
+   "type": "ATP Finals",
+   "start": "2026-11-15",
+   "end": "2026-11-22",
+   "venue": "Inalpi Arena",
+   "city": "Turin",
+   "country": "Italy",
+   "surface": "Hard",
+   "utcOffset": 1,
+   "draws": [
+    {
+     "key": "men",
+     "name": "Men's Singles",
+     "bsdId": 209,
+     "defendingChampion": "Jannik Sinner"
+    }
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_ATP_Finals"
+  },
+  {
+   "name": "Australian Open",
+   "type": "Grand Slam",
+   "start": "2027-01-17",
+   "end": "2027-01-31",
+   "venue": "Melbourne Park",
+   "city": "Melbourne",
+   "country": "Australia",
+   "surface": "Hard",
+   "utcOffset": 11,
+   "draws": [
+    {
+     "key": "men",
+     "name": "Men's Singles",
+     "bsdId": 14,
+     "defendingChampion": "Carlos Alcaraz"
+    },
+    {
+     "key": "women",
+     "name": "Women's Singles",
+     "bsdId": 15,
+     "defendingChampion": "Elena Rybakina"
+    }
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Australian_Open"
+  },
+  {
+   "name": "Qatar Open",
+   "type": "WTA 1000",
+   "start": "2027-02-07",
+   "end": "2027-02-13",
+   "venue": "Khalifa International Tennis and Squash Complex",
+   "city": "Doha",
+   "country": "Qatar",
+   "surface": "Hard",
+   "utcOffset": 3,
+   "draws": [
+    {
+     "key": "women",
+     "name": "Women's Singles",
+     "bsdId": 27,
+     "defendingChampion": "Karolina Muchova"
+    }
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/WTA_Qatar_Open"
+  },
+  {
+   "name": "Dubai Tennis Championships",
+   "type": "WTA 1000",
+   "start": "2027-02-14",
+   "end": "2027-02-20",
+   "venue": "Aviation Club Tennis Centre",
+   "city": "Dubai",
+   "country": "United Arab Emirates",
+   "surface": "Hard",
+   "utcOffset": 4,
+   "draws": [
+    {
+     "key": "women",
+     "name": "Women's Singles",
+     "bsdId": 33,
+     "defendingChampion": "Jessica Pegula"
+    }
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Dubai_Tennis_Championships"
+  },
+  {
+   "name": "Indian Wells Open",
+   "type": "ATP Masters 1000 / WTA 1000",
+   "start": "2027-03-03",
+   "end": "2027-03-14",
+   "venue": "Indian Wells Tennis Garden",
+   "city": "Indian Wells",
+   "country": "United States",
+   "surface": "Hard",
+   "utcOffset": -8,
+   "draws": [
+    {
+     "key": "men",
+     "name": "Men's Singles",
+     "bsdId": 42,
+     "defendingChampion": "Jannik Sinner"
+    },
+    {
+     "key": "women",
+     "name": "Women's Singles",
+     "bsdId": 41,
+     "defendingChampion": "Aryna Sabalenka"
+    }
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Indian_Wells_Open"
+  },
+  {
+   "name": "Miami Open",
+   "type": "ATP Masters 1000 / WTA 1000",
+   "start": "2027-03-16",
+   "end": "2027-03-28",
+   "venue": "Hard Rock Stadium",
+   "city": "Miami Gardens",
+   "country": "United States",
+   "surface": "Hard",
+   "utcOffset": -4,
+   "draws": [
+    {
+     "key": "men",
+     "name": "Men's Singles",
+     "bsdId": 45,
+     "defendingChampion": "Jannik Sinner"
+    },
+    {
+     "key": "women",
+     "name": "Women's Singles",
+     "bsdId": 44,
+     "defendingChampion": "Aryna Sabalenka"
+    }
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Miami_Open_(tennis)"
+  },
+  {
+   "name": "Monte-Carlo Masters",
+   "type": "ATP Masters 1000",
+   "start": "2027-04-04",
+   "end": "2027-04-11",
+   "venue": "Monte Carlo Country Club",
+   "city": "Roquebrune-Cap-Martin",
+   "country": "France",
+   "surface": "Clay",
+   "utcOffset": 2,
+   "draws": [
+    {
+     "key": "men",
+     "name": "Men's Singles",
+     "bsdId": 56,
+     "defendingChampion": "Jannik Sinner"
+    }
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Monte-Carlo_Masters"
+  },
+  {
+   "name": "Madrid Open",
+   "type": "ATP Masters 1000 / WTA 1000",
+   "start": "2027-04-20",
+   "end": "2027-05-02",
+   "venue": "Caja Mágica",
+   "city": "Madrid",
+   "country": "Spain",
+   "surface": "Clay",
+   "utcOffset": 2,
+   "draws": [
+    {
+     "key": "men",
+     "name": "Men's Singles",
+     "bsdId": 63,
+     "defendingChampion": "Jannik Sinner"
+    },
+    {
+     "key": "women",
+     "name": "Women's Singles",
+     "bsdId": 64,
+     "defendingChampion": "Marta Kostyuk"
+    }
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Madrid_Open_(tennis)"
+  },
+  {
+   "name": "Italian Open",
+   "type": "ATP Masters 1000 / WTA 1000",
+   "start": "2027-05-04",
+   "end": "2027-05-16",
+   "venue": "Foro Italico",
+   "city": "Rome",
+   "country": "Italy",
+   "surface": "Clay",
+   "utcOffset": 2,
+   "draws": [
+    {
+     "key": "men",
+     "name": "Men's Singles",
+     "bsdId": 67,
+     "defendingChampion": "Jannik Sinner"
+    },
+    {
+     "key": "women",
+     "name": "Women's Singles",
+     "bsdId": 68,
+     "defendingChampion": "Elina Svitolina"
+    }
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Italian_Open_(tennis)"
+  },
+  {
+   "name": "French Open",
+   "type": "Grand Slam",
+   "start": "2027-05-23",
+   "end": "2027-06-06",
+   "venue": "Stade Roland Garros",
+   "city": "Paris",
+   "country": "France",
+   "surface": "Clay",
+   "utcOffset": 2,
+   "draws": [
+    {
+     "key": "men",
+     "name": "Men's Singles",
+     "bsdId": 76,
+     "defendingChampion": "Alexander Zverev"
+    },
+    {
+     "key": "women",
+     "name": "Women's Singles",
+     "bsdId": 77,
+     "defendingChampion": "Mirra Andreeva"
+    }
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/French_Open"
+  },
+  {
+   "name": "Wimbledon",
+   "type": "Grand Slam",
+   "start": "2027-06-28",
+   "end": "2027-07-11",
+   "venue": "All England Lawn Tennis and Croquet Club",
+   "city": "London",
+   "country": "United Kingdom",
+   "surface": "Grass",
+   "utcOffset": 1,
+   "draws": [
+    {
+     "key": "men",
+     "name": "Men's Singles",
+     "bsdId": 101,
+     "defendingChampion": "Jannik Sinner"
+    },
+    {
+     "key": "women",
+     "name": "Women's Singles",
+     "bsdId": 102,
+     "defendingChampion": "Linda Noskova"
+    }
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Wimbledon_Championships"
+  },
+  {
+   "name": "Canadian Open (Montreal)",
+   "type": "WTA 1000",
+   "start": "2027-08-01",
+   "end": "2027-08-12",
+   "venue": "IGA Stadium",
+   "city": "Montreal",
+   "country": "Canada",
+   "surface": "Hard",
+   "utcOffset": -4,
+   "draws": [
+    {
+     "key": "women",
+     "name": "Women's Singles",
+     "bsdId": 126,
+     "defendingChampion": "Iga Swiatek"
+    }
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Canadian_Open_(tennis)"
+  },
+  {
+   "name": "Canadian Open (Toronto)",
+   "type": "ATP Masters 1000",
+   "start": "2027-08-01",
+   "end": "2027-08-12",
+   "venue": "Sobeys Stadium",
+   "city": "Toronto",
+   "country": "Canada",
+   "surface": "Hard",
+   "utcOffset": -4,
+   "draws": [
+    {
+     "key": "men",
+     "name": "Men's Singles",
+     "bsdId": 125,
+     "defendingChampion": "Ben Shelton"
+    }
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Canadian_Open_(tennis)"
+  },
+  {
+   "name": "Cincinnati Open",
+   "type": "ATP Masters 1000 / WTA 1000",
+   "start": "2027-08-12",
+   "end": "2027-08-22",
+   "venue": "Lindner Family Tennis Center",
+   "city": "Mason",
+   "country": "United States",
+   "surface": "Hard",
+   "utcOffset": -4,
+   "draws": [
+    {
+     "key": "men",
+     "name": "Men's Singles",
+     "bsdId": 130,
+     "defendingChampion": "Arthur Fils"
+    },
+    {
+     "key": "women",
+     "name": "Women's Singles",
+     "bsdId": 131,
+     "defendingChampion": "Coco Gauff"
+    }
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Cincinnati_Open"
+  },
+  {
+   "name": "US Open",
+   "type": "Grand Slam",
+   "start": "2027-08-29",
+   "end": "2027-09-12",
+   "venue": "USTA Billie Jean King National Tennis Center",
+   "city": "New York City",
+   "country": "United States",
+   "surface": "Hard",
+   "utcOffset": -4,
+   "draws": [
+    {
+     "key": "men",
+     "name": "Men's Singles",
+     "bsdId": 135,
+     "defendingChampion": "Alexander Zverev"
+    },
+    {
+     "key": "women",
+     "name": "Women's Singles",
+     "bsdId": 136,
+     "defendingChampion": "Elena Rybakina"
+    }
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/US_Open_(tennis)"
+  },
+  {
+   "name": "China Open",
+   "type": "WTA 1000",
+   "start": "2027-09-29",
+   "end": "2027-10-10",
+   "venue": "National Tennis Center",
+   "city": "Beijing",
+   "country": "China",
+   "surface": "Hard",
+   "utcOffset": 8,
+   "draws": [
+    {
+     "key": "women",
+     "name": "Women's Singles",
+     "bsdId": 167,
+     "defendingChampion": "Qinwen Zheng"
+    }
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/China_Open_(tennis)"
+  },
+  {
+   "name": "Shanghai Masters",
+   "type": "ATP Masters 1000",
+   "start": "2027-10-06",
+   "end": "2027-10-17",
+   "venue": "Qizhong Forest Sports City Arena",
+   "city": "Shanghai",
+   "country": "China",
+   "surface": "Hard",
+   "utcOffset": 8,
+   "draws": [
+    {
+     "key": "men",
+     "name": "Men's Singles",
+     "bsdId": 175,
+     "defendingChampion": "Valentin Vacherot"
+    }
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Shanghai_Masters_(tennis)"
+  },
+  {
+   "name": "Wuhan Open",
+   "type": "WTA 1000",
+   "start": "2027-10-11",
+   "end": "2027-10-17",
+   "venue": "Optics Valley International Tennis Center",
+   "city": "Wuhan",
+   "country": "China",
+   "surface": "Hard",
+   "utcOffset": 8,
+   "draws": [
+    {
+     "key": "women",
+     "name": "Women's Singles",
+     "bsdId": 177,
+     "defendingChampion": "Coco Gauff"
+    }
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Wuhan_Open"
+  },
+  {
+   "name": "Paris Masters",
+   "type": "ATP Masters 1000",
+   "start": "2027-11-01",
+   "end": "2027-11-07",
+   "venue": "La Défense Arena",
+   "city": "Nanterre",
+   "country": "France",
+   "surface": "Hard",
+   "utcOffset": 1,
+   "draws": [
+    {
+     "key": "men",
+     "name": "Men's Singles",
+     "bsdId": 196,
+     "defendingChampion": "Jannik Sinner"
+    }
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Paris_Masters"
+  },
+  {
+   "name": "WTA Finals",
+   "type": "WTA Finals",
+   "start": "2027-11-10",
+   "end": "2027-11-14",
+   "venue": "Spectrum Center",
+   "city": "Charlotte",
+   "country": "United States",
+   "surface": "Hard",
+   "utcOffset": -5,
+   "draws": [
+    {
+     "key": "women",
+     "name": "Women's Singles",
+     "bsdId": 204,
+     "defendingChampion": "Elena Rybakina"
+    }
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/WTA_Finals"
+  },
+  {
+   "name": "ATP Finals",
+   "type": "ATP Finals",
+   "start": "2027-11-14",
+   "end": "2027-11-21",
+   "venue": "Inalpi Arena",
+   "city": "Turin",
+   "country": "Italy",
+   "surface": "Hard",
+   "utcOffset": 1,
+   "draws": [
+    {
+     "key": "men",
+     "name": "Men's Singles",
+     "bsdId": 209,
+     "defendingChampion": "Jannik Sinner"
+    }
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/ATP_Finals"
+  }
+ ]
+}

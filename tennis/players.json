@@ -1,0 +1,780 @@
+{
+ "_comment": "Hand-researched for the ATP and WTA singles top 20 as of 13 Oct 2026; names are spelt exactly as the private data feed spells them (the join key), so some lack diacritics that the bios use. Bios and highlights are written only from each player's English Wikipedia article (in sources); no live ranking positions or points, which go stale (career-high rankings in highlights are dated facts). No social accounts yet: none verified (see VERIFIED.md). build_tennis.py merges these by name.",
+ "players": [
+  {
+   "name": "Jannik Sinner",
+   "tour": "ATP",
+   "nationality": "Italy",
+   "born": "2001-08-16",
+   "birthplace": "Innichen, South Tyrol, Italy",
+   "bio": "Jannik Sinner became the first Italian to reach world number one in 2024, the year he won his first major at the Australian Open and added the US Open and ATP Finals. He retained the Australian Open in 2025, won Wimbledon that year and defended it in 2026. In 2026 he won the first five Masters 1000 events of the season, becoming the youngest player to win all nine Masters 1000 titles.",
+   "highlights": [
+    "Four-time major champion: Australian Open 2024 and 2025, US Open 2024, Wimbledon 2025 and 2026",
+    "ATP Finals champion in 2024 and 2025",
+    "Completed the Career Golden Masters at the 2026 Italian Open",
+    "Year-end world number one in 2024",
+    "Davis Cup winner with Italy in 2023 and 2024"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Jannik_Sinner",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Jannik_Sinner"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Alexander Zverev",
+   "tour": "ATP",
+   "nationality": "Germany",
+   "born": "1997-04-20",
+   "birthplace": "Hamburg, Germany",
+   "bio": "Alexander Zverev won Olympic gold in Tokyo in 2021 and the ATP Finals in 2018 and 2021, but lost his first three major finals. He broke through in 2026, winning the French Open and then the US Open, where he beat Ben Shelton in the final. He has also won seven Masters 1000 titles.",
+   "highlights": [
+    "French Open and US Open champion in 2026",
+    "Olympic singles gold medallist at Tokyo 2020",
+    "ATP Finals champion in 2018 and 2021",
+    "Seven Masters 1000 titles",
+    "Boys' singles champion at the 2014 Australian Open"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Alexander_Zverev",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Alexander_Zverev"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Carlos Alcaraz",
+   "tour": "ATP",
+   "nationality": "Spain",
+   "born": "2003-05-05",
+   "birthplace": "El Palmar, Murcia, Spain",
+   "bio": "Carlos Alcaraz won the 2022 US Open aged 19 and became the youngest man to reach world number one in the Open Era. He has since won Wimbledon twice, the French Open twice and a second US Open, and his 2026 Australian Open title made him the youngest man to complete the career Grand Slam. A wrist injury kept him out of the 2026 clay and grass seasons, and he returned at the US Open.",
+   "highlights": [
+    "Seven major titles, including all four majors",
+    "Youngest man to complete the career Grand Slam (2026 Australian Open)",
+    "Youngest year-end world number one in ATP history (2022); year-end number one again in 2025",
+    "Olympic silver medallist at Paris 2024",
+    "Next Gen ATP Finals champion in 2021"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Carlos_Alcaraz",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Carlos_Alcaraz"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Ben Shelton",
+   "tour": "ATP",
+   "nationality": "United States",
+   "born": "2002-10-09",
+   "birthplace": "Atlanta, Georgia, United States",
+   "bio": "Ben Shelton played college tennis at the University of Florida, winning the NCAA singles title in 2022 before turning professional. He has won two Masters 1000 titles, both at the Canadian Open, in 2025 and 2026. He reached his first major final at the 2026 US Open, losing to Alexander Zverev, and has also played in the semi-finals of the Australian Open.",
+   "highlights": [
+    "Runner-up at the 2026 US Open",
+    "Canadian Open champion in 2025 and 2026",
+    "Australian Open semi-finalist in 2025",
+    "Career-high ranking of world number four (2026)"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Ben_Shelton",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ben_Shelton"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Felix Auger-Aliassime",
+   "tour": "ATP",
+   "nationality": "Canada",
+   "born": "2000-08-08",
+   "birthplace": "Montreal, Quebec, Canada",
+   "bio": "Félix Auger-Aliassime won the boys' singles at the 2016 US Open and became the youngest player to win a match on the ATP Challenger Tour, aged 14. He helped Canada win the ATP Cup and the Davis Cup in 2022, the year he won four tour titles. By reaching the 2026 French Open quarter-finals he became the first Canadian to reach the last eight at all four majors.",
+   "highlights": [
+    "Davis Cup and ATP Cup winner with Canada in 2022",
+    "US Open semi-finalist in 2021 and 2025",
+    "Olympic bronze medallist in mixed doubles at Paris 2024",
+    "Career-high ranking of world number four (2026)"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/F%C3%A9lix_Auger-Aliassime",
+   "sources": [
+    "https://en.wikipedia.org/wiki/F%C3%A9lix_Auger-Aliassime"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Daniil Medvedev",
+   "tour": "ATP",
+   "nationality": "Russia",
+   "born": "1996-02-11",
+   "birthplace": "Moscow, Russia",
+   "bio": "Daniil Medvedev won the 2021 US Open, beating Novak Djokovic in the final, and became world number one in February 2022, the first man outside the Big Four to hold the ranking in almost two decades. He also won the ATP Finals in 2020 and has reached six major finals. After a title drought from 2023 to 2025, he won in Brisbane and Dubai early in 2026.",
+   "highlights": [
+    "US Open champion in 2021",
+    "Former world number one (2022)",
+    "ATP Finals champion in 2020",
+    "Six-time major finalist",
+    "Davis Cup winner with Russia in 2021"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Daniil_Medvedev",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Daniil_Medvedev"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Flavio Cobolli",
+   "tour": "ATP",
+   "nationality": "Italy",
+   "born": "2002-05-06",
+   "birthplace": "Florence, Italy",
+   "bio": "Flavio Cobolli, from Florence, won the Davis Cup with Italy in 2025. His breakthrough came at the 2026 French Open, where he reached his first major final and lost to Alexander Zverev in five sets, which took him into the top 10 for the first time. He has also reached the Wimbledon quarter-finals twice.",
+   "highlights": [
+    "Runner-up at the 2026 French Open",
+    "Davis Cup winner with Italy in 2025",
+    "Wimbledon quarter-finalist in 2025 and 2026",
+    "US Open mixed doubles runner-up in 2026 with Belinda Bencic"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Flavio_Cobolli",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Flavio_Cobolli"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Novak Djokovic",
+   "tour": "ATP",
+   "nationality": "Serbia",
+   "born": "1987-05-22",
+   "birthplace": "Belgrade, Yugoslavia (now Serbia)",
+   "bio": "Novak Djokovic holds the men's records for major singles titles, with 24, and for weeks at world number one. He has won the Australian Open ten times, Wimbledon seven times, the US Open four times and the French Open three times, and completed his set of honours with Olympic gold in Paris in 2024. In 2026 he reached the Australian Open final at 38, the oldest man to do so.",
+   "highlights": [
+    "24 major singles titles, a men's record",
+    "Record 428 weeks as world number one",
+    "Record seven ATP Finals titles and 40 Masters 1000 titles",
+    "Olympic singles gold medallist at Paris 2024",
+    "Davis Cup winner with Serbia in 2010"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Novak_Djokovic",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Novak_Djokovic"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Alex de Minaur",
+   "tour": "ATP",
+   "nationality": "Australia",
+   "born": "1999-02-17",
+   "birthplace": "Sydney, New South Wales, Australia",
+   "bio": "Alex de Minaur, born in Sydney and raised partly in Spain, is Australia's leading men's player and known for his speed around the court. He has won eleven ATP titles and reached seven major quarter-finals, including the Australian Open in 2025 and 2026. He reached his career-high ranking of world number five in 2026.",
+   "highlights": [
+    "Eleven ATP Tour singles titles",
+    "Quarter-finalist at all four majors",
+    "Davis Cup runner-up with Australia in 2022 and 2023",
+    "Career-high ranking of world number five (2026)"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Alex_de_Minaur",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Alex_de_Minaur"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Frances Tiafoe",
+   "tour": "ATP",
+   "nationality": "United States",
+   "born": "1998-01-20",
+   "birthplace": "Hyattsville, Maryland, United States",
+   "bio": "Frances Tiafoe, the son of immigrants from Sierra Leone, learned the game at the training centre in Maryland where his father worked. He won the Orange Bowl at 15, the youngest boys' champion in its history. He has reached the US Open semi-finals three times, in 2022, 2024 and 2026, and has won ATP titles on clay, grass and hard courts.",
+   "highlights": [
+    "US Open semi-finalist in 2022, 2024 and 2026",
+    "Four ATP Tour singles titles, on all three surfaces",
+    "Quarter-finalist at the 2019 Australian Open and 2025 French Open",
+    "Career-high ranking of world number eight (2026)"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Frances_Tiafoe",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Frances_Tiafoe"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Arthur Fils",
+   "tour": "ATP",
+   "nationality": "France",
+   "born": "2004-06-12",
+   "birthplace": "Courcouronnes, France",
+   "bio": "Arthur Fils is France's leading men's player. After a back injury and a hip stress fracture interrupted his 2026 season, he won his first Masters 1000 title at the Cincinnati Open and entered the top 10. He has five ATP singles titles, including the 2026 Barcelona Open.",
+   "highlights": [
+    "Cincinnati Open champion in 2026",
+    "Barcelona Open champion in 2026",
+    "Five ATP Tour singles titles",
+    "Career-high ranking of world number nine (2026)"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Arthur_Fils",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Arthur_Fils"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Taylor Fritz",
+   "tour": "ATP",
+   "nationality": "United States",
+   "born": "1997-10-28",
+   "birthplace": "Rancho Santa Fe, California, United States",
+   "bio": "Taylor Fritz reached his first ATP final in only his third tour event, at Memphis in 2016. He won the 2022 Indian Wells Masters and in 2024 was runner-up at both the US Open and the ATP Finals, reaching a career-high world number four. He won Olympic bronze in men's doubles with Tommy Paul at Paris 2024.",
+   "highlights": [
+    "Runner-up at the 2024 US Open and 2024 ATP Finals",
+    "Indian Wells champion in 2022",
+    "Wimbledon semi-finalist in 2025",
+    "Olympic bronze medallist in doubles at Paris 2024",
+    "Career-high ranking of world number four (2024)"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Taylor_Fritz",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Taylor_Fritz"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Rafael Jodar",
+   "tour": "ATP",
+   "nationality": "Spain",
+   "born": "2006-09-17",
+   "birthplace": "Madrid, Spain",
+   "bio": "Rafael Jódar made his major debut as a qualifier at the 2026 Australian Open and rose from outside the top 100 into the top 15 in the same season. He won his first ATP title at the Grand Prix Hassan II in Marrakesh in April 2026 and reached the French Open quarter-finals soon after.",
+   "highlights": [
+    "Grand Prix Hassan II champion in 2026, his first ATP title",
+    "Quarter-finalist at the 2026 French Open",
+    "Career-high ranking of world number 11 (2026)"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Rafael_J%C3%B3dar",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Rafael_J%C3%B3dar"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Valentin Vacherot",
+   "tour": "ATP",
+   "nationality": "Monaco",
+   "born": "1998-11-16",
+   "birthplace": "Monaco",
+   "bio": "Valentin Vacherot played college tennis at Texas A&M and switched from France to represent Monaco in 2022. In 2025 he won the Shanghai Masters as a qualifier, becoming the first Monégasque player to win an ATP title and the lowest-ranked Masters 1000 champion since the series began. He is the highest-ranked Monégasque singles player in history.",
+   "highlights": [
+    "Shanghai Masters champion in 2025",
+    "First Monégasque player to win an ATP title",
+    "Career-high ranking of world number 14 (2026)"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Valentin_Vacherot",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Valentin_Vacherot"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Jakub Menšik",
+   "tour": "ATP",
+   "nationality": "Czech Republic",
+   "born": "2005-09-01",
+   "birthplace": "Prostějov, Czech Republic",
+   "bio": "Jakub Menšík won his first ATP title at the 2025 Miami Open, a Masters 1000 event, beating Novak Djokovic in the final. In 2026 he reached his first major semi-final at the French Open and won the US Open mixed doubles with Karolína Muchová.",
+   "highlights": [
+    "Miami Open champion in 2025",
+    "French Open semi-finalist in 2026",
+    "US Open mixed doubles champion in 2026 with Karolína Muchová",
+    "Career-high ranking of world number 12 (2026)"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Jakub_Men%C5%A1%C3%ADk",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Jakub_Men%C5%A1%C3%ADk"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Jiri Lehečka",
+   "tour": "ATP",
+   "nationality": "Czech Republic",
+   "born": "2001-11-08",
+   "birthplace": "Mladá Boleslav, Czech Republic",
+   "bio": "Jiří Lehečka reached the Australian Open quarter-finals in 2023 and the US Open quarter-finals in 2025. In 2026 he reached his first Masters 1000 final at the Miami Open without being broken before losing to Jannik Sinner. He has won two ATP singles titles.",
+   "highlights": [
+    "Runner-up at the 2026 Miami Open",
+    "Quarter-finalist at the 2023 Australian Open and 2025 US Open",
+    "Two ATP Tour singles titles",
+    "Career-high ranking of world number 12 (2026)"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Ji%C5%99%C3%AD_Lehe%C4%8Dka",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ji%C5%99%C3%AD_Lehe%C4%8Dka"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Learner Tien",
+   "tour": "ATP",
+   "nationality": "United States",
+   "born": "2005-12-02",
+   "birthplace": "Irvine, California, United States",
+   "bio": "Learner Tien, a left-hander from Irvine, California, won the Next Gen ATP Finals in 2025. At the 2026 Australian Open he beat Daniil Medvedev for the second year running and reached the quarter-finals, the youngest man to do so there since 2015. He won his first clay-court title in Geneva in May 2026.",
+   "highlights": [
+    "Next Gen ATP Finals champion in 2025",
+    "Quarter-finalist at the 2026 Australian Open",
+    "Geneva Open champion in 2026",
+    "Career-high ranking of world number 12 (2026)"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Learner_Tien",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Learner_Tien"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Tommy Paul",
+   "tour": "ATP",
+   "nationality": "United States",
+   "born": "1997-05-17",
+   "birthplace": "Voorhees Township, New Jersey, United States",
+   "bio": "Tommy Paul won the boys' singles at the 2015 French Open and reached his first major semi-final at the 2023 Australian Open. He won Olympic bronze in men's doubles with Taylor Fritz at Paris 2024 and reached a career-high world number eight in 2025. In 2026 he won his first clay-court title at the US Men's Clay Court Championships in Houston.",
+   "highlights": [
+    "Australian Open semi-finalist in 2023",
+    "Olympic bronze medallist in doubles at Paris 2024",
+    "Five ATP Tour singles titles",
+    "Career-high ranking of world number eight (2025)"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Tommy_Paul_(tennis)",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Tommy_Paul_(tennis)"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Brandon Nakashima",
+   "tour": "ATP",
+   "nationality": "United States",
+   "born": "2001-08-03",
+   "birthplace": "San Diego, California, United States",
+   "bio": "Brandon Nakashima, from San Diego, won the Next Gen ATP Finals in 2022. In 2026 he reached his first Masters 1000 final at the Canadian Open and rose to a career-high world number 16. He has one ATP singles title, won in San Diego in 2022.",
+   "highlights": [
+    "Next Gen ATP Finals champion in 2022",
+    "Canadian Open finalist in 2026",
+    "Wimbledon fourth round in 2022",
+    "Career-high ranking of world number 16 (2026)"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Brandon_Nakashima",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Brandon_Nakashima"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Francisco Cerundolo",
+   "tour": "ATP",
+   "nationality": "Argentina",
+   "born": "1998-08-13",
+   "birthplace": "Buenos Aires, Argentina",
+   "bio": "Francisco Cerúndolo is Argentina's leading men's player and the elder brother of fellow professional Juan Manuel Cerúndolo. He reached the Miami Open semi-finals in his first Masters 1000 main draw in 2022 and won his first ATP title in Båstad the same year. In 2026 he won the Queen's Club Championships, the biggest title of his career.",
+   "highlights": [
+    "Queen's Club champion in 2026",
+    "Five ATP Tour singles titles",
+    "Miami Open semi-finalist in 2022",
+    "Career-high ranking of world number 18 (2025)"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Francisco_Cer%C3%BAndolo",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Francisco_Cer%C3%BAndolo"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Elena Rybakina",
+   "tour": "WTA",
+   "nationality": "Kazakhstan",
+   "born": "1999-06-17",
+   "birthplace": "Moscow, Russia",
+   "bio": "Elena Rybakina was born in Moscow and switched from Russia to Kazakhstan in 2018. She won Wimbledon in 2022, becoming Kazakhstan's first major champion, and is known for a powerful serve and a calm manner on court. After winning the 2025 WTA Finals she took the Australian Open and US Open titles in 2026 and reached world number one for the first time.",
+   "highlights": [
+    "Wimbledon champion 2022",
+    "Australian Open and US Open champion 2026",
+    "Won the WTA Finals in 2025",
+    "First reached world No. 1 in September 2026",
+    "First Kazakhstani player to win a major"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Elena_Rybakina",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Elena_Rybakina"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Aryna Sabalenka",
+   "tour": "WTA",
+   "nationality": "Belarus",
+   "born": "1998-05-05",
+   "birthplace": "Minsk, Belarus",
+   "bio": "Aryna Sabalenka has won four major singles titles: the Australian Open in 2023 and 2024 and the US Open in 2024 and 2025. She first became world number one in 2023 and finished 2024 and 2025 as year-end number one. Before concentrating on singles she was also world number one in doubles, winning two majors with Elise Mertens.",
+   "highlights": [
+    "Australian Open champion 2023 and 2024",
+    "US Open champion 2024 and 2025",
+    "Year-end world No. 1 in 2024 and 2025",
+    "Won Indian Wells and Miami back to back in 2026",
+    "Laureus World Sportswoman of the Year 2026"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Aryna_Sabalenka",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Aryna_Sabalenka"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Mirra Andreeva",
+   "tour": "WTA",
+   "nationality": "Russia",
+   "born": "2007-04-29",
+   "birthplace": "Krasnoyarsk, Russia",
+   "bio": "Mirra Andreeva reached the fourth round at Wimbledon as a 16-year-old qualifier in 2023 and a French Open semi-final a year later. In 2025 she won back-to-back WTA 1000 titles in Dubai and Indian Wells, and in 2026 she won her first major at the French Open. She also took Olympic doubles silver in Paris in 2024 with Diana Shnaider.",
+   "highlights": [
+    "French Open champion 2026",
+    "Won Dubai and Indian Wells (WTA 1000) in 2025",
+    "Olympic silver medallist in doubles, Paris 2024",
+    "Career-high ranking of world No. 3 (October 2026)"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Mirra_Andreeva",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Mirra_Andreeva"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Jessica Pegula",
+   "tour": "WTA",
+   "nationality": "United States",
+   "born": "1994-02-24",
+   "birthplace": "Buffalo, New York, United States",
+   "bio": "Jessica Pegula reached the 2024 US Open final and the 2023 WTA Finals final, and has won four WTA 1000 singles titles. She has also been world number one in doubles and reached a French Open doubles final with Coco Gauff. She has made major semi-finals at the US Open and the Australian Open.",
+   "highlights": [
+    "US Open runner-up 2024",
+    "Runner-up at the WTA Finals 2023",
+    "Four WTA 1000 singles titles",
+    "Former world No. 1 in doubles",
+    "Helped the United States win the first United Cup in 2023"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Jessica_Pegula",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Jessica_Pegula"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Coco Gauff",
+   "tour": "WTA",
+   "nationality": "United States",
+   "born": "2004-03-13",
+   "birthplace": "Boca Raton, Florida, United States",
+   "bio": "Coco Gauff made her name at Wimbledon in 2019, where as a 15-year-old qualifier she beat Venus Williams on the way to the fourth round. She won the US Open in 2023, the WTA Finals in 2024 and the French Open in 2025. She has also been world number one in doubles and won the 2024 French Open doubles title with Kateřina Siniaková.",
+   "highlights": [
+    "US Open champion 2023",
+    "French Open champion 2025",
+    "Won the WTA Finals in 2024",
+    "French Open doubles champion 2024",
+    "Former world No. 1 in doubles"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Coco_Gauff",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Coco_Gauff"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Elina Svitolina",
+   "tour": "WTA",
+   "nationality": "Ukraine",
+   "born": "1994-09-12",
+   "birthplace": "Odesa, Ukraine",
+   "bio": "Elina Svitolina won the 2018 WTA Finals and became the highest-ranked Ukrainian woman in history, reaching world number three in 2017. She won Olympic bronze in Tokyo, Ukraine's first Olympic medal in tennis. After returning from maternity leave in 2023 she reached a Wimbledon semi-final within months, and she made the Australian Open semi-finals in 2026.",
+   "highlights": [
+    "Won the WTA Finals in 2018",
+    "Olympic bronze medallist, Tokyo 2020",
+    "Five WTA 1000 titles",
+    "Four major semi-finals",
+    "Career-high ranking of world No. 3 (2017)"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Elina_Svitolina",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Elina_Svitolina"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Karolina Muchova",
+   "tour": "WTA",
+   "nationality": "Czech Republic",
+   "born": "1996-08-21",
+   "birthplace": "Olomouc, Czech Republic",
+   "bio": "Karolína Muchová has reached two major singles finals, at the 2023 French Open and Wimbledon in 2026. Her first WTA 1000 title came in Doha in 2026, and she also won the 2026 US Open mixed doubles with Jakub Menšík. Known for her varied all-court game, she has beaten reigning world number ones at majors.",
+   "highlights": [
+    "Wimbledon runner-up 2026",
+    "French Open runner-up 2023",
+    "Won the Qatar Open (WTA 1000) in 2026",
+    "US Open mixed doubles champion 2026",
+    "Career-high ranking of world No. 6 (July 2026)"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Karol%C3%ADna_Muchov%C3%A1",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Karol%C3%ADna_Muchov%C3%A1"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Linda Noskova",
+   "tour": "WTA",
+   "nationality": "Czech Republic",
+   "born": "2004-11-17",
+   "birthplace": "Vsetín, Czech Republic",
+   "bio": "Linda Nosková won the girls' title at the 2021 French Open and in 2022 became the youngest player in the women's top 100. She beat world number one Iga Świątek on the way to the 2024 Australian Open quarter-finals. In 2026 she won her first major at Wimbledon.",
+   "highlights": [
+    "Wimbledon champion 2026",
+    "French Open girls' champion 2021",
+    "China Open (WTA 1000) finalist 2025",
+    "Career-high ranking of world No. 6 (August 2026)"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Linda_Noskov%C3%A1",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Linda_Noskov%C3%A1"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Iga Swiatek",
+   "tour": "WTA",
+   "nationality": "Poland",
+   "born": "2001-05-31",
+   "birthplace": "Warsaw, Poland",
+   "bio": "Iga Świątek has won six major singles titles: the French Open four times, the US Open in 2022 and Wimbledon in 2025. She held the world number one ranking for 125 weeks and finished 2022 and 2023 as year-end number one. Her 37-match winning streak in 2022 is the longest on the WTA Tour this century, and she was the first Polish player to win a major singles title.",
+   "highlights": [
+    "French Open champion 2020, 2022, 2023 and 2024",
+    "US Open champion 2022 and Wimbledon champion 2025",
+    "Won the WTA Finals in 2023",
+    "125 weeks as world No. 1",
+    "Olympic bronze medallist, Paris 2024"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Iga_%C5%9Awi%C4%85tek",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Iga_%C5%9Awi%C4%85tek"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Marta Kostyuk",
+   "tour": "WTA",
+   "nationality": "Ukraine",
+   "born": "2002-06-28",
+   "birthplace": "Kyiv, Ukraine",
+   "bio": "Marta Kostyuk won the 2017 Australian Open girls' title and reached the third round of the women's event on her debut the following year. Her best season came in 2026, when she won the Madrid Open, her first WTA 1000 title, and reached the semi-finals of both the French Open and Wimbledon. She broke into the world top ten in September 2026.",
+   "highlights": [
+    "Won the Madrid Open (WTA 1000) in 2026",
+    "French Open and Wimbledon semi-finalist 2026",
+    "Olympic quarter-finalist, Paris 2024",
+    "Career-high ranking of world No. 10 (September 2026)"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Marta_Kostyuk",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Marta_Kostyuk"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Iva Jović",
+   "tour": "WTA",
+   "nationality": "United States",
+   "born": "2007-12-06",
+   "birthplace": "Torrance, California, United States",
+   "bio": "Iva Jovic won junior major doubles titles at the Australian Open and Wimbledon before turning to the senior tour. She won her first WTA title at the 2025 Guadalajara Open and defended it in 2026. She reached the quarter-finals of the 2026 Australian Open aged 18.",
+   "highlights": [
+    "Australian Open quarter-finalist 2026",
+    "Guadalajara Open champion 2025 and 2026",
+    "Junior Australian Open and Wimbledon doubles champion",
+    "Career-high ranking of world No. 11 (October 2026)"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Iva_Jovic",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Iva_Jovic"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Belinda Bencic",
+   "tour": "WTA",
+   "nationality": "Switzerland",
+   "born": "1997-03-10",
+   "birthplace": "Flawil, Switzerland",
+   "bio": "Belinda Bencic won the Olympic singles gold medal in Tokyo, along with silver in the doubles. A former junior world number one, she reached the 2014 US Open quarter-finals at 17 and later made major semi-finals at the 2019 US Open and 2025 Wimbledon. She returned to the tour in 2024 after maternity leave.",
+   "highlights": [
+    "Olympic singles gold medallist, Tokyo 2020",
+    "Ten WTA Tour singles titles",
+    "US Open semi-finalist 2019 and Wimbledon semi-finalist 2025",
+    "Junior French Open and Wimbledon champion 2013",
+    "Career-high ranking of world No. 4 (2020)"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Belinda_Bencic",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Belinda_Bencic"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Diana Shnaider",
+   "tour": "WTA",
+   "nationality": "Russia",
+   "born": "2004-04-02",
+   "birthplace": "Zhigulevsk, Russia",
+   "bio": "Diana Shnaider is a left-hander who has won five WTA singles titles. She took Olympic doubles silver in Paris in 2024 with Mirra Andreeva and has been ranked inside the top ten in doubles. Her best major singles result is a semi-final at the 2026 French Open.",
+   "highlights": [
+    "French Open semi-finalist 2026",
+    "Five WTA Tour singles titles",
+    "Olympic silver medallist in doubles, Paris 2024",
+    "Career-high singles ranking of world No. 11 (2025)"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Diana_Shnaider",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Diana_Shnaider"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Elise Mertens",
+   "tour": "WTA",
+   "nationality": "Belgium",
+   "born": "1995-11-17",
+   "birthplace": "Leuven, Belgium",
+   "bio": "Elise Mertens is one of the leading doubles players of her generation, a former world number one with six major doubles titles. In singles she reached the 2018 Australian Open semi-finals and has won ten WTA titles. She reached the Wimbledon singles quarter-finals in 2026.",
+   "highlights": [
+    "Six major doubles titles",
+    "Former world No. 1 in doubles",
+    "Australian Open singles semi-finalist 2018",
+    "Won the WTA Finals doubles in 2022 and 2025",
+    "Ten WTA Tour singles titles"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Elise_Mertens",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Elise_Mertens"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Victoria Mboko",
+   "tour": "WTA",
+   "nationality": "Canada",
+   "born": "2006-08-26",
+   "birthplace": "Charlotte, North Carolina, United States",
+   "bio": "Victoria Mboko won the 2025 Canadian Open, a WTA 1000 event, as a teenager in her home country. She broke into the top ten in 2026, becoming only the fourth Canadian woman to do so, and reached the fourth round of the Australian Open that year. She represents Canada in the Billie Jean King Cup.",
+   "highlights": [
+    "Won the Canadian Open (WTA 1000) in 2025",
+    "Australian Open fourth round 2026",
+    "Career-high ranking of world No. 9 (March 2026)",
+    "Fourth Canadian woman to reach the WTA top ten"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Victoria_Mboko",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Victoria_Mboko"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Sorana Cirstea",
+   "tour": "WTA",
+   "nationality": "Romania",
+   "born": "1990-04-07",
+   "birthplace": "Bucharest, Romania",
+   "bio": "Sorana Cîrstea first reached a major quarter-final at the 2009 French Open and repeated the feat at the 2023 US Open and the 2026 French Open. In September 2026 she became the oldest player to enter the WTA top 15 for the first time. She also won the 2025 Madrid Open doubles title with Anna Kalinskaya.",
+   "highlights": [
+    "French Open quarter-finalist 2009 and 2026",
+    "US Open quarter-finalist 2023",
+    "Canadian Open (WTA 1000) finalist 2013",
+    "Madrid Open doubles champion 2025",
+    "Career-high ranking of world No. 15 (September 2026)"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Sorana_C%C3%AErstea",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sorana_C%C3%AErstea"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Amanda Anisimova",
+   "tour": "WTA",
+   "nationality": "United States",
+   "born": "2001-08-31",
+   "birthplace": "Freehold Township, New Jersey, United States",
+   "bio": "Amanda Anisimova reached the French Open semi-finals as a 17-year-old in 2019. After stepping away from the sport in 2023 for her mental health, she returned to reach the Wimbledon and US Open finals in 2025 and won two WTA 1000 titles that year. She reached a career-high of world number three in January 2026.",
+   "highlights": [
+    "Wimbledon and US Open runner-up 2025",
+    "Two WTA 1000 titles in 2025",
+    "French Open semi-finalist 2019",
+    "US Open girls' champion 2017",
+    "Career-high ranking of world No. 3 (January 2026)"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Amanda_Anisimova",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Amanda_Anisimova"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Naomi Osaka",
+   "tour": "WTA",
+   "nationality": "Japan",
+   "born": "1997-10-16",
+   "birthplace": "Osaka, Japan",
+   "bio": "Naomi Osaka has won four major singles titles, the US Open in 2018 and 2020 and the Australian Open in 2019 and 2021. In 2019 she became the first Asian player to reach world number one in singles, and she was the first Japanese player to win a major singles title. She returned from maternity leave in 2024 and reached the Wimbledon quarter-finals in 2026.",
+   "highlights": [
+    "US Open champion 2018 and 2020",
+    "Australian Open champion 2019 and 2021",
+    "First Asian player ranked world No. 1 in singles",
+    "Laureus World Sportswoman of the Year 2021"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Naomi_Osaka",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Naomi_Osaka"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Alexandra Eala",
+   "tour": "WTA",
+   "nationality": "Philippines",
+   "born": "2005-05-23",
+   "birthplace": "Quezon City, Philippines",
+   "bio": "Alexandra Eala won the girls' singles at the 2022 US Open, the first junior major title for the Philippines. She came to wider notice as a wildcard at the 2025 Miami Open, beating Iga Świątek on the way to the semi-finals. In 2026 she reached the Wimbledon fourth round and won her first WTA title in Washington, becoming the first Filipino in the top 20.",
+   "highlights": [
+    "Won the Washington Open in 2026",
+    "Miami Open (WTA 1000) semi-finalist 2025",
+    "US Open girls' champion 2022",
+    "First Filipino in the WTA top 20"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Alexandra_Eala",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Alexandra_Eala"
+   ],
+   "researchedAt": "2026-10-13"
+  },
+  {
+   "name": "Madison Keys",
+   "tour": "WTA",
+   "nationality": "United States",
+   "born": "1995-02-17",
+   "birthplace": "Rock Island, Illinois, United States",
+   "bio": "Madison Keys won the 2025 Australian Open, beating Iga Świątek and Aryna Sabalenka in the last two rounds. She had first reached a major final at the 2017 US Open. Known for her serve and forehand, she has reached at least the quarter-finals at all four majors and won titles on every surface.",
+   "highlights": [
+    "Australian Open champion 2025",
+    "US Open runner-up 2017",
+    "Eleven WTA Tour singles titles",
+    "Career-high ranking of world No. 5 (2025)"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Madison_Keys",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Madison_Keys"
+   ],
+   "researchedAt": "2026-10-13"
+  }
+ ]
+}

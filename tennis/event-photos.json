@@ -1,0 +1,157 @@
+{
+ "_comment": "Event header photos, keyed by calendar event name. Written by tennis/fetch_event_photos.py.",
+ "photos": {
+  "ATP Finals": {
+   "url": "images/tennis/events/atp-finals.jpg",
+   "credit": "Daniel from Glasgow, United Kingdom",
+   "licence": "CC BY 2.0",
+   "licenceURL": "https://creativecommons.org/licenses/by/2.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:2019_ATP_Finals_at_the_o2_(49069150561).jpg",
+   "caption": "ATP Finals 2019 at The O2, London; held in Turin since 2021"
+  },
+  "Australian Open": {
+   "url": "images/tennis/events/australian-open.jpg",
+   "credit": "Gracchus250",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Rod_Laver_Arena_Melbourne_Park_Australian_Open_2023_quarter_final_dusk.jpg",
+   "caption": "Rod Laver Arena, Melbourne Park"
+  },
+  "Canadian Open (Montreal)": {
+   "url": "images/tennis/events/canadian-open-montreal.jpg",
+   "credit": "Sorin Nechita",
+   "licence": "CC BY-SA 2.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/2.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Rogers_Cup_Semifinal_2009.jpg",
+   "caption": "Stade IGA (then Uniprix Stadium), Montreal, 2009"
+  },
+  "Canadian Open (Toronto)": {
+   "url": "images/tennis/events/canadian-open-toronto.jpg",
+   "credit": "Laslovarga",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Rexall_Centre_York_University_Toronto.JPG",
+   "caption": "Sobeys Stadium (then Rexall Centre), Toronto"
+  },
+  "China Open": {
+   "url": "images/tennis/events/china-open.jpg",
+   "credit": "N509FZ",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Diamond_Court,_National_Tennis_Center_(20240821134822).jpg",
+   "caption": "Diamond Court, National Tennis Center, Beijing"
+  },
+  "Cincinnati Open": {
+   "url": "images/tennis/events/cincinnati-open.jpg",
+   "credit": "RandyFitz",
+   "licence": "CC0",
+   "licenceURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Lindner_Family_Tennis_Center_2025.jpg",
+   "caption": "Center Court, Lindner Family Tennis Center, Mason"
+  },
+  "Dubai Tennis Championships": {
+   "url": "images/tennis/events/dubai-tennis-championships.jpg",
+   "credit": "Kiranlal A",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:PXL_20230121_083119935.jpg",
+   "caption": "Aviation Club Tennis Centre, Dubai"
+  },
+  "French Open": {
+   "url": "images/tennis/events/french-open.jpg",
+   "credit": "Chabe01",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Court_Philippe_Chatrier_-_Paris_XVI_(FR75)_-_2024-02-18_-_3.jpg",
+   "caption": "Court Philippe-Chatrier, Stade Roland Garros"
+  },
+  "Indian Wells Open": {
+   "url": "images/tennis/events/indian-wells-open.jpg",
+   "credit": "IvanAndreevich",
+   "licence": "CC BY 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Indian_Wells_Tennis_Garden,_Stadium_1.jpg",
+   "caption": "Stadium 1, Indian Wells Tennis Garden"
+  },
+  "Italian Open": {
+   "url": "images/tennis/events/italian-open.jpg",
+   "credit": "Stefano Cappa",
+   "licence": "CC BY 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Il_Centrale_(108607831).jpeg",
+   "caption": "Campo Centrale, Foro Italico, Rome"
+  },
+  "Madrid Open": {
+   "url": "images/tennis/events/madrid-open.jpg",
+   "credit": "diego de martin",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Panoramica_caja_magica.jpg",
+   "caption": "Caja Mágica, Madrid"
+  },
+  "Miami Open": {
+   "url": "images/tennis/events/miami-open.jpg",
+   "credit": "Benoît Prieur",
+   "licence": "CC0",
+   "licenceURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Hard_Rock_Stadium-depuis_l%27autoroute_en_f%C3%A9vrier_2022_(2).jpg",
+   "caption": "Hard Rock Stadium, Miami Gardens"
+  },
+  "Monte-Carlo Masters": {
+   "url": "images/tennis/events/monte-carlo-masters.jpg",
+   "credit": "Nicolas Richoffer",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Monte-Carlo_Masters.jpg",
+   "caption": "Monte Carlo Country Club"
+  },
+  "Paris Masters": {
+   "url": "images/tennis/events/paris-masters.jpg",
+   "credit": "Chabe01",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Tournoi_Paris_2024_Tennis_Palais_Omnisports_Paris_Bercy_-_Paris_XII_(FR75)_-_2024-10-30_-_19.jpg",
+   "caption": "Paris Masters 2024 at Bercy; the event moved to La Défense Arena in 2025"
+  },
+  "Qatar Open": {
+   "url": "images/tennis/events/qatar-open.jpg",
+   "credit": "Preacher lad",
+   "licence": "CC BY-SA 4.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Qatar_open_2017_SF,_Murray_vs_Berdych1182.jpg",
+   "caption": "Centre Court, Khalifa International Tennis and Squash Complex, Doha"
+  },
+  "Shanghai Masters": {
+   "url": "images/tennis/events/shanghai-masters.jpg",
+   "credit": "Curt Smith from Bellevue, WA, USA",
+   "licence": "CC BY 2.0",
+   "licenceURL": "https://creativecommons.org/licenses/by/2.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Tsonga_Potro_2008_Tennis_Masters.jpg",
+   "caption": "Qizhong Forest Sports City Arena, Shanghai, 2008"
+  },
+  "US Open": {
+   "url": "images/tennis/events/us-open.jpg",
+   "credit": "slgckgc",
+   "licence": "CC BY 2.0",
+   "licenceURL": "https://creativecommons.org/licenses/by/2.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:View_From_the_Top_of_the_Arthur_Ashe_Stadium_(9614299124).jpg",
+   "caption": "Arthur Ashe Stadium, USTA Billie Jean King National Tennis Center"
+  },
+  "WTA Finals": {
+   "url": "images/tennis/events/wta-finals.jpg",
+   "credit": "Nevit Dilmen (talk)",
+   "licence": "CC BY-SA 3.0",
+   "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:WTA_Istanbul_2011_0008272_Nevit.jpg",
+   "caption": "WTA Championships 2011, Sinan Erdem Dome, Istanbul"
+  },
+  "Wimbledon": {
+   "url": "images/tennis/events/wimbledon.jpg",
+   "credit": "Daniel from Glasgow, United Kingdom",
+   "licence": "CC BY 2.0",
+   "licenceURL": "https://creativecommons.org/licenses/by/2.0",
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Centre_Court,_Wimbledon_(3)_(7527202522).jpg",
+   "caption": "Centre Court, All England Club"
+  }
+ }
+}
