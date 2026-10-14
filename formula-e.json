@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-10T12:26:11Z",
+  "generatedAt": "2026-10-14T17:06:54Z",
   "sources": {
     "calendar": "https://www.fiaformulae.com/en/calendar",
     "sessions": "https://github.com/sportstimes/f1",
@@ -15039,7 +15039,7 @@
       "round": 3,
       "name": "R03 Mexico City E-Prix",
       "venue": "Mexico City",
-      "city": "Ciudad de México",
+      "city": "Mexico City",
       "country": "Mexico",
       "date": "2027-01-16",
       "season": 13,
@@ -15087,7 +15087,7 @@
       "round": 7,
       "name": "R07 Sanya E-Prix",
       "venue": "Sanya",
-      "city": "Sanya Fenghuang International Apt",
+      "city": "Sanya",
       "country": "China",
       "date": "2027-04-17",
       "season": 13,
