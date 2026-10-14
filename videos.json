@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-13T15:05:24Z",
+  "generatedAt": "2026-10-14T12:54:18Z",
   "channels": [
     {
       "channelID": "f1",
@@ -1208,6 +1208,17 @@
       "sourceURL": null,
       "videos": [
         {
+          "id": "M7p5bnFJCTU",
+          "title": "Marc Márquez and Pecco Bagnaia | Finding PEACE at #IndonesianGP",
+          "publishedAt": "2026-10-14T10:00:27Z",
+          "duration": "13:14",
+          "seconds": 794,
+          "thumbnail": "https://i.ytimg.com/vi/M7p5bnFJCTU/maxresdefault.jpg",
+          "source": "Ducati",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "Qp6v4xYHuHM",
           "title": "Red Bull KTM MotoGP™ 2026 Factory Floor Episode 16 #JAPANESEGP | KTM",
           "publishedAt": "2026-10-12T15:27:55Z",
@@ -1494,17 +1505,6 @@
           "allowedRegions": []
         },
         {
-          "id": "8e2xPXN6Xyw",
-          "title": "Red Bull KTM MotoGP™ 2026 Factory Floor Episode 6 #CATALANGP | KTM",
-          "publishedAt": "2026-05-21T17:00:29Z",
-          "duration": "13:37",
-          "seconds": 817,
-          "thumbnail": "https://i.ytimg.com/vi/8e2xPXN6Xyw/maxresdefault.jpg",
-          "source": "KTM",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "t0PcPZJve2E",
           "title": "ITA - Aprilia Racing | 2026 #MotoGP Team Presentation Live Show",
           "publishedAt": "2026-01-19T10:43:18Z",
@@ -1746,17 +1746,6 @@
           "duration": "14:09",
           "seconds": 849,
           "thumbnail": "https://i.ytimg.com/vi/N6EuuG7zXWY/maxresdefault.jpg",
-          "source": "Charles Leclerc",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "IwAVrkHs5EQ",
-          "title": "Lake Como Unfiltered: Filming the Peroni Nastro Azzurro 0.0% Campaign",
-          "publishedAt": "2024-10-13T16:43:34Z",
-          "duration": "5:40",
-          "seconds": 340,
-          "thumbnail": "https://i.ytimg.com/vi/IwAVrkHs5EQ/maxresdefault.jpg",
           "source": "Charles Leclerc",
           "blockedRegions": [],
           "allowedRegions": []
@@ -2017,6 +2006,17 @@
       "name": "Arvid Lindblad",
       "videos": [
         {
+          "id": "DPxwJWVC5TU",
+          "title": "singapore mini vlog",
+          "publishedAt": "2026-10-13T17:40:39Z",
+          "duration": "4:17",
+          "seconds": 257,
+          "thumbnail": "https://i.ytimg.com/vi/DPxwJWVC5TU/maxresdefault.jpg",
+          "source": "Arvid Lindblad",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "gSAcfPAI7-k",
           "title": "f1 driver vs rally car",
           "publishedAt": "2026-07-30T15:02:35Z",
@@ -2071,17 +2071,6 @@
           "blockedRegions": [
             "RU"
           ],
-          "allowedRegions": []
-        },
-        {
-          "id": "kW2Fw9j7_bc",
-          "title": "cooking indian food with my nani",
-          "publishedAt": "2025-12-29T16:03:58Z",
-          "duration": "7:40",
-          "seconds": 460,
-          "thumbnail": "https://i.ytimg.com/vi/kW2Fw9j7_bc/maxresdefault.jpg",
-          "source": "Arvid Lindblad",
-          "blockedRegions": [],
           "allowedRegions": []
         }
       ]
