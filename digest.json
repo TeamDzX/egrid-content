@@ -1,7 +1,48 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-13T00:48:37Z",
+  "generatedAt": "2026-10-14T00:23:22Z",
   "editions": [
+    {
+      "id": "2026-10-14-preview",
+      "kind": "preview",
+      "title": "This weekend on E-Grid",
+      "dateRange": "14–19 October",
+      "intro": "3 rounds across Clio Cup Series, NASCAR Cup Series and NHRA Drag Racing between 14–19 October.",
+      "publishedAt": "2026-10-14T00:23:22Z",
+      "expiresAt": "2026-10-19T00:23:22Z",
+      "items": [
+        {
+          "channelID": "cliocup",
+          "channelName": "Clio Cup Series",
+          "headline": "Navarra",
+          "detail": "Circuito de Navarra, Spain · Sun 18 Oct",
+          "body": "Round 6 of the Clio Cup Series season.",
+          "date": "2026-10-18",
+          "round": 6
+        },
+        {
+          "channelID": "nascar",
+          "channelName": "NASCAR Cup Series",
+          "headline": "Freeway Insurance 500",
+          "detail": "Phoenix Raceway · Sun 18 Oct",
+          "body": "Round 33 of the NASCAR Cup Series season. The race starts at 19:00 UTC.",
+          "date": "2026-10-18",
+          "round": 33,
+          "facts": [
+            "312 laps, 312 miles",
+            "US coverage: USA (TV), MRN (radio)"
+          ]
+        },
+        {
+          "channelID": "nhra",
+          "channelName": "NHRA Drag Racing",
+          "headline": "Texas FallNationals",
+          "detail": "Texas Motorplex, Ennis · Sun 18 Oct",
+          "body": "This NHRA Drag Racing round.",
+          "date": "2026-10-18"
+        }
+      ]
+    },
     {
       "id": "2026-10-13-recap",
       "kind": "recap",
@@ -309,57 +350,6 @@
           "headline": "Bank of America 400",
           "detail": "Charlotte Motor Speedway · Sun 11 Oct",
           "body": "The Bank of America 400 runs on Sunday 11 October at Charlotte Motor Speedway, covering 267 laps and 400.5 miles. It is set to start at 19:00 UTC, with US coverage on USA television and PRN radio.",
-          "date": "2026-10-11",
-          "round": 32,
-          "facts": [
-            "267 laps, 400.5 miles",
-            "US coverage: USA (TV), PRN (radio)"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2026-10-10-preview",
-      "kind": "preview",
-      "title": "This weekend in motorsport",
-      "dateRange": "10–12 October",
-      "intro": "3 rounds across Formula 1, MotoGP and NASCAR Cup Series between 10–12 October.",
-      "publishedAt": "2026-10-10T13:55:35Z",
-      "expiresAt": "2026-10-15T13:55:35Z",
-      "items": [
-        {
-          "channelID": "f1",
-          "channelName": "Formula 1",
-          "headline": "Singapore Grand Prix",
-          "detail": "Marina Bay Street Circuit, Singapore · Sun 11 Oct",
-          "body": "Round 17 of the Formula 1 season. The race starts at 12:00 UTC.",
-          "date": "2026-10-11",
-          "round": 17,
-          "facts": [
-            "Sprint qualifying Fri 9 Oct, 12:30 UTC",
-            "Sprint Sat 10 Oct, 09:00 UTC",
-            "Qualifying Sat 10 Oct, 13:00 UTC",
-            "Andrea Kimi Antonelli leads the championship by 84 points from George Russell"
-          ]
-        },
-        {
-          "channelID": "motogp",
-          "channelName": "MotoGP",
-          "headline": "Grand Prix of Indonesia",
-          "detail": "Pertamina Mandalika Circuit, Indonesia · Sun 11 Oct",
-          "body": "Round 17 of the MotoGP season.",
-          "date": "2026-10-11",
-          "round": 17,
-          "facts": [
-            "Marc Marquez leads the championship by 4 points from Jorge Martin"
-          ]
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "Bank of America 400",
-          "detail": "Charlotte Motor Speedway · Sun 11 Oct",
-          "body": "Round 32 of the NASCAR Cup Series season. The race starts at 19:00 UTC.",
           "date": "2026-10-11",
           "round": 32,
           "facts": [
