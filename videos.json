@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-14T12:54:18Z",
+  "generatedAt": "2026-10-15T12:41:00Z",
   "channels": [
     {
       "channelID": "f1",
@@ -32,7 +32,7 @@
         },
         {
           "id": "-V6jJDssWEI",
-          "title": "F1 Drivers & TWICE's Tzuyu Compete in an Anime Art Challenge!",
+          "title": "F1 Drivers & TWICE's Tzuyu Compete in Anime Art Challenge!",
           "publishedAt": "2026-10-10T12:02:48Z",
           "duration": "8:00",
           "seconds": 480,
@@ -1045,17 +1045,6 @@
           "source": "NTT INDYCAR SERIES",
           "blockedRegions": [],
           "allowedRegions": []
-        },
-        {
-          "id": "iMN8ZgPTU70",
-          "title": "Extended Race Highlights | 2026 INDYCAR at Mid-Ohio",
-          "publishedAt": "2026-07-05T20:10:07Z",
-          "duration": "30:01",
-          "seconds": 1801,
-          "thumbnail": "https://i.ytimg.com/vi/iMN8ZgPTU70/maxresdefault.jpg",
-          "source": "NTT INDYCAR SERIES",
-          "blockedRegions": [],
-          "allowedRegions": []
         }
       ],
       "externalVideos": []
@@ -1207,6 +1196,17 @@
       "source": "the MotoGP manufacturers",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "iRd0OotSnlA",
+          "title": "#IndonesianGP MotoGP - Heat Haze - Sashimi Behind The Scenes",
+          "publishedAt": "2026-10-15T08:12:01Z",
+          "duration": "11:36",
+          "seconds": 696,
+          "thumbnail": "https://i.ytimg.com/vi/iRd0OotSnlA/maxresdefault.jpg",
+          "source": "HondaRacingHRC",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "M7p5bnFJCTU",
           "title": "Marc Márquez and Pecco Bagnaia | Finding PEACE at #IndonesianGP",
@@ -1494,17 +1494,6 @@
           "allowedRegions": []
         },
         {
-          "id": "n8hOt0ZvKR4",
-          "title": "Red Bull KTM MotoGP™ 2026 Factory Floor Episode 7 #ITALIANGP | KTM",
-          "publishedAt": "2026-06-04T09:58:12Z",
-          "duration": "8:02",
-          "seconds": 482,
-          "thumbnail": "https://i.ytimg.com/vi/n8hOt0ZvKR4/maxresdefault.jpg",
-          "source": "KTM",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "t0PcPZJve2E",
           "title": "ITA - Aprilia Racing | 2026 #MotoGP Team Presentation Live Show",
           "publishedAt": "2026-01-19T10:43:18Z",
@@ -1546,6 +1535,17 @@
       "source": "World Snooker Tour",
       "sourceURL": "https://www.youtube.com/channel/UC5lTEvtwu6SR3LMSmU9VZ2Q",
       "videos": [
+        {
+          "id": "pUXQ9L7KxZU",
+          "title": "ABSOLUTE CHAOS! Jimmy White vs Dechawat Poomjaeng | 2015 Shoot Out CLASSIC",
+          "publishedAt": "2026-10-15T12:04:33Z",
+          "duration": "10:03",
+          "seconds": 603,
+          "thumbnail": "https://i.ytimg.com/vi/pUXQ9L7KxZU/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "ulRPJO6znJQ",
           "title": "CLASSIC FINAL! | Ronnie O'Sullivan vs Judd Trump THRILLER! | 2020 BetVictor Northern Ireland Open",
@@ -1663,17 +1663,6 @@
           "duration": "11:55",
           "seconds": 715,
           "thumbnail": "https://i.ytimg.com/vi/yGHNA0TscBE/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "MuJ_rcd33a0",
-          "title": "INCREDIBLE MATCH, INCREDIBLE PLAYERS! | Wu Yize vs Xu Si | Shenzhen Open 2026",
-          "publishedAt": "2026-09-30T15:08:59Z",
-          "duration": "18:13",
-          "seconds": 1093,
-          "thumbnail": "https://i.ytimg.com/vi/MuJ_rcd33a0/maxresdefault.jpg",
           "source": "WST",
           "blockedRegions": [],
           "allowedRegions": []
