@@ -1,7 +1,44 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-14T00:23:22Z",
+  "generatedAt": "2026-10-15T01:33:23Z",
   "editions": [
+    {
+      "id": "2026-10-15-preview",
+      "kind": "preview",
+      "title": "This weekend on E-Grid",
+      "dateRange": "15–19 October",
+      "intro": "This week brings three rounds across the motorsport calendar, all on Sunday 18 October. The Clio Cup Series makes its way to Navarra for round six, NASCAR's Cup Series heads to Phoenix for the Freeway Insurance 500, and NHRA drag racing takes in the Texas FallNationals at Ennis.",
+      "publishedAt": "2026-10-15T01:33:23Z",
+      "expiresAt": "2026-10-20T01:33:23Z",
+      "items": [
+        {
+          "channelID": "cliocup",
+          "channelName": "Clio Cup Series",
+          "headline": "Navarra",
+          "detail": "Circuito de Navarra, Spain · Sun 18 Oct",
+          "body": "Round six of the Clio Cup Series runs at the Circuito de Navarra in Spain on Sunday 18 October. The single-make championship comes to this Spanish circuit for a full weekend of racing.",
+          "date": "2026-10-18",
+          "round": 6
+        },
+        {
+          "channelID": "nascar",
+          "channelName": "NASCAR Cup Series",
+          "headline": "Freeway Insurance 500",
+          "detail": "Phoenix Raceway · Sun 18 Oct",
+          "body": "The NASCAR Cup Series reaches round thirty-three at Phoenix Raceway for the Freeway Insurance 500 on Sunday 18 October. This American oval hosts a full weekend of stock-car racing as the season continues.",
+          "date": "2026-10-18",
+          "round": 33
+        },
+        {
+          "channelID": "nhra",
+          "channelName": "NHRA Drag Racing",
+          "headline": "Texas FallNationals",
+          "detail": "Texas Motorplex, Ennis · Sun 18 Oct",
+          "body": "The NHRA Drag Racing series takes in the Texas FallNationals at the Texas Motorplex in Ennis on Sunday 18 October. A full weekend of drag racing unfolds at this Texas venue.",
+          "date": "2026-10-18"
+        }
+      ]
+    },
     {
       "id": "2026-10-14-preview",
       "kind": "preview",
@@ -266,98 +303,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "2026-10-11-preview",
-      "kind": "preview",
-      "title": "Results from the weekend",
-      "dateRange": "9–12 October",
-      "intro": "Formula 1 and MotoGP both had their winners decided this weekend in Singapore and Indonesia, with championship standings shifting across both grids. NASCAR's Charlotte round is still to come on Sunday evening.",
-      "publishedAt": "2026-10-11T22:08:48Z",
-      "expiresAt": "2026-10-16T22:08:48Z",
-      "items": [
-        {
-          "channelID": "f1",
-          "channelName": "Formula 1",
-          "headline": "Singapore Grand Prix",
-          "detail": "Marina Bay Street Circuit, Singapore · Sun 11 Oct",
-          "body": "Max Verstappen took the Singapore Grand Prix from pole, holding Charles Leclerc 7.3 seconds back with Andrea Kimi Antonelli completing a Mercedes podium. The win widened Antonelli's championship lead over George Russell to 102 points. Two virtual safety cars went out alongside non-finishes for Albon, Stroll, Colapinto and Bortoleto.",
-          "date": "2026-10-11",
-          "round": 17,
-          "facts": [
-            "Max Verstappen won from pole, 7.3 seconds ahead of Charles Leclerc",
-            "Biggest climbers: Isack Hadjar from 22nd to 10th and George Russell from 19th to 9th",
-            "Fastest lap: Charles Leclerc, 1:35.202",
-            "Did not finish: Alexander Albon, Lance Stroll, Franco Colapinto and Gabriel Bortoleto",
-            "Andrea Kimi Antonelli's championship lead over George Russell went from 84 to 102 points over the weekend",
-            "Virtual safety car on laps 8 and 39"
-          ],
-          "podium": [
-            {
-              "position": 1,
-              "name": "Max Verstappen",
-              "team": "Red Bull"
-            },
-            {
-              "position": 2,
-              "name": "Charles Leclerc",
-              "team": "Ferrari"
-            },
-            {
-              "position": 3,
-              "name": "Andrea Kimi Antonelli",
-              "team": "Mercedes"
-            }
-          ]
-        },
-        {
-          "channelID": "motogp",
-          "channelName": "MotoGP",
-          "headline": "Grand Prix of Indonesia",
-          "detail": "Pertamina Mandalika Circuit, Indonesia · Sun 11 Oct",
-          "body": "Marco Bezzecchi held off Raul Fernandez by 4.3 seconds to win the Grand Prix of Indonesia at Mandalika, with Jorge Martin third for Aprilia. He set a new lap record in the dry heat and opened a sprint victory over Marc Marquez on Saturday. Martin now leads the championship by just two points from Marquez.",
-          "date": "2026-10-11",
-          "round": 17,
-          "facts": [
-            "Marco Bezzecchi won by 4.3 seconds from Raul Fernandez",
-            "Did not finish: Toprak Razgatlioglu, Jack Miller, Francesco Bagnaia and Fermin Aldeguer",
-            "Marco Bezzecchi set a new lap record, 1:29.960",
-            "Dry, 29°C air and 62°C track",
-            "Saturday's sprint was won by Marc Marquez",
-            "Jorge Martin leads the championship by 2 points from Marc Marquez"
-          ],
-          "podium": [
-            {
-              "position": 1,
-              "name": "Marco Bezzecchi",
-              "team": "Aprilia Racing"
-            },
-            {
-              "position": 2,
-              "name": "Raul Fernandez",
-              "team": "SuperFile Trackhouse MotoGP Team"
-            },
-            {
-              "position": 3,
-              "name": "Jorge Martin",
-              "team": "Aprilia Racing"
-            }
-          ]
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "Bank of America 400",
-          "detail": "Charlotte Motor Speedway · Sun 11 Oct",
-          "body": "The Bank of America 400 runs on Sunday 11 October at Charlotte Motor Speedway, covering 267 laps and 400.5 miles. It is set to start at 19:00 UTC, with US coverage on USA television and PRN radio.",
-          "date": "2026-10-11",
-          "round": 32,
-          "facts": [
-            "267 laps, 400.5 miles",
-            "US coverage: USA (TV), PRN (radio)"
-          ]
-        }
-      ]
     }
   ],
   "lastRaces": [
@@ -366,34 +311,9 @@
       "channelName": "NASCAR Cup Series",
       "headline": "Bank of America 400",
       "detail": "Charlotte Motor Speedway · Sun 11 Oct",
-      "body": "Chase Briscoe won from second on the grid by a margin of just 0.029 seconds over teammate Christopher Bell, with Ryan Blaney third at Charlotte. Kyle Larson led the most laps, but it was the Chase picture that shifted: Briscoe moved up to fourth while Kyle Larson's lead over Denny Hamlin grew to 49 points with four races left.",
+      "body": "The Bank of America 400 ran on Sunday 11 October at Charlotte Motor Speedway, round 32 of the NASCAR Cup Series. It was another full weekend on the season's schedule, with the field taking to the track for a night of racing.",
       "date": "2026-10-11",
       "round": 32,
-      "facts": [
-        "Chase Briscoe won from 2nd on the grid",
-        "Most laps led: Kyle Larson (97)",
-        "Stage winners: Stage 1 Kyle Larson, Stage 2 Christopher Bell",
-        "Margin of victory: 0.029 s",
-        "Kyle Larson's Chase lead over Denny Hamlin went from 40 to 49 points this weekend, with 4 races to go",
-        "The win lifted Chase Briscoe from 6th to 4th in the Chase"
-      ],
-      "podium": [
-        {
-          "position": 1,
-          "name": "Chase Briscoe",
-          "team": "Joe Gibbs Racing"
-        },
-        {
-          "position": 2,
-          "name": "Christopher Bell",
-          "team": "Joe Gibbs Racing"
-        },
-        {
-          "position": 3,
-          "name": "Ryan Blaney",
-          "team": "Team Penske"
-        }
-      ],
       "factsVersion": 4,
       "writer": "own server"
     },
