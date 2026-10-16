@@ -1,7 +1,48 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-15T01:33:23Z",
+  "generatedAt": "2026-10-16T00:28:22Z",
   "editions": [
+    {
+      "id": "2026-10-16-preview",
+      "kind": "preview",
+      "title": "This weekend on E-Grid",
+      "dateRange": "16–19 October",
+      "intro": "This week brings three rounds across the calendar, all converging on Sunday 18 October. The Clio Cup Series reaches round six at Navarra, NASCAR's Cup Series heads to Phoenix for the Freeway Insurance 500, and NHRA drag racing returns with the Texas FallNationals.",
+      "publishedAt": "2026-10-16T00:28:22Z",
+      "expiresAt": "2026-10-21T00:28:22Z",
+      "items": [
+        {
+          "channelID": "cliocup",
+          "channelName": "Clio Cup Series",
+          "headline": "Navarra",
+          "detail": "Circuito de Navarra, Spain · Sun 18 Oct",
+          "body": "The Clio Cup Series reaches round six at the Circuito de Navarra in Spain on Sunday 18 October. It marks another stop in the championship's calendar, with the touring cars set to tackle the Spanish circuit.",
+          "date": "2026-10-18",
+          "round": 6
+        },
+        {
+          "channelID": "nascar",
+          "channelName": "NASCAR Cup Series",
+          "headline": "Freeway Insurance 500",
+          "detail": "Phoenix Raceway · Sun 18 Oct",
+          "body": "Round thirty-three of the NASCAR Cup Series is the Freeway Insurance 500 at Phoenix Raceway on Sunday 18 October, with a start at 19:00 UTC. The 312-lap, 312-mile race will be shown on TV in the United States and carried on radio by MRN.",
+          "date": "2026-10-18",
+          "round": 33,
+          "facts": [
+            "312 laps, 312 miles",
+            "US coverage: USA (TV), MRN (radio)"
+          ]
+        },
+        {
+          "channelID": "nhra",
+          "channelName": "NHRA Drag Racing",
+          "headline": "Texas FallNationals",
+          "detail": "Texas Motorplex, Ennis · Sun 18 Oct",
+          "body": "The NHRA Drag Racing series returns with the Texas FallNationals at the Texas Motorplex in Ennis on Sunday 18 October. It is a full day of drag racing, as drivers line up for their run down the track.",
+          "date": "2026-10-18"
+        }
+      ]
+    },
     {
       "id": "2026-10-15-preview",
       "kind": "preview",
@@ -191,118 +232,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "2026-10-12-recap",
-      "kind": "recap",
-      "title": "Last week on E-Grid",
-      "dateRange": "5–11 October",
-      "intro": "A busy weekend across three championships, with Formula 1, MotoGP and NASCAR Cup Series all racing on Sunday 11 October. Here is what happened around the world of motorsport this week.",
-      "publishedAt": "2026-10-12T00:37:15Z",
-      "expiresAt": "2026-10-16T00:37:15Z",
-      "items": [
-        {
-          "channelID": "f1",
-          "channelName": "Formula 1",
-          "headline": "Singapore Grand Prix",
-          "detail": "Marina Bay Street Circuit, Singapore · Sun 11 Oct",
-          "body": "Max Verstappen won the Singapore Grand Prix from pole, seven point three seconds clear of Charles Leclerc, with Andrea Kimi Antonelli taking the final step for Mercedes. The result extended Antonelli's championship lead over George Russell from 84 to 102 points. Dry and hot at Marina Bay, with virtual safety cars on laps eight and thirty-nine.",
-          "date": "2026-10-11",
-          "round": 17,
-          "facts": [
-            "Max Verstappen won from pole, 7.3 seconds ahead of Charles Leclerc",
-            "Biggest climbers: Isack Hadjar from 22nd to 10th and George Russell from 19th to 9th",
-            "Fastest lap: Charles Leclerc, 1:35.202",
-            "Did not finish: Alexander Albon, Lance Stroll, Franco Colapinto and Gabriel Bortoleto",
-            "Andrea Kimi Antonelli's championship lead over George Russell went from 84 to 102 points over the weekend",
-            "Virtual safety car on laps 8 and 39"
-          ],
-          "podium": [
-            {
-              "position": 1,
-              "name": "Max Verstappen",
-              "team": "Red Bull"
-            },
-            {
-              "position": 2,
-              "name": "Charles Leclerc",
-              "team": "Ferrari"
-            },
-            {
-              "position": 3,
-              "name": "Andrea Kimi Antonelli",
-              "team": "Mercedes"
-            }
-          ]
-        },
-        {
-          "channelID": "motogp",
-          "channelName": "MotoGP",
-          "headline": "Grand Prix of Indonesia",
-          "detail": "Pertamina Mandalika Circuit, Indonesia · Sun 11 Oct",
-          "body": "Marco Bezzecchi won the Grand Prix of Indonesia by four point three seconds from Raul Fernandez, with Jorge Martin finishing third for Aprilia Racing. He set a new lap record of one minute twenty-nine point nine six zero at Mandalika. Saturday's sprint had been won by Marc Marquez before Toprak Razgatlioglu, Jack Miller, Francesco Bagnaia and Fermin Aldeguer all failed to finish.",
-          "date": "2026-10-11",
-          "round": 17,
-          "facts": [
-            "Marco Bezzecchi won by 4.3 seconds from Raul Fernandez",
-            "Did not finish: Toprak Razgatlioglu, Jack Miller, Francesco Bagnaia and Fermin Aldeguer",
-            "Marco Bezzecchi set a new lap record, 1:29.960",
-            "Dry, 29°C air and 62°C track",
-            "Saturday's sprint was won by Marc Marquez"
-          ],
-          "podium": [
-            {
-              "position": 1,
-              "name": "Marco Bezzecchi",
-              "team": "Aprilia Racing"
-            },
-            {
-              "position": 2,
-              "name": "Raul Fernandez",
-              "team": "SuperFile Trackhouse MotoGP Team"
-            },
-            {
-              "position": 3,
-              "name": "Jorge Martin",
-              "team": "Aprilia Racing"
-            }
-          ]
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "Bank of America 400",
-          "detail": "Charlotte Motor Speedway · Sun 11 Oct",
-          "body": "Chase Briscoe won the Bank of America 400 from second on the grid by just zero point zero two nine seconds over Christopher Bell, with Ryan Blaney third for Team Penske. The victory moved him up to fourth in the Chase. Kyle Larson led most laps and holds a growing lead over Denny Hamlin, now forty-nine points wide with four races remaining.",
-          "date": "2026-10-11",
-          "round": 32,
-          "facts": [
-            "Chase Briscoe won from 2nd on the grid",
-            "Most laps led: Kyle Larson (97)",
-            "Stage winners: Stage 1 Kyle Larson, Stage 2 Christopher Bell",
-            "Margin of victory: 0.029 s",
-            "Kyle Larson's Chase lead over Denny Hamlin went from 40 to 49 points this weekend, with 4 races to go",
-            "The win lifted Chase Briscoe from 6th to 4th in the Chase"
-          ],
-          "podium": [
-            {
-              "position": 1,
-              "name": "Chase Briscoe",
-              "team": "Joe Gibbs Racing"
-            },
-            {
-              "position": 2,
-              "name": "Christopher Bell",
-              "team": "Joe Gibbs Racing"
-            },
-            {
-              "position": 3,
-              "name": "Ryan Blaney",
-              "team": "Team Penske"
-            }
-          ]
-        }
-      ]
     }
   ],
   "lastRaces": [
@@ -311,9 +240,34 @@
       "channelName": "NASCAR Cup Series",
       "headline": "Bank of America 400",
       "detail": "Charlotte Motor Speedway · Sun 11 Oct",
-      "body": "The Bank of America 400 ran on Sunday 11 October at Charlotte Motor Speedway, round 32 of the NASCAR Cup Series. It was another full weekend on the season's schedule, with the field taking to the track for a night of racing.",
+      "body": "Chase Briscoe won from second on the grid at Charlotte, holding off teammate Christopher Bell for a one-two with Ryan Blaney third. It was a razor-thin finish, decided by just 0.029 seconds across 267 laps and six cautions. Kyle Larson led most of the way and extended his Chase lead over Denny Hamlin to 49 points, while Briscoe climbed from sixth to fourth in the standings.",
       "date": "2026-10-11",
       "round": 32,
+      "facts": [
+        "Chase Briscoe won from 2nd on the grid",
+        "Most laps led: Kyle Larson (97)",
+        "Stage winners: Stage 1 Kyle Larson, Stage 2 Christopher Bell",
+        "Margin of victory: 0.029 s",
+        "Kyle Larson's Chase lead over Denny Hamlin went from 40 to 49 points this weekend, with 4 races to go",
+        "The win lifted Chase Briscoe from 6th to 4th in the Chase"
+      ],
+      "podium": [
+        {
+          "position": 1,
+          "name": "Chase Briscoe",
+          "team": "Joe Gibbs Racing"
+        },
+        {
+          "position": 2,
+          "name": "Christopher Bell",
+          "team": "Joe Gibbs Racing"
+        },
+        {
+          "position": 3,
+          "name": "Ryan Blaney",
+          "team": "Team Penske"
+        }
+      ],
       "factsVersion": 4,
       "writer": "own server"
     },
