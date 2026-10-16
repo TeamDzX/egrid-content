@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-15T12:41:00Z",
+  "generatedAt": "2026-10-16T12:28:11Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,39 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "S16fsHVdHd0",
+          "title": "The GABICO Challenge | Episode 3: Strategy Battleship.",
+          "publishedAt": "2026-10-16T08:43:43Z",
+          "duration": "5:01",
+          "seconds": 301,
+          "thumbnail": "https://i.ytimg.com/vi/S16fsHVdHd0/maxresdefault.jpg",
+          "source": "Audi Revolut F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "qY8feFJF_lY",
+          "title": "The Good, The Bad & The Triple-Header, Nu Silver Arrows Radio Show, Episode 10",
+          "publishedAt": "2026-10-16T07:59:43Z",
+          "duration": "34:17",
+          "seconds": 2057,
+          "thumbnail": "https://i.ytimg.com/vi/qY8feFJF_lY/maxresdefault.jpg",
+          "source": "Mercedes-AMG F1",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "Th9BdOCYZpE",
+          "title": "Under The Lights In Marina Bay | Cadillac Formula 1® Team",
+          "publishedAt": "2026-10-15T17:54:13Z",
+          "duration": "5:51",
+          "seconds": 351,
+          "thumbnail": "https://i.ytimg.com/vi/Th9BdOCYZpE/maxresdefault.jpg",
+          "source": "Cadillac Formula 1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "uJAur_OKoLs",
           "title": "Unboxed: Singapore Marketing Day | McLaren Racing",
@@ -159,17 +192,6 @@
           "seconds": 385,
           "thumbnail": "https://i.ytimg.com/vi/LFE4oF01Pz8/maxresdefault.jpg",
           "source": "Cadillac Formula 1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "AsvPhTnHZYU",
-          "title": "70 Days: Simulating Sepang | McLaren Racing & Gemini",
-          "publishedAt": "2026-09-29T20:51:30Z",
-          "duration": "6:24",
-          "seconds": 384,
-          "thumbnail": "https://i.ytimg.com/vi/AsvPhTnHZYU/maxresdefault.jpg",
-          "source": "McLaren",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -400,28 +422,6 @@
           "duration": "6:59",
           "seconds": 419,
           "thumbnail": "https://i.ytimg.com/vi/Mfccz2boJps/maxresdefault.jpg",
-          "source": "Aston Martin Aramco F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "LNP6lgxiTTg",
-          "title": "Why Spa is Unlike Any Other Circuit in F1",
-          "publishedAt": "2026-07-16T14:00:31Z",
-          "duration": "6:01",
-          "seconds": 361,
-          "thumbnail": "https://i.ytimg.com/vi/LNP6lgxiTTg/maxresdefault.jpg",
-          "source": "FIA",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "-59xVmUn1YI",
-          "title": "AMR Network: Portraits | Cognition",
-          "publishedAt": "2026-07-14T14:17:27Z",
-          "duration": "5:49",
-          "seconds": 349,
-          "thumbnail": "https://i.ytimg.com/vi/-59xVmUn1YI/maxresdefault.jpg",
           "source": "Aston Martin Aramco F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
