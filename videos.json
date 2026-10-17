@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-16T12:28:11Z",
+  "generatedAt": "2026-10-17T11:39:05Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,28 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "lDx5trAHefg",
+          "title": "CMRT: The Team Behind The Response",
+          "publishedAt": "2026-10-16T17:00:08Z",
+          "duration": "7:24",
+          "seconds": 444,
+          "thumbnail": "https://i.ytimg.com/vi/lDx5trAHefg/maxresdefault.jpg",
+          "source": "FIA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "AgnrRlneuuo",
+          "title": "James Vowles Answers Your Singapore Grand Prix Fan Questions!",
+          "publishedAt": "2026-10-16T16:00:22Z",
+          "duration": "8:34",
+          "seconds": 514,
+          "thumbnail": "https://i.ytimg.com/vi/AgnrRlneuuo/maxresdefault.jpg",
+          "source": "Atlassian Williams F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "S16fsHVdHd0",
           "title": "The GABICO Challenge | Episode 3: Strategy Battleship.",
@@ -192,17 +214,6 @@
           "seconds": 385,
           "thumbnail": "https://i.ytimg.com/vi/LFE4oF01Pz8/maxresdefault.jpg",
           "source": "Cadillac Formula 1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "osrB6hfGj5A",
-          "title": "The Unofficial Komatsu Training You Didn’t Know You Needed",
-          "publishedAt": "2026-09-28T08:59:59Z",
-          "duration": "6:10",
-          "seconds": 370,
-          "thumbnail": "https://i.ytimg.com/vi/osrB6hfGj5A/maxresdefault.jpg",
-          "source": "Atlassian Williams F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -412,17 +423,6 @@
           "seconds": 304,
           "thumbnail": "https://i.ytimg.com/vi/lfa2IOwWnHg/maxresdefault.jpg",
           "source": "Cadillac Formula 1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "Mfccz2boJps",
-          "title": "AMR Network: Portraits | Cohere",
-          "publishedAt": "2026-07-17T16:57:33Z",
-          "duration": "6:59",
-          "seconds": 419,
-          "thumbnail": "https://i.ytimg.com/vi/Mfccz2boJps/maxresdefault.jpg",
-          "source": "Aston Martin Aramco F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -1536,6 +1536,17 @@
       "sourceURL": "https://www.youtube.com/channel/UC5lTEvtwu6SR3LMSmU9VZ2Q",
       "videos": [
         {
+          "id": "yCK1AHejB0Y",
+          "title": "INCREDIBLE DRAMA! John Higgins vs Mark Allen | 2021 Northern Ireland Open | Full Final Session",
+          "publishedAt": "2026-10-16T14:00:07Z",
+          "duration": "3:12:40",
+          "seconds": 11560,
+          "thumbnail": "https://i.ytimg.com/vi/yCK1AHejB0Y/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "pUXQ9L7KxZU",
           "title": "ABSOLUTE CHAOS! Jimmy White vs Dechawat Poomjaeng | 2015 Shoot Out CLASSIC",
           "publishedAt": "2026-10-15T12:04:33Z",
@@ -1652,17 +1663,6 @@
           "duration": "17:49",
           "seconds": 1069,
           "thumbnail": "https://i.ytimg.com/vi/E9wkhojGSh8/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "yGHNA0TscBE",
-          "title": "OUTWITTING SELBY!? | Mark Selby vs Stephen Maguire | Shenzhen Open 2026",
-          "publishedAt": "2026-10-01T09:08:42Z",
-          "duration": "11:55",
-          "seconds": 715,
-          "thumbnail": "https://i.ytimg.com/vi/yGHNA0TscBE/maxresdefault.jpg",
           "source": "WST",
           "blockedRegions": [],
           "allowedRegions": []
