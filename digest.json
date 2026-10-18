@@ -1,7 +1,48 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-17T01:21:25Z",
+  "generatedAt": "2026-10-18T01:10:19Z",
   "editions": [
+    {
+      "id": "2026-10-18-preview",
+      "kind": "preview",
+      "title": "This weekend on E-Grid",
+      "dateRange": "16–19 October",
+      "intro": "Three rounds this Sunday 18 October: the Clio Cup Series visits Navarra for its sixth round, NASCAR's Cup Series reaches round 33 at Phoenix, and NHRA drag racing returns with the Texas FallNationals.",
+      "publishedAt": "2026-10-18T01:10:19Z",
+      "expiresAt": "2026-10-23T01:10:19Z",
+      "items": [
+        {
+          "channelID": "cliocup",
+          "channelName": "Clio Cup Series",
+          "headline": "Navarra",
+          "detail": "Circuito de Navarra, Spain · Sun 18 Oct",
+          "body": "The Clio Cup Series reaches its sixth round of the season at the Circuito de Navarra in Spain on Sunday 18 October. It is the sole Clio Cup event on this week's calendar.",
+          "date": "2026-10-18",
+          "round": 6
+        },
+        {
+          "channelID": "nascar",
+          "channelName": "NASCAR Cup Series",
+          "headline": "Freeway Insurance 500",
+          "detail": "Phoenix Raceway · Sun 18 Oct",
+          "body": "The Freeway Insurance 500 at Phoenix Raceway is round 33 of NASCAR's Cup Series and runs on Sunday 18 October, with a start at 19:00 UTC. The 312-lap, 312-mile race will be shown in the United States on TV, with radio carried by MRN.",
+          "date": "2026-10-18",
+          "round": 33,
+          "facts": [
+            "312 laps, 312 miles",
+            "US coverage: USA (TV), MRN (radio)"
+          ]
+        },
+        {
+          "channelID": "nhra",
+          "channelName": "NHRA Drag Racing",
+          "headline": "Texas FallNationals",
+          "detail": "Texas Motorplex, Ennis · Sun 18 Oct",
+          "body": "The Texas FallNationals bring NHRA drag racing to the Texas Motorplex in Ennis on Sunday 18 October. It is the only NHRA round on this week's calendar.",
+          "date": "2026-10-18"
+        }
+      ]
+    },
     {
       "id": "2026-10-17-preview",
       "kind": "preview",
@@ -117,47 +158,6 @@
           "headline": "Texas FallNationals",
           "detail": "Texas Motorplex, Ennis · Sun 18 Oct",
           "body": "The NHRA Drag Racing series takes in the Texas FallNationals at the Texas Motorplex in Ennis on Sunday 18 October. A full weekend of drag racing unfolds at this Texas venue.",
-          "date": "2026-10-18"
-        }
-      ]
-    },
-    {
-      "id": "2026-10-14-preview",
-      "kind": "preview",
-      "title": "This weekend on E-Grid",
-      "dateRange": "14–19 October",
-      "intro": "3 rounds across Clio Cup Series, NASCAR Cup Series and NHRA Drag Racing between 14–19 October.",
-      "publishedAt": "2026-10-14T00:23:22Z",
-      "expiresAt": "2026-10-19T00:23:22Z",
-      "items": [
-        {
-          "channelID": "cliocup",
-          "channelName": "Clio Cup Series",
-          "headline": "Navarra",
-          "detail": "Circuito de Navarra, Spain · Sun 18 Oct",
-          "body": "Round 6 of the Clio Cup Series season.",
-          "date": "2026-10-18",
-          "round": 6
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "Freeway Insurance 500",
-          "detail": "Phoenix Raceway · Sun 18 Oct",
-          "body": "Round 33 of the NASCAR Cup Series season. The race starts at 19:00 UTC.",
-          "date": "2026-10-18",
-          "round": 33,
-          "facts": [
-            "312 laps, 312 miles",
-            "US coverage: USA (TV), MRN (radio)"
-          ]
-        },
-        {
-          "channelID": "nhra",
-          "channelName": "NHRA Drag Racing",
-          "headline": "Texas FallNationals",
-          "detail": "Texas Motorplex, Ennis · Sun 18 Oct",
-          "body": "This NHRA Drag Racing round.",
           "date": "2026-10-18"
         }
       ]
