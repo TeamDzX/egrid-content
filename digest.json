@@ -1,22 +1,22 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-18T18:11:42Z",
+  "generatedAt": "2026-10-18T23:20:45Z",
   "editions": [
     {
       "id": "2026-10-18-preview",
       "kind": "preview",
-      "title": "This weekend on E-Grid",
+      "title": "Results from the weekend",
       "dateRange": "16–19 October",
-      "intro": "This weekend brings three rounds of action from 16 to 19 October, with the Clio Cup Series visiting Navarra, the NASCAR Cup Series lining up for the Freeway Insurance 500 at Phoenix and NHRA Drag Racing heading to Texas.",
-      "publishedAt": "2026-10-18T18:11:42Z",
-      "expiresAt": "2026-10-23T18:11:42Z",
+      "intro": "This weekend brings three rounds across the Clio Cup Series, NASCAR Cup Series and NHRA Drag Racing. The NASCAR Freeway Insurance 500 at Phoenix has been decided, while the Clio Cup in Navarra and the NHRA Texas FallNationals await their verdicts.",
+      "publishedAt": "2026-10-18T23:20:45Z",
+      "expiresAt": "2026-10-23T23:20:45Z",
       "items": [
         {
           "channelID": "cliocup",
           "channelName": "Clio Cup Series",
           "headline": "Navarra",
           "detail": "Circuito de Navarra, Spain · Sun 18 Oct",
-          "body": "Round six of the Clio Cup Series takes the field to the Circuito de Navarra in Spain this Sunday, 18 October. It is a compact circuit that suits close racing through the corners.",
+          "body": "The Clio Cup Series heads to the Circuito de Navarra in Spain on Sun 18 Oct for round six of the championship. No start time has been published.",
           "date": "2026-10-18",
           "round": 6
         },
@@ -25,12 +25,33 @@
           "channelName": "NASCAR Cup Series",
           "headline": "Freeway Insurance 500",
           "detail": "Phoenix Raceway · Sun 18 Oct",
-          "body": "The NASCAR Cup Series reaches round 33 with the Freeway Insurance 500 at Phoenix Raceway on Sunday 18 October, starting at 19:00 UTC. The event runs the full 312 laps for 312 miles, with United States coverage on USA television and MRN radio.",
+          "body": "Tyler Reddick took the Freeway Insurance 500 at Phoenix, beating Ryan Blaney and Chase Elliott on the podium. Starting from sixth, he won by 0.801 seconds across 312 laps. Championship leader Kyle Larson retired with an accident, and his Chase lead over Christopher Bell narrowed from 49 to just 5 points with three races remaining.",
           "date": "2026-10-18",
           "round": 33,
           "facts": [
-            "312 laps, 312 miles",
-            "US coverage: USA (TV), MRN (radio)"
+            "Tyler Reddick won from 6th on the grid",
+            "Most laps led: Christopher Bell (85)",
+            "Joey Logano swept stages 1 and 2",
+            "Margin of victory: 0.801 s",
+            "Kyle Larson's Chase lead over Christopher Bell went from 49 to 5 points this weekend, with 3 races to go",
+            "312 laps, 21 lead changes among 10 drivers"
+          ],
+          "podium": [
+            {
+              "position": 1,
+              "name": "Tyler Reddick",
+              "team": "23XI Racing"
+            },
+            {
+              "position": 2,
+              "name": "Ryan Blaney",
+              "team": "Team Penske"
+            },
+            {
+              "position": 3,
+              "name": "Chase Elliott",
+              "team": "Hendrick Motorsports"
+            }
           ]
         },
         {
@@ -38,7 +59,7 @@
           "channelName": "NHRA Drag Racing",
           "headline": "Texas FallNationals",
           "detail": "Texas Motorplex, Ennis · Sun 18 Oct",
-          "body": "The NHRA Drag Racing season continues with the Texas FallNationals at the Texas Motorplex in Ennis this Sunday, 18 October. It is a straight-line test where quarter-mile runs decide who advances.",
+          "body": "The NHRA Drag Racing season reaches the Texas Motorplex in Ennis on Sun 18 Oct for the FallNationals. No start time has been published.",
           "date": "2026-10-18"
         }
       ]
@@ -167,34 +188,34 @@
     {
       "channelID": "nascar",
       "channelName": "NASCAR Cup Series",
-      "headline": "Bank of America 400",
-      "detail": "Charlotte Motor Speedway · Sun 11 Oct",
-      "body": "Chase Briscoe won from second on the grid at Charlotte, holding off teammate Christopher Bell for a one-two with Ryan Blaney third. It was a razor-thin finish, decided by just 0.029 seconds across 267 laps and six cautions. Kyle Larson led most of the way and extended his Chase lead over Denny Hamlin to 49 points, while Briscoe climbed from sixth to fourth in the standings.",
-      "date": "2026-10-11",
-      "round": 32,
+      "headline": "Freeway Insurance 500",
+      "detail": "Phoenix Raceway · Sun 18 Oct",
+      "body": "Tyler Reddick won the Freeway Insurance 500 at Phoenix Raceway, taking the flag by 0.801s after starting from sixth, ahead of Ryan Blaney for Team Penske and Chase Elliott for Hendrick Motorsports. It was a close contest, with 21 lead changes across 312 laps. Larson's championship lead over Christopher Bell then fell from 49 to just 5 points with three races remaining.",
+      "date": "2026-10-18",
+      "round": 33,
       "facts": [
-        "Chase Briscoe won from 2nd on the grid",
-        "Most laps led: Kyle Larson (97)",
-        "Stage winners: Stage 1 Kyle Larson, Stage 2 Christopher Bell",
-        "Margin of victory: 0.029 s",
-        "Kyle Larson's Chase lead over Denny Hamlin went from 40 to 49 points this weekend, with 4 races to go",
-        "The win lifted Chase Briscoe from 6th to 4th in the Chase"
+        "Tyler Reddick won from 6th on the grid",
+        "Most laps led: Christopher Bell (85)",
+        "Joey Logano swept stages 1 and 2",
+        "Margin of victory: 0.801 s",
+        "Kyle Larson's Chase lead over Christopher Bell went from 49 to 5 points this weekend, with 3 races to go",
+        "312 laps, 21 lead changes among 10 drivers"
       ],
       "podium": [
         {
           "position": 1,
-          "name": "Chase Briscoe",
-          "team": "Joe Gibbs Racing"
+          "name": "Tyler Reddick",
+          "team": "23XI Racing"
         },
         {
           "position": 2,
-          "name": "Christopher Bell",
-          "team": "Joe Gibbs Racing"
+          "name": "Ryan Blaney",
+          "team": "Team Penske"
         },
         {
           "position": 3,
-          "name": "Ryan Blaney",
-          "team": "Team Penske"
+          "name": "Chase Elliott",
+          "team": "Hendrick Motorsports"
         }
       ],
       "factsVersion": 4,
