@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-17T11:39:05Z",
+  "generatedAt": "2026-10-18T12:04:44Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,28 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "9OnSLxsR-TA",
+          "title": "How Do F1 Drivers Race In Extreme Heat?",
+          "publishedAt": "2026-10-18T11:00:20Z",
+          "duration": "10:28",
+          "seconds": 628,
+          "thumbnail": "https://i.ytimg.com/vi/9OnSLxsR-TA/maxresdefault.jpg",
+          "source": "Visa Cash App RB F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "8PbxQvKZvPY",
+          "title": "Inside The World of Oracle Red Bull Racing Trackside! | Behind The Charge",
+          "publishedAt": "2026-10-17T16:00:08Z",
+          "duration": "8:26",
+          "seconds": 506,
+          "thumbnail": "https://i.ytimg.com/vi/8PbxQvKZvPY/maxresdefault.jpg",
+          "source": "Red Bull Racing",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "lDx5trAHefg",
           "title": "CMRT: The Team Behind The Response",
@@ -181,17 +203,6 @@
           "seconds": 570,
           "thumbnail": "https://i.ytimg.com/vi/5H6hVXJftqQ/maxresdefault.jpg",
           "source": "Atlassian Williams F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "PaI8jxwAlP0",
-          "title": "70 Days: Scaling Sepang | McLaren Racing & Gemini",
-          "publishedAt": "2026-09-30T19:20:15Z",
-          "duration": "7:36",
-          "seconds": 456,
-          "thumbnail": "https://i.ytimg.com/vi/PaI8jxwAlP0/maxresdefault.jpg",
-          "source": "McLaren",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -412,17 +423,6 @@
           "seconds": 373,
           "thumbnail": "https://i.ytimg.com/vi/l9k2EOSG5Is/maxresdefault.jpg",
           "source": "Aston Martin Aramco F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "lfa2IOwWnHg",
-          "title": "Behind the Scenes of the Belgian Grand Prix 2026 | Cadillac Formula 1® Team",
-          "publishedAt": "2026-07-21T17:03:12Z",
-          "duration": "5:04",
-          "seconds": 304,
-          "thumbnail": "https://i.ytimg.com/vi/lfa2IOwWnHg/maxresdefault.jpg",
-          "source": "Cadillac Formula 1 Team",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -1536,6 +1536,17 @@
       "sourceURL": "https://www.youtube.com/channel/UC5lTEvtwu6SR3LMSmU9VZ2Q",
       "videos": [
         {
+          "id": "kO2BUkl6Vyk",
+          "title": "THRILLING ENDING! | Mark Selby vs Ronnie O'Sullivan | BetVictor Northern Ireland Open 2018",
+          "publishedAt": "2026-10-17T13:00:04Z",
+          "duration": "18:04",
+          "seconds": 1084,
+          "thumbnail": "https://i.ytimg.com/vi/kO2BUkl6Vyk/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "yCK1AHejB0Y",
           "title": "INCREDIBLE DRAMA! John Higgins vs Mark Allen | 2021 Northern Ireland Open | Full Final Session",
           "publishedAt": "2026-10-16T14:00:07Z",
@@ -1652,17 +1663,6 @@
           "duration": "17:31",
           "seconds": 1051,
           "thumbnail": "https://i.ytimg.com/vi/H7PLD09NVtc/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "E9wkhojGSh8",
-          "title": "BACK-AND-FORTH BATTLE! Judd Trump vs Si Jiahui | 2026 Shenzhen Open",
-          "publishedAt": "2026-10-01T14:46:39Z",
-          "duration": "17:49",
-          "seconds": 1069,
-          "thumbnail": "https://i.ytimg.com/vi/E9wkhojGSh8/maxresdefault.jpg",
           "source": "WST",
           "blockedRegions": [],
           "allowedRegions": []
