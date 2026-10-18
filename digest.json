@@ -1,22 +1,22 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-18T01:10:19Z",
+  "generatedAt": "2026-10-18T18:11:42Z",
   "editions": [
     {
       "id": "2026-10-18-preview",
       "kind": "preview",
       "title": "This weekend on E-Grid",
       "dateRange": "16–19 October",
-      "intro": "Three rounds this Sunday 18 October: the Clio Cup Series visits Navarra for its sixth round, NASCAR's Cup Series reaches round 33 at Phoenix, and NHRA drag racing returns with the Texas FallNationals.",
-      "publishedAt": "2026-10-18T01:10:19Z",
-      "expiresAt": "2026-10-23T01:10:19Z",
+      "intro": "This weekend brings three rounds of action from 16 to 19 October, with the Clio Cup Series visiting Navarra, the NASCAR Cup Series lining up for the Freeway Insurance 500 at Phoenix and NHRA Drag Racing heading to Texas.",
+      "publishedAt": "2026-10-18T18:11:42Z",
+      "expiresAt": "2026-10-23T18:11:42Z",
       "items": [
         {
           "channelID": "cliocup",
           "channelName": "Clio Cup Series",
           "headline": "Navarra",
           "detail": "Circuito de Navarra, Spain · Sun 18 Oct",
-          "body": "The Clio Cup Series reaches its sixth round of the season at the Circuito de Navarra in Spain on Sunday 18 October. It is the sole Clio Cup event on this week's calendar.",
+          "body": "Round six of the Clio Cup Series takes the field to the Circuito de Navarra in Spain this Sunday, 18 October. It is a compact circuit that suits close racing through the corners.",
           "date": "2026-10-18",
           "round": 6
         },
@@ -25,7 +25,7 @@
           "channelName": "NASCAR Cup Series",
           "headline": "Freeway Insurance 500",
           "detail": "Phoenix Raceway · Sun 18 Oct",
-          "body": "The Freeway Insurance 500 at Phoenix Raceway is round 33 of NASCAR's Cup Series and runs on Sunday 18 October, with a start at 19:00 UTC. The 312-lap, 312-mile race will be shown in the United States on TV, with radio carried by MRN.",
+          "body": "The NASCAR Cup Series reaches round 33 with the Freeway Insurance 500 at Phoenix Raceway on Sunday 18 October, starting at 19:00 UTC. The event runs the full 312 laps for 312 miles, with United States coverage on USA television and MRN radio.",
           "date": "2026-10-18",
           "round": 33,
           "facts": [
@@ -38,7 +38,7 @@
           "channelName": "NHRA Drag Racing",
           "headline": "Texas FallNationals",
           "detail": "Texas Motorplex, Ennis · Sun 18 Oct",
-          "body": "The Texas FallNationals bring NHRA drag racing to the Texas Motorplex in Ennis on Sunday 18 October. It is the only NHRA round on this week's calendar.",
+          "body": "The NHRA Drag Racing season continues with the Texas FallNationals at the Texas Motorplex in Ennis this Sunday, 18 October. It is a straight-line test where quarter-mile runs decide who advances.",
           "date": "2026-10-18"
         }
       ]
