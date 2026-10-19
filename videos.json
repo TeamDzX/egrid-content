@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-18T12:04:44Z",
+  "generatedAt": "2026-10-19T14:42:40Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,17 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "w8YN5Hr95qU",
+          "title": "Unboxed: Designed to Race: Front Row | McLaren Racing",
+          "publishedAt": "2026-10-18T17:46:22Z",
+          "duration": "10:24",
+          "seconds": 624,
+          "thumbnail": "https://i.ytimg.com/vi/w8YN5Hr95qU/maxresdefault.jpg",
+          "source": "McLaren",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "9OnSLxsR-TA",
           "title": "How Do F1 Drivers Race In Extreme Heat?",
@@ -21,7 +32,7 @@
         },
         {
           "id": "8PbxQvKZvPY",
-          "title": "Inside The World of Oracle Red Bull Racing Trackside! | Behind The Charge",
+          "title": "Giving You A Totally Real POV of Life Trackside! | Behind The Charge",
           "publishedAt": "2026-10-17T16:00:08Z",
           "duration": "8:26",
           "seconds": 506,
@@ -416,17 +427,6 @@
           "allowedRegions": []
         },
         {
-          "id": "l9k2EOSG5Is",
-          "title": "AMR Network: Portraits | ServiceNow",
-          "publishedAt": "2026-07-21T17:04:28Z",
-          "duration": "6:13",
-          "seconds": 373,
-          "thumbnail": "https://i.ytimg.com/vi/l9k2EOSG5Is/maxresdefault.jpg",
-          "source": "Aston Martin Aramco F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "4aFCIR7Qajc",
           "title": "We Spent the Day with Franco Colapinto at an F1 Filming Day | Powered by Eni",
           "publishedAt": "2026-05-17T11:30:39Z",
@@ -612,6 +612,17 @@
       "source": "FIA World Endurance Championship",
       "sourceURL": "https://www.youtube.com/channel/UCwU7U7PiarcJKLjDJTnANjw",
       "videos": [
+        {
+          "id": "T3lCfL3qXoA",
+          "title": "Race Highlights | 6 Hours of Barcelona 2026 | FIA WEC",
+          "publishedAt": "2026-10-19T10:56:01Z",
+          "duration": "13:24",
+          "seconds": 804,
+          "thumbnail": "https://i.ytimg.com/vi/T3lCfL3qXoA/maxresdefault.jpg",
+          "source": "FIA World Endurance Championship",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "xgcEnCOPwOg",
           "title": "Extended Highlights | 6 Hours of Fuji 2026 | FIA WEC",
@@ -873,6 +884,17 @@
       "sourceURL": "https://www.youtube.com/channel/UCuN9hYw2RpoAW8rZ3VK3isA",
       "videos": [
         {
+          "id": "4-u_dT57I5o",
+          "title": "NASCAR Cup Series Highlights | 2026 Phoenix Raceway",
+          "publishedAt": "2026-10-18T22:41:48Z",
+          "duration": "25:05",
+          "seconds": 1505,
+          "thumbnail": "https://i.ytimg.com/vi/4-u_dT57I5o/maxresdefault.jpg",
+          "source": "NASCAR",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "Yb4yUXZivtE",
           "title": "NASCAR Cup Series Highlights | 2026 Charlotte Motor Speedway",
           "publishedAt": "2026-10-11T22:39:37Z",
@@ -967,17 +989,6 @@
           "duration": "23:24",
           "seconds": 1404,
           "thumbnail": "https://i.ytimg.com/vi/bLkNa9PP35A/maxresdefault.jpg",
-          "source": "NASCAR",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "z_6fqXoJesU",
-          "title": "NASCAR Cup Series Highlights | 2026 Iowa Speedway",
-          "publishedAt": "2026-08-09T23:19:40Z",
-          "duration": "23:08",
-          "seconds": 1388,
-          "thumbnail": "https://i.ytimg.com/vi/z_6fqXoJesU/maxresdefault.jpg",
           "source": "NASCAR",
           "blockedRegions": [],
           "allowedRegions": []
@@ -1196,6 +1207,17 @@
       "source": "the MotoGP manufacturers",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "nRV718FX5cA",
+          "title": "Red Bull KTM MotoGP™ 2026 Factory Floor Episode 17 #INDONESIANGP | KTM",
+          "publishedAt": "2026-10-19T11:00:02Z",
+          "duration": "10:43",
+          "seconds": 643,
+          "thumbnail": "https://i.ytimg.com/vi/nRV718FX5cA/maxresdefault.jpg",
+          "source": "KTM",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "iRd0OotSnlA",
           "title": "#IndonesianGP MotoGP - Heat Haze - Sashimi Behind The Scenes",
@@ -1483,17 +1505,6 @@
           "allowedRegions": []
         },
         {
-          "id": "5ZzQtTHL4Zc",
-          "title": "Red Bull KTM MotoGP™ 2026 Factory Floor Episode 8 #HUNGARIANGP | KTM",
-          "publishedAt": "2026-06-12T09:55:35Z",
-          "duration": "12:15",
-          "seconds": 735,
-          "thumbnail": "https://i.ytimg.com/vi/5ZzQtTHL4Zc/maxresdefault.jpg",
-          "source": "KTM",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "t0PcPZJve2E",
           "title": "ITA - Aprilia Racing | 2026 #MotoGP Team Presentation Live Show",
           "publishedAt": "2026-01-19T10:43:18Z",
@@ -1535,6 +1546,28 @@
       "source": "World Snooker Tour",
       "sourceURL": "https://www.youtube.com/channel/UC5lTEvtwu6SR3LMSmU9VZ2Q",
       "videos": [
+        {
+          "id": "WwnYCWTEMSg",
+          "title": "STEAL FOR THE WIN? Luca Brecel vs Lei Peifan | 2026 BetVictor Northern Ireland Open",
+          "publishedAt": "2026-10-19T13:54:41Z",
+          "duration": "8:08",
+          "seconds": 488,
+          "thumbnail": "https://i.ytimg.com/vi/WwnYCWTEMSg/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "jfPdrfrB3Lc",
+          "title": "ANOTHER FIRST ROUND UPSET!? | Shaun Murphy vs Liam Davies | BetVictor Northern Ireland Open 2026",
+          "publishedAt": "2026-10-18T22:29:42Z",
+          "duration": "10:40",
+          "seconds": 640,
+          "thumbnail": "https://i.ytimg.com/vi/jfPdrfrB3Lc/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "kO2BUkl6Vyk",
           "title": "THRILLING ENDING! | Mark Selby vs Ronnie O'Sullivan | BetVictor Northern Ireland Open 2018",
@@ -1641,28 +1674,6 @@
           "duration": "8:54",
           "seconds": 534,
           "thumbnail": "https://i.ytimg.com/vi/sEtEyiyU4y0/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "woQV4Baj2JM",
-          "title": "QUALITY MEETS QUALITY! | Judd Trump vs Mark Selby Opening Frame | Shenzhen Open 2026",
-          "publishedAt": "2026-10-02T07:04:37Z",
-          "duration": "8:52",
-          "seconds": 532,
-          "thumbnail": "https://i.ytimg.com/vi/woQV4Baj2JM/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "H7PLD09NVtc",
-          "title": "HIGH-CLASS POTTING! Wu Yize vs Ricky Walden | 2026 Shenzhen Open",
-          "publishedAt": "2026-10-01T15:06:56Z",
-          "duration": "17:31",
-          "seconds": 1051,
-          "thumbnail": "https://i.ytimg.com/vi/H7PLD09NVtc/maxresdefault.jpg",
           "source": "WST",
           "blockedRegions": [],
           "allowedRegions": []
