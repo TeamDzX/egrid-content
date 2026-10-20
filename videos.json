@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-19T14:42:40Z",
+  "generatedAt": "2026-10-20T12:45:03Z",
   "channels": [
     {
       "channelID": "f1",
@@ -613,6 +613,17 @@
       "sourceURL": "https://www.youtube.com/channel/UCwU7U7PiarcJKLjDJTnANjw",
       "videos": [
         {
+          "id": "i3uyoeqMid4",
+          "title": "Extended Highlights | 6 Hours of Barcelona 2026 | FIA WEC",
+          "publishedAt": "2026-10-19T16:00:06Z",
+          "duration": "56:03",
+          "seconds": 3363,
+          "thumbnail": "https://i.ytimg.com/vi/i3uyoeqMid4/maxresdefault.jpg",
+          "source": "FIA World Endurance Championship",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "T3lCfL3qXoA",
           "title": "Race Highlights | 6 Hours of Barcelona 2026 | FIA WEC",
           "publishedAt": "2026-10-19T10:56:01Z",
@@ -1067,6 +1078,17 @@
       "sourceURL": "https://www.youtube.com/channel/UCJcErqlzaBzFmAh2uIxeqxQ",
       "videos": [
         {
+          "id": "m_O4dAhwHuw",
+          "title": "Texas NHRA FallNationals Elimination Highlights",
+          "publishedAt": "2026-10-19T18:42:33Z",
+          "duration": "11:38",
+          "seconds": 698,
+          "thumbnail": "https://i.ytimg.com/vi/m_O4dAhwHuw/maxresdefault.jpg",
+          "source": "NHRA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "eWMsg2U5DeQ",
           "title": "Lucas Oil Drag Racing Series Highlights from the NAPA Auto Parts NHRA Midwest Nationals",
           "publishedAt": "2026-10-08T19:00:16Z",
@@ -1183,17 +1205,6 @@
           "duration": "8:46",
           "seconds": 526,
           "thumbnail": "https://i.ytimg.com/vi/PlI4vjFYgHA/maxresdefault.jpg",
-          "source": "NHRA",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "lvpqX_DBmyY",
-          "title": "Mission #2Fast2Tasty Highlights from the #BrainerdNats",
-          "publishedAt": "2026-08-22T22:50:45Z",
-          "duration": "2:53",
-          "seconds": 173,
-          "thumbnail": "https://i.ytimg.com/vi/lvpqX_DBmyY/maxresdefault.jpg",
           "source": "NHRA",
           "blockedRegions": [],
           "allowedRegions": []
@@ -1547,6 +1558,28 @@
       "sourceURL": "https://www.youtube.com/channel/UC5lTEvtwu6SR3LMSmU9VZ2Q",
       "videos": [
         {
+          "id": "UYV1NCqUUUA",
+          "title": "BRILLIANT DRAMA IN BELFAST! | Chang Bingyu vs Ryan Day EPIC | BetVictor Northern Ireland Open 2026",
+          "publishedAt": "2026-10-20T11:07:48Z",
+          "duration": "9:26",
+          "seconds": 566,
+          "thumbnail": "https://i.ytimg.com/vi/UYV1NCqUUUA/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "kqnU2HSX1OQ",
+          "title": "4-TIME CHAMP IN DANGER!? | Judd Trump vs Martin O'Donnell | BetVictor Northern Ireland Open 2026",
+          "publishedAt": "2026-10-19T21:39:12Z",
+          "duration": "8:36",
+          "seconds": 516,
+          "thumbnail": "https://i.ytimg.com/vi/kqnU2HSX1OQ/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "WwnYCWTEMSg",
           "title": "STEAL FOR THE WIN? Luca Brecel vs Lei Peifan | 2026 BetVictor Northern Ireland Open",
           "publishedAt": "2026-10-19T13:54:41Z",
@@ -1652,28 +1685,6 @@
           "duration": "10:12",
           "seconds": 612,
           "thumbnail": "https://i.ytimg.com/vi/zQ-cEB8s9VY/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "2aup5j0net8",
-          "title": "ONE OF THE MOST DRAMATIC DECIDERS EVER?! | Jimmy Robertson vs Yuan Sijun | Shenzhen Open 2026",
-          "publishedAt": "2026-10-03T12:26:50Z",
-          "duration": "11:27",
-          "seconds": 687,
-          "thumbnail": "https://i.ytimg.com/vi/2aup5j0net8/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "sEtEyiyU4y0",
-          "title": "WHAT A PERFORMANCE! | Judd Trump vs Mark Selby | Shenzhen Open 2026",
-          "publishedAt": "2026-10-02T08:25:22Z",
-          "duration": "8:54",
-          "seconds": 534,
-          "thumbnail": "https://i.ytimg.com/vi/sEtEyiyU4y0/maxresdefault.jpg",
           "source": "WST",
           "blockedRegions": [],
           "allowedRegions": []
