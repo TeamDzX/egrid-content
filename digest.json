@@ -1,7 +1,69 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-19T01:23:28Z",
+  "generatedAt": "2026-10-20T04:59:37Z",
   "editions": [
+    {
+      "id": "2026-10-20-recap",
+      "kind": "recap",
+      "title": "Last week on E-Grid",
+      "dateRange": "13–19 October",
+      "intro": "This week covers three rounds across the Clio Cup Series, NASCAR Cup Series and NHRA Drag Racing. We look back at a decisive Phoenix race that tightened the Cup title chase, alongside the Clio Cup event in Navarra and NHRA's Texas FallNationals.",
+      "publishedAt": "2026-10-20T04:59:37Z",
+      "expiresAt": "2026-10-24T04:59:37Z",
+      "items": [
+        {
+          "channelID": "cliocup",
+          "channelName": "Clio Cup Series",
+          "headline": "Navarra",
+          "detail": "Circuito de Navarra, Spain · Sun 18 Oct",
+          "body": "The Clio Cup Series visited the Circuito de Navarra in Spain, a circuit known for its elevation changes and fast sweepers. It was a round that put driver and machine to the test across the Spanish venue.",
+          "date": "2026-10-18",
+          "round": 6
+        },
+        {
+          "channelID": "nascar",
+          "channelName": "NASCAR Cup Series",
+          "headline": "Freeway Insurance 500",
+          "detail": "Phoenix Raceway · Sun 18 Oct",
+          "body": "Round 33 of the NASCAR Cup Series season. Won by Tyler Reddick (23XI Racing) from Ryan Blaney and Chase Elliott.",
+          "date": "2026-10-18",
+          "round": 33,
+          "facts": [
+            "Tyler Reddick won from 6th on the grid",
+            "Most laps led: Christopher Bell (85)",
+            "Joey Logano swept stages 1 and 2",
+            "Margin of victory: 0.801 s",
+            "Kyle Larson's Chase lead over Christopher Bell went from 49 to 5 points this weekend, with 3 races to go",
+            "312 laps, 21 lead changes among 10 drivers"
+          ],
+          "podium": [
+            {
+              "position": 1,
+              "name": "Tyler Reddick",
+              "team": "23XI Racing"
+            },
+            {
+              "position": 2,
+              "name": "Ryan Blaney",
+              "team": "Team Penske"
+            },
+            {
+              "position": 3,
+              "name": "Chase Elliott",
+              "team": "Hendrick Motorsports"
+            }
+          ]
+        },
+        {
+          "channelID": "nhra",
+          "channelName": "NHRA Drag Racing",
+          "headline": "Texas FallNationals",
+          "detail": "Texas Motorplex, Ennis · Sun 18 Oct",
+          "body": "The NHRA Drag Racing series held its Texas FallNationals at the Texas Motorplex in Ennis, a dragstrip where drivers chase top honours down the quarter mile.",
+          "date": "2026-10-18"
+        }
+      ]
+    },
     {
       "id": "2026-10-19-recap",
       "kind": "recap",
@@ -163,47 +225,6 @@
           "headline": "Texas FallNationals",
           "detail": "Texas Motorplex, Ennis · Sun 18 Oct",
           "body": "The NHRA Drag Racing series brings its Texas FallNationals to the Texas Motorplex in Ennis. The event is set for Sunday 18 October.",
-          "date": "2026-10-18"
-        }
-      ]
-    },
-    {
-      "id": "2026-10-16-preview",
-      "kind": "preview",
-      "title": "This weekend on E-Grid",
-      "dateRange": "16–19 October",
-      "intro": "This week brings three rounds across the calendar, all converging on Sunday 18 October. The Clio Cup Series reaches round six at Navarra, NASCAR's Cup Series heads to Phoenix for the Freeway Insurance 500, and NHRA drag racing returns with the Texas FallNationals.",
-      "publishedAt": "2026-10-16T00:28:22Z",
-      "expiresAt": "2026-10-21T00:28:22Z",
-      "items": [
-        {
-          "channelID": "cliocup",
-          "channelName": "Clio Cup Series",
-          "headline": "Navarra",
-          "detail": "Circuito de Navarra, Spain · Sun 18 Oct",
-          "body": "The Clio Cup Series reaches round six at the Circuito de Navarra in Spain on Sunday 18 October. It marks another stop in the championship's calendar, with the touring cars set to tackle the Spanish circuit.",
-          "date": "2026-10-18",
-          "round": 6
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "Freeway Insurance 500",
-          "detail": "Phoenix Raceway · Sun 18 Oct",
-          "body": "Round thirty-three of the NASCAR Cup Series is the Freeway Insurance 500 at Phoenix Raceway on Sunday 18 October, with a start at 19:00 UTC. The 312-lap, 312-mile race will be shown on TV in the United States and carried on radio by MRN.",
-          "date": "2026-10-18",
-          "round": 33,
-          "facts": [
-            "312 laps, 312 miles",
-            "US coverage: USA (TV), MRN (radio)"
-          ]
-        },
-        {
-          "channelID": "nhra",
-          "channelName": "NHRA Drag Racing",
-          "headline": "Texas FallNationals",
-          "detail": "Texas Motorplex, Ennis · Sun 18 Oct",
-          "body": "The NHRA Drag Racing series returns with the Texas FallNationals at the Texas Motorplex in Ennis on Sunday 18 October. It is a full day of drag racing, as drivers line up for their run down the track.",
           "date": "2026-10-18"
         }
       ]
