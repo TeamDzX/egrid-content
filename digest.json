@@ -1,7 +1,56 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-20T04:59:37Z",
+  "generatedAt": "2026-10-21T01:41:12Z",
   "editions": [
+    {
+      "id": "2026-10-21-preview",
+      "kind": "preview",
+      "title": "This weekend on E-Grid",
+      "dateRange": "21–26 October",
+      "intro": "This weekend puts three championships on the calendar: Formula 1, MotoGP and NASCAR's Cup Series all run on Sunday 25 October. Here is what each round offers as title chases reach a decisive point.",
+      "publishedAt": "2026-10-21T01:41:12Z",
+      "expiresAt": "2026-10-26T01:41:12Z",
+      "items": [
+        {
+          "channelID": "f1",
+          "channelName": "Formula 1",
+          "headline": "United States Grand Prix",
+          "detail": "Circuit of the Americas, USA · Sun 25 Oct",
+          "body": "Formula 1's United States Grand Prix runs at the Circuit of the Americas on Sunday 25 October, with the race starting at 20:00 UTC and qualifying on Saturday 24 Oct at 21:00 UTC. Andrea Kimi Antonelli leads George Russell by 102 points in the championship.",
+          "date": "2026-10-25",
+          "round": 18,
+          "facts": [
+            "Qualifying Sat 24 Oct, 21:00 UTC",
+            "Andrea Kimi Antonelli leads the championship by 102 points from George Russell"
+          ]
+        },
+        {
+          "channelID": "motogp",
+          "channelName": "MotoGP",
+          "headline": "Grand Prix of Australia",
+          "detail": "Phillip Island, Australia · Sun 25 Oct",
+          "body": "Round 18 of the MotoGP season.",
+          "date": "2026-10-25",
+          "round": 18,
+          "facts": [
+            "Jorge Martin leads the championship by 2 points from Marc Marquez"
+          ]
+        },
+        {
+          "channelID": "nascar",
+          "channelName": "NASCAR Cup Series",
+          "headline": "YellaWood 500",
+          "detail": "Talladega Superspeedway · Sun 25 Oct",
+          "body": "NASCAR's YellaWood 500 at Talladega Superspeedway runs on Sunday 25 October, starting at 18:00 UTC over 188 laps and 500.08 miles. US viewers can follow on NBC (TV) and MRN (radio).",
+          "date": "2026-10-25",
+          "round": 34,
+          "facts": [
+            "188 laps, 500.08 miles",
+            "US coverage: NBC (TV), MRN (radio)"
+          ]
+        }
+      ]
+    },
     {
       "id": "2026-10-20-recap",
       "kind": "recap",
@@ -184,47 +233,6 @@
           "headline": "Texas FallNationals",
           "detail": "Texas Motorplex, Ennis · Sun 18 Oct",
           "body": "The NHRA Drag Racing season reaches the Texas Motorplex in Ennis on Sun 18 Oct for the FallNationals. No start time has been published.",
-          "date": "2026-10-18"
-        }
-      ]
-    },
-    {
-      "id": "2026-10-17-preview",
-      "kind": "preview",
-      "title": "This weekend on E-Grid",
-      "dateRange": "16–19 October",
-      "intro": "Three rounds line up across the weekend of 16–19 October, with everything set for a busy Sunday on 18 October. The Clio Cup Series reaches round six at Navarra, NASCAR's Cup Series heads to Phoenix for the Freeway Insurance 500, and NHRA Drag Racing brings its Texas FallNationals to Ennis.",
-      "publishedAt": "2026-10-17T01:21:25Z",
-      "expiresAt": "2026-10-22T01:21:25Z",
-      "items": [
-        {
-          "channelID": "cliocup",
-          "channelName": "Clio Cup Series",
-          "headline": "Navarra",
-          "detail": "Circuito de Navarra, Spain · Sun 18 Oct",
-          "body": "The Clio Cup Series reaches its sixth round of the season at the Circuito de Navarra in Spain. The Navarra event is set for Sunday 18 October.",
-          "date": "2026-10-18",
-          "round": 6
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "Freeway Insurance 500",
-          "detail": "Phoenix Raceway · Sun 18 Oct",
-          "body": "NASCAR's Cup Series rounds up its thirty-third round at Phoenix Raceway with the Freeway Insurance 500 on Sunday 18 October, starting at 19:00 UTC. The 312-lap, 312-mile race will be covered in the United States on USA television and MRN radio.",
-          "date": "2026-10-18",
-          "round": 33,
-          "facts": [
-            "312 laps, 312 miles",
-            "US coverage: USA (TV), MRN (radio)"
-          ]
-        },
-        {
-          "channelID": "nhra",
-          "channelName": "NHRA Drag Racing",
-          "headline": "Texas FallNationals",
-          "detail": "Texas Motorplex, Ennis · Sun 18 Oct",
-          "body": "The NHRA Drag Racing series brings its Texas FallNationals to the Texas Motorplex in Ennis. The event is set for Sunday 18 October.",
           "date": "2026-10-18"
         }
       ]
