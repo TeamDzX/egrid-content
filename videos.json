@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-20T12:45:03Z",
+  "generatedAt": "2026-10-21T12:57:55Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,17 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "2bQfRf2UznY",
+          "title": "Which F1 Driver Can Build the Largest Tower?",
+          "publishedAt": "2026-10-20T16:00:15Z",
+          "duration": "6:37",
+          "seconds": 397,
+          "thumbnail": "https://i.ytimg.com/vi/2bQfRf2UznY/maxresdefault.jpg",
+          "source": "Atlassian Williams F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "w8YN5Hr95qU",
           "title": "Unboxed: Designed to Race: Front Row | McLaren Racing",
@@ -196,34 +207,12 @@
           "allowedRegions": []
         },
         {
-          "id": "SuCzitMKR08",
-          "title": "Max Wins The Bahrain Grand Prix, POWERED BY US! | Talking Bull",
-          "publishedAt": "2026-10-05T14:56:28Z",
-          "duration": "28:08",
-          "seconds": 1688,
-          "thumbnail": "https://i.ytimg.com/vi/SuCzitMKR08/maxresdefault.jpg",
-          "source": "Red Bull Racing",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "5H6hVXJftqQ",
           "title": "James Vowles Answers Your Azerbaijan Grand Prix Fan Questions!",
           "publishedAt": "2026-10-01T15:59:58Z",
           "duration": "9:30",
           "seconds": 570,
           "thumbnail": "https://i.ytimg.com/vi/5H6hVXJftqQ/maxresdefault.jpg",
-          "source": "Atlassian Williams F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "Ds48bXRt_v8",
-          "title": "Jamie Chadwick Drives Our F1 Car for the First Time!",
-          "publishedAt": "2026-09-30T16:00:04Z",
-          "duration": "9:40",
-          "seconds": 580,
-          "thumbnail": "https://i.ytimg.com/vi/Ds48bXRt_v8/maxresdefault.jpg",
           "source": "Atlassian Williams F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
@@ -280,17 +269,6 @@
           "seconds": 427,
           "thumbnail": "https://i.ytimg.com/vi/Sdk1lPxI9pU/maxresdefault.jpg",
           "source": "Cadillac Formula 1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "JwGUje2TCgA",
-          "title": "How To Photograph In Formula 1",
-          "publishedAt": "2026-09-17T16:00:17Z",
-          "duration": "8:55",
-          "seconds": 535,
-          "thumbnail": "https://i.ytimg.com/vi/JwGUje2TCgA/maxresdefault.jpg",
-          "source": "Visa Cash App RB F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -423,6 +401,28 @@
           "seconds": 311,
           "thumbnail": "https://i.ytimg.com/vi/ooSQDiKPP-E/maxresdefault.jpg",
           "source": "Aston Martin Aramco F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "l9k2EOSG5Is",
+          "title": "AMR Network: Portraits | ServiceNow",
+          "publishedAt": "2026-07-21T17:04:28Z",
+          "duration": "6:13",
+          "seconds": 373,
+          "thumbnail": "https://i.ytimg.com/vi/l9k2EOSG5Is/maxresdefault.jpg",
+          "source": "Aston Martin Aramco F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "lfa2IOwWnHg",
+          "title": "Behind the Scenes of the Belgian Grand Prix 2026 | Cadillac Formula 1® Team",
+          "publishedAt": "2026-07-21T17:03:12Z",
+          "duration": "5:04",
+          "seconds": 304,
+          "thumbnail": "https://i.ytimg.com/vi/lfa2IOwWnHg/maxresdefault.jpg",
+          "source": "Cadillac Formula 1 Team",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -992,17 +992,6 @@
           "source": "NASCAR",
           "blockedRegions": [],
           "allowedRegions": []
-        },
-        {
-          "id": "bLkNa9PP35A",
-          "title": "NASCAR Cup Series Highlights | 2026 Richmond Raceway",
-          "publishedAt": "2026-08-16T02:45:29Z",
-          "duration": "23:24",
-          "seconds": 1404,
-          "thumbnail": "https://i.ytimg.com/vi/bLkNa9PP35A/maxresdefault.jpg",
-          "source": "NASCAR",
-          "blockedRegions": [],
-          "allowedRegions": []
         }
       ],
       "externalVideos": []
@@ -1558,6 +1547,39 @@
       "sourceURL": "https://www.youtube.com/channel/UC5lTEvtwu6SR3LMSmU9VZ2Q",
       "videos": [
         {
+          "id": "U-Ct8CZ1Z8E",
+          "title": "CRUCIAL MOMENTS! | Liam Davies vs Pang Junxu TWISTY frame | Northern Ireland Open 2026",
+          "publishedAt": "2026-10-21T10:40:42Z",
+          "duration": "10:56",
+          "seconds": 656,
+          "thumbnail": "https://i.ytimg.com/vi/U-Ct8CZ1Z8E/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "o6vxaW1zPH8",
+          "title": "HIGH-SCORING EPIC! Kyren Wilson vs Thepchaiya Un-Nooh | 2026 BetVictor Northern Ireland Open",
+          "publishedAt": "2026-10-20T20:00:12Z",
+          "duration": "19:30",
+          "seconds": 1170,
+          "thumbnail": "https://i.ytimg.com/vi/o6vxaW1zPH8/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "VLPRhJbT9qM",
+          "title": "ANOTHER BIG NAME OUT? | Zhao Xintong vs Gao Yang | BetVictor Northern Ireland Open 2026",
+          "publishedAt": "2026-10-20T18:14:17Z",
+          "duration": "13:51",
+          "seconds": 831,
+          "thumbnail": "https://i.ytimg.com/vi/VLPRhJbT9qM/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "UYV1NCqUUUA",
           "title": "BRILLIANT DRAMA IN BELFAST! | Chang Bingyu vs Ryan Day EPIC | BetVictor Northern Ireland Open 2026",
           "publishedAt": "2026-10-20T11:07:48Z",
@@ -1652,39 +1674,6 @@
           "duration": "18:56",
           "seconds": 1136,
           "thumbnail": "https://i.ytimg.com/vi/R7VX1Zy5y1k/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "B__IFmCdkhE",
-          "title": "WHAT A BREAK! Wu Yize vs Yuan Sijun | 2026 Shenzhen Open Final",
-          "publishedAt": "2026-10-04T10:05:31Z",
-          "duration": "9:34",
-          "seconds": 574,
-          "thumbnail": "https://i.ytimg.com/vi/B__IFmCdkhE/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "-o4hd8fSXA8",
-          "title": "DRAMATIC EARLY BATTLE! Wu Yize vs Yuan Sijun | 2026 Shenzhen Open Final",
-          "publishedAt": "2026-10-04T08:37:14Z",
-          "duration": "8:30",
-          "seconds": 510,
-          "thumbnail": "https://i.ytimg.com/vi/-o4hd8fSXA8/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "zQ-cEB8s9VY",
-          "title": "UNEXPECTED SCORELINE! | Wu Yize vs Judd Trump | Shenzhen Open 2026",
-          "publishedAt": "2026-10-03T15:36:50Z",
-          "duration": "10:12",
-          "seconds": 612,
-          "thumbnail": "https://i.ytimg.com/vi/zQ-cEB8s9VY/maxresdefault.jpg",
           "source": "WST",
           "blockedRegions": [],
           "allowedRegions": []
