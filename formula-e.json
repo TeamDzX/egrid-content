@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-14T17:06:54Z",
+  "generatedAt": "2026-10-22T21:31:59Z",
   "sources": {
     "calendar": "https://www.fiaformulae.com/en/calendar",
     "sessions": "https://github.com/sportstimes/f1",
@@ -11765,7 +11765,7 @@
       "sessions": [
         {
           "name": "Practice 1",
-          "start": "2026-07-24T10:00:00Z"
+          "start": "2026-07-24T10:15:00Z"
         },
         {
           "name": "Practice 2",
@@ -12761,10 +12761,6 @@
       "season": 12,
       "id": "s12-r15",
       "sessions": [
-        {
-          "name": "Practice 3",
-          "start": "2026-07-26T04:30:00Z"
-        },
         {
           "name": "Qualifying",
           "start": "2026-07-26T06:40:00Z"
