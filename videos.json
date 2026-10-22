@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-21T12:57:55Z",
+  "generatedAt": "2026-10-22T12:59:46Z",
   "channels": [
     {
       "channelID": "f1",
@@ -1547,6 +1547,28 @@
       "sourceURL": "https://www.youtube.com/channel/UC5lTEvtwu6SR3LMSmU9VZ2Q",
       "videos": [
         {
+          "id": "W3fa1gjlw5w",
+          "title": "TENSE DECIDER! Jordan Brown vs Michael Holt | 2026 BetVictor Northern Ireland Open",
+          "publishedAt": "2026-10-21T20:52:44Z",
+          "duration": "16:43",
+          "seconds": 1003,
+          "thumbnail": "https://i.ytimg.com/vi/W3fa1gjlw5w/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "2cBqm7FdpUU",
+          "title": "TIMELESS GENIUS! | Mark Williams Shows QUALITY vs Zhang! | BetVictor Northern Ireland Open 2026",
+          "publishedAt": "2026-10-21T18:20:01Z",
+          "duration": "8:55",
+          "seconds": 535,
+          "thumbnail": "https://i.ytimg.com/vi/2cBqm7FdpUU/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "U-Ct8CZ1Z8E",
           "title": "CRUCIAL MOMENTS! | Liam Davies vs Pang Junxu TWISTY frame | Northern Ireland Open 2026",
           "publishedAt": "2026-10-21T10:40:42Z",
@@ -1652,28 +1674,6 @@
           "duration": "10:03",
           "seconds": 603,
           "thumbnail": "https://i.ytimg.com/vi/pUXQ9L7KxZU/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "ulRPJO6znJQ",
-          "title": "CLASSIC FINAL! | Ronnie O'Sullivan vs Judd Trump THRILLER! | 2020 BetVictor Northern Ireland Open",
-          "publishedAt": "2026-10-13T14:48:11Z",
-          "duration": "21:03",
-          "seconds": 1263,
-          "thumbnail": "https://i.ytimg.com/vi/ulRPJO6znJQ/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "R7VX1Zy5y1k",
-          "title": "RUTHLESS CHAMPION! Wu Yize vs Yuan Sijun | 2026 Shenzhen Open Final",
-          "publishedAt": "2026-10-04T14:41:19Z",
-          "duration": "18:56",
-          "seconds": 1136,
-          "thumbnail": "https://i.ytimg.com/vi/R7VX1Zy5y1k/maxresdefault.jpg",
           "source": "WST",
           "blockedRegions": [],
           "allowedRegions": []
