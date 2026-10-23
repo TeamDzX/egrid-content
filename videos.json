@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-22T12:59:46Z",
+  "generatedAt": "2026-10-23T12:39:20Z",
   "channels": [
     {
       "channelID": "f1",
@@ -203,17 +203,6 @@
           "seconds": 418,
           "thumbnail": "https://i.ytimg.com/vi/ukFyAtMK0Ew/maxresdefault.jpg",
           "source": "FIA",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "5H6hVXJftqQ",
-          "title": "James Vowles Answers Your Azerbaijan Grand Prix Fan Questions!",
-          "publishedAt": "2026-10-01T15:59:58Z",
-          "duration": "9:30",
-          "seconds": 570,
-          "thumbnail": "https://i.ytimg.com/vi/5H6hVXJftqQ/maxresdefault.jpg",
-          "source": "Atlassian Williams F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -423,6 +412,17 @@
           "seconds": 304,
           "thumbnail": "https://i.ytimg.com/vi/lfa2IOwWnHg/maxresdefault.jpg",
           "source": "Cadillac Formula 1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "Mfccz2boJps",
+          "title": "AMR Network: Portraits | Cohere",
+          "publishedAt": "2026-07-17T16:57:33Z",
+          "duration": "6:59",
+          "seconds": 419,
+          "thumbnail": "https://i.ytimg.com/vi/Mfccz2boJps/maxresdefault.jpg",
+          "source": "Aston Martin Aramco F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -1067,6 +1067,28 @@
       "sourceURL": "https://www.youtube.com/channel/UCJcErqlzaBzFmAh2uIxeqxQ",
       "videos": [
         {
+          "id": "wXFbUEB6hv8",
+          "title": "Lucas Oil Drag Racing Series Highlights from the Texas NHRA FallNationals",
+          "publishedAt": "2026-10-22T20:37:32Z",
+          "duration": "20:49",
+          "seconds": 1249,
+          "thumbnail": "https://i.ytimg.com/vi/wXFbUEB6hv8/maxresdefault.jpg",
+          "source": "NHRA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "TaS2HZwZ_Vo",
+          "title": "Highlights from the 2026 JEGS Allstars",
+          "publishedAt": "2026-10-22T17:00:09Z",
+          "duration": "12:20",
+          "seconds": 740,
+          "thumbnail": "https://i.ytimg.com/vi/TaS2HZwZ_Vo/maxresdefault.jpg",
+          "source": "NHRA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "m_O4dAhwHuw",
           "title": "Texas NHRA FallNationals Elimination Highlights",
           "publishedAt": "2026-10-19T18:42:33Z",
@@ -1172,28 +1194,6 @@
           "duration": "5:52",
           "seconds": 352,
           "thumbnail": "https://i.ytimg.com/vi/ihrtCtmGJis/maxresdefault.jpg",
-          "source": "NHRA",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "mdeYlfqNrHM",
-          "title": "Lucas Oil Drag Racing Series Highlights from the NHRA Brainerd Nationals",
-          "publishedAt": "2026-08-27T21:00:35Z",
-          "duration": "16:22",
-          "seconds": 982,
-          "thumbnail": "https://i.ytimg.com/vi/mdeYlfqNrHM/maxresdefault.jpg",
-          "source": "NHRA",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "PlI4vjFYgHA",
-          "title": "NHRA Brainerd Nationals Elimination Highlights",
-          "publishedAt": "2026-08-24T14:02:10Z",
-          "duration": "8:46",
-          "seconds": 526,
-          "thumbnail": "https://i.ytimg.com/vi/PlI4vjFYgHA/maxresdefault.jpg",
           "source": "NHRA",
           "blockedRegions": [],
           "allowedRegions": []
@@ -1547,6 +1547,17 @@
       "sourceURL": "https://www.youtube.com/channel/UC5lTEvtwu6SR3LMSmU9VZ2Q",
       "videos": [
         {
+          "id": "g1H5FKII4qM",
+          "title": "PURE DOMINANCE! Mark Williams vs Martin O'Donnell | 2026 BetVictor Northern Ireland Open",
+          "publishedAt": "2026-10-22T19:29:27Z",
+          "duration": "8:39",
+          "seconds": 519,
+          "thumbnail": "https://i.ytimg.com/vi/g1H5FKII4qM/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "W3fa1gjlw5w",
           "title": "TENSE DECIDER! Jordan Brown vs Michael Holt | 2026 BetVictor Northern Ireland Open",
           "publishedAt": "2026-10-21T20:52:44Z",
@@ -1663,17 +1674,6 @@
           "duration": "3:12:40",
           "seconds": 11560,
           "thumbnail": "https://i.ytimg.com/vi/yCK1AHejB0Y/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "pUXQ9L7KxZU",
-          "title": "ABSOLUTE CHAOS! Jimmy White vs Dechawat Poomjaeng | 2015 Shoot Out CLASSIC",
-          "publishedAt": "2026-10-15T12:04:33Z",
-          "duration": "10:03",
-          "seconds": 603,
-          "thumbnail": "https://i.ytimg.com/vi/pUXQ9L7KxZU/maxresdefault.jpg",
           "source": "WST",
           "blockedRegions": [],
           "allowedRegions": []
