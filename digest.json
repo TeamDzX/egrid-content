@@ -1,7 +1,56 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-22T01:36:13Z",
+  "generatedAt": "2026-10-23T01:36:25Z",
   "editions": [
+    {
+      "id": "2026-10-23-preview",
+      "kind": "preview",
+      "title": "This weekend on E-Grid",
+      "dateRange": "23–26 October",
+      "intro": "Three championships come into focus this weekend. Formula 1 reaches Circuit of the Americas, MotoGP answers at Phillip Island and NASCAR barrels into Talladega, all on Sunday. Here is what to watch over the coming days as title chases reach their next chapter.",
+      "publishedAt": "2026-10-23T01:36:25Z",
+      "expiresAt": "2026-10-28T01:36:25Z",
+      "items": [
+        {
+          "channelID": "f1",
+          "channelName": "Formula 1",
+          "headline": "United States Grand Prix",
+          "detail": "Circuit of the Americas, USA · Sun 25 Oct",
+          "body": "Formula 1 arrives at the Circuit of the Americas on Sunday 25 Oct, with the race running from 20:00 UTC. Qualifying takes place the day before at 21:00 UTC. Andrea Kimi Antonelli heads into the weekend leading the championship by 102 points from George Russell.",
+          "date": "2026-10-25",
+          "round": 18,
+          "facts": [
+            "Qualifying Sat 24 Oct, 21:00 UTC",
+            "Andrea Kimi Antonelli leads the championship by 102 points from George Russell"
+          ]
+        },
+        {
+          "channelID": "motogp",
+          "channelName": "MotoGP",
+          "headline": "Grand Prix of Australia",
+          "detail": "Phillip Island, Australia · Sun 25 Oct",
+          "body": "MotoGP heads to Phillip Island for the Grand Prix of Australia on Sunday 25 Oct. It is one of the season's most tightly contested title battles: Jorge Martin leads by just two points from Marc Marquez.",
+          "date": "2026-10-25",
+          "round": 18,
+          "facts": [
+            "Jorge Martin leads the championship by 2 points from Marc Marquez"
+          ]
+        },
+        {
+          "channelID": "nascar",
+          "channelName": "NASCAR Cup Series",
+          "headline": "YellaWood 500",
+          "detail": "Talladega Superspeedway · Sun 25 Oct",
+          "body": "NASCAR's YellaWood 500 runs at Talladega Superspeedway on Sunday 25 Oct, from 18:00 UTC. The race covers 188 laps and 500.08 miles, and in the United States it is broadcast on NBC with radio coverage from MRN.",
+          "date": "2026-10-25",
+          "round": 34,
+          "facts": [
+            "188 laps, 500.08 miles",
+            "US coverage: NBC (TV), MRN (radio)"
+          ]
+        }
+      ]
+    },
     {
       "id": "2026-10-22-preview",
       "kind": "preview",
@@ -158,68 +207,6 @@
           "headline": "Texas FallNationals",
           "detail": "Texas Motorplex, Ennis · Sun 18 Oct",
           "body": "The NHRA Drag Racing series held its Texas FallNationals at the Texas Motorplex in Ennis, a dragstrip where drivers chase top honours down the quarter mile.",
-          "date": "2026-10-18"
-        }
-      ]
-    },
-    {
-      "id": "2026-10-19-recap",
-      "kind": "recap",
-      "title": "Last week on E-Grid",
-      "dateRange": "12–18 October",
-      "intro": "Three rounds took place this week, all on Sunday 18 October: the Clio Cup Series came to Navarra, the NASCAR Cup Series reached Phoenix for round 33, and NHRA Drag Racing raced the FallNationals at Texas.",
-      "publishedAt": "2026-10-19T01:23:28Z",
-      "expiresAt": "2026-10-23T01:23:28Z",
-      "items": [
-        {
-          "channelID": "cliocup",
-          "channelName": "Clio Cup Series",
-          "headline": "Navarra",
-          "detail": "Circuito de Navarra, Spain · Sun 18 Oct",
-          "body": "The sixth round of the Clio Cup Series came to the Circuito de Navarra in Spain on Sunday 18 October. Drivers took to the track for a full weekend of racing around the Spanish circuit.",
-          "date": "2026-10-18",
-          "round": 6
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "Freeway Insurance 500",
-          "detail": "Phoenix Raceway · Sun 18 Oct",
-          "body": "Tyler Reddick won the Freeway Insurance 500 at Phoenix Raceway from sixth on the grid, holding off Ryan Blaney of Team Penske and Chase Elliott of Hendrick Motorsports by 0.801 seconds. Six cautions for 43 laps shuffled a field in which Christopher Bell led the most laps, while Kyle Larson's race ended with an accident. The weekend narrowed Larson's Chase lead over Christopher Bell from 49 to just 5 points, with three races remaining.",
-          "date": "2026-10-18",
-          "round": 33,
-          "facts": [
-            "Tyler Reddick won from 6th on the grid",
-            "Most laps led: Christopher Bell (85)",
-            "Joey Logano swept stages 1 and 2",
-            "Margin of victory: 0.801 s",
-            "Kyle Larson's Chase lead over Christopher Bell went from 49 to 5 points this weekend, with 3 races to go",
-            "312 laps, 21 lead changes among 10 drivers"
-          ],
-          "podium": [
-            {
-              "position": 1,
-              "name": "Tyler Reddick",
-              "team": "23XI Racing"
-            },
-            {
-              "position": 2,
-              "name": "Ryan Blaney",
-              "team": "Team Penske"
-            },
-            {
-              "position": 3,
-              "name": "Chase Elliott",
-              "team": "Hendrick Motorsports"
-            }
-          ]
-        },
-        {
-          "channelID": "nhra",
-          "channelName": "NHRA Drag Racing",
-          "headline": "Texas FallNationals",
-          "detail": "Texas Motorplex, Ennis · Sun 18 Oct",
-          "body": "The NHRA Drag Racing series came to the Texas Motorplex in Ennis for the FallNationals on Sunday 18 October. Drivers took to the track for a full weekend of racing at the circuit.",
           "date": "2026-10-18"
         }
       ]
