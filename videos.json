@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-23T12:39:20Z",
+  "generatedAt": "2026-10-24T12:01:52Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,17 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "qwz5Hd5mVUs",
+          "title": "Max Verstappen Sent Us on a Mission in Austin…",
+          "publishedAt": "2026-10-23T13:00:28Z",
+          "duration": "5:02",
+          "seconds": 302,
+          "thumbnail": "https://i.ytimg.com/vi/qwz5Hd5mVUs/maxresdefault.jpg",
+          "source": "Red Bull Racing",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "2bQfRf2UznY",
           "title": "Which F1 Driver Can Build the Largest Tower?",
@@ -148,17 +159,6 @@
           "seconds": 311,
           "thumbnail": "https://i.ytimg.com/vi/axdPg8WP8f4/maxresdefault.jpg",
           "source": "Cadillac Formula 1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "i5EnUkFLaWs",
-          "title": "Our First Win Of 2026!!! | Behind The Charge",
-          "publishedAt": "2026-10-09T20:05:11Z",
-          "duration": "8:05",
-          "seconds": 485,
-          "thumbnail": "https://i.ytimg.com/vi/i5EnUkFLaWs/maxresdefault.jpg",
-          "source": "Red Bull Racing",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -405,17 +405,6 @@
           "allowedRegions": []
         },
         {
-          "id": "lfa2IOwWnHg",
-          "title": "Behind the Scenes of the Belgian Grand Prix 2026 | Cadillac Formula 1® Team",
-          "publishedAt": "2026-07-21T17:03:12Z",
-          "duration": "5:04",
-          "seconds": 304,
-          "thumbnail": "https://i.ytimg.com/vi/lfa2IOwWnHg/maxresdefault.jpg",
-          "source": "Cadillac Formula 1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "Mfccz2boJps",
           "title": "AMR Network: Portraits | Cohere",
           "publishedAt": "2026-07-17T16:57:33Z",
@@ -423,6 +412,17 @@
           "seconds": 419,
           "thumbnail": "https://i.ytimg.com/vi/Mfccz2boJps/maxresdefault.jpg",
           "source": "Aston Martin Aramco F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "LNP6lgxiTTg",
+          "title": "Why Spa is Unlike Any Other Circuit in F1",
+          "publishedAt": "2026-07-16T14:00:31Z",
+          "duration": "6:01",
+          "seconds": 361,
+          "thumbnail": "https://i.ytimg.com/vi/LNP6lgxiTTg/maxresdefault.jpg",
+          "source": "FIA",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -583,20 +583,6 @@
           "duration": "8:21",
           "seconds": 501,
           "thumbnail": "https://i.ytimg.com/vi/uptj3to1l7o/maxresdefault.jpg",
-          "source": "FORMULA 1",
-          "blockedRegions": [
-            "BY",
-            "RU"
-          ],
-          "allowedRegions": []
-        },
-        {
-          "id": "aTqIIB2HrNg",
-          "title": "Qualifying Highlights | 2026 Italian Grand Prix",
-          "publishedAt": "2026-09-05T15:42:36Z",
-          "duration": "7:15",
-          "seconds": 435,
-          "thumbnail": "https://i.ytimg.com/vi/aTqIIB2HrNg/maxresdefault.jpg",
           "source": "FORMULA 1",
           "blockedRegions": [
             "BY",
@@ -1547,6 +1533,28 @@
       "sourceURL": "https://www.youtube.com/channel/UC5lTEvtwu6SR3LMSmU9VZ2Q",
       "videos": [
         {
+          "id": "cmNniFcDiZU",
+          "title": "A BEARD TO BE FEARED! | Mark Williams vs David Gilbert | BetVictor Northern Ireland Open 2026",
+          "publishedAt": "2026-10-23T22:12:05Z",
+          "duration": "13:01",
+          "seconds": 781,
+          "thumbnail": "https://i.ytimg.com/vi/cmNniFcDiZU/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "t08wMOtEPD8",
+          "title": "STUNNING BREAK! Kyren Wilson produces some magic vs Anthony McGill | Northern Ireland Open 2026",
+          "publishedAt": "2026-10-23T13:30:57Z",
+          "duration": "8:11",
+          "seconds": 491,
+          "thumbnail": "https://i.ytimg.com/vi/t08wMOtEPD8/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "g1H5FKII4qM",
           "title": "PURE DOMINANCE! Mark Williams vs Martin O'Donnell | 2026 BetVictor Northern Ireland Open",
           "publishedAt": "2026-10-22T19:29:27Z",
@@ -1652,28 +1660,6 @@
           "duration": "10:40",
           "seconds": 640,
           "thumbnail": "https://i.ytimg.com/vi/jfPdrfrB3Lc/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "kO2BUkl6Vyk",
-          "title": "THRILLING ENDING! | Mark Selby vs Ronnie O'Sullivan | BetVictor Northern Ireland Open 2018",
-          "publishedAt": "2026-10-17T13:00:04Z",
-          "duration": "18:04",
-          "seconds": 1084,
-          "thumbnail": "https://i.ytimg.com/vi/kO2BUkl6Vyk/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "yCK1AHejB0Y",
-          "title": "INCREDIBLE DRAMA! John Higgins vs Mark Allen | 2021 Northern Ireland Open | Full Final Session",
-          "publishedAt": "2026-10-16T14:00:07Z",
-          "duration": "3:12:40",
-          "seconds": 11560,
-          "thumbnail": "https://i.ytimg.com/vi/yCK1AHejB0Y/maxresdefault.jpg",
           "source": "WST",
           "blockedRegions": [],
           "allowedRegions": []
