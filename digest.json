@@ -1,22 +1,22 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-25T16:32:24Z",
+  "generatedAt": "2026-10-25T19:44:03Z",
   "editions": [
     {
       "id": "2026-10-25-preview",
       "kind": "preview",
       "title": "This weekend on E-Grid",
       "dateRange": "23–26 October",
-      "intro": "This weekend brings three of the season's marquee rounds: the Formula One United States Grand Prix, the MotoGP Grand Prix of Australia and NASCAR's YellaWood 500 at Talladega, all on Sunday 25 October.",
-      "publishedAt": "2026-10-25T16:32:24Z",
-      "expiresAt": "2026-10-30T16:32:24Z",
+      "intro": "Three rounds across three championships line up this weekend, all on Sunday 25 October. Formula 1 heads to Circuit of the Americas with Andrea Kimi Antonelli's championship lead at its widest, MotoGP follows to Phillip Island in a tighter fight, and NASCAR brings the YellaWood 500 to Talladega.",
+      "publishedAt": "2026-10-25T19:44:03Z",
+      "expiresAt": "2026-10-30T19:44:03Z",
       "items": [
         {
           "channelID": "f1",
           "channelName": "Formula 1",
           "headline": "United States Grand Prix",
           "detail": "Circuit of the Americas, USA · Sun 25 Oct",
-          "body": "The United States Grand Prix runs on Sunday 25 October at the Circuit of the Americas, with the race beginning at 20:00 UTC after qualifying on Saturday. Andrea Kimi Antonelli leads the championship by 102 points from George Russell.",
+          "body": "Formula 1 reaches the end of its North American swing with the United States Grand Prix on Sunday 25 October at Circuit of the Americas, racing from 20:00 UTC after Saturday's qualifying at 21:00 UTC. Andrea Kimi Antonelli opens his widest championship lead yet, 102 points clear of George Russell.",
           "date": "2026-10-25",
           "round": 18,
           "facts": [
@@ -29,7 +29,7 @@
           "channelName": "MotoGP",
           "headline": "Grand Prix of Australia",
           "detail": "Phillip Island, Australia · Sun 25 Oct",
-          "body": "The Grand Prix of Australia takes place on Sunday 25 October at Phillip Island. Marc Marquez leads the championship by 10 points from Jorge Martin heading into the round.",
+          "body": "Round 18 of the MotoGP season.",
           "date": "2026-10-25",
           "round": 18,
           "facts": [
@@ -41,7 +41,7 @@
           "channelName": "NASCAR Cup Series",
           "headline": "YellaWood 500",
           "detail": "Talladega Superspeedway · Sun 25 Oct",
-          "body": "The YellaWood 500 runs on Sunday 25 October at Talladega Superspeedway, starting at 18:00 UTC. The 34th round covers 188 laps and 500.08 miles.",
+          "body": "NASCAR's Cup Series heads to Talladega Superspeedway for the YellaWood 500 on Sunday 25 October, from 18:00 UTC. It runs 188 laps covering just over 500 miles, with US coverage on NBC (TV) and MRN radio.",
           "date": "2026-10-25",
           "round": 34,
           "facts": [
@@ -306,8 +306,7 @@
         "Biggest climbers: Isack Hadjar from 22nd to 10th and George Russell from 19th to 9th",
         "Fastest lap: Charles Leclerc, 1:35.202",
         "Did not finish: Alexander Albon, Lance Stroll, Franco Colapinto and Gabriel Bortoleto",
-        "Andrea Kimi Antonelli's championship lead over George Russell went from 84 to 102 points over the weekend",
-        "Virtual safety car on laps 8 and 39"
+        "Andrea Kimi Antonelli's championship lead over George Russell went from 84 to 102 points over the weekend"
       ],
       "podium": [
         {
