@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-24T12:01:52Z",
+  "generatedAt": "2026-10-25T12:35:57Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,31 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "k1LL5YwHkbI",
+          "title": "F1 Driver Performs LIVE Music On Stage! | All Access",
+          "publishedAt": "2026-10-24T18:58:41Z",
+          "duration": "18:54",
+          "seconds": 1134,
+          "thumbnail": "https://i.ytimg.com/vi/k1LL5YwHkbI/maxresdefault.jpg",
+          "source": "Visa Cash App RB F1 Team",
+          "blockedRegions": [
+            "BY",
+            "RU"
+          ],
+          "allowedRegions": []
+        },
+        {
+          "id": "-R5hqX_lWvU",
+          "title": "F1 Drivers Try Cooking Texas BBQ for the First Time!",
+          "publishedAt": "2026-10-24T17:00:37Z",
+          "duration": "23:20",
+          "seconds": 1400,
+          "thumbnail": "https://i.ytimg.com/vi/-R5hqX_lWvU/maxresdefault.jpg",
+          "source": "Atlassian Williams F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "qwz5Hd5mVUs",
           "title": "Max Verstappen Sent Us on a Mission in Austin…",
@@ -405,28 +430,6 @@
           "allowedRegions": []
         },
         {
-          "id": "Mfccz2boJps",
-          "title": "AMR Network: Portraits | Cohere",
-          "publishedAt": "2026-07-17T16:57:33Z",
-          "duration": "6:59",
-          "seconds": 419,
-          "thumbnail": "https://i.ytimg.com/vi/Mfccz2boJps/maxresdefault.jpg",
-          "source": "Aston Martin Aramco F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "LNP6lgxiTTg",
-          "title": "Why Spa is Unlike Any Other Circuit in F1",
-          "publishedAt": "2026-07-16T14:00:31Z",
-          "duration": "6:01",
-          "seconds": 361,
-          "thumbnail": "https://i.ytimg.com/vi/LNP6lgxiTTg/maxresdefault.jpg",
-          "source": "FIA",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "4aFCIR7Qajc",
           "title": "We Spent the Day with Franco Colapinto at an F1 Filming Day | Powered by Eni",
           "publishedAt": "2026-05-17T11:30:39Z",
@@ -450,6 +453,20 @@
         }
       ],
       "externalVideos": [
+        {
+          "id": "EQ74or790IM",
+          "title": "Qualifying Highlights | 2026 United States Grand Prix",
+          "publishedAt": "2026-10-24T22:33:51Z",
+          "duration": "8:01",
+          "seconds": 481,
+          "thumbnail": "https://i.ytimg.com/vi/EQ74or790IM/maxresdefault.jpg",
+          "source": "FORMULA 1",
+          "blockedRegions": [
+            "BY",
+            "RU"
+          ],
+          "allowedRegions": []
+        },
         {
           "id": "ohgEehLtucc",
           "title": "Race Highlights | 2026 Singapore Grand Prix",
@@ -1533,6 +1550,28 @@
       "sourceURL": "https://www.youtube.com/channel/UC5lTEvtwu6SR3LMSmU9VZ2Q",
       "videos": [
         {
+          "id": "taDzUFa7izY",
+          "title": "THAT WAS EPIC! | Mark Williams vs Jak Jones | BetVictor Northern Ireland Open 2026",
+          "publishedAt": "2026-10-24T23:21:08Z",
+          "duration": "14:23",
+          "seconds": 863,
+          "thumbnail": "https://i.ytimg.com/vi/taDzUFa7izY/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "CBHRJvXeYn8",
+          "title": "SEMI-FINAL DECIDER DRAMA! | Kyren Wilson vs Sam Craigie | BetVictor Northern Ireland Open 2026",
+          "publishedAt": "2026-10-24T16:41:32Z",
+          "duration": "14:16",
+          "seconds": 856,
+          "thumbnail": "https://i.ytimg.com/vi/CBHRJvXeYn8/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "cmNniFcDiZU",
           "title": "A BEARD TO BE FEARED! | Mark Williams vs David Gilbert | BetVictor Northern Ireland Open 2026",
           "publishedAt": "2026-10-23T22:12:05Z",
@@ -1638,28 +1677,6 @@
           "duration": "8:36",
           "seconds": 516,
           "thumbnail": "https://i.ytimg.com/vi/kqnU2HSX1OQ/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "WwnYCWTEMSg",
-          "title": "STEAL FOR THE WIN? Luca Brecel vs Lei Peifan | 2026 BetVictor Northern Ireland Open",
-          "publishedAt": "2026-10-19T13:54:41Z",
-          "duration": "8:08",
-          "seconds": 488,
-          "thumbnail": "https://i.ytimg.com/vi/WwnYCWTEMSg/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "jfPdrfrB3Lc",
-          "title": "ANOTHER FIRST ROUND UPSET!? | Shaun Murphy vs Liam Davies | BetVictor Northern Ireland Open 2026",
-          "publishedAt": "2026-10-18T22:29:42Z",
-          "duration": "10:40",
-          "seconds": 640,
-          "thumbnail": "https://i.ytimg.com/vi/jfPdrfrB3Lc/maxresdefault.jpg",
           "source": "WST",
           "blockedRegions": [],
           "allowedRegions": []
