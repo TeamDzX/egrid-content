@@ -1,7 +1,56 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-24T00:47:31Z",
+  "generatedAt": "2026-10-25T01:18:41Z",
   "editions": [
+    {
+      "id": "2026-10-25-preview",
+      "kind": "preview",
+      "title": "This weekend on E-Grid",
+      "dateRange": "23–26 October",
+      "intro": "Three championships come into focus this week: Formula 1 at the Circuit of the Americas, MotoGP on Phillip Island and NASCAR at Talladega. All three decide their Sunday races with titles still hanging on every lap.",
+      "publishedAt": "2026-10-25T01:18:41Z",
+      "expiresAt": "2026-10-30T01:18:41Z",
+      "items": [
+        {
+          "channelID": "f1",
+          "channelName": "Formula 1",
+          "headline": "United States Grand Prix",
+          "detail": "Circuit of the Americas, USA · Sun 25 Oct",
+          "body": "The United States Grand Prix runs at the Circuit of the Americas on Sun 25 Oct, with the race starting at 20:00 UTC and qualifying the day before at 21:00 UTC. Andrea Kimi Antonelli heads into the weekend 102 points clear of George Russell in the championship.",
+          "date": "2026-10-25",
+          "round": 18,
+          "facts": [
+            "Qualifying Sat 24 Oct, 21:00 UTC",
+            "Andrea Kimi Antonelli leads the championship by 102 points from George Russell"
+          ]
+        },
+        {
+          "channelID": "motogp",
+          "channelName": "MotoGP",
+          "headline": "Grand Prix of Australia",
+          "detail": "Phillip Island, Australia · Sun 25 Oct",
+          "body": "The Grand Prix of Australia runs on Sun 25 Oct at Phillip Island. Marc Marquez leads the championship by ten points from Jorge Martin heading into the round.",
+          "date": "2026-10-25",
+          "round": 18,
+          "facts": [
+            "Marc Marquez leads the championship by 10 points from Jorge Martin"
+          ]
+        },
+        {
+          "channelID": "nascar",
+          "channelName": "NASCAR Cup Series",
+          "headline": "YellaWood 500",
+          "detail": "Talladega Superspeedway · Sun 25 Oct",
+          "body": "The YellaWood 500 runs on Sun 25 Oct at Talladega Superspeedway, starting at 18:00 UTC. It covers 188 laps, or 500.08 miles, with US coverage on NBC and MRN.",
+          "date": "2026-10-25",
+          "round": 34,
+          "facts": [
+            "188 laps, 500.08 miles",
+            "US coverage: NBC (TV), MRN (radio)"
+          ]
+        }
+      ]
+    },
     {
       "id": "2026-10-24-preview",
       "kind": "preview",
@@ -148,55 +197,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "2026-10-21-preview",
-      "kind": "preview",
-      "title": "This weekend on E-Grid",
-      "dateRange": "21–26 October",
-      "intro": "This weekend puts three championships on the calendar: Formula 1, MotoGP and NASCAR's Cup Series all run on Sunday 25 October. Here is what each round offers as title chases reach a decisive point.",
-      "publishedAt": "2026-10-21T01:41:12Z",
-      "expiresAt": "2026-10-26T01:41:12Z",
-      "items": [
-        {
-          "channelID": "f1",
-          "channelName": "Formula 1",
-          "headline": "United States Grand Prix",
-          "detail": "Circuit of the Americas, USA · Sun 25 Oct",
-          "body": "Formula 1's United States Grand Prix runs at the Circuit of the Americas on Sunday 25 October, with the race starting at 20:00 UTC and qualifying on Saturday 24 Oct at 21:00 UTC. Andrea Kimi Antonelli leads George Russell by 102 points in the championship.",
-          "date": "2026-10-25",
-          "round": 18,
-          "facts": [
-            "Qualifying Sat 24 Oct, 21:00 UTC",
-            "Andrea Kimi Antonelli leads the championship by 102 points from George Russell"
-          ]
-        },
-        {
-          "channelID": "motogp",
-          "channelName": "MotoGP",
-          "headline": "Grand Prix of Australia",
-          "detail": "Phillip Island, Australia · Sun 25 Oct",
-          "body": "Round 18 of the MotoGP season.",
-          "date": "2026-10-25",
-          "round": 18,
-          "facts": [
-            "Jorge Martin leads the championship by 2 points from Marc Marquez"
-          ]
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "YellaWood 500",
-          "detail": "Talladega Superspeedway · Sun 25 Oct",
-          "body": "NASCAR's YellaWood 500 at Talladega Superspeedway runs on Sunday 25 October, starting at 18:00 UTC over 188 laps and 500.08 miles. US viewers can follow on NBC (TV) and MRN (radio).",
-          "date": "2026-10-25",
-          "round": 34,
-          "facts": [
-            "188 laps, 500.08 miles",
-            "US coverage: NBC (TV), MRN (radio)"
-          ]
-        }
-      ]
     }
   ],
   "lastRaces": [
@@ -271,7 +271,7 @@
         "Marco Bezzecchi set a new lap record, 1:29.960",
         "Dry, 29°C air and 62°C track",
         "Saturday's sprint was won by Marc Marquez",
-        "Jorge Martin leads the championship by 2 points from Marc Marquez"
+        "Marc Marquez leads the championship by 10 points from Jorge Martin"
       ],
       "podium": [
         {
