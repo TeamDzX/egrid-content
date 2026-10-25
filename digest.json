@@ -1,22 +1,22 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-25T19:44:03Z",
+  "generatedAt": "2026-10-25T22:38:15Z",
   "editions": [
     {
       "id": "2026-10-25-preview",
       "kind": "preview",
-      "title": "This weekend on E-Grid",
+      "title": "Results from the weekend",
       "dateRange": "23–26 October",
-      "intro": "Three rounds across three championships line up this weekend, all on Sunday 25 October. Formula 1 heads to Circuit of the Americas with Andrea Kimi Antonelli's championship lead at its widest, MotoGP follows to Phillip Island in a tighter fight, and NASCAR brings the YellaWood 500 to Talladega.",
-      "publishedAt": "2026-10-25T19:44:03Z",
-      "expiresAt": "2026-10-30T19:44:03Z",
+      "intro": "The NASCAR Cup Series has its weekend verdict: Kyle Larson wins at Talladega. Two more rounds stand over the coming days — Formula 1 heads to the Circuit of the Americas and MotoGP to Phillip Island, both on Sunday, with championship leads still to be tested.",
+      "publishedAt": "2026-10-25T22:38:15Z",
+      "expiresAt": "2026-10-30T22:38:15Z",
       "items": [
         {
           "channelID": "f1",
           "channelName": "Formula 1",
           "headline": "United States Grand Prix",
           "detail": "Circuit of the Americas, USA · Sun 25 Oct",
-          "body": "Formula 1 reaches the end of its North American swing with the United States Grand Prix on Sunday 25 October at Circuit of the Americas, racing from 20:00 UTC after Saturday's qualifying at 21:00 UTC. Andrea Kimi Antonelli opens his widest championship lead yet, 102 points clear of George Russell.",
+          "body": "The United States Grand Prix runs on Sunday 25 October at the Circuit of the Americas, starting at 20:00 UTC. Qualifying precedes it on Saturday 24 October at 21:00 UTC. Andrea Kimi Antonelli leads the championship by 102 points from George Russell.",
           "date": "2026-10-25",
           "round": 18,
           "facts": [
@@ -29,7 +29,7 @@
           "channelName": "MotoGP",
           "headline": "Grand Prix of Australia",
           "detail": "Phillip Island, Australia · Sun 25 Oct",
-          "body": "Round 18 of the MotoGP season.",
+          "body": "The Grand Prix of Australia runs on Sunday 25 October at Phillip Island. The title fight stays wide open with Marc Marquez leading Jorge Martin by just ten points, so this weekend could shift the standings.",
           "date": "2026-10-25",
           "round": 18,
           "facts": [
@@ -41,12 +41,33 @@
           "channelName": "NASCAR Cup Series",
           "headline": "YellaWood 500",
           "detail": "Talladega Superspeedway · Sun 25 Oct",
-          "body": "NASCAR's Cup Series heads to Talladega Superspeedway for the YellaWood 500 on Sunday 25 October, from 18:00 UTC. It runs 188 laps covering just over 500 miles, with US coverage on NBC (TV) and MRN radio.",
+          "body": "Kyle Larson took the win at Talladega from tenth on the grid, holding off teammate William Byron, with Ricky Stenhouse Jr third. It was a photo finish — a 0.041 second margin across 189 laps and 41 lead changes under four cautions. The victory widened Larson's Chase lead over Denny Hamlin to 73 points with two races remaining.",
           "date": "2026-10-25",
           "round": 34,
           "facts": [
-            "188 laps, 500.08 miles",
-            "US coverage: NBC (TV), MRN (radio)"
+            "Kyle Larson won from 10th on the grid",
+            "Most laps led: Chris Buescher (53)",
+            "Stage winners: Stage 1 Chris Buescher, Stage 2 Joey Logano",
+            "Margin of victory: 0.041 s",
+            "Kyle Larson's Chase lead over Denny Hamlin went from 5 to 73 points this weekend, with 2 races to go",
+            "189 laps, 41 lead changes among 15 drivers"
+          ],
+          "podium": [
+            {
+              "position": 1,
+              "name": "Kyle Larson",
+              "team": "Hendrick Motorsports"
+            },
+            {
+              "position": 2,
+              "name": "William Byron",
+              "team": "Hendrick Motorsports"
+            },
+            {
+              "position": 3,
+              "name": "Ricky Stenhouse Jr",
+              "team": "HYAK Motorsports"
+            }
           ]
         }
       ]
@@ -201,48 +222,48 @@
   ],
   "lastRaces": [
     {
+      "channelID": "nascar",
+      "channelName": "NASCAR Cup Series",
+      "headline": "YellaWood 500",
+      "detail": "Talladega Superspeedway · Sun 25 Oct",
+      "body": "Kyle Larson won from 10th on the grid to take the YellaWood 500 at Talladega, finishing just ahead of teammate William Byron with Ricky Stenhouse Jr third. A margin of 0.041 seconds decided it across 189 laps and 41 lead changes, four cautions for 18 laps adding plenty of contact along the way. Larson's Chase lead over Denny Hamlin stretched from 5 to 73 points with two races remaining.",
+      "date": "2026-10-25",
+      "round": 34,
+      "facts": [
+        "Kyle Larson won from 10th on the grid",
+        "Most laps led: Chris Buescher (53)",
+        "Stage winners: Stage 1 Chris Buescher, Stage 2 Joey Logano",
+        "Margin of victory: 0.041 s",
+        "Kyle Larson's Chase lead over Denny Hamlin went from 5 to 73 points this weekend, with 2 races to go",
+        "189 laps, 41 lead changes among 15 drivers"
+      ],
+      "podium": [
+        {
+          "position": 1,
+          "name": "Kyle Larson",
+          "team": "Hendrick Motorsports"
+        },
+        {
+          "position": 2,
+          "name": "William Byron",
+          "team": "Hendrick Motorsports"
+        },
+        {
+          "position": 3,
+          "name": "Ricky Stenhouse Jr",
+          "team": "HYAK Motorsports"
+        }
+      ],
+      "factsVersion": 4,
+      "writer": "own server"
+    },
+    {
       "channelID": "nhra",
       "channelName": "NHRA Drag Racing",
       "headline": "Texas FallNationals",
       "detail": "Texas Motorplex, Ennis · Sun 18 Oct",
       "body": "The Texas FallNationals brought drag racing to the Texas Motorplex in Ennis on Sunday 18 October. Competitors lined up across the season's classes for a weekend of quarter-mile action.",
       "date": "2026-10-18",
-      "factsVersion": 4,
-      "writer": "own server"
-    },
-    {
-      "channelID": "nascar",
-      "channelName": "NASCAR Cup Series",
-      "headline": "Freeway Insurance 500",
-      "detail": "Phoenix Raceway · Sun 18 Oct",
-      "body": "Tyler Reddick won the Freeway Insurance 500 at Phoenix Raceway, taking the flag by 0.801s after starting from sixth, ahead of Ryan Blaney for Team Penske and Chase Elliott for Hendrick Motorsports. It was a close contest, with 21 lead changes across 312 laps. Larson's championship lead over Christopher Bell then fell from 49 to just 5 points with three races remaining.",
-      "date": "2026-10-18",
-      "round": 33,
-      "facts": [
-        "Tyler Reddick won from 6th on the grid",
-        "Most laps led: Christopher Bell (85)",
-        "Joey Logano swept stages 1 and 2",
-        "Margin of victory: 0.801 s",
-        "Kyle Larson's Chase lead over Christopher Bell went from 49 to 5 points this weekend, with 3 races to go",
-        "312 laps, 21 lead changes among 10 drivers"
-      ],
-      "podium": [
-        {
-          "position": 1,
-          "name": "Tyler Reddick",
-          "team": "23XI Racing"
-        },
-        {
-          "position": 2,
-          "name": "Ryan Blaney",
-          "team": "Team Penske"
-        },
-        {
-          "position": 3,
-          "name": "Chase Elliott",
-          "team": "Hendrick Motorsports"
-        }
-      ],
       "factsVersion": 4,
       "writer": "own server"
     },
@@ -306,7 +327,8 @@
         "Biggest climbers: Isack Hadjar from 22nd to 10th and George Russell from 19th to 9th",
         "Fastest lap: Charles Leclerc, 1:35.202",
         "Did not finish: Alexander Albon, Lance Stroll, Franco Colapinto and Gabriel Bortoleto",
-        "Andrea Kimi Antonelli's championship lead over George Russell went from 84 to 102 points over the weekend"
+        "Andrea Kimi Antonelli's championship lead over George Russell went from 84 to 102 points over the weekend",
+        "Virtual safety car on laps 8 and 39"
       ],
       "podium": [
         {
