@@ -1,7 +1,95 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-25T22:38:15Z",
+  "generatedAt": "2026-10-26T01:17:27Z",
   "editions": [
+    {
+      "id": "2026-10-26-recap",
+      "kind": "recap",
+      "title": "Last week on E-Grid",
+      "dateRange": "19–25 October",
+      "intro": "Three rounds on the cards this week as Formula 1 reaches America, MotoGP rolls into Phillip Island and NASCAR's season finale comes down to the wire at Talladega. Here is what happened on the track.",
+      "publishedAt": "2026-10-26T01:17:27Z",
+      "expiresAt": "2026-10-30T01:17:27Z",
+      "items": [
+        {
+          "channelID": "f1",
+          "channelName": "Formula 1",
+          "headline": "United States Grand Prix",
+          "detail": "Circuit of the Americas, USA · Sun 25 Oct",
+          "body": "Andrea Kimi Antonelli took the United States Grand Prix at COTA, winning from pole and holding off Charles Leclerc by 13.1 seconds with Max Verstappen third on a dry afternoon of 27°C air. His championship lead over George Russell grew to 123 points. Gabriel Bortoleto climbed from 21st to 13th as Valtteri Bottas, Franco Colapinto and Oliver Bearman failed to finish.",
+          "date": "2026-10-25",
+          "round": 18,
+          "facts": [
+            "Andrea Kimi Antonelli won from pole, 13.1 seconds ahead of Charles Leclerc",
+            "Biggest climbers: Gabriel Bortoleto from 21st to 13th and Lance Stroll from 22nd to 15th",
+            "Fastest lap: Charles Leclerc, 1:37.976",
+            "Did not finish: Valtteri Bottas, Franco Colapinto and Oliver Bearman",
+            "Andrea Kimi Antonelli's championship lead over George Russell went from 102 to 123 points over the weekend",
+            "Virtual safety car on laps 2 and 51"
+          ],
+          "podium": [
+            {
+              "position": 1,
+              "name": "Andrea Kimi Antonelli",
+              "team": "Mercedes"
+            },
+            {
+              "position": 2,
+              "name": "Charles Leclerc",
+              "team": "Ferrari"
+            },
+            {
+              "position": 3,
+              "name": "Max Verstappen",
+              "team": "Red Bull"
+            }
+          ]
+        },
+        {
+          "channelID": "motogp",
+          "channelName": "MotoGP",
+          "headline": "Grand Prix of Australia",
+          "detail": "Phillip Island, Australia · Sun 25 Oct",
+          "body": "Round 18 of the MotoGP season ran at Phillip Island, Australia. Results for this series are not in E-Grid's feeds yet.",
+          "date": "2026-10-25",
+          "round": 18
+        },
+        {
+          "channelID": "nascar",
+          "channelName": "NASCAR Cup Series",
+          "headline": "YellaWood 500",
+          "detail": "Talladega Superspeedway · Sun 25 Oct",
+          "body": "Kyle Larson won the YellaWood 500 at Talladega from tenth on the grid, edging teammate William Byron by just 0.041 seconds with Ricky Stenhouse Jr third. His Chase lead over Denny Hamlin jumped from five to 73 points with two races remaining. There were 41 lead changes among fifteen drivers across 189 laps as Brad Keselowski, Riley Herbst, Austin Cindric and Erik Jones all failed to finish.",
+          "date": "2026-10-25",
+          "round": 34,
+          "facts": [
+            "Kyle Larson won from 10th on the grid",
+            "Most laps led: Chris Buescher (53)",
+            "Stage winners: Stage 1 Chris Buescher, Stage 2 Joey Logano",
+            "Margin of victory: 0.041 s",
+            "Kyle Larson's Chase lead over Denny Hamlin went from 5 to 73 points this weekend, with 2 races to go",
+            "189 laps, 41 lead changes among 15 drivers"
+          ],
+          "podium": [
+            {
+              "position": 1,
+              "name": "Kyle Larson",
+              "team": "Hendrick Motorsports"
+            },
+            {
+              "position": 2,
+              "name": "William Byron",
+              "team": "Hendrick Motorsports"
+            },
+            {
+              "position": 3,
+              "name": "Ricky Stenhouse Jr",
+              "team": "HYAK Motorsports"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "2026-10-25-preview",
       "kind": "preview",
@@ -169,55 +257,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "2026-10-22-preview",
-      "kind": "preview",
-      "title": "This weekend on E-Grid",
-      "dateRange": "22–26 October",
-      "intro": "This weekend brings three rounds across the top flight: Formula 1 travels to America, MotoGP races in Australia and NASCAR's superspeedway marathon runs at Talladega. Here is what to expect from each.",
-      "publishedAt": "2026-10-22T01:36:13Z",
-      "expiresAt": "2026-10-27T01:36:13Z",
-      "items": [
-        {
-          "channelID": "f1",
-          "channelName": "Formula 1",
-          "headline": "United States Grand Prix",
-          "detail": "Circuit of the Americas, USA · Sun 25 Oct",
-          "body": "The United States Grand Prix runs on Sun 25 Oct at the Circuit of the Americas, with the race starting at 20:00 UTC. Qualifying takes place the day before at 21:00 UTC. Andrea Kimi Antonelli leads George Russell by 102 points in the championship.",
-          "date": "2026-10-25",
-          "round": 18,
-          "facts": [
-            "Qualifying Sat 24 Oct, 21:00 UTC",
-            "Andrea Kimi Antonelli leads the championship by 102 points from George Russell"
-          ]
-        },
-        {
-          "channelID": "motogp",
-          "channelName": "MotoGP",
-          "headline": "Grand Prix of Australia",
-          "detail": "Phillip Island, Australia · Sun 25 Oct",
-          "body": "The Grand Prix of Australia runs on Sun 25 Oct at Phillip Island. Jorge Martin leads Marc Marquez by just two points in the standings, so this round is a tightly contested moment in the title fight.",
-          "date": "2026-10-25",
-          "round": 18,
-          "facts": [
-            "Jorge Martin leads the championship by 2 points from Marc Marquez"
-          ]
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "YellaWood 500",
-          "detail": "Talladega Superspeedway · Sun 25 Oct",
-          "body": "The YellaWood 500 runs on Sun 25 Oct at Talladega Superspeedway, starting at 18:00 UTC. It covers 188 laps, or 500.08 miles, and in the United States is shown on NBC with radio coverage from MRN.",
-          "date": "2026-10-25",
-          "round": 34,
-          "facts": [
-            "188 laps, 500.08 miles",
-            "US coverage: NBC (TV), MRN (radio)"
-          ]
-        }
-      ]
     }
   ],
   "lastRaces": [
@@ -258,6 +297,56 @@
       "writer": "own server"
     },
     {
+      "channelID": "motogp",
+      "channelName": "MotoGP",
+      "headline": "Grand Prix of Australia",
+      "detail": "Phillip Island, Australia · Sun 25 Oct",
+      "body": "MotoGP ran its Grand Prix of Australia at Phillip Island this weekend, and the title fight stayed close. Marc Marquez leads Jorge Martin by ten points.",
+      "date": "2026-10-25",
+      "round": 18,
+      "facts": [
+        "Marc Marquez leads the championship by 10 points from Jorge Martin"
+      ],
+      "factsVersion": 4,
+      "writer": "own server"
+    },
+    {
+      "channelID": "f1",
+      "channelName": "Formula 1",
+      "headline": "United States Grand Prix",
+      "detail": "Circuit of the Americas, USA · Sun 25 Oct",
+      "body": "Andrea Kimi Antonelli won from pole at Circuit of the Americas, finishing 13.1 seconds ahead of Charles Leclerc, with Max Verstappen third for Red Bull. The result extended his championship lead over George Russell to 123 points. Charles Leclerc set the fastest lap as Valtteri Bottas, Franco Colapinto and Oliver Bearman all failed to finish.",
+      "date": "2026-10-25",
+      "round": 18,
+      "facts": [
+        "Andrea Kimi Antonelli won from pole, 13.1 seconds ahead of Charles Leclerc",
+        "Biggest climbers: Gabriel Bortoleto from 21st to 13th and Lance Stroll from 22nd to 15th",
+        "Fastest lap: Charles Leclerc, 1:37.976",
+        "Did not finish: Valtteri Bottas, Franco Colapinto and Oliver Bearman",
+        "Andrea Kimi Antonelli's championship lead over George Russell went from 102 to 123 points over the weekend",
+        "Virtual safety car on laps 2 and 51"
+      ],
+      "podium": [
+        {
+          "position": 1,
+          "name": "Andrea Kimi Antonelli",
+          "team": "Mercedes"
+        },
+        {
+          "position": 2,
+          "name": "Charles Leclerc",
+          "team": "Ferrari"
+        },
+        {
+          "position": 3,
+          "name": "Max Verstappen",
+          "team": "Red Bull"
+        }
+      ],
+      "factsVersion": 4,
+      "writer": "own server"
+    },
+    {
       "channelID": "nhra",
       "channelName": "NHRA Drag Racing",
       "headline": "Texas FallNationals",
@@ -275,78 +364,6 @@
       "body": "Round six of the Clio Cup Series ran at the Circuito de Navarra in Spain on Sunday 18 October. Drivers took to the short Spanish circuit for another leg of the championship.",
       "date": "2026-10-18",
       "round": 6,
-      "factsVersion": 4,
-      "writer": "own server"
-    },
-    {
-      "channelID": "motogp",
-      "channelName": "MotoGP",
-      "headline": "Grand Prix of Indonesia",
-      "detail": "Pertamina Mandalika Circuit, Indonesia · Sun 11 Oct",
-      "body": "Marco Bezzecchi took the Grand Prix of Indonesia by 4.3 seconds from Raul Fernandez, with Jorge Martin completing a Aprilia one-two-three on the podium. He set a new lap record of 1:29.960 in dry heat, while Francesco Bagnaia, Toprak Razgatlioglu, Jack Miller and Fermin Aldeguer all failed to finish. Martin now leads the championship by just two points over Marc Marquez.",
-      "date": "2026-10-11",
-      "round": 17,
-      "facts": [
-        "Marco Bezzecchi won by 4.3 seconds from Raul Fernandez",
-        "Did not finish: Toprak Razgatlioglu, Jack Miller, Francesco Bagnaia and Fermin Aldeguer",
-        "Marco Bezzecchi set a new lap record, 1:29.960",
-        "Dry, 29°C air and 62°C track",
-        "Saturday's sprint was won by Marc Marquez",
-        "Marc Marquez leads the championship by 10 points from Jorge Martin"
-      ],
-      "podium": [
-        {
-          "position": 1,
-          "name": "Marco Bezzecchi",
-          "team": "Aprilia Racing"
-        },
-        {
-          "position": 2,
-          "name": "Raul Fernandez",
-          "team": "SuperFile Trackhouse MotoGP Team"
-        },
-        {
-          "position": 3,
-          "name": "Jorge Martin",
-          "team": "Aprilia Racing"
-        }
-      ],
-      "factsVersion": 4,
-      "writer": "own server"
-    },
-    {
-      "channelID": "f1",
-      "channelName": "Formula 1",
-      "headline": "Singapore Grand Prix",
-      "detail": "Marina Bay Street Circuit, Singapore · Sun 11 Oct",
-      "body": "Max Verstappen won the Singapore Grand Prix from pole, 7.3 seconds clear of Charles Leclerc, with Andrea Kimi Antonelli third for Mercedes. A virtual safety car twice interrupted a dry race in which Leclerc took the fastest lap and Isack Hadjar climbed from 22nd to 10th. Antonelli's championship lead over George Russell grew to 102 points this weekend.",
-      "date": "2026-10-11",
-      "round": 17,
-      "facts": [
-        "Max Verstappen won from pole, 7.3 seconds ahead of Charles Leclerc",
-        "Biggest climbers: Isack Hadjar from 22nd to 10th and George Russell from 19th to 9th",
-        "Fastest lap: Charles Leclerc, 1:35.202",
-        "Did not finish: Alexander Albon, Lance Stroll, Franco Colapinto and Gabriel Bortoleto",
-        "Andrea Kimi Antonelli's championship lead over George Russell went from 84 to 102 points over the weekend",
-        "Virtual safety car on laps 8 and 39"
-      ],
-      "podium": [
-        {
-          "position": 1,
-          "name": "Max Verstappen",
-          "team": "Red Bull"
-        },
-        {
-          "position": 2,
-          "name": "Charles Leclerc",
-          "team": "Ferrari"
-        },
-        {
-          "position": 3,
-          "name": "Andrea Kimi Antonelli",
-          "team": "Mercedes"
-        }
-      ],
       "factsVersion": 4,
       "writer": "own server"
     },
