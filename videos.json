@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-25T12:35:57Z",
+  "generatedAt": "2026-10-26T14:18:27Z",
   "channels": [
     {
       "channelID": "f1",
@@ -454,6 +454,20 @@
       ],
       "externalVideos": [
         {
+          "id": "srLm23RUAH0",
+          "title": "Race Highlights | 2026 United States Grand Prix",
+          "publishedAt": "2026-10-25T22:33:34Z",
+          "duration": "8:03",
+          "seconds": 483,
+          "thumbnail": "https://i.ytimg.com/vi/srLm23RUAH0/maxresdefault.jpg",
+          "source": "FORMULA 1",
+          "blockedRegions": [
+            "BY",
+            "RU"
+          ],
+          "allowedRegions": []
+        },
+        {
           "id": "EQ74or790IM",
           "title": "Qualifying Highlights | 2026 United States Grand Prix",
           "publishedAt": "2026-10-24T22:33:51Z",
@@ -898,6 +912,17 @@
       "sourceURL": "https://www.youtube.com/channel/UCuN9hYw2RpoAW8rZ3VK3isA",
       "videos": [
         {
+          "id": "AKPTv_wZepY",
+          "title": "NASCAR Cup Series Highlights | 2026 Talladega Superspeedway",
+          "publishedAt": "2026-10-25T22:17:47Z",
+          "duration": "23:50",
+          "seconds": 1430,
+          "thumbnail": "https://i.ytimg.com/vi/AKPTv_wZepY/maxresdefault.jpg",
+          "source": "NASCAR",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "4-u_dT57I5o",
           "title": "NASCAR Cup Series Highlights | 2026 Phoenix Raceway",
           "publishedAt": "2026-10-18T22:41:48Z",
@@ -981,17 +1006,6 @@
           "duration": "23:34",
           "seconds": 1414,
           "thumbnail": "https://i.ytimg.com/vi/FmhaCWYOYds/maxresdefault.jpg",
-          "source": "NASCAR",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "wlivkA5uxdo",
-          "title": "NASCAR Cup Series Highlights | 2026 New Hampshire Motor Speedway",
-          "publishedAt": "2026-08-23T23:07:44Z",
-          "duration": "29:14",
-          "seconds": 1754,
-          "thumbnail": "https://i.ytimg.com/vi/wlivkA5uxdo/maxresdefault.jpg",
           "source": "NASCAR",
           "blockedRegions": [],
           "allowedRegions": []
@@ -1550,6 +1564,28 @@
       "sourceURL": "https://www.youtube.com/channel/UC5lTEvtwu6SR3LMSmU9VZ2Q",
       "videos": [
         {
+          "id": "uu8K4PxYu08",
+          "title": "CLINICAL FINAL! Kyren Wilson vs Jak Jones | 2026 BetVictor Northern Ireland Open",
+          "publishedAt": "2026-10-25T20:16:31Z",
+          "duration": "9:21",
+          "seconds": 561,
+          "thumbnail": "https://i.ytimg.com/vi/uu8K4PxYu08/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "ouEjJY6bBzY",
+          "title": "WHAT A START! | Kyren Wilson vs Jak Jones | BetVictor Northern Ireland Open 2026",
+          "publishedAt": "2026-10-25T13:44:54Z",
+          "duration": "11:27",
+          "seconds": 687,
+          "thumbnail": "https://i.ytimg.com/vi/ouEjJY6bBzY/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "taDzUFa7izY",
           "title": "THAT WAS EPIC! | Mark Williams vs Jak Jones | BetVictor Northern Ireland Open 2026",
           "publishedAt": "2026-10-24T23:21:08Z",
@@ -1655,28 +1691,6 @@
           "duration": "13:51",
           "seconds": 831,
           "thumbnail": "https://i.ytimg.com/vi/VLPRhJbT9qM/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "UYV1NCqUUUA",
-          "title": "BRILLIANT DRAMA IN BELFAST! | Chang Bingyu vs Ryan Day EPIC | BetVictor Northern Ireland Open 2026",
-          "publishedAt": "2026-10-20T11:07:48Z",
-          "duration": "9:26",
-          "seconds": 566,
-          "thumbnail": "https://i.ytimg.com/vi/UYV1NCqUUUA/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "kqnU2HSX1OQ",
-          "title": "4-TIME CHAMP IN DANGER!? | Judd Trump vs Martin O'Donnell | BetVictor Northern Ireland Open 2026",
-          "publishedAt": "2026-10-19T21:39:12Z",
-          "duration": "8:36",
-          "seconds": 516,
-          "thumbnail": "https://i.ytimg.com/vi/kqnU2HSX1OQ/maxresdefault.jpg",
           "source": "WST",
           "blockedRegions": [],
           "allowedRegions": []
