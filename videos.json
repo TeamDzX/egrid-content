@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-26T14:18:27Z",
+  "generatedAt": "2026-10-27T13:14:35Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,28 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "Czr14yTm0_M",
+          "title": "Allwyn x McLaren Racing: Live in Athens | McLaren Racing",
+          "publishedAt": "2026-10-27T10:38:02Z",
+          "duration": "6:32",
+          "seconds": 392,
+          "thumbnail": "https://i.ytimg.com/vi/Czr14yTm0_M/maxresdefault.jpg",
+          "source": "McLaren",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "KADqapQY_HE",
+          "title": "ALISHA WINS THE CHAMPIONSHIP!!! Talking Bull Reacts to the US Grand Prix",
+          "publishedAt": "2026-10-26T16:30:01Z",
+          "duration": "19:53",
+          "seconds": 1193,
+          "thumbnail": "https://i.ytimg.com/vi/KADqapQY_HE/maxresdefault.jpg",
+          "source": "Red Bull Racing",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "k1LL5YwHkbI",
           "title": "F1 Driver Performs LIVE Music On Stage! | All Access",
@@ -194,17 +216,6 @@
           "duration": "9:28",
           "seconds": 568,
           "thumbnail": "https://i.ytimg.com/vi/t7yMVYV7HSQ/maxresdefault.jpg",
-          "source": "Atlassian Williams F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "dV0FM2QJHyE",
-          "title": "James Vowles Answers Your Bahrain Grand Prix Fan Questions!",
-          "publishedAt": "2026-10-08T14:58:25Z",
-          "duration": "9:08",
-          "seconds": 548,
-          "thumbnail": "https://i.ytimg.com/vi/dV0FM2QJHyE/maxresdefault.jpg",
           "source": "Atlassian Williams F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
@@ -419,17 +430,6 @@
           "allowedRegions": []
         },
         {
-          "id": "l9k2EOSG5Is",
-          "title": "AMR Network: Portraits | ServiceNow",
-          "publishedAt": "2026-07-21T17:04:28Z",
-          "duration": "6:13",
-          "seconds": 373,
-          "thumbnail": "https://i.ytimg.com/vi/l9k2EOSG5Is/maxresdefault.jpg",
-          "source": "Aston Martin Aramco F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "4aFCIR7Qajc",
           "title": "We Spent the Day with Franco Colapinto at an F1 Filming Day | Powered by Eni",
           "publishedAt": "2026-05-17T11:30:39Z",
@@ -600,20 +600,6 @@
           "duration": "8:01",
           "seconds": 481,
           "thumbnail": "https://i.ytimg.com/vi/C99UPegyFsM/maxresdefault.jpg",
-          "source": "FORMULA 1",
-          "blockedRegions": [
-            "BY",
-            "RU"
-          ],
-          "allowedRegions": []
-        },
-        {
-          "id": "uptj3to1l7o",
-          "title": "Race Highlights | 2026 Italian Grand Prix",
-          "publishedAt": "2026-09-06T16:37:22Z",
-          "duration": "8:21",
-          "seconds": 501,
-          "thumbnail": "https://i.ytimg.com/vi/uptj3to1l7o/maxresdefault.jpg",
           "source": "FORMULA 1",
           "blockedRegions": [
             "BY",
