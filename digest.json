@@ -1,7 +1,95 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-26T01:17:27Z",
+  "generatedAt": "2026-10-27T05:15:01Z",
   "editions": [
+    {
+      "id": "2026-10-27-recap",
+      "kind": "recap",
+      "title": "Last week on E-Grid",
+      "dateRange": "20–26 October",
+      "intro": "Three championships decide their weekends in a row on Sunday 25 October: Formula 1 heads to the United States Grand Prix, MotoGP rides out for the Grand Prix of Australia and NASCAR's Cup Series takes Talladega for the YellaWood 500.",
+      "publishedAt": "2026-10-27T05:15:01Z",
+      "expiresAt": "2026-10-31T05:15:01Z",
+      "items": [
+        {
+          "channelID": "f1",
+          "channelName": "Formula 1",
+          "headline": "United States Grand Prix",
+          "detail": "Circuit of the Americas, USA · Sun 25 Oct",
+          "body": "Andrea Kimi Antonelli took the United States Grand Prix from pole, 13.1 seconds clear of Charles Leclerc at the Circuit of the Americas, with Max Verstappen third. A dry, scorching day saw a single stop for the winner and a virtual safety car twice, yet three of the field failed to finish. Antonelli's championship lead over George Russell grew from 102 to 123 points.",
+          "date": "2026-10-25",
+          "round": 18,
+          "facts": [
+            "Andrea Kimi Antonelli won from pole, 13.1 seconds ahead of Charles Leclerc",
+            "Biggest climbers: Gabriel Bortoleto from 21st to 13th and Lance Stroll from 22nd to 15th",
+            "Fastest lap: Charles Leclerc, 1:37.976",
+            "Did not finish: Valtteri Bottas, Franco Colapinto and Oliver Bearman",
+            "Andrea Kimi Antonelli's championship lead over George Russell went from 102 to 123 points over the weekend",
+            "Virtual safety car on laps 2 and 51"
+          ],
+          "podium": [
+            {
+              "position": 1,
+              "name": "Andrea Kimi Antonelli",
+              "team": "Mercedes"
+            },
+            {
+              "position": 2,
+              "name": "Charles Leclerc",
+              "team": "Ferrari"
+            },
+            {
+              "position": 3,
+              "name": "Max Verstappen",
+              "team": "Red Bull"
+            }
+          ]
+        },
+        {
+          "channelID": "motogp",
+          "channelName": "MotoGP",
+          "headline": "Grand Prix of Australia",
+          "detail": "Phillip Island, Australia · Sun 25 Oct",
+          "body": "MotoGP reached Phillip Island for the Grand Prix of Australia, round 18 on Sunday 25 October. The Australian round is a long-standing fixture on the calendar as the season builds toward its closing rounds.",
+          "date": "2026-10-25",
+          "round": 18
+        },
+        {
+          "channelID": "nascar",
+          "channelName": "NASCAR Cup Series",
+          "headline": "YellaWood 500",
+          "detail": "Talladega Superspeedway · Sun 25 Oct",
+          "body": "Kyle Larson won the YellaWood 500 at Talladega from 10th on the grid, holding off teammate William Byron with Ricky Stenhouse Jr third. A razor-thin 0.041-second margin decided a race of 189 laps and 41 lead changes among fifteen drivers under four cautions for eighteen laps. Larson's Chase lead over Denny Hamlin jumped from five to 73 points with two races remaining.",
+          "date": "2026-10-25",
+          "round": 34,
+          "facts": [
+            "Kyle Larson won from 10th on the grid",
+            "Most laps led: Chris Buescher (53)",
+            "Stage winners: Stage 1 Chris Buescher, Stage 2 Joey Logano",
+            "Margin of victory: 0.041 s",
+            "Kyle Larson's Chase lead over Denny Hamlin went from 5 to 73 points this weekend, with 2 races to go",
+            "189 laps, 41 lead changes among 15 drivers"
+          ],
+          "podium": [
+            {
+              "position": 1,
+              "name": "Kyle Larson",
+              "team": "Hendrick Motorsports"
+            },
+            {
+              "position": 2,
+              "name": "William Byron",
+              "team": "Hendrick Motorsports"
+            },
+            {
+              "position": 3,
+              "name": "Ricky Stenhouse Jr",
+              "team": "HYAK Motorsports"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "2026-10-26-recap",
       "kind": "recap",
@@ -200,55 +288,6 @@
           "headline": "YellaWood 500",
           "detail": "Talladega Superspeedway · Sun 25 Oct",
           "body": "The YellaWood 500 runs at Talladega Superspeedway on Sunday 25 October, beginning at 18:00 UTC, covering 188 laps over 500.08 miles. In the United States it is shown on NBC and broadcast on MRN radio.",
-          "date": "2026-10-25",
-          "round": 34,
-          "facts": [
-            "188 laps, 500.08 miles",
-            "US coverage: NBC (TV), MRN (radio)"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2026-10-23-preview",
-      "kind": "preview",
-      "title": "This weekend on E-Grid",
-      "dateRange": "23–26 October",
-      "intro": "Three championships come into focus this weekend. Formula 1 reaches Circuit of the Americas, MotoGP answers at Phillip Island and NASCAR barrels into Talladega, all on Sunday. Here is what to watch over the coming days as title chases reach their next chapter.",
-      "publishedAt": "2026-10-23T01:36:25Z",
-      "expiresAt": "2026-10-28T01:36:25Z",
-      "items": [
-        {
-          "channelID": "f1",
-          "channelName": "Formula 1",
-          "headline": "United States Grand Prix",
-          "detail": "Circuit of the Americas, USA · Sun 25 Oct",
-          "body": "Formula 1 arrives at the Circuit of the Americas on Sunday 25 Oct, with the race running from 20:00 UTC. Qualifying takes place the day before at 21:00 UTC. Andrea Kimi Antonelli heads into the weekend leading the championship by 102 points from George Russell.",
-          "date": "2026-10-25",
-          "round": 18,
-          "facts": [
-            "Qualifying Sat 24 Oct, 21:00 UTC",
-            "Andrea Kimi Antonelli leads the championship by 102 points from George Russell"
-          ]
-        },
-        {
-          "channelID": "motogp",
-          "channelName": "MotoGP",
-          "headline": "Grand Prix of Australia",
-          "detail": "Phillip Island, Australia · Sun 25 Oct",
-          "body": "MotoGP heads to Phillip Island for the Grand Prix of Australia on Sunday 25 Oct. It is one of the season's most tightly contested title battles: Jorge Martin leads by just two points from Marc Marquez.",
-          "date": "2026-10-25",
-          "round": 18,
-          "facts": [
-            "Jorge Martin leads the championship by 2 points from Marc Marquez"
-          ]
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "YellaWood 500",
-          "detail": "Talladega Superspeedway · Sun 25 Oct",
-          "body": "NASCAR's YellaWood 500 runs at Talladega Superspeedway on Sunday 25 Oct, from 18:00 UTC. The race covers 188 laps and 500.08 miles, and in the United States it is broadcast on NBC with radio coverage from MRN.",
           "date": "2026-10-25",
           "round": 34,
           "facts": [
