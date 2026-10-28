@@ -1,7 +1,64 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-27T05:15:01Z",
+  "generatedAt": "2026-10-28T00:34:35Z",
   "editions": [
+    {
+      "id": "2026-10-28-preview",
+      "kind": "preview",
+      "title": "This weekend on E-Grid",
+      "dateRange": "28 October – 2 November",
+      "intro": "Four rounds this week across Formula 1, MotoGP, NASCAR and NHRA Drag Racing all converge on Sunday 1 November. Here is what to expect from the Mexico City Grand Prix, the Grand Prix of Malaysia, the Xfinity 500 and the Las Vegas Nationals.",
+      "publishedAt": "2026-10-28T00:34:35Z",
+      "expiresAt": "2026-11-02T00:34:35Z",
+      "items": [
+        {
+          "channelID": "f1",
+          "channelName": "Formula 1",
+          "headline": "Mexico City Grand Prix",
+          "detail": "Autódromo Hermanos Rodríguez, Mexico · Sun 1 Nov",
+          "body": "The Mexico City Grand Prix runs at the Autódromo Hermanos Rodríguez on Sunday 1 November, with qualifying on Saturday 31 October at 21:00 UTC and the race starting at 20:00 UTC. Andrea Kimi Antonelli leads the championship by 123 points from George Russell as they arrive here.",
+          "date": "2026-11-01",
+          "round": 19,
+          "facts": [
+            "Qualifying Sat 31 Oct, 21:00 UTC",
+            "Andrea Kimi Antonelli leads the championship by 123 points from George Russell"
+          ]
+        },
+        {
+          "channelID": "motogp",
+          "channelName": "MotoGP",
+          "headline": "Grand Prix of Malaysia",
+          "detail": "Petronas Sepang International Circuit, Malaysia · Sun 1 Nov",
+          "body": "The Grand Prix of Malaysia takes place at the Petronas Sepang International Circuit on Sunday 1 November. Marc Marquez leads the championship by 10 points from Jorge Martin as the pair arrive.",
+          "date": "2026-11-01",
+          "round": 19,
+          "facts": [
+            "Marc Marquez leads the championship by 10 points from Jorge Martin"
+          ]
+        },
+        {
+          "channelID": "nascar",
+          "channelName": "NASCAR Cup Series",
+          "headline": "Xfinity 500",
+          "detail": "Martinsville Speedway · Sun 1 Nov",
+          "body": "The Xfinity 500 runs at Martinsville Speedway on Sunday 1 November, starting at 19:00 UTC. It covers 500 laps, or 263 miles, with US coverage on NBC and MRN.",
+          "date": "2026-11-01",
+          "round": 35,
+          "facts": [
+            "500 laps, 263 miles",
+            "US coverage: NBC (TV), MRN (radio)"
+          ]
+        },
+        {
+          "channelID": "nhra",
+          "channelName": "NHRA Drag Racing",
+          "headline": "Las Vegas Nationals",
+          "detail": "Las Vegas Motor Speedway · Sun 1 Nov",
+          "body": "The Las Vegas Nationals bring NHRA Drag Racing to the Las Vegas Motor Speedway on Sunday 1 November. With no start time published, details remain to be confirmed.",
+          "date": "2026-11-01"
+        }
+      ]
+    },
     {
       "id": "2026-10-27-recap",
       "kind": "recap",
@@ -244,55 +301,6 @@
               "name": "Ricky Stenhouse Jr",
               "team": "HYAK Motorsports"
             }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2026-10-24-preview",
-      "kind": "preview",
-      "title": "This weekend on E-Grid",
-      "dateRange": "23–26 October",
-      "intro": "Sunday 25 October brings a triple-header across three championships: Formula 1, MotoGP and NASCAR Cup Series all race that day. Here is what to watch at each event.",
-      "publishedAt": "2026-10-24T00:47:31Z",
-      "expiresAt": "2026-10-29T00:47:31Z",
-      "items": [
-        {
-          "channelID": "f1",
-          "channelName": "Formula 1",
-          "headline": "United States Grand Prix",
-          "detail": "Circuit of the Americas, USA · Sun 25 Oct",
-          "body": "The United States Grand Prix runs at the Circuit of the Americas on Sunday 25 October, beginning at 20:00 UTC. Qualifying takes place the day before at 21:00 UTC, and Andrea Kimi Antonelli heads into the weekend leading George Russell by 102 points.",
-          "date": "2026-10-25",
-          "round": 18,
-          "facts": [
-            "Qualifying Sat 24 Oct, 21:00 UTC",
-            "Andrea Kimi Antonelli leads the championship by 102 points from George Russell"
-          ]
-        },
-        {
-          "channelID": "motogp",
-          "channelName": "MotoGP",
-          "headline": "Grand Prix of Australia",
-          "detail": "Phillip Island, Australia · Sun 25 Oct",
-          "body": "The Grand Prix of Australia runs at Phillip Island on Sunday 25 October. Jorge Martin heads into the round leading the championship by two points from Marc Marquez.",
-          "date": "2026-10-25",
-          "round": 18,
-          "facts": [
-            "Jorge Martin leads the championship by 2 points from Marc Marquez"
-          ]
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "YellaWood 500",
-          "detail": "Talladega Superspeedway · Sun 25 Oct",
-          "body": "The YellaWood 500 runs at Talladega Superspeedway on Sunday 25 October, beginning at 18:00 UTC, covering 188 laps over 500.08 miles. In the United States it is shown on NBC and broadcast on MRN radio.",
-          "date": "2026-10-25",
-          "round": 34,
-          "facts": [
-            "188 laps, 500.08 miles",
-            "US coverage: NBC (TV), MRN (radio)"
           ]
         }
       ]
