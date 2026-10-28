@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-27T13:14:35Z",
+  "generatedAt": "2026-10-28T14:03:29Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,28 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "lLlsDlKVJfE",
+          "title": "Why WEC is Such a Unique Challenge for FIA Stewards",
+          "publishedAt": "2026-10-28T11:00:23Z",
+          "duration": "6:07",
+          "seconds": 367,
+          "thumbnail": "https://i.ytimg.com/vi/lLlsDlKVJfE/maxresdefault.jpg",
+          "source": "FIA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "jj3Jk9HHyNE",
+          "title": "The Secret Behind Jade Jacquet's French F4 Win? | Team Torque | S3 E10 | Jamie, Jade & Lia",
+          "publishedAt": "2026-10-27T17:00:32Z",
+          "duration": "15:00",
+          "seconds": 900,
+          "thumbnail": "https://i.ytimg.com/vi/jj3Jk9HHyNE/maxresdefault.jpg",
+          "source": "Atlassian Williams F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "Czr14yTm0_M",
           "title": "Allwyn x McLaren Racing: Live in Athens | McLaren Racing",
@@ -21,7 +43,7 @@
         },
         {
           "id": "KADqapQY_HE",
-          "title": "ALISHA WINS THE CHAMPIONSHIP!!! Talking Bull Reacts to the US Grand Prix",
+          "title": "Talking Bull Reacts to the US Grand Prix!!!",
           "publishedAt": "2026-10-26T16:30:01Z",
           "duration": "19:53",
           "seconds": 1193,
@@ -32,7 +54,7 @@
         },
         {
           "id": "k1LL5YwHkbI",
-          "title": "F1 Driver Performs LIVE Music On Stage! | All Access",
+          "title": "Liam Lawson Performs LIVE Music On Stage! | All Access",
           "publishedAt": "2026-10-24T18:58:41Z",
           "duration": "18:54",
           "seconds": 1134,
@@ -162,17 +184,6 @@
           "seconds": 351,
           "thumbnail": "https://i.ytimg.com/vi/Th9BdOCYZpE/maxresdefault.jpg",
           "source": "Cadillac Formula 1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "uJAur_OKoLs",
-          "title": "Unboxed: Singapore Marketing Day | McLaren Racing",
-          "publishedAt": "2026-10-12T15:00:39Z",
-          "duration": "14:45",
-          "seconds": 885,
-          "thumbnail": "https://i.ytimg.com/vi/uJAur_OKoLs/maxresdefault.jpg",
-          "source": "McLaren",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -415,17 +426,6 @@
           "seconds": 656,
           "thumbnail": "https://i.ytimg.com/vi/eNOqEg6O5GU/maxresdefault.jpg",
           "source": "Cadillac Formula 1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "ooSQDiKPP-E",
-          "title": "AMR Network: Portraits | Xerox",
-          "publishedAt": "2026-07-25T11:47:59Z",
-          "duration": "5:11",
-          "seconds": 311,
-          "thumbnail": "https://i.ytimg.com/vi/ooSQDiKPP-E/maxresdefault.jpg",
-          "source": "Aston Martin Aramco F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -984,17 +984,6 @@
           "source": "NASCAR",
           "blockedRegions": [],
           "allowedRegions": []
-        },
-        {
-          "id": "FmhaCWYOYds",
-          "title": "NASCAR Cup Series Highlights | 2026 Daytona International Speedway",
-          "publishedAt": "2026-08-30T03:35:09Z",
-          "duration": "23:34",
-          "seconds": 1414,
-          "thumbnail": "https://i.ytimg.com/vi/FmhaCWYOYds/maxresdefault.jpg",
-          "source": "NASCAR",
-          "blockedRegions": [],
-          "allowedRegions": []
         }
       ],
       "externalVideos": []
@@ -1210,6 +1199,28 @@
       "source": "the MotoGP manufacturers",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "EQO2BuvPrHQ",
+          "title": "Red Bull KTM MotoGP™ 2026 Factory Floor Episode 18 #AUSTRALIANGP | KTM",
+          "publishedAt": "2026-10-28T12:00:20Z",
+          "duration": "13:02",
+          "seconds": 782,
+          "thumbnail": "https://i.ytimg.com/vi/EQO2BuvPrHQ/maxresdefault.jpg",
+          "source": "KTM",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "YjgJMzNShlc",
+          "title": "Marc Márquez and Pecco Bagnaia | Farewell message to #AustralianGP at PI",
+          "publishedAt": "2026-10-28T09:00:30Z",
+          "duration": "16:02",
+          "seconds": 962,
+          "thumbnail": "https://i.ytimg.com/vi/YjgJMzNShlc/maxresdefault.jpg",
+          "source": "Ducati",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "nRV718FX5cA",
           "title": "Red Bull KTM MotoGP™ 2026 Factory Floor Episode 17 #INDONESIANGP | KTM",
@@ -1486,28 +1497,6 @@
           "allowedRegions": []
         },
         {
-          "id": "lwpiCmdncNI",
-          "title": "#CzechGP MotoGP - Best Weekend Yet - Sashimi Behind The Scenes",
-          "publishedAt": "2026-06-26T09:48:14Z",
-          "duration": "19:11",
-          "seconds": 1151,
-          "thumbnail": "https://i.ytimg.com/vi/lwpiCmdncNI/maxresdefault.jpg",
-          "source": "HondaRacingHRC",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "giJjtSucXgw",
-          "title": "HISTORY IS MADE! Ducati Lenovo Team reaches 100 MotoGP Victories!",
-          "publishedAt": "2026-06-22T10:30:02Z",
-          "duration": "5:15",
-          "seconds": 315,
-          "thumbnail": "https://i.ytimg.com/vi/giJjtSucXgw/maxresdefault.jpg",
-          "source": "Ducati",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "t0PcPZJve2E",
           "title": "ITA - Aprilia Racing | 2026 #MotoGP Team Presentation Live Show",
           "publishedAt": "2026-01-19T10:43:18Z",
@@ -1549,6 +1538,17 @@
       "source": "World Snooker Tour",
       "sourceURL": "https://www.youtube.com/channel/UC5lTEvtwu6SR3LMSmU9VZ2Q",
       "videos": [
+        {
+          "id": "udgR0fhE4pg",
+          "title": "EPIC DECIDER BATTLE! Ronnie O'Sullivan vs Jack Lisowski | International Championship 2025",
+          "publishedAt": "2026-10-28T13:00:22Z",
+          "duration": "24:09",
+          "seconds": 1449,
+          "thumbnail": "https://i.ytimg.com/vi/udgR0fhE4pg/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "uu8K4PxYu08",
           "title": "CLINICAL FINAL! Kyren Wilson vs Jak Jones | 2026 BetVictor Northern Ireland Open",
@@ -1666,17 +1666,6 @@
           "duration": "19:30",
           "seconds": 1170,
           "thumbnail": "https://i.ytimg.com/vi/o6vxaW1zPH8/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "VLPRhJbT9qM",
-          "title": "ANOTHER BIG NAME OUT? | Zhao Xintong vs Gao Yang | BetVictor Northern Ireland Open 2026",
-          "publishedAt": "2026-10-20T18:14:17Z",
-          "duration": "13:51",
-          "seconds": 831,
-          "thumbnail": "https://i.ytimg.com/vi/VLPRhJbT9qM/maxresdefault.jpg",
           "source": "WST",
           "blockedRegions": [],
           "allowedRegions": []
