@@ -1,7 +1,64 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-28T00:34:35Z",
+  "generatedAt": "2026-10-29T00:03:38Z",
   "editions": [
+    {
+      "id": "2026-10-29-preview",
+      "kind": "preview",
+      "title": "This weekend on E-Grid",
+      "dateRange": "29 October – 2 November",
+      "intro": "This week brings four rounds across the top of the grid: Formula 1 heads to Mexico City, MotoGP to Malaysia, NASCAR for the Xfinity 500 at Martinsville, and NHRA drag racing from Las Vegas.",
+      "publishedAt": "2026-10-29T00:03:38Z",
+      "expiresAt": "2026-11-03T00:03:38Z",
+      "items": [
+        {
+          "channelID": "f1",
+          "channelName": "Formula 1",
+          "headline": "Mexico City Grand Prix",
+          "detail": "Autódromo Hermanos Rodríguez, Mexico · Sun 1 Nov",
+          "body": "The season reaches its business end with the Mexico City Grand Prix on Sunday 1 November at the Autódromo Hermanos Rodríguez. Qualifying takes place the day before, Saturday 31 October, at 21:00 UTC, with the race itself starting at 20:00 UTC. Andrea Kimi Antonelli leads the championship by 123 points from George Russell.",
+          "date": "2026-11-01",
+          "round": 19,
+          "facts": [
+            "Qualifying Sat 31 Oct, 21:00 UTC",
+            "Andrea Kimi Antonelli leads the championship by 123 points from George Russell"
+          ]
+        },
+        {
+          "channelID": "motogp",
+          "channelName": "MotoGP",
+          "headline": "Grand Prix of Malaysia",
+          "detail": "Petronas Sepang International Circuit, Malaysia · Sun 1 Nov",
+          "body": "The Grand Prix of Malaysia returns to the Petronas Sepang International Circuit on Sunday 1 November. Marc Marquez holds a slender ten-point lead over Jorge Martin in the championship, so this round could decide more than just the race itself.",
+          "date": "2026-11-01",
+          "round": 19,
+          "facts": [
+            "Marc Marquez leads the championship by 10 points from Jorge Martin"
+          ]
+        },
+        {
+          "channelID": "nascar",
+          "channelName": "NASCAR Cup Series",
+          "headline": "Xfinity 500",
+          "detail": "Martinsville Speedway · Sun 1 Nov",
+          "body": "The Xfinity 500 runs on Sunday 1 November at Martinsville Speedway, starting at 19:00 UTC. It covers 500 laps and 263 miles around the short track. In the United States it is shown on NBC television and carried on MRN radio.",
+          "date": "2026-11-01",
+          "round": 35,
+          "facts": [
+            "500 laps, 263 miles",
+            "US coverage: NBC (TV), MRN (radio)"
+          ]
+        },
+        {
+          "channelID": "nhra",
+          "channelName": "NHRA Drag Racing",
+          "headline": "Las Vegas Nationals",
+          "detail": "Las Vegas Motor Speedway · Sun 1 Nov",
+          "body": "The Las Vegas Nationals arrive at the Las Vegas Motor Speedway on Sunday 1 November. It rounds out a busy weekend of motorsport alongside Formula 1, MotoGP and NASCAR.",
+          "date": "2026-11-01"
+        }
+      ]
+    },
     {
       "id": "2026-10-28-preview",
       "kind": "preview",
@@ -205,76 +262,6 @@
           "headline": "YellaWood 500",
           "detail": "Talladega Superspeedway · Sun 25 Oct",
           "body": "Kyle Larson won the YellaWood 500 at Talladega from tenth on the grid, edging teammate William Byron by just 0.041 seconds with Ricky Stenhouse Jr third. His Chase lead over Denny Hamlin jumped from five to 73 points with two races remaining. There were 41 lead changes among fifteen drivers across 189 laps as Brad Keselowski, Riley Herbst, Austin Cindric and Erik Jones all failed to finish.",
-          "date": "2026-10-25",
-          "round": 34,
-          "facts": [
-            "Kyle Larson won from 10th on the grid",
-            "Most laps led: Chris Buescher (53)",
-            "Stage winners: Stage 1 Chris Buescher, Stage 2 Joey Logano",
-            "Margin of victory: 0.041 s",
-            "Kyle Larson's Chase lead over Denny Hamlin went from 5 to 73 points this weekend, with 2 races to go",
-            "189 laps, 41 lead changes among 15 drivers"
-          ],
-          "podium": [
-            {
-              "position": 1,
-              "name": "Kyle Larson",
-              "team": "Hendrick Motorsports"
-            },
-            {
-              "position": 2,
-              "name": "William Byron",
-              "team": "Hendrick Motorsports"
-            },
-            {
-              "position": 3,
-              "name": "Ricky Stenhouse Jr",
-              "team": "HYAK Motorsports"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2026-10-25-preview",
-      "kind": "preview",
-      "title": "Results from the weekend",
-      "dateRange": "23–26 October",
-      "intro": "The NASCAR Cup Series has its weekend verdict: Kyle Larson wins at Talladega. Two more rounds stand over the coming days — Formula 1 heads to the Circuit of the Americas and MotoGP to Phillip Island, both on Sunday, with championship leads still to be tested.",
-      "publishedAt": "2026-10-25T22:38:15Z",
-      "expiresAt": "2026-10-30T22:38:15Z",
-      "items": [
-        {
-          "channelID": "f1",
-          "channelName": "Formula 1",
-          "headline": "United States Grand Prix",
-          "detail": "Circuit of the Americas, USA · Sun 25 Oct",
-          "body": "The United States Grand Prix runs on Sunday 25 October at the Circuit of the Americas, starting at 20:00 UTC. Qualifying precedes it on Saturday 24 October at 21:00 UTC. Andrea Kimi Antonelli leads the championship by 102 points from George Russell.",
-          "date": "2026-10-25",
-          "round": 18,
-          "facts": [
-            "Qualifying Sat 24 Oct, 21:00 UTC",
-            "Andrea Kimi Antonelli leads the championship by 102 points from George Russell"
-          ]
-        },
-        {
-          "channelID": "motogp",
-          "channelName": "MotoGP",
-          "headline": "Grand Prix of Australia",
-          "detail": "Phillip Island, Australia · Sun 25 Oct",
-          "body": "The Grand Prix of Australia runs on Sunday 25 October at Phillip Island. The title fight stays wide open with Marc Marquez leading Jorge Martin by just ten points, so this weekend could shift the standings.",
-          "date": "2026-10-25",
-          "round": 18,
-          "facts": [
-            "Marc Marquez leads the championship by 10 points from Jorge Martin"
-          ]
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "YellaWood 500",
-          "detail": "Talladega Superspeedway · Sun 25 Oct",
-          "body": "Kyle Larson took the win at Talladega from tenth on the grid, holding off teammate William Byron, with Ricky Stenhouse Jr third. It was a photo finish — a 0.041 second margin across 189 laps and 41 lead changes under four cautions. The victory widened Larson's Chase lead over Denny Hamlin to 73 points with two races remaining.",
           "date": "2026-10-25",
           "round": 34,
           "facts": [
