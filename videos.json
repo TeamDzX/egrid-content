@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-28T14:03:29Z",
+  "generatedAt": "2026-10-29T14:23:41Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,28 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "SKmEc6K_6Fs",
+          "title": "Extraordinary by Design, presented by Velocity Black | Jessica Hawkins and Pedro de la Rosa",
+          "publishedAt": "2026-10-29T13:59:09Z",
+          "duration": "22:50",
+          "seconds": 1370,
+          "thumbnail": "https://i.ytimg.com/vi/SKmEc6K_6Fs/maxresdefault.jpg",
+          "source": "Aston Martin Aramco F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "reoypzXY754",
+          "title": "This F1 Driver Can Play Guitar?!",
+          "publishedAt": "2026-10-29T09:00:01Z",
+          "duration": "9:52",
+          "seconds": 592,
+          "thumbnail": "https://i.ytimg.com/vi/reoypzXY754/maxresdefault.jpg",
+          "source": "Visa Cash App RB F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "lLlsDlKVJfE",
           "title": "Why WEC is Such a Unique Challenge for FIA Stewards",
@@ -199,17 +221,6 @@
           "allowedRegions": []
         },
         {
-          "id": "-V6jJDssWEI",
-          "title": "F1 Drivers & TWICE's Tzuyu Compete in Anime Art Challenge!",
-          "publishedAt": "2026-10-10T12:02:48Z",
-          "duration": "8:00",
-          "seconds": 480,
-          "thumbnail": "https://i.ytimg.com/vi/-V6jJDssWEI/maxresdefault.jpg",
-          "source": "Atlassian Williams F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "axdPg8WP8f4",
           "title": "Sending It Around Sepang | Cadillac Formula 1® Team",
           "publishedAt": "2026-10-09T20:55:15Z",
@@ -217,17 +228,6 @@
           "seconds": 311,
           "thumbnail": "https://i.ytimg.com/vi/axdPg8WP8f4/maxresdefault.jpg",
           "source": "Cadillac Formula 1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "t7yMVYV7HSQ",
-          "title": "In the Paddock with Alex Albon: Behind the Scenes",
-          "publishedAt": "2026-10-09T15:00:02Z",
-          "duration": "9:28",
-          "seconds": 568,
-          "thumbnail": "https://i.ytimg.com/vi/t7yMVYV7HSQ/maxresdefault.jpg",
-          "source": "Atlassian Williams F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -261,17 +261,6 @@
           "seconds": 385,
           "thumbnail": "https://i.ytimg.com/vi/LFE4oF01Pz8/maxresdefault.jpg",
           "source": "Cadillac Formula 1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "hV1Wv0cUL2A",
-          "title": "Can Arvid Lindblad Get Them All? | Top 10s",
-          "publishedAt": "2026-09-27T12:00:02Z",
-          "duration": "11:01",
-          "seconds": 661,
-          "thumbnail": "https://i.ytimg.com/vi/hV1Wv0cUL2A/maxresdefault.jpg",
-          "source": "Visa Cash App RB F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -426,6 +415,17 @@
           "seconds": 656,
           "thumbnail": "https://i.ytimg.com/vi/eNOqEg6O5GU/maxresdefault.jpg",
           "source": "Cadillac Formula 1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "ooSQDiKPP-E",
+          "title": "AMR Network: Portraits | Xerox",
+          "publishedAt": "2026-07-25T11:47:59Z",
+          "duration": "5:11",
+          "seconds": 311,
+          "thumbnail": "https://i.ytimg.com/vi/ooSQDiKPP-E/maxresdefault.jpg",
+          "source": "Aston Martin Aramco F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -1453,17 +1453,6 @@
           "allowedRegions": []
         },
         {
-          "id": "JL0n9TncbBA",
-          "title": "Heads down. Eyes forward. #BritishGP",
-          "publishedAt": "2026-08-11T13:44:10Z",
-          "duration": "2:28",
-          "seconds": 148,
-          "thumbnail": "https://i.ytimg.com/vi/JL0n9TncbBA/maxresdefault.jpg",
-          "source": "Yamaha MotoGP",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "jIwI3Bjd5OI",
           "title": "Red Bull KTM MotoGP™ 2026 Factory Floor Episode 11 #GERMANGP | KTM",
           "publishedAt": "2026-07-27T16:55:07Z",
@@ -1493,6 +1482,17 @@
           "seconds": 684,
           "thumbnail": "https://i.ytimg.com/vi/ZErjPDsC0VY/maxresdefault.jpg",
           "source": "KTM",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "lwpiCmdncNI",
+          "title": "#CzechGP MotoGP - Best Weekend Yet - Sashimi Behind The Scenes",
+          "publishedAt": "2026-06-26T09:48:14Z",
+          "duration": "19:11",
+          "seconds": 1151,
+          "thumbnail": "https://i.ytimg.com/vi/lwpiCmdncNI/maxresdefault.jpg",
+          "source": "HondaRacingHRC",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -2276,6 +2276,17 @@
       "channelID": "wrc",
       "name": "Jon Armstrong",
       "videos": [
+        {
+          "id": "WELISvjhZvQ",
+          "title": "Final drive in Puma Rally1!",
+          "publishedAt": "2026-10-29T09:45:03Z",
+          "duration": "19:28",
+          "seconds": 1168,
+          "thumbnail": "https://i.ytimg.com/vi/WELISvjhZvQ/maxresdefault.jpg",
+          "source": "Jon Armstrong",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "0n2HcFwLGcY",
           "title": "Driving a Legendary Rally Monster + Iconic Car Tour",
