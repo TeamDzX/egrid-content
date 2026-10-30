@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-29T14:23:41Z",
+  "generatedAt": "2026-10-30T14:12:18Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,17 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "CCmVo3bsHnM",
+          "title": "James Vowles Answers Your United States Grand Prix Fan Questions!",
+          "publishedAt": "2026-10-29T17:00:13Z",
+          "duration": "7:16",
+          "seconds": 436,
+          "thumbnail": "https://i.ytimg.com/vi/CCmVo3bsHnM/maxresdefault.jpg",
+          "source": "Atlassian Williams F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "SKmEc6K_6Fs",
           "title": "Extraordinary by Design, presented by Velocity Black | Jessica Hawkins and Pedro de la Rosa",
@@ -393,17 +404,6 @@
           "seconds": 569,
           "thumbnail": "https://i.ytimg.com/vi/vMbLJIHkat4/maxresdefault.jpg",
           "source": "Aston Martin Aramco F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "RLk-5eT0GFc",
-          "title": "Our Time at Fuji Speedway TPC (Testing of Previous Cars)",
-          "publishedAt": "2026-07-31T13:16:26Z",
-          "duration": "5:35",
-          "seconds": 335,
-          "thumbnail": "https://i.ytimg.com/vi/RLk-5eT0GFc/maxresdefault.jpg",
-          "source": "TGR Haas F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -1034,17 +1034,6 @@
           "duration": "20:27",
           "seconds": 1227,
           "thumbnail": "https://i.ytimg.com/vi/W5tnGCcCpwI/maxresdefault.jpg",
-          "source": "NTT INDYCAR SERIES",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "bUKDO7Hk3OY",
-          "title": "Extended Race Highlights | 2026 INDYCAR at Nashville",
-          "publishedAt": "2026-07-20T21:31:13Z",
-          "duration": "29:46",
-          "seconds": 1786,
-          "thumbnail": "https://i.ytimg.com/vi/bUKDO7Hk3OY/maxresdefault.jpg",
           "source": "NTT INDYCAR SERIES",
           "blockedRegions": [],
           "allowedRegions": []
@@ -2278,7 +2267,7 @@
       "videos": [
         {
           "id": "WELISvjhZvQ",
-          "title": "Final drive in Puma Rally1!",
+          "title": "My Final Drive in a Puma Rally1 - Behind the Scenes!",
           "publishedAt": "2026-10-29T09:45:03Z",
           "duration": "19:28",
           "seconds": 1168,
