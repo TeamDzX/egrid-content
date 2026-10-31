@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-30T14:12:18Z",
+  "generatedAt": "2026-10-31T13:40:57Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,17 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "V0G-yKdbcr0",
+          "title": "Sporting Our Sunday Best | Cadillac Formula 1® Team",
+          "publishedAt": "2026-10-30T20:55:59Z",
+          "duration": "5:44",
+          "seconds": 344,
+          "thumbnail": "https://i.ytimg.com/vi/V0G-yKdbcr0/maxresdefault.jpg",
+          "source": "Cadillac Formula 1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "CCmVo3bsHnM",
           "title": "James Vowles Answers Your United States Grand Prix Fan Questions!",
@@ -76,7 +87,7 @@
         },
         {
           "id": "KADqapQY_HE",
-          "title": "Talking Bull Reacts to the US Grand Prix!!!",
+          "title": "Reaction to Max Verstappen's PODIUM in Austin! | Talking Bull",
           "publishedAt": "2026-10-26T16:30:01Z",
           "duration": "19:53",
           "seconds": 1193,
@@ -129,17 +140,6 @@
           "seconds": 397,
           "thumbnail": "https://i.ytimg.com/vi/2bQfRf2UznY/maxresdefault.jpg",
           "source": "Atlassian Williams F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "w8YN5Hr95qU",
-          "title": "Unboxed: Designed to Race: Front Row | McLaren Racing",
-          "publishedAt": "2026-10-18T17:46:22Z",
-          "duration": "10:24",
-          "seconds": 624,
-          "thumbnail": "https://i.ytimg.com/vi/w8YN5Hr95qU/maxresdefault.jpg",
-          "source": "McLaren",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -217,17 +217,6 @@
           "seconds": 351,
           "thumbnail": "https://i.ytimg.com/vi/Th9BdOCYZpE/maxresdefault.jpg",
           "source": "Cadillac Formula 1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "7QBFk9ZcQWY",
-          "title": "BACK-TO-BACK VICTORIES! | Talking Bull Singapore GP Review",
-          "publishedAt": "2026-10-12T12:45:00Z",
-          "duration": "24:12",
-          "seconds": 1452,
-          "thumbnail": "https://i.ytimg.com/vi/7QBFk9ZcQWY/maxresdefault.jpg",
-          "source": "Red Bull Racing",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -408,23 +397,34 @@
           "allowedRegions": []
         },
         {
-          "id": "eNOqEg6O5GU",
-          "title": "Pit Crew Bootcamp: F1 Meets NASCAR | Cadillac Formula 1® Team",
-          "publishedAt": "2026-07-28T13:00:04Z",
-          "duration": "10:56",
-          "seconds": 656,
-          "thumbnail": "https://i.ytimg.com/vi/eNOqEg6O5GU/maxresdefault.jpg",
-          "source": "Cadillac Formula 1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "ooSQDiKPP-E",
           "title": "AMR Network: Portraits | Xerox",
           "publishedAt": "2026-07-25T11:47:59Z",
           "duration": "5:11",
           "seconds": 311,
           "thumbnail": "https://i.ytimg.com/vi/ooSQDiKPP-E/maxresdefault.jpg",
+          "source": "Aston Martin Aramco F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "l9k2EOSG5Is",
+          "title": "AMR Network: Portraits | ServiceNow",
+          "publishedAt": "2026-07-21T17:04:28Z",
+          "duration": "6:13",
+          "seconds": 373,
+          "thumbnail": "https://i.ytimg.com/vi/l9k2EOSG5Is/maxresdefault.jpg",
+          "source": "Aston Martin Aramco F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "Mfccz2boJps",
+          "title": "AMR Network: Portraits | Cohere",
+          "publishedAt": "2026-07-17T16:57:33Z",
+          "duration": "6:59",
+          "seconds": 419,
+          "thumbnail": "https://i.ytimg.com/vi/Mfccz2boJps/maxresdefault.jpg",
           "source": "Aston Martin Aramco F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
@@ -1528,6 +1528,28 @@
       "sourceURL": "https://www.youtube.com/channel/UC5lTEvtwu6SR3LMSmU9VZ2Q",
       "videos": [
         {
+          "id": "yJKXmkkWxP0",
+          "title": "OOZING QUALITY | Wu Yize vs Hammad Miah | International Championship 2026",
+          "publishedAt": "2026-10-31T12:28:02Z",
+          "duration": "8:16",
+          "seconds": 496,
+          "thumbnail": "https://i.ytimg.com/vi/yJKXmkkWxP0/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "-w5dtryJQFE",
+          "title": "LEGEND vs LEGEND! | Mark Selby takes on Jimmy White! | International Championship 2026",
+          "publishedAt": "2026-10-31T05:18:45Z",
+          "duration": "9:51",
+          "seconds": 591,
+          "thumbnail": "https://i.ytimg.com/vi/-w5dtryJQFE/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "udgR0fhE4pg",
           "title": "EPIC DECIDER BATTLE! Ronnie O'Sullivan vs Jack Lisowski | International Championship 2025",
           "publishedAt": "2026-10-28T13:00:22Z",
@@ -1633,28 +1655,6 @@
           "duration": "8:55",
           "seconds": 535,
           "thumbnail": "https://i.ytimg.com/vi/2cBqm7FdpUU/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "U-Ct8CZ1Z8E",
-          "title": "CRUCIAL MOMENTS! | Liam Davies vs Pang Junxu TWISTY frame | Northern Ireland Open 2026",
-          "publishedAt": "2026-10-21T10:40:42Z",
-          "duration": "10:56",
-          "seconds": 656,
-          "thumbnail": "https://i.ytimg.com/vi/U-Ct8CZ1Z8E/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "o6vxaW1zPH8",
-          "title": "HIGH-SCORING EPIC! Kyren Wilson vs Thepchaiya Un-Nooh | 2026 BetVictor Northern Ireland Open",
-          "publishedAt": "2026-10-20T20:00:12Z",
-          "duration": "19:30",
-          "seconds": 1170,
-          "thumbnail": "https://i.ytimg.com/vi/o6vxaW1zPH8/maxresdefault.jpg",
           "source": "WST",
           "blockedRegions": [],
           "allowedRegions": []
