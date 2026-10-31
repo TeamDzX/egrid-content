@@ -1,7 +1,64 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-30T02:41:51Z",
+  "generatedAt": "2026-10-31T01:38:48Z",
   "editions": [
+    {
+      "id": "2026-10-31-preview",
+      "kind": "preview",
+      "title": "This weekend on E-Grid",
+      "dateRange": "30 October – 2 November",
+      "intro": "Four rounds this week across Formula 1, MotoGP, NASCAR and NHRA drag racing. It builds toward the final stretch of each season, with titles on the line in Mexico and Malaysia. Here is what to watch from 30 October to 2 November.",
+      "publishedAt": "2026-10-31T01:38:48Z",
+      "expiresAt": "2026-11-05T01:38:48Z",
+      "items": [
+        {
+          "channelID": "f1",
+          "channelName": "Formula 1",
+          "headline": "Mexico City Grand Prix",
+          "detail": "Autódromo Hermanos Rodríguez, Mexico · Sun 1 Nov",
+          "body": "The Mexico City Grand Prix runs on Sun 1 Nov at the Autódromo Hermanos Rodríguez, with qualifying Saturday 31 Oct at 21:00 UTC and a race start of 20:00 UTC. Andrea Kimi Antonelli leads the championship by 123 points from George Russell.",
+          "date": "2026-11-01",
+          "round": 19,
+          "facts": [
+            "Qualifying Sat 31 Oct, 21:00 UTC",
+            "Andrea Kimi Antonelli leads the championship by 123 points from George Russell"
+          ]
+        },
+        {
+          "channelID": "motogp",
+          "channelName": "MotoGP",
+          "headline": "Grand Prix of Malaysia",
+          "detail": "Petronas Sepang International Circuit, Malaysia · Sun 1 Nov",
+          "body": "The Grand Prix of Malaysia runs on Sun 1 Nov at the Petronas Sepang International Circuit. Marc Marquez leads the championship by 10 points from Jorge Martin heading into this round.",
+          "date": "2026-11-01",
+          "round": 19,
+          "facts": [
+            "Marc Marquez leads the championship by 10 points from Jorge Martin"
+          ]
+        },
+        {
+          "channelID": "nascar",
+          "channelName": "NASCAR Cup Series",
+          "headline": "Xfinity 500",
+          "detail": "Martinsville Speedway · Sun 1 Nov",
+          "body": "The Xfinity 500 runs on Sun 1 Nov at Martinsville Speedway, starting at 19:00 UTC. It covers 500 laps over 263 miles, with US coverage on NBC and MRN radio.",
+          "date": "2026-11-01",
+          "round": 35,
+          "facts": [
+            "500 laps, 263 miles",
+            "US coverage: NBC (TV), MRN (radio)"
+          ]
+        },
+        {
+          "channelID": "nhra",
+          "channelName": "NHRA Drag Racing",
+          "headline": "Las Vegas Nationals",
+          "detail": "Las Vegas Motor Speedway · Sun 1 Nov",
+          "body": "The Las Vegas Nationals run on Sun 1 Nov at the Las Vegas Motor Speedway. It is one of four rounds this week, rounding out a busy weekend across Formula 1, MotoGP and NASCAR.",
+          "date": "2026-11-01"
+        }
+      ]
+    },
     {
       "id": "2026-10-30-preview",
       "kind": "preview",
@@ -170,94 +227,6 @@
           "detail": "Las Vegas Motor Speedway · Sun 1 Nov",
           "body": "The Las Vegas Nationals bring NHRA Drag Racing to the Las Vegas Motor Speedway on Sunday 1 November. With no start time published, details remain to be confirmed.",
           "date": "2026-11-01"
-        }
-      ]
-    },
-    {
-      "id": "2026-10-27-recap",
-      "kind": "recap",
-      "title": "Last week on E-Grid",
-      "dateRange": "20–26 October",
-      "intro": "Three championships decide their weekends in a row on Sunday 25 October: Formula 1 heads to the United States Grand Prix, MotoGP rides out for the Grand Prix of Australia and NASCAR's Cup Series takes Talladega for the YellaWood 500.",
-      "publishedAt": "2026-10-27T05:15:01Z",
-      "expiresAt": "2026-10-31T05:15:01Z",
-      "items": [
-        {
-          "channelID": "f1",
-          "channelName": "Formula 1",
-          "headline": "United States Grand Prix",
-          "detail": "Circuit of the Americas, USA · Sun 25 Oct",
-          "body": "Andrea Kimi Antonelli took the United States Grand Prix from pole, 13.1 seconds clear of Charles Leclerc at the Circuit of the Americas, with Max Verstappen third. A dry, scorching day saw a single stop for the winner and a virtual safety car twice, yet three of the field failed to finish. Antonelli's championship lead over George Russell grew from 102 to 123 points.",
-          "date": "2026-10-25",
-          "round": 18,
-          "facts": [
-            "Andrea Kimi Antonelli won from pole, 13.1 seconds ahead of Charles Leclerc",
-            "Biggest climbers: Gabriel Bortoleto from 21st to 13th and Lance Stroll from 22nd to 15th",
-            "Fastest lap: Charles Leclerc, 1:37.976",
-            "Did not finish: Valtteri Bottas, Franco Colapinto and Oliver Bearman",
-            "Andrea Kimi Antonelli's championship lead over George Russell went from 102 to 123 points over the weekend",
-            "Virtual safety car on laps 2 and 51"
-          ],
-          "podium": [
-            {
-              "position": 1,
-              "name": "Andrea Kimi Antonelli",
-              "team": "Mercedes"
-            },
-            {
-              "position": 2,
-              "name": "Charles Leclerc",
-              "team": "Ferrari"
-            },
-            {
-              "position": 3,
-              "name": "Max Verstappen",
-              "team": "Red Bull"
-            }
-          ]
-        },
-        {
-          "channelID": "motogp",
-          "channelName": "MotoGP",
-          "headline": "Grand Prix of Australia",
-          "detail": "Phillip Island, Australia · Sun 25 Oct",
-          "body": "MotoGP reached Phillip Island for the Grand Prix of Australia, round 18 on Sunday 25 October. The Australian round is a long-standing fixture on the calendar as the season builds toward its closing rounds.",
-          "date": "2026-10-25",
-          "round": 18
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "YellaWood 500",
-          "detail": "Talladega Superspeedway · Sun 25 Oct",
-          "body": "Kyle Larson won the YellaWood 500 at Talladega from 10th on the grid, holding off teammate William Byron with Ricky Stenhouse Jr third. A razor-thin 0.041-second margin decided a race of 189 laps and 41 lead changes among fifteen drivers under four cautions for eighteen laps. Larson's Chase lead over Denny Hamlin jumped from five to 73 points with two races remaining.",
-          "date": "2026-10-25",
-          "round": 34,
-          "facts": [
-            "Kyle Larson won from 10th on the grid",
-            "Most laps led: Chris Buescher (53)",
-            "Stage winners: Stage 1 Chris Buescher, Stage 2 Joey Logano",
-            "Margin of victory: 0.041 s",
-            "Kyle Larson's Chase lead over Denny Hamlin went from 5 to 73 points this weekend, with 2 races to go",
-            "189 laps, 41 lead changes among 15 drivers"
-          ],
-          "podium": [
-            {
-              "position": 1,
-              "name": "Kyle Larson",
-              "team": "Hendrick Motorsports"
-            },
-            {
-              "position": 2,
-              "name": "William Byron",
-              "team": "Hendrick Motorsports"
-            },
-            {
-              "position": 3,
-              "name": "Ricky Stenhouse Jr",
-              "team": "HYAK Motorsports"
-            }
-          ]
         }
       ]
     }
