@@ -1,22 +1,22 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-01T13:37:44Z",
+  "generatedAt": "2026-11-01T18:59:06Z",
   "editions": [
     {
       "id": "2026-11-01-preview",
       "kind": "preview",
       "title": "Results from the weekend",
       "dateRange": "30 October – 2 November",
-      "intro": "This weekend spans four rounds across Formula 1, MotoGP, NASCAR and NHRA. In Malaysia the race ran its laps; elsewhere the championship standings are still being settled ahead of Sunday's calendar.",
-      "publishedAt": "2026-11-01T13:37:44Z",
-      "expiresAt": "2026-11-06T13:37:44Z",
+      "intro": "Sunday brings four rounds across Formula 1, MotoGP, NASCAR and NHRA. One result is already in from Malaysia, while the Mexico City Grand Prix, the Xfinity 500 and the Las Vegas Nationals all await this weekend.",
+      "publishedAt": "2026-11-01T18:59:06Z",
+      "expiresAt": "2026-11-06T18:59:06Z",
       "items": [
         {
           "channelID": "f1",
           "channelName": "Formula 1",
           "headline": "Mexico City Grand Prix",
           "detail": "Autódromo Hermanos Rodríguez, Mexico · Sun 1 Nov",
-          "body": "Formula 1 heads to Mexico City for Sunday 1 November, with the race on at 20:00 UTC and qualifying on Saturday 31 October at 21:00 UTC. Andrea Kimi Antonelli leads the championship by 123 points from George Russell as they close out the season.",
+          "body": "Sunday 1 Nov, the Mexico City Grand Prix runs at 20:00 UTC at the Autódromo Hermanos Rodríguez. Qualifying takes place on Saturday 31 October at 21:00 UTC. Andrea Kimi Antonelli leads the championship by 123 points from George Russell.",
           "date": "2026-11-01",
           "round": 19,
           "facts": [
@@ -29,7 +29,7 @@
           "channelName": "MotoGP",
           "headline": "Grand Prix of Malaysia",
           "detail": "Petronas Sepang International Circuit, Malaysia · Sun 1 Nov",
-          "body": "Marc Marquez took the win at Malaysia's Sepang circuit by 4.2 seconds from Pedro Acosta, with Alex Marquez completing the podium for BK8 Gresini Racing. Dry and hot conditions saw Acosta set a new lap record of 1:59.261. The result widened Marc Marquez's championship lead over Jorge Martin from 10 to 44 points.",
+          "body": "Marc Marquez took the win at Malaysia, holding off Pedro Acosta by 4.2 seconds, with Alex Marquez third. Dry and sweltering heat - 36C air and 55C on the track - set the scene as Johann Zarco, Diogo Moreira, Joan Mir and Augusto Fernandez all failed to finish. Acosta's weekend began well, taking Saturday's sprint before setting a new lap record of 1:59.261. The result widens Marc Marquez's championship lead over Jorge Martin from 10 to 44 points.",
           "date": "2026-11-01",
           "round": 19,
           "facts": [
@@ -63,7 +63,7 @@
           "channelName": "NASCAR Cup Series",
           "headline": "Xfinity 500",
           "detail": "Martinsville Speedway · Sun 1 Nov",
-          "body": "The NASCAR Cup Series heads to Martinsville Speedway for Sunday 1 November's Xfinity 500, run over 500 laps covering 263 miles. US coverage falls on NBC on television and MRN on radio.",
+          "body": "Sunday 1 Nov brings the Xfinity 500 at Martinsville Speedway, starting at 19:00 UTC. The 500-lap, 263-mile race is covered in the US on NBC and MRN.",
           "date": "2026-11-01",
           "round": 35,
           "facts": [
@@ -76,7 +76,7 @@
           "channelName": "NHRA Drag Racing",
           "headline": "Las Vegas Nationals",
           "detail": "Las Vegas Motor Speedway · Sun 1 Nov",
-          "body": "The NHRA Drag Racing season continues with the Las Vegas Nationals at Las Vegas Motor Speedway on Sunday 1 November.",
+          "body": "Sunday 1 Nov hosts the Las Vegas Nationals at Las Vegas Motor Speedway. As NHRA drag racing, it rounds out a full weekend across four championships.",
           "date": "2026-11-01"
         }
       ]
