@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-10-11T22:15:18Z",
+ "generatedAt": "2026-11-01T15:01:32Z",
  "_comment": "Tyre supplier per series, for the race page. Written by tyres/build_tyres.py.",
  "suppliers": [
   {
@@ -8,7 +8,7 @@
    "season": 2026,
    "name": "Pirelli",
    "product": "P Zero",
-   "summary": "Since 2011, Formula One has been supplied exclusively by Pirelli, an Italian manufacturer that remains the sole tyre supplier through the 2027 season. No other maker has provided rubber for the cars since then.\n\nOn race day, viewers see compounds marked by coloured sidewalls. Pirelli nominates three dry compounds per event: the hardest is named hard with a white sidewall, the softest is named soft with red, and the middle one is medium with yellow. Drivers must use at least two of these dry compounds during a race.",
+   "summary": "Formula One cars run on specialised racing tyres supplied exclusively by Pirelli, an Italian manufacturer. The company has been the sole supplier since 2011, when it won a three-year contract; the deal is currently set to last through the 2027 season.\n\nEach weekend Pirelli nominates three dry compounds from its C1 (hardest) to C5 (softest), naming them hard, medium and soft with white, yellow and red sidewalls respectively. Two treaded wet-weather tyres are supplied at every Grand Prix too, green for intermediate and blue for full wet. Drivers must use at least two dry compounds during a race.",
    "facts": [
     {
      "label": "Sole supplier since",
@@ -68,7 +68,7 @@
    "channelID": "motogp",
    "season": 2026,
    "name": "Michelin",
-   "summary": "Michelin supplies the tyres for MotoGP, having returned to the series in 2016 as the official supplier after Bridgestone withdrew at the end of 2015. Michelin had previously left the championship when it did not enter a bid for 2009, ending its participation at the close of 2008.\n\nRiders choose their own compounds, weighing grip against longevity: softer tyres offer more traction but wear faster, while harder ones last longer. Selection relies on bike feel during practice, qualifying and warm-up laps, plus the predicted weather. If rain falls, riders can pit under the flag-to-flag rule to switch to wet-weather bikes fitted with fully treaded tyres.",
+   "summary": "Michelin has been MotoGP's official tyre supplier since 2016, returning after Bridgestone withdrew at the end of 2015. It had previously left the series at the end of 2008 when it did not enter a bid for the single-provider rule introduced in 2009.\n\nOn race day, viewers see riders choose compounds based on bike feel during practice and warm-up laps plus predicted weather. Softer compounds give more grip but wear faster; harder ones last longer. If rain falls, riders pit to swap to fully treaded wet tyres under the flag-to-flag rule.",
    "facts": [
     {
      "label": "Sole supplier since",
@@ -99,7 +99,7 @@
    "channelID": "nascar",
    "season": 2026,
    "name": "Goodyear",
-   "summary": "Goodyear supplies the tyres for NASCAR stock car racing, having provided them since 1954. It has been the sole supplier since 1975 apart from short intervals, and in 1997 became the exclusive tyre provider for the three national series, including Cup.\n\nOn race day you may notice that tyres differ in circumference around the car, a setup called stagger, with the right rear having the most influence in left turns. Rubber compounds are also used in construction. These settings are decided by NASCAR and Goodyear engineers and cannot be adjusted by individual teams.",
+   "summary": "Goodyear supplies the tyres for NASCAR stock car racing, having done so since 1954. It has been the sole supplier since 1975 apart from short intervals, and in 1997 became the exclusive tyre provider for the three national series, which include the Cup Series.\n\nOn race day, viewers may notice how rubber compounds are used in tyre construction and how stagger - tyres of different circumference at different positions - affects handling. These settings are set by NASCAR and Goodyear engineers and cannot be adjusted by individual teams. Changing weather can also influence a car's handling, and rain forces oval races to stop immediately.",
    "facts": [
     {
      "label": "Supplier since",
@@ -131,7 +131,7 @@
    "season": 2026,
    "name": "Firestone",
    "product": "Firehawk",
-   "summary": "Firestone supplies the tyres for the IndyCar Series and has been the sole provider since 2000, after Goodyear supplied several teams before withdrawing.\n\nOn race day you notice that tyre compounds and construction differ by mounting position. For road and street races there are separate primary and alternative specifications for dry conditions, alongside full-rain tyres, but no intermediate wet option. On ovals a single specification is chosen from the track's speed and layout, with the right rear tyres slightly larger than the left to aid cornering.",
+   "summary": "Firestone supplies the tyres for IndyCar, having provided them from the 1996 season before becoming the sole supplier in 2000. Goodyear had supplied several teams between 1996 and 1999 before withdrawing their support, and Firestone will remain the only tyre maker until the 2030 season.\n\nOn race day the compounds differ by mounting position, with unique primary and alternative specifications for dry road and street events alongside specially designed full-rain tyres. There are no intermediate rain tyres, so only dry or all-rain options are available.",
    "facts": [
     {
      "label": "Supplier since",
