@@ -1,22 +1,22 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-01T18:59:06Z",
+  "generatedAt": "2026-11-01T22:54:01Z",
   "editions": [
     {
       "id": "2026-11-01-preview",
       "kind": "preview",
       "title": "Results from the weekend",
       "dateRange": "30 October – 2 November",
-      "intro": "Sunday brings four rounds across Formula 1, MotoGP, NASCAR and NHRA. One result is already in from Malaysia, while the Mexico City Grand Prix, the Xfinity 500 and the Las Vegas Nationals all await this weekend.",
-      "publishedAt": "2026-11-01T18:59:06Z",
-      "expiresAt": "2026-11-06T18:59:06Z",
+      "intro": "This week already has two winners crowned: Marc Marquez in Malaysia and William Byron at Martinsville, while a Formula One title showdown in Mexico City and a drag racing night in Las Vegas still await.",
+      "publishedAt": "2026-11-01T22:54:01Z",
+      "expiresAt": "2026-11-06T22:54:01Z",
       "items": [
         {
           "channelID": "f1",
           "channelName": "Formula 1",
           "headline": "Mexico City Grand Prix",
           "detail": "Autódromo Hermanos Rodríguez, Mexico · Sun 1 Nov",
-          "body": "Sunday 1 Nov, the Mexico City Grand Prix runs at 20:00 UTC at the Autódromo Hermanos Rodríguez. Qualifying takes place on Saturday 31 October at 21:00 UTC. Andrea Kimi Antonelli leads the championship by 123 points from George Russell.",
+          "body": "The season's final round runs on Sun 1 Nov, with qualifying on Sat 31 Oct at 21:00 UTC and the race itself starting at 20:00 UTC. Andrea Kimi Antonelli heads into Mexico City leading the championship by 123 points from George Russell.",
           "date": "2026-11-01",
           "round": 19,
           "facts": [
@@ -29,7 +29,7 @@
           "channelName": "MotoGP",
           "headline": "Grand Prix of Malaysia",
           "detail": "Petronas Sepang International Circuit, Malaysia · Sun 1 Nov",
-          "body": "Marc Marquez took the win at Malaysia, holding off Pedro Acosta by 4.2 seconds, with Alex Marquez third. Dry and sweltering heat - 36C air and 55C on the track - set the scene as Johann Zarco, Diogo Moreira, Joan Mir and Augusto Fernandez all failed to finish. Acosta's weekend began well, taking Saturday's sprint before setting a new lap record of 1:59.261. The result widens Marc Marquez's championship lead over Jorge Martin from 10 to 44 points.",
+          "body": "Marc Marquez took victory by 4.2 seconds over Pedro Acosta, who also won Saturday's sprint and set a new lap record of 1:59.261. Alex Marquez completed the podium. Conditions were dry at Sepang with 36°C air and a 55°C track. Marquez's championship lead over Jorge Martin widened from 10 to 44 points, while Johann Zarco, Diogo Moreira, Joan Mir and Augusto Fernandez all failed to finish.",
           "date": "2026-11-01",
           "round": 19,
           "facts": [
@@ -63,12 +63,33 @@
           "channelName": "NASCAR Cup Series",
           "headline": "Xfinity 500",
           "detail": "Martinsville Speedway · Sun 1 Nov",
-          "body": "Sunday 1 Nov brings the Xfinity 500 at Martinsville Speedway, starting at 19:00 UTC. The 500-lap, 263-mile race is covered in the US on NBC and MRN.",
+          "body": "William Byron won from eighth on the grid, leading 362 of 500 laps to take a 2.049-second margin over Chase Elliott, with Ty Gibbs third. His win lifted him from 11th to 9th in the Chase standings. Kyle Larson's lead over Christopher Bell narrowed from 73 to 67 points with one race remaining. Six cautions brought out 47 laps of caution racing, and Austin Cindric and Josh Bilicki failed to finish.",
           "date": "2026-11-01",
           "round": 35,
           "facts": [
-            "500 laps, 263 miles",
-            "US coverage: NBC (TV), MRN (radio)"
+            "William Byron won from 8th on the grid and led 362 of 500 laps",
+            "William Byron swept stages 1 and 2",
+            "Margin of victory: 2.049 s",
+            "Kyle Larson's Chase lead over Christopher Bell went from 73 to 67 points this weekend, with 1 race to go",
+            "The win lifted William Byron from 11th to 9th in the Chase",
+            "500 laps, 11 lead changes among 6 drivers"
+          ],
+          "podium": [
+            {
+              "position": 1,
+              "name": "William Byron",
+              "team": "Hendrick Motorsports"
+            },
+            {
+              "position": 2,
+              "name": "Chase Elliott",
+              "team": "Hendrick Motorsports"
+            },
+            {
+              "position": 3,
+              "name": "Ty Gibbs",
+              "team": "Joe Gibbs Racing"
+            }
           ]
         },
         {
@@ -76,7 +97,7 @@
           "channelName": "NHRA Drag Racing",
           "headline": "Las Vegas Nationals",
           "detail": "Las Vegas Motor Speedway · Sun 1 Nov",
-          "body": "Sunday 1 Nov hosts the Las Vegas Nationals at Las Vegas Motor Speedway. As NHRA drag racing, it rounds out a full weekend across four championships.",
+          "body": "The Las Vegas Nationals run on Sun 1 Nov at Las Vegas Motor Speedway, rounding out a busy weekend of drag racing.",
           "date": "2026-11-01"
         }
       ]
@@ -255,6 +276,42 @@
   ],
   "lastRaces": [
     {
+      "channelID": "nascar",
+      "channelName": "NASCAR Cup Series",
+      "headline": "Xfinity 500",
+      "detail": "Martinsville Speedway · Sun 1 Nov",
+      "body": "William Byron claimed the Xfinity 500 at Martinsville, beating teammate Chase Elliott into second with Ty Gibbs third. Starting from eighth, he led 362 of 500 laps and swept stages one and two to win by just over two seconds. His performance narrowed Kyle Larson's Chase lead over Christopher Bell from 73 to 67 points, with a single race remaining.",
+      "date": "2026-11-01",
+      "round": 35,
+      "facts": [
+        "William Byron won from 8th on the grid and led 362 of 500 laps",
+        "William Byron swept stages 1 and 2",
+        "Margin of victory: 2.049 s",
+        "Kyle Larson's Chase lead over Christopher Bell went from 73 to 67 points this weekend, with 1 race to go",
+        "The win lifted William Byron from 11th to 9th in the Chase",
+        "500 laps, 11 lead changes among 6 drivers"
+      ],
+      "podium": [
+        {
+          "position": 1,
+          "name": "William Byron",
+          "team": "Hendrick Motorsports"
+        },
+        {
+          "position": 2,
+          "name": "Chase Elliott",
+          "team": "Hendrick Motorsports"
+        },
+        {
+          "position": 3,
+          "name": "Ty Gibbs",
+          "team": "Joe Gibbs Racing"
+        }
+      ],
+      "factsVersion": 4,
+      "writer": "own server"
+    },
+    {
       "channelID": "motogp",
       "channelName": "MotoGP",
       "headline": "Grand Prix of Malaysia",
@@ -291,42 +348,6 @@
       "writer": "own server"
     },
     {
-      "channelID": "nascar",
-      "channelName": "NASCAR Cup Series",
-      "headline": "YellaWood 500",
-      "detail": "Talladega Superspeedway · Sun 25 Oct",
-      "body": "Kyle Larson won from 10th on the grid to take the YellaWood 500 at Talladega, finishing just ahead of teammate William Byron with Ricky Stenhouse Jr third. A margin of 0.041 seconds decided it across 189 laps and 41 lead changes, four cautions for 18 laps adding plenty of contact along the way. Larson's Chase lead over Denny Hamlin stretched from 5 to 73 points with two races remaining.",
-      "date": "2026-10-25",
-      "round": 34,
-      "facts": [
-        "Kyle Larson won from 10th on the grid",
-        "Most laps led: Chris Buescher (53)",
-        "Stage winners: Stage 1 Chris Buescher, Stage 2 Joey Logano",
-        "Margin of victory: 0.041 s",
-        "Kyle Larson's Chase lead over Denny Hamlin went from 5 to 73 points this weekend, with 2 races to go",
-        "189 laps, 41 lead changes among 15 drivers"
-      ],
-      "podium": [
-        {
-          "position": 1,
-          "name": "Kyle Larson",
-          "team": "Hendrick Motorsports"
-        },
-        {
-          "position": 2,
-          "name": "William Byron",
-          "team": "Hendrick Motorsports"
-        },
-        {
-          "position": 3,
-          "name": "Ricky Stenhouse Jr",
-          "team": "HYAK Motorsports"
-        }
-      ],
-      "factsVersion": 4,
-      "writer": "own server"
-    },
-    {
       "channelID": "f1",
       "channelName": "Formula 1",
       "headline": "United States Grand Prix",
@@ -339,8 +360,7 @@
         "Biggest climbers: Gabriel Bortoleto from 21st to 13th and Lance Stroll from 22nd to 15th",
         "Fastest lap: Charles Leclerc, 1:37.976",
         "Did not finish: Valtteri Bottas, Franco Colapinto and Oliver Bearman",
-        "Andrea Kimi Antonelli's championship lead over George Russell went from 102 to 123 points over the weekend",
-        "Virtual safety car on laps 2 and 51"
+        "Andrea Kimi Antonelli's championship lead over George Russell went from 102 to 123 points over the weekend"
       ],
       "podium": [
         {
