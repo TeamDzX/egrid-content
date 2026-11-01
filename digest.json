@@ -1,7 +1,64 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-31T01:38:48Z",
+  "generatedAt": "2026-11-01T06:20:52Z",
   "editions": [
+    {
+      "id": "2026-11-01-preview",
+      "kind": "preview",
+      "title": "This weekend on E-Grid",
+      "dateRange": "30 October – 2 November",
+      "intro": "Four championships line up across a single Sunday, 1 November. Formula 1 heads to Mexico City for round 19, MotoGP follows the same route to Sepang, while NASCAR and NHRA take their own roads at Martinsville and Las Vegas. Here is what to watch.",
+      "publishedAt": "2026-11-01T06:20:52Z",
+      "expiresAt": "2026-11-06T06:20:52Z",
+      "items": [
+        {
+          "channelID": "f1",
+          "channelName": "Formula 1",
+          "headline": "Mexico City Grand Prix",
+          "detail": "Autódromo Hermanos Rodríguez, Mexico · Sun 1 Nov",
+          "body": "Formula 1 reaches round 19 at the Autódromo Hermanos Rodríguez on Sunday 1 November, with the race starting at 20:00 UTC after Saturday's qualifying at 21:00. Andrea Kimi Antonelli holds a 123-point championship lead over George Russell.",
+          "date": "2026-11-01",
+          "round": 19,
+          "facts": [
+            "Qualifying Sat 31 Oct, 21:00 UTC",
+            "Andrea Kimi Antonelli leads the championship by 123 points from George Russell"
+          ]
+        },
+        {
+          "channelID": "motogp",
+          "channelName": "MotoGP",
+          "headline": "Grand Prix of Malaysia",
+          "detail": "Petronas Sepang International Circuit, Malaysia · Sun 1 Nov",
+          "body": "MotoGP's round 19 takes place at the Petronas Sepang International Circuit on Sunday 1 November. Marc Marquez enters the weekend just nineteen points clear of Jorge Martin in the championship, a gap small enough for either rider to close.",
+          "date": "2026-11-01",
+          "round": 19,
+          "facts": [
+            "Marc Marquez leads the championship by 19 points from Jorge Martin"
+          ]
+        },
+        {
+          "channelID": "nascar",
+          "channelName": "NASCAR Cup Series",
+          "headline": "Xfinity 500",
+          "detail": "Martinsville Speedway · Sun 1 Nov",
+          "body": "The NASCAR Cup Series reaches Martinsville Speedway for the Xfinity 500 on Sunday 1 November, starting at 19:00 UTC. It is a full 500 laps and 263 miles around the short track, with US coverage on NBC and MRN.",
+          "date": "2026-11-01",
+          "round": 35,
+          "facts": [
+            "500 laps, 263 miles",
+            "US coverage: NBC (TV), MRN (radio)"
+          ]
+        },
+        {
+          "channelID": "nhra",
+          "channelName": "NHRA Drag Racing",
+          "headline": "Las Vegas Nationals",
+          "detail": "Las Vegas Motor Speedway · Sun 1 Nov",
+          "body": "The NHRA Drag Racing tour reaches the Las Vegas Nationals at the Las Vegas Motor Speedway on Sunday 1 November. It is one of the season's stops as the series continues its run.",
+          "date": "2026-11-01"
+        }
+      ]
+    },
     {
       "id": "2026-10-31-preview",
       "kind": "preview",
@@ -172,63 +229,6 @@
           "date": "2026-11-01"
         }
       ]
-    },
-    {
-      "id": "2026-10-28-preview",
-      "kind": "preview",
-      "title": "This weekend on E-Grid",
-      "dateRange": "28 October – 2 November",
-      "intro": "Four rounds this week across Formula 1, MotoGP, NASCAR and NHRA Drag Racing all converge on Sunday 1 November. Here is what to expect from the Mexico City Grand Prix, the Grand Prix of Malaysia, the Xfinity 500 and the Las Vegas Nationals.",
-      "publishedAt": "2026-10-28T00:34:35Z",
-      "expiresAt": "2026-11-02T00:34:35Z",
-      "items": [
-        {
-          "channelID": "f1",
-          "channelName": "Formula 1",
-          "headline": "Mexico City Grand Prix",
-          "detail": "Autódromo Hermanos Rodríguez, Mexico · Sun 1 Nov",
-          "body": "The Mexico City Grand Prix runs at the Autódromo Hermanos Rodríguez on Sunday 1 November, with qualifying on Saturday 31 October at 21:00 UTC and the race starting at 20:00 UTC. Andrea Kimi Antonelli leads the championship by 123 points from George Russell as they arrive here.",
-          "date": "2026-11-01",
-          "round": 19,
-          "facts": [
-            "Qualifying Sat 31 Oct, 21:00 UTC",
-            "Andrea Kimi Antonelli leads the championship by 123 points from George Russell"
-          ]
-        },
-        {
-          "channelID": "motogp",
-          "channelName": "MotoGP",
-          "headline": "Grand Prix of Malaysia",
-          "detail": "Petronas Sepang International Circuit, Malaysia · Sun 1 Nov",
-          "body": "The Grand Prix of Malaysia takes place at the Petronas Sepang International Circuit on Sunday 1 November. Marc Marquez leads the championship by 10 points from Jorge Martin as the pair arrive.",
-          "date": "2026-11-01",
-          "round": 19,
-          "facts": [
-            "Marc Marquez leads the championship by 10 points from Jorge Martin"
-          ]
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "Xfinity 500",
-          "detail": "Martinsville Speedway · Sun 1 Nov",
-          "body": "The Xfinity 500 runs at Martinsville Speedway on Sunday 1 November, starting at 19:00 UTC. It covers 500 laps, or 263 miles, with US coverage on NBC and MRN.",
-          "date": "2026-11-01",
-          "round": 35,
-          "facts": [
-            "500 laps, 263 miles",
-            "US coverage: NBC (TV), MRN (radio)"
-          ]
-        },
-        {
-          "channelID": "nhra",
-          "channelName": "NHRA Drag Racing",
-          "headline": "Las Vegas Nationals",
-          "detail": "Las Vegas Motor Speedway · Sun 1 Nov",
-          "body": "The Las Vegas Nationals bring NHRA Drag Racing to the Las Vegas Motor Speedway on Sunday 1 November. With no start time published, details remain to be confirmed.",
-          "date": "2026-11-01"
-        }
-      ]
     }
   ],
   "lastRaces": [
@@ -277,7 +277,7 @@
       "date": "2026-10-25",
       "round": 18,
       "facts": [
-        "Marc Marquez leads the championship by 10 points from Jorge Martin"
+        "Marc Marquez leads the championship by 19 points from Jorge Martin"
       ],
       "factsVersion": 4,
       "writer": "own server"
