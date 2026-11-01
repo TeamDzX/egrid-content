@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-31T13:40:57Z",
+  "generatedAt": "2026-11-01T14:18:13Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,17 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "po6HBAsquas",
+          "title": "What are Alex's and Carlos's Favourite Dinosaurs? | Team Torque | S3 E11",
+          "publishedAt": "2026-10-31T15:00:16Z",
+          "duration": "29:37",
+          "seconds": 1777,
+          "thumbnail": "https://i.ytimg.com/vi/po6HBAsquas/maxresdefault.jpg",
+          "source": "Atlassian Williams F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "V0G-yKdbcr0",
           "title": "Sporting Our Sunday Best | Cadillac Formula 1® Team",
@@ -133,17 +144,6 @@
           "allowedRegions": []
         },
         {
-          "id": "2bQfRf2UznY",
-          "title": "Which F1 Driver Can Build the Largest Tower?",
-          "publishedAt": "2026-10-20T16:00:15Z",
-          "duration": "6:37",
-          "seconds": 397,
-          "thumbnail": "https://i.ytimg.com/vi/2bQfRf2UznY/maxresdefault.jpg",
-          "source": "Atlassian Williams F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "9OnSLxsR-TA",
           "title": "How Do F1 Drivers Race In Extreme Heat?",
           "publishedAt": "2026-10-18T11:00:20Z",
@@ -177,17 +177,6 @@
           "allowedRegions": []
         },
         {
-          "id": "AgnrRlneuuo",
-          "title": "James Vowles Answers Your Singapore Grand Prix Fan Questions!",
-          "publishedAt": "2026-10-16T16:00:22Z",
-          "duration": "8:34",
-          "seconds": 514,
-          "thumbnail": "https://i.ytimg.com/vi/AgnrRlneuuo/maxresdefault.jpg",
-          "source": "Atlassian Williams F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "S16fsHVdHd0",
           "title": "The GABICO Challenge | Episode 3: Strategy Battleship.",
           "publishedAt": "2026-10-16T08:43:43Z",
@@ -195,17 +184,6 @@
           "seconds": 301,
           "thumbnail": "https://i.ytimg.com/vi/S16fsHVdHd0/maxresdefault.jpg",
           "source": "Audi Revolut F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "qY8feFJF_lY",
-          "title": "The Good, The Bad & The Triple-Header, Nu Silver Arrows Radio Show, Episode 10",
-          "publishedAt": "2026-10-16T07:59:43Z",
-          "duration": "34:17",
-          "seconds": 2057,
-          "thumbnail": "https://i.ytimg.com/vi/qY8feFJF_lY/maxresdefault.jpg",
-          "source": "Mercedes-AMG F1",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -430,6 +408,28 @@
           "allowedRegions": []
         },
         {
+          "id": "LNP6lgxiTTg",
+          "title": "Why Spa is Unlike Any Other Circuit in F1",
+          "publishedAt": "2026-07-16T14:00:31Z",
+          "duration": "6:01",
+          "seconds": 361,
+          "thumbnail": "https://i.ytimg.com/vi/LNP6lgxiTTg/maxresdefault.jpg",
+          "source": "FIA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "-59xVmUn1YI",
+          "title": "AMR Network: Portraits | Cognition",
+          "publishedAt": "2026-07-14T14:17:27Z",
+          "duration": "5:49",
+          "seconds": 349,
+          "thumbnail": "https://i.ytimg.com/vi/-59xVmUn1YI/maxresdefault.jpg",
+          "source": "Aston Martin Aramco F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "4aFCIR7Qajc",
           "title": "We Spent the Day with Franco Colapinto at an F1 Filming Day | Powered by Eni",
           "publishedAt": "2026-05-17T11:30:39Z",
@@ -453,6 +453,20 @@
         }
       ],
       "externalVideos": [
+        {
+          "id": "O9kbG2tTX10",
+          "title": "Qualifying Highlights | 2026 Mexico City Grand Prix",
+          "publishedAt": "2026-10-31T22:41:17Z",
+          "duration": "8:03",
+          "seconds": 483,
+          "thumbnail": "https://i.ytimg.com/vi/O9kbG2tTX10/maxresdefault.jpg",
+          "source": "FORMULA 1",
+          "blockedRegions": [
+            "BY",
+            "RU"
+          ],
+          "allowedRegions": []
+        },
         {
           "id": "srLm23RUAH0",
           "title": "Race Highlights | 2026 United States Grand Prix",
@@ -1528,6 +1542,39 @@
       "sourceURL": "https://www.youtube.com/channel/UC5lTEvtwu6SR3LMSmU9VZ2Q",
       "videos": [
         {
+          "id": "V3_C9YgHTHY",
+          "title": "SCORING EXHIBITION! Wu Yize vs Robbie Williams | International Championship 2026",
+          "publishedAt": "2026-11-01T13:43:23Z",
+          "duration": "8:53",
+          "seconds": 533,
+          "thumbnail": "https://i.ytimg.com/vi/V3_C9YgHTHY/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "Ir6hfhvfVHY",
+          "title": "TWISTY DECIDER! Judd Trump vs Fan Zhengyi | International Championship 2026",
+          "publishedAt": "2026-11-01T10:39:07Z",
+          "duration": "15:29",
+          "seconds": 929,
+          "thumbnail": "https://i.ytimg.com/vi/Ir6hfhvfVHY/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "FQZmOrrj_pw",
+          "title": "HIGHEST BREAK SO FAR! | Judd Trump vs Liu Wenwei | International Championship 2026",
+          "publishedAt": "2026-10-31T16:23:06Z",
+          "duration": "10:42",
+          "seconds": 642,
+          "thumbnail": "https://i.ytimg.com/vi/FQZmOrrj_pw/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "yJKXmkkWxP0",
           "title": "OOZING QUALITY | Wu Yize vs Hammad Miah | International Championship 2026",
           "publishedAt": "2026-10-31T12:28:02Z",
@@ -1622,39 +1669,6 @@
           "duration": "8:11",
           "seconds": 491,
           "thumbnail": "https://i.ytimg.com/vi/t08wMOtEPD8/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "g1H5FKII4qM",
-          "title": "PURE DOMINANCE! Mark Williams vs Martin O'Donnell | 2026 BetVictor Northern Ireland Open",
-          "publishedAt": "2026-10-22T19:29:27Z",
-          "duration": "8:39",
-          "seconds": 519,
-          "thumbnail": "https://i.ytimg.com/vi/g1H5FKII4qM/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "W3fa1gjlw5w",
-          "title": "TENSE DECIDER! Jordan Brown vs Michael Holt | 2026 BetVictor Northern Ireland Open",
-          "publishedAt": "2026-10-21T20:52:44Z",
-          "duration": "16:43",
-          "seconds": 1003,
-          "thumbnail": "https://i.ytimg.com/vi/W3fa1gjlw5w/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "2cBqm7FdpUU",
-          "title": "TIMELESS GENIUS! | Mark Williams Shows QUALITY vs Zhang! | BetVictor Northern Ireland Open 2026",
-          "publishedAt": "2026-10-21T18:20:01Z",
-          "duration": "8:55",
-          "seconds": 535,
-          "thumbnail": "https://i.ytimg.com/vi/2cBqm7FdpUU/maxresdefault.jpg",
           "source": "WST",
           "blockedRegions": [],
           "allowedRegions": []
