@@ -1,7 +1,128 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-01T22:54:01Z",
+  "generatedAt": "2026-11-02T02:35:27Z",
   "editions": [
+    {
+      "id": "2026-11-02-recap",
+      "kind": "recap",
+      "title": "Last week on E-Grid",
+      "dateRange": "26 October – 1 November",
+      "intro": "Four series converge on Sunday 1 November across this week's action: Formula 1 in Mexico City, MotoGP in Malaysia, NASCAR at Martinsville and drag racing in Las Vegas.",
+      "publishedAt": "2026-11-02T02:35:27Z",
+      "expiresAt": "2026-11-06T02:35:27Z",
+      "items": [
+        {
+          "channelID": "f1",
+          "channelName": "Formula 1",
+          "headline": "Mexico City Grand Prix",
+          "detail": "Autódromo Hermanos Rodríguez, Mexico · Sun 1 Nov",
+          "body": "Max Verstappen took the Mexico City Grand Prix from fifth on the grid, holding off Lewis Hamilton by 0.8 seconds with Andrea Kimi Antonelli third for Mercedes. A red flag on lap 45 and safety cars on 44 and 59 scrambled a dry afternoon in which Verstappen made two stops on mediums then softs. The result only narrowed Antonelli's championship lead, from 123 to 119 points.",
+          "date": "2026-11-01",
+          "round": 19,
+          "facts": [
+            "Max Verstappen won from 5th on the grid, 0.8 seconds ahead of Lewis Hamilton",
+            "Biggest climbers: Liam Lawson from 22nd to 9th and Oscar Piastri from 12th to 7th",
+            "Fastest lap: Lewis Hamilton, 1:19.268",
+            "Did not finish: Arvid Lindblad, Oliver Bearman, Valtteri Bottas, Lance Stroll and Fernando Alonso",
+            "Andrea Kimi Antonelli's championship lead over Max Verstappen went from 123 to 119 points over the weekend",
+            "Virtual safety car on lap 7"
+          ],
+          "podium": [
+            {
+              "position": 1,
+              "name": "Max Verstappen",
+              "team": "Red Bull"
+            },
+            {
+              "position": 2,
+              "name": "Lewis Hamilton",
+              "team": "Ferrari"
+            },
+            {
+              "position": 3,
+              "name": "Andrea Kimi Antonelli",
+              "team": "Mercedes"
+            }
+          ]
+        },
+        {
+          "channelID": "motogp",
+          "channelName": "MotoGP",
+          "headline": "Grand Prix of Malaysia",
+          "detail": "Petronas Sepang International Circuit, Malaysia · Sun 1 Nov",
+          "body": "Marc Marquez won the Grand Prix of Malaysia by 4.2 seconds over Pedro Acosta, with Alex Marquez third for BK8 Gresini Racing. Acosta set a new lap record of 1:59.261 on a dry, sweltering afternoon and had already taken Saturday's sprint. The victory widened Marc Marquez's championship lead over Jorge Martin from 10 to 44 points.",
+          "date": "2026-11-01",
+          "round": 19,
+          "facts": [
+            "Marc Marquez won by 4.2 seconds from Pedro Acosta",
+            "Did not finish: Johann Zarco, Diogo Moreira, Joan Mir and Augusto Fernandez",
+            "Pedro Acosta set a new lap record, 1:59.261",
+            "Dry, 36°C air and 55°C track",
+            "Saturday's sprint was won by Pedro Acosta",
+            "Marc Marquez's championship lead over Jorge Martin went from 10 to 44 points this weekend"
+          ],
+          "podium": [
+            {
+              "position": 1,
+              "name": "Marc Marquez",
+              "team": "Ducati Lenovo Team"
+            },
+            {
+              "position": 2,
+              "name": "Pedro Acosta",
+              "team": "Red Bull KTM Factory Racing"
+            },
+            {
+              "position": 3,
+              "name": "Alex Marquez",
+              "team": "BK8 Gresini Racing MotoGP"
+            }
+          ]
+        },
+        {
+          "channelID": "nascar",
+          "channelName": "NASCAR Cup Series",
+          "headline": "Xfinity 500",
+          "detail": "Martinsville Speedway · Sun 1 Nov",
+          "body": "William Byron won the Xfinity 500 at Martinsville from eighth on the grid, leading 362 of 500 laps to beat teammate Chase Elliott by 2.049 seconds with Ty Gibbs third. Six cautions for 47 laps and eleven lead changes among six drivers made for a hard-fought race. The lift moved Byron from 11th to 9th in the Chase, while Kyle Larson's title edge over Christopher Bell slipped from 73 to 67 points.",
+          "date": "2026-11-01",
+          "round": 35,
+          "facts": [
+            "William Byron won from 8th on the grid and led 362 of 500 laps",
+            "William Byron swept stages 1 and 2",
+            "Margin of victory: 2.049 s",
+            "Kyle Larson's Chase lead over Christopher Bell went from 73 to 67 points this weekend, with 1 race to go",
+            "The win lifted William Byron from 11th to 9th in the Chase",
+            "500 laps, 11 lead changes among 6 drivers"
+          ],
+          "podium": [
+            {
+              "position": 1,
+              "name": "William Byron",
+              "team": "Hendrick Motorsports"
+            },
+            {
+              "position": 2,
+              "name": "Chase Elliott",
+              "team": "Hendrick Motorsports"
+            },
+            {
+              "position": 3,
+              "name": "Ty Gibbs",
+              "team": "Joe Gibbs Racing"
+            }
+          ]
+        },
+        {
+          "channelID": "nhra",
+          "channelName": "NHRA Drag Racing",
+          "headline": "Las Vegas Nationals",
+          "detail": "Las Vegas Motor Speedway · Sun 1 Nov",
+          "body": "The Las Vegas Nationals run at Las Vegas Motor Speedway on Sunday 1 November, bringing drag racing down the quarter mile. Across the sport's top classes, drivers line up for a weekend of straight-line speed.",
+          "date": "2026-11-01"
+        }
+      ]
+    },
     {
       "id": "2026-11-01-preview",
       "kind": "preview",
@@ -215,66 +336,19 @@
           "date": "2026-11-01"
         }
       ]
-    },
-    {
-      "id": "2026-10-29-preview",
-      "kind": "preview",
-      "title": "This weekend on E-Grid",
-      "dateRange": "29 October – 2 November",
-      "intro": "This week brings four rounds across the top of the grid: Formula 1 heads to Mexico City, MotoGP to Malaysia, NASCAR for the Xfinity 500 at Martinsville, and NHRA drag racing from Las Vegas.",
-      "publishedAt": "2026-10-29T00:03:38Z",
-      "expiresAt": "2026-11-03T00:03:38Z",
-      "items": [
-        {
-          "channelID": "f1",
-          "channelName": "Formula 1",
-          "headline": "Mexico City Grand Prix",
-          "detail": "Autódromo Hermanos Rodríguez, Mexico · Sun 1 Nov",
-          "body": "The season reaches its business end with the Mexico City Grand Prix on Sunday 1 November at the Autódromo Hermanos Rodríguez. Qualifying takes place the day before, Saturday 31 October, at 21:00 UTC, with the race itself starting at 20:00 UTC. Andrea Kimi Antonelli leads the championship by 123 points from George Russell.",
-          "date": "2026-11-01",
-          "round": 19,
-          "facts": [
-            "Qualifying Sat 31 Oct, 21:00 UTC",
-            "Andrea Kimi Antonelli leads the championship by 123 points from George Russell"
-          ]
-        },
-        {
-          "channelID": "motogp",
-          "channelName": "MotoGP",
-          "headline": "Grand Prix of Malaysia",
-          "detail": "Petronas Sepang International Circuit, Malaysia · Sun 1 Nov",
-          "body": "The Grand Prix of Malaysia returns to the Petronas Sepang International Circuit on Sunday 1 November. Marc Marquez holds a slender ten-point lead over Jorge Martin in the championship, so this round could decide more than just the race itself.",
-          "date": "2026-11-01",
-          "round": 19,
-          "facts": [
-            "Marc Marquez leads the championship by 10 points from Jorge Martin"
-          ]
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "Xfinity 500",
-          "detail": "Martinsville Speedway · Sun 1 Nov",
-          "body": "The Xfinity 500 runs on Sunday 1 November at Martinsville Speedway, starting at 19:00 UTC. It covers 500 laps and 263 miles around the short track. In the United States it is shown on NBC television and carried on MRN radio.",
-          "date": "2026-11-01",
-          "round": 35,
-          "facts": [
-            "500 laps, 263 miles",
-            "US coverage: NBC (TV), MRN (radio)"
-          ]
-        },
-        {
-          "channelID": "nhra",
-          "channelName": "NHRA Drag Racing",
-          "headline": "Las Vegas Nationals",
-          "detail": "Las Vegas Motor Speedway · Sun 1 Nov",
-          "body": "The Las Vegas Nationals arrive at the Las Vegas Motor Speedway on Sunday 1 November. It rounds out a busy weekend of motorsport alongside Formula 1, MotoGP and NASCAR.",
-          "date": "2026-11-01"
-        }
-      ]
     }
   ],
   "lastRaces": [
+    {
+      "channelID": "nhra",
+      "channelName": "NHRA Drag Racing",
+      "headline": "Las Vegas Nationals",
+      "detail": "Las Vegas Motor Speedway · Sun 1 Nov",
+      "body": "The Las Vegas Nationals brought drag racing to Las Vegas Motor Speedway on Sunday 1 November. Drivers lined up across the weekend for a full day of quarter-mile action, chasing speed and consistency down the strip.",
+      "date": "2026-11-01",
+      "factsVersion": 4,
+      "writer": "own server"
+    },
     {
       "channelID": "nascar",
       "channelName": "NASCAR Cup Series",
@@ -350,45 +424,36 @@
     {
       "channelID": "f1",
       "channelName": "Formula 1",
-      "headline": "United States Grand Prix",
-      "detail": "Circuit of the Americas, USA · Sun 25 Oct",
-      "body": "Andrea Kimi Antonelli won from pole at Circuit of the Americas, finishing 13.1 seconds ahead of Charles Leclerc, with Max Verstappen third for Red Bull. The result extended his championship lead over George Russell to 123 points. Charles Leclerc set the fastest lap as Valtteri Bottas, Franco Colapinto and Oliver Bearman all failed to finish.",
-      "date": "2026-10-25",
-      "round": 18,
+      "headline": "Mexico City Grand Prix",
+      "detail": "Autódromo Hermanos Rodríguez, Mexico · Sun 1 Nov",
+      "body": "Max Verstappen won the Mexico City Grand Prix from fifth on the grid, 0.8 seconds clear of Lewis Hamilton, with Andrea Kimi Antonelli third for Mercedes. The result trimmed his championship lead over Antonelli from 123 to 119 points. Safety cars on laps 44 and 59 brought a red flag on lap 45, while Liam Lawson climbed from 22nd to 9th.",
+      "date": "2026-11-01",
+      "round": 19,
       "facts": [
-        "Andrea Kimi Antonelli won from pole, 13.1 seconds ahead of Charles Leclerc",
-        "Biggest climbers: Gabriel Bortoleto from 21st to 13th and Lance Stroll from 22nd to 15th",
-        "Fastest lap: Charles Leclerc, 1:37.976",
-        "Did not finish: Valtteri Bottas, Franco Colapinto and Oliver Bearman",
-        "Andrea Kimi Antonelli's championship lead over George Russell went from 102 to 123 points over the weekend"
+        "Max Verstappen won from 5th on the grid, 0.8 seconds ahead of Lewis Hamilton",
+        "Biggest climbers: Liam Lawson from 22nd to 9th and Oscar Piastri from 12th to 7th",
+        "Fastest lap: Lewis Hamilton, 1:19.268",
+        "Did not finish: Arvid Lindblad, Oliver Bearman, Valtteri Bottas, Lance Stroll and Fernando Alonso",
+        "Andrea Kimi Antonelli's championship lead over Max Verstappen went from 123 to 119 points over the weekend",
+        "Virtual safety car on lap 7"
       ],
       "podium": [
         {
           "position": 1,
-          "name": "Andrea Kimi Antonelli",
-          "team": "Mercedes"
+          "name": "Max Verstappen",
+          "team": "Red Bull"
         },
         {
           "position": 2,
-          "name": "Charles Leclerc",
+          "name": "Lewis Hamilton",
           "team": "Ferrari"
         },
         {
           "position": 3,
-          "name": "Max Verstappen",
-          "team": "Red Bull"
+          "name": "Andrea Kimi Antonelli",
+          "team": "Mercedes"
         }
       ],
-      "factsVersion": 4,
-      "writer": "own server"
-    },
-    {
-      "channelID": "nhra",
-      "channelName": "NHRA Drag Racing",
-      "headline": "Texas FallNationals",
-      "detail": "Texas Motorplex, Ennis · Sun 18 Oct",
-      "body": "The Texas FallNationals brought drag racing to the Texas Motorplex in Ennis on Sunday 18 October. Competitors lined up across the season's classes for a weekend of quarter-mile action.",
-      "date": "2026-10-18",
       "factsVersion": 4,
       "writer": "own server"
     },
