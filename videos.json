@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-01T14:18:13Z",
+  "generatedAt": "2026-11-02T17:07:14Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,28 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "mLyPA6-vDkU",
+          "title": "AMR Network: Portraits | Pepperstone",
+          "publishedAt": "2026-11-02T16:27:18Z",
+          "duration": "8:19",
+          "seconds": 499,
+          "thumbnail": "https://i.ytimg.com/vi/mLyPA6-vDkU/maxresdefault.jpg",
+          "source": "Aston Martin Aramco F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "BEVynIla58Y",
+          "title": "Our Third WIN Of The Season! | Talking Bull",
+          "publishedAt": "2026-11-02T16:00:23Z",
+          "duration": "27:38",
+          "seconds": 1658,
+          "thumbnail": "https://i.ytimg.com/vi/BEVynIla58Y/maxresdefault.jpg",
+          "source": "Red Bull Racing",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "po6HBAsquas",
           "title": "What are Alex's and Carlos's Favourite Dinosaurs? | Team Torque | S3 E11",
@@ -54,7 +76,7 @@
         },
         {
           "id": "reoypzXY754",
-          "title": "This F1 Driver Can Play Guitar?!",
+          "title": "Liam Lawson & Arvid Lindblad Play Guitar!",
           "publishedAt": "2026-10-29T09:00:01Z",
           "duration": "9:52",
           "seconds": 592,
@@ -206,17 +228,6 @@
           "seconds": 311,
           "thumbnail": "https://i.ytimg.com/vi/axdPg8WP8f4/maxresdefault.jpg",
           "source": "Cadillac Formula 1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "GDr9NA3ObLU",
-          "title": "Audi(o) | Episode 03 – Malaysia",
-          "publishedAt": "2026-10-08T11:00:25Z",
-          "duration": "8:15",
-          "seconds": 495,
-          "thumbnail": "https://i.ytimg.com/vi/GDr9NA3ObLU/maxresdefault.jpg",
-          "source": "Audi Revolut F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -419,17 +430,6 @@
           "allowedRegions": []
         },
         {
-          "id": "-59xVmUn1YI",
-          "title": "AMR Network: Portraits | Cognition",
-          "publishedAt": "2026-07-14T14:17:27Z",
-          "duration": "5:49",
-          "seconds": 349,
-          "thumbnail": "https://i.ytimg.com/vi/-59xVmUn1YI/maxresdefault.jpg",
-          "source": "Aston Martin Aramco F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "4aFCIR7Qajc",
           "title": "We Spent the Day with Franco Colapinto at an F1 Filming Day | Powered by Eni",
           "publishedAt": "2026-05-17T11:30:39Z",
@@ -453,6 +453,20 @@
         }
       ],
       "externalVideos": [
+        {
+          "id": "tIiRK7hKScU",
+          "title": "Race Highlights | 2026 Mexico City Grand Prix",
+          "publishedAt": "2026-11-01T23:24:08Z",
+          "duration": "8:08",
+          "seconds": 488,
+          "thumbnail": "https://i.ytimg.com/vi/tIiRK7hKScU/maxresdefault.jpg",
+          "source": "FORMULA 1",
+          "blockedRegions": [
+            "BY",
+            "RU"
+          ],
+          "allowedRegions": []
+        },
         {
           "id": "O9kbG2tTX10",
           "title": "Qualifying Highlights | 2026 Mexico City Grand Prix",
@@ -586,34 +600,6 @@
           "duration": "8:07",
           "seconds": 487,
           "thumbnail": "https://i.ytimg.com/vi/nMrCLLJemBM/maxresdefault.jpg",
-          "source": "FORMULA 1",
-          "blockedRegions": [
-            "BY",
-            "RU"
-          ],
-          "allowedRegions": []
-        },
-        {
-          "id": "NK7AfP_wi8M",
-          "title": "Race Highlights | 2026 Spanish Grand Prix",
-          "publishedAt": "2026-09-13T15:31:59Z",
-          "duration": "8:05",
-          "seconds": 485,
-          "thumbnail": "https://i.ytimg.com/vi/NK7AfP_wi8M/maxresdefault.jpg",
-          "source": "FORMULA 1",
-          "blockedRegions": [
-            "BY",
-            "RU"
-          ],
-          "allowedRegions": []
-        },
-        {
-          "id": "C99UPegyFsM",
-          "title": "Qualifying Highlights | 2026 Spanish Grand Prix",
-          "publishedAt": "2026-09-12T15:38:16Z",
-          "duration": "8:01",
-          "seconds": 481,
-          "thumbnail": "https://i.ytimg.com/vi/C99UPegyFsM/maxresdefault.jpg",
           "source": "FORMULA 1",
           "blockedRegions": [
             "BY",
@@ -912,6 +898,17 @@
       "sourceURL": "https://www.youtube.com/channel/UCuN9hYw2RpoAW8rZ3VK3isA",
       "videos": [
         {
+          "id": "1bIXJGSuciI",
+          "title": "NASCAR Cup Series Highlights | 2026 Martinsville Speedway",
+          "publishedAt": "2026-11-01T22:53:48Z",
+          "duration": "22:55",
+          "seconds": 1375,
+          "thumbnail": "https://i.ytimg.com/vi/1bIXJGSuciI/maxresdefault.jpg",
+          "source": "NASCAR",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "AKPTv_wZepY",
           "title": "NASCAR Cup Series Highlights | 2026 Talladega Superspeedway",
           "publishedAt": "2026-10-25T22:17:47Z",
@@ -984,17 +981,6 @@
           "duration": "32:55",
           "seconds": 1975,
           "thumbnail": "https://i.ytimg.com/vi/W1u734oeW1o/maxresdefault.jpg",
-          "source": "NASCAR",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "W_X-FXDuI44",
-          "title": "NASCAR Cup Series Highlights | 2026 Darlington Raceway",
-          "publishedAt": "2026-09-07T02:01:41Z",
-          "duration": "30:16",
-          "seconds": 1816,
-          "thumbnail": "https://i.ytimg.com/vi/W_X-FXDuI44/maxresdefault.jpg",
           "source": "NASCAR",
           "blockedRegions": [],
           "allowedRegions": []
@@ -1542,6 +1528,50 @@
       "sourceURL": "https://www.youtube.com/channel/UC5lTEvtwu6SR3LMSmU9VZ2Q",
       "videos": [
         {
+          "id": "YiIEXfRqKcw",
+          "title": "ASTONISHING ENDING TO DECIDER! Zhao Xintong vs Sam Craigie | International Championship 2026",
+          "publishedAt": "2026-11-02T16:22:09Z",
+          "duration": "8:33",
+          "seconds": 513,
+          "thumbnail": "https://i.ytimg.com/vi/YiIEXfRqKcw/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "HY45tuQ6JoQ",
+          "title": "BRILLIANT DECIDER BATTLE! | Wu Yize vs Stephen Maguire | International Championship 2026",
+          "publishedAt": "2026-11-02T15:25:53Z",
+          "duration": "8:33",
+          "seconds": 513,
+          "thumbnail": "https://i.ytimg.com/vi/HY45tuQ6JoQ/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "Z3H4ULVeKcg",
+          "title": "SAFETY KING VS POTTING PRINCE | Mark Selby vs Hossein Vafaei | International Championship 2026",
+          "publishedAt": "2026-11-02T07:03:56Z",
+          "duration": "11:41",
+          "seconds": 701,
+          "thumbnail": "https://i.ytimg.com/vi/Z3H4ULVeKcg/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "tgv8JZWkHhE",
+          "title": "STUNNING MAXIMUM BREAK! Thepchaiya Un-Nooh 147 vs Mark Williams | International Championship 2026",
+          "publishedAt": "2026-11-02T02:18:19Z",
+          "duration": "8:01",
+          "seconds": 481,
+          "thumbnail": "https://i.ytimg.com/vi/tgv8JZWkHhE/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "V3_C9YgHTHY",
           "title": "SCORING EXHIBITION! Wu Yize vs Robbie Williams | International Championship 2026",
           "publishedAt": "2026-11-01T13:43:23Z",
@@ -1625,50 +1655,6 @@
           "duration": "11:27",
           "seconds": 687,
           "thumbnail": "https://i.ytimg.com/vi/ouEjJY6bBzY/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "taDzUFa7izY",
-          "title": "THAT WAS EPIC! | Mark Williams vs Jak Jones | BetVictor Northern Ireland Open 2026",
-          "publishedAt": "2026-10-24T23:21:08Z",
-          "duration": "14:23",
-          "seconds": 863,
-          "thumbnail": "https://i.ytimg.com/vi/taDzUFa7izY/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "CBHRJvXeYn8",
-          "title": "SEMI-FINAL DECIDER DRAMA! | Kyren Wilson vs Sam Craigie | BetVictor Northern Ireland Open 2026",
-          "publishedAt": "2026-10-24T16:41:32Z",
-          "duration": "14:16",
-          "seconds": 856,
-          "thumbnail": "https://i.ytimg.com/vi/CBHRJvXeYn8/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "cmNniFcDiZU",
-          "title": "A BEARD TO BE FEARED! | Mark Williams vs David Gilbert | BetVictor Northern Ireland Open 2026",
-          "publishedAt": "2026-10-23T22:12:05Z",
-          "duration": "13:01",
-          "seconds": 781,
-          "thumbnail": "https://i.ytimg.com/vi/cmNniFcDiZU/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "t08wMOtEPD8",
-          "title": "STUNNING BREAK! Kyren Wilson produces some magic vs Anthony McGill | Northern Ireland Open 2026",
-          "publishedAt": "2026-10-23T13:30:57Z",
-          "duration": "8:11",
-          "seconds": 491,
-          "thumbnail": "https://i.ytimg.com/vi/t08wMOtEPD8/maxresdefault.jpg",
           "source": "WST",
           "blockedRegions": [],
           "allowedRegions": []
