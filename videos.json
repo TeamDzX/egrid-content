@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-02T17:07:14Z",
+  "generatedAt": "2026-11-03T15:11:35Z",
   "channels": [
     {
       "channelID": "f1",
@@ -1048,6 +1048,17 @@
       "sourceURL": "https://www.youtube.com/channel/UCJcErqlzaBzFmAh2uIxeqxQ",
       "videos": [
         {
+          "id": "bCNnpkqhJVM",
+          "title": "MOPAR NHRA Las Vegas Nationals powered by Dodge Elimination Highlights",
+          "publishedAt": "2026-11-02T19:25:41Z",
+          "duration": "9:26",
+          "seconds": 566,
+          "thumbnail": "https://i.ytimg.com/vi/bCNnpkqhJVM/maxresdefault.jpg",
+          "source": "NHRA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "wXFbUEB6hv8",
           "title": "Lucas Oil Drag Racing Series Highlights from the Texas NHRA FallNationals",
           "publishedAt": "2026-10-22T20:37:32Z",
@@ -1164,17 +1175,6 @@
           "duration": "11:20",
           "seconds": 680,
           "thumbnail": "https://i.ytimg.com/vi/OwEJG87kFq4/maxresdefault.jpg",
-          "source": "NHRA",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "ihrtCtmGJis",
-          "title": "Mission #2Fast2Tasty Highlights from the Cornwell Quality Tools NHRA U.S. Nationals",
-          "publishedAt": "2026-09-06T02:07:13Z",
-          "duration": "5:52",
-          "seconds": 352,
-          "thumbnail": "https://i.ytimg.com/vi/ihrtCtmGJis/maxresdefault.jpg",
           "source": "NHRA",
           "blockedRegions": [],
           "allowedRegions": []
@@ -1528,6 +1528,50 @@
       "sourceURL": "https://www.youtube.com/channel/UC5lTEvtwu6SR3LMSmU9VZ2Q",
       "videos": [
         {
+          "id": "LfW6sW1qvNo",
+          "title": "SIMPLY CAPTIVATING! | Maguire HUNTING for Snookers vs Ding! | International Championship 2026",
+          "publishedAt": "2026-11-03T12:32:28Z",
+          "duration": "8:37",
+          "seconds": 517,
+          "thumbnail": "https://i.ytimg.com/vi/LfW6sW1qvNo/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "X2nWjARgUvQ",
+          "title": "DECIDER FOR THE QUARTERS! | Kyren Wilson vs Oliver Lines | International Championship 2026",
+          "publishedAt": "2026-11-03T10:37:24Z",
+          "duration": "17:20",
+          "seconds": 1040,
+          "thumbnail": "https://i.ytimg.com/vi/X2nWjARgUvQ/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "Keb40TzvhAg",
+          "title": "WORLD NO. 1 TESTED? Zhao Xintong vs Aaron Hill | International Championship 2026",
+          "publishedAt": "2026-11-03T09:48:21Z",
+          "duration": "19:52",
+          "seconds": 1192,
+          "thumbnail": "https://i.ytimg.com/vi/Keb40TzvhAg/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "e4k4xiEcd8I",
+          "title": "EVERY TWIST in the Craigie vs Xintong MEGA RESPOT DECIDER! | International Championship 2026",
+          "publishedAt": "2026-11-02T19:00:15Z",
+          "duration": "10:56",
+          "seconds": 656,
+          "thumbnail": "https://i.ytimg.com/vi/e4k4xiEcd8I/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "YiIEXfRqKcw",
           "title": "ASTONISHING ENDING TO DECIDER! Zhao Xintong vs Sam Craigie | International Championship 2026",
           "publishedAt": "2026-11-02T16:22:09Z",
@@ -1611,50 +1655,6 @@
           "duration": "8:16",
           "seconds": 496,
           "thumbnail": "https://i.ytimg.com/vi/yJKXmkkWxP0/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "-w5dtryJQFE",
-          "title": "LEGEND vs LEGEND! | Mark Selby takes on Jimmy White! | International Championship 2026",
-          "publishedAt": "2026-10-31T05:18:45Z",
-          "duration": "9:51",
-          "seconds": 591,
-          "thumbnail": "https://i.ytimg.com/vi/-w5dtryJQFE/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "udgR0fhE4pg",
-          "title": "EPIC DECIDER BATTLE! Ronnie O'Sullivan vs Jack Lisowski | International Championship 2025",
-          "publishedAt": "2026-10-28T13:00:22Z",
-          "duration": "24:09",
-          "seconds": 1449,
-          "thumbnail": "https://i.ytimg.com/vi/udgR0fhE4pg/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "uu8K4PxYu08",
-          "title": "CLINICAL FINAL! Kyren Wilson vs Jak Jones | 2026 BetVictor Northern Ireland Open",
-          "publishedAt": "2026-10-25T20:16:31Z",
-          "duration": "9:21",
-          "seconds": 561,
-          "thumbnail": "https://i.ytimg.com/vi/uu8K4PxYu08/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "ouEjJY6bBzY",
-          "title": "WHAT A START! | Kyren Wilson vs Jak Jones | BetVictor Northern Ireland Open 2026",
-          "publishedAt": "2026-10-25T13:44:54Z",
-          "duration": "11:27",
-          "seconds": 687,
-          "thumbnail": "https://i.ytimg.com/vi/ouEjJY6bBzY/maxresdefault.jpg",
           "source": "WST",
           "blockedRegions": [],
           "allowedRegions": []
