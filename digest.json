@@ -1,7 +1,74 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-03T03:30:05Z",
+  "generatedAt": "2026-11-04T00:40:23Z",
   "editions": [
+    {
+      "id": "2026-11-04-preview",
+      "kind": "preview",
+      "title": "This weekend on E-Grid",
+      "dateRange": "4–9 November",
+      "intro": "A busy weekend across the calendar, with five rounds spread over six days. The F1 title decider heads to Brazil, MotoGP runs at Lusail, and NASCAR's championship race takes Florida, alongside endurance and Clio Cup action.",
+      "publishedAt": "2026-11-04T00:40:23Z",
+      "expiresAt": "2026-11-09T00:40:23Z",
+      "items": [
+        {
+          "channelID": "wec",
+          "channelName": "World Endurance Championship",
+          "headline": "8 Hours of Bahrain",
+          "detail": "Bahrain International Circuit · Sat 7 Nov",
+          "body": "The World Endurance Championship reaches its eighth round this week, the 8 Hours of Bahrain. It runs at the Bahrain International Circuit on Sat 7 Nov.",
+          "date": "2026-11-07",
+          "round": 8
+        },
+        {
+          "channelID": "cliocup",
+          "channelName": "Clio Cup Series",
+          "headline": "Portimão",
+          "detail": "Autódromo Internacional do Algarve, Portugal · Sun 8 Nov",
+          "body": "The Clio Cup Series runs round 7 at the Autódromo Internacional do Algarve in Portugal. It takes place on Sun 8 Nov.",
+          "date": "2026-11-08",
+          "round": 7
+        },
+        {
+          "channelID": "f1",
+          "channelName": "Formula 1",
+          "headline": "Brazilian Grand Prix",
+          "detail": "Autódromo José Carlos Pace, Brazil · Sun 8 Nov",
+          "body": "The Brazilian Grand Prix runs on Sun 8 Nov at the Autódromo José Carlos Pace, with a 17:00 UTC start and qualifying the day before at 18:00 UTC. Andrea Kimi Antonelli leads Max Verstappen by 119 points in the championship.",
+          "date": "2026-11-08",
+          "round": 20,
+          "facts": [
+            "Qualifying Sat 7 Nov, 18:00 UTC",
+            "Andrea Kimi Antonelli leads the championship by 119 points from Max Verstappen"
+          ]
+        },
+        {
+          "channelID": "motogp",
+          "channelName": "MotoGP",
+          "headline": "Grand Prix of Qatar",
+          "detail": "Lusail International Circuit, Qatar · Sun 8 Nov",
+          "body": "The Grand Prix of Qatar runs on Sun 8 Nov at the Lusail International Circuit. Marc Marquez holds a 44-point lead over Jorge Martin in the championship.",
+          "date": "2026-11-08",
+          "round": 20,
+          "facts": [
+            "Marc Marquez leads the championship by 44 points from Jorge Martin"
+          ]
+        },
+        {
+          "channelID": "nascar",
+          "channelName": "NASCAR Cup Series",
+          "headline": "Championship Race",
+          "detail": "Homestead-Miami Speedway · Sun 8 Nov",
+          "body": "The NASCAR Cup Series championship race runs on Sun 8 Nov at Homestead-Miami Speedway, with a 20:00 UTC start. It covers 267 laps across 400.5 miles and is broadcast in the US on NBC and MRN.",
+          "date": "2026-11-08",
+          "round": 36,
+          "facts": [
+            "267 laps, 400.5 miles",
+            "US coverage: NBC (TV), MRN (radio)"
+          ]
+        }
+      ]
+    },
     {
       "id": "2026-11-03-recap",
       "kind": "recap",
@@ -340,63 +407,6 @@
           "headline": "Las Vegas Nationals",
           "detail": "Las Vegas Motor Speedway · Sun 1 Nov",
           "body": "The Las Vegas Nationals run on Sun 1 Nov at Las Vegas Motor Speedway, rounding out a busy weekend of drag racing.",
-          "date": "2026-11-01"
-        }
-      ]
-    },
-    {
-      "id": "2026-10-31-preview",
-      "kind": "preview",
-      "title": "This weekend on E-Grid",
-      "dateRange": "30 October – 2 November",
-      "intro": "Four rounds this week across Formula 1, MotoGP, NASCAR and NHRA drag racing. It builds toward the final stretch of each season, with titles on the line in Mexico and Malaysia. Here is what to watch from 30 October to 2 November.",
-      "publishedAt": "2026-10-31T01:38:48Z",
-      "expiresAt": "2026-11-05T01:38:48Z",
-      "items": [
-        {
-          "channelID": "f1",
-          "channelName": "Formula 1",
-          "headline": "Mexico City Grand Prix",
-          "detail": "Autódromo Hermanos Rodríguez, Mexico · Sun 1 Nov",
-          "body": "The Mexico City Grand Prix runs on Sun 1 Nov at the Autódromo Hermanos Rodríguez, with qualifying Saturday 31 Oct at 21:00 UTC and a race start of 20:00 UTC. Andrea Kimi Antonelli leads the championship by 123 points from George Russell.",
-          "date": "2026-11-01",
-          "round": 19,
-          "facts": [
-            "Qualifying Sat 31 Oct, 21:00 UTC",
-            "Andrea Kimi Antonelli leads the championship by 123 points from George Russell"
-          ]
-        },
-        {
-          "channelID": "motogp",
-          "channelName": "MotoGP",
-          "headline": "Grand Prix of Malaysia",
-          "detail": "Petronas Sepang International Circuit, Malaysia · Sun 1 Nov",
-          "body": "The Grand Prix of Malaysia runs on Sun 1 Nov at the Petronas Sepang International Circuit. Marc Marquez leads the championship by 10 points from Jorge Martin heading into this round.",
-          "date": "2026-11-01",
-          "round": 19,
-          "facts": [
-            "Marc Marquez leads the championship by 10 points from Jorge Martin"
-          ]
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "Xfinity 500",
-          "detail": "Martinsville Speedway · Sun 1 Nov",
-          "body": "The Xfinity 500 runs on Sun 1 Nov at Martinsville Speedway, starting at 19:00 UTC. It covers 500 laps over 263 miles, with US coverage on NBC and MRN radio.",
-          "date": "2026-11-01",
-          "round": 35,
-          "facts": [
-            "500 laps, 263 miles",
-            "US coverage: NBC (TV), MRN (radio)"
-          ]
-        },
-        {
-          "channelID": "nhra",
-          "channelName": "NHRA Drag Racing",
-          "headline": "Las Vegas Nationals",
-          "detail": "Las Vegas Motor Speedway · Sun 1 Nov",
-          "body": "The Las Vegas Nationals run on Sun 1 Nov at the Las Vegas Motor Speedway. It is one of four rounds this week, rounding out a busy weekend across Formula 1, MotoGP and NASCAR.",
           "date": "2026-11-01"
         }
       ]
