@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-03T15:11:35Z",
+  "generatedAt": "2026-11-04T15:27:50Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,28 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "TRhT8s_SlCo",
+          "title": "Talking Karting & Advice for Young Drivers | McLaren Racing",
+          "publishedAt": "2026-11-04T09:00:01Z",
+          "duration": "5:00",
+          "seconds": 300,
+          "thumbnail": "https://i.ytimg.com/vi/TRhT8s_SlCo/maxresdefault.jpg",
+          "source": "McLaren",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "WC1YF_O5jcE",
+          "title": "Explaining The Strategy Behind An F1 Win With Hannah Schmitz! | Fasterclass",
+          "publishedAt": "2026-11-03T18:30:08Z",
+          "duration": "9:08",
+          "seconds": 548,
+          "thumbnail": "https://i.ytimg.com/vi/WC1YF_O5jcE/maxresdefault.jpg",
+          "source": "Red Bull Racing",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "mLyPA6-vDkU",
           "title": "AMR Network: Portraits | Pepperstone",
@@ -404,28 +426,6 @@
           "seconds": 373,
           "thumbnail": "https://i.ytimg.com/vi/l9k2EOSG5Is/maxresdefault.jpg",
           "source": "Aston Martin Aramco F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "Mfccz2boJps",
-          "title": "AMR Network: Portraits | Cohere",
-          "publishedAt": "2026-07-17T16:57:33Z",
-          "duration": "6:59",
-          "seconds": 419,
-          "thumbnail": "https://i.ytimg.com/vi/Mfccz2boJps/maxresdefault.jpg",
-          "source": "Aston Martin Aramco F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "LNP6lgxiTTg",
-          "title": "Why Spa is Unlike Any Other Circuit in F1",
-          "publishedAt": "2026-07-16T14:00:31Z",
-          "duration": "6:01",
-          "seconds": 361,
-          "thumbnail": "https://i.ytimg.com/vi/LNP6lgxiTTg/maxresdefault.jpg",
-          "source": "FIA",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -1189,6 +1189,17 @@
       "sourceURL": null,
       "videos": [
         {
+          "id": "y0vLa7siYL4",
+          "title": "Marc Márquez and Pecco Bagnaia | If you don’t attack… you get attacked - #MalaysianGP",
+          "publishedAt": "2026-11-04T11:42:11Z",
+          "duration": "15:15",
+          "seconds": 915,
+          "thumbnail": "https://i.ytimg.com/vi/y0vLa7siYL4/maxresdefault.jpg",
+          "source": "Ducati",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "EQO2BuvPrHQ",
           "title": "Red Bull KTM MotoGP™ 2026 Factory Floor Episode 18 #AUSTRALIANGP | KTM",
           "publishedAt": "2026-10-28T12:00:20Z",
@@ -1475,17 +1486,6 @@
           "allowedRegions": []
         },
         {
-          "id": "lwpiCmdncNI",
-          "title": "#CzechGP MotoGP - Best Weekend Yet - Sashimi Behind The Scenes",
-          "publishedAt": "2026-06-26T09:48:14Z",
-          "duration": "19:11",
-          "seconds": 1151,
-          "thumbnail": "https://i.ytimg.com/vi/lwpiCmdncNI/maxresdefault.jpg",
-          "source": "HondaRacingHRC",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "t0PcPZJve2E",
           "title": "ITA - Aprilia Racing | 2026 #MotoGP Team Presentation Live Show",
           "publishedAt": "2026-01-19T10:43:18Z",
@@ -1527,6 +1527,61 @@
       "source": "World Snooker Tour",
       "sourceURL": "https://www.youtube.com/channel/UC5lTEvtwu6SR3LMSmU9VZ2Q",
       "videos": [
+        {
+          "id": "DUnoLGWA6vM",
+          "title": "SNOOKER FROM ANOTHER PLANET! | Chang Bingyu vs Zhao Xintong | International Championship 2026",
+          "publishedAt": "2026-11-04T14:59:51Z",
+          "duration": "19:54",
+          "seconds": 1194,
+          "thumbnail": "https://i.ytimg.com/vi/DUnoLGWA6vM/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "WJzoWkz_jYI",
+          "title": "SPECIAL BREAK BY LEGEND | Ding Junhui vs Kyren Wilson | International Championship 2026",
+          "publishedAt": "2026-11-04T08:15:01Z",
+          "duration": "10:36",
+          "seconds": 636,
+          "thumbnail": "https://i.ytimg.com/vi/WJzoWkz_jYI/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "Mi_h68sStVw",
+          "title": "\"Pinks For Blacks\" Century | Hossein Vafaei vs Fan Zhengyi | International Championship 2026",
+          "publishedAt": "2026-11-04T07:42:07Z",
+          "duration": "8:07",
+          "seconds": 487,
+          "thumbnail": "https://i.ytimg.com/vi/Mi_h68sStVw/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "sJtP_vk_70I",
+          "title": "THIS MEANT EVERYTHING! | Ding Junhui vs Stephen Maguire | International Championship 2026",
+          "publishedAt": "2026-11-03T16:23:52Z",
+          "duration": "14:21",
+          "seconds": 861,
+          "thumbnail": "https://i.ytimg.com/vi/sJtP_vk_70I/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "Fl-SSpbMqO4",
+          "title": "LEGENDS DECIDER CLASH! | Mark Williams vs John Higgins | International Championship 2026",
+          "publishedAt": "2026-11-03T15:47:26Z",
+          "duration": "8:59",
+          "seconds": 539,
+          "thumbnail": "https://i.ytimg.com/vi/Fl-SSpbMqO4/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "LfW6sW1qvNo",
           "title": "SIMPLY CAPTIVATING! | Maguire HUNTING for Snookers vs Ding! | International Championship 2026",
@@ -1600,61 +1655,6 @@
           "duration": "11:41",
           "seconds": 701,
           "thumbnail": "https://i.ytimg.com/vi/Z3H4ULVeKcg/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "tgv8JZWkHhE",
-          "title": "STUNNING MAXIMUM BREAK! Thepchaiya Un-Nooh 147 vs Mark Williams | International Championship 2026",
-          "publishedAt": "2026-11-02T02:18:19Z",
-          "duration": "8:01",
-          "seconds": 481,
-          "thumbnail": "https://i.ytimg.com/vi/tgv8JZWkHhE/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "V3_C9YgHTHY",
-          "title": "SCORING EXHIBITION! Wu Yize vs Robbie Williams | International Championship 2026",
-          "publishedAt": "2026-11-01T13:43:23Z",
-          "duration": "8:53",
-          "seconds": 533,
-          "thumbnail": "https://i.ytimg.com/vi/V3_C9YgHTHY/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "Ir6hfhvfVHY",
-          "title": "TWISTY DECIDER! Judd Trump vs Fan Zhengyi | International Championship 2026",
-          "publishedAt": "2026-11-01T10:39:07Z",
-          "duration": "15:29",
-          "seconds": 929,
-          "thumbnail": "https://i.ytimg.com/vi/Ir6hfhvfVHY/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "FQZmOrrj_pw",
-          "title": "HIGHEST BREAK SO FAR! | Judd Trump vs Liu Wenwei | International Championship 2026",
-          "publishedAt": "2026-10-31T16:23:06Z",
-          "duration": "10:42",
-          "seconds": 642,
-          "thumbnail": "https://i.ytimg.com/vi/FQZmOrrj_pw/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "yJKXmkkWxP0",
-          "title": "OOZING QUALITY | Wu Yize vs Hammad Miah | International Championship 2026",
-          "publishedAt": "2026-10-31T12:28:02Z",
-          "duration": "8:16",
-          "seconds": 496,
-          "thumbnail": "https://i.ytimg.com/vi/yJKXmkkWxP0/maxresdefault.jpg",
           "source": "WST",
           "blockedRegions": [],
           "allowedRegions": []
