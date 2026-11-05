@@ -1,7 +1,74 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-04T00:40:23Z",
+  "generatedAt": "2026-11-05T03:32:38Z",
   "editions": [
+    {
+      "id": "2026-11-05-preview",
+      "kind": "preview",
+      "title": "This weekend on E-Grid",
+      "dateRange": "5–9 November",
+      "intro": "This week brings five championship rounds across the calendar: the World Endurance Championship's 8 Hours of Bahrain, Clio Cup Series at Portimão, then Formula 1's Brazilian Grand Prix, MotoGP's Qatar round and NASCAR's title-deciding race.",
+      "publishedAt": "2026-11-05T03:32:38Z",
+      "expiresAt": "2026-11-10T03:32:38Z",
+      "items": [
+        {
+          "channelID": "wec",
+          "channelName": "World Endurance Championship",
+          "headline": "8 Hours of Bahrain",
+          "detail": "Bahrain International Circuit · Sat 7 Nov",
+          "body": "The World Endurance Championship's eighth round is the 8 Hours of Bahrain at the Bahrain International Circuit on Saturday 7 November.",
+          "date": "2026-11-07",
+          "round": 8
+        },
+        {
+          "channelID": "cliocup",
+          "channelName": "Clio Cup Series",
+          "headline": "Portimão",
+          "detail": "Autódromo Internacional do Algarve, Portugal · Sun 8 Nov",
+          "body": "Clio Cup Series heads to Portugal for round seven at the Autódromo Internacional do Algarve in Portimão on Sunday 8 November.",
+          "date": "2026-11-08",
+          "round": 7
+        },
+        {
+          "channelID": "f1",
+          "channelName": "Formula 1",
+          "headline": "Brazilian Grand Prix",
+          "detail": "Autódromo José Carlos Pace, Brazil · Sun 8 Nov",
+          "body": "Formula 1's Brazilian Grand Prix runs at the Autódromo José Carlos Pace on Sunday 8 November, starting at 17:00 UTC after qualifying that Saturday at 18:00 UTC. Andrea Kimi Antonelli currently leads the championship by 119 points over Max Verstappen.",
+          "date": "2026-11-08",
+          "round": 20,
+          "facts": [
+            "Qualifying Sat 7 Nov, 18:00 UTC",
+            "Andrea Kimi Antonelli leads the championship by 119 points from Max Verstappen"
+          ]
+        },
+        {
+          "channelID": "motogp",
+          "channelName": "MotoGP",
+          "headline": "Grand Prix of Qatar",
+          "detail": "Lusail International Circuit, Qatar · Sun 8 Nov",
+          "body": "MotoGP's Grand Prix of Qatar runs at the Lusail International Circuit on Sunday 8 November. Marc Marquez leads the championship by 44 points over Jorge Martin heading into the round.",
+          "date": "2026-11-08",
+          "round": 20,
+          "facts": [
+            "Marc Marquez leads the championship by 44 points from Jorge Martin"
+          ]
+        },
+        {
+          "channelID": "nascar",
+          "channelName": "NASCAR Cup Series",
+          "headline": "Championship Race",
+          "detail": "Homestead-Miami Speedway · Sun 8 Nov",
+          "body": "The NASCAR Cup Series title race runs at Homestead-Miami Speedway on Sunday 8 November, starting at 20:00 UTC. Over 267 laps covering 400.5 miles, it will be shown on NBC in the United States with radio coverage from MRN.",
+          "date": "2026-11-08",
+          "round": 36,
+          "facts": [
+            "267 laps, 400.5 miles",
+            "US coverage: NBC (TV), MRN (radio)"
+          ]
+        }
+      ]
+    },
     {
       "id": "2026-11-04-preview",
       "kind": "preview",
@@ -307,106 +374,6 @@
           "headline": "Las Vegas Nationals",
           "detail": "Las Vegas Motor Speedway · Sun 1 Nov",
           "body": "The Las Vegas Nationals run at Las Vegas Motor Speedway on Sunday 1 November, bringing drag racing down the quarter mile. Across the sport's top classes, drivers line up for a weekend of straight-line speed.",
-          "date": "2026-11-01"
-        }
-      ]
-    },
-    {
-      "id": "2026-11-01-preview",
-      "kind": "preview",
-      "title": "Results from the weekend",
-      "dateRange": "30 October – 2 November",
-      "intro": "This week already has two winners crowned: Marc Marquez in Malaysia and William Byron at Martinsville, while a Formula One title showdown in Mexico City and a drag racing night in Las Vegas still await.",
-      "publishedAt": "2026-11-01T22:54:01Z",
-      "expiresAt": "2026-11-06T22:54:01Z",
-      "items": [
-        {
-          "channelID": "f1",
-          "channelName": "Formula 1",
-          "headline": "Mexico City Grand Prix",
-          "detail": "Autódromo Hermanos Rodríguez, Mexico · Sun 1 Nov",
-          "body": "The season's final round runs on Sun 1 Nov, with qualifying on Sat 31 Oct at 21:00 UTC and the race itself starting at 20:00 UTC. Andrea Kimi Antonelli heads into Mexico City leading the championship by 123 points from George Russell.",
-          "date": "2026-11-01",
-          "round": 19,
-          "facts": [
-            "Qualifying Sat 31 Oct, 21:00 UTC",
-            "Andrea Kimi Antonelli leads the championship by 123 points from George Russell"
-          ]
-        },
-        {
-          "channelID": "motogp",
-          "channelName": "MotoGP",
-          "headline": "Grand Prix of Malaysia",
-          "detail": "Petronas Sepang International Circuit, Malaysia · Sun 1 Nov",
-          "body": "Marc Marquez took victory by 4.2 seconds over Pedro Acosta, who also won Saturday's sprint and set a new lap record of 1:59.261. Alex Marquez completed the podium. Conditions were dry at Sepang with 36°C air and a 55°C track. Marquez's championship lead over Jorge Martin widened from 10 to 44 points, while Johann Zarco, Diogo Moreira, Joan Mir and Augusto Fernandez all failed to finish.",
-          "date": "2026-11-01",
-          "round": 19,
-          "facts": [
-            "Marc Marquez won by 4.2 seconds from Pedro Acosta",
-            "Did not finish: Johann Zarco, Diogo Moreira, Joan Mir and Augusto Fernandez",
-            "Pedro Acosta set a new lap record, 1:59.261",
-            "Dry, 36°C air and 55°C track",
-            "Saturday's sprint was won by Pedro Acosta",
-            "Marc Marquez's championship lead over Jorge Martin went from 10 to 44 points this weekend"
-          ],
-          "podium": [
-            {
-              "position": 1,
-              "name": "Marc Marquez",
-              "team": "Ducati Lenovo Team"
-            },
-            {
-              "position": 2,
-              "name": "Pedro Acosta",
-              "team": "Red Bull KTM Factory Racing"
-            },
-            {
-              "position": 3,
-              "name": "Alex Marquez",
-              "team": "BK8 Gresini Racing MotoGP"
-            }
-          ]
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "Xfinity 500",
-          "detail": "Martinsville Speedway · Sun 1 Nov",
-          "body": "William Byron won from eighth on the grid, leading 362 of 500 laps to take a 2.049-second margin over Chase Elliott, with Ty Gibbs third. His win lifted him from 11th to 9th in the Chase standings. Kyle Larson's lead over Christopher Bell narrowed from 73 to 67 points with one race remaining. Six cautions brought out 47 laps of caution racing, and Austin Cindric and Josh Bilicki failed to finish.",
-          "date": "2026-11-01",
-          "round": 35,
-          "facts": [
-            "William Byron won from 8th on the grid and led 362 of 500 laps",
-            "William Byron swept stages 1 and 2",
-            "Margin of victory: 2.049 s",
-            "Kyle Larson's Chase lead over Christopher Bell went from 73 to 67 points this weekend, with 1 race to go",
-            "The win lifted William Byron from 11th to 9th in the Chase",
-            "500 laps, 11 lead changes among 6 drivers"
-          ],
-          "podium": [
-            {
-              "position": 1,
-              "name": "William Byron",
-              "team": "Hendrick Motorsports"
-            },
-            {
-              "position": 2,
-              "name": "Chase Elliott",
-              "team": "Hendrick Motorsports"
-            },
-            {
-              "position": 3,
-              "name": "Ty Gibbs",
-              "team": "Joe Gibbs Racing"
-            }
-          ]
-        },
-        {
-          "channelID": "nhra",
-          "channelName": "NHRA Drag Racing",
-          "headline": "Las Vegas Nationals",
-          "detail": "Las Vegas Motor Speedway · Sun 1 Nov",
-          "body": "The Las Vegas Nationals run on Sun 1 Nov at Las Vegas Motor Speedway, rounding out a busy weekend of drag racing.",
           "date": "2026-11-01"
         }
       ]
