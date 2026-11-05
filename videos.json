@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-04T15:27:50Z",
+  "generatedAt": "2026-11-05T15:30:10Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,17 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "n5LFZ7Kxbs4",
+          "title": "Kimi: Two Years That Changed Everything, Nu Silver Arrows Radio Show, Episode 11",
+          "publishedAt": "2026-11-05T10:30:01Z",
+          "duration": "29:40",
+          "seconds": 1780,
+          "thumbnail": "https://i.ytimg.com/vi/n5LFZ7Kxbs4/maxresdefault.jpg",
+          "source": "Mercedes-AMG F1",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "TRhT8s_SlCo",
           "title": "Talking Karting & Advice for Young Drivers | McLaren Racing",
@@ -195,17 +206,6 @@
           "seconds": 628,
           "thumbnail": "https://i.ytimg.com/vi/9OnSLxsR-TA/maxresdefault.jpg",
           "source": "Visa Cash App RB F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "8PbxQvKZvPY",
-          "title": "Giving You A Totally Real POV of Life Trackside! | Behind The Charge",
-          "publishedAt": "2026-10-17T16:00:08Z",
-          "duration": "8:26",
-          "seconds": 506,
-          "thumbnail": "https://i.ytimg.com/vi/8PbxQvKZvPY/maxresdefault.jpg",
-          "source": "Red Bull Racing",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -1189,6 +1189,17 @@
       "sourceURL": null,
       "videos": [
         {
+          "id": "dIDr5CVbq7M",
+          "title": "Red Bull KTM MotoGP™ 2026 Factory Floor Episode 19 #MALAYSIANGP | KTM",
+          "publishedAt": "2026-11-04T17:00:24Z",
+          "duration": "12:38",
+          "seconds": 758,
+          "thumbnail": "https://i.ytimg.com/vi/dIDr5CVbq7M/maxresdefault.jpg",
+          "source": "KTM",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "y0vLa7siYL4",
           "title": "Marc Márquez and Pecco Bagnaia | If you don’t attack… you get attacked - #MalaysianGP",
           "publishedAt": "2026-11-04T11:42:11Z",
@@ -1475,17 +1486,6 @@
           "allowedRegions": []
         },
         {
-          "id": "ZErjPDsC0VY",
-          "title": "Red Bull KTM MotoGP™ 2026 Factory Floor Episode 9 #CZECHGP | KTM",
-          "publishedAt": "2026-07-03T09:54:25Z",
-          "duration": "11:24",
-          "seconds": 684,
-          "thumbnail": "https://i.ytimg.com/vi/ZErjPDsC0VY/maxresdefault.jpg",
-          "source": "KTM",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "t0PcPZJve2E",
           "title": "ITA - Aprilia Racing | 2026 #MotoGP Team Presentation Live Show",
           "publishedAt": "2026-01-19T10:43:18Z",
@@ -1527,6 +1527,28 @@
       "source": "World Snooker Tour",
       "sourceURL": "https://www.youtube.com/channel/UC5lTEvtwu6SR3LMSmU9VZ2Q",
       "videos": [
+        {
+          "id": "_ZStL-BKfxQ",
+          "title": "FINAL BOUND! Kyren Wilson vs Fan Zhengyi | International Championship 2026",
+          "publishedAt": "2026-11-05T14:11:45Z",
+          "duration": "17:15",
+          "seconds": 1035,
+          "thumbnail": "https://i.ytimg.com/vi/_ZStL-BKfxQ/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "p-wL5CYEUoY",
+          "title": "CLOSING OUT IN STYLE | Kyren Wilson vs Fan Zhengyi | International Championship 2026",
+          "publishedAt": "2026-11-05T09:22:16Z",
+          "duration": "8:20",
+          "seconds": 500,
+          "thumbnail": "https://i.ytimg.com/vi/p-wL5CYEUoY/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "DUnoLGWA6vM",
           "title": "SNOOKER FROM ANOTHER PLANET! | Chang Bingyu vs Zhao Xintong | International Championship 2026",
@@ -1633,28 +1655,6 @@
           "duration": "8:33",
           "seconds": 513,
           "thumbnail": "https://i.ytimg.com/vi/YiIEXfRqKcw/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "HY45tuQ6JoQ",
-          "title": "BRILLIANT DECIDER BATTLE! | Wu Yize vs Stephen Maguire | International Championship 2026",
-          "publishedAt": "2026-11-02T15:25:53Z",
-          "duration": "8:33",
-          "seconds": 513,
-          "thumbnail": "https://i.ytimg.com/vi/HY45tuQ6JoQ/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "Z3H4ULVeKcg",
-          "title": "SAFETY KING VS POTTING PRINCE | Mark Selby vs Hossein Vafaei | International Championship 2026",
-          "publishedAt": "2026-11-02T07:03:56Z",
-          "duration": "11:41",
-          "seconds": 701,
-          "thumbnail": "https://i.ytimg.com/vi/Z3H4ULVeKcg/maxresdefault.jpg",
           "source": "WST",
           "blockedRegions": [],
           "allowedRegions": []
