@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-05T15:30:10Z",
+  "generatedAt": "2026-11-06T15:05:53Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,28 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "DOIVzEjKByg",
+          "title": "James Vowles Answers Your Mexico City Grand Prix Fan Questions!",
+          "publishedAt": "2026-11-06T13:00:03Z",
+          "duration": "6:22",
+          "seconds": 382,
+          "thumbnail": "https://i.ytimg.com/vi/DOIVzEjKByg/maxresdefault.jpg",
+          "source": "Atlassian Williams F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "NSSTmFBSYwo",
+          "title": "Which F1 Driver Is Better At Baseball?",
+          "publishedAt": "2026-11-06T10:00:12Z",
+          "duration": "7:50",
+          "seconds": 470,
+          "thumbnail": "https://i.ytimg.com/vi/NSSTmFBSYwo/maxresdefault.jpg",
+          "source": "Visa Cash App RB F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "n5LFZ7Kxbs4",
           "title": "Kimi: Two Years That Changed Everything, Nu Silver Arrows Radio Show, Episode 11",
@@ -403,28 +425,6 @@
           "duration": "9:29",
           "seconds": 569,
           "thumbnail": "https://i.ytimg.com/vi/vMbLJIHkat4/maxresdefault.jpg",
-          "source": "Aston Martin Aramco F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "ooSQDiKPP-E",
-          "title": "AMR Network: Portraits | Xerox",
-          "publishedAt": "2026-07-25T11:47:59Z",
-          "duration": "5:11",
-          "seconds": 311,
-          "thumbnail": "https://i.ytimg.com/vi/ooSQDiKPP-E/maxresdefault.jpg",
-          "source": "Aston Martin Aramco F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "l9k2EOSG5Is",
-          "title": "AMR Network: Portraits | ServiceNow",
-          "publishedAt": "2026-07-21T17:04:28Z",
-          "duration": "6:13",
-          "seconds": 373,
-          "thumbnail": "https://i.ytimg.com/vi/l9k2EOSG5Is/maxresdefault.jpg",
           "source": "Aston Martin Aramco F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
@@ -1048,6 +1048,17 @@
       "sourceURL": "https://www.youtube.com/channel/UCJcErqlzaBzFmAh2uIxeqxQ",
       "videos": [
         {
+          "id": "4t1ZGtu0fDY",
+          "title": "Lucas Oil Drag Racing Series Highlights from the MOPAR NHRA Las Vegas Nationals powered by Dodge",
+          "publishedAt": "2026-11-05T20:00:38Z",
+          "duration": "9:57",
+          "seconds": 597,
+          "thumbnail": "https://i.ytimg.com/vi/4t1ZGtu0fDY/maxresdefault.jpg",
+          "source": "NHRA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "bCNnpkqhJVM",
           "title": "MOPAR NHRA Las Vegas Nationals powered by Dodge Elimination Highlights",
           "publishedAt": "2026-11-02T19:25:41Z",
@@ -1164,17 +1175,6 @@
           "duration": "9:51",
           "seconds": 591,
           "thumbnail": "https://i.ytimg.com/vi/RR5IdoPDAKY/maxresdefault.jpg",
-          "source": "NHRA",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "OwEJG87kFq4",
-          "title": "Cornwell Quality Tools NHRA U.S. Nationals Elimination Highlights",
-          "publishedAt": "2026-09-08T17:27:08Z",
-          "duration": "11:20",
-          "seconds": 680,
-          "thumbnail": "https://i.ytimg.com/vi/OwEJG87kFq4/maxresdefault.jpg",
           "source": "NHRA",
           "blockedRegions": [],
           "allowedRegions": []
@@ -1528,6 +1528,28 @@
       "sourceURL": "https://www.youtube.com/channel/UC5lTEvtwu6SR3LMSmU9VZ2Q",
       "videos": [
         {
+          "id": "DmiIWR0RcGc",
+          "title": "STUNNING PERFORMANCE! John Higgins vs Chang Bingyu | International Championship 2026",
+          "publishedAt": "2026-11-06T12:42:30Z",
+          "duration": "15:52",
+          "seconds": 952,
+          "thumbnail": "https://i.ytimg.com/vi/DmiIWR0RcGc/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "QbSS2F6B1y4",
+          "title": "LIFE IN THE OLD DOG YET! | John Higgins vs Chang Bingyu | International Championship 2026",
+          "publishedAt": "2026-11-06T09:25:35Z",
+          "duration": "13:43",
+          "seconds": 823,
+          "thumbnail": "https://i.ytimg.com/vi/QbSS2F6B1y4/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "_ZStL-BKfxQ",
           "title": "FINAL BOUND! Kyren Wilson vs Fan Zhengyi | International Championship 2026",
           "publishedAt": "2026-11-05T14:11:45Z",
@@ -1633,28 +1655,6 @@
           "duration": "19:52",
           "seconds": 1192,
           "thumbnail": "https://i.ytimg.com/vi/Keb40TzvhAg/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "e4k4xiEcd8I",
-          "title": "EVERY TWIST in the Craigie vs Xintong MEGA RESPOT DECIDER! | International Championship 2026",
-          "publishedAt": "2026-11-02T19:00:15Z",
-          "duration": "10:56",
-          "seconds": 656,
-          "thumbnail": "https://i.ytimg.com/vi/e4k4xiEcd8I/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "YiIEXfRqKcw",
-          "title": "ASTONISHING ENDING TO DECIDER! Zhao Xintong vs Sam Craigie | International Championship 2026",
-          "publishedAt": "2026-11-02T16:22:09Z",
-          "duration": "8:33",
-          "seconds": 513,
-          "thumbnail": "https://i.ytimg.com/vi/YiIEXfRqKcw/maxresdefault.jpg",
           "source": "WST",
           "blockedRegions": [],
           "allowedRegions": []
