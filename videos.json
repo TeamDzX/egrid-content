@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-06T15:05:53Z",
+  "generatedAt": "2026-11-07T14:04:42Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,17 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "3ITdnxRcJXk",
+          "title": "Carlos & Alex's Advice For You Was NOT What We Expected!",
+          "publishedAt": "2026-11-06T18:00:00Z",
+          "duration": "9:59",
+          "seconds": 599,
+          "thumbnail": "https://i.ytimg.com/vi/3ITdnxRcJXk/maxresdefault.jpg",
+          "source": "Atlassian Williams F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "DOIVzEjKByg",
           "title": "James Vowles Answers Your Mexico City Grand Prix Fan Questions!",
@@ -163,17 +174,6 @@
           "allowedRegions": []
         },
         {
-          "id": "Czr14yTm0_M",
-          "title": "Allwyn x McLaren Racing: Live in Athens | McLaren Racing",
-          "publishedAt": "2026-10-27T10:38:02Z",
-          "duration": "6:32",
-          "seconds": 392,
-          "thumbnail": "https://i.ytimg.com/vi/Czr14yTm0_M/maxresdefault.jpg",
-          "source": "McLaren",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "KADqapQY_HE",
           "title": "Reaction to Max Verstappen's PODIUM in Austin! | Talking Bull",
           "publishedAt": "2026-10-26T16:30:01Z",
@@ -196,17 +196,6 @@
             "BY",
             "RU"
           ],
-          "allowedRegions": []
-        },
-        {
-          "id": "-R5hqX_lWvU",
-          "title": "F1 Drivers Try Cooking Texas BBQ for the First Time!",
-          "publishedAt": "2026-10-24T17:00:37Z",
-          "duration": "23:20",
-          "seconds": 1400,
-          "thumbnail": "https://i.ytimg.com/vi/-R5hqX_lWvU/maxresdefault.jpg",
-          "source": "Atlassian Williams F1 Team",
-          "blockedRegions": [],
           "allowedRegions": []
         },
         {
@@ -425,6 +414,17 @@
           "duration": "9:29",
           "seconds": 569,
           "thumbnail": "https://i.ytimg.com/vi/vMbLJIHkat4/maxresdefault.jpg",
+          "source": "Aston Martin Aramco F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "ooSQDiKPP-E",
+          "title": "AMR Network: Portraits | Xerox",
+          "publishedAt": "2026-07-25T11:47:59Z",
+          "duration": "5:11",
+          "seconds": 311,
+          "thumbnail": "https://i.ytimg.com/vi/ooSQDiKPP-E/maxresdefault.jpg",
           "source": "Aston Martin Aramco F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
@@ -724,28 +724,6 @@
           "source": "FIA World Endurance Championship",
           "blockedRegions": [],
           "allowedRegions": []
-        },
-        {
-          "id": "cE0Vw-ZQpM4",
-          "title": "Extended Highlights | 24 Hours of Le Mans 2026 | FIA WEC",
-          "publishedAt": "2026-06-15T16:00:25Z",
-          "duration": "1:02:11",
-          "seconds": 3731,
-          "thumbnail": "https://i.ytimg.com/vi/cE0Vw-ZQpM4/maxresdefault.jpg",
-          "source": "FIA World Endurance Championship",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "YW8xcqwmrEI",
-          "title": "Race Highlights | 24 Hours of Le Mans 2026 | FIA WEC",
-          "publishedAt": "2026-06-14T17:10:04Z",
-          "duration": "28:06",
-          "seconds": 1686,
-          "thumbnail": "https://i.ytimg.com/vi/YW8xcqwmrEI/maxresdefault.jpg",
-          "source": "FIA World Endurance Championship",
-          "blockedRegions": [],
-          "allowedRegions": []
         }
       ],
       "externalVideos": []
@@ -970,17 +948,6 @@
           "duration": "27:29",
           "seconds": 1649,
           "thumbnail": "https://i.ytimg.com/vi/1iatULgMcRU/maxresdefault.jpg",
-          "source": "NASCAR",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "W1u734oeW1o",
-          "title": "NASCAR Cup Series Highlights | 2026 World Wide Technology Raceway",
-          "publishedAt": "2026-09-13T23:54:08Z",
-          "duration": "32:55",
-          "seconds": 1975,
-          "thumbnail": "https://i.ytimg.com/vi/W1u734oeW1o/maxresdefault.jpg",
           "source": "NASCAR",
           "blockedRegions": [],
           "allowedRegions": []
@@ -1528,6 +1495,17 @@
       "sourceURL": "https://www.youtube.com/channel/UC5lTEvtwu6SR3LMSmU9VZ2Q",
       "videos": [
         {
+          "id": "WlynCyQbdy4",
+          "title": "GRAND MASTER AT WORK! | John Higgins vs Kyren Wilson | International Championship 2026",
+          "publishedAt": "2026-11-07T08:34:23Z",
+          "duration": "11:55",
+          "seconds": 715,
+          "thumbnail": "https://i.ytimg.com/vi/WlynCyQbdy4/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "DmiIWR0RcGc",
           "title": "STUNNING PERFORMANCE! John Higgins vs Chang Bingyu | International Championship 2026",
           "publishedAt": "2026-11-06T12:42:30Z",
@@ -1644,17 +1622,6 @@
           "duration": "17:20",
           "seconds": 1040,
           "thumbnail": "https://i.ytimg.com/vi/X2nWjARgUvQ/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "Keb40TzvhAg",
-          "title": "WORLD NO. 1 TESTED? Zhao Xintong vs Aaron Hill | International Championship 2026",
-          "publishedAt": "2026-11-03T09:48:21Z",
-          "duration": "19:52",
-          "seconds": 1192,
-          "thumbnail": "https://i.ytimg.com/vi/Keb40TzvhAg/maxresdefault.jpg",
           "source": "WST",
           "blockedRegions": [],
           "allowedRegions": []
@@ -2593,6 +2560,17 @@
       "name": "Kyle Busch",
       "videos": [
         {
+          "id": "wqVsgAPxT64",
+          "title": "LEGENDary Road Course Debut in Vegas",
+          "publishedAt": "2026-11-06T22:00:06Z",
+          "duration": "20:24",
+          "seconds": 1224,
+          "thumbnail": "https://i.ytimg.com/vi/wqVsgAPxT64/maxresdefault.jpg",
+          "source": "Kyle Busch",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "4uq7dM9uBc0",
           "title": "MY FIRST BURNOUT IN MY DAD's CUP CAR | Brex Ep. 63",
           "publishedAt": "2026-10-10T13:00:08Z",
@@ -2643,17 +2621,6 @@
           "duration": "26:40",
           "seconds": 1600,
           "thumbnail": "https://i.ytimg.com/vi/zo_l98me2vo/maxresdefault.jpg",
-          "source": "Kyle Busch",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "dqKJGy5AKTs",
-          "title": "Kyle Busch Invitational at Bowman Gray | Brex Ep. 58",
-          "publishedAt": "2026-08-26T21:00:06Z",
-          "duration": "11:37",
-          "seconds": 697,
-          "thumbnail": "https://i.ytimg.com/vi/dqKJGy5AKTs/maxresdefault.jpg",
           "source": "Kyle Busch",
           "blockedRegions": [],
           "allowedRegions": []
