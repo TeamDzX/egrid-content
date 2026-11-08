@@ -1,22 +1,22 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-08T15:20:55Z",
+  "generatedAt": "2026-11-08T19:46:41Z",
   "editions": [
     {
       "id": "2026-11-08-preview",
       "kind": "preview",
       "title": "Results from the weekend",
       "dateRange": "6–9 November",
-      "intro": "This week runs from endurance racing through Clio Cup and a set of season finales across Formula 1, MotoGP and NASCAR. The first round has already been completed, while the F1 and MotoGP title fights reach their decisive moments this weekend.",
-      "publishedAt": "2026-11-08T15:20:55Z",
-      "expiresAt": "2026-11-13T15:20:55Z",
+      "intro": "Results are in from Formula 1 and MotoGP. World Endurance Championship has run. Still to come: Clio Cup Series and NASCAR Cup Series.",
+      "publishedAt": "2026-11-08T19:46:41Z",
+      "expiresAt": "2026-11-13T19:46:41Z",
       "items": [
         {
           "channelID": "wec",
           "channelName": "World Endurance Championship",
           "headline": "8 Hours of Bahrain",
           "detail": "Bahrain International Circuit · Sat 7 Nov",
-          "body": "The 8 Hours of Bahrain ran at the Bahrain International Circuit as part of the World Endurance Championship. Over the full distance, endurance and reliability were put to the test across a weekend of racing.",
+          "body": "Round 8 of the World Endurance Championship season ran at Bahrain International Circuit. Results for this series are not in E-Grid's feeds yet.",
           "date": "2026-11-07",
           "round": 8
         },
@@ -25,7 +25,7 @@
           "channelName": "Clio Cup Series",
           "headline": "Portimão",
           "detail": "Autódromo Internacional do Algarve, Portugal · Sun 8 Nov",
-          "body": "The Clio Cup Series heads to Portugal for round 7 at the Autódromo Internacional do Algarve in Portimão on Sun 8 Nov.",
+          "body": "Round 7 of the Clio Cup Series season.",
           "date": "2026-11-08",
           "round": 7
         },
@@ -34,12 +34,32 @@
           "channelName": "Formula 1",
           "headline": "Brazilian Grand Prix",
           "detail": "Autódromo José Carlos Pace, Brazil · Sun 8 Nov",
-          "body": "The Brazilian Grand Prix runs on Sun 8 Nov at the Autódromo José Carlos Pace in Brazil, starting at 17:00 UTC with qualifying earlier that day. Andrea Kimi Antonelli currently leads the championship by 119 points from Max Verstappen.",
+          "body": "Round 20 of the Formula 1 season. Won by Lando Norris (McLaren) from Max Verstappen and Isack Hadjar.",
           "date": "2026-11-08",
           "round": 20,
           "facts": [
-            "Qualifying Sat 7 Nov, 18:00 UTC",
-            "Andrea Kimi Antonelli leads the championship by 119 points from Max Verstappen"
+            "Lando Norris won from the pit lane, 14.6 seconds ahead of Max Verstappen",
+            "Did not finish: Lance Stroll and Valtteri Bottas (did not start)",
+            "Andrea Kimi Antonelli's championship lead over Max Verstappen went from 119 to 111 points over the weekend",
+            "Rain fell during the race",
+            "Norris's tyres: intermediate then soft then soft then intermediate, 3 stops"
+          ],
+          "podium": [
+            {
+              "position": 1,
+              "name": "Lando Norris",
+              "team": "McLaren"
+            },
+            {
+              "position": 2,
+              "name": "Max Verstappen",
+              "team": "Red Bull"
+            },
+            {
+              "position": 3,
+              "name": "Isack Hadjar",
+              "team": "Red Bull"
+            }
           ]
         },
         {
@@ -47,11 +67,33 @@
           "channelName": "MotoGP",
           "headline": "Grand Prix of Qatar",
           "detail": "Lusail International Circuit, Qatar · Sun 8 Nov",
-          "body": "The Grand Prix of Qatar runs on Sun 8 Nov at the Lusail International Circuit in Qatar. Marc Marquez currently leads the championship by 49 points from Jorge Martin heading into the round.",
+          "body": "Round 20 of the MotoGP season. Won by Marco Bezzecchi (Aprilia Racing) from Marc Marquez and Raul Fernandez.",
           "date": "2026-11-08",
           "round": 20,
           "facts": [
-            "Marc Marquez leads the championship by 49 points from Jorge Martin"
+            "Marco Bezzecchi won by 3.1 seconds from Marc Marquez",
+            "Did not finish: Brad Binder and Diogo Moreira",
+            "Marc Marquez set a new lap record, 1:52.558",
+            "Dry, 31°C air and 33°C track",
+            "Saturday's sprint was won by Marc Marquez",
+            "Marc Marquez's championship lead over Jorge Martin went from 44 to 60 points this weekend"
+          ],
+          "podium": [
+            {
+              "position": 1,
+              "name": "Marco Bezzecchi",
+              "team": "Aprilia Racing"
+            },
+            {
+              "position": 2,
+              "name": "Marc Marquez",
+              "team": "Ducati Lenovo Team"
+            },
+            {
+              "position": 3,
+              "name": "Raul Fernandez",
+              "team": "SuperFile Trackhouse MotoGP Team"
+            }
           ]
         },
         {
@@ -59,7 +101,7 @@
           "channelName": "NASCAR Cup Series",
           "headline": "Championship Race",
           "detail": "Homestead-Miami Speedway · Sun 8 Nov",
-          "body": "The Championship Race runs on Sun 8 Nov at Homestead-Miami Speedway in the United States, starting at 20:00 UTC over 267 laps covering 400.5 miles. In the US it is broadcast on NBC (TV), with MRN on radio.",
+          "body": "Round 36 of the NASCAR Cup Series season. The race starts at 20:00 UTC.",
           "date": "2026-11-08",
           "round": 36,
           "facts": [
@@ -273,6 +315,77 @@
   ],
   "lastRaces": [
     {
+      "channelID": "motogp",
+      "channelName": "MotoGP",
+      "headline": "Grand Prix of Qatar",
+      "detail": "Lusail International Circuit, Qatar · Sun 8 Nov",
+      "body": "Round 20 of the MotoGP season. Won by Marco Bezzecchi (Aprilia Racing) from Marc Marquez and Raul Fernandez.",
+      "date": "2026-11-08",
+      "round": 20,
+      "facts": [
+        "Marco Bezzecchi won by 3.1 seconds from Marc Marquez",
+        "Did not finish: Brad Binder and Diogo Moreira",
+        "Marc Marquez set a new lap record, 1:52.558",
+        "Dry, 31°C air and 33°C track",
+        "Saturday's sprint was won by Marc Marquez",
+        "Marc Marquez's championship lead over Jorge Martin went from 44 to 60 points this weekend"
+      ],
+      "podium": [
+        {
+          "position": 1,
+          "name": "Marco Bezzecchi",
+          "team": "Aprilia Racing"
+        },
+        {
+          "position": 2,
+          "name": "Marc Marquez",
+          "team": "Ducati Lenovo Team"
+        },
+        {
+          "position": 3,
+          "name": "Raul Fernandez",
+          "team": "SuperFile Trackhouse MotoGP Team"
+        }
+      ],
+      "factsVersion": 4,
+      "writer": "template"
+    },
+    {
+      "channelID": "f1",
+      "channelName": "Formula 1",
+      "headline": "Brazilian Grand Prix",
+      "detail": "Autódromo José Carlos Pace, Brazil · Sun 8 Nov",
+      "body": "Round 20 of the Formula 1 season. Won by Lando Norris (McLaren) from Max Verstappen and Isack Hadjar.",
+      "date": "2026-11-08",
+      "round": 20,
+      "facts": [
+        "Lando Norris won from the pit lane, 14.6 seconds ahead of Max Verstappen",
+        "Did not finish: Lance Stroll and Valtteri Bottas (did not start)",
+        "Andrea Kimi Antonelli's championship lead over Max Verstappen went from 119 to 111 points over the weekend",
+        "Rain fell during the race",
+        "Norris's tyres: intermediate then soft then soft then intermediate, 3 stops"
+      ],
+      "podium": [
+        {
+          "position": 1,
+          "name": "Lando Norris",
+          "team": "McLaren"
+        },
+        {
+          "position": 2,
+          "name": "Max Verstappen",
+          "team": "Red Bull"
+        },
+        {
+          "position": 3,
+          "name": "Isack Hadjar",
+          "team": "Red Bull"
+        }
+      ],
+      "factsVersion": 4,
+      "writer": "template"
+    },
+    {
       "channelID": "wec",
       "channelName": "World Endurance Championship",
       "headline": "8 Hours of Bahrain",
@@ -324,78 +437,6 @@
           "position": 3,
           "name": "Ty Gibbs",
           "team": "Joe Gibbs Racing"
-        }
-      ],
-      "factsVersion": 4,
-      "writer": "own server"
-    },
-    {
-      "channelID": "motogp",
-      "channelName": "MotoGP",
-      "headline": "Grand Prix of Malaysia",
-      "detail": "Petronas Sepang International Circuit, Malaysia · Sun 1 Nov",
-      "body": "Marc Marquez won the Grand Prix of Malaysia by 4.2 seconds from Pedro Acosta, with Alex Marquez completing the podium. On a 55°C track in dry conditions, Acosta set a new lap record as Zarco, Moreira, Mir and Fernandez all failed to finish. The result widened Marquez's championship lead over Jorge Martin from 10 to 44 points.",
-      "date": "2026-11-01",
-      "round": 19,
-      "facts": [
-        "Marc Marquez won by 4.2 seconds from Pedro Acosta",
-        "Did not finish: Johann Zarco, Diogo Moreira, Joan Mir and Augusto Fernandez",
-        "Pedro Acosta set a new lap record, 1:59.261",
-        "Dry, 36°C air and 55°C track",
-        "Saturday's sprint was won by Pedro Acosta",
-        "Marc Marquez leads the championship by 49 points from Jorge Martin"
-      ],
-      "podium": [
-        {
-          "position": 1,
-          "name": "Marc Marquez",
-          "team": "Ducati Lenovo Team"
-        },
-        {
-          "position": 2,
-          "name": "Pedro Acosta",
-          "team": "Red Bull KTM Factory Racing"
-        },
-        {
-          "position": 3,
-          "name": "Alex Marquez",
-          "team": "BK8 Gresini Racing MotoGP"
-        }
-      ],
-      "factsVersion": 4,
-      "writer": "own server"
-    },
-    {
-      "channelID": "f1",
-      "channelName": "Formula 1",
-      "headline": "Mexico City Grand Prix",
-      "detail": "Autódromo Hermanos Rodríguez, Mexico · Sun 1 Nov",
-      "body": "Max Verstappen won the Mexico City Grand Prix from fifth on the grid, 0.8 seconds clear of Lewis Hamilton, with Andrea Kimi Antonelli third for Mercedes. The result trimmed his championship lead over Antonelli from 123 to 119 points. Safety cars on laps 44 and 59 brought a red flag on lap 45, while Liam Lawson climbed from 22nd to 9th.",
-      "date": "2026-11-01",
-      "round": 19,
-      "facts": [
-        "Max Verstappen won from 5th on the grid, 0.8 seconds ahead of Lewis Hamilton",
-        "Biggest climbers: Liam Lawson from 22nd to 7th and Ryo Hirakawa from 18th to 10th",
-        "Fastest lap: Lewis Hamilton, 1:19.268",
-        "Did not finish: Arvid Lindblad, Oliver Bearman, Valtteri Bottas, Lance Stroll and Fernando Alonso",
-        "Andrea Kimi Antonelli's championship lead over Max Verstappen went from 123 to 119 points over the weekend",
-        "Virtual safety car on lap 7"
-      ],
-      "podium": [
-        {
-          "position": 1,
-          "name": "Max Verstappen",
-          "team": "Red Bull"
-        },
-        {
-          "position": 2,
-          "name": "Lewis Hamilton",
-          "team": "Ferrari"
-        },
-        {
-          "position": 3,
-          "name": "Andrea Kimi Antonelli",
-          "team": "Mercedes"
         }
       ],
       "factsVersion": 4,
