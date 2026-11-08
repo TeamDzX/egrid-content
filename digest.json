@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-08T19:46:41Z",
+  "generatedAt": "2026-11-08T23:46:56Z",
   "editions": [
     {
       "id": "2026-11-08-preview",
       "kind": "preview",
       "title": "Results from the weekend",
       "dateRange": "6–9 November",
-      "intro": "Results are in from Formula 1 and MotoGP. World Endurance Championship has run. Still to come: Clio Cup Series and NASCAR Cup Series.",
-      "publishedAt": "2026-11-08T19:46:41Z",
-      "expiresAt": "2026-11-13T19:46:41Z",
+      "intro": "Results are in from Formula 1, MotoGP and NASCAR Cup Series. World Endurance Championship has run. Still to come: Clio Cup Series.",
+      "publishedAt": "2026-11-08T23:46:56Z",
+      "expiresAt": "2026-11-13T23:46:56Z",
       "items": [
         {
           "channelID": "wec",
@@ -38,11 +38,12 @@
           "date": "2026-11-08",
           "round": 20,
           "facts": [
-            "Lando Norris won from the pit lane, 14.6 seconds ahead of Max Verstappen",
+            "Lando Norris won from pole, 14.6 seconds ahead of Max Verstappen",
+            "Biggest climbers: Max Verstappen from 21st to 2nd and Lewis Hamilton from 20th to 9th",
+            "Fastest lap: Andrea Kimi Antonelli, 1:12.689",
             "Did not finish: Lance Stroll and Valtteri Bottas (did not start)",
             "Andrea Kimi Antonelli's championship lead over Max Verstappen went from 119 to 111 points over the weekend",
-            "Rain fell during the race",
-            "Norris's tyres: intermediate then soft then soft then intermediate, 3 stops"
+            "Rain fell during the race"
           ],
           "podium": [
             {
@@ -101,12 +102,33 @@
           "channelName": "NASCAR Cup Series",
           "headline": "Championship Race",
           "detail": "Homestead-Miami Speedway · Sun 8 Nov",
-          "body": "Round 36 of the NASCAR Cup Series season. The race starts at 20:00 UTC.",
+          "body": "Round 36 of the NASCAR Cup Series season. Won by Ryan Blaney (Team Penske) from Tyler Reddick and William Byron.",
           "date": "2026-11-08",
           "round": 36,
           "facts": [
-            "267 laps, 400.5 miles",
-            "US coverage: NBC (TV), MRN (radio)"
+            "Ryan Blaney won from 9th on the grid",
+            "Most laps led: Denny Hamlin (87)",
+            "Stage winners: Stage 1 Tyler Reddick, Stage 2 Denny Hamlin",
+            "Margin of victory: 0.314 s",
+            "Kyle Larson's Chase lead over Christopher Bell went from 67 to 49 points this weekend, with the title decided",
+            "The win lifted Ryan Blaney from 7th to 4th in the Chase"
+          ],
+          "podium": [
+            {
+              "position": 1,
+              "name": "Ryan Blaney",
+              "team": "Team Penske"
+            },
+            {
+              "position": 2,
+              "name": "Tyler Reddick",
+              "team": "23XI Racing"
+            },
+            {
+              "position": 3,
+              "name": "William Byron",
+              "team": "Hendrick Motorsports"
+            }
           ]
         }
       ]
@@ -315,6 +337,42 @@
   ],
   "lastRaces": [
     {
+      "channelID": "nascar",
+      "channelName": "NASCAR Cup Series",
+      "headline": "Championship Race",
+      "detail": "Homestead-Miami Speedway · Sun 8 Nov",
+      "body": "Round 36 of the NASCAR Cup Series season. Won by Ryan Blaney (Team Penske) from Tyler Reddick and William Byron.",
+      "date": "2026-11-08",
+      "round": 36,
+      "facts": [
+        "Ryan Blaney won from 9th on the grid",
+        "Most laps led: Denny Hamlin (87)",
+        "Stage winners: Stage 1 Tyler Reddick, Stage 2 Denny Hamlin",
+        "Margin of victory: 0.314 s",
+        "Kyle Larson's Chase lead over Christopher Bell went from 67 to 49 points this weekend, with the title decided",
+        "The win lifted Ryan Blaney from 7th to 4th in the Chase"
+      ],
+      "podium": [
+        {
+          "position": 1,
+          "name": "Ryan Blaney",
+          "team": "Team Penske"
+        },
+        {
+          "position": 2,
+          "name": "Tyler Reddick",
+          "team": "23XI Racing"
+        },
+        {
+          "position": 3,
+          "name": "William Byron",
+          "team": "Hendrick Motorsports"
+        }
+      ],
+      "factsVersion": 4,
+      "writer": "template"
+    },
+    {
       "channelID": "motogp",
       "channelName": "MotoGP",
       "headline": "Grand Prix of Qatar",
@@ -359,11 +417,12 @@
       "date": "2026-11-08",
       "round": 20,
       "facts": [
-        "Lando Norris won from the pit lane, 14.6 seconds ahead of Max Verstappen",
+        "Lando Norris won from pole, 14.6 seconds ahead of Max Verstappen",
+        "Biggest climbers: Max Verstappen from 21st to 2nd and Lewis Hamilton from 20th to 9th",
+        "Fastest lap: Andrea Kimi Antonelli, 1:12.689",
         "Did not finish: Lance Stroll and Valtteri Bottas (did not start)",
         "Andrea Kimi Antonelli's championship lead over Max Verstappen went from 119 to 111 points over the weekend",
-        "Rain fell during the race",
-        "Norris's tyres: intermediate then soft then soft then intermediate, 3 stops"
+        "Rain fell during the race"
       ],
       "podium": [
         {
@@ -403,42 +462,6 @@
       "detail": "Las Vegas Motor Speedway · Sun 1 Nov",
       "body": "The Las Vegas Nationals brought drag racing to Las Vegas Motor Speedway on Sunday 1 November. Drivers lined up across the weekend for a full day of quarter-mile action, chasing speed and consistency down the strip.",
       "date": "2026-11-01",
-      "factsVersion": 4,
-      "writer": "own server"
-    },
-    {
-      "channelID": "nascar",
-      "channelName": "NASCAR Cup Series",
-      "headline": "Xfinity 500",
-      "detail": "Martinsville Speedway · Sun 1 Nov",
-      "body": "William Byron claimed the Xfinity 500 at Martinsville, beating teammate Chase Elliott into second with Ty Gibbs third. Starting from eighth, he led 362 of 500 laps and swept stages one and two to win by just over two seconds. His performance narrowed Kyle Larson's Chase lead over Christopher Bell from 73 to 67 points, with a single race remaining.",
-      "date": "2026-11-01",
-      "round": 35,
-      "facts": [
-        "William Byron won from 8th on the grid and led 362 of 500 laps",
-        "William Byron swept stages 1 and 2",
-        "Margin of victory: 2.049 s",
-        "Kyle Larson's Chase lead over Christopher Bell went from 73 to 67 points this weekend, with 1 race to go",
-        "The win lifted William Byron from 11th to 9th in the Chase",
-        "500 laps, 11 lead changes among 6 drivers"
-      ],
-      "podium": [
-        {
-          "position": 1,
-          "name": "William Byron",
-          "team": "Hendrick Motorsports"
-        },
-        {
-          "position": 2,
-          "name": "Chase Elliott",
-          "team": "Hendrick Motorsports"
-        },
-        {
-          "position": 3,
-          "name": "Ty Gibbs",
-          "team": "Joe Gibbs Racing"
-        }
-      ],
       "factsVersion": 4,
       "writer": "own server"
     },
