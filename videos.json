@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-07T14:04:42Z",
+  "generatedAt": "2026-11-08T14:19:17Z",
   "channels": [
     {
       "channelID": "f1",
@@ -232,17 +232,6 @@
           "allowedRegions": []
         },
         {
-          "id": "S16fsHVdHd0",
-          "title": "The GABICO Challenge | Episode 3: Strategy Battleship.",
-          "publishedAt": "2026-10-16T08:43:43Z",
-          "duration": "5:01",
-          "seconds": 301,
-          "thumbnail": "https://i.ytimg.com/vi/S16fsHVdHd0/maxresdefault.jpg",
-          "source": "Audi Revolut F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "Th9BdOCYZpE",
           "title": "Under The Lights In Marina Bay | Cadillac Formula 1® Team",
           "publishedAt": "2026-10-15T17:54:13Z",
@@ -430,6 +419,17 @@
           "allowedRegions": []
         },
         {
+          "id": "l9k2EOSG5Is",
+          "title": "AMR Network: Portraits | ServiceNow",
+          "publishedAt": "2026-07-21T17:04:28Z",
+          "duration": "6:13",
+          "seconds": 373,
+          "thumbnail": "https://i.ytimg.com/vi/l9k2EOSG5Is/maxresdefault.jpg",
+          "source": "Aston Martin Aramco F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "4aFCIR7Qajc",
           "title": "We Spent the Day with Franco Colapinto at an F1 Filming Day | Powered by Eni",
           "publishedAt": "2026-05-17T11:30:39Z",
@@ -453,6 +453,20 @@
         }
       ],
       "externalVideos": [
+        {
+          "id": "Cn4C153hCLk",
+          "title": "Qualifying Highlights | 2026 Sao Paulo Grand Prix",
+          "publishedAt": "2026-11-07T21:16:28Z",
+          "duration": "8:02",
+          "seconds": 482,
+          "thumbnail": "https://i.ytimg.com/vi/Cn4C153hCLk/maxresdefault.jpg",
+          "source": "FORMULA 1",
+          "blockedRegions": [
+            "BY",
+            "RU"
+          ],
+          "allowedRegions": []
+        },
         {
           "id": "tIiRK7hKScU",
           "title": "Race Highlights | 2026 Mexico City Grand Prix",
@@ -586,20 +600,6 @@
           "duration": "8:07",
           "seconds": 487,
           "thumbnail": "https://i.ytimg.com/vi/I9oahfzac0I/maxresdefault.jpg",
-          "source": "FORMULA 1",
-          "blockedRegions": [
-            "BY",
-            "RU"
-          ],
-          "allowedRegions": []
-        },
-        {
-          "id": "nMrCLLJemBM",
-          "title": "Qualifying Highlights | 2026 Azerbaijan Grand Prix",
-          "publishedAt": "2026-09-25T13:38:55Z",
-          "duration": "8:07",
-          "seconds": 487,
-          "thumbnail": "https://i.ytimg.com/vi/nMrCLLJemBM/maxresdefault.jpg",
           "source": "FORMULA 1",
           "blockedRegions": [
             "BY",
@@ -1495,6 +1495,17 @@
       "sourceURL": "https://www.youtube.com/channel/UC5lTEvtwu6SR3LMSmU9VZ2Q",
       "videos": [
         {
+          "id": "UBzL5sHqwX0",
+          "title": "ONE OF THE ALL-TIME GREAT FINALS! | John Higgins vs Kyren Wilson | International Championship 2026",
+          "publishedAt": "2026-11-07T14:56:14Z",
+          "duration": "18:52",
+          "seconds": 1132,
+          "thumbnail": "https://i.ytimg.com/vi/UBzL5sHqwX0/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "WlynCyQbdy4",
           "title": "GRAND MASTER AT WORK! | John Higgins vs Kyren Wilson | International Championship 2026",
           "publishedAt": "2026-11-07T08:34:23Z",
@@ -1611,17 +1622,6 @@
           "duration": "8:37",
           "seconds": 517,
           "thumbnail": "https://i.ytimg.com/vi/LfW6sW1qvNo/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "X2nWjARgUvQ",
-          "title": "DECIDER FOR THE QUARTERS! | Kyren Wilson vs Oliver Lines | International Championship 2026",
-          "publishedAt": "2026-11-03T10:37:24Z",
-          "duration": "17:20",
-          "seconds": 1040,
-          "thumbnail": "https://i.ytimg.com/vi/X2nWjARgUvQ/maxresdefault.jpg",
           "source": "WST",
           "blockedRegions": [],
           "allowedRegions": []
