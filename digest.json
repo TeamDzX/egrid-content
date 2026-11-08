@@ -1,22 +1,22 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-08T00:44:59Z",
+  "generatedAt": "2026-11-08T15:20:55Z",
   "editions": [
     {
       "id": "2026-11-08-preview",
       "kind": "preview",
       "title": "Results from the weekend",
       "dateRange": "6–9 November",
-      "intro": "Five championships on the calendar this weekend. The World Endurance Championship's 8 Hours of Bahrain is behind us, while the Clio Cup, Formula 1, MotoGP and NASCAR Cup Series all have titles still to be decided.",
-      "publishedAt": "2026-11-08T00:44:59Z",
-      "expiresAt": "2026-11-13T00:44:59Z",
+      "intro": "This week runs from endurance racing through Clio Cup and a set of season finales across Formula 1, MotoGP and NASCAR. The first round has already been completed, while the F1 and MotoGP title fights reach their decisive moments this weekend.",
+      "publishedAt": "2026-11-08T15:20:55Z",
+      "expiresAt": "2026-11-13T15:20:55Z",
       "items": [
         {
           "channelID": "wec",
           "channelName": "World Endurance Championship",
           "headline": "8 Hours of Bahrain",
           "detail": "Bahrain International Circuit · Sat 7 Nov",
-          "body": "The World Endurance Championship's 8 Hours of Bahrain ran at the Bahrain International Circuit on Saturday. It was the series' eighth round.",
+          "body": "The 8 Hours of Bahrain ran at the Bahrain International Circuit as part of the World Endurance Championship. Over the full distance, endurance and reliability were put to the test across a weekend of racing.",
           "date": "2026-11-07",
           "round": 8
         },
@@ -25,7 +25,7 @@
           "channelName": "Clio Cup Series",
           "headline": "Portimão",
           "detail": "Autódromo Internacional do Algarve, Portugal · Sun 8 Nov",
-          "body": "The Clio Cup Series heads to the Autódromo Internacional do Algarve for its round at Portimão on Sunday. The seventh round of the season runs on Sun 8 Nov.",
+          "body": "The Clio Cup Series heads to Portugal for round 7 at the Autódromo Internacional do Algarve in Portimão on Sun 8 Nov.",
           "date": "2026-11-08",
           "round": 7
         },
@@ -34,7 +34,7 @@
           "channelName": "Formula 1",
           "headline": "Brazilian Grand Prix",
           "detail": "Autódromo José Carlos Pace, Brazil · Sun 8 Nov",
-          "body": "The Formula 1 Brazilian Grand Prix runs at the Autódromo José Carlos Pace on Sunday. The race starts at 17:00 UTC, following a Saturday qualifying session. Andrea Kimi Antonelli leads Max Verstappen by 119 points in the championship.",
+          "body": "The Brazilian Grand Prix runs on Sun 8 Nov at the Autódromo José Carlos Pace in Brazil, starting at 17:00 UTC with qualifying earlier that day. Andrea Kimi Antonelli currently leads the championship by 119 points from Max Verstappen.",
           "date": "2026-11-08",
           "round": 20,
           "facts": [
@@ -47,7 +47,7 @@
           "channelName": "MotoGP",
           "headline": "Grand Prix of Qatar",
           "detail": "Lusail International Circuit, Qatar · Sun 8 Nov",
-          "body": "The MotoGP Grand Prix of Qatar runs at the Lusail International Circuit on Sunday. Marc Marquez leads Jorge Martin by 49 points in the championship heading into this round.",
+          "body": "The Grand Prix of Qatar runs on Sun 8 Nov at the Lusail International Circuit in Qatar. Marc Marquez currently leads the championship by 49 points from Jorge Martin heading into the round.",
           "date": "2026-11-08",
           "round": 20,
           "facts": [
@@ -59,7 +59,7 @@
           "channelName": "NASCAR Cup Series",
           "headline": "Championship Race",
           "detail": "Homestead-Miami Speedway · Sun 8 Nov",
-          "body": "The NASCAR Cup Series Championship Race runs at the Homestead-Miami Speedway on Sunday. The 36th round covers 267 laps over 400.5 miles and starts at 20:00 UTC, with US coverage on NBC and MRN.",
+          "body": "The Championship Race runs on Sun 8 Nov at Homestead-Miami Speedway in the United States, starting at 20:00 UTC over 267 laps covering 400.5 miles. In the US it is broadcast on NBC (TV), with MRN on radio.",
           "date": "2026-11-08",
           "round": 36,
           "facts": [
