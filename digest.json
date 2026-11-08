@@ -1,7 +1,74 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-07T02:53:31Z",
+  "generatedAt": "2026-11-08T00:44:59Z",
   "editions": [
+    {
+      "id": "2026-11-08-preview",
+      "kind": "preview",
+      "title": "Results from the weekend",
+      "dateRange": "6–9 November",
+      "intro": "Five championships on the calendar this weekend. The World Endurance Championship's 8 Hours of Bahrain is behind us, while the Clio Cup, Formula 1, MotoGP and NASCAR Cup Series all have titles still to be decided.",
+      "publishedAt": "2026-11-08T00:44:59Z",
+      "expiresAt": "2026-11-13T00:44:59Z",
+      "items": [
+        {
+          "channelID": "wec",
+          "channelName": "World Endurance Championship",
+          "headline": "8 Hours of Bahrain",
+          "detail": "Bahrain International Circuit · Sat 7 Nov",
+          "body": "The World Endurance Championship's 8 Hours of Bahrain ran at the Bahrain International Circuit on Saturday. It was the series' eighth round.",
+          "date": "2026-11-07",
+          "round": 8
+        },
+        {
+          "channelID": "cliocup",
+          "channelName": "Clio Cup Series",
+          "headline": "Portimão",
+          "detail": "Autódromo Internacional do Algarve, Portugal · Sun 8 Nov",
+          "body": "The Clio Cup Series heads to the Autódromo Internacional do Algarve for its round at Portimão on Sunday. The seventh round of the season runs on Sun 8 Nov.",
+          "date": "2026-11-08",
+          "round": 7
+        },
+        {
+          "channelID": "f1",
+          "channelName": "Formula 1",
+          "headline": "Brazilian Grand Prix",
+          "detail": "Autódromo José Carlos Pace, Brazil · Sun 8 Nov",
+          "body": "The Formula 1 Brazilian Grand Prix runs at the Autódromo José Carlos Pace on Sunday. The race starts at 17:00 UTC, following a Saturday qualifying session. Andrea Kimi Antonelli leads Max Verstappen by 119 points in the championship.",
+          "date": "2026-11-08",
+          "round": 20,
+          "facts": [
+            "Qualifying Sat 7 Nov, 18:00 UTC",
+            "Andrea Kimi Antonelli leads the championship by 119 points from Max Verstappen"
+          ]
+        },
+        {
+          "channelID": "motogp",
+          "channelName": "MotoGP",
+          "headline": "Grand Prix of Qatar",
+          "detail": "Lusail International Circuit, Qatar · Sun 8 Nov",
+          "body": "The MotoGP Grand Prix of Qatar runs at the Lusail International Circuit on Sunday. Marc Marquez leads Jorge Martin by 49 points in the championship heading into this round.",
+          "date": "2026-11-08",
+          "round": 20,
+          "facts": [
+            "Marc Marquez leads the championship by 49 points from Jorge Martin"
+          ]
+        },
+        {
+          "channelID": "nascar",
+          "channelName": "NASCAR Cup Series",
+          "headline": "Championship Race",
+          "detail": "Homestead-Miami Speedway · Sun 8 Nov",
+          "body": "The NASCAR Cup Series Championship Race runs at the Homestead-Miami Speedway on Sunday. The 36th round covers 267 laps over 400.5 miles and starts at 20:00 UTC, with US coverage on NBC and MRN.",
+          "date": "2026-11-08",
+          "round": 36,
+          "facts": [
+            "267 laps, 400.5 miles",
+            "US coverage: NBC (TV), MRN (radio)"
+          ]
+        }
+      ]
+    },
     {
       "id": "2026-11-07-preview",
       "kind": "preview",
@@ -202,76 +269,20 @@
           ]
         }
       ]
-    },
-    {
-      "id": "2026-11-04-preview",
-      "kind": "preview",
-      "title": "This weekend on E-Grid",
-      "dateRange": "4–9 November",
-      "intro": "A busy weekend across the calendar, with five rounds spread over six days. The F1 title decider heads to Brazil, MotoGP runs at Lusail, and NASCAR's championship race takes Florida, alongside endurance and Clio Cup action.",
-      "publishedAt": "2026-11-04T00:40:23Z",
-      "expiresAt": "2026-11-09T00:40:23Z",
-      "items": [
-        {
-          "channelID": "wec",
-          "channelName": "World Endurance Championship",
-          "headline": "8 Hours of Bahrain",
-          "detail": "Bahrain International Circuit · Sat 7 Nov",
-          "body": "The World Endurance Championship reaches its eighth round this week, the 8 Hours of Bahrain. It runs at the Bahrain International Circuit on Sat 7 Nov.",
-          "date": "2026-11-07",
-          "round": 8
-        },
-        {
-          "channelID": "cliocup",
-          "channelName": "Clio Cup Series",
-          "headline": "Portimão",
-          "detail": "Autódromo Internacional do Algarve, Portugal · Sun 8 Nov",
-          "body": "The Clio Cup Series runs round 7 at the Autódromo Internacional do Algarve in Portugal. It takes place on Sun 8 Nov.",
-          "date": "2026-11-08",
-          "round": 7
-        },
-        {
-          "channelID": "f1",
-          "channelName": "Formula 1",
-          "headline": "Brazilian Grand Prix",
-          "detail": "Autódromo José Carlos Pace, Brazil · Sun 8 Nov",
-          "body": "The Brazilian Grand Prix runs on Sun 8 Nov at the Autódromo José Carlos Pace, with a 17:00 UTC start and qualifying the day before at 18:00 UTC. Andrea Kimi Antonelli leads Max Verstappen by 119 points in the championship.",
-          "date": "2026-11-08",
-          "round": 20,
-          "facts": [
-            "Qualifying Sat 7 Nov, 18:00 UTC",
-            "Andrea Kimi Antonelli leads the championship by 119 points from Max Verstappen"
-          ]
-        },
-        {
-          "channelID": "motogp",
-          "channelName": "MotoGP",
-          "headline": "Grand Prix of Qatar",
-          "detail": "Lusail International Circuit, Qatar · Sun 8 Nov",
-          "body": "The Grand Prix of Qatar runs on Sun 8 Nov at the Lusail International Circuit. Marc Marquez holds a 44-point lead over Jorge Martin in the championship.",
-          "date": "2026-11-08",
-          "round": 20,
-          "facts": [
-            "Marc Marquez leads the championship by 44 points from Jorge Martin"
-          ]
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "Championship Race",
-          "detail": "Homestead-Miami Speedway · Sun 8 Nov",
-          "body": "The NASCAR Cup Series championship race runs on Sun 8 Nov at Homestead-Miami Speedway, with a 20:00 UTC start. It covers 267 laps across 400.5 miles and is broadcast in the US on NBC and MRN.",
-          "date": "2026-11-08",
-          "round": 36,
-          "facts": [
-            "267 laps, 400.5 miles",
-            "US coverage: NBC (TV), MRN (radio)"
-          ]
-        }
-      ]
     }
   ],
   "lastRaces": [
+    {
+      "channelID": "wec",
+      "channelName": "World Endurance Championship",
+      "headline": "8 Hours of Bahrain",
+      "detail": "Bahrain International Circuit · Sat 7 Nov",
+      "body": "The 8 Hours of Bahrain served as round eight of the World Endurance Championship, staged on Saturday 7 November at the Bahrain International Circuit. It was a demanding endurance test that brought the series back to the desert for its latest round.",
+      "date": "2026-11-07",
+      "round": 8,
+      "factsVersion": 4,
+      "writer": "own server"
+    },
     {
       "channelID": "nhra",
       "channelName": "NHRA Drag Racing",
@@ -332,7 +343,7 @@
         "Pedro Acosta set a new lap record, 1:59.261",
         "Dry, 36°C air and 55°C track",
         "Saturday's sprint was won by Pedro Acosta",
-        "Marc Marquez leads the championship by 44 points from Jorge Martin"
+        "Marc Marquez leads the championship by 49 points from Jorge Martin"
       ],
       "podium": [
         {
@@ -420,17 +431,6 @@
       "body": "IMSA's SportsCar Championship reaches its finale with the Motul Petit Le Mans at Michelin Raceway Road Atlanta on Saturday 3 October. The endurance marathon has long stood as the series' crowning event, capping another demanding season of sports car racing.",
       "date": "2026-10-03",
       "round": 11,
-      "factsVersion": 4,
-      "writer": "own server"
-    },
-    {
-      "channelID": "wec",
-      "channelName": "World Endurance Championship",
-      "headline": "6 Hours of Fuji",
-      "detail": "Fuji Speedway, Japan · Sun 27 Sep",
-      "body": "The World Endurance Championship turned to Fuji Speedway in Japan on Sunday 27 September for the 6 Hours of Fuji. The circuit's steep climb past the summit has again defined this round, testing drivers and machines across a full endurance distance.",
-      "date": "2026-09-27",
-      "round": 7,
       "factsVersion": 4,
       "writer": "own server"
     },
