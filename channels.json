@@ -3,6 +3,7 @@
   "channels": [
     {
       "id": "f1",
+      "liveTimingURL": "https://www.formula1.com/en/timing/f1-live",
       "name": "Formula 1",
       "tagline": "Grand Prix racing — schedules, standings and stats",
       "accentHex": "E10600",
@@ -153,6 +154,7 @@
     },
     {
       "id": "f2",
+      "liveTimingURL": "https://www.fiaformula2.com/livetiming/index.html",
       "name": "Formula 2",
       "tagline": "The final step to F1 — every round on a Grand Prix weekend",
       "accentHex": "00A0DE",
@@ -260,6 +262,7 @@
     },
     {
       "id": "f3",
+      "liveTimingURL": "https://www.fiaformula3.com/livetiming/index.html",
       "name": "Formula 3",
       "tagline": "Tomorrow's stars — junior single-seaters on the F1 stage",
       "accentHex": "FF6B00",
@@ -343,6 +346,7 @@
     },
     {
       "id": "wec",
+      "liveTimingURL": "https://fiawec.alkamelsystems.com/",
       "name": "World Endurance Championship",
       "tagline": "Hypercars, Le Mans and round-the-clock racing",
       "accentHex": "0E7C86",
@@ -571,6 +575,7 @@
     },
     {
       "id": "motogp",
+      "liveTimingURL": "https://timingpass.motogp.com/en",
       "name": "MotoGP",
       "tagline": "The pinnacle of motorcycle racing — riders, rounds and standings",
       "accentHex": "D81B60",
@@ -831,6 +836,7 @@
     },
     {
       "id": "indycar",
+      "liveTimingURL": "https://www.indycar.com/leaderboard",
       "name": "IndyCar",
       "tagline": "American open-wheel racing, from streets to superspeedways",
       "accentHex": "1565C0",

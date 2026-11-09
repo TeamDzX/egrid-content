@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "_comment": "Where to watch, by territory. Broadcast rights are sold per country and change between seasons - treat every entry as perishable and re-check each December alongside the calendars. Only list a broadcaster you have verified against a primary source. The app always tells the reader to confirm with local listings, but that is not a licence to guess.",
+  "version": 2,
+  "_comment": "Where to watch, by territory. Broadcast rights are sold per country and change between seasons - treat every entry as perishable and re-check each December alongside the calendars. Only list a broadcaster you have verified against a primary source. The app always tells the reader to confirm with local listings, but that is not a licence to guess. Each guide keeps _sources (territory code -> URLs) from the November 2026 check; the apps ignore it.",
   "guides": [
     {
       "channelID": "f1",
@@ -13,12 +13,12 @@
             {
               "name": "Sky Sports F1",
               "kind": "Live",
-              "note": "Every practice session, qualifying, sprint and race live"
+              "note": "Every session live; Sky holds UK rights until 2034."
             },
             {
               "name": "Channel 4",
               "kind": "Free-to-air",
-              "note": "British Grand Prix live, plus highlights of every other race"
+              "note": "British Grand Prix live and highlights of every race; its current deal with Sky runs to the end of 2026."
             }
           ]
         },
@@ -29,7 +29,7 @@
             {
               "name": "Sky Sports F1",
               "kind": "Live",
-              "note": "Covered by the same rights deal as the UK"
+              "note": "Every session live."
             }
           ]
         },
@@ -40,17 +40,54 @@
             {
               "name": "Apple TV",
               "kind": "Live",
-              "note": "Exclusive US home of Formula 1 from 2026; every Grand Prix in 4K"
+              "note": "Exclusive US home from 2026, every session live, with F1 TV Premium included."
             },
             {
               "name": "Yahoo Sports",
               "kind": "Selected sessions",
-              "note": "Selected practice and qualifying sessions"
+              "note": "Practice and qualifying streamed live from the Miami round onwards."
             },
             {
               "name": "Tubi",
               "kind": "Free",
-              "note": "Exclusive live altcasts for selected races"
+              "note": "Free creator-led alternative broadcasts of selected races."
+            }
+          ]
+        },
+        {
+          "code": "CA",
+          "country": "Canada",
+          "entries": [
+            {
+              "name": "TSN",
+              "kind": "Live",
+              "note": "Every session live in English."
+            },
+            {
+              "name": "RDS",
+              "kind": "Live",
+              "note": "Every session live in French."
+            },
+            {
+              "name": "Noovo",
+              "kind": "Free-to-air",
+              "note": "French-language free-to-air partner."
+            },
+            {
+              "name": "F1 TV Pro",
+              "kind": "Streaming",
+              "note": "F1's own service with every session live."
+            }
+          ]
+        },
+        {
+          "code": "AU",
+          "country": "Australia",
+          "entries": [
+            {
+              "name": "Fox Sports and Kayo",
+              "kind": "Live",
+              "note": "Every session live on Foxtel and Kayo."
             }
           ]
         },
@@ -59,13 +96,896 @@
           "country": "Italy",
           "entries": [
             {
-              "name": "Sky",
+              "name": "Sky Italia",
               "kind": "Live",
-              "note": "Covered by the same rights deal as the UK and Ireland"
+              "note": "Every session live."
+            }
+          ]
+        },
+        {
+          "code": "ES",
+          "country": "Spain",
+          "entries": [
+            {
+              "name": "DAZN",
+              "kind": "Live",
+              "note": "Every session live."
+            }
+          ]
+        },
+        {
+          "code": "DE",
+          "country": "Germany",
+          "entries": [
+            {
+              "name": "Sky Deutschland",
+              "kind": "Live",
+              "note": "Every session live."
+            },
+            {
+              "name": "RTL",
+              "kind": "Free-to-air",
+              "note": "Selected races live free-to-air."
+            }
+          ]
+        },
+        {
+          "code": "FR",
+          "country": "France",
+          "entries": [
+            {
+              "name": "Canal+",
+              "kind": "Live",
+              "note": "Every session live."
+            }
+          ]
+        },
+        {
+          "code": "NL",
+          "country": "Netherlands",
+          "entries": [
+            {
+              "name": "Viaplay",
+              "kind": "Live",
+              "note": "Every session live; rights pass to Videoland from 2027, subject to regulatory approval."
             }
           ]
         }
-      ]
+      ],
+      "_sources": {
+        "GB": [
+          "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ",
+          "https://www.channel4.com/press/news/sky-and-channel-4-extend-partnership-keep-formula-1-highlights-and-british-gp-free-air",
+          "https://www.autosport.com/f1/news/sky-sports-extends-f1-live-broadcast-contract/10818609/"
+        ],
+        "IE": [
+          "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+        ],
+        "US": [
+          "https://www.formula1.com/en/latest/article/how-to-stream-the-formula-1-2026-australian-grand-prix-on-f1-tv-premium.i2B8hHvg8giTUXpXQd9Tx",
+          "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ",
+          "https://www.yahooinc.com/press/yahoo-sports-teams-up-with-apple-tv-to-bring-fans-live-formula-1-coverage",
+          "https://awfulannouncing.com/racing/select-f1-races-available-netflix-tubi-drive-to-survive.html"
+        ],
+        "CA": [
+          "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ",
+          "https://www.sportsvideo.org/2025/03/11/f1-tv-launches-new-f1-tv-premium-subscription-tier/",
+          "https://www.fanamp.com/f1-news/where-to-watch-f1-in-2026"
+        ],
+        "AU": [
+          "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ",
+          "https://speedcafe.com/f1-news-2026-australian-broadcast-rights-deal-agreement-extended-kayo-foxtel-fox-sports-update/"
+        ],
+        "IT": [
+          "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+        ],
+        "ES": [
+          "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+        ],
+        "DE": [
+          "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ",
+          "https://www.auto-motor-und-sport.de/formel-1/2026-rennen-live-tv-sender-streams/"
+        ],
+        "FR": [
+          "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+        ],
+        "NL": [
+          "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ",
+          "https://www.gpblog.com/nl/nieuws/zo-lang-kan-videoland-formule-1-uitzenden-alle-rechtencontracten-tot-2032-op-een-rij"
+        ]
+      }
+    },
+    {
+      "channelID": "wrc",
+      "season": "2026",
+      "regions": [
+        {
+          "code": "GB",
+          "country": "United Kingdom",
+          "entries": [
+            {
+              "name": "Rally.TV",
+              "kind": "Streaming",
+              "note": "WRC's own service with every stage live, also on DAZN; BBC takes live coverage of every round from 2027."
+            }
+          ]
+        },
+        {
+          "code": "IE",
+          "country": "Ireland",
+          "entries": [
+            {
+              "name": "Rally.TV",
+              "kind": "Streaming",
+              "note": "WRC's own service with every stage live, also on DAZN."
+            }
+          ]
+        },
+        {
+          "code": "US",
+          "country": "United States",
+          "entries": [
+            {
+              "name": "Rally.TV",
+              "kind": "Streaming",
+              "note": "WRC's own service with every stage live, also on DAZN."
+            }
+          ]
+        },
+        {
+          "code": "CA",
+          "country": "Canada",
+          "entries": [
+            {
+              "name": "Rally.TV",
+              "kind": "Streaming",
+              "note": "WRC's own service with every stage live, also on DAZN."
+            }
+          ]
+        },
+        {
+          "code": "AU",
+          "country": "Australia",
+          "entries": [
+            {
+              "name": "Rally.TV",
+              "kind": "Streaming",
+              "note": "WRC's own service with every stage live, also on DAZN."
+            }
+          ]
+        },
+        {
+          "code": "IT",
+          "country": "Italy",
+          "entries": [
+            {
+              "name": "Rally.TV",
+              "kind": "Streaming",
+              "note": "WRC's own service with every stage live, also on DAZN."
+            }
+          ]
+        },
+        {
+          "code": "ES",
+          "country": "Spain",
+          "entries": [
+            {
+              "name": "Rally.TV",
+              "kind": "Streaming",
+              "note": "WRC's own service with every stage live, also on DAZN."
+            }
+          ]
+        },
+        {
+          "code": "DE",
+          "country": "Germany",
+          "entries": [
+            {
+              "name": "Rally.TV",
+              "kind": "Streaming",
+              "note": "WRC's own service with every stage live, also on DAZN."
+            }
+          ]
+        },
+        {
+          "code": "NL",
+          "country": "Netherlands",
+          "entries": [
+            {
+              "name": "Rally.TV",
+              "kind": "Streaming",
+              "note": "WRC's own service with every stage live, also on DAZN."
+            }
+          ]
+        }
+      ],
+      "_sources": {
+        "GB": [
+          "https://www.dazn.com/en-US/news/motorsport/world-rally-championship-2026-how-to-watch-on-dazn-what-channel/de07x4zz3xbc1pn1cbh6wdi0r",
+          "https://www.advanced-television.com/2026/09/18/bbc-seals-fia-world-rally-championship-deal/"
+        ],
+        "IE": [
+          "https://www.dazn.com/en-US/news/motorsport/world-rally-championship-2026-how-to-watch-on-dazn-what-channel/de07x4zz3xbc1pn1cbh6wdi0r"
+        ],
+        "US": [
+          "https://www.dazn.com/en-US/news/motorsport/world-rally-championship-2026-how-to-watch-on-dazn-what-channel/de07x4zz3xbc1pn1cbh6wdi0r"
+        ],
+        "CA": [
+          "https://www.dazn.com/en-US/news/motorsport/world-rally-championship-2026-how-to-watch-on-dazn-what-channel/de07x4zz3xbc1pn1cbh6wdi0r"
+        ],
+        "AU": [
+          "https://www.dazn.com/en-US/news/motorsport/world-rally-championship-2026-how-to-watch-on-dazn-what-channel/de07x4zz3xbc1pn1cbh6wdi0r"
+        ],
+        "IT": [
+          "https://www.dazn.com/en-US/news/motorsport/world-rally-championship-2026-how-to-watch-on-dazn-what-channel/de07x4zz3xbc1pn1cbh6wdi0r"
+        ],
+        "ES": [
+          "https://www.dazn.com/en-US/news/motorsport/world-rally-championship-2026-how-to-watch-on-dazn-what-channel/de07x4zz3xbc1pn1cbh6wdi0r"
+        ],
+        "DE": [
+          "https://www.dazn.com/en-US/news/motorsport/world-rally-championship-2026-how-to-watch-on-dazn-what-channel/de07x4zz3xbc1pn1cbh6wdi0r"
+        ],
+        "NL": [
+          "https://www.dazn.com/en-US/news/motorsport/world-rally-championship-2026-how-to-watch-on-dazn-what-channel/de07x4zz3xbc1pn1cbh6wdi0r"
+        ]
+      }
+    },
+    {
+      "channelID": "f2",
+      "season": "2026",
+      "regions": [
+        {
+          "code": "GB",
+          "country": "United Kingdom",
+          "entries": [
+            {
+              "name": "Sky Sports F1",
+              "kind": "Live",
+              "note": "Every session live."
+            }
+          ]
+        },
+        {
+          "code": "US",
+          "country": "United States",
+          "entries": [
+            {
+              "name": "F1 TV Premium on Apple TV",
+              "kind": "Streaming",
+              "note": "Every session live through F1 TV in the Apple TV app."
+            }
+          ]
+        },
+        {
+          "code": "CA",
+          "country": "Canada",
+          "entries": [
+            {
+              "name": "TSN",
+              "kind": "Live",
+              "note": "English-language broadcast partner."
+            },
+            {
+              "name": "RDS",
+              "kind": "Live",
+              "note": "French-language broadcast partner."
+            },
+            {
+              "name": "F1 TV Pro",
+              "kind": "Streaming",
+              "note": "Every session live on F1's own service."
+            }
+          ]
+        },
+        {
+          "code": "AU",
+          "country": "Australia",
+          "entries": [
+            {
+              "name": "Fox Sports",
+              "kind": "Live",
+              "note": "Australian broadcast partner."
+            }
+          ]
+        },
+        {
+          "code": "IT",
+          "country": "Italy",
+          "entries": [
+            {
+              "name": "Sky Italia",
+              "kind": "Live",
+              "note": "Italian broadcast partner."
+            }
+          ]
+        },
+        {
+          "code": "ES",
+          "country": "Spain",
+          "entries": [
+            {
+              "name": "DAZN",
+              "kind": "Live",
+              "note": "Spanish broadcast partner."
+            }
+          ]
+        },
+        {
+          "code": "DE",
+          "country": "Germany",
+          "entries": [
+            {
+              "name": "Sky Deutschland",
+              "kind": "Live",
+              "note": "Every session live."
+            }
+          ]
+        },
+        {
+          "code": "FR",
+          "country": "France",
+          "entries": [
+            {
+              "name": "Canal+",
+              "kind": "Live",
+              "note": "French broadcast partner."
+            }
+          ]
+        },
+        {
+          "code": "NL",
+          "country": "Netherlands",
+          "entries": [
+            {
+              "name": "Viaplay",
+              "kind": "Live",
+              "note": "Dutch broadcast partner."
+            }
+          ]
+        }
+      ],
+      "_sources": {
+        "GB": [
+          "https://www.fiaformula2.com/en/information/where-to-watch-us-f2.5KKoOKrH2MbJlUgtRMYDQy"
+        ],
+        "US": [
+          "https://www.fiaformula2.com/en/information/where-to-watch-us-f2.5KKoOKrH2MbJlUgtRMYDQy"
+        ],
+        "CA": [
+          "https://www.fiaformula2.com/en/information/where-to-watch-us-f2.5KKoOKrH2MbJlUgtRMYDQy",
+          "https://www.sportsvideo.org/2025/03/11/f1-tv-launches-new-f1-tv-premium-subscription-tier/",
+          "https://www.fanamp.com/f1-news/where-to-watch-f1-in-2026"
+        ],
+        "AU": [
+          "https://www.fiaformula2.com/en/information/where-to-watch-us-f2.5KKoOKrH2MbJlUgtRMYDQy"
+        ],
+        "IT": [
+          "https://www.fiaformula2.com/en/information/where-to-watch-us-f2.5KKoOKrH2MbJlUgtRMYDQy"
+        ],
+        "ES": [
+          "https://www.fiaformula2.com/en/information/where-to-watch-us-f2.5KKoOKrH2MbJlUgtRMYDQy"
+        ],
+        "DE": [
+          "https://www.fiaformula2.com/en/information/where-to-watch-us-f2.5KKoOKrH2MbJlUgtRMYDQy",
+          "https://www.auto-motor-und-sport.de/formel-1/2026-rennen-live-tv-sender-streams/"
+        ],
+        "FR": [
+          "https://www.fiaformula2.com/en/information/where-to-watch-us-f2.5KKoOKrH2MbJlUgtRMYDQy"
+        ],
+        "NL": [
+          "https://www.fiaformula2.com/en/information/where-to-watch-us-f2.5KKoOKrH2MbJlUgtRMYDQy"
+        ]
+      }
+    },
+    {
+      "channelID": "f3",
+      "season": "2026",
+      "regions": [
+        {
+          "code": "GB",
+          "country": "United Kingdom",
+          "entries": [
+            {
+              "name": "Sky Sports F1",
+              "kind": "Live",
+              "note": "Every session live."
+            }
+          ]
+        },
+        {
+          "code": "US",
+          "country": "United States",
+          "entries": [
+            {
+              "name": "F1 TV Premium on Apple TV",
+              "kind": "Streaming",
+              "note": "Every session live through F1 TV in the Apple TV app."
+            }
+          ]
+        },
+        {
+          "code": "CA",
+          "country": "Canada",
+          "entries": [
+            {
+              "name": "TSN",
+              "kind": "Live",
+              "note": "English-language broadcast partner."
+            },
+            {
+              "name": "RDS",
+              "kind": "Live",
+              "note": "French-language broadcast partner."
+            },
+            {
+              "name": "F1 TV Pro",
+              "kind": "Streaming",
+              "note": "Every session live on F1's own service."
+            }
+          ]
+        },
+        {
+          "code": "AU",
+          "country": "Australia",
+          "entries": [
+            {
+              "name": "Fox Sports",
+              "kind": "Live",
+              "note": "Australian broadcast partner."
+            }
+          ]
+        },
+        {
+          "code": "IT",
+          "country": "Italy",
+          "entries": [
+            {
+              "name": "Sky Italia",
+              "kind": "Live",
+              "note": "Italian broadcast partner."
+            }
+          ]
+        },
+        {
+          "code": "ES",
+          "country": "Spain",
+          "entries": [
+            {
+              "name": "DAZN",
+              "kind": "Live",
+              "note": "Spanish broadcast partner."
+            }
+          ]
+        },
+        {
+          "code": "DE",
+          "country": "Germany",
+          "entries": [
+            {
+              "name": "Sky Deutschland",
+              "kind": "Live",
+              "note": "Every race live."
+            }
+          ]
+        },
+        {
+          "code": "FR",
+          "country": "France",
+          "entries": [
+            {
+              "name": "Canal+",
+              "kind": "Live",
+              "note": "French broadcast partner."
+            }
+          ]
+        },
+        {
+          "code": "NL",
+          "country": "Netherlands",
+          "entries": [
+            {
+              "name": "Viaplay",
+              "kind": "Live",
+              "note": "Dutch broadcast partner."
+            }
+          ]
+        }
+      ],
+      "_sources": {
+        "GB": [
+          "https://www.fiaformula3.com/en/information/where-to-watch-us-f3.49NWzWEKNAOq0g5MI9qbgi"
+        ],
+        "US": [
+          "https://www.fiaformula3.com/en/information/where-to-watch-us-f3.49NWzWEKNAOq0g5MI9qbgi"
+        ],
+        "CA": [
+          "https://www.fiaformula3.com/en/information/where-to-watch-us-f3.49NWzWEKNAOq0g5MI9qbgi",
+          "https://www.sportsvideo.org/2025/03/11/f1-tv-launches-new-f1-tv-premium-subscription-tier/",
+          "https://www.fanamp.com/f1-news/where-to-watch-f1-in-2026"
+        ],
+        "AU": [
+          "https://www.fiaformula3.com/en/information/where-to-watch-us-f3.49NWzWEKNAOq0g5MI9qbgi"
+        ],
+        "IT": [
+          "https://www.fiaformula3.com/en/information/where-to-watch-us-f3.49NWzWEKNAOq0g5MI9qbgi"
+        ],
+        "ES": [
+          "https://www.fiaformula3.com/en/information/where-to-watch-us-f3.49NWzWEKNAOq0g5MI9qbgi"
+        ],
+        "DE": [
+          "https://www.fiaformula3.com/en/information/where-to-watch-us-f3.49NWzWEKNAOq0g5MI9qbgi",
+          "https://www.auto-motor-und-sport.de/formel-1/2026-rennen-live-tv-sender-streams/"
+        ],
+        "FR": [
+          "https://www.fiaformula3.com/en/information/where-to-watch-us-f3.49NWzWEKNAOq0g5MI9qbgi"
+        ],
+        "NL": [
+          "https://www.fiaformula3.com/en/information/where-to-watch-us-f3.49NWzWEKNAOq0g5MI9qbgi"
+        ]
+      }
+    },
+    {
+      "channelID": "wec",
+      "season": "2026",
+      "regions": [
+        {
+          "code": "GB",
+          "country": "United Kingdom",
+          "entries": [
+            {
+              "name": "TNT Sports",
+              "kind": "Live",
+              "note": "Every race including Le Mans under a Warner Bros. Discovery deal that runs to at least 2030."
+            },
+            {
+              "name": "HBO Max",
+              "kind": "Streaming",
+              "note": "Streams TNT Sports' WEC coverage, replacing discovery+ as TNT Sports' streaming home in 2026."
+            },
+            {
+              "name": "FIAWEC+",
+              "kind": "Streaming",
+              "note": "The series' own subscription service, with practice, qualifying and every race live worldwide."
+            }
+          ]
+        },
+        {
+          "code": "IE",
+          "country": "Ireland",
+          "entries": [
+            {
+              "name": "TNT Sports",
+              "kind": "Live",
+              "note": "Every race including Le Mans under a Warner Bros. Discovery deal that runs to at least 2030."
+            },
+            {
+              "name": "HBO Max",
+              "kind": "Streaming",
+              "note": "Streams every lap of every race under the Warner Bros. Discovery deal."
+            },
+            {
+              "name": "FIAWEC+",
+              "kind": "Streaming",
+              "note": "The series' own subscription service, with practice, qualifying and every race live worldwide."
+            }
+          ]
+        },
+        {
+          "code": "US",
+          "country": "United States",
+          "entries": [
+            {
+              "name": "HBO Max",
+              "kind": "Streaming",
+              "note": "Streams all eight races under TNT Sports' multi-year deal that started in April 2026."
+            },
+            {
+              "name": "truTV",
+              "kind": "Selected sessions",
+              "note": "Shows three races on TV: Le Mans, the 6 Hours of Sao Paulo and Lone Star Le Mans."
+            },
+            {
+              "name": "FIAWEC+",
+              "kind": "Streaming",
+              "note": "The series' own subscription service, with practice, qualifying and every race live worldwide."
+            }
+          ]
+        },
+        {
+          "code": "CA",
+          "country": "Canada",
+          "entries": [
+            {
+              "name": "FIAWEC+",
+              "kind": "Streaming",
+              "note": "The series' own subscription service, with practice, qualifying and every race live worldwide."
+            }
+          ]
+        },
+        {
+          "code": "AU",
+          "country": "Australia",
+          "entries": [
+            {
+              "name": "FIAWEC+",
+              "kind": "Streaming",
+              "note": "The series' own subscription service, with practice, qualifying and every race live worldwide."
+            }
+          ]
+        },
+        {
+          "code": "FR",
+          "country": "France",
+          "entries": [
+            {
+              "name": "L'Equipe",
+              "kind": "Free-to-air",
+              "note": "All eight races including Le Mans on free TV, under a deal that runs to the end of 2029."
+            },
+            {
+              "name": "FIAWEC+",
+              "kind": "Streaming",
+              "note": "The series' own subscription service, with practice, qualifying and every race live worldwide."
+            }
+          ]
+        },
+        {
+          "code": "DE",
+          "country": "Germany",
+          "entries": [
+            {
+              "name": "Eurosport",
+              "kind": "Live",
+              "note": "Carries every race in mainland Europe under a Warner Bros. Discovery deal that runs to at least 2030."
+            },
+            {
+              "name": "HBO Max",
+              "kind": "Streaming",
+              "note": "Streams every lap of every race; HBO Max launched in Germany in 2026."
+            },
+            {
+              "name": "FIAWEC+",
+              "kind": "Streaming",
+              "note": "The series' own subscription service, with practice, qualifying and every race live worldwide."
+            }
+          ]
+        }
+      ],
+      "radio": [
+        {
+          "name": "Radio Le Mans",
+          "note": "English-language commentary for endurance racing since 1997",
+          "language": "English",
+          "pageURL": "https://radiolemans.co"
+        }
+      ],
+      "_sources": {
+        "GB": [
+          "https://www.fiawec.com/en/news/warner-bros-discovery-diffusera-le-fia-wec-au-minimum-jusqu-en-2030/8626",
+          "https://media.wbdsports.com/post/fia-world-endurance-championship-remains-on-eurosport-and-tnt-sp",
+          "https://www.24h-lemans.com/en/news/watch-the-94th-edition-of-the-24-hours-of-le-mans-ad-free-with-fiawec-60582"
+        ],
+        "IE": [
+          "https://www.fiawec.com/en/news/warner-bros-discovery-diffusera-le-fia-wec-au-minimum-jusqu-en-2030/8626",
+          "https://media.wbdsports.com/post/fia-world-endurance-championship-remains-on-eurosport-and-tnt-sp",
+          "https://www.24h-lemans.com/en/news/watch-the-94th-edition-of-the-24-hours-of-le-mans-ad-free-with-fiawec-60582"
+        ],
+        "US": [
+          "https://www.sportsvideo.org/2026/04/17/tnt-sports-acquires-u-s-broadcast-rights-to-fia-world-endurance-championship/",
+          "https://press.wbd.com/us/media-release/tnt-sports-acquires-multi-year-us-broadcast-rights-fia-world-endurance-championship",
+          "https://www.24h-lemans.com/en/news/watch-the-94th-edition-of-the-24-hours-of-le-mans-ad-free-with-fiawec-60582"
+        ],
+        "CA": [
+          "https://www.24h-lemans.com/en/news/watch-the-94th-edition-of-the-24-hours-of-le-mans-ad-free-with-fiawec-60582",
+          "https://racer.com/2026/03/18/fia-wec-launches-new-streaming-platform-fiawec-"
+        ],
+        "AU": [
+          "https://www.24h-lemans.com/en/news/watch-the-94th-edition-of-the-24-hours-of-le-mans-ad-free-with-fiawec-60582",
+          "https://www.fiawec.com/en/news/bein-sports-secures-rights-to-fia-wec-across-35-territories/13201"
+        ],
+        "FR": [
+          "https://www.sportcal.com/newsletters/lequipe-carrying-on-as-domestic-le-mans-broadcaster-through-2029",
+          "https://www.24h-lemans.com/en/news/watch-the-94th-edition-of-the-24-hours-of-le-mans-ad-free-with-fiawec-60582"
+        ],
+        "DE": [
+          "https://media.wbdsports.com/post/fia-world-endurance-championship-remains-on-eurosport-and-tnt-sp",
+          "https://www.fiawec.com/en/news/warner-bros-discovery-diffusera-le-fia-wec-au-minimum-jusqu-en-2030/8626"
+        ]
+      }
+    },
+    {
+      "channelID": "formulae",
+      "season": "2026",
+      "regions": [
+        {
+          "code": "GB",
+          "country": "United Kingdom",
+          "entries": [
+            {
+              "name": "ITV",
+              "kind": "Free-to-air",
+              "note": "Every race and qualifying session live on ITVX, with ITV4 coverage; deal runs through Season 13."
+            },
+            {
+              "name": "TNT Sports",
+              "kind": "Live",
+              "note": "Practice, qualifying and races, streaming on HBO Max."
+            },
+            {
+              "name": "Formula E YouTube",
+              "kind": "Free",
+              "note": "Practice sessions streamed live."
+            }
+          ]
+        },
+        {
+          "code": "IE",
+          "country": "Ireland",
+          "entries": [
+            {
+              "name": "ITV",
+              "kind": "Free-to-air",
+              "note": "Races and qualifying live on ITVX; deal runs through Season 13."
+            },
+            {
+              "name": "Virgin Media",
+              "kind": "Live",
+              "note": "Irish broadcast partner."
+            }
+          ]
+        },
+        {
+          "code": "US",
+          "country": "United States",
+          "entries": [
+            {
+              "name": "Roku Sports Channel",
+              "kind": "Live",
+              "note": "Every session live; Disney+ and ESPN+ take over from Season 13 in December 2026."
+            },
+            {
+              "name": "CBS Sports Network",
+              "kind": "Highlights",
+              "note": "Race highlights."
+            },
+            {
+              "name": "Formula E YouTube",
+              "kind": "Free",
+              "note": "Practice sessions streamed live."
+            }
+          ]
+        },
+        {
+          "code": "CA",
+          "country": "Canada",
+          "entries": [
+            {
+              "name": "TSN",
+              "kind": "Live",
+              "note": "Qualifying and races live on TSN and TSN+."
+            },
+            {
+              "name": "TVA Sports",
+              "kind": "Live",
+              "note": "French-language coverage, with qualifying shown on delay."
+            },
+            {
+              "name": "Formula E YouTube",
+              "kind": "Free",
+              "note": "Practice sessions streamed live."
+            }
+          ]
+        },
+        {
+          "code": "AU",
+          "country": "Australia",
+          "entries": [
+            {
+              "name": "Stan Sport",
+              "kind": "Live",
+              "note": "Australian broadcast partner."
+            }
+          ]
+        },
+        {
+          "code": "IT",
+          "country": "Italy",
+          "entries": [
+            {
+              "name": "Mediaset",
+              "kind": "Free-to-air",
+              "note": "Italian broadcast partner."
+            }
+          ]
+        },
+        {
+          "code": "ES",
+          "country": "Spain",
+          "entries": [
+            {
+              "name": "RTVE",
+              "kind": "Free-to-air",
+              "note": "Spanish public broadcaster coverage."
+            },
+            {
+              "name": "DMAX",
+              "kind": "Free-to-air",
+              "note": "Spanish broadcast partner."
+            }
+          ]
+        },
+        {
+          "code": "DE",
+          "country": "Germany",
+          "entries": [
+            {
+              "name": "DF1",
+              "kind": "Free-to-air",
+              "note": "German broadcast partner."
+            }
+          ]
+        },
+        {
+          "code": "FR",
+          "country": "France",
+          "entries": [
+            {
+              "name": "L'Equipe",
+              "kind": "Free-to-air",
+              "note": "French broadcast partner."
+            }
+          ]
+        },
+        {
+          "code": "NL",
+          "country": "Netherlands",
+          "entries": [
+            {
+              "name": "Ziggo Sport",
+              "kind": "Live",
+              "note": "Dutch broadcast partner."
+            }
+          ]
+        }
+      ],
+      "_sources": {
+        "GB": [
+          "https://www.fiaformulae.com/en/ways-to-watch",
+          "https://fiaformulae.com/en/news/760157",
+          "https://www.fiaformulae.com/en/news/1063005/where-and-how-to-watch-formula-e-and-the-2026-berlin-e-prix-in-the-uk"
+        ],
+        "IE": [
+          "https://www.fiaformulae.com/en/ways-to-watch",
+          "https://fiaformulae.com/en/news/760157"
+        ],
+        "US": [
+          "https://www.fiaformulae.com/en/news/1067769",
+          "https://www.fiaformulae.com/en/ways-to-watch",
+          "https://press.disney.co.uk/news/disney-plus-revs-up-as-the-global-streaming-home-of-formula-e"
+        ],
+        "CA": [
+          "https://www.fiaformulae.com/en/news/1067769",
+          "https://www.fiaformulae.com/en/ways-to-watch"
+        ],
+        "AU": [
+          "https://www.fiaformulae.com/en/ways-to-watch"
+        ],
+        "IT": [
+          "https://www.fiaformulae.com/en/ways-to-watch"
+        ],
+        "ES": [
+          "https://www.fiaformulae.com/en/ways-to-watch"
+        ],
+        "DE": [
+          "https://www.fiaformulae.com/en/ways-to-watch"
+        ],
+        "FR": [
+          "https://www.fiaformulae.com/en/ways-to-watch"
+        ],
+        "NL": [
+          "https://www.fiaformulae.com/en/ways-to-watch"
+        ]
+      }
     },
     {
       "channelID": "motogp",
@@ -78,12 +998,17 @@
             {
               "name": "TNT Sports",
               "kind": "Live",
-              "note": "Every race weekend live; streaming via HBO Max"
+              "note": "Every session of all classes live, streaming on HBO Max."
             },
             {
               "name": "Quest",
-              "kind": "Free-to-air",
-              "note": "Every sprint on a short delay, plus a Monday highlights show"
+              "kind": "Highlights",
+              "note": "Free Sprint races on a short delay and a highlights show after each round."
+            },
+            {
+              "name": "MotoGP VideoPass",
+              "kind": "Streaming",
+              "note": "MotoGP's own service with every session live."
             }
           ]
         },
@@ -94,7 +1019,7 @@
             {
               "name": "TNT Sports",
               "kind": "Live",
-              "note": "Covered by the same rights deal as the UK"
+              "note": "Every session of all classes live."
             }
           ]
         },
@@ -103,49 +1028,245 @@
           "country": "United States",
           "entries": [
             {
-              "name": "FOX Sports 1 / FOX Sports 2",
+              "name": "FOX Sports",
               "kind": "Live",
-              "note": "Every Grand Prix and sprint, also on the FOX Sports app"
+              "note": "Every race live on FS1 and FS2."
             },
             {
-              "name": "The MotoGP Channel",
+              "name": "MotoGP Channel",
               "kind": "Free",
-              "note": "Ad-supported channel carrying practice, qualifying, Moto2, Moto3 and MotoE"
+              "note": "Free ad-supported channel with live MotoGP practice and qualifying plus Moto2 and Moto3 races."
+            },
+            {
+              "name": "MotoGP VideoPass",
+              "kind": "Streaming",
+              "note": "MotoGP's own service, needed for live premier-class races outside FOX."
+            }
+          ]
+        },
+        {
+          "code": "CA",
+          "country": "Canada",
+          "entries": [
+            {
+              "name": "Sportsnet",
+              "kind": "Live",
+              "note": "Canadian broadcast partner for every Grand Prix."
+            }
+          ]
+        },
+        {
+          "code": "AU",
+          "country": "Australia",
+          "entries": [
+            {
+              "name": "Fox Sports and Kayo",
+              "kind": "Live",
+              "note": "Every session live; deal renewed from 2027."
+            },
+            {
+              "name": "Network 10",
+              "kind": "Free-to-air",
+              "note": "Australian Grand Prix live and free on 10 and 10 Play."
+            }
+          ]
+        },
+        {
+          "code": "IT",
+          "country": "Italy",
+          "entries": [
+            {
+              "name": "Sky Italia",
+              "kind": "Live",
+              "note": "Every session live."
+            },
+            {
+              "name": "TV8",
+              "kind": "Free-to-air",
+              "note": "Free-to-air partner; sessions shown vary by round."
+            }
+          ]
+        },
+        {
+          "code": "ES",
+          "country": "Spain",
+          "entries": [
+            {
+              "name": "DAZN",
+              "kind": "Live",
+              "note": "Every session live."
+            }
+          ]
+        },
+        {
+          "code": "DE",
+          "country": "Germany",
+          "entries": [
+            {
+              "name": "Sky Deutschland",
+              "kind": "Live",
+              "note": "Pay-TV broadcast partner."
+            },
+            {
+              "name": "DF1",
+              "kind": "Free-to-air",
+              "note": "Free-to-air partner; sessions shown vary by round."
+            }
+          ]
+        },
+        {
+          "code": "FR",
+          "country": "France",
+          "entries": [
+            {
+              "name": "Canal+",
+              "kind": "Live",
+              "note": "Pay-TV broadcast partner."
+            }
+          ]
+        },
+        {
+          "code": "NL",
+          "country": "Netherlands",
+          "entries": [
+            {
+              "name": "Ziggo Sport",
+              "kind": "Live",
+              "note": "Pay-TV broadcast partner."
+            },
+            {
+              "name": "NOS",
+              "kind": "Free-to-air",
+              "note": "Public broadcaster coverage; sessions shown vary by round."
             }
           ]
         }
-      ]
-    },
-    {
-      "channelID": "wec",
-      "season": "2026",
-      "regions": [],
-      "radio": [
-        {
-          "name": "Radio Le Mans",
-          "note": "English-language commentary for endurance racing since 1997",
-          "language": "English",
-          "pageURL": "https://radiolemans.co"
-        }
-      ]
-    },
-    {
-      "channelID": "imsa",
-      "season": "2026",
-      "regions": [],
-      "radio": [
-        {
-          "name": "Radio Le Mans",
-          "note": "Covers IMSA race weekends alongside the WEC",
-          "language": "English",
-          "pageURL": "https://radiolemans.co"
-        }
-      ]
+      ],
+      "_sources": {
+        "GB": [
+          "https://www.motogp.com/en/broadcasters",
+          "https://www.silverstone.co.uk/news/how-watch-motogp-uk-your-2026-tv-streaming-guide",
+          "https://www.tntsports.co.uk/moto/tnt-sports-motogp-live-coverage-uk-2025-deal_sto20053373/story.shtml"
+        ],
+        "IE": [
+          "https://www.tntsports.co.uk/moto/tnt-sports-motogp-live-coverage-uk-2025-deal_sto20053373/story.shtml",
+          "https://www.sportcal.com/media/tnt-sports-extends-long-running-motogp-deal-in-uk-and-ireland/"
+        ],
+        "US": [
+          "https://www.motogp.com/en/broadcasters",
+          "https://thedesk.net/2025/02/fox-sports-motogp-races-tv-rights/",
+          "https://www.motogp.com/en/news/2025/08/12/new-247-motogp-channel-launches-across-the-us/756163"
+        ],
+        "CA": [
+          "https://www.motogp.com/en/broadcasters"
+        ],
+        "AU": [
+          "https://www.motogp.com/en/broadcasters",
+          "https://tvblackbox.com.au/page/2026/10/24/where-to-watch-the-final-phillip-island-motogp-live-this-weekend/",
+          "https://tvblackbox.com.au/page/2026/09/04/motogp-stays-with-kayo-sports-and-foxtel-in-new-rights-deal/"
+        ],
+        "IT": [
+          "https://www.motogp.com/en/broadcasters"
+        ],
+        "ES": [
+          "https://www.motogp.com/en/broadcasters"
+        ],
+        "DE": [
+          "https://www.motogp.com/en/broadcasters"
+        ],
+        "FR": [
+          "https://www.motogp.com/en/broadcasters"
+        ],
+        "NL": [
+          "https://www.motogp.com/en/broadcasters"
+        ]
+      }
     },
     {
       "channelID": "nascar",
       "season": "2026",
-      "regions": [],
+      "regions": [
+        {
+          "code": "US",
+          "country": "United States",
+          "entries": [
+            {
+              "name": "FOX and FS1",
+              "kind": "Live",
+              "note": "The first 15 Cup races from February to mid-May, including the Daytona 500; six on FOX, nine on FS1."
+            },
+            {
+              "name": "Prime Video",
+              "kind": "Streaming",
+              "note": "Five Cup races in late May and June, from the Coca-Cola 600 to San Diego."
+            },
+            {
+              "name": "TNT Sports",
+              "kind": "Live",
+              "note": "Five Cup races in late June and July, from Sonoma to Indianapolis, on TNT and truTV with streaming on HBO Max."
+            },
+            {
+              "name": "NBC and USA Network",
+              "kind": "Live",
+              "note": "The last 14 races from August, including the playoffs, with 10 on USA Network and 4 on NBC; streams on Peacock."
+            }
+          ]
+        },
+        {
+          "code": "GB",
+          "country": "United Kingdom",
+          "entries": [
+            {
+              "name": "Premier Sports",
+              "kind": "Live",
+              "note": "Shows Cup Series races live; available through Sky or the Premier Player app."
+            }
+          ]
+        },
+        {
+          "code": "IE",
+          "country": "Ireland",
+          "entries": [
+            {
+              "name": "Premier Sports",
+              "kind": "Live",
+              "note": "Shows Cup Series races live; available through Sky or the Premier Player app."
+            }
+          ]
+        },
+        {
+          "code": "CA",
+          "country": "Canada",
+          "entries": [
+            {
+              "name": "TSN and CTV",
+              "kind": "Live",
+              "note": "Bell Media holds Cup, Xfinity and Truck rights, with races split across TSN and CTV; CTV showed the Daytona 500 live."
+            },
+            {
+              "name": "TSN+",
+              "kind": "Streaming",
+              "note": "Bell Media's streaming service carries its NASCAR coverage."
+            }
+          ]
+        },
+        {
+          "code": "AU",
+          "country": "Australia",
+          "entries": [
+            {
+              "name": "Fox Sports",
+              "kind": "Live",
+              "note": "NASCAR renewed its deal with FOX Sports Australia for 2026; shown on Foxtel."
+            },
+            {
+              "name": "Kayo Sports",
+              "kind": "Streaming",
+              "note": "Streams Fox Sports' NASCAR coverage."
+            }
+          ]
+        }
+      ],
       "radio": [
         {
           "name": "Motor Racing Network",
@@ -153,7 +1274,1453 @@
           "language": "English",
           "pageURL": "https://www.mrn.com/live-audio-popup/"
         }
-      ]
+      ],
+      "_sources": {
+        "US": [
+          "https://us.speedcafe.com/nascar-unveils-2026-broadcast-schedules/",
+          "https://www.jayski.com/2025/11/12/nascar-announces-2026-season-start-times-and-networks-for-all-national-series/"
+        ],
+        "GB": [
+          "https://www.nascar.com/news-media/2026/02/13/daytona-500-to-air-in-more-than-185-countries-and-territories-in-23-languages/",
+          "https://www.blackcircles.com/news/nascar-broadcasting-guide"
+        ],
+        "IE": [
+          "https://www.nascar.com/news-media/2026/02/13/daytona-500-to-air-in-more-than-185-countries-and-territories-in-23-languages/",
+          "https://www.blackcircles.com/news/nascar-broadcasting-guide"
+        ],
+        "CA": [
+          "https://www.bellmedia.ca/the-lede/press/nascar-announces-long-term-media-rights-deals-in-canada-headlined-by-renewal-of-long-time-partnership-with-bell-media/",
+          "https://www.nascar.com/news-media/2026/02/13/daytona-500-to-air-in-more-than-185-countries-and-territories-in-23-languages/"
+        ],
+        "AU": [
+          "https://www.nascar.com/news-media/2026/02/13/daytona-500-to-air-in-more-than-185-countries-and-territories-in-23-languages/",
+          "https://foxtelgroup.com.au/newsroom/kayo-sports-leads-australia-with-historic-motorsport-launch-2"
+        ]
+      }
+    },
+    {
+      "channelID": "indycar",
+      "season": "2026",
+      "regions": [
+        {
+          "code": "US",
+          "country": "United States",
+          "entries": [
+            {
+              "name": "FOX",
+              "kind": "Live",
+              "note": "Every race on the FOX network, including the Indianapolis 500."
+            },
+            {
+              "name": "FS1 and FS2",
+              "kind": "Selected sessions",
+              "note": "All practice and qualifying sessions air on FS1 or FS2."
+            },
+            {
+              "name": "FOX One",
+              "kind": "Streaming",
+              "note": "Streams every race, practice and qualifying session."
+            }
+          ]
+        },
+        {
+          "code": "GB",
+          "country": "United Kingdom",
+          "entries": [
+            {
+              "name": "Sky Sports",
+              "kind": "Live",
+              "note": "Sky Sports remains IndyCar's UK broadcaster for 2026."
+            }
+          ]
+        },
+        {
+          "code": "CA",
+          "country": "Canada",
+          "entries": [
+            {
+              "name": "TSN",
+              "kind": "Live",
+              "note": "TSN returns as IndyCar's Canadian broadcaster for 2026."
+            },
+            {
+              "name": "TSN+",
+              "kind": "Streaming",
+              "note": "TSN's streaming service is listed alongside TSN."
+            }
+          ]
+        },
+        {
+          "code": "AU",
+          "country": "Australia",
+          "entries": [
+            {
+              "name": "Stan Sport",
+              "kind": "Live",
+              "note": "Stan Sport is IndyCar's Australian broadcaster for 2026."
+            }
+          ]
+        },
+        {
+          "code": "FR",
+          "country": "France",
+          "entries": [
+            {
+              "name": "Canal+",
+              "kind": "Live",
+              "note": "Canal+ carries the series in France for 2026."
+            }
+          ]
+        },
+        {
+          "code": "DE",
+          "country": "Germany",
+          "entries": [
+            {
+              "name": "Sky Sport",
+              "kind": "Live",
+              "note": "Sky covers the series in Germany, Austria and Switzerland."
+            },
+            {
+              "name": "Motorvision",
+              "kind": "Live",
+              "note": "Also broadcasts the series in Germany, Austria and Switzerland."
+            }
+          ]
+        }
+      ],
+      "_sources": {
+        "US": [
+          "https://www.foxsports.com/articles/motor/fox-sports-indycar-unveil-2026-race-broadcast-start-times",
+          "https://www.indycar.com/news/2025/12/12-18-2026-nics-tv-times"
+        ],
+        "GB": [
+          "https://www.indycar.com/news/2026/02/02-19-international-tv"
+        ],
+        "CA": [
+          "https://www.indycar.com/news/2026/02/02-19-international-tv",
+          "https://www.indycar.com/how-to-follow/international"
+        ],
+        "AU": [
+          "https://www.indycar.com/news/2026/02/02-19-international-tv",
+          "https://www.indycar.com/how-to-follow/international"
+        ],
+        "FR": [
+          "https://www.indycar.com/news/2026/02/02-19-international-tv",
+          "https://www.indycar.com/how-to-follow/international"
+        ],
+        "DE": [
+          "https://www.indycar.com/news/2026/02/02-19-international-tv"
+        ]
+      }
+    },
+    {
+      "channelID": "nhra",
+      "season": "2026",
+      "regions": [
+        {
+          "code": "US",
+          "country": "United States",
+          "entries": [
+            {
+              "name": "FOX and FS1",
+              "kind": "Live",
+              "note": "All 20 national events air on FOX or FS1. In 2027 FOX keeps the first 13 races, The CW gets the final seven and FloRacing streams qualifying and eliminations."
+            },
+            {
+              "name": "FOX One",
+              "kind": "Streaming",
+              "note": "Streams the FOX and FS1 telecasts."
+            },
+            {
+              "name": "NHRA.tv",
+              "kind": "Streaming",
+              "note": "The series' own service shows every professional pass live, by season pass or per event."
+            }
+          ]
+        },
+        {
+          "code": "CA",
+          "country": "Canada",
+          "entries": [
+            {
+              "name": "FOX Sports Racing",
+              "kind": "Live",
+              "note": "Carries NHRA races in Canada and the Caribbean."
+            },
+            {
+              "name": "FOX One",
+              "kind": "Streaming",
+              "note": "Listed alongside FOX Sports Racing for Canadian viewers."
+            }
+          ]
+        }
+      ],
+      "_sources": {
+        "US": [
+          "https://nhra.com/news/2026/nhra-fox-sports-announce-2026-nhra-tv-schedule-75th-anniversary-season",
+          "https://www.draglist.com/2026/02/18/nhra-releases-free-2026-streaming-schedule-for-2026/",
+          "https://www.sportsvideo.org/2026/09/30/nhra-announces-multi-year-media-rights-deals-with-fox-sports-the-cw-and-flosports/"
+        ],
+        "CA": [
+          "https://nhra.com/news/2026/nhra-fox-sports-announce-2026-nhra-tv-schedule-75th-anniversary-season"
+        ]
+      }
+    },
+    {
+      "channelID": "imsa",
+      "season": "2026",
+      "regions": [
+        {
+          "code": "US",
+          "country": "United States",
+          "entries": [
+            {
+              "name": "Peacock",
+              "kind": "Streaming",
+              "note": "Flag-to-flag coverage of every race and qualifying session, much of it exclusive to Peacock."
+            },
+            {
+              "name": "NBC",
+              "kind": "Selected sessions",
+              "note": "Shows parts of selected races, including the start and finish of the Rolex 24 and full Long Beach and Detroit races."
+            },
+            {
+              "name": "NBCSN",
+              "kind": "Selected sessions",
+              "note": "Simulcasts parts of selected races, such as the closing hours of Sebring and Petit Le Mans."
+            }
+          ]
+        },
+        {
+          "code": "GB",
+          "country": "United Kingdom",
+          "entries": [
+            {
+              "name": "IMSA.tv and IMSA YouTube",
+              "kind": "Free",
+              "note": "The series streams races and qualifying free outside the United States."
+            }
+          ]
+        },
+        {
+          "code": "IE",
+          "country": "Ireland",
+          "entries": [
+            {
+              "name": "IMSA.tv and IMSA YouTube",
+              "kind": "Free",
+              "note": "The series streams races and qualifying free outside the United States."
+            }
+          ]
+        },
+        {
+          "code": "CA",
+          "country": "Canada",
+          "entries": [
+            {
+              "name": "IMSA.tv and IMSA YouTube",
+              "kind": "Free",
+              "note": "The series streams races and qualifying free outside the United States."
+            }
+          ]
+        },
+        {
+          "code": "AU",
+          "country": "Australia",
+          "entries": [
+            {
+              "name": "IMSA.tv and IMSA YouTube",
+              "kind": "Free",
+              "note": "The series streams races and qualifying free outside the United States."
+            }
+          ]
+        }
+      ],
+      "radio": [
+        {
+          "name": "Radio Le Mans",
+          "note": "Covers IMSA race weekends alongside the WEC",
+          "language": "English",
+          "pageURL": "https://radiolemans.co"
+        }
+      ],
+      "_sources": {
+        "US": [
+          "https://www.nbcsports.com/pressbox/press-releases/nbc-sports-to-present-160-hours-of-2026-imsa-coverage-across-nbc-peacock-and-nbcsn",
+          "https://www.imsa.com/news/2025/12/18/nbc-sports-to-present-160-hours-of-2026-imsa-coverage-across-nbc-peacock-and-nbcsn/"
+        ],
+        "GB": [
+          "https://www.imsa.com/news/2026/07/01/entry-list-notebook-chevrolet-grand-prix-2/",
+          "https://grandepremio.com/en/endurance/petit-le-mans-2026-start-time-how-to-watch-and-imsa-title-contenders/"
+        ],
+        "IE": [
+          "https://www.imsa.com/news/2026/07/01/entry-list-notebook-chevrolet-grand-prix-2/"
+        ],
+        "CA": [
+          "https://www.imsa.com/news/2026/07/01/entry-list-notebook-chevrolet-grand-prix-2/"
+        ],
+        "AU": [
+          "https://www.imsa.com/news/2026/07/01/entry-list-notebook-chevrolet-grand-prix-2/",
+          "https://grandepremio.com/en/endurance/petit-le-mans-2026-start-time-how-to-watch-and-imsa-title-contenders/"
+        ]
+      }
+    },
+    {
+      "channelID": "snooker",
+      "season": "2026-27",
+      "regions": [
+        {
+          "code": "GB",
+          "country": "United Kingdom",
+          "entries": [
+            {
+              "name": "BBC",
+              "kind": "Free-to-air",
+              "note": "World Championship, UK Championship and Masters live on BBC TV and iPlayer."
+            },
+            {
+              "name": "TNT Sports",
+              "kind": "Live",
+              "note": "Most ranking events plus every frame of the Triple Crown, streamed on HBO Max."
+            },
+            {
+              "name": "Channel 5",
+              "kind": "Free-to-air",
+              "note": "Players Championship, Tour Championship and British Open live."
+            }
+          ]
+        },
+        {
+          "code": "IE",
+          "country": "Ireland",
+          "entries": [
+            {
+              "name": "TNT Sports",
+              "kind": "Live",
+              "note": "Most ranking events plus the Triple Crown live."
+            },
+            {
+              "name": "HBO Max",
+              "kind": "Streaming",
+              "note": "Streams the TNT Sports snooker coverage."
+            }
+          ]
+        },
+        {
+          "code": "US",
+          "country": "United States",
+          "entries": [
+            {
+              "name": "WST Play",
+              "kind": "Streaming",
+              "note": "World Snooker Tour's own subscription service, every event live."
+            }
+          ]
+        },
+        {
+          "code": "CA",
+          "country": "Canada",
+          "entries": [
+            {
+              "name": "WST Play",
+              "kind": "Streaming",
+              "note": "World Snooker Tour's own subscription service, every event live."
+            }
+          ]
+        },
+        {
+          "code": "AU",
+          "country": "Australia",
+          "entries": [
+            {
+              "name": "WST Play",
+              "kind": "Streaming",
+              "note": "World Snooker Tour's own subscription service, every event live."
+            }
+          ]
+        },
+        {
+          "code": "CN",
+          "country": "China",
+          "entries": [
+            {
+              "name": "CCTV5",
+              "kind": "Selected events",
+              "note": "Shows selected events, including the major China-based tournaments."
+            },
+            {
+              "name": "Migu",
+              "kind": "Streaming",
+              "note": "Streams World Snooker Tour events."
+            },
+            {
+              "name": "Huya",
+              "kind": "Streaming",
+              "note": "Streams World Snooker Tour events."
+            }
+          ]
+        }
+      ],
+      "_sources": {
+        "GB": [
+          "https://www.svgeurope.org/blog/headlines/bbc-sport-and-world-snooker-tour-extend-broadcast-deal-to-2032/",
+          "https://media.wbdsports.com/post/tnt-sports-continues-as-the-home-of-snooker-in-the-uk-and-irelan",
+          "https://www.advanced-television.com/2025/06/25/5-to-broadcast-snooker-ranking-events",
+          "https://www.wpbsa.com/how-to-watch-the-international-championship-4/"
+        ],
+        "IE": [
+          "https://www.wpbsa.com/how-to-watch-the-international-championship-4/",
+          "https://www.wpbsa.com/how-to-watch-the-betvictor-northern-ireland-open-2026/",
+          "https://media.wbdsports.com/post/tnt-sports-continues-as-the-home-of-snooker-in-the-uk-and-irelan"
+        ],
+        "US": [
+          "https://www.wpbsa.com/how-to-watch-the-international-championship-4/",
+          "https://www.sportspro.com/news/broadcast-ott/wst-play-snooker-global-streaming-service-launch-january-2025/"
+        ],
+        "CA": [
+          "https://www.wpbsa.com/how-to-watch-the-international-championship-4/",
+          "https://www.sportspro.com/news/broadcast-ott/wst-play-snooker-global-streaming-service-launch-january-2025/"
+        ],
+        "AU": [
+          "https://www.wpbsa.com/how-to-watch-the-international-championship-4/",
+          "https://www.sportspro.com/news/broadcast-ott/wst-play-snooker-global-streaming-service-launch-january-2025/"
+        ],
+        "CN": [
+          "https://www.wpbsa.com/how-to-watch-the-international-championship-4/",
+          "https://www.wpbsa.com/how-to-watch-the-betvictor-northern-ireland-open-2026/"
+        ]
+      }
+    },
+    {
+      "channelID": "darts",
+      "season": "2026-27",
+      "regions": [
+        {
+          "code": "GB",
+          "country": "United Kingdom",
+          "entries": [
+            {
+              "name": "Sky Sports",
+              "kind": "Live",
+              "note": "World Championship, Premier League, World Matchplay, World Grand Prix, Grand Slam and World Cup live."
+            },
+            {
+              "name": "ITV",
+              "kind": "Free-to-air",
+              "note": "World Masters, UK Open, European Championship, Players Championship Finals and World Series events on ITV4 and ITVX."
+            }
+          ]
+        },
+        {
+          "code": "IE",
+          "country": "Ireland",
+          "entries": [
+            {
+              "name": "Sky Sports",
+              "kind": "Live",
+              "note": "World Championship, Premier League, World Matchplay, World Grand Prix, Grand Slam and World Cup live."
+            }
+          ]
+        },
+        {
+          "code": "US",
+          "country": "United States",
+          "entries": [
+            {
+              "name": "PDCTV",
+              "kind": "Streaming",
+              "note": "The PDC's own subscription service streams the major events."
+            }
+          ]
+        },
+        {
+          "code": "CA",
+          "country": "Canada",
+          "entries": [
+            {
+              "name": "PDCTV",
+              "kind": "Streaming",
+              "note": "The PDC's own subscription service streams the major events."
+            }
+          ]
+        },
+        {
+          "code": "AU",
+          "country": "Australia",
+          "entries": [
+            {
+              "name": "Fox Sports",
+              "kind": "Live",
+              "note": "PDC major events live."
+            }
+          ]
+        },
+        {
+          "code": "DE",
+          "country": "Germany",
+          "entries": [
+            {
+              "name": "DAZN",
+              "kind": "Live",
+              "note": "All PDC major events live."
+            },
+            {
+              "name": "SPORT1",
+              "kind": "Free-to-air",
+              "note": "World Championship live, its last season before ProSiebenSat.1 takes over."
+            }
+          ]
+        },
+        {
+          "code": "NL",
+          "country": "Netherlands",
+          "entries": [
+            {
+              "name": "Viaplay",
+              "kind": "Live",
+              "note": "PDC major events live."
+            }
+          ]
+        }
+      ],
+      "_sources": {
+        "GB": [
+          "https://www.skysports.com/darts/news/12288/13302934/sky-sports-to-remain-home-of-darts-until-2030-after-deal-with-pdc-extended-following-unprecedented-success",
+          "https://www.pdc.tv/news/2025/10/29/pdc-itv-agree-new-multi-year-broadcast-agreement",
+          "https://www.pdc.tv/news/2026/july/18/where-to-watch-the-2026-betfred-world-matchplay/"
+        ],
+        "IE": [
+          "https://www.pdc.tv/news/2026/july/18/where-to-watch-the-2026-betfred-world-matchplay/",
+          "https://www.irishtimes.com/sport/2025/02/04/darts-to-continue-on-sky-sports-after-new-five-year-broadcast-deal"
+        ],
+        "US": [
+          "https://www.pdc.tv/news/2026/september/27/2026-boyle-sports-world-grand-prix-preview/"
+        ],
+        "CA": [
+          "https://www.pdc.tv/news/2026/september/27/2026-boyle-sports-world-grand-prix-preview/"
+        ],
+        "AU": [
+          "https://www.pdc.tv/news/2026/july/18/where-to-watch-the-2026-betfred-world-matchplay/"
+        ],
+        "DE": [
+          "https://www.pdc.tv/news/2026/july/18/where-to-watch-the-2026-betfred-world-matchplay/",
+          "https://www.tvmovie.de/news/darts-wm-wechsel-nach-ueber-20-jahren-im-free-tv-das-aendert-sich-fuer-fans-156223"
+        ],
+        "NL": [
+          "https://www.pdc.tv/news/2026/july/18/where-to-watch-the-2026-betfred-world-matchplay/",
+          "https://dartsnews.com/pdc/grand-slam-of-darts-2026-live-what-time-does-it-start-and-how-can-you-watch-in-the-uk"
+        ]
+      }
+    },
+    {
+      "channelID": "tennis",
+      "season": "2026",
+      "regions": [
+        {
+          "code": "GB",
+          "country": "United Kingdom",
+          "entries": [
+            {
+              "name": "Sky Sports",
+              "kind": "Live",
+              "note": "ATP and WTA tours, both Finals and the US Open live."
+            },
+            {
+              "name": "BBC",
+              "kind": "Free-to-air",
+              "note": "Wimbledon live on BBC TV and iPlayer."
+            },
+            {
+              "name": "TNT Sports",
+              "kind": "Live",
+              "note": "Australian Open and Roland-Garros live, streamed on HBO Max."
+            },
+            {
+              "name": "Tennis TV",
+              "kind": "Streaming",
+              "note": "ATP's own subscription service for ATP tour events, not the Grand Slams."
+            }
+          ]
+        },
+        {
+          "code": "IE",
+          "country": "Ireland",
+          "entries": [
+            {
+              "name": "Sky Sports",
+              "kind": "Live",
+              "note": "ATP and WTA tours, both Finals and the US Open live."
+            },
+            {
+              "name": "TNT Sports",
+              "kind": "Live",
+              "note": "Australian Open and Roland-Garros live."
+            },
+            {
+              "name": "Tennis TV",
+              "kind": "Streaming",
+              "note": "ATP's own subscription service for ATP tour events, not the Grand Slams."
+            }
+          ]
+        },
+        {
+          "code": "US",
+          "country": "United States",
+          "entries": [
+            {
+              "name": "Tennis Channel",
+              "kind": "Live",
+              "note": "ATP and WTA tour events live, including the WTA Finals."
+            },
+            {
+              "name": "ESPN",
+              "kind": "Live",
+              "note": "Australian Open, Wimbledon and US Open live."
+            },
+            {
+              "name": "TNT Sports",
+              "kind": "Live",
+              "note": "Roland-Garros live on TNT and truTV, every match on HBO Max."
+            },
+            {
+              "name": "Tennis TV",
+              "kind": "Streaming",
+              "note": "ATP's own subscription service for ATP tour events, not the Grand Slams."
+            }
+          ]
+        },
+        {
+          "code": "CA",
+          "country": "Canada",
+          "entries": [
+            {
+              "name": "TSN",
+              "kind": "Live",
+              "note": "ATP and WTA events and all four Grand Slams in English, RDS in French."
+            },
+            {
+              "name": "Tennis TV",
+              "kind": "Streaming",
+              "note": "ATP's own subscription service for ATP tour events, not the Grand Slams."
+            }
+          ]
+        },
+        {
+          "code": "AU",
+          "country": "Australia",
+          "entries": [
+            {
+              "name": "Nine",
+              "kind": "Free-to-air",
+              "note": "All four Grand Slams on Nine and 9Now."
+            },
+            {
+              "name": "Stan Sport",
+              "kind": "Live",
+              "note": "Every Grand Slam match live, plus WTA tour events."
+            },
+            {
+              "name": "beIN Sports",
+              "kind": "Live",
+              "note": "ATP and WTA tour events live."
+            },
+            {
+              "name": "Tennis TV",
+              "kind": "Streaming",
+              "note": "ATP's own subscription service for ATP tour events, not the Grand Slams."
+            }
+          ]
+        }
+      ],
+      "_sources": {
+        "GB": [
+          "https://www.wtatennis.com/news/4427329/elite-competition-global-reach-and-star-power-usher-in-2026-wta-tour-season",
+          "https://broadcastnow.co.uk/broadcasting/atp-and-wta-land-on-sky-sports/5188161.article",
+          "https://www.advanced-television.com/2026/09/11/sky-sports-extends-us-open-rights-2/",
+          "https://www.sportcal.com/newsletters/bbc-retains-wimbledon-rights-through-2033-players-protest-prize-pot",
+          "https://www.advanced-television.com/2026/01/12/wbd-readies-for-2026-australian-open/",
+          "https://www.tennismajors.com/atp/how-to-watch-roland-garros-2026-tv-streaming-free-options-849752.html",
+          "https://support.tennistv.com/hc/en-us/articles/21873885536028-Is-Tennis-TV-available-in-my-country"
+        ],
+        "IE": [
+          "https://broadcastnow.co.uk/broadcasting/atp-and-wta-land-on-sky-sports/5188161.article",
+          "https://www.advanced-television.com/2026/09/11/sky-sports-extends-us-open-rights-2/",
+          "https://www.advanced-television.com/2026/01/12/wbd-readies-for-2026-australian-open/",
+          "https://www.tennismajors.com/atp/how-to-watch-roland-garros-2026-tv-streaming-free-options-849752.html",
+          "https://support.tennistv.com/hc/en-us/articles/21873885536028-Is-Tennis-TV-available-in-my-country"
+        ],
+        "US": [
+          "https://www.wtatennis.com/news/4427329/elite-competition-global-reach-and-star-power-usher-in-2026-wta-tour-season",
+          "https://www.sportspro.com/analysis/womens-sport/2026-wta-finals-can-us-relocation-deliver-the-super-bowl-of-tennis-after-saudi-exit/",
+          "https://espnpressroom.com/press-release/espn-and-usta-extend-relationship-with-new-12-year-agreement/",
+          "https://super.tennis/watch/where-to-watch-grand-slams/",
+          "https://www.tennismajors.com/atp/how-to-watch-roland-garros-2026-tv-streaming-free-options-849752.html",
+          "https://support.tennistv.com/hc/en-us/articles/21873885536028-Is-Tennis-TV-available-in-my-country"
+        ],
+        "CA": [
+          "https://www.tsn.ca/tennis/article/atp-on-tsn-national-broadcast-schedule-3/",
+          "https://www.sportspro.com/analysis/womens-sport/2026-wta-finals-can-us-relocation-deliver-the-super-bowl-of-tennis-after-saudi-exit/",
+          "https://www.tennismajors.com/atp/how-to-watch-roland-garros-2026-tv-streaming-free-options-849752.html",
+          "https://super.tennis/watch/where-to-watch-grand-slams/",
+          "https://support.tennistv.com/hc/en-us/articles/21873885536028-Is-Tennis-TV-available-in-my-country"
+        ],
+        "AU": [
+          "https://www.adnews.com.au/news/nine-extends-wimbledon-broadcast-rights",
+          "https://www.tennismajors.com/atp/how-to-watch-roland-garros-2026-tv-streaming-free-options-849752.html",
+          "https://super.tennis/watch/where-to-watch-grand-slams/",
+          "https://www.sportcal.com/media/bein-extends-atp-deal-in-australia-through-2027/",
+          "https://tvblackbox.com.au/page/2026/03/06/stan-sport-expands-tennis-coverage-with-wta-tour-rights-deal/",
+          "https://www.sportspro.com/analysis/womens-sport/2026-wta-finals-can-us-relocation-deliver-the-super-bowl-of-tennis-after-saudi-exit/",
+          "https://support.tennistv.com/hc/en-us/articles/21873885536028-Is-Tennis-TV-available-in-my-country"
+        ]
+      }
+    },
+    {
+      "channelID": "premierleague",
+      "season": "2026-27",
+      "regions": [
+        {
+          "code": "GB",
+          "country": "United Kingdom",
+          "entries": [
+            {
+              "name": "Sky Sports",
+              "kind": "Live",
+              "note": "At least 215 live matches a season, including Sunday afternoons and Monday Night Football."
+            },
+            {
+              "name": "TNT Sports",
+              "kind": "Live",
+              "note": "52 live matches, built around the Saturday 12:30 kick-off; also streams on HBO Max."
+            },
+            {
+              "name": "BBC (Match of the Day)",
+              "kind": "Highlights",
+              "note": "Free-to-air highlights of all 380 matches on BBC One and iPlayer."
+            }
+          ]
+        },
+        {
+          "code": "IE",
+          "country": "Ireland",
+          "entries": [
+            {
+              "name": "Sky Sports",
+              "kind": "Live",
+              "note": "Shows the same live matches as in the UK."
+            },
+            {
+              "name": "TNT Sports",
+              "kind": "Live",
+              "note": "Shows the same live matches as in the UK."
+            },
+            {
+              "name": "Premier Sports",
+              "kind": "Selected matches",
+              "note": "Carries Saturday 3pm kick-offs that are not shown live in the UK."
+            }
+          ]
+        },
+        {
+          "code": "US",
+          "country": "United States",
+          "entries": [
+            {
+              "name": "Peacock",
+              "kind": "Streaming",
+              "note": "Streams around 175 matches a season exclusively."
+            },
+            {
+              "name": "NBC / USA Network",
+              "kind": "Live",
+              "note": "NBCUniversal holds all 380 matches; the rest air on NBC and USA Network."
+            },
+            {
+              "name": "Telemundo / Universo",
+              "kind": "Live",
+              "note": "Spanish-language coverage of selected matches."
+            }
+          ]
+        },
+        {
+          "code": "CA",
+          "country": "Canada",
+          "entries": [
+            {
+              "name": "Fubo",
+              "kind": "Streaming",
+              "note": "Exclusive home of all 380 matches, under a deal that runs to 2027-28."
+            }
+          ]
+        },
+        {
+          "code": "AU",
+          "country": "Australia",
+          "entries": [
+            {
+              "name": "Stan Sport",
+              "kind": "Streaming",
+              "note": "Every match live and exclusive; rights extended to 2033-34."
+            }
+          ]
+        }
+      ],
+      "_sources": {
+        "GB": [
+          "https://www.premierleague.com/es/news/3807882",
+          "https://www.flashscore.co.uk/news/football-premier-league-where-to-watch-the-premier-league-in-2026-27-tv-broadcasters-and-highlights/Aslkj9O6/"
+        ],
+        "IE": [
+          "https://www.flashscore.co.uk/news/football-premier-league-where-to-watch-the-premier-league-in-2026-27-tv-broadcasters-and-highlights/Aslkj9O6/",
+          "https://www.leagueofireland.ie/news/league-ireland-and-premier-sports-announce-new-innovative-partnership-loitv/"
+        ],
+        "US": [
+          "https://www.si.com/soccer/2021/11/18/premier-league-broadcast-rights-nbc-usa-tv",
+          "https://www.nbcsports.com/pressbox/press-releases/arsenal-host-chelsea-this-sunday-sept-6-at-11-30-a-m-et-on-usa-network-and-telemundo-headlining-nbc-sports-premier-league-coverage-this-weekend"
+        ],
+        "CA": [
+          "https://www.businesswire.com/news/home/20250417021019/en/Fubo-Retains-Exclusive-Rights-to-Premier-League-in-Canada-With-Multi-Year-Agreement-Beginning-With-20252026-Season",
+          "https://www.sportcal.com/media/fubo-remains-home-of-premier-league-in-canada-through-2027-28/"
+        ],
+        "AU": [
+          "https://au.variety.com/2025/tv/news/nine-exclusive-rights-premier-league-emirates-fa-cup-24342",
+          "https://www.fool.com.au/2026/09/10/nine-entertainment-secures-premier-league-rights-through-2034/"
+        ]
+      }
+    },
+    {
+      "channelID": "championsleague",
+      "season": "2026-27",
+      "regions": [
+        {
+          "code": "GB",
+          "country": "United Kingdom",
+          "entries": [
+            {
+              "name": "TNT Sports",
+              "kind": "Live",
+              "note": "Main UK home of the Champions League until the end of 2026-27."
+            },
+            {
+              "name": "Amazon Prime Video",
+              "kind": "Selected matches",
+              "note": "First pick of one Tuesday match each matchweek."
+            },
+            {
+              "name": "BBC",
+              "kind": "Highlights",
+              "note": "Holds highlights rights only."
+            }
+          ]
+        },
+        {
+          "code": "IE",
+          "country": "Ireland",
+          "entries": [
+            {
+              "name": "Premier Sports",
+              "kind": "Live",
+              "note": "Pay-TV home of UEFA club competitions in Ireland."
+            },
+            {
+              "name": "Virgin Media",
+              "kind": "Free-to-air",
+              "note": "Up to eight live matches per matchweek on Virgin Media Two and Virgin Media More; its deal ends after 2026-27."
+            },
+            {
+              "name": "RTE",
+              "kind": "Free-to-air",
+              "note": "First pick of the Wednesday matches."
+            }
+          ]
+        },
+        {
+          "code": "US",
+          "country": "United States",
+          "entries": [
+            {
+              "name": "Paramount+",
+              "kind": "Streaming",
+              "note": "Streams every match in English; rights run to 2029-30."
+            },
+            {
+              "name": "TUDN",
+              "kind": "Live",
+              "note": "Spanish-language coverage."
+            },
+            {
+              "name": "DAZN",
+              "kind": "Streaming",
+              "note": "Listed by UEFA as a US broadcast partner."
+            }
+          ]
+        },
+        {
+          "code": "CA",
+          "country": "Canada",
+          "entries": [
+            {
+              "name": "DAZN",
+              "kind": "Streaming",
+              "note": "Main Canadian home of the Champions League."
+            },
+            {
+              "name": "OneSoccer",
+              "kind": "Selected matches",
+              "note": "Listed by UEFA as a Canadian broadcast partner."
+            }
+          ]
+        },
+        {
+          "code": "AU",
+          "country": "Australia",
+          "entries": [
+            {
+              "name": "Stan Sport",
+              "kind": "Streaming",
+              "note": "Exclusive rights until the end of 2026-27."
+            }
+          ]
+        },
+        {
+          "code": "ES",
+          "country": "Spain",
+          "entries": [
+            {
+              "name": "Movistar Plus+",
+              "kind": "Live",
+              "note": "Telefonica's Movistar Plus+ shows every match."
+            }
+          ]
+        },
+        {
+          "code": "IT",
+          "country": "Italy",
+          "entries": [
+            {
+              "name": "Sky",
+              "kind": "Live",
+              "note": "Main pay-TV home of the Champions League in Italy."
+            },
+            {
+              "name": "Amazon Prime Video",
+              "kind": "Selected matches",
+              "note": "Shows the remaining matches, including a Wednesday pick."
+            }
+          ]
+        },
+        {
+          "code": "DE",
+          "country": "Germany",
+          "entries": [
+            {
+              "name": "DAZN",
+              "kind": "Live",
+              "note": "Shows most live matches until the end of 2026-27."
+            },
+            {
+              "name": "Amazon Prime Video",
+              "kind": "Selected matches",
+              "note": "First pick of one Tuesday match each matchweek."
+            },
+            {
+              "name": "ZDF",
+              "kind": "Highlights",
+              "note": "Free-to-air highlights only."
+            }
+          ]
+        },
+        {
+          "code": "FR",
+          "country": "France",
+          "entries": [
+            {
+              "name": "Canal+",
+              "kind": "Live",
+              "note": "Shows every Champions League match in France."
+            }
+          ]
+        }
+      ],
+      "_sources": {
+        "GB": [
+          "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-broadcast-partners-streams/",
+          "https://www.ibc.org/monetisation/news/paramount-secures-champions-league-football-rights-in-uk/22850"
+        ],
+        "IE": [
+          "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-broadcast-partners-streams/",
+          "https://sportcal.com/newsletters/virgin-media-retains-ucl-rights-in-ireland-through-2026-27",
+          "https://the42.ie/irish-champions-league-rights-2024-6194583-Oct2023",
+          "https://www.irishexaminer.com/sport/business-of-sport/arid-41837096.html"
+        ],
+        "US": [
+          "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-broadcast-partners-streams/",
+          "https://www.cbssports.com/soccer/news/uefa-and-cbs-sportsparamount-reach-six-year-deal-to-air-champions-league-europa-and-conference-league"
+        ],
+        "CA": [
+          "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-broadcast-partners-streams/"
+        ],
+        "AU": [
+          "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-broadcast-partners-streams/",
+          "https://www.channelnews.com.au/paramount-scoops-up-champions-league-rights-across-europe-but-australia-misses-out/"
+        ],
+        "ES": [
+          "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-broadcast-partners-streams/",
+          "https://www.sportcal.com/media/movistar-retains-rights-to-uefa-club-competitions-for-2024-27-cycle/"
+        ],
+        "IT": [
+          "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-broadcast-partners-streams/"
+        ],
+        "DE": [
+          "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-broadcast-partners-streams/",
+          "https://www.sportcal.com/newsletters/uefa-rights-bonanza-across-europe-dazn-movistar-canal-all-consolidate"
+        ],
+        "FR": [
+          "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-broadcast-partners-streams/"
+        ]
+      }
+    },
+    {
+      "channelID": "laliga",
+      "season": "2026-27",
+      "regions": [
+        {
+          "code": "GB",
+          "country": "United Kingdom",
+          "entries": [
+            {
+              "name": "Premier Sports",
+              "kind": "Live",
+              "note": "Main home, with over 340 matches a season, under a deal running to 2027-28."
+            },
+            {
+              "name": "Disney+",
+              "kind": "Selected matches",
+              "note": "One exclusive Saturday evening match each matchweek."
+            },
+            {
+              "name": "Sky Sports",
+              "kind": "Highlights",
+              "note": "Highlights from every match round, to 2027-28."
+            }
+          ]
+        },
+        {
+          "code": "IE",
+          "country": "Ireland",
+          "entries": [
+            {
+              "name": "Premier Sports",
+              "kind": "Live",
+              "note": "Main home, with over 340 matches a season."
+            },
+            {
+              "name": "Disney+",
+              "kind": "Selected matches",
+              "note": "One exclusive Saturday evening match each matchweek."
+            }
+          ]
+        },
+        {
+          "code": "US",
+          "country": "United States",
+          "entries": [
+            {
+              "name": "ESPN+",
+              "kind": "Streaming",
+              "note": "All 380 matches in English and Spanish, with selected games on ESPN networks; deal runs to 2028-29."
+            }
+          ]
+        },
+        {
+          "code": "CA",
+          "country": "Canada",
+          "entries": [
+            {
+              "name": "TSN",
+              "kind": "Live",
+              "note": "English-language rights holder, through 2028-29."
+            },
+            {
+              "name": "RDS",
+              "kind": "Live",
+              "note": "French-language coverage."
+            }
+          ]
+        },
+        {
+          "code": "AU",
+          "country": "Australia",
+          "entries": [
+            {
+              "name": "beIN SPORTS",
+              "kind": "Live",
+              "note": "All 380 matches, under a deal running to the end of 2026-27."
+            }
+          ]
+        },
+        {
+          "code": "ES",
+          "country": "Spain",
+          "entries": [
+            {
+              "name": "Movistar Plus+",
+              "kind": "Live",
+              "note": "Five matches per matchday plus three full matchdays exclusively; also carries DAZN's games."
+            },
+            {
+              "name": "DAZN",
+              "kind": "Live",
+              "note": "The other five matches on most matchdays."
+            }
+          ]
+        }
+      ],
+      "_sources": {
+        "GB": [
+          "https://www.laliga.com/en-GB/news/laliga-announces-landmark-broadcast-deals-with-premier-sports-and-disney-in-the-uk-and-ireland",
+          "https://www.laliga.com/en-GB/operators",
+          "https://www.sportcal.com/newsletters/dazn-takes-on-worldwide-laliga-highlights-sky-picks-up-uk-rights"
+        ],
+        "IE": [
+          "https://www.laliga.com/en-GB/news/laliga-announces-landmark-broadcast-deals-with-premier-sports-and-disney-in-the-uk-and-ireland",
+          "https://www.sportcal.com/media/laliga-renews-premier-sports-adds-disney-to-uk-and-ireland-broadcast-mix/"
+        ],
+        "US": [
+          "https://www.laliga.com/en-GB/news/espn-and-laliga-reach-historic-rights-agreement-bringing-top-rated-soccer-league-to-millions-more-fans-across-the-us",
+          "https://www.si.com/soccer/2021/05/14/la-liga-tv-rights-usa-espn"
+        ],
+        "CA": [
+          "https://www.bellmedia.ca/the-lede/press/tsn-and-rds-become-new-canadian-home-of-laliga-kicking-off-in-august/",
+          "https://www.sportsvideo.org/2021/07/08/laliga-finds-new-canadian-home-on-tsn-rds/"
+        ],
+        "AU": [
+          "https://www.laliga.com/en-US/news/bein-extends-exclusive-laliga-broadcast-rights-across-34-markets-in-mena-and-apac",
+          "https://insidersport.com/2024/08/16/la-liga-and-bein-sport-agree-new-three-year-extension-for-apac-region/"
+        ],
+        "ES": [
+          "https://roams.es/actualidad/telefonia/movistar-plus-dazn-orange-tv-teledeporte-canales-laliga-2026-27/",
+          "https://www.xatakamovil.com/multimedia/oficial-sabemos-donde-podremos-ver-laliga-champions-temporada-2026-2027",
+          "https://www.insideworldfootball.com/2025/12/01/laliga-closes-e6bn-domestic-tv-rights-deal-telefonica-dazn/"
+        ]
+      }
+    },
+    {
+      "channelID": "seriea",
+      "season": "2026-27",
+      "regions": [
+        {
+          "code": "GB",
+          "country": "United Kingdom",
+          "entries": [
+            {
+              "name": "DAZN",
+              "kind": "Live",
+              "note": "Every match, with seven to eight per gameweek exclusive."
+            },
+            {
+              "name": "TNT Sports",
+              "kind": "Selected matches",
+              "note": "Shows some of the non-exclusive matches each gameweek."
+            },
+            {
+              "name": "BBC",
+              "kind": "Free-to-air",
+              "note": "One live match per gameweek on BBC Alba, iPlayer and BBC Sport."
+            }
+          ]
+        },
+        {
+          "code": "IE",
+          "country": "Ireland",
+          "entries": [
+            {
+              "name": "DAZN",
+              "kind": "Live",
+              "note": "Every match of the season."
+            }
+          ]
+        },
+        {
+          "code": "US",
+          "country": "United States",
+          "entries": [
+            {
+              "name": "Paramount+",
+              "kind": "Streaming",
+              "note": "All 380 matches, with selected games on CBS, CBS Sports Network and CBS Sports Golazo Network."
+            }
+          ]
+        },
+        {
+          "code": "CA",
+          "country": "Canada",
+          "entries": [
+            {
+              "name": "Fubo",
+              "kind": "Streaming",
+              "note": "Exclusive English-language home of Serie A in Canada."
+            }
+          ]
+        },
+        {
+          "code": "AU",
+          "country": "Australia",
+          "entries": [
+            {
+              "name": "beIN SPORTS",
+              "kind": "Live",
+              "note": "Live coverage on beIN SPORTS and beIN SPORTS CONNECT."
+            }
+          ]
+        },
+        {
+          "code": "IT",
+          "country": "Italy",
+          "entries": [
+            {
+              "name": "DAZN",
+              "kind": "Live",
+              "note": "All ten matches of every round, seven of them exclusive."
+            },
+            {
+              "name": "Sky",
+              "kind": "Selected matches",
+              "note": "Three matches per round, shared with DAZN."
+            }
+          ]
+        }
+      ],
+      "_sources": {
+        "GB": [
+          "https://www.broadcastnow.co.uk/broadcasting/dazn-renews-uk-and-ireland-serie-a-rights/5219619.article",
+          "https://www.sportcal.com/news/bbc-returns-for-another-expanded-slate-of-serie-a-coverage-across-2026-27/"
+        ],
+        "IE": [
+          "https://www.broadcastnow.co.uk/broadcasting/dazn-renews-uk-and-ireland-serie-a-rights/5219619.article",
+          "https://www.advanced-television.com/2026/08/20/dazn-renews-serie-a-rights-for-the-uki/"
+        ],
+        "US": [
+          "https://www.sportcal.com/news/serie-a-extends-with-cbs-for-another-season-partners-with-fastbreak-ai/"
+        ],
+        "CA": [
+          "https://www.businesswire.com/news/home/20250417021019/en/Fubo-Retains-Exclusive-Rights-to-Premier-League-in-Canada-With-Multi-Year-Agreement-Beginning-With-20252026-Season",
+          "https://matchcast.tv/guides/how-to-watch-serie-a-2026-27-in-canada"
+        ],
+        "AU": [
+          "https://www.beinsports.com/en-au/football/serie-a/articles-video/enjoy-the-best-ever-serie-a-coverage-in-australia-2024-08-21",
+          "https://www.sportcal.com/media/infront-back-in-with-serie-a-as-apac-media-rights-partner/",
+          "https://cybernews.com/stream-online/how-to-watch-serie-a-in-2026-27-live-stream-the-season-from-anywhere/"
+        ],
+        "IT": [
+          "https://www.sportface.it/sport-tv/serie-a-i-diritti-tv-2024-2029-restano-a-dazn-e-sky/2338277",
+          "https://www.fantacalcio.it/news/calcio-italia/23_10_2023/diritti-tv-serie-a-c-e-la-fumata-bianca-gare-assegnate-a-dazn-e-sky-i-dettagli-451086"
+        ]
+      }
+    },
+    {
+      "channelID": "bundesliga",
+      "season": "2026-27",
+      "regions": [
+        {
+          "code": "GB",
+          "country": "United Kingdom",
+          "entries": [
+            {
+              "name": "Sky Sports",
+              "kind": "Live",
+              "note": "The Saturday 17:30 top match every matchday."
+            },
+            {
+              "name": "Amazon Prime Video",
+              "kind": "Selected matches",
+              "note": "Sunday matches sold one at a time as pay-per-view."
+            },
+            {
+              "name": "BBC",
+              "kind": "Free",
+              "note": "Friday night matches streamed on BBC iPlayer and BBC Sport."
+            }
+          ]
+        },
+        {
+          "code": "IE",
+          "country": "Ireland",
+          "entries": [
+            {
+              "name": "Sky Sports",
+              "kind": "Live",
+              "note": "The Saturday 17:30 top match every matchday."
+            }
+          ]
+        },
+        {
+          "code": "US",
+          "country": "United States",
+          "entries": [
+            {
+              "name": "USA Network",
+              "kind": "Live",
+              "note": "At least 30 matches a season under a new deal running to 2030-31."
+            },
+            {
+              "name": "Fandango",
+              "kind": "Free",
+              "note": "The remaining matches stream free in English."
+            }
+          ]
+        },
+        {
+          "code": "CA",
+          "country": "Canada",
+          "entries": [
+            {
+              "name": "DAZN",
+              "kind": "Streaming",
+              "note": "Every Bundesliga match, under a deal running to 2027-28."
+            }
+          ]
+        },
+        {
+          "code": "DE",
+          "country": "Germany",
+          "entries": [
+            {
+              "name": "Sky",
+              "kind": "Live",
+              "note": "All Friday and Saturday single matches, including the Saturday evening top match."
+            },
+            {
+              "name": "DAZN",
+              "kind": "Live",
+              "note": "The Saturday afternoon Konferenz and all Sunday matches."
+            },
+            {
+              "name": "Sat.1",
+              "kind": "Free-to-air",
+              "note": "A few live matches, including the season opener and the relegation play-offs."
+            },
+            {
+              "name": "ARD Sportschau",
+              "kind": "Highlights",
+              "note": "Free-to-air highlights, including the Saturday early-evening show."
+            }
+          ]
+        }
+      ],
+      "_sources": {
+        "GB": [
+          "https://bundesliga.com/en/bundesliga/news/bundesliga-media-expands-pioneering-uk-and-ireland-youtube-watch-along-coverage-with-jamie-vardy-partnership-goldbridge-2026-27-38838",
+          "https://www.bundesliga.com/en/bundesliga/news/bundesliga-international-unveils-multi-layered-strategy-in-uk-and-ireland-33589"
+        ],
+        "IE": [
+          "https://bundesliga.com/en/bundesliga/news/bundesliga-media-expands-pioneering-uk-and-ireland-youtube-watch-along-coverage-with-jamie-vardy-partnership-goldbridge-2026-27-38838"
+        ],
+        "US": [
+          "https://www.sportcal.com/news/bundesliga-takes-leap-of-faith-in-us-rights-sold-to-versant-for-five-years/"
+        ],
+        "CA": [
+          "https://www.sportcal.com/media/dazn-canada-inks-11th-hour-bundesliga-rights-before-ahead-of-season-opener/"
+        ],
+        "DE": [
+          "https://www.bundesliga.com/de/bundesliga/news/dfl-medienrechte-vergabe-tv-partner-clubs-saison-25-26-28-29-29352",
+          "https://www.zdfheute.de/sport/bundesliga-tv-rechte-sky-dazn-konferenz-100.html"
+        ]
+      }
+    },
+    {
+      "channelID": "ligue1",
+      "season": "2026-27",
+      "regions": [
+        {
+          "code": "GB",
+          "country": "United Kingdom",
+          "entries": [
+            {
+              "name": "Ligue 1+",
+              "kind": "Streaming",
+              "note": "The league's own service shows every match, except those affected by the Saturday 3pm blackout."
+            },
+            {
+              "name": "Sky Sports",
+              "kind": "Highlights",
+              "note": "Highlights of the league in 2026-27."
+            }
+          ]
+        },
+        {
+          "code": "IE",
+          "country": "Ireland",
+          "entries": [
+            {
+              "name": "Ligue 1+",
+              "kind": "Streaming",
+              "note": "The league's own service shows every match."
+            },
+            {
+              "name": "Sky Sports",
+              "kind": "Highlights",
+              "note": "Highlights of the league in 2026-27."
+            }
+          ]
+        },
+        {
+          "code": "US",
+          "country": "United States",
+          "entries": [
+            {
+              "name": "beIN SPORTS",
+              "kind": "Live",
+              "note": "At least four live matches a week, under a deal running to 2028-29."
+            }
+          ]
+        },
+        {
+          "code": "CA",
+          "country": "Canada",
+          "entries": [
+            {
+              "name": "beIN SPORTS",
+              "kind": "Live",
+              "note": "At least four live matches a week, under a deal running to 2028-29."
+            }
+          ]
+        },
+        {
+          "code": "FR",
+          "country": "France",
+          "entries": [
+            {
+              "name": "Ligue 1+",
+              "kind": "Streaming",
+              "note": "The league's own channel shows all nine matches of every round; DAZN and others resell it."
+            }
+          ]
+        }
+      ],
+      "_sources": {
+        "GB": [
+          "https://ligue1.com/en/articles/l1_article_654-where-to-watch-ligue-1-now-available-to-watch-in-uk-and-ireland-with-ligue-1-pass",
+          "https://www.advanced-television.com/?p=291389"
+        ],
+        "IE": [
+          "https://ligue1.com/en/articles/l1_article_654-where-to-watch-ligue-1-now-available-to-watch-in-uk-and-ireland-with-ligue-1-pass",
+          "https://www.advanced-television.com/?p=291389"
+        ],
+        "US": [
+          "https://www.beinsports.com/en-mena/football/ligue-1/articles/bein-media-group-extends-long-term-deal-for-ligue-1-ligue-2-2024-08-16",
+          "https://www.produ.com/english/noticias/bein-media-group-renewed-its-exclusive-rights-deal-for-the-mcdonalds-ligue-1-and-ligue-2-bkt-championship-in-the-us-canada"
+        ],
+        "CA": [
+          "https://www.beinsports.com/en-mena/football/ligue-1/articles/bein-media-group-extends-long-term-deal-for-ligue-1-ligue-2-2024-08-16",
+          "https://www.produ.com/english/noticias/bein-media-group-renewed-its-exclusive-rights-deal-for-the-mcdonalds-ligue-1-and-ligue-2-bkt-championship-in-the-us-canada"
+        ],
+        "FR": [
+          "https://www.ozap.com/actu/football-exit-bein-sports-ligue-1-diffusera-lintegralite-des-rencontres-de-championnat-la-saison-prochaine/652933",
+          "https://www.ariase.com/streaming/actualite/la-ligue-1-pourrait-encore-changer-de-diffuseur-en-2027-que-deviendrait-votre-abonnement-ligue-1"
+        ]
+      }
     }
   ],
   "_radio_note": "streamURL is only set where a station publishes a direct, freely accessible stream we are permitted to play. Leave it empty and set pageURL instead - the app then links out to the station's own player. Do not paste an Icecast URL scraped from a station's site without permission: it is fragile and rude."
