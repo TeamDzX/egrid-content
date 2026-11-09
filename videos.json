@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-08T14:19:17Z",
+  "generatedAt": "2026-11-09T17:31:55Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,17 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "lt-AlxePwT8",
+          "title": "Reviewing Max Verstappen's P21 to P2 in Brazil GP! | Talking Bull!",
+          "publishedAt": "2026-11-09T12:09:55Z",
+          "duration": "27:07",
+          "seconds": 1627,
+          "thumbnail": "https://i.ytimg.com/vi/lt-AlxePwT8/maxresdefault.jpg",
+          "source": "Red Bull Racing",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "3ITdnxRcJXk",
           "title": "Carlos & Alex's Advice For You Was NOT What We Expected!",
@@ -196,17 +207,6 @@
             "BY",
             "RU"
           ],
-          "allowedRegions": []
-        },
-        {
-          "id": "qwz5Hd5mVUs",
-          "title": "Max Verstappen Sent Us on a Mission in Austin…",
-          "publishedAt": "2026-10-23T13:00:28Z",
-          "duration": "5:02",
-          "seconds": 302,
-          "thumbnail": "https://i.ytimg.com/vi/qwz5Hd5mVUs/maxresdefault.jpg",
-          "source": "Red Bull Racing",
-          "blockedRegions": [],
           "allowedRegions": []
         },
         {
@@ -454,6 +454,20 @@
       ],
       "externalVideos": [
         {
+          "id": "lkb5kqDJYXk",
+          "title": "Race Highlights | 2026 Sao Paulo Grand Prix",
+          "publishedAt": "2026-11-08T19:57:16Z",
+          "duration": "8:12",
+          "seconds": 492,
+          "thumbnail": "https://i.ytimg.com/vi/lkb5kqDJYXk/maxresdefault.jpg",
+          "source": "FORMULA 1",
+          "blockedRegions": [
+            "BY",
+            "RU"
+          ],
+          "allowedRegions": []
+        },
+        {
           "id": "Cn4C153hCLk",
           "title": "Qualifying Highlights | 2026 Sao Paulo Grand Prix",
           "publishedAt": "2026-11-07T21:16:28Z",
@@ -592,20 +606,6 @@
             "RU"
           ],
           "allowedRegions": []
-        },
-        {
-          "id": "I9oahfzac0I",
-          "title": "Race Highlights | 2026 Azerbaijan Grand Prix",
-          "publishedAt": "2026-09-26T13:30:51Z",
-          "duration": "8:07",
-          "seconds": 487,
-          "thumbnail": "https://i.ytimg.com/vi/I9oahfzac0I/maxresdefault.jpg",
-          "source": "FORMULA 1",
-          "blockedRegions": [
-            "BY",
-            "RU"
-          ],
-          "allowedRegions": []
         }
       ]
     },
@@ -615,6 +615,28 @@
       "source": "FIA World Endurance Championship",
       "sourceURL": "https://www.youtube.com/channel/UCwU7U7PiarcJKLjDJTnANjw",
       "videos": [
+        {
+          "id": "ApAspMx6H1g",
+          "title": "Extended Highlights | 6 Hours of Monza 2026 | FIA WEC",
+          "publishedAt": "2026-11-09T17:00:12Z",
+          "duration": "58:29",
+          "seconds": 3509,
+          "thumbnail": "https://i.ytimg.com/vi/ApAspMx6H1g/maxresdefault.jpg",
+          "source": "FIA World Endurance Championship",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "ZPOh8z-Nflc",
+          "title": "Race Highlights | 6 Hours of Monza 2026 | FIA WEC",
+          "publishedAt": "2026-11-09T12:20:56Z",
+          "duration": "15:50",
+          "seconds": 950,
+          "thumbnail": "https://i.ytimg.com/vi/ZPOh8z-Nflc/maxresdefault.jpg",
+          "source": "FIA World Endurance Championship",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "i3uyoeqMid4",
           "title": "Extended Highlights | 6 Hours of Barcelona 2026 | FIA WEC",
@@ -875,6 +897,17 @@
       "source": "NASCAR",
       "sourceURL": "https://www.youtube.com/channel/UCuN9hYw2RpoAW8rZ3VK3isA",
       "videos": [
+        {
+          "id": "WsIlcxfpzAM",
+          "title": "NASCAR Cup Series Highlights | 2026 Championship at Homestead-Miami",
+          "publishedAt": "2026-11-08T23:52:44Z",
+          "duration": "26:31",
+          "seconds": 1591,
+          "thumbnail": "https://i.ytimg.com/vi/WsIlcxfpzAM/maxresdefault.jpg",
+          "source": "NASCAR",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "1bIXJGSuciI",
           "title": "NASCAR Cup Series Highlights | 2026 Martinsville Speedway",
