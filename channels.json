@@ -20,7 +20,7 @@
         },
         {
           "name": "The Race F1",
-          "url": "https://www.the-race.com/category/formula-1/feed/"
+          "url": "https://www.the-race.com/category/formula-1/rss/"
         }
       ],
       "regulationLinks": [
@@ -892,8 +892,12 @@
       "comingSoon": false,
       "feeds": [
         {
-          "name": "Motorsport.com NHRA",
-          "url": "https://www.motorsport.com/rss/nhra/news/"
+          "name": "Competition Plus",
+          "url": "https://www.competitionplus.com/feed"
+        },
+        {
+          "name": "Drag Illustrated",
+          "url": "https://www.dragillustrated.com/feed/"
         }
       ],
       "regulationLinks": [
