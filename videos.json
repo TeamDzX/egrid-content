@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-09T17:31:55Z",
+  "generatedAt": "2026-11-10T15:37:32Z",
   "channels": [
     {
       "channelID": "f1",
@@ -970,17 +970,6 @@
           "duration": "22:40",
           "seconds": 1360,
           "thumbnail": "https://i.ytimg.com/vi/c07cPE-xUxk/maxresdefault.jpg",
-          "source": "NASCAR",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "1iatULgMcRU",
-          "title": "NASCAR Cup Series Highlights | 2026 Bristol Motor Speedway",
-          "publishedAt": "2026-09-20T03:23:44Z",
-          "duration": "27:29",
-          "seconds": 1649,
-          "thumbnail": "https://i.ytimg.com/vi/1iatULgMcRU/maxresdefault.jpg",
           "source": "NASCAR",
           "blockedRegions": [],
           "allowedRegions": []
