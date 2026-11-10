@@ -1,7 +1,138 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-09T06:48:41Z",
+  "generatedAt": "2026-11-10T01:37:58Z",
   "editions": [
+    {
+      "id": "2026-11-10-recap",
+      "kind": "recap",
+      "title": "Last week on E-Grid",
+      "dateRange": "3–9 November",
+      "intro": "This week ran eight rounds across five championships, from the World Endurance Championship's 8 Hours of Bahrain to Formula 1's Brazilian Grand Prix and NASCAR's championship finale, with MotoGP back at Lusail. Norris, Bezzecchi and Blaney claimed their Sunday wins.",
+      "publishedAt": "2026-11-10T01:37:58Z",
+      "expiresAt": "2026-11-14T01:37:58Z",
+      "items": [
+        {
+          "channelID": "wec",
+          "channelName": "World Endurance Championship",
+          "headline": "8 Hours of Bahrain",
+          "detail": "Bahrain International Circuit · Sat 7 Nov",
+          "body": "The World Endurance Championship came to the Bahrain International Circuit for the 8 Hours of Bahrain on Saturday. It was an endurance test across the full distance, where reliability and consistency were as important as raw pace.",
+          "date": "2026-11-07",
+          "round": 8
+        },
+        {
+          "channelID": "cliocup",
+          "channelName": "Clio Cup Series",
+          "headline": "Portimão",
+          "detail": "Autódromo Internacional do Algarve, Portugal · Sun 8 Nov",
+          "body": "The Clio Cup Series came to the Autódromo Internacional do Algarve for round seven at Portimão on Sunday. It was a full day of single-make racing along the Portuguese coast, with drivers pressing hard for position across a tightly packed field.",
+          "date": "2026-11-08",
+          "round": 7
+        },
+        {
+          "channelID": "f1",
+          "channelName": "Formula 1",
+          "headline": "Brazilian Grand Prix",
+          "detail": "Autódromo José Carlos Pace, Brazil · Sun 8 Nov",
+          "body": "Lando Norris took the Brazilian Grand Prix from pole, finishing 14.6 seconds clear of Max Verstappen with Isack Hadjar third on another Red Bull one-two. Rain fell during the race as Verstappen climbed from 21st to second, while Lewis Hamilton made a steady run up to ninth. Andrea Kimi Antonelli took the fastest lap and saw his championship lead over Verstappen fall from 119 to 111 points.",
+          "date": "2026-11-08",
+          "round": 20,
+          "facts": [
+            "Lando Norris won from pole, 14.6 seconds ahead of Max Verstappen",
+            "Biggest climbers: Max Verstappen from 21st to 2nd and Lewis Hamilton from 20th to 9th",
+            "Fastest lap: Andrea Kimi Antonelli, 1:12.689",
+            "Did not finish: Lance Stroll and Valtteri Bottas (did not start)",
+            "Andrea Kimi Antonelli's championship lead over Max Verstappen went from 119 to 111 points over the weekend",
+            "Rain fell during the race"
+          ],
+          "podium": [
+            {
+              "position": 1,
+              "name": "Lando Norris",
+              "team": "McLaren"
+            },
+            {
+              "position": 2,
+              "name": "Max Verstappen",
+              "team": "Red Bull"
+            },
+            {
+              "position": 3,
+              "name": "Isack Hadjar",
+              "team": "Red Bull"
+            }
+          ]
+        },
+        {
+          "channelID": "motogp",
+          "channelName": "MotoGP",
+          "headline": "Grand Prix of Qatar",
+          "detail": "Lusail International Circuit, Qatar · Sun 8 Nov",
+          "body": "Marco Bezzecchi won the Grand Prix of Qatar from Marc Marquez by 3.1 seconds, with Raul Fernandez third as the season's finale came to Lusail. It was a dry race in 31°C air and 33°C on the track, where Marquez set a new lap record. He had already taken Saturday's sprint, and his championship lead over Jorge Martin grew from 44 to 60 points.",
+          "date": "2026-11-08",
+          "round": 20,
+          "facts": [
+            "Marco Bezzecchi won by 3.1 seconds from Marc Marquez",
+            "Did not finish: Brad Binder and Diogo Moreira",
+            "Marc Marquez set a new lap record, 1:52.558",
+            "Dry, 31°C air and 33°C track",
+            "Saturday's sprint was won by Marc Marquez",
+            "Marc Marquez's championship lead over Jorge Martin went from 44 to 60 points this weekend"
+          ],
+          "podium": [
+            {
+              "position": 1,
+              "name": "Marco Bezzecchi",
+              "team": "Aprilia Racing"
+            },
+            {
+              "position": 2,
+              "name": "Marc Marquez",
+              "team": "Ducati Lenovo Team"
+            },
+            {
+              "position": 3,
+              "name": "Raul Fernandez",
+              "team": "SuperFile Trackhouse MotoGP Team"
+            }
+          ]
+        },
+        {
+          "channelID": "nascar",
+          "channelName": "NASCAR Cup Series",
+          "headline": "Championship Race",
+          "detail": "Homestead-Miami Speedway · Sun 8 Nov",
+          "body": "Ryan Blaney won the NASCAR Championship Race from ninth on the grid at Homestead-Miami Speedway, taking a narrow 0.314-second margin over Tyler Reddick with William Byron third. Kyle Larson's title was decided as his Chase lead over Christopher Bell fell from 67 to 49 points, while Blaney's win lifted him from seventh to fourth in the Chase. Denny Hamlin led the most laps and won stage two.",
+          "date": "2026-11-08",
+          "round": 36,
+          "facts": [
+            "Ryan Blaney won from 9th on the grid",
+            "Most laps led: Denny Hamlin (87)",
+            "Stage winners: Stage 1 Tyler Reddick, Stage 2 Denny Hamlin",
+            "Margin of victory: 0.314 s",
+            "Kyle Larson's Chase lead over Christopher Bell went from 67 to 49 points this weekend, with the title decided",
+            "The win lifted Ryan Blaney from 7th to 4th in the Chase"
+          ],
+          "podium": [
+            {
+              "position": 1,
+              "name": "Ryan Blaney",
+              "team": "Team Penske"
+            },
+            {
+              "position": 2,
+              "name": "Tyler Reddick",
+              "team": "23XI Racing"
+            },
+            {
+              "position": 3,
+              "name": "William Byron",
+              "team": "Hendrick Motorsports"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "2026-11-09-recap",
       "kind": "recap",
@@ -330,73 +461,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "2026-11-06-preview",
-      "kind": "preview",
-      "title": "This weekend on E-Grid",
-      "dateRange": "6–9 November",
-      "intro": "Five rounds across five championships this week: a WEC night race in the Gulf, a Clio Cup visit to Portugal, and the season finales of Formula 1, MotoGP and NASCAR.",
-      "publishedAt": "2026-11-06T01:36:49Z",
-      "expiresAt": "2026-11-11T01:36:49Z",
-      "items": [
-        {
-          "channelID": "wec",
-          "channelName": "World Endurance Championship",
-          "headline": "8 Hours of Bahrain",
-          "detail": "Bahrain International Circuit · Sat 7 Nov",
-          "body": "The World Endurance Championship closes its campaign with the eight hours at the Bahrain International Circuit on Saturday. It is a full-distance test that runs through the night.",
-          "date": "2026-11-07",
-          "round": 8
-        },
-        {
-          "channelID": "cliocup",
-          "channelName": "Clio Cup Series",
-          "headline": "Portimão",
-          "detail": "Autódromo Internacional do Algarve, Portugal · Sun 8 Nov",
-          "body": "The Clio Cup Series reaches Portugal for its seventh round at the Autódromo Internacional do Algarve on Sunday. It is a compact circuit that packs plenty of racing into a short lap.",
-          "date": "2026-11-08",
-          "round": 7
-        },
-        {
-          "channelID": "f1",
-          "channelName": "Formula 1",
-          "headline": "Brazilian Grand Prix",
-          "detail": "Autódromo José Carlos Pace, Brazil · Sun 8 Nov",
-          "body": "Round twenty brings Formula 1 to the Autódromo José Carlos Pace in Brazil on Sunday, with qualifying on Saturday at 18:00 UTC and the race itself starting at 17:00 UTC. Andrea Kimi Antonelli arrives with a comfortable 119-point championship lead over Max Verstappen.",
-          "date": "2026-11-08",
-          "round": 20,
-          "facts": [
-            "Qualifying Sat 7 Nov, 18:00 UTC",
-            "Andrea Kimi Antonelli leads the championship by 119 points from Max Verstappen"
-          ]
-        },
-        {
-          "channelID": "motogp",
-          "channelName": "MotoGP",
-          "headline": "Grand Prix of Qatar",
-          "detail": "Lusail International Circuit, Qatar · Sun 8 Nov",
-          "body": "Sunday's Grand Prix of Qatar at the Lusail International Circuit is round twenty of the MotoGP season. Marc Marquez leads the standings by 44 points from Jorge Martin as they arrive here.",
-          "date": "2026-11-08",
-          "round": 20,
-          "facts": [
-            "Marc Marquez leads the championship by 44 points from Jorge Martin"
-          ]
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "Championship Race",
-          "detail": "Homestead-Miami Speedway · Sun 8 Nov",
-          "body": "The NASCAR Cup Series title is decided over 267 laps, or 400.5 miles, at Homestead-Miami Speedway on Sunday. The race starts at 20:00 UTC, with coverage on NBC and MRN in the United States.",
-          "date": "2026-11-08",
-          "round": 36,
-          "facts": [
-            "267 laps, 400.5 miles",
-            "US coverage: NBC (TV), MRN (radio)"
-          ]
-        }
-      ]
     }
   ],
   "lastRaces": [
@@ -405,7 +469,7 @@
       "channelName": "NASCAR Cup Series",
       "headline": "Championship Race",
       "detail": "Homestead-Miami Speedway · Sun 8 Nov",
-      "body": "Round 36 of the NASCAR Cup Series season. Won by Ryan Blaney (Team Penske) from Tyler Reddick and William Byron.",
+      "body": "Ryan Blaney won from ninth on the grid, holding Tyler Reddick of 23XI Racing for a 0.314-second margin in a 267-lap race in which eight drivers traded the lead. William Byron completed the podium for Hendrick Motorsports behind him, while Larson's Chase edge over Bell fell from 67 to 49 points.",
       "date": "2026-11-08",
       "round": 36,
       "facts": [
@@ -434,14 +498,14 @@
         }
       ],
       "factsVersion": 4,
-      "writer": "template"
+      "writer": "own server"
     },
     {
       "channelID": "motogp",
       "channelName": "MotoGP",
       "headline": "Grand Prix of Qatar",
       "detail": "Lusail International Circuit, Qatar · Sun 8 Nov",
-      "body": "Round 20 of the MotoGP season. Won by Marco Bezzecchi (Aprilia Racing) from Marc Marquez and Raul Fernandez.",
+      "body": "Marco Bezzecchi took the Qatar Grand Prix home by 3.1 seconds over Marc Marquez on a dry, 33°C track where Marquez set a new lap record of 1:52.558. Raul Fernandez made up the podium for SuperFile Trackhouse behind them, and Saturday's sprint had already gone to Marquez as his lead over Jorge Martin grew from 44 to 60 points.",
       "date": "2026-11-08",
       "round": 20,
       "facts": [
@@ -470,7 +534,7 @@
         }
       ],
       "factsVersion": 4,
-      "writer": "template"
+      "writer": "own server"
     },
     {
       "channelID": "f1",
@@ -513,11 +577,11 @@
       "channelName": "Clio Cup Series",
       "headline": "Portimão",
       "detail": "Autódromo Internacional do Algarve, Portugal · Sun 8 Nov",
-      "body": "Round 7 of the Clio Cup Series season ran at Autódromo Internacional do Algarve, Portugal on Sun 8 Nov. Results for this series are not in E-Grid's feeds yet.",
+      "body": "Portimão's round of the Clio Cup Series ran on Sunday across the Autódromo Internacional do Algarve in Portugal. It was a day of touring-car racing that rounded out the week alongside the season's headline events.",
       "date": "2026-11-08",
       "round": 7,
       "factsVersion": 4,
-      "writer": "template"
+      "writer": "own server"
     },
     {
       "channelID": "wec",
