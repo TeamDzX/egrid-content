@@ -1,7 +1,35 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-10T01:37:58Z",
+  "generatedAt": "2026-11-11T06:40:55Z",
   "editions": [
+    {
+      "id": "2026-11-11-preview",
+      "kind": "preview",
+      "title": "This weekend on E-Grid",
+      "dateRange": "11–16 November",
+      "intro": "2 rounds across NHRA Drag Racing and World Rally Championship between 11–16 November.",
+      "publishedAt": "2026-11-11T06:40:55Z",
+      "expiresAt": "2026-11-16T06:40:55Z",
+      "items": [
+        {
+          "channelID": "wrc",
+          "channelName": "World Rally Championship",
+          "headline": "Rally Saudi Arabia",
+          "detail": "Jeddah, Saudi Arabia · Sat 14 Nov",
+          "body": "Round 14 of the World Rally Championship season.",
+          "date": "2026-11-14",
+          "round": 14
+        },
+        {
+          "channelID": "nhra",
+          "channelName": "NHRA Drag Racing",
+          "headline": "NHRA Finals",
+          "detail": "Pomona Dragstrip, California · Sun 15 Nov",
+          "body": "This NHRA Drag Racing round.",
+          "date": "2026-11-15"
+        }
+      ]
+    },
     {
       "id": "2026-11-10-recap",
       "kind": "recap",
@@ -391,73 +419,6 @@
               "name": "William Byron",
               "team": "Hendrick Motorsports"
             }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2026-11-07-preview",
-      "kind": "preview",
-      "title": "This weekend on E-Grid",
-      "dateRange": "6–9 November",
-      "intro": "Five rounds across the calendar between 6 and 9 November as the season nears its end. The World Endurance Championship, Clio Cup Series, Formula 1, MotoGP and NASCAR all have rounds to run this week.",
-      "publishedAt": "2026-11-07T02:53:31Z",
-      "expiresAt": "2026-11-12T02:53:31Z",
-      "items": [
-        {
-          "channelID": "wec",
-          "channelName": "World Endurance Championship",
-          "headline": "8 Hours of Bahrain",
-          "detail": "Bahrain International Circuit · Sat 7 Nov",
-          "body": "The World Endurance Championship reaches its eighth round this week. The 8 Hours of Bahrain runs at the Bahrain International Circuit on Sat 7 Nov.",
-          "date": "2026-11-07",
-          "round": 8
-        },
-        {
-          "channelID": "cliocup",
-          "channelName": "Clio Cup Series",
-          "headline": "Portimão",
-          "detail": "Autódromo Internacional do Algarve, Portugal · Sun 8 Nov",
-          "body": "The Clio Cup Series continues with its seventh round in Portugal. It runs at the Autódromo Internacional do Algarve in Portimão on Sun 8 Nov.",
-          "date": "2026-11-08",
-          "round": 7
-        },
-        {
-          "channelID": "f1",
-          "channelName": "Formula 1",
-          "headline": "Brazilian Grand Prix",
-          "detail": "Autódromo José Carlos Pace, Brazil · Sun 8 Nov",
-          "body": "The Formula 1 Brazilian Grand Prix runs at the Autódromo José Carlos Pace on Sun 8 Nov, starting at 17:00 UTC with qualifying on Sat 7 Nov. Andrea Kimi Antonelli heads the championship by 119 points over Max Verstappen.",
-          "date": "2026-11-08",
-          "round": 20,
-          "facts": [
-            "Qualifying Sat 7 Nov, 18:00 UTC",
-            "Andrea Kimi Antonelli leads the championship by 119 points from Max Verstappen"
-          ]
-        },
-        {
-          "channelID": "motogp",
-          "channelName": "MotoGP",
-          "headline": "Grand Prix of Qatar",
-          "detail": "Lusail International Circuit, Qatar · Sun 8 Nov",
-          "body": "The MotoGP Grand Prix of Qatar runs at the Lusail International Circuit on Sun 8 Nov. Marc Marquez leads the championship by 44 points over Jorge Martin.",
-          "date": "2026-11-08",
-          "round": 20,
-          "facts": [
-            "Marc Marquez leads the championship by 44 points from Jorge Martin"
-          ]
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "Championship Race",
-          "detail": "Homestead-Miami Speedway · Sun 8 Nov",
-          "body": "The NASCAR Cup Series season concludes with its championship race at Homestead-Miami Speedway on Sun 8 Nov, starting at 20:00 UTC across 267 laps. Coverage is on NBC and MRN in the United States.",
-          "date": "2026-11-08",
-          "round": 36,
-          "facts": [
-            "267 laps, 400.5 miles",
-            "US coverage: NBC (TV), MRN (radio)"
           ]
         }
       ]
