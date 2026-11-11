@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-10T15:37:32Z",
+  "generatedAt": "2026-11-11T15:15:50Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,17 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "EyNpb96Rynk",
+          "title": "Aston Martin Aramco Driver Academy | Training Day Diaries",
+          "publishedAt": "2026-11-10T19:20:14Z",
+          "duration": "7:12",
+          "seconds": 432,
+          "thumbnail": "https://i.ytimg.com/vi/EyNpb96Rynk/maxresdefault.jpg",
+          "source": "Aston Martin Aramco F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "lt-AlxePwT8",
           "title": "Reviewing Max Verstappen's P21 to P2 in Brazil GP! | Talking Bull!",
@@ -170,17 +181,6 @@
           "seconds": 367,
           "thumbnail": "https://i.ytimg.com/vi/lLlsDlKVJfE/maxresdefault.jpg",
           "source": "FIA",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "jj3Jk9HHyNE",
-          "title": "The Secret Behind Jade Jacquet's French F4 Win? | Team Torque | S3 E10 | Jamie, Jade & Lia",
-          "publishedAt": "2026-10-27T17:00:32Z",
-          "duration": "15:00",
-          "seconds": 900,
-          "thumbnail": "https://i.ytimg.com/vi/jj3Jk9HHyNE/maxresdefault.jpg",
-          "source": "Atlassian Williams F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -1178,6 +1178,17 @@
       "sourceURL": null,
       "videos": [
         {
+          "id": "KlGZSYEV1Zk",
+          "title": "Marc Márquez and Pecco Bagnaia | Eat, train, sleep, repeat #QatarGP",
+          "publishedAt": "2026-11-11T11:15:29Z",
+          "duration": "15:11",
+          "seconds": 911,
+          "thumbnail": "https://i.ytimg.com/vi/KlGZSYEV1Zk/maxresdefault.jpg",
+          "source": "Ducati",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "dIDr5CVbq7M",
           "title": "Red Bull KTM MotoGP™ 2026 Factory Floor Episode 19 #MALAYSIANGP | KTM",
           "publishedAt": "2026-11-04T17:00:24Z",
@@ -1459,17 +1470,6 @@
           "duration": "15:42",
           "seconds": 942,
           "thumbnail": "https://i.ytimg.com/vi/jIwI3Bjd5OI/maxresdefault.jpg",
-          "source": "KTM",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "QIHUzoA-tD4",
-          "title": "Red Bull KTM MotoGP™ 2026 Factory Floor Episode 10 #DUTCHGP | KTM",
-          "publishedAt": "2026-07-20T17:55:32Z",
-          "duration": "14:22",
-          "seconds": 862,
-          "thumbnail": "https://i.ytimg.com/vi/QIHUzoA-tD4/maxresdefault.jpg",
           "source": "KTM",
           "blockedRegions": [],
           "allowedRegions": []
