@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-11T15:15:50Z",
+  "generatedAt": "2026-11-12T16:00:03Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,39 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "gYSgSGefdWQ",
+          "title": "Audi(o) | Episode 04 – São Paulo",
+          "publishedAt": "2026-11-12T15:27:47Z",
+          "duration": "10:08",
+          "seconds": 608,
+          "thumbnail": "https://i.ytimg.com/vi/gYSgSGefdWQ/maxresdefault.jpg",
+          "source": "Audi Revolut F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "kPQNzl-pzCo",
+          "title": "Extraordinary by Design, presented by Velocity Black | Jak Crawford and Pedro de la Rosa",
+          "publishedAt": "2026-11-12T14:57:14Z",
+          "duration": "23:08",
+          "seconds": 1388,
+          "thumbnail": "https://i.ytimg.com/vi/kPQNzl-pzCo/maxresdefault.jpg",
+          "source": "Aston Martin Aramco F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "_4WDvufR3EQ",
+          "title": "¡Viva México! | Cadillac Formula 1® Team",
+          "publishedAt": "2026-11-11T16:31:16Z",
+          "duration": "7:36",
+          "seconds": 456,
+          "thumbnail": "https://i.ytimg.com/vi/_4WDvufR3EQ/maxresdefault.jpg",
+          "source": "Cadillac Formula 1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "EyNpb96Rynk",
           "title": "Aston Martin Aramco Driver Academy | Training Day Diaries",
@@ -392,39 +425,6 @@
           "duration": "6:59",
           "seconds": 419,
           "thumbnail": "https://i.ytimg.com/vi/M6aLmNInADE/maxresdefault.jpg",
-          "source": "Aston Martin Aramco F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "vMbLJIHkat4",
-          "title": "AMR Network: Portraits | CoreWeave",
-          "publishedAt": "2026-07-31T14:00:23Z",
-          "duration": "9:29",
-          "seconds": 569,
-          "thumbnail": "https://i.ytimg.com/vi/vMbLJIHkat4/maxresdefault.jpg",
-          "source": "Aston Martin Aramco F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "ooSQDiKPP-E",
-          "title": "AMR Network: Portraits | Xerox",
-          "publishedAt": "2026-07-25T11:47:59Z",
-          "duration": "5:11",
-          "seconds": 311,
-          "thumbnail": "https://i.ytimg.com/vi/ooSQDiKPP-E/maxresdefault.jpg",
-          "source": "Aston Martin Aramco F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "l9k2EOSG5Is",
-          "title": "AMR Network: Portraits | ServiceNow",
-          "publishedAt": "2026-07-21T17:04:28Z",
-          "duration": "6:13",
-          "seconds": 373,
-          "thumbnail": "https://i.ytimg.com/vi/l9k2EOSG5Is/maxresdefault.jpg",
           "source": "Aston Martin Aramco F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
@@ -1178,6 +1178,17 @@
       "sourceURL": null,
       "videos": [
         {
+          "id": "iCXtwNiMkJo",
+          "title": "Red Bull KTM MotoGP™ 2026 Factory Floor Episode 20 #QATARGP | KTM",
+          "publishedAt": "2026-11-11T17:00:00Z",
+          "duration": "9:17",
+          "seconds": 557,
+          "thumbnail": "https://i.ytimg.com/vi/iCXtwNiMkJo/maxresdefault.jpg",
+          "source": "KTM",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "KlGZSYEV1Zk",
           "title": "Marc Márquez and Pecco Bagnaia | Eat, train, sleep, repeat #QatarGP",
           "publishedAt": "2026-11-11T11:15:29Z",
@@ -1460,17 +1471,6 @@
           "seconds": 707,
           "thumbnail": "https://i.ytimg.com/vi/QLTRYPCB58c/maxresdefault.jpg",
           "source": "Ducati",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "jIwI3Bjd5OI",
-          "title": "Red Bull KTM MotoGP™ 2026 Factory Floor Episode 11 #GERMANGP | KTM",
-          "publishedAt": "2026-07-27T16:55:07Z",
-          "duration": "15:42",
-          "seconds": 942,
-          "thumbnail": "https://i.ytimg.com/vi/jIwI3Bjd5OI/maxresdefault.jpg",
-          "source": "KTM",
           "blockedRegions": [],
           "allowedRegions": []
         },
