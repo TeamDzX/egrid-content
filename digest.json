@@ -1,7 +1,35 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-11T06:40:55Z",
+  "generatedAt": "2026-11-12T03:07:51Z",
   "editions": [
+    {
+      "id": "2026-11-12-preview",
+      "kind": "preview",
+      "title": "This weekend on E-Grid",
+      "dateRange": "12–16 November",
+      "intro": "Two rounds this week across the World Rally Championship and NHRA Drag Racing, with the Saudi Arabian event on Saturday and the season finale in California on Sunday. Here is what to expect from each over the coming days.",
+      "publishedAt": "2026-11-12T03:07:51Z",
+      "expiresAt": "2026-11-17T03:07:51Z",
+      "items": [
+        {
+          "channelID": "wrc",
+          "channelName": "World Rally Championship",
+          "headline": "Rally Saudi Arabia",
+          "detail": "Jeddah, Saudi Arabia · Sat 14 Nov",
+          "body": "The World Rally Championship reaches Saudi Arabia on Saturday 14 November for the Saudi Arabian rally based in Jeddah. It marks round fourteen of the calendar and closes out the season's later stages.",
+          "date": "2026-11-14",
+          "round": 14
+        },
+        {
+          "channelID": "nhra",
+          "channelName": "NHRA Drag Racing",
+          "headline": "NHRA Finals",
+          "detail": "Pomona Dragstrip, California · Sun 15 Nov",
+          "body": "The NHRA Finals bring the drag racing season to its conclusion at Pomona Dragstrip in California on Sunday 15 November.",
+          "date": "2026-11-15"
+        }
+      ]
+    },
     {
       "id": "2026-11-11-preview",
       "kind": "preview",
@@ -291,137 +319,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "2026-11-08-preview",
-      "kind": "preview",
-      "title": "Results from the weekend",
-      "dateRange": "6–9 November",
-      "intro": "Results are in from Formula 1, MotoGP and NASCAR Cup Series. World Endurance Championship has run. Still to come: Clio Cup Series.",
-      "publishedAt": "2026-11-08T23:46:56Z",
-      "expiresAt": "2026-11-13T23:46:56Z",
-      "items": [
-        {
-          "channelID": "wec",
-          "channelName": "World Endurance Championship",
-          "headline": "8 Hours of Bahrain",
-          "detail": "Bahrain International Circuit · Sat 7 Nov",
-          "body": "Round 8 of the World Endurance Championship season ran at Bahrain International Circuit. Results for this series are not in E-Grid's feeds yet.",
-          "date": "2026-11-07",
-          "round": 8
-        },
-        {
-          "channelID": "cliocup",
-          "channelName": "Clio Cup Series",
-          "headline": "Portimão",
-          "detail": "Autódromo Internacional do Algarve, Portugal · Sun 8 Nov",
-          "body": "Round 7 of the Clio Cup Series season.",
-          "date": "2026-11-08",
-          "round": 7
-        },
-        {
-          "channelID": "f1",
-          "channelName": "Formula 1",
-          "headline": "Brazilian Grand Prix",
-          "detail": "Autódromo José Carlos Pace, Brazil · Sun 8 Nov",
-          "body": "Round 20 of the Formula 1 season. Won by Lando Norris (McLaren) from Max Verstappen and Isack Hadjar.",
-          "date": "2026-11-08",
-          "round": 20,
-          "facts": [
-            "Lando Norris won from pole, 14.6 seconds ahead of Max Verstappen",
-            "Biggest climbers: Max Verstappen from 21st to 2nd and Lewis Hamilton from 20th to 9th",
-            "Fastest lap: Andrea Kimi Antonelli, 1:12.689",
-            "Did not finish: Lance Stroll and Valtteri Bottas (did not start)",
-            "Andrea Kimi Antonelli's championship lead over Max Verstappen went from 119 to 111 points over the weekend",
-            "Rain fell during the race"
-          ],
-          "podium": [
-            {
-              "position": 1,
-              "name": "Lando Norris",
-              "team": "McLaren"
-            },
-            {
-              "position": 2,
-              "name": "Max Verstappen",
-              "team": "Red Bull"
-            },
-            {
-              "position": 3,
-              "name": "Isack Hadjar",
-              "team": "Red Bull"
-            }
-          ]
-        },
-        {
-          "channelID": "motogp",
-          "channelName": "MotoGP",
-          "headline": "Grand Prix of Qatar",
-          "detail": "Lusail International Circuit, Qatar · Sun 8 Nov",
-          "body": "Round 20 of the MotoGP season. Won by Marco Bezzecchi (Aprilia Racing) from Marc Marquez and Raul Fernandez.",
-          "date": "2026-11-08",
-          "round": 20,
-          "facts": [
-            "Marco Bezzecchi won by 3.1 seconds from Marc Marquez",
-            "Did not finish: Brad Binder and Diogo Moreira",
-            "Marc Marquez set a new lap record, 1:52.558",
-            "Dry, 31°C air and 33°C track",
-            "Saturday's sprint was won by Marc Marquez",
-            "Marc Marquez's championship lead over Jorge Martin went from 44 to 60 points this weekend"
-          ],
-          "podium": [
-            {
-              "position": 1,
-              "name": "Marco Bezzecchi",
-              "team": "Aprilia Racing"
-            },
-            {
-              "position": 2,
-              "name": "Marc Marquez",
-              "team": "Ducati Lenovo Team"
-            },
-            {
-              "position": 3,
-              "name": "Raul Fernandez",
-              "team": "SuperFile Trackhouse MotoGP Team"
-            }
-          ]
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "Championship Race",
-          "detail": "Homestead-Miami Speedway · Sun 8 Nov",
-          "body": "Round 36 of the NASCAR Cup Series season. Won by Ryan Blaney (Team Penske) from Tyler Reddick and William Byron.",
-          "date": "2026-11-08",
-          "round": 36,
-          "facts": [
-            "Ryan Blaney won from 9th on the grid",
-            "Most laps led: Denny Hamlin (87)",
-            "Stage winners: Stage 1 Tyler Reddick, Stage 2 Denny Hamlin",
-            "Margin of victory: 0.314 s",
-            "Kyle Larson's Chase lead over Christopher Bell went from 67 to 49 points this weekend, with the title decided",
-            "The win lifted Ryan Blaney from 7th to 4th in the Chase"
-          ],
-          "podium": [
-            {
-              "position": 1,
-              "name": "Ryan Blaney",
-              "team": "Team Penske"
-            },
-            {
-              "position": 2,
-              "name": "Tyler Reddick",
-              "team": "23XI Racing"
-            },
-            {
-              "position": 3,
-              "name": "William Byron",
-              "team": "Hendrick Motorsports"
-            }
-          ]
-        }
-      ]
     }
   ],
   "lastRaces": [
@@ -502,7 +399,7 @@
       "channelName": "Formula 1",
       "headline": "Brazilian Grand Prix",
       "detail": "Autódromo José Carlos Pace, Brazil · Sun 8 Nov",
-      "body": "Round 20 of the Formula 1 season. Won by Lando Norris (McLaren) from Max Verstappen and Isack Hadjar.",
+      "body": "Lando Norris won from pole by 14.6 seconds over Max Verstappen, with Isack Hadjar third for Red Bull as McLaren and Red Bull filled the top three. Rain fell during the race as Norris made three stops on intermediate, soft, soft then intermediate tyres. Verstappen recovered from 21st to second and Hamilton climbed from 20th to ninth.",
       "date": "2026-11-08",
       "round": 20,
       "facts": [
@@ -531,7 +428,7 @@
         }
       ],
       "factsVersion": 4,
-      "writer": "template"
+      "writer": "own server"
     },
     {
       "channelID": "cliocup",
