@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-11-12T16:11:17Z",
+ "generatedAt": "2026-11-13T15:40:05Z",
  "teams": [
   {
    "id": "f1-mercedes",
@@ -29,11 +29,11 @@
     ]
    },
    "review": {
-    "summary": "Mercedes lead the championship with 652 points after 20 rounds, 12 wins and 24 podiums. Andrea Kimi Antonelli tops the drivers' standings ahead of George Russell.",
-    "lastRace": "At the Brazilian Grand Prix both cars finished; Russell took fourth from seventh on the grid for 12 points, while Antonelli dropped to fifth after starting second, adding 10 points.",
+    "summary": "Leading the championship after 20 rounds with 652 points from 12 wins and 24 podiums. Andrea Kimi Antonelli tops the drivers' standings ahead of George Russell, who sits third on 262. Their tally has come through consistent top-five finishes.",
+    "lastRace": "George Russell finished fourth from seventh on the grid for 12 points, while Andrea Kimi Antonelli completed fifth from second for 10; both crossed the line in a top-five sweep.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Brazilian Grand Prix",
     "round": 20,
@@ -83,11 +83,11 @@
     ]
    },
    "review": {
-    "summary": "Ferrari sit second with 510 points after 20 rounds, two wins and 13 podiums. Lewis Hamilton leads the pair narrowly over Charles Leclerc in the drivers' standings.",
-    "lastRace": "At the Brazilian Grand Prix Leclerc recovered to eighth from fourteenth on the grid for 4 points, while Hamilton fell back to ninth after starting last, gaining 2 points as a lapped car.",
+    "summary": "Second with 510 points after 20 rounds, 2 wins and 13 podiums. Lewis Hamilton is fourth on 261 points and Charles Leclerc fifth on 249, so the two drivers sit close together in the standings.",
+    "lastRace": "Charles Leclerc finished eighth from 14th for 4 points, while Lewis Hamilton fell to ninth from 20th, lapped, for 2.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Brazilian Grand Prix",
     "round": 20,
@@ -142,11 +142,11 @@
     ]
    },
    "review": {
-    "summary": "Red Bull are third with 415 points after 20 rounds, three wins and 15 podiums. Max Verstappen leads the team's drivers well ahead of Isack Hadjar, with Liam Lawson a further back.",
-    "lastRace": "At the Brazilian Grand Prix Verstappen climbed from 21st on the grid to finish second for 18 points, while Hadjar took third after starting fifth, adding 15 points.",
+    "summary": "Third with 415 points after 20 rounds, 3 wins and 15 podiums. Max Verstappen leads their drivers at second on 279, well clear of Isack Hadjar (8th, 122) and Liam Lawson (9th, 89).",
+    "lastRace": "Max Verstappen recovered to second from 21st on the grid for 18 points, and Isack Hadjar finished third from fifth for 15.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Brazilian Grand Prix",
     "round": 20,
@@ -196,11 +196,11 @@
     ]
    },
    "review": {
-    "summary": "McLaren are fourth with 398 points after 20 rounds, three wins and eight podiums. Lando Norris leads his teammate clearly in the drivers' standings ahead of Oscar Piastri.",
-    "lastRace": "At the Brazilian Grand Prix Norris won from pole position for 25 points, while Piastri finished sixth after starting tenth, adding 8 points.",
+    "summary": "Fourth with 398 points after 20 rounds, 3 wins and 8 podiums. Lando Norris is sixth on 246 points ahead of Oscar Piastri, seventh on 152.",
+    "lastRace": "Lando Norris won from pole for 25 points, while Oscar Piastri finished sixth from 10th for 8.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Brazilian Grand Prix",
     "round": 20,
@@ -250,11 +250,11 @@
     ]
    },
    "review": {
-    "summary": "RB F1 Team are fifth with 114 points after 20 rounds, without a win or podium. Arvid Lindblad leads the pair over Yuki Tsunoda in the standings.",
-    "lastRace": "At the Brazilian Grand Prix Liam Lawson finished seventh from third on the grid for 6 points, while Lindblad dropped to eleventh as a lapped car after starting eighteenth, gaining no points.",
+    "summary": "Fifth with 114 points after 20 rounds and no wins or podiums. Arvid Lindblad leads their drivers at eleventh on 38, well ahead of Yuki Tsunoda, twentieth on 1.",
+    "lastRace": "Liam Lawson finished seventh from third for 6 points, while Arvid Lindblad was lapped to eleventh from 18th without scoring.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Brazilian Grand Prix",
     "round": 20,
@@ -304,11 +304,11 @@
     ]
    },
    "review": {
-    "summary": "Alpine F1 Team are sixth with 69 points after 20 rounds, without a win or podium. Pierre Gasly leads the pair over Franco Colapinto in the drivers' standings.",
-    "lastRace": "At the Brazilian Grand Prix both cars were lapped; Colapinto finished thirteenth having started thirteenth, and Gasly fourteenth from fifteenth on the grid, neither scoring points.",
+    "summary": "Sixth with 69 points after 20 rounds, no wins or podiums. Pierre Gasly sits tenth on 42 points ahead of Franco Colapinto, twelfth on 27.",
+    "lastRace": "Franco Colapinto was lapped to thirteenth from 13th and Pierre Gasly fourteenth from 15th; neither scored a point.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Brazilian Grand Prix",
     "round": 20,
@@ -368,11 +368,11 @@
     ]
    },
    "review": {
-    "summary": "Haas F1 Team are seventh with 31 points after 20 rounds, without a win or podium. Oliver Bearman leads the team's drivers well clear of Esteban Ocon, Ryo Hirakawa and Rafael Camara.",
-    "lastRace": "At the Brazilian Grand Prix Bearman fell to seventeenth from sixth on the grid as a lapped car, while Camara finished twentieth after starting eleventh; neither scored points.",
+    "summary": "Seventh with 31 points after 20 rounds, no wins or podiums. Oliver Bearman leads at thirteenth on 23, ahead of Esteban Ocon (16th, 7), Ryo Hirakawa (21st, 1) and Rafael Camara (25th).",
+    "lastRace": "Oliver Bearman was lapped to seventeenth from sixth, and Rafael Camara twentieth from eleventh; neither scored a point.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Brazilian Grand Prix",
     "round": 20,
@@ -422,11 +422,11 @@
     ]
    },
    "review": {
-    "summary": "Audi are eighth with 28 points after 20 rounds, without a win or podium. Gabriel Bortoleto and Nico Hülkenberg are level on 14 points in the drivers' standings.",
-    "lastRace": "At the Brazilian Grand Prix Hülkenberg finished tenth from fourth on the grid for a single point despite being lapped, while Bortoleto dropped to sixteenth after starting nineteenth, scoring nothing.",
+    "summary": "Eighth with 28 points after 20 rounds, no wins or podiums. Gabriel Bortoleto and Nico Hülkenberg are level on 14 apiece, fourteen and fifteen respectively in the standings.",
+    "lastRace": "Nico Hülkenberg was lapped to tenth from fourth for a single point, while Gabriel Bortoleto fell to sixteenth from nineteenth without scoring.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Brazilian Grand Prix",
     "round": 20,
@@ -476,11 +476,11 @@
     ]
    },
    "review": {
-    "summary": "Williams are ninth with 12 points after 20 rounds, without a win or podium. Carlos Sainz leads the pair narrowly over Alexander Albon in the standings.",
-    "lastRace": "At the Brazilian Grand Prix both cars were lapped; Albon finished fifteenth from ninth on the grid and Sainz nineteenth after twelfth, neither scoring points.",
+    "summary": "Ninth with 12 points after 20 rounds, no wins or podiums. Carlos Sainz sits eighteenth on 7 points ahead of Alexander Albon, nineteenth on 5.",
+    "lastRace": "Alexander Albon was lapped to fifteenth from ninth and Carlos Sainz nineteenth from twelfth; neither scored a point.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Brazilian Grand Prix",
     "round": 20,
@@ -530,11 +530,11 @@
     ]
    },
    "review": {
-    "summary": "Aston Martin are tenth with 7 points after 20 rounds, without a win or podium. Fernando Alonso leads the pair over Lance Stroll in the drivers' standings.",
-    "lastRace": "At the Brazilian Grand Prix Alonso was lapped and finished twelfth from eighth on the grid, while Stroll retired having started sixteenth, scoring no points.",
+    "summary": "Tenth with 7 points after 20 rounds, no wins or podiums. Fernando Alonso is seventeenth on his only 7 points, ahead of Lance Stroll, twenty-second on zero.",
+    "lastRace": "Fernando Alonso was lapped to twelfth from eighth without scoring, while Lance Stroll retired after starting sixteenth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Brazilian Grand Prix",
     "round": 20,
@@ -584,11 +584,11 @@
     ]
    },
    "review": {
-    "summary": "Cadillac F1 Team are eleventh with zero points after 20 rounds, without a win or podium. Valtteri Bottas and Sergio Pérez sit at the foot of the drivers' standings on no points.",
-    "lastRace": "At the Brazilian Grand Prix Pérez finished eighteenth having started twenty-second as a lapped car, while Bottas did not start from seventeenth on the grid; neither scored points.",
+    "summary": "Eleventh with no points after 20 rounds and no wins or podiums. Valtteri Bottas is twenty-third and Sergio Pérez twenty-fourth on the drivers' standings, both on zero.",
+    "lastRace": "Sergio Pérez was lapped to eighteenth from 22nd without scoring, while Valtteri Bottas did not start from seventeenth.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Brazilian Grand Prix",
     "round": 20,
@@ -668,11 +668,11 @@
     ]
    },
    "review": {
-    "summary": "Ducati lead the teams' championship after nineteen rounds with eight wins and sixteen podiums. Marc Marquez tops the riders' standings on 431 points, well clear of Fabio Di Giannantonio on 282, while Alex Marquez and Francesco Bagnaia round out a deep lineup that has spread points across many riders.",
-    "lastRace": "At the Grand Prix of Qatar, Marc Marquez finished second to take twenty points, and Fabio Di Giannantonio was eighth for eight more. Iker Lecuona, Franco Morbidelli and Fermin Aldeguer completed the scorers with tenth, eleventh and twelfth place and six, five and four points respectively.",
+    "summary": "Ducati lead after 19 rounds, eight wins and sixteen podiums to their credit. Marc Marquez heads their riders on 431 points, comfortably ahead of Fabio Di Giannantonio (282) and Alex Marquez (197), with Francesco Bagnaia a further back on 173. Points have come from across the field rather than a single rider: Fermin Aldeguer (129), Franco Morbidelli (70), Iker Lecuona (18) and Michele Pirro (0) complete the tally.",
+    "lastRace": "At the Grand Prix of Qatar, Marc Marquez finished second to take 20 points, the best of a strong showing. Fabio Di Giannantonio was eighth (8), Iker Lecuona tenth (6), Franco Morbidelli eleventh (5) and Fermin Aldeguer twelfth (4).",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Grand Prix of Qatar",
     "round": 19,
@@ -758,11 +758,11 @@
     ]
    },
    "review": {
-    "summary": "Aprilia sit second in the teams' standings after nineteen rounds with nine wins and thirty-three podiums. Jorge Martin is second among riders on 371 points, just ahead of Marco Bezzecchi on 357, with Ai Ogura and Raul Fernandez supplying further depth across a strong field.",
-    "lastRace": "Marco Bezzecchi won the Grand Prix of Qatar for Aprilia, taking twenty-five points from the front, with Raul Fernandez third for sixteen and Ai Ogura fourth for thirteen. Jorge Martin finished seventh to add nine more.",
+    "summary": "Aprilia sit second after 19 rounds, nine wins and thirty-three podiums to their credit as they chase leaders Ducati. Jorge Martin is second on 371 points, with Marco Bezzecchi close behind on 357, Ai Ogura fifth on 294 and Raul Fernandez seventh on 258; Lorenzo Savadori sits thirty-first without any points.",
+    "lastRace": "Marco Bezzecchi won the Grand Prix of Qatar, taking 25 points at the top of a full Aprilia finish. Raul Fernandez was third (16), Ai Ogura fourth (13) and Jorge Martin seventh (9).",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Grand Prix of Qatar",
     "round": 19,
@@ -846,11 +846,11 @@
     ]
    },
    "review": {
-    "summary": "KTM are third in the teams' standings after nineteen rounds with two wins and eight podiums. Pedro Acosta is their highest rider at fourth on 309 points, well clear of Enea Bastianini on 147, while Brad Binder, Maverick Viñales and Pol Espargaro trail further back.",
-    "lastRace": "At the Grand Prix of Qatar, Enea Bastianini was fifth for eleven points and Pedro Acosta sixth for ten. Maverick Viñales finished thirteenth for three, but Brad Binder did not score.",
+    "summary": "KTM sit third after 19 rounds, two wins and eight podiums to their credit. Pedro Acosta leads their riders on 309 points in fourth place, well clear of Enea Bastianini (147) and Brad Binder (118), with Maverick Viñales (17), Pol Espargaro (5) and Jonas Folger (0) trailing further down the order.",
+    "lastRace": "At the Grand Prix of Qatar, Enea Bastianini was fifth (11 points) and Pedro Acosta sixth (10), both scoring. Maverick Viñales finished thirteenth for three, but Brad Binder failed to finish without scoring.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Grand Prix of Qatar",
     "round": 19,
@@ -949,11 +949,11 @@
     ]
    },
    "review": {
-    "summary": "Honda are fourth after nineteen rounds with no wins and no podiums. Luca Marini leads their riders at thirteenth on 117 points, ahead of Diogo Moreira on 78 and Johann Zarco on 63, though the rest of a large grid trail well behind in the standings.",
-    "lastRace": "At the Grand Prix of Qatar, Johann Zarco took ninth place and seven points, with Jake Dixon fourteenth for two. Diogo Moreira did not finish.",
+    "summary": "Honda sit fourth after 19 rounds with no wins and no podiums. Luca Marini leads on 117 points in thirteenth place, ahead of Diogo Moreira (78) and Johann Zarco (63), then Joan Mir (33); Somkiat Chantra, Takaaki Nakagami, Jake Dixon, Cal Crutchlow and Aleix Espargaro contribute little further down.",
+    "lastRace": "At the Grand Prix of Qatar, Johann Zarco was ninth (7 points), the best of a quiet round for Honda, with Jake Dixon fourteenth (2). Diogo Moreira did not finish without scoring.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Grand Prix of Qatar",
     "round": 19,
@@ -1025,11 +1025,11 @@
     ]
    },
    "review": {
-    "summary": "Yamaha are fifth after nineteen rounds with no wins and no podiums. Fabio Quartararo leads their riders at fourteenth on 79 points, ahead of Jack Miller on 31 and Alex Rins on 29, while Toprak Razgatlioglu and Augusto Fernandez sit further down the order.",
+    "summary": "Yamaha sit fifth after 19 rounds with no wins and no podiums. Fabio Quartararo leads on 79 points in fourteenth place, ahead of Jack Miller (31), Alex Rins (29), Toprak Razgatlioglu (18) and August Fernandez (6).",
     "lastRace": "",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "id": "formulae-jaguar-tcs-racing",
@@ -1058,11 +1058,11 @@
     ]
    },
    "review": {
-    "summary": "Jaguar TCS Racing lead the teams' championship with 288 points. Mitch Evans sits third in the drivers' standings on 160 while team-mate António Félix Da Costa is sixth on 128, giving a clear but not overwhelming gap between the two. No wins or podiums are recorded yet.",
+    "summary": "Jaguar TCS Racing top the standings with 288 points. Mitch Evans leads the pair in third on 160, thirty-two clear of team-mate António Félix Da Costa, who sits sixth with 128.",
     "lastRace": "",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "id": "formulae-porsche-formula-e-team",
@@ -1091,11 +1091,11 @@
     ]
    },
    "review": {
-    "summary": "Porsche are second with 271 points, 17 behind Jaguar. Pascal Wehrlein leads the drivers' championship on 169 while team-mate Nico Müller is ninth on 102, a wide spread between them. Nothing has been won or podiumed yet.",
+    "summary": "Porsche sit second on 271 points. Pascal Wehrlein tops the drivers in first with 169, holding a 67-point advantage over team-mate Nico Müller in ninth.",
     "lastRace": "",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "id": "formulae-mahindra-racing",
@@ -1124,11 +1124,11 @@
     ]
    },
    "review": {
-    "summary": "Mahindra are third with 252 points. Edoardo Mortara is fifth on 137 and team-mate Nyck De Vries seventh on 115, so the pair stay close together as the standings stand. No wins or podiums have come yet.",
+    "summary": "Mahindra are third on 252 points. Edoardo Mortara leads the pair fifth on 137, twenty-two ahead of team-mate Nyck De Vries who is seventh with 115.",
     "lastRace": "",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "id": "formulae-andretti-formula-e",
@@ -1157,11 +1157,11 @@
     ]
    },
    "review": {
-    "summary": "Andretti are fourth with 229 points. Jake Dennis is second in the drivers' standings on 164 while team-mate Felipe Drugovich sits fourteenth on 65, a large gap between them that leaves most of the points to one side.",
+    "summary": "Andretti are fourth on 229 points. Jake Dennis sits second overall with 164, a wide 99-point gap to team-mate Felipe Drugovich in fourteenth on 65.",
     "lastRace": "",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "id": "formulae-citroën-racing",
@@ -1190,11 +1190,11 @@
     ]
    },
    "review": {
-    "summary": "Citroën are fifth with 182 points. Nick Cassidy is eighth on 114 and team-mate Jean-Éric Vergne twelfth on 68, so Cassidy has done most of the scoring for the pair. No wins or podiums recorded yet.",
+    "summary": "Citroën are fifth on 182 points. Nick Cassidy leads the pair eighth with 114, forty-six clear of team-mate Jean-Éric Vergne in twelfth on 68.",
     "lastRace": "",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "id": "formulae-nissan-formula-e-team",
@@ -1223,11 +1223,11 @@
     ]
    },
    "review": {
-    "summary": "Nissan are sixth with 157 points. Oliver Rowland is fourth on 137 while team-mate Norman Nato is nineteenth on just 20, a very wide spread that leaves the bulk of their points coming from one driver.",
+    "summary": "Nissan are sixth on 157 points. Oliver Rowland is fourth with 137, a large 117-point lead over team-mate Norman Nato in nineteenth on just 20.",
     "lastRace": "",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "id": "formulae-envision-racing",
@@ -1256,11 +1256,11 @@
     ]
    },
    "review": {
-    "summary": "Envision are seventh with 152 points. Sébastien Buemi is tenth on 97 and team-mate Joel Eriksson sixteenth on 55, so there is a modest gap between the two as the season has gone.",
+    "summary": "Envision are seventh on 152 points. Sébastien Buemi leads the pair tenth with 97, forty-two ahead of team-mate Joel Eriksson in sixteenth on 55.",
     "lastRace": "",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "id": "formulae-cupra-kiro",
@@ -1289,11 +1289,11 @@
     ]
    },
    "review": {
-    "summary": "Cupra Kiro are eighth with 128 points. Josep Maria Martí is thirteenth on 66 and team-mate Dan Ticktum fifteenth on 62, a very tight contest between the pair. No wins or podiums have come yet.",
+    "summary": "Cupra Kiro are eighth on 128 points. Josep Maria Martí leads team-mate Dan Ticktum by just four, 66 to 62, with Martí thirteenth and Ticktum fifteenth.",
     "lastRace": "",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "id": "formulae-ds-penske",
@@ -1322,11 +1322,11 @@
     ]
    },
    "review": {
-    "summary": "DS Penske are ninth with 91 points. Taylor Barnard is eleventh on 68 while team-mate Maximilian Günther is eighteenth on just 23, leaving a clear gap between the two drivers.",
+    "summary": "DS Penske are ninth on 91 points. Taylor Barnard leads the pair eleventh with 68, forty-five ahead of team-mate Maximilian Günther in eighteenth on 23.",
     "lastRace": "",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "id": "formulae-lola-yamaha-abt-formula-e-team",
@@ -1355,11 +1355,11 @@
     ]
    },
    "review": {
-    "summary": "Lola Yamaha ABT are tenth with 35 points. Lucas Di Grassi is seventeenth on 32 while team-mate Zane Maloney is twentieth on just 3, so almost all of their points have come from one driver.",
+    "summary": "Lola Yamaha ABT are tenth and last on 35 points. Lucas Di Grassi leads team-mate Zane Maloney by twenty-nine, 32 to 3, with Di Grassi seventeenth and Maloney twentieth.",
     "lastRace": "",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   }
  ],
  "drivers": [
@@ -1378,10 +1378,10 @@
     "podiums": 16
    },
    "review": {
-    "summary": "Leads the championship with 390 points across 20 rounds, nine wins and sixteen podiums. Team-mate George Russell trails well behind in third. In the last race he finished fifth from second on the grid, taking ten points.",
+    "summary": "Leads with 390 points after 20 rounds and 9 wins from 16 podiums. Teammate George Russell sits third with 262 points and 8 podiums, well behind. Antonelli's most recent race was a fifth-place finish from second on the grid, claiming 10 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Brazilian Grand Prix",
     "position": 5,
@@ -1406,10 +1406,10 @@
     "podiums": 8
    },
    "review": {
-    "summary": "Third in the standings with 262 points from 20 rounds, three wins and eight podiums, well adrift of team-mate Andrea Kimi Antonelli's lead. Last race he finished fourth from seventh on the grid, scoring twelve points.",
+    "summary": "Third with 262 points after 20 rounds and 3 wins from 8 podiums, clearly behind teammate Andrea Kimi Antonelli in the team standings. His most recent race was a fourth-place finish from seventh on the grid, claiming 12 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Brazilian Grand Prix",
     "position": 4,
@@ -1434,10 +1434,10 @@
     "podiums": 7
    },
    "review": {
-    "summary": "Fourth in the standings with 261 points across 20 rounds, one win and seven podiums, just behind team-mate Charles Leclerc. In the last race he started twentieth and was lapped, finishing ninth for two points.",
+    "summary": "Fourth with 261 points after 20 rounds and 1 win from 7 podiums, just ahead of teammate Charles Leclerc in the standings. His most recent race was a ninth-place finish; he was lapped and started from 20th on the grid, taking 2 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Brazilian Grand Prix",
     "position": 9,
@@ -1462,10 +1462,10 @@
     "podiums": 6
    },
    "review": {
-    "summary": "Fifth in the standings with 249 points from 20 rounds, one win and six podiums, a little behind team-mate Lewis Hamilton. Last race he finished eighth from fourteenth on the grid, taking four points.",
+    "summary": "Fifth with 249 points after 20 rounds and 1 win from 6 podiums, just behind teammate Lewis Hamilton in the standings. His most recent race was an eighth-place finish from 14th on the grid, claiming 4 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Brazilian Grand Prix",
     "position": 8,
@@ -1490,10 +1490,10 @@
     "podiums": 12
    },
    "review": {
-    "summary": "Second in the standings with 279 points across 20 rounds, three wins and twelve podiums. In the last race he climbed from twenty-first on the grid to finish second, claiming eighteen points ahead of both team-mates.",
-    "writer": "own server"
+    "summary": "Max Verstappen is 2nd in the Formula 1 standings on 279 points for Red Bull, with 3 wins and 12 podiums this season. At the Brazilian Grand Prix they finished 2nd from 21st on the grid.",
+    "writer": "template"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Brazilian Grand Prix",
     "position": 2,
@@ -1518,10 +1518,10 @@
     "podiums": 3
    },
    "review": {
-    "summary": "Eighth in the standings with 122 points from 20 rounds and three podiums, but no wins. He sits well behind team-mate Max Verstappen. Last race he finished third from fifth on the grid, scoring fifteen points.",
+    "summary": "Eighth with 122 points after 20 rounds, no wins from 3 podiums, well behind teammate Max Verstappen but ahead of Liam Lawson. His most recent race was a third-place finish from fifth on the grid, claiming 15 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Brazilian Grand Prix",
     "position": 3,
@@ -1546,10 +1546,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Ninth in the standings with 89 points across 20 rounds and no wins or podiums. He trails both team-mates, Max Verstappen and Isack Hadjar, who have each scored more points this season.",
+    "summary": "Ninth with 89 points after 20 rounds, no wins and no podiums, sitting behind both teammates Max Verstappen and Isack Hadjar in the standings.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "f1",
@@ -1566,10 +1566,10 @@
     "podiums": 6
    },
    "review": {
-    "summary": "Sixth in the standings with 246 points across 20 rounds, three wins and six podiums. He races alongside team-mate Oscar Piastri. In the last race he took pole and won from the front row, claiming twenty-five points.",
+    "summary": "Sixth with 246 points after 20 rounds and 3 wins from 6 podiums, his team-mate being Oscar Piastri. His most recent race was a win from first on the grid, claiming 25 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Brazilian Grand Prix",
     "position": 1,
@@ -1594,10 +1594,10 @@
     "podiums": 2
    },
    "review": {
-    "summary": "After 20 rounds Piastri sits seventh on 152 points with two podiums and no wins. He was running in the points at the Brazilian Grand Prix, starting tenth and finishing sixth for eight points.",
+    "summary": "Piastri is seventh in the standings with 152 points from 20 rounds, two podiums and no wins yet. He races alongside teammate Lando Norris. At the Brazilian Grand Prix he started tenth and finished sixth to earn eight points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Brazilian Grand Prix",
     "position": 6,
@@ -1622,10 +1622,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Over 20 rounds Lindblad is eleventh on 38 points with no wins or podiums. He holds a comfortable lead over team-mate Yuki Tsunoda, who has just one point. At the Brazilian Grand Prix he started eighteenth and finished laps down for no points.",
+    "summary": "Lindblad is eleventh with 38 points from 20 rounds, no wins or podiums. He holds a clear advantage over teammate Yuki Tsunoda, who trails at the bottom of the field. At the Brazilian Grand Prix he started eighteenth and finished eleventh for no points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Brazilian Grand Prix",
     "position": 11,
@@ -1650,10 +1650,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "After 20 rounds Tsunoda is twentieth on a single point, with no wins or podiums. He trails team-mate Arvid Lindblad by a wide margin, some 37 points between the two of them.",
+    "summary": "Tsunoda sits twentieth in the championship with just one point from 20 rounds and no wins or podiums. He is well behind teammate Arvid Lindblad, who holds 38 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "f1",
@@ -1670,10 +1670,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Gasly is tenth on 42 points after 20 rounds, ahead of team-mate Franco Colapinto's 27, though neither has a win or a podium. At the Brazilian Grand Prix he started fifteenth and finished fourteenth, laps down for no points.",
+    "summary": "Gasly is tenth with 42 points from 20 rounds, no wins or podiums. He edges out teammate Franco Colapinto, who sits twelfth with 27 points. At the Brazilian Grand Prix he started fifteenth and finished fourteenth for no points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Brazilian Grand Prix",
     "position": 14,
@@ -1698,10 +1698,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Colapinto is twelfth on 27 points after 20 rounds, behind team-mate Pierre Gasly but with no wins or podiums. At the Brazilian Grand Prix he started and finished thirteenth, laps down for no points.",
+    "summary": "Colapinto is twelfth in the standings with 27 points from 20 rounds, no wins or podiums. He sits behind teammate Pierre Gasly on 42 points. At the Brazilian Grand Prix he started and finished thirteenth for no points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Brazilian Grand Prix",
     "position": 13,
@@ -1726,10 +1726,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Bearman is thirteenth on 23 points after 20 rounds, ahead of team-mates Esteban Ocon, on 7, and Ryo Hirakawa, on 1. At the Brazilian Grand Prix he started sixth but fell back to seventeenth, laps down for no points.",
+    "summary": "Bearman is thirteenth with 23 points from 20 rounds, no wins or podiums. He leads team-mates Esteban Ocon and Ryo Hirakawa in the standings. At the Brazilian Grand Prix he started sixth but fell to seventeenth for no points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Brazilian Grand Prix",
     "position": 17,
@@ -1754,10 +1754,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Ocon is sixteenth on 7 points after 20 rounds, well behind team-mate Oliver Bearman's 23 and ahead of Ryo Hirakawa's single point. He has no wins or podiums.",
+    "summary": "Ocon is sixteenth with 7 points from 20 rounds, no wins or podiums. He sits behind team-mate Oliver Bearman on 23 points and ahead of Ryo Hirakawa on one point.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "f1",
@@ -1774,10 +1774,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Hirakawa is twenty-first on a single point after 20 rounds, trailing team-mates Oliver Bearman and Esteban Ocon, with no wins or podiums.",
+    "summary": "Hirakawa is twenty-first with just one point from 20 rounds, no wins or podiums. He sits behind team-mates Oliver Bearman and Esteban Ocon in the standings.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "f1",
@@ -1794,10 +1794,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Through twenty rounds of the season he sits last on zero points, with no wins or podiums. His Brazilian Grand Prix ended in the lapped group, finishing twentieth from eleventh on the grid and taking no points.",
+    "summary": "Rafael Camara has scored no points across 20 rounds, sitting 25th with zero wins and no podiums. In the Brazilian Grand Prix he started 11th and finished 20th, lapped off the race for another scoreless outing.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Brazilian Grand Prix",
     "position": 20,
@@ -1822,10 +1822,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Twenty rounds in, he stands fourteenth with fourteen points and neither a win nor a podium, level with team-mate Nico Hülkenberg. At the Brazilian Grand Prix he finished sixteenth from nineteenth on the grid without scoring.",
+    "summary": "Gabriel Bortoleto sits 14th with 14 points after 20 rounds, no wins or podiums. He edges teammate Nico Hülkenberg on the standings but not in Brazil, starting 19th and finishing 16th, lapped for zero points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Brazilian Grand Prix",
     "position": 16,
@@ -1850,10 +1850,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Through twenty rounds he sits fifteenth, level with team-mate Gabriel Bortoleto on fourteen points and without a win or podium. His best showing came at the Brazilian Grand Prix, starting fourth and finishing tenth to claim his single point.",
+    "summary": "Nico Hülkenberg is 15th with 14 points after 20 rounds, level on points but a place behind teammate Gabriel Bortoleto, no wins or podiums. He recovered from fourth on the grid to finish 10th in Brazil for his only point of the weekend.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Brazilian Grand Prix",
     "position": 10,
@@ -1878,10 +1878,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Over twenty rounds he is eighteenth with seven points, no wins and no podiums. He edges team-mate Alexander Albon by two. At the Brazilian Grand Prix he started twelfth but finished nineteenth in the lapped field without scoring.",
+    "summary": "Carlos Sainz sits 18th with 7 points after 20 rounds, no wins or podiums, ahead of teammate Alexander Albon. In Brazil he started 12th and finished 19th, lapped for zero points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Brazilian Grand Prix",
     "position": 19,
@@ -1906,10 +1906,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Twenty rounds down, he is nineteenth with five points and neither a win nor a podium, behind team-mate Carlos Sainz by two. At the Brazilian Grand Prix he started ninth but finished fifteenth in the lapped group without points.",
+    "summary": "Alexander Albon is 19th with 5 points after 20 rounds, no wins or podiums, behind teammate Carlos Sainz. He started ninth in Brazil and finished 15th, lapped for another scoreless race.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Brazilian Grand Prix",
     "position": 15,
@@ -1934,10 +1934,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Through twenty rounds he is seventeenth with seven points and no wins or podiums, ahead of team-mate Lance Stroll on zero. At the Brazilian Grand Prix he started eighth and finished twelfth in the lapped field without scoring.",
+    "summary": "Fernando Alonso sits 17th with 7 points after 20 rounds, no wins or podiums, ahead of teammate Lance Stroll on zero. In Brazil he started 8th and finished 12th, lapped for zero points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Brazilian Grand Prix",
     "position": 12,
@@ -1962,10 +1962,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Twenty rounds in, he sits twenty-second with no points, no wins and no podiums, well behind team-mate Fernando Alonso. His Brazilian Grand Prix ended in retirement from sixteenth on the grid, leaving him without a finish or points.",
+    "summary": "Lance Stroll is 22nd with zero points after 20 rounds, no wins or podiums, well behind teammate Fernando Alonso. He started 16th in Brazil but retired from the race for another scoreless weekend.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Brazilian Grand Prix",
     "position": null,
@@ -1990,10 +1990,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Through twenty rounds he is twenty-third with zero points and neither a win nor a podium, behind team-mate Sergio Pérez. At the Brazilian Grand Prix he did not start from seventeenth on the grid, taking no points.",
+    "summary": "Valtteri Bottas sits 23rd with zero points after 20 rounds, no wins or podiums. He started 17th in Brazil but did not start the race for another scoreless outing.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Brazilian Grand Prix",
     "position": null,
@@ -2018,10 +2018,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Sergio Pérez sits 24th in the standings with zero points across 20 rounds, without a win or podium to his name. His most recent race at the Brazilian Grand Prix ended 18th from 22nd on the grid and lapped, returning to the pits for no points.",
+    "summary": "Sergio Pérez is 24th in the drivers' standings on zero points after 20 rounds, with no wins and no podiums. His Brazilian Grand Prix ended 18th from a 22nd-place grid slot while lapped, so he took no points. Valtteri Bottas is his team-mate at Cadillac F1.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Brazilian Grand Prix",
     "position": 18,
@@ -2046,10 +2046,10 @@
     "podiums": 8
    },
    "review": {
-    "summary": "Leading the championship after 19 rounds with 431 points from seven wins and eight podiums, holding a comfortable edge over Ducati teammates Fabio Di Giannantonio (sixth) and Alex Marquez (eighth). In the Grand Prix of Qatar he finished second to take 20 points.",
+    "summary": "Leads the championship on 431 points from 19 rounds, seven wins and eight podiums, well clear of his Ducati team-mate Fabio Di Giannantonio in sixth. At the Grand Prix of Qatar he was classified second but entered as a no-start (INSTND), taking 20 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Grand Prix of Qatar",
     "position": 2,
@@ -2074,10 +2074,10 @@
     "podiums": 2
    },
    "review": {
-    "summary": "Sixth after 19 rounds with 282 points from two podiums and no wins. He tastes teammate Marc Marquez, who leads with 431 points off seven wins and eight podiums. In the Grand Prix of Qatar he finished eighth for 8 points.",
+    "summary": "Sits sixth on 282 points from 19 rounds, two podiums but no wins, behind team-mate Marc Marquez at the summit. At the Grand Prix of Qatar he was classified eighth (INSTND), taking 8 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Grand Prix of Qatar",
     "position": 8,
@@ -2102,10 +2102,10 @@
     "podiums": 3
    },
    "review": {
-    "summary": "Eighth after 19 rounds with 197 points from a single win and three podiums, behind teammate Marc Marquez's 431-point lead and just ahead of Fabio Di Giannantonio in sixth.",
+    "summary": "Sits eighth on 197 points from 19 rounds, one win and three podiums for the Ducati squad.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "motogp",
@@ -2122,10 +2122,10 @@
     "podiums": 3
    },
    "review": {
-    "summary": "Ninth after 19 rounds with 173 points from three podiums and no wins. He beats team-mate Alex Marquez in eighth, sitting behind the leaders and just clear of Fabio Di Giannantonio in sixth.",
+    "summary": "Ninth on 173 points from 19 rounds, three podiums but no wins, well behind team-mate Marc Marquez at the top of the standings.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "motogp",
@@ -2142,10 +2142,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Eleventh after 19 rounds with 129 points and no wins or podiums. In the Grand Prix of Qatar he finished twelfth for 4 points, behind team-mate Franco Morbidelli's eleventh.",
+    "summary": "Eleventh on 129 points from 19 rounds with no wins or podiums. At the Grand Prix of Qatar he was classified twelfth (INSTND), taking 4 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Grand Prix of Qatar",
     "position": 12,
@@ -2170,10 +2170,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Sixteenth after 19 rounds with 70 points and no wins or podiums. In the Grand Prix of Qatar he finished eleventh for 5 points, just ahead of team-mate Fermin Aldeguer's twelfth.",
+    "summary": "Sixteenth on 70 points from 19 rounds, no wins or podiums. At the Grand Prix of Qatar he was classified eleventh (INSTND), taking 5 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Grand Prix of Qatar",
     "position": 11,
@@ -2198,10 +2198,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "21st after 19 rounds with just 18 points and no wins or podiums. In the Grand Prix of Qatar he finished tenth for 6 points — a race result above where his championship standing suggests.",
+    "summary": "21st on 18 points from 19 rounds with no wins or podiums. At the Grand Prix of Qatar he was classified tenth (INSTND), taking 6 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Grand Prix of Qatar",
     "position": 10,
@@ -2226,10 +2226,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "32nd after 19 rounds with no points, wins or podiums — the lowest in the Ducati standings and trailing every team-mate above him on the board.",
+    "summary": "Thirty-second on zero points from 19 rounds, with no wins or podiums.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "motogp",
@@ -2246,10 +2246,10 @@
     "podiums": 10
    },
    "review": {
-    "summary": "Martin sits second in the championship on 371 points from 19 rounds, one win and ten podiums. He leads team-mate Marco Bezzecchi by fourteen points despite the Italian having more wins. His most recent race ended seventh at the Grand Prix of Qatar for nine points.",
+    "summary": "Second in the championship with 371 points from 19 rounds and ten podiums, yet just one win. He holds a 14-point lead over team-mate Marco Bezzecchi, who is third on 357 but has far more wins — six to his own.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Grand Prix of Qatar",
     "position": 7,
@@ -2274,10 +2274,10 @@
     "podiums": 12
    },
    "review": {
-    "summary": "Bezzecchi is third in the standings on 357 points from 19 rounds, with six wins and twelve podiums — more wins than team-mate Jorge Martin but fourteen behind him overall. He opened his most recent meeting with a win at the Grand Prix of Qatar for twenty-five points.",
+    "summary": "Third on 357 points from 19 rounds with six wins and ten podiums — more wins than team-mate Jorge Martin but fewer overall points and one fewer podium. He took the Grand Prix of Qatar, finishing first for 25 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Grand Prix of Qatar",
     "position": 1,
@@ -2302,10 +2302,10 @@
     "podiums": 4
    },
    "review": {
-    "summary": "Ogura sits fifth on 294 points from 19 rounds, one win and four podiums. He trails the leading Aprilia riders but keeps clear further down the field, finishing fourth at the Grand Prix of Qatar for thirteen points.",
+    "summary": "Fifth on 294 points from 19 rounds, one win and four podiums. He sits well clear of team-mate Raul Fernandez, seventh on 258 with seven podiums but only a shared single win. At the Grand Prix of Qatar he finished fourth for thirteen points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Grand Prix of Qatar",
     "position": 4,
@@ -2330,10 +2330,10 @@
     "podiums": 7
    },
    "review": {
-    "summary": "Fernandez is seventh on 258 points from 19 rounds, one win and seven podiums. He sits behind team-mates Martin, Bezzecchi and Ogura but has taken more podiums than Ogura, closing to fourth at the Grand Prix of Qatar for sixteen points.",
+    "summary": "Seventh on 258 points from 19 rounds, one win and seven podiums. He trails team-mate Ai Ogura in fifth but edges him on podiums. At the Grand Prix of Qatar he finished third for sixteen points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Grand Prix of Qatar",
     "position": 3,
@@ -2358,10 +2358,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Savadori is thirty-first in the standings with no points from 19 rounds, without a win or a podium this season.",
+    "summary": "Thirty-first in the standings with zero points from 19 rounds, no wins and no podiums, well adrift of his Aprilia team-mates.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "motogp",
@@ -2378,10 +2378,10 @@
     "podiums": 8
    },
    "review": {
-    "summary": "Acosta is fourth on 309 points from 19 rounds, two wins and eight podiums. He leads team-mate Enea Bastianini comfortably but sits behind the leading Aprilia riders, finishing sixth at the Grand Prix of Qatar for ten points.",
+    "summary": "Fourth on 309 points from 19 rounds with two wins and eight podiums. He leads KTM team-mate Enea Bastianini, tenth on 147 with neither a win nor a podium, by a wide margin. At the Grand Prix of Qatar he finished sixth for ten points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Grand Prix of Qatar",
     "position": 6,
@@ -2406,10 +2406,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Bastianini is tenth on 147 points from 19 rounds, without a win or a podium this season. He trails team-mate Pedro Acosta by some way and finished fifth at the Grand Prix of Qatar for eleven points.",
+    "summary": "Tenth on 147 points from 19 rounds, with no wins and no podiums. He sits well behind team-mate Pedro Acosta, fourth on 309 with two wins and eight podiums. At the Grand Prix of Qatar he finished fifth for eleven points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Grand Prix of Qatar",
     "position": 5,
@@ -2434,10 +2434,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Binder is twelfth on 118 points from 19 rounds, without a win or a podium. He sits behind team-mate Pedro Acosta and did not finish the Grand Prix of Qatar.",
+    "summary": "Twelfth on 118 points from 19 rounds, with no wins and no podiums. He sits behind team-mate Enea Bastianini in tenth but is a long way off leader Pedro Acosta. At the Grand Prix of Qatar he did not finish for zero points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Grand Prix of Qatar",
     "position": null,
@@ -2462,10 +2462,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Over nineteen rounds Maverick Viñales has taken 17 points with no wins or podiums, sitting 23rd in the standings. He leads KTM teammates Pol Espargaro and Jonas Folger. At the Grand Prix of Qatar he finished 13th to claim three points.",
+    "summary": "Viñales has taken 17 points across 19 rounds in a difficult season with no wins or podiums, sitting 23rd. In the most recent Grand Prix of Qatar he finished 13th for three points before an interrupted and not-decided status ended his outing.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Grand Prix of Qatar",
     "position": 13,
@@ -2490,10 +2490,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Over nineteen rounds Pol Espargaro has scored 5 points with no wins or podiums, leaving him 25th in the standings, behind KTM teammate Maverick Viñales.",
+    "summary": "Espargaro has accumulated just 5 points over 19 rounds with no wins or podiums, leaving him 25th in the championship. Compared with KTM teammate Viñales's 17 points he trails by a clear margin and has produced no last-race line this season.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "motogp",
@@ -2510,10 +2510,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Over nineteen rounds Jonas Folger has taken 0 points with no wins or podiums, sitting 30th in the standings and trailing KTM teammates Maverick Viñales and Pol Espargaro.",
+    "summary": "Folger has scored zero points across 19 rounds with no wins or podiums, sitting bottom of the KTM lineup. He trails teammates Viñales's 17 and Espargaro's 5 by a wide margin and has produced no last-race line this season.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "motogp",
@@ -2530,10 +2530,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Over nineteen rounds Luca Marini has taken 117 points with no wins or podiums, standing 13th in the standings and leading the Honda group ahead of Diogo Moreira and Johann Zarco.",
+    "summary": "Marini leads the Honda group with 117 points after 19 rounds and sits 13th overall. He has yet to win or reach a podium this season but is comfortably clear of teammates Moreira's 78, Zarco's 63 and Mir's 33.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "motogp",
@@ -2550,10 +2550,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Over nineteen rounds Diogo Moreira has scored 78 points with no wins or podiums, sitting 15th behind Luca Marini. At the Grand Prix of Qatar he claimed no points.",
+    "summary": "Moreira has taken 78 points over 19 rounds with no wins or podiums, sitting 15th and behind teammate Marini's 117. His most recent Grand Prix of Qatar ended without a classified position for zero points under an outstanding and not-decided status.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Grand Prix of Qatar",
     "position": null,
@@ -2578,10 +2578,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Over nineteen rounds Johann Zarco has taken 63 points with no wins or podiums, sitting 17th behind Luca Marini and Diogo Moreira. At the Grand Prix of Qatar he finished 9th for seven points.",
+    "summary": "Zarco has gathered 63 points across 19 rounds with no wins or podiums, sitting 17th and behind Marini's 117 and Moreira's 78. In the Grand Prix of Qatar he finished 9th for seven points before an interrupted and not-decided status.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Grand Prix of Qatar",
     "position": 9,
@@ -2606,10 +2606,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Over nineteen rounds Joan Mir has taken 33 points with no wins or podiums, standing 18th in the standings behind Luca Marini and Diogo Moreira.",
+    "summary": "Mir has scored 33 points over 19 rounds with no wins or podiums, leaving him 18th in the championship. He teammates Marini's 117, Moreira's 78 and Zarco's 63 by a clear margin and has produced no last-race line this season.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "motogp",
@@ -2626,10 +2626,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Over nineteen rounds Somkiat Chantra has scored 3 points with no wins or podiums, sitting 26th in the standings and behind the rest of the Honda group here.",
+    "summary": "Chantra has managed just 3 points across 19 rounds with no wins or podiums, sitting 26th in the standings. He is well clear of the top Honda riders and bottom of the group's points tally this season.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "motogp",
@@ -2646,10 +2646,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Over 19 MotoGP rounds Takaaki Nakagami sits 27th in the standings with 3 points and no wins or podiums for Honda. He leads team-mate Jake Dixon on points but trails him only marginally; Cal Crutchlow and Aleix Espargaro have yet to score.",
+    "summary": "Takaaki Nakagami sits 27th in the standings with 3 points from 19 rounds, no wins and no podiums. He leads teammate Jake Dixon on points — Dixon has 2 — after Dixon's 14th place finish in Qatar.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "motogp",
@@ -2666,10 +2666,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Jake Dixon has taken 2 points from 19 MotoGP rounds for Honda, sitting 28th with no wins or podiums. At the Grand Prix of Qatar he was classified 14th on the road but did not complete the race.",
+    "summary": "Jake Dixon is 28th overall with 2 points from 19 rounds and no wins or podiums. In his most recent race he took a 14th place in the Grand Prix of Qatar for 2 points, though the status reads INSTND.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z",
+   "publishedAt": "2026-11-13T15:40:05Z",
    "lastRace": {
     "name": "Grand Prix of Qatar",
     "position": 14,
@@ -2694,10 +2694,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Cal Crutchlow has gone through all 19 MotoGP rounds without scoring, sitting 29th on zero points with no wins or podiums for Honda. He trails team-mates Takaaki Nakagami and Jake Dixon, who have each contributed a few points.",
+    "summary": "Cal Crutchlow sits 29th overall with 0 points from 19 rounds, no wins and no podiums this season.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "motogp",
@@ -2714,10 +2714,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Aleix Espargaro has failed to score across all 19 MotoGP rounds for Honda, sitting 33rd on zero points with no wins or podiums. He sits behind the rest of his Honda group, including team-mates Takaaki Nakagami and Jake Dixon.",
+    "summary": "Aleix Espargaro sits 33rd overall with 0 points from 19 rounds, no wins and no podiums this season.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "motogp",
@@ -2734,10 +2734,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Fabio Quartararo leads Yamaha's riders into round 19's end on 79 points, sitting 14th in the standings with no wins or podiums. He holds a comfortable margin over team-mate Jack Miller on 31 and Alex Rins on 29.",
+    "summary": "Fabio Quartararo sits 14th overall with 79 points from 19 rounds, well clear of teammate Jack Miller on 31. He has no wins and no podiums this season.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "motogp",
@@ -2754,10 +2754,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Jack Miller has scored 31 points from 19 MotoGP rounds for Yamaha, sitting 19th with no wins or podiums. He trails team-mate Fabio Quartararo clearly but edges out Alex Rins, who sits just behind him on 29.",
+    "summary": "Jack Miller sits 19th overall with 31 points from 19 rounds and no wins or podiums. He tears teammate Fabio Quartararo, who leads the Yamaha riders on 79.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "motogp",
@@ -2774,10 +2774,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Alex Rins has taken 29 points from 19 MotoGP rounds for Yamaha, sitting 20th with no wins or podiums. He sits behind team-mate Jack Miller on 31 and ahead of Toprak Razgatlioglu, who has 18.",
+    "summary": "Alex Rins sits 20th overall with 29 points from 19 rounds and no wins or podiums. He trails teammate Jack Miller on 31.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "motogp",
@@ -2794,10 +2794,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Toprak Razgatlioglu has scored 18 points from 19 MotoGP rounds for Yamaha, sitting 22nd with no wins or podiums. He trails team-mates Fabio Quartararo and Jack Miller and sits just behind Alex Rins on 29.",
+    "summary": "Toprak Razgatlioglu sits 22nd overall with 18 points from 19 rounds and no wins or podiums. He behind teammates Fabio Quartararo on 79 and Jack Miller on 31.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "motogp",
@@ -2814,10 +2814,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Augusto Fernandez has had a tough MotoGP season so far, sitting 24th in the standings with just 6 points from 19 rounds. He has yet to win or reach a podium, leaving him distant at the back of the field.",
+    "summary": "Augusto Fernandez has had a difficult MotoGP season so far. After 19 rounds he sits 24th in the standings with just 6 points and no wins or podiums, well off the pace of his Yamaha team-mates.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "formulae",
@@ -2834,10 +2834,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Third in the championship with 160 points and no wins or podiums so far. He is well clear of team-mate António Félix Da Costa, who sits sixth on 128, giving Jaguar TCS Racing a healthy gap between their two drivers.",
+    "summary": "Third in the Formula E standings on 160 points, Mitch Evans heads his Jaguar TCS Racing line ahead of teammate António Félix Da Costa. With no wins and no podiums so far, he holds a 32-point edge over his team-mate.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "formulae",
@@ -2854,10 +2854,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Sixth in the standings with 128 points and no wins or podiums. He trails team-mate Mitch Evans by 32 points, so Evans has done most of the scoring work for Jaguar TCS Racing this season.",
+    "summary": "Sixth on 128 points in the Formula E championship, António Félix Da Costa trails teammate Mitch Evans by 32 points for Jaguar TCS Racing. No wins or podiums have come his way this season.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "formulae",
@@ -2874,10 +2874,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Top of the championship on 169 points with no wins or podiums yet. He holds a comfortable lead over team-mate Nico Müller, who is ninth on 102, so Porsche's two drivers are well separated.",
+    "summary": "Leading the Formula E standings on 169 points, Pascal Wehrlein heads the Porsche Formula E Team ahead of teammate Nico Müller. He holds a comfortable margin over the Swiss rider but has yet to take a win or podium.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "formulae",
@@ -2894,10 +2894,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Ninth in the standings with 102 points and no wins or podiums. He is 67 points behind team-mate Pascal Wehrlein, who leads the championship, leaving him second inside his own team but some way back.",
+    "summary": "Ninth in the Formula E standings on 102 points, Nico Müller sits well behind team-mate Pascal Wehrlein for Porsche Formula E Team. No wins or podiums so far, and he trails the series leader by 67 points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "formulae",
@@ -2914,10 +2914,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Fifth on 137 points with no wins or podiums. He edges out team-mate Nyck De Vries, seventh on 115, so Mahindra have a clear number one but neither driver has broken through for a win.",
+    "summary": "Fifth on 137 points in the Formula E championship, Edoardo Mortara leads his Mahindra Racing line ahead of teammate Nyck De Vries. With no wins or podiums yet, he holds a 22-point edge over the Dutch rider.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "formulae",
@@ -2934,10 +2934,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Seventh in the championship with 115 points and no wins or podiums. He sits behind team-mate Edoardo Mortara on 137, so Mahindra's two drivers are close but Mortara has done a little more of the scoring.",
+    "summary": "Seventh on 115 points, Nyck De Vries trails team-mate Edoardo Mortara for Mahindra Racing in the Formula E standings. No wins or podiums so far, and he sits 54 points off the leader.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "formulae",
@@ -2954,10 +2954,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Second in the standings with 164 points and no wins or podiums. He is well ahead of team-mate Felipe Drugovich, fourteenth on 65, giving Andretti a strong lead driver but a wide gap between them.",
+    "summary": "Second on 164 points in the Formula E championship, Jake Dennis heads his Andretti Formula E line ahead of teammate Felipe Drugovich. No wins or podiums yet, holding a 99-point edge over the Brazilian rider.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "formulae",
@@ -2974,10 +2974,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Fourteenth with 65 points and no wins or podiums. He trails team-mate Jake Dennis by a considerable margin — 99 points short of Dennis's 164 — so Andretti have one clear lead driver this season.",
+    "summary": "Fourteenth on 65 points, Felipe Drugovich trails team-mate Jake Dennis comfortably for Andretti Formula E. With no wins or podiums yet, he sits 104 points off the series leader in the Formula E championship.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "formulae",
@@ -2994,10 +2994,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Cassidy leads Citroën Racing's pair in the Formula E championship, sitting eighth with 114 points and no wins or podiums so far. He holds a comfortable margin over teammate Jean-Éric Vergne, who trails well behind in the standings.",
+    "summary": "In Formula E, Nick Cassidy sits eighth with 114 points and no wins or podiums. He leads teammate Jean-Éric Vergne comfortably, holding a 46-point advantage across the season.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "formulae",
@@ -3014,10 +3014,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Vergne sits twelfth in the Formula E standings with 68 points and no wins or podiums. He leaves team-mate Nick Cassidy clear ahead, who leads Citroën Racing's pair and holds a solid advantage across the season.",
+    "summary": "Jean-Éric Vergne is twelfth in the Formula E standings with 68 points and no wins or podiums. He tears behind teammate Nick Cassidy by 46 points this season.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "formulae",
@@ -3034,10 +3034,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Rowland is Nissan Formula E Team's stronger driver, fourth in the standings with 137 points and no wins or podiums yet. He carries a substantial lead over team-mate Norman Nato, who sits well back on 20 points.",
+    "summary": "Oliver Rowland is fourth in Formula E with 137 points and no wins or podiums. He holds a clear lead over teammate Norman Nato, who sits further down the order.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "formulae",
@@ -3054,10 +3054,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Nato is having a difficult season, sitting nineteenth in the Formula E standings with just 20 points and no wins or podiums. He trails his team-mate Oliver Rowland by a wide margin at Nissan Formula E Team.",
+    "summary": "Norman Nato is nineteenth in Formula E with just 20 points and no wins or podiums. He tears behind teammate Oliver Rowland by a wide margin this season.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "formulae",
@@ -3074,10 +3074,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Buemi sits tenth in the Formula E standings with 97 points and no wins or podiums. He leads Envision Racing's pair, holding a clear edge over team-mate Joel Eriksson, who falls behind him across the season.",
+    "summary": "Sébastien Buemi sits tenth in Formula E with 97 points and no wins or podiums. He leads teammate Joel Eriksson by 42 points across the season.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "formulae",
@@ -3094,10 +3094,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Eriksson sits sixteenth in the Formula E standings with 55 points and no wins or podiums. He leaves team-mate Sébastien Buemi clear ahead, who leads Envision Racing's pair and holds a comfortable advantage over him.",
+    "summary": "Joel Eriksson is sixteenth in Formula E with 55 points and no wins or podiums. He tears behind teammate Sébastien Buemi by 42 points this season.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "formulae",
@@ -3114,10 +3114,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Martí sits thirteenth in the Formula E standings with 66 points and no wins or podiums. He narrowly edges team-mate Dan Ticktum, who falls just behind him at Cupra Kiro across the season.",
+    "summary": "Josep Maria Martí is thirteenth in Formula E with 66 points and no wins or podiums. He narrowly leads teammate Dan Ticktum by four points.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "formulae",
@@ -3134,10 +3134,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Ticktum sits fifteenth in the Formula E standings with 62 points and no wins or podiums. He leaves his team-mate Josep Maria Martí clear ahead, who holds a small advantage over him at Cupra Kiro.",
+    "summary": "Dan Ticktum is fifteenth in Formula E with 62 points and no wins or podiums. He tears behind teammate Josep Maria Martí by four points this season.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "formulae",
@@ -3154,10 +3154,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Barnard sits 11th in the standings on 68 points from a winless season so far, with no podiums to his name. He holds a comfortable margin over DS Penske team-mate Maximilian Günther, who trails at 18th on 23 points.",
+    "summary": "Taylor Barnard sits 11th in the Formula E standings with 68 points, having not yet won or reached a podium. His DS Penske teammate Maximilian Günther is well behind him, 18th on 23 points, so Barnard holds a comfortable margin within the pairing.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "formulae",
@@ -3174,10 +3174,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Günther sits 18th in the standings on 23 points from a winless season so far, with no podiums. He trails DS Penske team-mate Taylor Barnard by some way, his rival holding 68 points and 11th place.",
+    "summary": "Maximilian Günther sits 18th in the Formula E standings with 23 points and no wins or podiums yet. His DS Penske teammate Taylor Barnard is well ahead of him, 11th on 68 points, so Günther trails his team-mate by a wide margin.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "formulae",
@@ -3194,10 +3194,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Di Grassi sits 17th in the standings on 32 points from a winless season so far, with no podiums. He holds a clear edge over team-mate Zane Maloney, who sits 20th on just 3 points.",
+    "summary": "Lucas Di Grassi sits 17th in the Formula E standings with 32 points and no wins or podiums yet. His Lola Yamaha ABT team-mate Zane Maloney is behind him, 20th on just 3 points, so Di Grassi leads the pairing comfortably.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "formulae",
@@ -3214,10 +3214,10 @@
     "podiums": 0
    },
    "review": {
-    "summary": "Maloney sits 20th in the standings on just 3 points from a winless season so far, with no podiums. He trails team-mate Lucas Di Grassi by some distance, his rival sitting 17th on 32 points.",
+    "summary": "Zane Maloney sits 20th in the Formula E standings with 3 points and no wins or podiums yet. His Lola Yamaha ABT team-mate Lucas Di Grassi is well ahead of him, 17th on 32 points, so Maloney trails by a wide margin.",
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   }
  ],
  "races": [
@@ -3245,15 +3245,15 @@
    ],
    "classified": 20,
    "review": {
-    "summary": "Lando Norris of McLaren won from pole, holding off a strong challenge from Max Verstappen who climbed from 21st on the grid to second, with Isack Hadjar third for Red Bull. Andrea Kimi Antonelli took the fastest lap in fifth for Mercedes. The classification shows a front-row winner and a notable drive through the field by Verstappen.",
+    "summary": "Lando Norris took victory for McLaren from pole, holding off Max Verstappen who recovered to second after starting 21st on the grid, with Isack Hadjar third for Red Bull. Andrea Kimi Antonelli set the fastest lap as Mercedes finished fourth and fifth.",
     "highlights": [
-     "Max Verstappen climbed from 21st on the grid to finish second, the biggest drive of the race.",
-     "Andrea Kimi Antonelli took the fastest lap in fifth place for Mercedes.",
-     "Lance Stroll retired having started sixteenth, while Valtteri Bottas did not start from seventeenth on the grid."
+     "Max Verstappen climbed from 21st on the grid to finish second for Red Bull.",
+     "Andrea Kimi Antonelli set the fastest lap as Mercedes completed the top five.",
+     "Lance Stroll retired after starting sixteenth, and Valtteri Bottas did not start from seventeenth."
     ],
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   },
   {
    "channelID": "motogp",
@@ -3279,15 +3279,16 @@
    ],
    "classified": 14,
    "review": {
-    "summary": "Marco Bezzecchi won the Grand Prix of Qatar for Aprilia Racing with twenty-five points, ahead of Marc Marquez, second for Ducati Lenovo Team on twenty, and Raul Fernandez completing the podium for SuperFile Trackhouse MotoGP Team on sixteen. Brad Binder and Diogo Moreira both did not finish.",
+    "summary": "Marco Bezzecchi won the Grand Prix of Qatar for Aprilia Racing, taking 25 points ahead of Ducatis' Marc Marquez (second, 20) and Raul Fernandez of SuperFile Trackhouse (third, 16). Brad Binder and Diogo Moreira both failed to finish without scoring.",
     "highlights": [
-     "Marco Bezzecchi won the Grand Prix of Qatar for Aprilia Racing with twenty-five points.",
-     "Marc Marquez finished second for Ducati Lenovo Team, twenty points behind the winner.",
-     "Brad Binder of Red Bull KTM Factory Racing and Diogo Moreira of Pro Honda LCR did not finish."
+     "Marco Bezzecchi won the Grand Prix of Qatar for Aprilia Racing on 25 points.",
+     "Marc Marquez finished second for the Ducati Lenovo Team with 20 points.",
+     "Raul Fernandez was third and Ai Ogura fourth for the SuperFile Trackhouse MotoGP Team.",
+     "Brad Binder and Diogo Moreira did not finish, taking no points."
     ],
     "writer": "own server"
    },
-   "publishedAt": "2026-11-12T16:11:17Z"
+   "publishedAt": "2026-11-13T15:40:05Z"
   }
  ]
 }
