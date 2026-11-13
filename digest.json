@@ -1,7 +1,35 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T03:07:51Z",
+  "generatedAt": "2026-11-13T01:11:24Z",
   "editions": [
+    {
+      "id": "2026-11-13-preview",
+      "kind": "preview",
+      "title": "This weekend on E-Grid",
+      "dateRange": "13–16 November",
+      "intro": "Two rounds on the calendar this week, from 13 to 16 November. The World Rally Championship reaches Jeddah for Saudi Arabia's fourteenth round, while NHRA Drag Racing closes its season with the Finals at Pomona in California.",
+      "publishedAt": "2026-11-13T01:11:24Z",
+      "expiresAt": "2026-11-18T01:11:24Z",
+      "items": [
+        {
+          "channelID": "wrc",
+          "channelName": "World Rally Championship",
+          "headline": "Rally Saudi Arabia",
+          "detail": "Jeddah, Saudi Arabia · Sat 14 Nov",
+          "body": "The World Rally Championship heads to Jeddah for Rally Saudi Arabia on Saturday 14 November. The season's fourteenth round runs over the desert stages around the city.",
+          "date": "2026-11-14",
+          "round": 14
+        },
+        {
+          "channelID": "nhra",
+          "channelName": "NHRA Drag Racing",
+          "headline": "NHRA Finals",
+          "detail": "Pomona Dragstrip, California · Sun 15 Nov",
+          "body": "The Pomona Dragstrip in California hosts the NHRA Finals on Sunday 15 November. It closes the drag racing calendar for the year, with drivers lining up at the familiar California track.",
+          "date": "2026-11-15"
+        }
+      ]
+    },
     {
       "id": "2026-11-12-preview",
       "kind": "preview",
@@ -188,137 +216,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "2026-11-09-recap",
-      "kind": "recap",
-      "title": "Last week on E-Grid",
-      "dateRange": "2–8 November",
-      "intro": "5 rounds ran between 2–8 November, across Clio Cup Series, Formula 1, MotoGP, NASCAR Cup Series and World Endurance Championship.",
-      "publishedAt": "2026-11-09T06:48:41Z",
-      "expiresAt": "2026-11-13T06:48:41Z",
-      "items": [
-        {
-          "channelID": "wec",
-          "channelName": "World Endurance Championship",
-          "headline": "8 Hours of Bahrain",
-          "detail": "Bahrain International Circuit · Sat 7 Nov",
-          "body": "Round 8 of the World Endurance Championship season ran at Bahrain International Circuit. Results for this series are not in E-Grid's feeds yet.",
-          "date": "2026-11-07",
-          "round": 8
-        },
-        {
-          "channelID": "cliocup",
-          "channelName": "Clio Cup Series",
-          "headline": "Portimão",
-          "detail": "Autódromo Internacional do Algarve, Portugal · Sun 8 Nov",
-          "body": "Round 7 of the Clio Cup Series season ran at Autódromo Internacional do Algarve, Portugal. Results for this series are not in E-Grid's feeds yet.",
-          "date": "2026-11-08",
-          "round": 7
-        },
-        {
-          "channelID": "f1",
-          "channelName": "Formula 1",
-          "headline": "Brazilian Grand Prix",
-          "detail": "Autódromo José Carlos Pace, Brazil · Sun 8 Nov",
-          "body": "Round 20 of the Formula 1 season. Won by Lando Norris (McLaren) from Max Verstappen and Isack Hadjar.",
-          "date": "2026-11-08",
-          "round": 20,
-          "facts": [
-            "Lando Norris won from pole, 14.6 seconds ahead of Max Verstappen",
-            "Biggest climbers: Max Verstappen from 21st to 2nd and Lewis Hamilton from 20th to 9th",
-            "Fastest lap: Andrea Kimi Antonelli, 1:12.689",
-            "Did not finish: Lance Stroll and Valtteri Bottas (did not start)",
-            "Andrea Kimi Antonelli's championship lead over Max Verstappen went from 119 to 111 points over the weekend",
-            "Rain fell during the race"
-          ],
-          "podium": [
-            {
-              "position": 1,
-              "name": "Lando Norris",
-              "team": "McLaren"
-            },
-            {
-              "position": 2,
-              "name": "Max Verstappen",
-              "team": "Red Bull"
-            },
-            {
-              "position": 3,
-              "name": "Isack Hadjar",
-              "team": "Red Bull"
-            }
-          ]
-        },
-        {
-          "channelID": "motogp",
-          "channelName": "MotoGP",
-          "headline": "Grand Prix of Qatar",
-          "detail": "Lusail International Circuit, Qatar · Sun 8 Nov",
-          "body": "Round 20 of the MotoGP season. Won by Marco Bezzecchi (Aprilia Racing) from Marc Marquez and Raul Fernandez.",
-          "date": "2026-11-08",
-          "round": 20,
-          "facts": [
-            "Marco Bezzecchi won by 3.1 seconds from Marc Marquez",
-            "Did not finish: Brad Binder and Diogo Moreira",
-            "Marc Marquez set a new lap record, 1:52.558",
-            "Dry, 31°C air and 33°C track",
-            "Saturday's sprint was won by Marc Marquez",
-            "Marc Marquez's championship lead over Jorge Martin went from 44 to 60 points this weekend"
-          ],
-          "podium": [
-            {
-              "position": 1,
-              "name": "Marco Bezzecchi",
-              "team": "Aprilia Racing"
-            },
-            {
-              "position": 2,
-              "name": "Marc Marquez",
-              "team": "Ducati Lenovo Team"
-            },
-            {
-              "position": 3,
-              "name": "Raul Fernandez",
-              "team": "SuperFile Trackhouse MotoGP Team"
-            }
-          ]
-        },
-        {
-          "channelID": "nascar",
-          "channelName": "NASCAR Cup Series",
-          "headline": "Championship Race",
-          "detail": "Homestead-Miami Speedway · Sun 8 Nov",
-          "body": "Round 36 of the NASCAR Cup Series season. Won by Ryan Blaney (Team Penske) from Tyler Reddick and William Byron.",
-          "date": "2026-11-08",
-          "round": 36,
-          "facts": [
-            "Ryan Blaney won from 9th on the grid",
-            "Most laps led: Denny Hamlin (87)",
-            "Stage winners: Stage 1 Tyler Reddick, Stage 2 Denny Hamlin",
-            "Margin of victory: 0.314 s",
-            "Kyle Larson's Chase lead over Christopher Bell went from 67 to 49 points this weekend, with the title decided",
-            "The win lifted Ryan Blaney from 7th to 4th in the Chase"
-          ],
-          "podium": [
-            {
-              "position": 1,
-              "name": "Ryan Blaney",
-              "team": "Team Penske"
-            },
-            {
-              "position": 2,
-              "name": "Tyler Reddick",
-              "team": "23XI Racing"
-            },
-            {
-              "position": 3,
-              "name": "William Byron",
-              "team": "Hendrick Motorsports"
-            }
-          ]
-        }
-      ]
     }
   ],
   "lastRaces": [
@@ -372,7 +269,7 @@
         "Marc Marquez set a new lap record, 1:52.558",
         "Dry, 31°C air and 33°C track",
         "Saturday's sprint was won by Marc Marquez",
-        "Marc Marquez's championship lead over Jorge Martin went from 44 to 60 points this weekend"
+        "Marc Marquez leads the championship by 60 points from Jorge Martin"
       ],
       "podium": [
         {
@@ -527,37 +424,6 @@
       "detail": "WeatherTech Raceway Laguna Seca · Sun 6 Sep",
       "body": "IndyCar's season finale reached WeatherTech Raceway Laguna Seca on Sunday 6 September. As the championship's final round of the year, it brought the season to a close at the venue.",
       "date": "2026-09-06",
-      "factsVersion": 4,
-      "writer": "own server"
-    },
-    {
-      "channelID": "formulae",
-      "channelName": "Formula E",
-      "headline": "London E-Prix",
-      "detail": "London, United Kingdom · Sun 16 Aug",
-      "body": "Taylor Barnard won in London for DS Penske, completing a Mahindra Racing one-two as Nyck De Vries took second and Edoardo Mortara third. The result leaves Pascal Wehrlein five points clear at the top of the championship, ahead of Jake Dennis.",
-      "date": "2026-08-16",
-      "round": 17,
-      "facts": [
-        "Pascal Wehrlein leads the championship by 5 points from Jake Dennis"
-      ],
-      "podium": [
-        {
-          "position": 1,
-          "name": "Taylor Barnard",
-          "team": "DS Penske"
-        },
-        {
-          "position": 2,
-          "name": "Nyck De Vries",
-          "team": "Mahindra Racing"
-        },
-        {
-          "position": 3,
-          "name": "Edoardo Mortara",
-          "team": "Mahindra Racing"
-        }
-      ],
       "factsVersion": 4,
       "writer": "own server"
     }
