@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-12T16:00:03Z",
+  "generatedAt": "2026-11-13T15:25:45Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,39 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "nxq-aSJgAGw",
+          "title": "The Making of World Champions, Nu Silver Arrows Radio Show Episode 12",
+          "publishedAt": "2026-11-13T15:12:55Z",
+          "duration": "43:02",
+          "seconds": 2582,
+          "thumbnail": "https://i.ytimg.com/vi/nxq-aSJgAGw/maxresdefault.jpg",
+          "source": "Mercedes-AMG F1",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "dOlz1lUIxmA",
+          "title": "James Vowles Answers Your São Paulo Grand Prix Fan Questions!",
+          "publishedAt": "2026-11-12T17:00:07Z",
+          "duration": "7:51",
+          "seconds": 471,
+          "thumbnail": "https://i.ytimg.com/vi/dOlz1lUIxmA/maxresdefault.jpg",
+          "source": "Atlassian Williams F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "beOb7hd5YVI",
+          "title": "Valvoline The Originals: Miami with Jessica Hawkins",
+          "publishedAt": "2026-11-12T16:57:04Z",
+          "duration": "20:30",
+          "seconds": 1230,
+          "thumbnail": "https://i.ytimg.com/vi/beOb7hd5YVI/maxresdefault.jpg",
+          "source": "Aston Martin Aramco F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "gYSgSGefdWQ",
           "title": "Audi(o) | Episode 04 – São Paulo",
@@ -93,17 +126,6 @@
           "seconds": 470,
           "thumbnail": "https://i.ytimg.com/vi/NSSTmFBSYwo/maxresdefault.jpg",
           "source": "Visa Cash App RB F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "n5LFZ7Kxbs4",
-          "title": "Kimi: Two Years That Changed Everything, Nu Silver Arrows Radio Show, Episode 11",
-          "publishedAt": "2026-11-05T10:30:01Z",
-          "duration": "29:40",
-          "seconds": 1780,
-          "thumbnail": "https://i.ytimg.com/vi/n5LFZ7Kxbs4/maxresdefault.jpg",
-          "source": "Mercedes-AMG F1",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -375,17 +397,6 @@
           "allowedRegions": []
         },
         {
-          "id": "GfAKKM-syu8",
-          "title": "Miami: The Homecoming | Cadillac Formula 1® Team",
-          "publishedAt": "2026-08-11T14:00:12Z",
-          "duration": "11:14",
-          "seconds": 674,
-          "thumbnail": "https://i.ytimg.com/vi/GfAKKM-syu8/maxresdefault.jpg",
-          "source": "Cadillac Formula 1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "2H8fsju0gMo",
           "title": "\"Racing Literally Saved My Life\" - Inspiring the Next Generation of Racers",
           "publishedAt": "2026-08-10T15:22:07Z",
@@ -414,17 +425,6 @@
           "duration": "12:56",
           "seconds": 776,
           "thumbnail": "https://i.ytimg.com/vi/CPnOfsyvc1s/maxresdefault.jpg",
-          "source": "Aston Martin Aramco F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "M6aLmNInADE",
-          "title": "AMR Network: Portraits | Eight Sleep",
-          "publishedAt": "2026-08-04T13:51:43Z",
-          "duration": "6:59",
-          "seconds": 419,
-          "thumbnail": "https://i.ytimg.com/vi/M6aLmNInADE/maxresdefault.jpg",
           "source": "Aston Martin Aramco F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
@@ -2357,6 +2357,17 @@
       "name": "Mick Schumacher",
       "videos": [
         {
+          "id": "O3jyxvNojek",
+          "title": "The Mentawai Surf Vlog",
+          "publishedAt": "2026-11-12T16:09:44Z",
+          "duration": "9:12",
+          "seconds": 552,
+          "thumbnail": "https://i.ytimg.com/vi/O3jyxvNojek/maxresdefault.jpg",
+          "source": "Mick Schumacher",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "Wp6XvqXwGwk",
           "title": "My Indycar Season Started Like This...",
           "publishedAt": "2026-03-24T18:12:34Z",
@@ -2410,17 +2421,6 @@
           "duration": "18:06",
           "seconds": 1086,
           "thumbnail": "https://i.ytimg.com/vi/fomELtnVsWQ/maxresdefault.jpg",
-          "source": "Mick Schumacher",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "SFhNZZd1fY4",
-          "title": "A WEEKEND AT HOME",
-          "publishedAt": "2025-06-01T17:14:14Z",
-          "duration": "19:18",
-          "seconds": 1158,
-          "thumbnail": "https://i.ytimg.com/vi/SFhNZZd1fY4/maxresdefault.jpg",
           "source": "Mick Schumacher",
           "blockedRegions": [],
           "allowedRegions": []
