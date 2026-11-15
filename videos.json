@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-14T14:11:16Z",
+  "generatedAt": "2026-11-15T14:46:48Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,28 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "_gDREtg9cJ8",
+          "title": "Liam and Arvid Tackle Word Quiz",
+          "publishedAt": "2026-11-15T12:00:13Z",
+          "duration": "7:12",
+          "seconds": 432,
+          "thumbnail": "https://i.ytimg.com/vi/_gDREtg9cJ8/maxresdefault.jpg",
+          "source": "Visa Cash App RB F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "yrA3pFP_Ko4",
+          "title": "Would You Take Advice From an F1 Driver?",
+          "publishedAt": "2026-11-14T15:00:31Z",
+          "duration": "12:15",
+          "seconds": 735,
+          "thumbnail": "https://i.ytimg.com/vi/yrA3pFP_Ko4/maxresdefault.jpg",
+          "source": "Atlassian Williams F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "qEVgxOHBOkY",
           "title": "Amateur vs Professional WEC Driver?! - Celebrating 70 Years of Karting History",
@@ -404,28 +426,6 @@
           "seconds": 484,
           "thumbnail": "https://i.ytimg.com/vi/2H8fsju0gMo/maxresdefault.jpg",
           "source": "FIA",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "32x2Dm_qtAU",
-          "title": "Extraordinary by Design, presented by Velocity Black | Lance Stroll and Pedro de la Rosa",
-          "publishedAt": "2026-08-06T14:51:33Z",
-          "duration": "20:41",
-          "seconds": 1241,
-          "thumbnail": "https://i.ytimg.com/vi/32x2Dm_qtAU/maxresdefault.jpg",
-          "source": "Aston Martin Aramco F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "CPnOfsyvc1s",
-          "title": "Aston Martin Aramco Esports Head-to-Head Championship",
-          "publishedAt": "2026-08-06T10:28:06Z",
-          "duration": "12:56",
-          "seconds": 776,
-          "thumbnail": "https://i.ytimg.com/vi/CPnOfsyvc1s/maxresdefault.jpg",
-          "source": "Aston Martin Aramco F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
         },
