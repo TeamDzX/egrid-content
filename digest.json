@@ -1,7 +1,35 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-14T03:22:56Z",
+  "generatedAt": "2026-11-15T01:58:41Z",
   "editions": [
+    {
+      "id": "2026-11-15-preview",
+      "kind": "preview",
+      "title": "Results from the weekend",
+      "dateRange": "13–16 November",
+      "intro": "Fourteen rounds of the World Rally Championship have shaped this season, and round fourteen reaches Jeddah on Saturday. The action moves to Pomona for the NHRA Finals on Sunday.",
+      "publishedAt": "2026-11-15T01:58:41Z",
+      "expiresAt": "2026-11-20T01:58:41Z",
+      "items": [
+        {
+          "channelID": "wrc",
+          "channelName": "World Rally Championship",
+          "headline": "Rally Saudi Arabia",
+          "detail": "Jeddah, Saudi Arabia · Sat 14 Nov",
+          "body": "Rally Saudi Arabia opens round fourteen of the World Rally Championship in Jeddah. The rally runs over Saturday across the desert stages around the city.",
+          "date": "2026-11-14",
+          "round": 14
+        },
+        {
+          "channelID": "nhra",
+          "channelName": "NHRA Drag Racing",
+          "headline": "NHRA Finals",
+          "detail": "Pomona Dragstrip, California · Sun 15 Nov",
+          "body": "The NHRA Finals return to Pomona Dragstrip in California on Sunday. Top fuel and funny car drivers line up for the season finale.",
+          "date": "2026-11-15"
+        }
+      ]
+    },
     {
       "id": "2026-11-14-preview",
       "kind": "preview",
@@ -85,37 +113,20 @@
           "date": "2026-11-15"
         }
       ]
-    },
-    {
-      "id": "2026-11-11-preview",
-      "kind": "preview",
-      "title": "This weekend on E-Grid",
-      "dateRange": "11–16 November",
-      "intro": "2 rounds across NHRA Drag Racing and World Rally Championship between 11–16 November.",
-      "publishedAt": "2026-11-11T06:40:55Z",
-      "expiresAt": "2026-11-16T06:40:55Z",
-      "items": [
-        {
-          "channelID": "wrc",
-          "channelName": "World Rally Championship",
-          "headline": "Rally Saudi Arabia",
-          "detail": "Jeddah, Saudi Arabia · Sat 14 Nov",
-          "body": "Round 14 of the World Rally Championship season.",
-          "date": "2026-11-14",
-          "round": 14
-        },
-        {
-          "channelID": "nhra",
-          "channelName": "NHRA Drag Racing",
-          "headline": "NHRA Finals",
-          "detail": "Pomona Dragstrip, California · Sun 15 Nov",
-          "body": "This NHRA Drag Racing round.",
-          "date": "2026-11-15"
-        }
-      ]
     }
   ],
   "lastRaces": [
+    {
+      "channelID": "wrc",
+      "channelName": "World Rally Championship",
+      "headline": "Rally Saudi Arabia",
+      "detail": "Jeddah, Saudi Arabia · Sat 14 Nov",
+      "body": "The latest World Rally Championship round was Rally Saudi Arabia, staged around Jeddah on Sat 14 Nov. The field took out onto the stages for a full weekend of competition.",
+      "date": "2026-11-14",
+      "round": 14,
+      "factsVersion": 4,
+      "writer": "own server"
+    },
     {
       "channelID": "nascar",
       "channelName": "NASCAR Cup Series",
@@ -253,17 +264,6 @@
       "detail": "Las Vegas Motor Speedway · Sun 1 Nov",
       "body": "The Las Vegas Nationals brought drag racing to Las Vegas Motor Speedway on Sunday 1 November. Drivers lined up across the weekend for a full day of quarter-mile action, chasing speed and consistency down the strip.",
       "date": "2026-11-01",
-      "factsVersion": 4,
-      "writer": "own server"
-    },
-    {
-      "channelID": "wrc",
-      "channelName": "World Rally Championship",
-      "headline": "Rally Italia Sardegna",
-      "detail": "Alghero, Italy · Sun 4 Oct",
-      "body": "World Rally Championship's Rally Italia Sardegna came around Alghero in Italy on Sunday 4 October, forming round 13 of the season. It was another demanding test across Sardinia for the leading crews as they pressed on through the latter half of the calendar.",
-      "date": "2026-10-04",
-      "round": 13,
       "factsVersion": 4,
       "writer": "own server"
     },
