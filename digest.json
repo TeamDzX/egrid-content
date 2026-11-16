@@ -1,7 +1,35 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-15T01:58:41Z",
+  "generatedAt": "2026-11-16T02:14:35Z",
   "editions": [
+    {
+      "id": "2026-11-16-recap",
+      "kind": "recap",
+      "title": "Last week on E-Grid",
+      "dateRange": "9–15 November",
+      "intro": "This week's racing takes in two of motorsport's marquee events, beginning with round fourteen of the World Rally Championship before the NHRA Drag Racing season reaches its climax. Two rounds, a rally and a finale, fill the 9–15 November window.",
+      "publishedAt": "2026-11-16T02:14:35Z",
+      "expiresAt": "2026-11-20T02:14:35Z",
+      "items": [
+        {
+          "channelID": "wrc",
+          "channelName": "World Rally Championship",
+          "headline": "Rally Saudi Arabia",
+          "detail": "Jeddah, Saudi Arabia · Sat 14 Nov",
+          "body": "Round fourteen of the World Rally Championship comes to Jeddah for Rally Saudi Arabia on Saturday 14 November. The desert stage tests crews across their special stages as the season nears its closing rounds.",
+          "date": "2026-11-14",
+          "round": 14
+        },
+        {
+          "channelID": "nhra",
+          "channelName": "NHRA Drag Racing",
+          "headline": "NHRA Finals",
+          "detail": "Pomona Dragstrip, California · Sun 15 Nov",
+          "body": "The NHRA Drag Racing season reaches its climax at the Pomona Dragstrip in California on Sunday 15 November, with drivers lining up for the final round of the year.",
+          "date": "2026-11-15"
+        }
+      ]
+    },
     {
       "id": "2026-11-15-preview",
       "kind": "preview",
@@ -85,37 +113,19 @@
           "date": "2026-11-15"
         }
       ]
-    },
-    {
-      "id": "2026-11-12-preview",
-      "kind": "preview",
-      "title": "This weekend on E-Grid",
-      "dateRange": "12–16 November",
-      "intro": "Two rounds this week across the World Rally Championship and NHRA Drag Racing, with the Saudi Arabian event on Saturday and the season finale in California on Sunday. Here is what to expect from each over the coming days.",
-      "publishedAt": "2026-11-12T03:07:51Z",
-      "expiresAt": "2026-11-17T03:07:51Z",
-      "items": [
-        {
-          "channelID": "wrc",
-          "channelName": "World Rally Championship",
-          "headline": "Rally Saudi Arabia",
-          "detail": "Jeddah, Saudi Arabia · Sat 14 Nov",
-          "body": "The World Rally Championship reaches Saudi Arabia on Saturday 14 November for the Saudi Arabian rally based in Jeddah. It marks round fourteen of the calendar and closes out the season's later stages.",
-          "date": "2026-11-14",
-          "round": 14
-        },
-        {
-          "channelID": "nhra",
-          "channelName": "NHRA Drag Racing",
-          "headline": "NHRA Finals",
-          "detail": "Pomona Dragstrip, California · Sun 15 Nov",
-          "body": "The NHRA Finals bring the drag racing season to its conclusion at Pomona Dragstrip in California on Sunday 15 November.",
-          "date": "2026-11-15"
-        }
-      ]
     }
   ],
   "lastRaces": [
+    {
+      "channelID": "nhra",
+      "channelName": "NHRA Drag Racing",
+      "headline": "NHRA Finals",
+      "detail": "Pomona Dragstrip, California · Sun 15 Nov",
+      "body": "The NHRA Finals brought the series' culminating event to Pomona Dragstrip in California on Sunday 15 November. This familiar Southern California venue played host to the season finale, marking the end of another year of drag racing.",
+      "date": "2026-11-15",
+      "factsVersion": 4,
+      "writer": "own server"
+    },
     {
       "channelID": "wrc",
       "channelName": "World Rally Championship",
@@ -254,16 +264,6 @@
       "body": "The 8 Hours of Bahrain served as round eight of the World Endurance Championship, staged on Saturday 7 November at the Bahrain International Circuit. It was a demanding endurance test that brought the series back to the desert for its latest round.",
       "date": "2026-11-07",
       "round": 8,
-      "factsVersion": 4,
-      "writer": "own server"
-    },
-    {
-      "channelID": "nhra",
-      "channelName": "NHRA Drag Racing",
-      "headline": "Las Vegas Nationals",
-      "detail": "Las Vegas Motor Speedway · Sun 1 Nov",
-      "body": "The Las Vegas Nationals brought drag racing to Las Vegas Motor Speedway on Sunday 1 November. Drivers lined up across the weekend for a full day of quarter-mile action, chasing speed and consistency down the strip.",
-      "date": "2026-11-01",
       "factsVersion": 4,
       "writer": "own server"
     },
