@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-15T14:46:48Z",
+  "generatedAt": "2026-11-16T17:04:22Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,17 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "2V--WsquBMI",
+          "title": "The Upgrade, Cisco x RACEWKND | McLaren Racing",
+          "publishedAt": "2026-11-16T14:40:51Z",
+          "duration": "5:21",
+          "seconds": 321,
+          "thumbnail": "https://i.ytimg.com/vi/2V--WsquBMI/maxresdefault.jpg",
+          "source": "McLaren",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "_gDREtg9cJ8",
           "title": "Liam and Arvid Tackle Word Quiz",
@@ -258,17 +269,6 @@
           "seconds": 367,
           "thumbnail": "https://i.ytimg.com/vi/lLlsDlKVJfE/maxresdefault.jpg",
           "source": "FIA",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "KADqapQY_HE",
-          "title": "Reaction to Max Verstappen's PODIUM in Austin! | Talking Bull",
-          "publishedAt": "2026-10-26T16:30:01Z",
-          "duration": "19:53",
-          "seconds": 1193,
-          "thumbnail": "https://i.ytimg.com/vi/KADqapQY_HE/maxresdefault.jpg",
-          "source": "Red Bull Racing",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -1705,17 +1705,6 @@
           "duration": "2:20",
           "seconds": 140,
           "thumbnail": "https://i.ytimg.com/vi/F7x0fOykq2g/maxresdefault.jpg",
-          "source": "Charles Leclerc",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "N6EuuG7zXWY",
-          "title": "Charles Leclerc: GOING SUPERSONIC !",
-          "publishedAt": "2024-11-15T18:11:01Z",
-          "duration": "14:09",
-          "seconds": 849,
-          "thumbnail": "https://i.ytimg.com/vi/N6EuuG7zXWY/maxresdefault.jpg",
           "source": "Charles Leclerc",
           "blockedRegions": [],
           "allowedRegions": []
