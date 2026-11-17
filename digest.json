@@ -1,7 +1,35 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-16T02:14:35Z",
+  "generatedAt": "2026-11-17T03:58:37Z",
   "editions": [
+    {
+      "id": "2026-11-17-recap",
+      "kind": "recap",
+      "title": "Last week on E-Grid",
+      "dateRange": "10–16 November",
+      "intro": "Two meetings on this week's programme. The World Rally Championship reaches round fourteen with Rally Saudi Arabia based out of Jeddah, and NHRA Drag Racing closes its season at the Pomona Dragstrip in California.",
+      "publishedAt": "2026-11-17T03:58:37Z",
+      "expiresAt": "2026-11-21T03:58:37Z",
+      "items": [
+        {
+          "channelID": "wrc",
+          "channelName": "World Rally Championship",
+          "headline": "Rally Saudi Arabia",
+          "detail": "Jeddah, Saudi Arabia · Sat 14 Nov",
+          "body": "The World Rally Championship reaches its fourteenth round here, with Rally Saudi Arabia based out of Jeddah. It is a season-ending meeting that brings crews to the Arabian stages for one final test.",
+          "date": "2026-11-14",
+          "round": 14
+        },
+        {
+          "channelID": "nhra",
+          "channelName": "NHRA Drag Racing",
+          "headline": "NHRA Finals",
+          "detail": "Pomona Dragstrip, California · Sun 15 Nov",
+          "body": "The NHRA Finals bring drag racing to the Pomona Dragstrip in California as the final round of the season. It closes the calendar out of Pomona with one last run down the quarter mile.",
+          "date": "2026-11-15"
+        }
+      ]
+    },
     {
       "id": "2026-11-16-recap",
       "kind": "recap",
@@ -82,34 +110,6 @@
           "headline": "NHRA Finals",
           "detail": "Pomona Dragstrip, California · Sun 15 Nov",
           "body": "The NHRA Finals close the drag racing season at the Pomona Dragstrip in California on Sun 15 Nov. They bring the year's final showdown to a familiar West Coast venue.",
-          "date": "2026-11-15"
-        }
-      ]
-    },
-    {
-      "id": "2026-11-13-preview",
-      "kind": "preview",
-      "title": "This weekend on E-Grid",
-      "dateRange": "13–16 November",
-      "intro": "Two rounds on the calendar this week, from 13 to 16 November. The World Rally Championship reaches Jeddah for Saudi Arabia's fourteenth round, while NHRA Drag Racing closes its season with the Finals at Pomona in California.",
-      "publishedAt": "2026-11-13T01:11:24Z",
-      "expiresAt": "2026-11-18T01:11:24Z",
-      "items": [
-        {
-          "channelID": "wrc",
-          "channelName": "World Rally Championship",
-          "headline": "Rally Saudi Arabia",
-          "detail": "Jeddah, Saudi Arabia · Sat 14 Nov",
-          "body": "The World Rally Championship heads to Jeddah for Rally Saudi Arabia on Saturday 14 November. The season's fourteenth round runs over the desert stages around the city.",
-          "date": "2026-11-14",
-          "round": 14
-        },
-        {
-          "channelID": "nhra",
-          "channelName": "NHRA Drag Racing",
-          "headline": "NHRA Finals",
-          "detail": "Pomona Dragstrip, California · Sun 15 Nov",
-          "body": "The Pomona Dragstrip in California hosts the NHRA Finals on Sunday 15 November. It closes the drag racing calendar for the year, with drivers lining up at the familiar California track.",
           "date": "2026-11-15"
         }
       ]
