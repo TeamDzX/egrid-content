@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-16T17:04:22Z",
+  "generatedAt": "2026-11-17T16:54:41Z",
   "channels": [
     {
       "channelID": "f1",
@@ -1037,6 +1037,17 @@
       "sourceURL": "https://www.youtube.com/channel/UCJcErqlzaBzFmAh2uIxeqxQ",
       "videos": [
         {
+          "id": "sjQnvYwXeuE",
+          "title": "In-N-Out Burger NHRA Finals Elimination Highlights",
+          "publishedAt": "2026-11-16T22:27:37Z",
+          "duration": "18:51",
+          "seconds": 1131,
+          "thumbnail": "https://i.ytimg.com/vi/sjQnvYwXeuE/maxresdefault.jpg",
+          "source": "NHRA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "4t1ZGtu0fDY",
           "title": "Lucas Oil Drag Racing Series Highlights from the MOPAR NHRA Las Vegas Nationals powered by Dodge",
           "publishedAt": "2026-11-05T20:00:38Z",
@@ -1153,17 +1164,6 @@
           "duration": "11:12",
           "seconds": 672,
           "thumbnail": "https://i.ytimg.com/vi/w7mWHmqqdwg/maxresdefault.jpg",
-          "source": "NHRA",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "RR5IdoPDAKY",
-          "title": "Lucas Oil Drag Racing Series Highlights from the Cornwell Quality Tools NHRA U.S. Nationals",
-          "publishedAt": "2026-09-10T21:00:22Z",
-          "duration": "9:51",
-          "seconds": 591,
-          "thumbnail": "https://i.ytimg.com/vi/RR5IdoPDAKY/maxresdefault.jpg",
           "source": "NHRA",
           "blockedRegions": [],
           "allowedRegions": []
@@ -1517,6 +1517,17 @@
       "sourceURL": "https://www.youtube.com/channel/UC5lTEvtwu6SR3LMSmU9VZ2Q",
       "videos": [
         {
+          "id": "G9fDw-L3-PI",
+          "title": "43 YEAR GAP DECIDER! | Jimmy White vs Iulian Boiko | Machineseeker German Masters 2026 Qualifying",
+          "publishedAt": "2026-11-16T23:13:19Z",
+          "duration": "9:32",
+          "seconds": 572,
+          "thumbnail": "https://i.ytimg.com/vi/G9fDw-L3-PI/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "oNzngWJPM-k",
           "title": "RECORD CROWD, BIG QUALITY! | Ronnie O’Sullivan vs Marco Fu | Hong Kong Masters 2022",
           "publishedAt": "2026-11-13T14:00:10Z",
@@ -1633,17 +1644,6 @@
           "duration": "14:21",
           "seconds": 861,
           "thumbnail": "https://i.ytimg.com/vi/sJtP_vk_70I/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "Fl-SSpbMqO4",
-          "title": "LEGENDS DECIDER CLASH! | Mark Williams vs John Higgins | International Championship 2026",
-          "publishedAt": "2026-11-03T15:47:26Z",
-          "duration": "8:59",
-          "seconds": 539,
-          "thumbnail": "https://i.ytimg.com/vi/Fl-SSpbMqO4/maxresdefault.jpg",
           "source": "WST",
           "blockedRegions": [],
           "allowedRegions": []
