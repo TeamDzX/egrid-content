@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-17T16:54:41Z",
+  "generatedAt": "2026-11-18T16:29:01Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,17 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "FeNfjPMrmrU",
+          "title": "20 Years of GT3: The story of the World's Most Successful Customer Racing Class | #fia #gt3 #wec",
+          "publishedAt": "2026-11-18T14:00:09Z",
+          "duration": "13:17",
+          "seconds": 797,
+          "thumbnail": "https://i.ytimg.com/vi/FeNfjPMrmrU/maxresdefault.jpg",
+          "source": "FIA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "2V--WsquBMI",
           "title": "The Upgrade, Cisco x RACEWKND | McLaren Racing",
@@ -43,7 +54,7 @@
         },
         {
           "id": "qEVgxOHBOkY",
-          "title": "Amateur vs Professional WEC Driver?! - Celebrating 70 Years of Karting History",
+          "title": "Can You Learn to Drive a Kart in 7 days? - Celebrating 70 Years of Karting History",
           "publishedAt": "2026-11-14T09:00:30Z",
           "duration": "17:35",
           "seconds": 1055,
@@ -214,17 +225,6 @@
           "seconds": 1658,
           "thumbnail": "https://i.ytimg.com/vi/BEVynIla58Y/maxresdefault.jpg",
           "source": "Red Bull Racing",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "po6HBAsquas",
-          "title": "What are Alex's and Carlos's Favourite Dinosaurs? | Team Torque | S3 E11",
-          "publishedAt": "2026-10-31T15:00:16Z",
-          "duration": "29:37",
-          "seconds": 1777,
-          "thumbnail": "https://i.ytimg.com/vi/po6HBAsquas/maxresdefault.jpg",
-          "source": "Atlassian Williams F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -1178,6 +1178,17 @@
       "sourceURL": null,
       "videos": [
         {
+          "id": "F97gBfVpeuo",
+          "title": "The Final Lap: A Lifetime of Memories | Aprilia Racing at Phillip Island",
+          "publishedAt": "2026-11-18T13:40:07Z",
+          "duration": "5:50",
+          "seconds": 350,
+          "thumbnail": "https://i.ytimg.com/vi/F97gBfVpeuo/maxresdefault.jpg",
+          "source": "Aprilia Official",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "iCXtwNiMkJo",
           "title": "Red Bull KTM MotoGP™ 2026 Factory Floor Episode 20 #QATARGP | KTM",
           "publishedAt": "2026-11-11T17:00:00Z",
@@ -1492,17 +1503,6 @@
           "duration": "32:00",
           "seconds": 1920,
           "thumbnail": "https://i.ytimg.com/vi/tql7ZOS66XM/maxresdefault.jpg",
-          "source": "Aprilia Official",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "lNX2Pt-8DBY",
-          "title": "Aprilia Racing | 2025 #MotoGP Team Presentation Live Show",
-          "publishedAt": "2025-01-16T11:38:39Z",
-          "duration": "29:48",
-          "seconds": 1788,
-          "thumbnail": "https://i.ytimg.com/vi/lNX2Pt-8DBY/maxresdefault.jpg",
           "source": "Aprilia Official",
           "blockedRegions": [],
           "allowedRegions": []
@@ -2571,6 +2571,17 @@
       "name": "Kyle Busch",
       "videos": [
         {
+          "id": "nS0xX5WzyN0",
+          "title": "WRECKED to Top 10 in South Carolina | Brex Ep. 65",
+          "publishedAt": "2026-11-17T22:00:07Z",
+          "duration": "15:13",
+          "seconds": 913,
+          "thumbnail": "https://i.ytimg.com/vi/nS0xX5WzyN0/maxresdefault.jpg",
+          "source": "Kyle Busch",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "wqVsgAPxT64",
           "title": "LEGENDary Road Course Debut in Vegas",
           "publishedAt": "2026-11-06T22:00:06Z",
@@ -2621,17 +2632,6 @@
           "duration": "6:59",
           "seconds": 419,
           "thumbnail": "https://i.ytimg.com/vi/B_rlc7xqo3g/maxresdefault.jpg",
-          "source": "Kyle Busch",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "zo_l98me2vo",
-          "title": "I Lost By A Nose In Illinois | Brex Ep. 59",
-          "publishedAt": "2026-09-09T01:02:17Z",
-          "duration": "26:40",
-          "seconds": 1600,
-          "thumbnail": "https://i.ytimg.com/vi/zo_l98me2vo/maxresdefault.jpg",
           "source": "Kyle Busch",
           "blockedRegions": [],
           "allowedRegions": []
