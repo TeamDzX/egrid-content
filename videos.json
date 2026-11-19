@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-18T16:29:01Z",
+  "generatedAt": "2026-11-19T16:36:05Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,39 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "2weZ08eBhyI",
+          "title": "Inside FIA Race Control: Meet the Team Behind a Formula 1 Grand Prix",
+          "publishedAt": "2026-11-19T13:00:25Z",
+          "duration": "14:17",
+          "seconds": 857,
+          "thumbnail": "https://i.ytimg.com/vi/2weZ08eBhyI/maxresdefault.jpg",
+          "source": "FIA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "yzpa02pm7o8",
+          "title": "Qualifying 1 | LIVE | FIA FR World Cup Macau 2026",
+          "publishedAt": "2026-11-19T09:18:02Z",
+          "duration": "1:17:40",
+          "seconds": 4660,
+          "thumbnail": "https://i.ytimg.com/vi/yzpa02pm7o8/maxresdefault.jpg",
+          "source": "FIA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "xm0Ma22JS_I",
+          "title": "The Secret Behind Alisha Palmowski's Title Win | Behind The Charge",
+          "publishedAt": "2026-11-18T16:59:57Z",
+          "duration": "19:38",
+          "seconds": 1178,
+          "thumbnail": "https://i.ytimg.com/vi/xm0Ma22JS_I/maxresdefault.jpg",
+          "source": "Red Bull Racing",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "FeNfjPMrmrU",
           "title": "20 Years of GT3: The story of the World's Most Successful Customer Racing Class | #fia #gt3 #wec",
@@ -185,28 +218,6 @@
           "allowedRegions": []
         },
         {
-          "id": "TRhT8s_SlCo",
-          "title": "Talking Karting & Advice for Young Drivers | McLaren Racing",
-          "publishedAt": "2026-11-04T09:00:01Z",
-          "duration": "5:00",
-          "seconds": 300,
-          "thumbnail": "https://i.ytimg.com/vi/TRhT8s_SlCo/maxresdefault.jpg",
-          "source": "McLaren",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "WC1YF_O5jcE",
-          "title": "Explaining The Strategy Behind An F1 Win With Hannah Schmitz! | Fasterclass",
-          "publishedAt": "2026-11-03T18:30:08Z",
-          "duration": "9:08",
-          "seconds": 548,
-          "thumbnail": "https://i.ytimg.com/vi/WC1YF_O5jcE/maxresdefault.jpg",
-          "source": "Red Bull Racing",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "mLyPA6-vDkU",
           "title": "AMR Network: Portraits | Pepperstone",
           "publishedAt": "2026-11-02T16:27:18Z",
@@ -214,17 +225,6 @@
           "seconds": 499,
           "thumbnail": "https://i.ytimg.com/vi/mLyPA6-vDkU/maxresdefault.jpg",
           "source": "Aston Martin Aramco F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "BEVynIla58Y",
-          "title": "Our Third WIN Of The Season! | Talking Bull",
-          "publishedAt": "2026-11-02T16:00:23Z",
-          "duration": "27:38",
-          "seconds": 1658,
-          "thumbnail": "https://i.ytimg.com/vi/BEVynIla58Y/maxresdefault.jpg",
-          "source": "Red Bull Racing",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -284,17 +284,6 @@
             "BY",
             "RU"
           ],
-          "allowedRegions": []
-        },
-        {
-          "id": "9OnSLxsR-TA",
-          "title": "How Do F1 Drivers Race In Extreme Heat?",
-          "publishedAt": "2026-10-18T11:00:20Z",
-          "duration": "10:28",
-          "seconds": 628,
-          "thumbnail": "https://i.ytimg.com/vi/9OnSLxsR-TA/maxresdefault.jpg",
-          "source": "Visa Cash App RB F1 Team",
-          "blockedRegions": [],
           "allowedRegions": []
         },
         {
@@ -426,6 +415,17 @@
           "seconds": 484,
           "thumbnail": "https://i.ytimg.com/vi/2H8fsju0gMo/maxresdefault.jpg",
           "source": "FIA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "32x2Dm_qtAU",
+          "title": "Extraordinary by Design, presented by Velocity Black | Lance Stroll and Pedro de la Rosa",
+          "publishedAt": "2026-08-06T14:51:33Z",
+          "duration": "20:41",
+          "seconds": 1241,
+          "thumbnail": "https://i.ytimg.com/vi/32x2Dm_qtAU/maxresdefault.jpg",
+          "source": "Aston Martin Aramco F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -959,17 +959,6 @@
           "duration": "25:46",
           "seconds": 1546,
           "thumbnail": "https://i.ytimg.com/vi/QjNqTrsrf2o/maxresdefault.jpg",
-          "source": "NASCAR",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "c07cPE-xUxk",
-          "title": "NASCAR Cup Series Highlights | 2026 Kansas Speedway",
-          "publishedAt": "2026-09-27T22:31:02Z",
-          "duration": "22:40",
-          "seconds": 1360,
-          "thumbnail": "https://i.ytimg.com/vi/c07cPE-xUxk/maxresdefault.jpg",
           "source": "NASCAR",
           "blockedRegions": [],
           "allowedRegions": []
