@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-19T16:36:05Z",
+  "generatedAt": "2026-11-20T16:10:51Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,39 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "5m1wSOPi_WM",
+          "title": "Qualifying & Superpole | LIVE | FIA GT World Cup Macau 2026",
+          "publishedAt": "2026-11-20T09:33:12Z",
+          "duration": "1:12:26",
+          "seconds": 4346,
+          "thumbnail": "https://i.ytimg.com/vi/5m1wSOPi_WM/maxresdefault.jpg",
+          "source": "FIA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "NHpl0yPsTrU",
+          "title": "Qualifying 2 | LIVE | FIA FR World Cup Macau 2026",
+          "publishedAt": "2026-11-20T08:15:48Z",
+          "duration": "50:51",
+          "seconds": 3051,
+          "thumbnail": "https://i.ytimg.com/vi/NHpl0yPsTrU/maxresdefault.jpg",
+          "source": "FIA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "clMtzhuuPEI",
+          "title": "Qualifying | LIVE | FIA F4 World Cup Macau 2026",
+          "publishedAt": "2026-11-20T06:56:36Z",
+          "duration": "59:26",
+          "seconds": 3566,
+          "thumbnail": "https://i.ytimg.com/vi/clMtzhuuPEI/maxresdefault.jpg",
+          "source": "FIA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "2weZ08eBhyI",
           "title": "Inside FIA Race Control: Meet the Team Behind a Formula 1 Grand Prix",
@@ -397,39 +430,6 @@
           "allowedRegions": []
         },
         {
-          "id": "80aCvkTjHcA",
-          "title": "Where Racing Meets Responsibility: Understanding Formula E's Cost Cap",
-          "publishedAt": "2026-08-15T08:00:24Z",
-          "duration": "6:49",
-          "seconds": 409,
-          "thumbnail": "https://i.ytimg.com/vi/80aCvkTjHcA/maxresdefault.jpg",
-          "source": "FIA",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "2H8fsju0gMo",
-          "title": "\"Racing Literally Saved My Life\" - Inspiring the Next Generation of Racers",
-          "publishedAt": "2026-08-10T15:22:07Z",
-          "duration": "8:04",
-          "seconds": 484,
-          "thumbnail": "https://i.ytimg.com/vi/2H8fsju0gMo/maxresdefault.jpg",
-          "source": "FIA",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "32x2Dm_qtAU",
-          "title": "Extraordinary by Design, presented by Velocity Black | Lance Stroll and Pedro de la Rosa",
-          "publishedAt": "2026-08-06T14:51:33Z",
-          "duration": "20:41",
-          "seconds": 1241,
-          "thumbnail": "https://i.ytimg.com/vi/32x2Dm_qtAU/maxresdefault.jpg",
-          "source": "Aston Martin Aramco F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "4aFCIR7Qajc",
           "title": "We Spent the Day with Franco Colapinto at an F1 Filming Day | Powered by Eni",
           "publishedAt": "2026-05-17T11:30:39Z",
@@ -586,20 +586,6 @@
           "duration": "8:07",
           "seconds": 487,
           "thumbnail": "https://i.ytimg.com/vi/U-V7IfBwN1I/maxresdefault.jpg",
-          "source": "FORMULA 1",
-          "blockedRegions": [
-            "BY",
-            "RU"
-          ],
-          "allowedRegions": []
-        },
-        {
-          "id": "XoC8pcPo7A4",
-          "title": "Qualifying Highlights | 2026 Bahrain Grand Prix in Malaysia",
-          "publishedAt": "2026-10-03T09:40:40Z",
-          "duration": "8:06",
-          "seconds": 486,
-          "thumbnail": "https://i.ytimg.com/vi/XoC8pcPo7A4/maxresdefault.jpg",
           "source": "FORMULA 1",
           "blockedRegions": [
             "BY",
@@ -1026,6 +1012,17 @@
       "sourceURL": "https://www.youtube.com/channel/UCJcErqlzaBzFmAh2uIxeqxQ",
       "videos": [
         {
+          "id": "wUNn-56BHhA",
+          "title": "Lucas Oil Drag Racing Series Highlights from the In-N-Out Burger NHRA Finals",
+          "publishedAt": "2026-11-19T19:00:04Z",
+          "duration": "17:43",
+          "seconds": 1063,
+          "thumbnail": "https://i.ytimg.com/vi/wUNn-56BHhA/maxresdefault.jpg",
+          "source": "NHRA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "sjQnvYwXeuE",
           "title": "In-N-Out Burger NHRA Finals Elimination Highlights",
           "publishedAt": "2026-11-16T22:27:37Z",
@@ -1142,17 +1139,6 @@
           "duration": "2:43",
           "seconds": 163,
           "thumbnail": "https://i.ytimg.com/vi/2ZT2qCk6_Qc/maxresdefault.jpg",
-          "source": "NHRA",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "w7mWHmqqdwg",
-          "title": "Dodge NHRA Great Lakes Nationals presented by MOPAR Elimination Highlights",
-          "publishedAt": "2026-09-22T15:57:48Z",
-          "duration": "11:12",
-          "seconds": 672,
-          "thumbnail": "https://i.ytimg.com/vi/w7mWHmqqdwg/maxresdefault.jpg",
           "source": "NHRA",
           "blockedRegions": [],
           "allowedRegions": []
