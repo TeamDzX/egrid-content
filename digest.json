@@ -1,7 +1,43 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-19T03:38:48Z",
+  "generatedAt": "2026-11-20T03:28:04Z",
   "editions": [
+    {
+      "id": "2026-11-20-preview",
+      "kind": "preview",
+      "title": "This weekend on E-Grid",
+      "dateRange": "20–23 November",
+      "intro": "Two round-21 showdowns land on Sunday 22 November. Formula 1 heads to the Las Vegas Strip for a title decider with Antonelli's comfortable lead in play, while MotoGP returns to the Algarve where Marquez holds a slim advantage over Martin.",
+      "publishedAt": "2026-11-20T03:28:04Z",
+      "expiresAt": "2026-11-25T03:28:04Z",
+      "items": [
+        {
+          "channelID": "f1",
+          "channelName": "Formula 1",
+          "headline": "Las Vegas Grand Prix",
+          "detail": "Las Vegas Strip Street Circuit, USA · Sun 22 Nov",
+          "body": "Formula 1 reaches the Las Vegas Strip Street Circuit on Sunday 22 November, race start 04:00 UTC with qualifying on Saturday 21 November also at 04:00 UTC. Andrea Kimi Antonelli leads Max Verstappen by 111 points as this round plays its part in the championship.",
+          "date": "2026-11-22",
+          "round": 21,
+          "facts": [
+            "Qualifying Sat 21 Nov, 04:00 UTC",
+            "Andrea Kimi Antonelli leads the championship by 111 points from Max Verstappen"
+          ]
+        },
+        {
+          "channelID": "motogp",
+          "channelName": "MotoGP",
+          "headline": "Grand Prix of Portugal",
+          "detail": "Autódromo Internacional do Algarve, Portugal · Sun 22 Nov",
+          "body": "MotoGP returns to the Autódromo Internacional do Algarve on Sunday 22 November for the Grand Prix of Portugal. Marc Marquez leads Jorge Martin by 60 points, so every lap here matters as the championship lead hangs in the balance.",
+          "date": "2026-11-22",
+          "round": 21,
+          "facts": [
+            "Marc Marquez leads the championship by 60 points from Jorge Martin"
+          ]
+        }
+      ]
+    },
     {
       "id": "2026-11-19-preview",
       "kind": "preview",
@@ -98,34 +134,6 @@
           "headline": "NHRA Finals",
           "detail": "Pomona Dragstrip, California · Sun 15 Nov",
           "body": "The NHRA Finals bring drag racing to the Pomona Dragstrip in California as the final round of the season. It closes the calendar out of Pomona with one last run down the quarter mile.",
-          "date": "2026-11-15"
-        }
-      ]
-    },
-    {
-      "id": "2026-11-16-recap",
-      "kind": "recap",
-      "title": "Last week on E-Grid",
-      "dateRange": "9–15 November",
-      "intro": "This week's racing takes in two of motorsport's marquee events, beginning with round fourteen of the World Rally Championship before the NHRA Drag Racing season reaches its climax. Two rounds, a rally and a finale, fill the 9–15 November window.",
-      "publishedAt": "2026-11-16T02:14:35Z",
-      "expiresAt": "2026-11-20T02:14:35Z",
-      "items": [
-        {
-          "channelID": "wrc",
-          "channelName": "World Rally Championship",
-          "headline": "Rally Saudi Arabia",
-          "detail": "Jeddah, Saudi Arabia · Sat 14 Nov",
-          "body": "Round fourteen of the World Rally Championship comes to Jeddah for Rally Saudi Arabia on Saturday 14 November. The desert stage tests crews across their special stages as the season nears its closing rounds.",
-          "date": "2026-11-14",
-          "round": 14
-        },
-        {
-          "channelID": "nhra",
-          "channelName": "NHRA Drag Racing",
-          "headline": "NHRA Finals",
-          "detail": "Pomona Dragstrip, California · Sun 15 Nov",
-          "body": "The NHRA Drag Racing season reaches its climax at the Pomona Dragstrip in California on Sunday 15 November, with drivers lining up for the final round of the year.",
           "date": "2026-11-15"
         }
       ]
