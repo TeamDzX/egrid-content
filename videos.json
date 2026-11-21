@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-20T16:10:51Z",
+  "generatedAt": "2026-11-21T15:23:57Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,39 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "0CWbAsHHrug",
+          "title": "Qualification Race | LIVE | FIA FR World Cup Macau 2026",
+          "publishedAt": "2026-11-21T09:03:15Z",
+          "duration": "59:05",
+          "seconds": 3545,
+          "thumbnail": "https://i.ytimg.com/vi/0CWbAsHHrug/maxresdefault.jpg",
+          "source": "FIA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "7n4G890D8Qk",
+          "title": "Qualification Race | LIVE | FIA GT World Cup Macau 2026",
+          "publishedAt": "2026-11-21T07:30:08Z",
+          "duration": "1:04:45",
+          "seconds": 3885,
+          "thumbnail": "https://i.ytimg.com/vi/7n4G890D8Qk/maxresdefault.jpg",
+          "source": "FIA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "yYYJelD2t9E",
+          "title": "Qualification Race | LIVE | FIA F4 World Cup Macau 2026",
+          "publishedAt": "2026-11-21T04:44:42Z",
+          "duration": "57:00",
+          "seconds": 3420,
+          "thumbnail": "https://i.ytimg.com/vi/yYYJelD2t9E/maxresdefault.jpg",
+          "source": "FIA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "5m1wSOPi_WM",
           "title": "Qualifying & Superpole | LIVE | FIA GT World Cup Macau 2026",
@@ -76,7 +109,7 @@
         },
         {
           "id": "FeNfjPMrmrU",
-          "title": "20 Years of GT3: The story of the World's Most Successful Customer Racing Class | #fia #gt3 #wec",
+          "title": "20 Years of GT3: The story of the World's Most Successful Customer Racing Class",
           "publishedAt": "2026-11-18T14:00:09Z",
           "duration": "13:17",
           "seconds": 797,
@@ -229,17 +262,6 @@
           "allowedRegions": []
         },
         {
-          "id": "DOIVzEjKByg",
-          "title": "James Vowles Answers Your Mexico City Grand Prix Fan Questions!",
-          "publishedAt": "2026-11-06T13:00:03Z",
-          "duration": "6:22",
-          "seconds": 382,
-          "thumbnail": "https://i.ytimg.com/vi/DOIVzEjKByg/maxresdefault.jpg",
-          "source": "Atlassian Williams F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "NSSTmFBSYwo",
           "title": "Which F1 Driver Is Better At Baseball?",
           "publishedAt": "2026-11-06T10:00:12Z",
@@ -353,17 +375,6 @@
           "allowedRegions": []
         },
         {
-          "id": "ukFyAtMK0Ew",
-          "title": "The Science Behind FIA Helmet Standards",
-          "publishedAt": "2026-10-08T11:00:12Z",
-          "duration": "6:58",
-          "seconds": 418,
-          "thumbnail": "https://i.ytimg.com/vi/ukFyAtMK0Ew/maxresdefault.jpg",
-          "source": "FIA",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "LFE4oF01Pz8",
           "title": "Buckle Up, Baku | Cadillac Formula 1® Team",
           "publishedAt": "2026-09-30T15:56:20Z",
@@ -371,17 +382,6 @@
           "seconds": 385,
           "thumbnail": "https://i.ytimg.com/vi/LFE4oF01Pz8/maxresdefault.jpg",
           "source": "Cadillac Formula 1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "HmJCBuZBZGg",
-          "title": "FIA Karting 101: Everything That You Need To Know",
-          "publishedAt": "2026-09-19T10:00:21Z",
-          "duration": "12:00",
-          "seconds": 720,
-          "thumbnail": "https://i.ytimg.com/vi/HmJCBuZBZGg/maxresdefault.jpg",
-          "source": "FIA",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -453,6 +453,20 @@
         }
       ],
       "externalVideos": [
+        {
+          "id": "jiBlTDJ-mFw",
+          "title": "Qualifying Highlights | 2026 Las Vegas Grand Prix",
+          "publishedAt": "2026-11-21T05:51:41Z",
+          "duration": "8:01",
+          "seconds": 481,
+          "thumbnail": "https://i.ytimg.com/vi/jiBlTDJ-mFw/maxresdefault.jpg",
+          "source": "FORMULA 1",
+          "blockedRegions": [
+            "BY",
+            "RU"
+          ],
+          "allowedRegions": []
+        },
         {
           "id": "lkb5kqDJYXk",
           "title": "Race Highlights | 2026 Sao Paulo Grand Prix",
@@ -572,20 +586,6 @@
           "duration": "8:01",
           "seconds": 481,
           "thumbnail": "https://i.ytimg.com/vi/Rf7NEIpm5vI/maxresdefault.jpg",
-          "source": "FORMULA 1",
-          "blockedRegions": [
-            "BY",
-            "RU"
-          ],
-          "allowedRegions": []
-        },
-        {
-          "id": "U-V7IfBwN1I",
-          "title": "Race Highlights | 2026 Bahrain Grand Prix in Malaysia",
-          "publishedAt": "2026-10-04T11:40:46Z",
-          "duration": "8:07",
-          "seconds": 487,
-          "thumbnail": "https://i.ytimg.com/vi/U-V7IfBwN1I/maxresdefault.jpg",
           "source": "FORMULA 1",
           "blockedRegions": [
             "BY",
