@@ -1,7 +1,43 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-21T02:26:56Z",
+  "generatedAt": "2026-11-22T07:02:14Z",
   "editions": [
+    {
+      "id": "2026-11-22-preview",
+      "kind": "preview",
+      "title": "This weekend on E-Grid",
+      "dateRange": "20–23 November",
+      "intro": "Two Grands Prix close out the season this weekend, both on Sunday 22 November. Formula 1 heads to the Las Vegas Strip for its finale while MotoGP follows a similar route in Portugal. Championship leads are comfortably clear, but there is still plenty left to fight over.",
+      "publishedAt": "2026-11-22T07:02:14Z",
+      "expiresAt": "2026-11-27T07:02:14Z",
+      "items": [
+        {
+          "channelID": "f1",
+          "channelName": "Formula 1",
+          "headline": "Las Vegas Grand Prix",
+          "detail": "Las Vegas Strip Street Circuit, USA · Sun 22 Nov",
+          "body": "The Las Vegas Grand Prix runs on Sunday 22 November, with qualifying on Saturday 21 Nov at 04:00 UTC and the race itself starting at 04:00 UTC. Andrea Kimi Antonelli leads the championship by 111 points from Max Verstappen as the field heads to the Strip.",
+          "date": "2026-11-22",
+          "round": 21,
+          "facts": [
+            "Qualifying Sat 21 Nov, 04:00 UTC",
+            "Andrea Kimi Antonelli leads the championship by 111 points from Max Verstappen"
+          ]
+        },
+        {
+          "channelID": "motogp",
+          "channelName": "MotoGP",
+          "headline": "Grand Prix of Portugal",
+          "detail": "Autódromo Internacional do Algarve, Portugal · Sun 22 Nov",
+          "body": "The Grand Prix of Portugal runs on Sunday 22 November at the Autódromo Internacional do Algarve. Marc Marquez leads the championship by 55 points from Jorge Martin heading into this final showdown in Portugal.",
+          "date": "2026-11-22",
+          "round": 21,
+          "facts": [
+            "Marc Marquez leads the championship by 55 points from Jorge Martin"
+          ]
+        }
+      ]
+    },
     {
       "id": "2026-11-21-preview",
       "kind": "preview",
@@ -109,42 +145,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "2026-11-18-preview",
-      "kind": "preview",
-      "title": "This weekend on E-Grid",
-      "dateRange": "18–23 November",
-      "intro": "Two round-21 showdowns frame the week, each a defining moment in its own series. Formula One turns to the Las Vegas Strip on Sunday 22 November, while MotoGP heads for the Algarve later that same day. With championship leads firmly established, this weekend may decide more than it promises.",
-      "publishedAt": "2026-11-18T04:31:09Z",
-      "expiresAt": "2026-11-23T04:31:09Z",
-      "items": [
-        {
-          "channelID": "f1",
-          "channelName": "Formula 1",
-          "headline": "Las Vegas Grand Prix",
-          "detail": "Las Vegas Strip Street Circuit, USA · Sun 22 Nov",
-          "body": "The Las Vegas Grand Prix returns to the Strip on Sunday 22 November, with the race at 04:00 UTC and qualifying the day before at the same time. Andrea Kimi Antonelli leads Max Verstappen by 111 points as this round begins.",
-          "date": "2026-11-22",
-          "round": 21,
-          "facts": [
-            "Qualifying Sat 21 Nov, 04:00 UTC",
-            "Andrea Kimi Antonelli leads the championship by 111 points from Max Verstappen"
-          ]
-        },
-        {
-          "channelID": "motogp",
-          "channelName": "MotoGP",
-          "headline": "Grand Prix of Portugal",
-          "detail": "Autódromo Internacional do Algarve, Portugal · Sun 22 Nov",
-          "body": "The Grand Prix of Portugal takes MotoGP to the Algarve on Sunday 22 November. Marc Marquez leads Jorge Martin by 60 points as this round begins.",
-          "date": "2026-11-22",
-          "round": 21,
-          "facts": [
-            "Marc Marquez leads the championship by 60 points from Jorge Martin"
-          ]
-        }
-      ]
     }
   ],
   "lastRaces": [
@@ -219,7 +219,7 @@
         "Marc Marquez set a new lap record, 1:52.558",
         "Dry, 31°C air and 33°C track",
         "Saturday's sprint was won by Marc Marquez",
-        "Marc Marquez leads the championship by 60 points from Jorge Martin"
+        "Marc Marquez leads the championship by 55 points from Jorge Martin"
       ],
       "podium": [
         {
