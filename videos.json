@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-21T15:23:57Z",
+  "generatedAt": "2026-11-22T15:20:48Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,39 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "96iTW0UxnFI",
+          "title": "Main Race | LIVE | FIA FR World Cup Macau 2026",
+          "publishedAt": "2026-11-22T09:07:13Z",
+          "duration": "1:44:21",
+          "seconds": 6261,
+          "thumbnail": "https://i.ytimg.com/vi/96iTW0UxnFI/maxresdefault.jpg",
+          "source": "FIA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "HxuLvtPZSmA",
+          "title": "Main Race | LIVE | FIA GT World Cup Macau 2026",
+          "publishedAt": "2026-11-22T06:24:06Z",
+          "duration": "1:57:10",
+          "seconds": 7030,
+          "thumbnail": "https://i.ytimg.com/vi/HxuLvtPZSmA/maxresdefault.jpg",
+          "source": "FIA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "N3g9u4WN9lQ",
+          "title": "Main Race | LIVE | FIA F4 World Cup Macau 2026",
+          "publishedAt": "2026-11-22T02:38:12Z",
+          "duration": "1:32:26",
+          "seconds": 5546,
+          "thumbnail": "https://i.ytimg.com/vi/N3g9u4WN9lQ/maxresdefault.jpg",
+          "source": "FIA",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "0CWbAsHHrug",
           "title": "Qualification Race | LIVE | FIA FR World Cup Macau 2026",
@@ -152,17 +185,6 @@
           "allowedRegions": []
         },
         {
-          "id": "qEVgxOHBOkY",
-          "title": "Can You Learn to Drive a Kart in 7 days? - Celebrating 70 Years of Karting History",
-          "publishedAt": "2026-11-14T09:00:30Z",
-          "duration": "17:35",
-          "seconds": 1055,
-          "thumbnail": "https://i.ytimg.com/vi/qEVgxOHBOkY/maxresdefault.jpg",
-          "source": "FIA",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "nxq-aSJgAGw",
           "title": "The Making of World Champions, Nu Silver Arrows Radio Show Episode 12",
           "publishedAt": "2026-11-13T15:12:55Z",
@@ -251,17 +273,6 @@
           "allowedRegions": []
         },
         {
-          "id": "3ITdnxRcJXk",
-          "title": "Carlos & Alex's Advice For You Was NOT What We Expected!",
-          "publishedAt": "2026-11-06T18:00:00Z",
-          "duration": "9:59",
-          "seconds": 599,
-          "thumbnail": "https://i.ytimg.com/vi/3ITdnxRcJXk/maxresdefault.jpg",
-          "source": "Atlassian Williams F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "NSSTmFBSYwo",
           "title": "Which F1 Driver Is Better At Baseball?",
           "publishedAt": "2026-11-06T10:00:12Z",
@@ -317,17 +328,6 @@
           "allowedRegions": []
         },
         {
-          "id": "lLlsDlKVJfE",
-          "title": "Why WEC is Such a Unique Challenge for FIA Stewards",
-          "publishedAt": "2026-10-28T11:00:23Z",
-          "duration": "6:07",
-          "seconds": 367,
-          "thumbnail": "https://i.ytimg.com/vi/lLlsDlKVJfE/maxresdefault.jpg",
-          "source": "FIA",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "k1LL5YwHkbI",
           "title": "Liam Lawson Performs LIVE Music On Stage! | All Access",
           "publishedAt": "2026-10-24T18:58:41Z",
@@ -339,17 +339,6 @@
             "BY",
             "RU"
           ],
-          "allowedRegions": []
-        },
-        {
-          "id": "lDx5trAHefg",
-          "title": "CMRT: The Team Behind The Response",
-          "publishedAt": "2026-10-16T17:00:08Z",
-          "duration": "7:24",
-          "seconds": 444,
-          "thumbnail": "https://i.ytimg.com/vi/lDx5trAHefg/maxresdefault.jpg",
-          "source": "FIA",
-          "blockedRegions": [],
           "allowedRegions": []
         },
         {
@@ -419,13 +408,24 @@
           "allowedRegions": []
         },
         {
-          "id": "2q_L5Duc__s",
-          "title": "A Hot Lap Around Shimoyama With Ollie Bearman",
-          "publishedAt": "2026-08-26T15:00:16Z",
-          "duration": "8:19",
-          "seconds": 499,
-          "thumbnail": "https://i.ytimg.com/vi/2q_L5Duc__s/maxresdefault.jpg",
-          "source": "TGR Haas F1 Team",
+          "id": "32x2Dm_qtAU",
+          "title": "Extraordinary by Design, presented by Velocity Black | Lance Stroll and Pedro de la Rosa",
+          "publishedAt": "2026-08-06T14:51:33Z",
+          "duration": "20:41",
+          "seconds": 1241,
+          "thumbnail": "https://i.ytimg.com/vi/32x2Dm_qtAU/maxresdefault.jpg",
+          "source": "Aston Martin Aramco F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "CPnOfsyvc1s",
+          "title": "Aston Martin Aramco Esports Head-to-Head Championship",
+          "publishedAt": "2026-08-06T10:28:06Z",
+          "duration": "12:56",
+          "seconds": 776,
+          "thumbnail": "https://i.ytimg.com/vi/CPnOfsyvc1s/maxresdefault.jpg",
+          "source": "Aston Martin Aramco F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -453,6 +453,20 @@
         }
       ],
       "externalVideos": [
+        {
+          "id": "Vyk_6bNm7lo",
+          "title": "Race Highlights | 2026 Las Vegas Grand Prix",
+          "publishedAt": "2026-11-22T07:03:23Z",
+          "duration": "8:14",
+          "seconds": 494,
+          "thumbnail": "https://i.ytimg.com/vi/Vyk_6bNm7lo/maxresdefault.jpg",
+          "source": "FORMULA 1",
+          "blockedRegions": [
+            "BY",
+            "RU"
+          ],
+          "allowedRegions": []
+        },
         {
           "id": "jiBlTDJ-mFw",
           "title": "Qualifying Highlights | 2026 Las Vegas Grand Prix",
@@ -1492,6 +1506,28 @@
       "sourceURL": "https://www.youtube.com/channel/UC5lTEvtwu6SR3LMSmU9VZ2Q",
       "videos": [
         {
+          "id": "cDJdK2Yb68Y",
+          "title": "WHIRLWIND KEEPS BLOWING | Jimmy White vs Brian Ochoiski | UK Championship Qualifiers 2026",
+          "publishedAt": "2026-11-22T13:19:21Z",
+          "duration": "11:30",
+          "seconds": 690,
+          "thumbnail": "https://i.ytimg.com/vi/cDJdK2Yb68Y/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "x0iRT8jHT3M",
+          "title": "12-TIME WORLD CHAMP vs TEEN PROSPECT | Reanne Evans vs Daniel Boyes | UK Championship 2026 Quals",
+          "publishedAt": "2026-11-22T00:52:58Z",
+          "duration": "9:08",
+          "seconds": 548,
+          "thumbnail": "https://i.ytimg.com/vi/x0iRT8jHT3M/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "G9fDw-L3-PI",
           "title": "43 YEAR GAP DECIDER! | Jimmy White vs Iulian Boiko | Machineseeker German Masters 2026 Qualifying",
           "publishedAt": "2026-11-16T23:13:19Z",
@@ -1597,28 +1633,6 @@
           "duration": "10:36",
           "seconds": 636,
           "thumbnail": "https://i.ytimg.com/vi/WJzoWkz_jYI/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "Mi_h68sStVw",
-          "title": "\"Pinks For Blacks\" Century | Hossein Vafaei vs Fan Zhengyi | International Championship 2026",
-          "publishedAt": "2026-11-04T07:42:07Z",
-          "duration": "8:07",
-          "seconds": 487,
-          "thumbnail": "https://i.ytimg.com/vi/Mi_h68sStVw/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "sJtP_vk_70I",
-          "title": "THIS MEANT EVERYTHING! | Ding Junhui vs Stephen Maguire | International Championship 2026",
-          "publishedAt": "2026-11-03T16:23:52Z",
-          "duration": "14:21",
-          "seconds": 861,
-          "thumbnail": "https://i.ytimg.com/vi/sJtP_vk_70I/maxresdefault.jpg",
           "source": "WST",
           "blockedRegions": [],
           "allowedRegions": []
