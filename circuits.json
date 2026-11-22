@@ -529,11 +529,11 @@
       "name": "Lusail International Circuit",
       "matchKeys": ["losail", "lusail"],
       "image": {
-        "url": "images/circuits/losail.jpg",
-        "credit": "Doha Stadium Plus Qatar from Doha, Qatar",
-        "licence": "CC BY 2.0",
-        "licenceURL": "https://creativecommons.org/licenses/by/2.0",
-        "sourceURL": "https://commons.wikimedia.org/wiki/File:Yamaha%27s_Maverick_Vinales_in_action_during_the_day_1_of_Qatar_test_at_the_Losail_International_Circuit,_Doha_Qatar._(32994567530).jpg"
+        "url": "images/circuits/lusail-grandstand.jpg",
+        "credit": "Trinidade",
+        "licence": "CC BY-SA 3.0",
+        "licenceURL": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Grand_Stand.JPG"
       }
     },
     {
