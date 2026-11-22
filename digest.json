@@ -1,27 +1,48 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-22T07:02:14Z",
+  "generatedAt": "2026-11-22T15:27:09Z",
   "editions": [
     {
       "id": "2026-11-22-preview",
       "kind": "preview",
-      "title": "This weekend on E-Grid",
+      "title": "Results from the weekend",
       "dateRange": "20–23 November",
-      "intro": "Two Grands Prix close out the season this weekend, both on Sunday 22 November. Formula 1 heads to the Las Vegas Strip for its finale while MotoGP follows a similar route in Portugal. Championship leads are comfortably clear, but there is still plenty left to fight over.",
-      "publishedAt": "2026-11-22T07:02:14Z",
-      "expiresAt": "2026-11-27T07:02:14Z",
+      "intro": "Two Sunday races closed out this weekend's action: Max Verstappen took the Las Vegas Grand Prix and Marco Bezzecchi won the Portuguese Grand Prix in MotoGP. Both results are in, with championship standings shifting across Formula 1 and MotoGP.",
+      "publishedAt": "2026-11-22T15:27:09Z",
+      "expiresAt": "2026-11-27T15:27:09Z",
       "items": [
         {
           "channelID": "f1",
           "channelName": "Formula 1",
           "headline": "Las Vegas Grand Prix",
           "detail": "Las Vegas Strip Street Circuit, USA · Sun 22 Nov",
-          "body": "The Las Vegas Grand Prix runs on Sunday 22 November, with qualifying on Saturday 21 Nov at 04:00 UTC and the race itself starting at 04:00 UTC. Andrea Kimi Antonelli leads the championship by 111 points from Max Verstappen as the field heads to the Strip.",
+          "body": "Max Verstappen led from pole and held off Lando Norris by 0.6 seconds for the Las Vegas Grand Prix win, with McLaren's Oscar Piastri climbing from 17th to third. Andrea Kimi Antonelli kept his championship lead after the result narrowed his advantage over Verstappen from 111 to 98 points. A lap-19 safety car and a soft-then-medium one-stop strategy shaped the dry, 12°C race.",
           "date": "2026-11-22",
           "round": 21,
           "facts": [
-            "Qualifying Sat 21 Nov, 04:00 UTC",
-            "Andrea Kimi Antonelli leads the championship by 111 points from Max Verstappen"
+            "Max Verstappen won from pole, 0.6 seconds ahead of Lando Norris",
+            "Biggest climbers: Oscar Piastri from 17th to 3rd and Carlos Sainz from 20th to 8th",
+            "Fastest lap: Liam Lawson, 1:35.591",
+            "Did not finish: Fernando Alonso, Arvid Lindblad, Sergio Pérez and Alexander Albon (did not start)",
+            "Andrea Kimi Antonelli's championship lead over Max Verstappen went from 111 to 98 points over the weekend",
+            "Safety car on lap 19"
+          ],
+          "podium": [
+            {
+              "position": 1,
+              "name": "Max Verstappen",
+              "team": "Red Bull"
+            },
+            {
+              "position": 2,
+              "name": "Lando Norris",
+              "team": "McLaren"
+            },
+            {
+              "position": 3,
+              "name": "Oscar Piastri",
+              "team": "McLaren"
+            }
           ]
         },
         {
@@ -29,11 +50,33 @@
           "channelName": "MotoGP",
           "headline": "Grand Prix of Portugal",
           "detail": "Autódromo Internacional do Algarve, Portugal · Sun 22 Nov",
-          "body": "The Grand Prix of Portugal runs on Sunday 22 November at the Autódromo Internacional do Algarve. Marc Marquez leads the championship by 55 points from Jorge Martin heading into this final showdown in Portugal.",
+          "body": "Marco Bezzecchi beat Jorge Martin by 3.8 seconds to win the Grand Prix of Portugal, with Raul Fernandez third for SuperFile Trackhouse. Marc Marquez held his championship lead over Martin after the weekend narrowed his advantage from 60 to 43 points. Bezzecchi also took Saturday's sprint and set a new track record of 1:39.121 in the dry heat.",
           "date": "2026-11-22",
           "round": 21,
           "facts": [
-            "Marc Marquez leads the championship by 55 points from Jorge Martin"
+            "Marco Bezzecchi won by 3.8 seconds from Jorge Martin",
+            "Did not finish: Diogo Moreira, Alex Marquez, Pedro Acosta and Johann Zarco",
+            "Marco Bezzecchi set a new lap record, 1:39.121",
+            "Dry, 19°C air and 25°C track",
+            "Saturday's sprint was won by Marco Bezzecchi",
+            "Marc Marquez's championship lead over Jorge Martin went from 60 to 43 points this weekend"
+          ],
+          "podium": [
+            {
+              "position": 1,
+              "name": "Marco Bezzecchi",
+              "team": "Aprilia Racing"
+            },
+            {
+              "position": 2,
+              "name": "Jorge Martin",
+              "team": "Aprilia Racing"
+            },
+            {
+              "position": 3,
+              "name": "Raul Fernandez",
+              "team": "SuperFile Trackhouse MotoGP Team"
+            }
           ]
         }
       ]
@@ -149,6 +192,78 @@
   ],
   "lastRaces": [
     {
+      "channelID": "motogp",
+      "channelName": "MotoGP",
+      "headline": "Grand Prix of Portugal",
+      "detail": "Autódromo Internacional do Algarve, Portugal · Sun 22 Nov",
+      "body": "Marco Bezzecchi took the Grand Prix of Portugal by 3.8 seconds from his Aprilia team-mate Jorge Martin, with SuperFile Trackhouse's Raul Fernandez third. He set a new lap record of 1:39.121 in dry conditions on a 25°C track. Diogo Moreira, Alex Marquez, Pedro Acosta and Johann Zarco did not finish, while Marc Marquez's championship lead over Martin shrank from 60 to 43 points.",
+      "date": "2026-11-22",
+      "round": 21,
+      "facts": [
+        "Marco Bezzecchi won by 3.8 seconds from Jorge Martin",
+        "Did not finish: Diogo Moreira, Alex Marquez, Pedro Acosta and Johann Zarco",
+        "Marco Bezzecchi set a new lap record, 1:39.121",
+        "Dry, 19°C air and 25°C track",
+        "Saturday's sprint was won by Marco Bezzecchi",
+        "Marc Marquez's championship lead over Jorge Martin went from 60 to 43 points this weekend"
+      ],
+      "podium": [
+        {
+          "position": 1,
+          "name": "Marco Bezzecchi",
+          "team": "Aprilia Racing"
+        },
+        {
+          "position": 2,
+          "name": "Jorge Martin",
+          "team": "Aprilia Racing"
+        },
+        {
+          "position": 3,
+          "name": "Raul Fernandez",
+          "team": "SuperFile Trackhouse MotoGP Team"
+        }
+      ],
+      "factsVersion": 4,
+      "writer": "own server"
+    },
+    {
+      "channelID": "f1",
+      "channelName": "Formula 1",
+      "headline": "Las Vegas Grand Prix",
+      "detail": "Las Vegas Strip Street Circuit, USA · Sun 22 Nov",
+      "body": "Max Verstappen won the Las Vegas Grand Prix from pole, 0.6 seconds ahead of Lando Norris, with McLaren team-mate Oscar Piastri climbing from seventeenth to third. A safety car on lap nineteen shaped the race as Fernando Alonso, Arvid Lindblad, Sergio Pérez and Alexander Albon (who did not start) failed to finish. Andrea Kimi Antonelli's championship lead over Verstappen narrowed from 111 to 98 points.",
+      "date": "2026-11-22",
+      "round": 21,
+      "facts": [
+        "Max Verstappen won from pole, 0.6 seconds ahead of Lando Norris",
+        "Biggest climbers: Oscar Piastri from 17th to 3rd and Carlos Sainz from 20th to 8th",
+        "Fastest lap: Liam Lawson, 1:35.591",
+        "Did not finish: Fernando Alonso, Arvid Lindblad, Sergio Pérez and Alexander Albon (did not start)",
+        "Andrea Kimi Antonelli's championship lead over Max Verstappen went from 111 to 98 points over the weekend",
+        "Safety car on lap 19"
+      ],
+      "podium": [
+        {
+          "position": 1,
+          "name": "Max Verstappen",
+          "team": "Red Bull"
+        },
+        {
+          "position": 2,
+          "name": "Lando Norris",
+          "team": "McLaren"
+        },
+        {
+          "position": 3,
+          "name": "Oscar Piastri",
+          "team": "McLaren"
+        }
+      ],
+      "factsVersion": 4,
+      "writer": "own server"
+    },
+    {
       "channelID": "nhra",
       "channelName": "NHRA Drag Racing",
       "headline": "NHRA Finals",
@@ -200,78 +315,6 @@
           "position": 3,
           "name": "William Byron",
           "team": "Hendrick Motorsports"
-        }
-      ],
-      "factsVersion": 4,
-      "writer": "own server"
-    },
-    {
-      "channelID": "motogp",
-      "channelName": "MotoGP",
-      "headline": "Grand Prix of Qatar",
-      "detail": "Lusail International Circuit, Qatar · Sun 8 Nov",
-      "body": "Marco Bezzecchi took the Qatar Grand Prix home by 3.1 seconds over Marc Marquez on a dry, 33°C track where Marquez set a new lap record of 1:52.558. Raul Fernandez made up the podium for SuperFile Trackhouse behind them, and Saturday's sprint had already gone to Marquez as his lead over Jorge Martin grew from 44 to 60 points.",
-      "date": "2026-11-08",
-      "round": 20,
-      "facts": [
-        "Marco Bezzecchi won by 3.1 seconds from Marc Marquez",
-        "Did not finish: Brad Binder and Diogo Moreira",
-        "Marc Marquez set a new lap record, 1:52.558",
-        "Dry, 31°C air and 33°C track",
-        "Saturday's sprint was won by Marc Marquez",
-        "Marc Marquez leads the championship by 55 points from Jorge Martin"
-      ],
-      "podium": [
-        {
-          "position": 1,
-          "name": "Marco Bezzecchi",
-          "team": "Aprilia Racing"
-        },
-        {
-          "position": 2,
-          "name": "Marc Marquez",
-          "team": "Ducati Lenovo Team"
-        },
-        {
-          "position": 3,
-          "name": "Raul Fernandez",
-          "team": "SuperFile Trackhouse MotoGP Team"
-        }
-      ],
-      "factsVersion": 4,
-      "writer": "own server"
-    },
-    {
-      "channelID": "f1",
-      "channelName": "Formula 1",
-      "headline": "Brazilian Grand Prix",
-      "detail": "Autódromo José Carlos Pace, Brazil · Sun 8 Nov",
-      "body": "Lando Norris won from pole by 14.6 seconds over Max Verstappen, with Isack Hadjar third for Red Bull as McLaren and Red Bull filled the top three. Rain fell during the race as Norris made three stops on intermediate, soft, soft then intermediate tyres. Verstappen recovered from 21st to second and Hamilton climbed from 20th to ninth.",
-      "date": "2026-11-08",
-      "round": 20,
-      "facts": [
-        "Lando Norris won from pole, 14.6 seconds ahead of Max Verstappen",
-        "Biggest climbers: Max Verstappen from 21st to 2nd and Lewis Hamilton from 20th to 9th",
-        "Fastest lap: Andrea Kimi Antonelli, 1:12.689",
-        "Did not finish: Lance Stroll and Valtteri Bottas (did not start)",
-        "Andrea Kimi Antonelli's championship lead over Max Verstappen went from 119 to 111 points over the weekend",
-        "Rain fell during the race"
-      ],
-      "podium": [
-        {
-          "position": 1,
-          "name": "Lando Norris",
-          "team": "McLaren"
-        },
-        {
-          "position": 2,
-          "name": "Max Verstappen",
-          "team": "Red Bull"
-        },
-        {
-          "position": 3,
-          "name": "Isack Hadjar",
-          "team": "Red Bull"
         }
       ],
       "factsVersion": 4,
