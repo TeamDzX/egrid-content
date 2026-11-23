@@ -33,6 +33,31 @@
           "title": "FIA International Sporting Code",
           "url": "https://www.fia.com/regulation/category/123"
         }
+      ],
+      "calendar": [
+        {"round": 1, "name": "Australian Grand Prix", "location": "Albert Park Circuit, Australia", "date": "2026-03-08", "time": "04:00"},
+        {"round": 2, "name": "Chinese Grand Prix", "location": "Shanghai International Circuit, China", "date": "2026-03-15", "time": "07:00"},
+        {"round": 3, "name": "Japanese Grand Prix", "location": "Suzuka Circuit, Japan", "date": "2026-03-29", "time": "05:00"},
+        {"round": 4, "name": "Miami Grand Prix", "location": "Miami International Autodrome, United States", "date": "2026-05-03", "time": "17:00"},
+        {"round": 5, "name": "Canadian Grand Prix", "location": "Circuit Gilles Villeneuve, Canada", "date": "2026-05-24", "time": "20:00"},
+        {"round": 6, "name": "Monaco Grand Prix", "location": "Circuit de Monaco, Monaco", "date": "2026-06-07", "time": "13:00"},
+        {"round": 7, "name": "Barcelona Grand Prix", "location": "Circuit de Barcelona-Catalunya, Spain", "date": "2026-06-14", "time": "13:00"},
+        {"round": 8, "name": "Austrian Grand Prix", "location": "Red Bull Ring, Austria", "date": "2026-06-28", "time": "13:00"},
+        {"round": 9, "name": "British Grand Prix", "location": "Silverstone Circuit, United Kingdom", "date": "2026-07-05", "time": "14:00"},
+        {"round": 10, "name": "Belgian Grand Prix", "location": "Circuit de Spa-Francorchamps, Belgium", "date": "2026-07-19", "time": "13:00"},
+        {"round": 11, "name": "Hungarian Grand Prix", "location": "Hungaroring, Hungary", "date": "2026-07-26", "time": "13:00"},
+        {"round": 12, "name": "Dutch Grand Prix", "location": "Circuit Zandvoort, Netherlands", "date": "2026-08-23", "time": "13:00"},
+        {"round": 13, "name": "Italian Grand Prix", "location": "Autodromo Nazionale Monza, Italy", "date": "2026-09-06", "time": "13:00"},
+        {"round": 14, "name": "Spanish Grand Prix", "location": "Madring, Spain", "date": "2026-09-13", "time": "13:00"},
+        {"round": 15, "name": "Azerbaijan Grand Prix", "location": "Baku City Circuit, Azerbaijan", "date": "2026-09-26", "time": "11:00"},
+        {"round": 16, "name": "Bahrain Grand Prix", "location": "Kuala Lumpur, Malaysia", "date": "2026-10-04", "time": "07:00"},
+        {"round": 17, "name": "Singapore Grand Prix", "location": "Marina Bay Street Circuit, Singapore", "date": "2026-10-11", "time": "12:00"},
+        {"round": 18, "name": "United States Grand Prix", "location": "Circuit of the Americas, United States", "date": "2026-10-25", "time": "20:00"},
+        {"round": 19, "name": "Mexico City Grand Prix", "location": "Autódromo Hermanos Rodríguez, Mexico", "date": "2026-11-01", "time": "20:00"},
+        {"round": 20, "name": "São Paulo Grand Prix", "location": "Autódromo José Carlos Pace (Interlagos), Brazil", "date": "2026-11-08", "time": "17:00"},
+        {"round": 21, "name": "Las Vegas Grand Prix", "location": "Las Vegas Strip Circuit, United States", "date": "2026-11-22", "time": "04:00"},
+        {"round": 22, "name": "Qatar Grand Prix", "location": "Lusail International Circuit, Qatar", "date": "2026-11-29", "time": "16:00"},
+        {"round": 23, "name": "Abu Dhabi Grand Prix", "location": "Yas Marina Circuit, United Arab Emirates", "date": "2026-12-06", "time": "13:00"}
       ]
     },
     {
