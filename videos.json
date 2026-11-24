@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-23T19:16:00Z",
+  "generatedAt": "2026-11-24T18:55:16Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,17 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "zuqPA6-YzVY",
+          "title": "All In: Mexico – Inside Freddie Slater's First FP1 | Episode 02",
+          "publishedAt": "2026-11-24T15:07:48Z",
+          "duration": "9:43",
+          "seconds": 583,
+          "thumbnail": "https://i.ytimg.com/vi/zuqPA6-YzVY/maxresdefault.jpg",
+          "source": "Audi Revolut F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "TWyLqhptWAw",
           "title": "Unboxed: Las Vegas Marketing Day | McLaren Racing",
@@ -404,17 +415,6 @@
           "seconds": 385,
           "thumbnail": "https://i.ytimg.com/vi/LFE4oF01Pz8/maxresdefault.jpg",
           "source": "Cadillac Formula 1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "033qwVsOR8A",
-          "title": "Extraordinary by Design, presented by Velocity Black | Fernando Alonso and Pedro de la Rosa",
-          "publishedAt": "2026-09-18T11:56:04Z",
-          "duration": "19:15",
-          "seconds": 1155,
-          "thumbnail": "https://i.ytimg.com/vi/033qwVsOR8A/maxresdefault.jpg",
-          "source": "Aston Martin Aramco F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -1506,6 +1506,39 @@
       "sourceURL": "https://www.youtube.com/channel/UC5lTEvtwu6SR3LMSmU9VZ2Q",
       "videos": [
         {
+          "id": "vhN0EjvbkhY",
+          "title": "DRAMA TO THE END! Pang Junxu vs Riley Powell | 2026 Leasing Options UK Championship Qualifiers",
+          "publishedAt": "2026-11-24T14:19:48Z",
+          "duration": "8:13",
+          "seconds": 493,
+          "thumbnail": "https://i.ytimg.com/vi/vhN0EjvbkhY/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "oK67Yol1vrc",
+          "title": "WELSH PROSPECT 󠁧󠁢󠁷󠁬󠁳󠁿! Riley Powell SUPERB start vs Pang Junxu | UK Championship Qualifiers",
+          "publishedAt": "2026-11-24T10:02:26Z",
+          "duration": "9:08",
+          "seconds": 548,
+          "thumbnail": "https://i.ytimg.com/vi/oK67Yol1vrc/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "UUZ4QDOvTWw",
+          "title": "HE'S GOOD! 20-year-old Artemijs Zizins SHINES vs Elliot Slessor | UK Championship Qualifiers",
+          "publishedAt": "2026-11-23T23:36:12Z",
+          "duration": "9:34",
+          "seconds": 574,
+          "thumbnail": "https://i.ytimg.com/vi/UUZ4QDOvTWw/maxresdefault.jpg",
+          "source": "WST",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "LyMkpbhe-Gw",
           "title": "ROLLERCOASTER FRAME ! Jimmy White vs Ben Mertens | Leasing Options UK Championship Qualifiers",
           "publishedAt": "2026-11-23T17:16:51Z",
@@ -1600,39 +1633,6 @@
           "duration": "13:43",
           "seconds": 823,
           "thumbnail": "https://i.ytimg.com/vi/QbSS2F6B1y4/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "_ZStL-BKfxQ",
-          "title": "FINAL BOUND! Kyren Wilson vs Fan Zhengyi | International Championship 2026",
-          "publishedAt": "2026-11-05T14:11:45Z",
-          "duration": "17:15",
-          "seconds": 1035,
-          "thumbnail": "https://i.ytimg.com/vi/_ZStL-BKfxQ/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "p-wL5CYEUoY",
-          "title": "CLOSING OUT IN STYLE | Kyren Wilson vs Fan Zhengyi | International Championship 2026",
-          "publishedAt": "2026-11-05T09:22:16Z",
-          "duration": "8:20",
-          "seconds": 500,
-          "thumbnail": "https://i.ytimg.com/vi/p-wL5CYEUoY/maxresdefault.jpg",
-          "source": "WST",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "DUnoLGWA6vM",
-          "title": "SNOOKER FROM ANOTHER PLANET! | Chang Bingyu vs Zhao Xintong | International Championship 2026",
-          "publishedAt": "2026-11-04T14:59:51Z",
-          "duration": "19:54",
-          "seconds": 1194,
-          "thumbnail": "https://i.ytimg.com/vi/DUnoLGWA6vM/maxresdefault.jpg",
           "source": "WST",
           "blockedRegions": [],
           "allowedRegions": []
