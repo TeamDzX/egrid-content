@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-24T18:55:16Z",
+  "generatedAt": "2026-11-25T17:59:15Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,28 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "wuEzZqLMqe0",
+          "title": "We Put 2 F1 Drivers and PGA Tour Pros in a Golf Scramble!",
+          "publishedAt": "2026-11-24T18:59:58Z",
+          "duration": "22:03",
+          "seconds": 1323,
+          "thumbnail": "https://i.ytimg.com/vi/wuEzZqLMqe0/maxresdefault.jpg",
+          "source": "Atlassian Williams F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "P5EGVKUk4VQ",
+          "title": "One Last Time At Home | Cadillac Formula 1® Team",
+          "publishedAt": "2026-11-24T18:59:27Z",
+          "duration": "9:46",
+          "seconds": 586,
+          "thumbnail": "https://i.ytimg.com/vi/P5EGVKUk4VQ/maxresdefault.jpg",
+          "source": "Cadillac Formula 1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "zuqPA6-YzVY",
           "title": "All In: Mexico – Inside Freddie Slater's First FP1 | Episode 02",
@@ -392,28 +414,6 @@
           "duration": "5:51",
           "seconds": 351,
           "thumbnail": "https://i.ytimg.com/vi/Th9BdOCYZpE/maxresdefault.jpg",
-          "source": "Cadillac Formula 1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "axdPg8WP8f4",
-          "title": "Sending It Around Sepang | Cadillac Formula 1® Team",
-          "publishedAt": "2026-10-09T20:55:15Z",
-          "duration": "5:11",
-          "seconds": 311,
-          "thumbnail": "https://i.ytimg.com/vi/axdPg8WP8f4/maxresdefault.jpg",
-          "source": "Cadillac Formula 1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "LFE4oF01Pz8",
-          "title": "Buckle Up, Baku | Cadillac Formula 1® Team",
-          "publishedAt": "2026-09-30T15:56:20Z",
-          "duration": "6:25",
-          "seconds": 385,
-          "thumbnail": "https://i.ytimg.com/vi/LFE4oF01Pz8/maxresdefault.jpg",
           "source": "Cadillac Formula 1 Team",
           "blockedRegions": [],
           "allowedRegions": []
@@ -1167,6 +1167,17 @@
       "sourceURL": null,
       "videos": [
         {
+          "id": "1d1RyhfGrzU",
+          "title": "Marc Márquez | X10 | He Made #H1STORY at #PortugueseGP",
+          "publishedAt": "2026-11-25T12:30:08Z",
+          "duration": "27:21",
+          "seconds": 1641,
+          "thumbnail": "https://i.ytimg.com/vi/1d1RyhfGrzU/maxresdefault.jpg",
+          "source": "Ducati",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "F97gBfVpeuo",
           "title": "The Final Lap: A Lifetime of Memories | Aprilia Racing at Phillip Island",
           "publishedAt": "2026-11-18T13:40:07Z",
@@ -1460,17 +1471,6 @@
           "seconds": 1047,
           "thumbnail": "https://i.ytimg.com/vi/EGPlBls1wJ4/maxresdefault.jpg",
           "source": "KTM",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "QLTRYPCB58c",
-          "title": "Marc Márquez and Pecco Bagnaia | Grinding It Out at #BritishGP",
-          "publishedAt": "2026-08-12T10:30:15Z",
-          "duration": "11:47",
-          "seconds": 707,
-          "thumbnail": "https://i.ytimg.com/vi/QLTRYPCB58c/maxresdefault.jpg",
-          "source": "Ducati",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -1913,6 +1913,17 @@
       "channelID": "motogp",
       "name": "Marc Marquez",
       "videos": [
+        {
+          "id": "J9Twcd8keyk",
+          "title": "Not Just Any Chapter, H1ST0RY",
+          "publishedAt": "2026-11-25T17:24:17Z",
+          "duration": "5:36",
+          "seconds": 336,
+          "thumbnail": "https://i.ytimg.com/vi/J9Twcd8keyk/maxresdefault.jpg",
+          "source": "Marc Marquez",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "d8faCLk0ouY",
           "title": "Preseason en El Búnker | MX y Flat Track",
@@ -2560,6 +2571,17 @@
       "name": "Kyle Busch",
       "videos": [
         {
+          "id": "oSGhB2Tcm5Q",
+          "title": "Lennix's 1st Test!!!! | LX Ep. 1",
+          "publishedAt": "2026-11-24T21:00:08Z",
+          "duration": "9:00",
+          "seconds": 540,
+          "thumbnail": "https://i.ytimg.com/vi/oSGhB2Tcm5Q/maxresdefault.jpg",
+          "source": "Kyle Busch",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "nS0xX5WzyN0",
           "title": "WRECKED to Top 10 in South Carolina | Brex Ep. 65",
           "publishedAt": "2026-11-17T22:00:07Z",
@@ -2610,17 +2632,6 @@
           "duration": "10:17",
           "seconds": 617,
           "thumbnail": "https://i.ytimg.com/vi/FBpdJ-UYOe0/maxresdefault.jpg",
-          "source": "Kyle Busch",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "B_rlc7xqo3g",
-          "title": "WILD 3-Wide Legend Win at Tri-County | Brex Ep. 60",
-          "publishedAt": "2026-09-10T21:00:06Z",
-          "duration": "6:59",
-          "seconds": 419,
-          "thumbnail": "https://i.ytimg.com/vi/B_rlc7xqo3g/maxresdefault.jpg",
           "source": "Kyle Busch",
           "blockedRegions": [],
           "allowedRegions": []
