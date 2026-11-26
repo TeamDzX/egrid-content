@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-25T17:59:15Z",
+  "generatedAt": "2026-11-26T17:44:48Z",
   "channels": [
     {
       "channelID": "f1",
@@ -328,17 +328,6 @@
           "allowedRegions": []
         },
         {
-          "id": "lt-AlxePwT8",
-          "title": "Reviewing Max Verstappen's P21 to P2 in Brazil GP! | Talking Bull!",
-          "publishedAt": "2026-11-09T12:09:55Z",
-          "duration": "27:07",
-          "seconds": 1627,
-          "thumbnail": "https://i.ytimg.com/vi/lt-AlxePwT8/maxresdefault.jpg",
-          "source": "Red Bull Racing",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "NSSTmFBSYwo",
           "title": "Which F1 Driver Is Better At Baseball?",
           "publishedAt": "2026-11-06T10:00:12Z",
@@ -414,6 +403,17 @@
           "duration": "5:51",
           "seconds": 351,
           "thumbnail": "https://i.ytimg.com/vi/Th9BdOCYZpE/maxresdefault.jpg",
+          "source": "Cadillac Formula 1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "axdPg8WP8f4",
+          "title": "Sending It Around Sepang | Cadillac Formula 1® Team",
+          "publishedAt": "2026-10-09T20:55:15Z",
+          "duration": "5:11",
+          "seconds": 311,
+          "thumbnail": "https://i.ytimg.com/vi/axdPg8WP8f4/maxresdefault.jpg",
           "source": "Cadillac Formula 1 Team",
           "blockedRegions": [],
           "allowedRegions": []
@@ -1167,6 +1167,17 @@
       "sourceURL": null,
       "videos": [
         {
+          "id": "lDeqFi28np4",
+          "title": "Red Bull KTM MotoGP™ 2026 Factory Floor Episode 21 #PORTUGUESEGP | KTM",
+          "publishedAt": "2026-11-25T18:05:40Z",
+          "duration": "12:25",
+          "seconds": 745,
+          "thumbnail": "https://i.ytimg.com/vi/lDeqFi28np4/maxresdefault.jpg",
+          "source": "KTM",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "1d1RyhfGrzU",
           "title": "Marc Márquez | X10 | He Made #H1STORY at #PortugueseGP",
           "publishedAt": "2026-11-25T12:30:08Z",
@@ -1460,17 +1471,6 @@
           "seconds": 309,
           "thumbnail": "https://i.ytimg.com/vi/J5KJKb6204g/maxresdefault.jpg",
           "source": "Ducati",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "EGPlBls1wJ4",
-          "title": "Red Bull KTM MotoGP™ 2026 Factory Floor Episode 12 #BRITISHGP | KTM",
-          "publishedAt": "2026-08-14T12:58:16Z",
-          "duration": "17:27",
-          "seconds": 1047,
-          "thumbnail": "https://i.ytimg.com/vi/EGPlBls1wJ4/maxresdefault.jpg",
-          "source": "KTM",
           "blockedRegions": [],
           "allowedRegions": []
         },
