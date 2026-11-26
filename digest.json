@@ -1,7 +1,52 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-25T04:20:57Z",
+  "generatedAt": "2026-11-26T08:34:00Z",
   "editions": [
+    {
+      "id": "2026-11-26-preview",
+      "kind": "preview",
+      "title": "This weekend on E-Grid",
+      "dateRange": "26–30 November",
+      "intro": "This week brings three rounds across the season's closing days, all on Sunday 29 November. Formula 1 heads to Lusail for round 22 with the title already in the balance, F2 follows at the same circuit, and MotoGP closes its campaign at Valencia.",
+      "publishedAt": "2026-11-26T08:34:00Z",
+      "expiresAt": "2026-12-01T08:34:00Z",
+      "items": [
+        {
+          "channelID": "f1",
+          "channelName": "Formula 1",
+          "headline": "Qatar Grand Prix",
+          "detail": "Lusail International Circuit, Qatar · Sun 29 Nov",
+          "body": "Round 22 of the Formula 1 season runs on Sunday 29 November at the Lusail International Circuit in Qatar, with qualifying on Saturday 28 Nov from 18:00 UTC and the race starting at 16:00 UTC. Andrea Kimi Antonelli leads the championship by 98 points over Max Verstappen.",
+          "date": "2026-11-29",
+          "round": 22,
+          "facts": [
+            "Qualifying Sat 28 Nov, 18:00 UTC",
+            "Andrea Kimi Antonelli leads the championship by 98 points from Max Verstappen"
+          ]
+        },
+        {
+          "channelID": "f2",
+          "channelName": "Formula 2",
+          "headline": "Lusail",
+          "detail": "Lusail International Circuit, Qatar · Sun 29 Nov",
+          "body": "Round 13 of the Formula 2 season.",
+          "date": "2026-11-29",
+          "round": 13
+        },
+        {
+          "channelID": "motogp",
+          "channelName": "MotoGP",
+          "headline": "Grand Prix of Valencia",
+          "detail": "Circuit Ricardo Tormo, Spain · Sun 29 Nov",
+          "body": "MotoGP's twenty-second round runs on Sunday 29 November at the Circuit Ricardo Tormo in Spain for the Grand Prix of Valencia. Marc Marquez leads the championship by 43 points over Jorge Martin heading into the final race.",
+          "date": "2026-11-29",
+          "round": 22,
+          "facts": [
+            "Marc Marquez leads the championship by 43 points from Jorge Martin"
+          ]
+        }
+      ]
+    },
     {
       "id": "2026-11-25-preview",
       "kind": "preview",
@@ -175,85 +220,6 @@
           "headline": "Grand Prix of Portugal",
           "detail": "Autódromo Internacional do Algarve, Portugal · Sun 22 Nov",
           "body": "Marco Bezzecchi won the Grand Prix of Portugal, edging teammate Jorge Martin by 3.8 seconds at the Algarve on a warm, dry day. He had already taken Saturday's sprint, and set a new lap record of 1:39.121 in the race. Raul Fernandez completed the podium, while four riders fell out, including Marc Marquez, whose championship lead over Martin slipped from 60 to 43 points.",
-          "date": "2026-11-22",
-          "round": 21,
-          "facts": [
-            "Marco Bezzecchi won by 3.8 seconds from Jorge Martin",
-            "Did not finish: Diogo Moreira, Alex Marquez, Pedro Acosta and Johann Zarco",
-            "Marco Bezzecchi set a new lap record, 1:39.121",
-            "Dry, 19°C air and 25°C track",
-            "Saturday's sprint was won by Marco Bezzecchi",
-            "Marc Marquez's championship lead over Jorge Martin went from 60 to 43 points this weekend"
-          ],
-          "podium": [
-            {
-              "position": 1,
-              "name": "Marco Bezzecchi",
-              "team": "Aprilia Racing"
-            },
-            {
-              "position": 2,
-              "name": "Jorge Martin",
-              "team": "Aprilia Racing"
-            },
-            {
-              "position": 3,
-              "name": "Raul Fernandez",
-              "team": "SuperFile Trackhouse MotoGP Team"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2026-11-22-preview",
-      "kind": "preview",
-      "title": "Results from the weekend",
-      "dateRange": "20–23 November",
-      "intro": "Two Sunday races closed out this weekend's action: Max Verstappen took the Las Vegas Grand Prix and Marco Bezzecchi won the Portuguese Grand Prix in MotoGP. Both results are in, with championship standings shifting across Formula 1 and MotoGP.",
-      "publishedAt": "2026-11-22T15:27:09Z",
-      "expiresAt": "2026-11-27T15:27:09Z",
-      "items": [
-        {
-          "channelID": "f1",
-          "channelName": "Formula 1",
-          "headline": "Las Vegas Grand Prix",
-          "detail": "Las Vegas Strip Street Circuit, USA · Sun 22 Nov",
-          "body": "Max Verstappen led from pole and held off Lando Norris by 0.6 seconds for the Las Vegas Grand Prix win, with McLaren's Oscar Piastri climbing from 17th to third. Andrea Kimi Antonelli kept his championship lead after the result narrowed his advantage over Verstappen from 111 to 98 points. A lap-19 safety car and a soft-then-medium one-stop strategy shaped the dry, 12°C race.",
-          "date": "2026-11-22",
-          "round": 21,
-          "facts": [
-            "Max Verstappen won from pole, 0.6 seconds ahead of Lando Norris",
-            "Biggest climbers: Oscar Piastri from 17th to 3rd and Carlos Sainz from 20th to 8th",
-            "Fastest lap: Liam Lawson, 1:35.591",
-            "Did not finish: Fernando Alonso, Arvid Lindblad, Sergio Pérez and Alexander Albon (did not start)",
-            "Andrea Kimi Antonelli's championship lead over Max Verstappen went from 111 to 98 points over the weekend",
-            "Safety car on lap 19"
-          ],
-          "podium": [
-            {
-              "position": 1,
-              "name": "Max Verstappen",
-              "team": "Red Bull"
-            },
-            {
-              "position": 2,
-              "name": "Lando Norris",
-              "team": "McLaren"
-            },
-            {
-              "position": 3,
-              "name": "Oscar Piastri",
-              "team": "McLaren"
-            }
-          ]
-        },
-        {
-          "channelID": "motogp",
-          "channelName": "MotoGP",
-          "headline": "Grand Prix of Portugal",
-          "detail": "Autódromo Internacional do Algarve, Portugal · Sun 22 Nov",
-          "body": "Marco Bezzecchi beat Jorge Martin by 3.8 seconds to win the Grand Prix of Portugal, with Raul Fernandez third for SuperFile Trackhouse. Marc Marquez held his championship lead over Martin after the weekend narrowed his advantage from 60 to 43 points. Bezzecchi also took Saturday's sprint and set a new track record of 1:39.121 in the dry heat.",
           "date": "2026-11-22",
           "round": 21,
           "facts": [
