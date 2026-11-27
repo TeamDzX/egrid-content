@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-26T17:44:48Z",
+  "generatedAt": "2026-11-27T17:29:04Z",
   "channels": [
     {
       "channelID": "f1",
@@ -8,6 +8,17 @@
       "source": "the F1 teams and the FIA",
       "sourceURL": null,
       "videos": [
+        {
+          "id": "5c0GXSGZBx0",
+          "title": "James Vowles Answers Your Las Vegas Grand Prix Fan Questions!",
+          "publishedAt": "2026-11-27T16:00:30Z",
+          "duration": "6:54",
+          "seconds": 414,
+          "thumbnail": "https://i.ytimg.com/vi/5c0GXSGZBx0/maxresdefault.jpg",
+          "source": "Atlassian Williams F1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
         {
           "id": "wuEzZqLMqe0",
           "title": "We Put 2 F1 Drivers and PGA Tour Pros in a Golf Scramble!",
@@ -218,17 +229,6 @@
           "allowedRegions": []
         },
         {
-          "id": "2V--WsquBMI",
-          "title": "The Upgrade, Cisco x RACEWKND | McLaren Racing",
-          "publishedAt": "2026-11-16T14:40:51Z",
-          "duration": "5:21",
-          "seconds": 321,
-          "thumbnail": "https://i.ytimg.com/vi/2V--WsquBMI/maxresdefault.jpg",
-          "source": "McLaren",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "_gDREtg9cJ8",
           "title": "Liam and Arvid Tackle Word Quiz",
           "publishedAt": "2026-11-15T12:00:13Z",
@@ -247,17 +247,6 @@
           "seconds": 735,
           "thumbnail": "https://i.ytimg.com/vi/yrA3pFP_Ko4/maxresdefault.jpg",
           "source": "Atlassian Williams F1 Team",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "nxq-aSJgAGw",
-          "title": "The Making of World Champions, Nu Silver Arrows Radio Show Episode 12",
-          "publishedAt": "2026-11-13T15:12:55Z",
-          "duration": "43:02",
-          "seconds": 2582,
-          "thumbnail": "https://i.ytimg.com/vi/nxq-aSJgAGw/maxresdefault.jpg",
-          "source": "Mercedes-AMG F1",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -383,20 +372,6 @@
           "allowedRegions": []
         },
         {
-          "id": "k1LL5YwHkbI",
-          "title": "Liam Lawson Performs LIVE Music On Stage! | All Access",
-          "publishedAt": "2026-10-24T18:58:41Z",
-          "duration": "18:54",
-          "seconds": 1134,
-          "thumbnail": "https://i.ytimg.com/vi/k1LL5YwHkbI/maxresdefault.jpg",
-          "source": "Visa Cash App RB F1 Team",
-          "blockedRegions": [
-            "BY",
-            "RU"
-          ],
-          "allowedRegions": []
-        },
-        {
           "id": "Th9BdOCYZpE",
           "title": "Under The Lights In Marina Bay | Cadillac Formula 1® Team",
           "publishedAt": "2026-10-15T17:54:13Z",
@@ -415,6 +390,28 @@
           "seconds": 311,
           "thumbnail": "https://i.ytimg.com/vi/axdPg8WP8f4/maxresdefault.jpg",
           "source": "Cadillac Formula 1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "LFE4oF01Pz8",
+          "title": "Buckle Up, Baku | Cadillac Formula 1® Team",
+          "publishedAt": "2026-09-30T15:56:20Z",
+          "duration": "6:25",
+          "seconds": 385,
+          "thumbnail": "https://i.ytimg.com/vi/LFE4oF01Pz8/maxresdefault.jpg",
+          "source": "Cadillac Formula 1 Team",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "033qwVsOR8A",
+          "title": "Extraordinary by Design, presented by Velocity Black | Fernando Alonso and Pedro de la Rosa",
+          "publishedAt": "2026-09-18T11:56:04Z",
+          "duration": "19:15",
+          "seconds": 1155,
+          "thumbnail": "https://i.ytimg.com/vi/033qwVsOR8A/maxresdefault.jpg",
+          "source": "Aston Martin Aramco F1 Team",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -1453,17 +1450,6 @@
           "allowedRegions": []
         },
         {
-          "id": "0lVQOL11GmE",
-          "title": "While the team packs up , let’s unpack what happened in Aragon last weekend ⏪ #AragonGP",
-          "publishedAt": "2026-08-31T17:48:02Z",
-          "duration": "2:37",
-          "seconds": 157,
-          "thumbnail": "https://i.ytimg.com/vi/0lVQOL11GmE/maxresdefault.jpg",
-          "source": "Yamaha MotoGP",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
           "id": "J5KJKb6204g",
           "title": "Marc Márquez & Pecco Bagnaia in the CUP Stack Challenge",
           "publishedAt": "2026-08-23T11:30:39Z",
@@ -1471,6 +1457,17 @@
           "seconds": 309,
           "thumbnail": "https://i.ytimg.com/vi/J5KJKb6204g/maxresdefault.jpg",
           "source": "Ducati",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
+          "id": "EGPlBls1wJ4",
+          "title": "Red Bull KTM MotoGP™ 2026 Factory Floor Episode 12 #BRITISHGP | KTM",
+          "publishedAt": "2026-08-14T12:58:16Z",
+          "duration": "17:27",
+          "seconds": 1047,
+          "thumbnail": "https://i.ytimg.com/vi/EGPlBls1wJ4/maxresdefault.jpg",
+          "source": "KTM",
           "blockedRegions": [],
           "allowedRegions": []
         },
@@ -2040,6 +2037,17 @@
       "name": "Carlos Sainz",
       "videos": [
         {
+          "id": "p3RrSR75D3k",
+          "title": "Inside My 250th Formula 1 Race in Las Vegas | DONTBLINK EP4 SEASON 7 By Carlos Sainz",
+          "publishedAt": "2026-11-26T19:55:59Z",
+          "duration": "9:10",
+          "seconds": 550,
+          "thumbnail": "https://i.ytimg.com/vi/p3RrSR75D3k/maxresdefault.jpg",
+          "source": "Carlos Sainz",
+          "blockedRegions": [],
+          "allowedRegions": []
+        },
+        {
           "id": "6CBaAnAYO5I",
           "title": "A Race Week like no other | DONTBLINK EP3 SEASON 7 by Carlos Sainz",
           "publishedAt": "2026-09-23T19:49:53Z",
@@ -2090,17 +2098,6 @@
           "duration": "15:07",
           "seconds": 907,
           "thumbnail": "https://i.ytimg.com/vi/lLkclHdFEMI/maxresdefault.jpg",
-          "source": "Carlos Sainz",
-          "blockedRegions": [],
-          "allowedRegions": []
-        },
-        {
-          "id": "MWv29nvJi74",
-          "title": "A week in my life: MONACO GP EDITION | DONTBLINK EP2 SEASON 6",
-          "publishedAt": "2025-05-28T16:20:06Z",
-          "duration": "14:26",
-          "seconds": 866,
-          "thumbnail": "https://i.ytimg.com/vi/MWv29nvJi74/maxresdefault.jpg",
           "source": "Carlos Sainz",
           "blockedRegions": [],
           "allowedRegions": []
