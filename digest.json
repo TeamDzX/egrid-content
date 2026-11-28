@@ -1,7 +1,52 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-27T02:16:27Z",
+  "generatedAt": "2026-11-28T02:46:08Z",
   "editions": [
+    {
+      "id": "2026-11-28-preview",
+      "kind": "preview",
+      "title": "This weekend on E-Grid",
+      "dateRange": "27–30 November",
+      "intro": "Three finales on the weekend ahead: Formula 1 closes its season at Lusail with round 22, F2 runs beside it as round 13, and MotoGP ends its campaign at Valencia's Ricardo Tormo. Here is what to watch across each.",
+      "publishedAt": "2026-11-28T02:46:08Z",
+      "expiresAt": "2026-12-03T02:46:08Z",
+      "items": [
+        {
+          "channelID": "f1",
+          "channelName": "Formula 1",
+          "headline": "Qatar Grand Prix",
+          "detail": "Lusail International Circuit, Qatar · Sun 29 Nov",
+          "body": "Round 22 of the Formula 1 season runs at the Lusail International Circuit on Sunday 29 November, with the race starting at 16:00 UTC and qualifying on Saturday evening at 18:00. Andrea Kimi Antonelli arrives with a commanding 98-point championship lead over Max Verstappen, so the title is already secured as the field heads for its season finale.",
+          "date": "2026-11-29",
+          "round": 22,
+          "facts": [
+            "Qualifying Sat 28 Nov, 18:00 UTC",
+            "Andrea Kimi Antonelli leads the championship by 98 points from Max Verstappen"
+          ]
+        },
+        {
+          "channelID": "f2",
+          "channelName": "Formula 2",
+          "headline": "Lusail",
+          "detail": "Lusail International Circuit, Qatar · Sun 29 Nov",
+          "body": "Formula 2 brings round 13 to the Lusail International Circuit on Sunday 29 November, running alongside its parent championship at the same desert track.",
+          "date": "2026-11-29",
+          "round": 13
+        },
+        {
+          "channelID": "motogp",
+          "channelName": "MotoGP",
+          "headline": "Grand Prix of Valencia",
+          "detail": "Circuit Ricardo Tormo, Spain · Sun 29 Nov",
+          "body": "MotoGP closes its season with round 22 at the Circuit Ricardo Tormo in Valencia on Sunday 29 November. Marc Marquez arrives leading the championship by 43 points over Jorge Martin, giving the finale a clear title storyline as the pair settle things on track.",
+          "date": "2026-11-29",
+          "round": 22,
+          "facts": [
+            "Marc Marquez leads the championship by 43 points from Jorge Martin"
+          ]
+        }
+      ]
+    },
     {
       "id": "2026-11-27-preview",
       "kind": "preview",
@@ -133,85 +178,6 @@
           "round": 22,
           "facts": [
             "Marc Marquez leads the championship by 43 points from Jorge Martin"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2026-11-24-recap",
-      "kind": "recap",
-      "title": "Last week on E-Grid",
-      "dateRange": "17–23 November",
-      "intro": "Formula 1 and MotoGP both delivered their latest rounds this week, with the season reaching its business end. Max Verstappen took the Las Vegas Grand Prix while Marco Bezzecchi claimed the Portuguese round, each reshaping their championship standings.",
-      "publishedAt": "2026-11-24T00:59:54Z",
-      "expiresAt": "2026-11-28T00:59:54Z",
-      "items": [
-        {
-          "channelID": "f1",
-          "channelName": "Formula 1",
-          "headline": "Las Vegas Grand Prix",
-          "detail": "Las Vegas Strip Street Circuit, USA · Sun 22 Nov",
-          "body": "Max Verstappen took the Las Vegas Grand Prix from pole, holding off Lando Norris by 0.6 seconds with Oscar Piastri third on the McLaren podium. A safety car on lap 19 shuffled the field as Piastri climbed from 17th to third. The result kept Andrea Kimi Antonelli's championship lead intact, though it narrowed from 111 to 98 points over Verstappen.",
-          "date": "2026-11-22",
-          "round": 21,
-          "facts": [
-            "Max Verstappen won from pole, 0.6 seconds ahead of Lando Norris",
-            "Biggest climbers: Oscar Piastri from 17th to 3rd and Carlos Sainz from 20th to 8th",
-            "Fastest lap: Liam Lawson, 1:35.591",
-            "Did not finish: Fernando Alonso, Arvid Lindblad, Sergio Pérez and Alexander Albon (did not start)",
-            "Andrea Kimi Antonelli's championship lead over Max Verstappen went from 111 to 98 points over the weekend",
-            "Safety car on lap 19"
-          ],
-          "podium": [
-            {
-              "position": 1,
-              "name": "Max Verstappen",
-              "team": "Red Bull"
-            },
-            {
-              "position": 2,
-              "name": "Lando Norris",
-              "team": "McLaren"
-            },
-            {
-              "position": 3,
-              "name": "Oscar Piastri",
-              "team": "McLaren"
-            }
-          ]
-        },
-        {
-          "channelID": "motogp",
-          "channelName": "MotoGP",
-          "headline": "Grand Prix of Portugal",
-          "detail": "Autódromo Internacional do Algarve, Portugal · Sun 22 Nov",
-          "body": "Marco Bezzecchi won the Grand Prix of Portugal by 3.8 seconds from teammate Jorge Martin, with Raul Fernandez third for SuperFile Trackhouse. He also took Saturday's sprint and set a new lap record of 1:39.121 in dry conditions at the Algarve. Marc Marquez's championship lead over Martin narrowed from 60 to 43 points.",
-          "date": "2026-11-22",
-          "round": 21,
-          "facts": [
-            "Marco Bezzecchi won by 3.8 seconds from Jorge Martin",
-            "Did not finish: Diogo Moreira, Alex Marquez, Pedro Acosta and Johann Zarco",
-            "Marco Bezzecchi set a new lap record, 1:39.121",
-            "Dry, 19°C air and 25°C track",
-            "Saturday's sprint was won by Marco Bezzecchi",
-            "Marc Marquez's championship lead over Jorge Martin went from 60 to 43 points this weekend"
-          ],
-          "podium": [
-            {
-              "position": 1,
-              "name": "Marco Bezzecchi",
-              "team": "Aprilia Racing"
-            },
-            {
-              "position": 2,
-              "name": "Jorge Martin",
-              "team": "Aprilia Racing"
-            },
-            {
-              "position": 3,
-              "name": "Raul Fernandez",
-              "team": "SuperFile Trackhouse MotoGP Team"
-            }
           ]
         }
       ]
